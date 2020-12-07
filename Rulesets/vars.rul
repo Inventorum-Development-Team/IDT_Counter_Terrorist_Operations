@@ -1,0 +1,37 @@
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 1
+  day: 10
+  month: 3
+  year: 2014
+initialFunding: 2000
+customTrainingFactor: 20
+allowCountriesToCancelAlienPact: true
+buildInfiltrationBaseCloseToTheCountry: true
+chanceToStopRetaliation: 100
+timePersonnel: 72
+pediaReplaceCraftFuelWithRangeType: 1
+maxViewDistance: 30
+noLOSAccuracyPenaltyGlobal: 50
+oneHandedPenaltyGlobal: 50
+enableCloseQuartersCombat: 1
+closeQuartersAccuracyGlobal: 60
+statisticalBulletConservation: true
+tuRecoveryWakeUpNewTurn: 50
+ai:
+   useDelayGrenade: 0
+surrenderMode: 3
+bughuntMinTurn: 20
+constants:
+   extendedItemReloadCost: true
+   extendedRunningCost: true
+   extendedMeleeReactions: 1
+   extendedTerrainMelee: 4
+fixedUserOptions:
+   battleUFOExtenderAccuracy: true
+   battleInstantGrenade: true
+   noAlienPanicMessages: true
+   alienBleeding: true
+

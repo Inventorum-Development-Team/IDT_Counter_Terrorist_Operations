@@ -1,0 +1,30 @@
+
+alienRaces:
+
+  - delete: STR_SECTOID
+  - delete: STR_SNAKEMAN
+  - delete: STR_ETHEREAL
+  - delete: STR_MUTON
+  - delete: STR_FLOATER
+  - delete: STR_MIXED
+#Race Rank Reference
+#alienRank: 5 - Soldier
+#alienRank: 4 - Navigator
+#alienRank: 3 - Medic
+#alienRank: 2 - Engineer
+#alienRank: 1 - Leader
+#alienRank: 0 - Commander
+  - id: STR_TERRORIST
+    members:
+      - STR_TERRORIST_COMMANDER
+      - STR_TERRORIST_LEADER
+      - STR_TERRORIST_GRENADIER
+      - STR_TERRORIST_MEDIC
+      - STR_TERRORIST_SOLDIER
+      - STR_TERRORIST_SOLDIER
+      - STR_TERRORIST_SOLDIER
+      - STR_TERRORIST_SOLDIER
+extraStrings:
+  - type: en-US
+    strings:
+      STR_TERRORISTS: The Terrorists
