@@ -1234,6 +1234,8 @@ extraSprites:
       # 148: Resources/BallisticWeapons/NATO/BigSG510Carbine.png
       157: Resources/BallisticWeapons/New/BigMP5SD.png
       149: Resources/BallisticWeapons/New/BigMP5SDnomag.png
+      165: Resources/BallisticWeapons/New/BigMP5SD20.png
+      173: Resources/BallisticWeapons/New/BigMP5SD10.png
 #      150: Resources/BallisticWeapons/NATO/BigPSG1.png
       # 151: Resources/BallisticWeapons/NATO/BigFNMAG.png
       # 152: Resources/BallisticWeapons/NATO/BigCarlGustafM2.png
@@ -1359,6 +1361,8 @@ extraSprites:
       # 148: Resources/BallisticWeapons/NATO/FloorSG510Carbine.png
       149: Resources/BallisticWeapons/New/FloorMP5SD.png
       157: Resources/BallisticWeapons/New/FloorMP5SD.png
+      165: Resources/BallisticWeapons/New/FloorMP5SD.png
+      173: Resources/BallisticWeapons/New/FloorMP5SD.png
       # 150: Resources/BallisticWeapons/NATO/FloorPSG1.png
       # 151: Resources/BallisticWeapons/NATO/FloorFNMAG.png
       # 152: Resources/BallisticWeapons/NATO/FloorCarlGustafM2.png
@@ -1486,6 +1490,8 @@ extraSprites:
       # 484: Resources/BallisticWeapons/NATO/HandSG510Carbine.png
       492: Resources/BallisticWeapons/New/HandMP5SD.png
       500: Resources/BallisticWeapons/New/HandMP5SD.png
+      508: Resources/BallisticWeapons/New/HandMP5SD.png
+      516: Resources/BallisticWeapons/New/HandMP5SD.png
       # 500: Resources/BallisticWeapons/NATO/HandPSG1.png
       # 508: Resources/BallisticWeapons/NATO/HandFNMAG.png
       # 516: Resources/BallisticWeapons/NATO/HandCarlGustafM2.png
