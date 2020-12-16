@@ -14,8 +14,8 @@ alienDeployments:
   - delete: STR_MARS_THE_FINAL_ASSAULT
 
   - type: TERRORIST_ATTACK
-    width: 40
-    length: 40
+    width: 30
+    length: 30
     height: 10
     civilians: 6
     terrains:

@@ -57,6 +57,7 @@ soldiers:
       - STR_RANK_5
     value: 100
     femaleFrequency: 50
+    specialWeapon: STR_SHOUT
 
 armors:
   - delete: STR_NONE_UC
@@ -1124,15 +1125,15 @@ extraSprites:
       0: Resources/SoldiersAndArmors/BeretKevlar/INV/man_23m3.gif
 
   - type: BK.PCK
-    width: 512
-    height: 720
+    width: 256
+    height: 1480
     subX: 32
     subY: 40
     files:
       0: Resources/SoldiersAndArmors/BeretKevlar/XCOM23.png
   - type: BKBP.PCK
-    width: 512
-    height: 720
+    width: 256
+    height: 1480
     subX: 32
     subY: 40
     files:
@@ -1179,15 +1180,15 @@ extraSprites:
       0: Resources/SoldiersAndArmors/BlackOps/INV/man_22m3.gif
 
   - type: BO.PCK
-    width: 512
-    height: 720
+    width: 256
+    height: 1480
     subX: 32
     subY: 40
     files:
       0: Resources/SoldiersAndArmors/BlackOps/XCOM22.png
   - type: BOBP.PCK
-    width: 512
-    height: 720
+    width: 256
+    height: 1480
     subX: 32
     subY: 40
     files:
@@ -1234,15 +1235,15 @@ extraSprites:
       0: Resources/SoldiersAndArmors/DefaultADVNV/INV/man_5m3.gif
 
   - type: DADVNV.PCK
-    width: 512
-    height: 720
+    width: 288
+    height: 1320
     subX: 32
     subY: 40
     files:
       0: Resources/SoldiersAndArmors/DefaultADVNV/XCOM5.png
   - type: DADVNVBP.PCK
-    width: 512
-    height: 720
+    width: 288
+    height: 1320
     subX: 32
     subY: 40
     files:

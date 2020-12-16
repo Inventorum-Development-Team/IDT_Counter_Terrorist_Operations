@@ -20,11 +20,12 @@ crafts:
     speedMax: 230
     accel: 1
     radarRange: 0
+    keepCraftAfterFailedMission: true
     battlescapeTerrainData:
       name: GMC_Van
       mapDataSets:
         - BLANKS
-        - GMC_Van
+        - GMC_Van2
       mapBlocks:
         - name: GMC_Van
           width: 10

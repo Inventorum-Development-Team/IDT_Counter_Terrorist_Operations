@@ -1,0 +1,146 @@
+items:
+  - type: STR_SHOUT
+    specialIconSprite: 1
+    battleType: 9
+    weight: 0
+    tuUse: 30
+    accuracyUse: 100
+    psiAttackName: STR_SHOUT
+    costPanic:
+      time: 0
+    costMindControl:
+      time: 0
+    recover: false
+    damageType: 1
+    power: 1
+    fixedWeapon: true
+    hitAnimation: -1
+    maxRange: 15
+    targetMatrix: 6
+    blastRadius: 0
+    tags:
+      Shout: 1
+
+  - type: STR_9MM_PISTOL_X10
+    tags:
+     AmmoNo: 1
+  - type: STR_9MM_PISTOL_X20
+    tags:
+     AmmoNo: 2
+  - type: STR_9MM_PISTOL_X30
+    tags:
+     AmmoNo: 3
+  - type: STR_MP5
+    tags:
+     AmmoReSprite: 1
+  
+extended:
+  tags:
+    BattleUnit:
+      Rank: int
+      Shouted: int
+    RuleItem:
+      Shout: int
+      AmmoReSprite: int
+      AmmoNo: int
+    BattleGame:
+      Enemies: int
+      Allies: int
+      Turn: int
+  scripts:
+     newTurnItem:
+        - offset: 1
+          code: |
+           var int x;
+           set x 0;
+           BattleGame.setTag battle_game Tag.Enemies x;
+           BattleGame.setTag battle_game Tag.Allies x;
+           BattleGame.setTag battle_game Tag.Turn turn;
+           return;
+
+     newTurnUnit:
+        - offset: 2
+          code: |
+           var int faction;
+           var int allies;
+           var int enemies;
+           BattleUnit.getFaction unit faction;
+           if eq faction 0;
+             BattleGame.getTag battle_game allies Tag.Allies;
+             add allies 1;
+             BattleGame.setTag battle_game Tag.Allies allies;
+           end;
+           if eq faction 1;
+             BattleGame.getTag battle_game enemies Tag.Enemies;
+             add enemies 1;
+             BattleGame.setTag battle_game Tag.Enemies enemies;
+           end;
+           return;
+     hitUnit:
+         - offset: 3
+           code: |
+            var int x;
+            var int allies;
+            var int enemies;
+            var int morale;
+            var int health;
+            var int faction;
+            var int turn;
+            var int shouted;
+
+            BattleItem.getTag damaging_item x Tag.Shout;
+
+            if eq x 1;
+             BattleUnit.getFaction unit faction;
+
+             if eq faction 1;
+              BattleGame.getTag battle_game turn Tag.Turn;
+              BattleUnit.getTag unit shouted Tag.Shouted;
+              if eq shouted turn;
+               BattleGame.flashMessage battle_game "STR_ALREADY_SHOUTED";
+              end;
+
+              if neq shouted turn;
+               BattleUnit.setTag unit Tag.Shouted turn;
+               BattleGame.getTag battle_game allies Tag.Allies;
+               BattleGame.getTag battle_game enemies Tag.Enemies;
+               add allies 1;
+               sub allies enemies;
+               if lt allies 0;
+                set allies 0;
+               end;
+               mul allies 20;
+               debug_log allies;
+               BattleUnit.getMorale unit morale;
+               sub morale allies;
+               BattleUnit.setMorale unit morale;
+               end;
+
+              end;
+            if eq faction 2;
+             BattleUnit.getHealth unit health;
+             add health 1;
+             BattleUnit.setStun unit health;
+             end;
+            end;
+            return power part side;
+     selectItemSprite:
+       - offset: 1
+         code: |
+          var int x;
+          var ptr BattleItem ammoptr;
+          var int ammono;
+          BattleItem.getTag item x Tag.AmmoReSprite;
+          if eq x 1;
+           item.getAmmoItem ammoptr;
+           BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+           if eq ammono 3;
+            add sprite_index 8;
+            end;
+           end;
+          return sprite_index; 
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ALREADY_SHOUTED: "Unit already shouted at"
