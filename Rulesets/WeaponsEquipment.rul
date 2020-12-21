@@ -759,7 +759,7 @@ items:
     weight: 4
     bigSprite: 161
     floorSprite: 161
-    handSprite: 588
+    handSprite: 620
     bulletSprite: 1
     fireSound: 161
     reloadSound: [179, 180, 181, 182]
@@ -849,7 +849,7 @@ items:
     reloadSound: [190, 191, 192, 194]
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_PISTOL_X10, STR_9MM_PISTOL_X20 ]
+        compatibleAmmo: [ STR_9MM_PISTOL_X10, STR_9MM_PISTOL_X20, STR_9MM_PISTOL_X30 ]
     refNode: *STR_SMG
     accuracyCloseQuarters: 95
     accuracySnap: 55
@@ -864,7 +864,7 @@ items:
     battleType: 1
     twoHanded: false
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     armor: 30
     sprayWaypoints: 2
     attraction: 7
@@ -1107,8 +1107,8 @@ items:
     costBuy: 100
     costSell: 50
     weight: 1
-    bigSprite: 196
-    floorSprite: 196
+    bigSprite: 198
+    floorSprite: 198
     handSprite: 852
     battleType: 6
     invWidth: 1
@@ -1218,6 +1218,16 @@ extraSprites:
       134: Resources/BallisticWeapons/Ammo/BigRPGINCRocket.png
       135: Resources/BallisticWeapons/Ammo/BigRPGEWHRocket.png
 
+
+      192: Resources/BallisticWeapons/Medical&Food/BigCannedFood.png
+      193: Resources/BallisticWeapons/Medical&Food/BigCigarettes.png
+      194: Resources/BallisticWeapons/Medical&Food/BigFlask.png
+      195: Resources/BallisticWeapons/Medical&Food/BigMedicalBag.png
+      198: Resources/BallisticWeapons/Medical&Food/BigFieldDressing.png
+      197: Resources/BallisticWeapons/Medical&Food/BigMedicalPouch.png
+
+      200: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
+      201: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
       # 136: Resources/BallisticWeapons/USA/BigM1911Colt45.png
       # 137: Resources/BallisticWeapons/USA/BigM16M203.png
       # 138: Resources/BallisticWeapons/USA/BigXM117.png
@@ -1232,10 +1242,10 @@ extraSprites:
       # 146: Resources/BallisticWeapons/NATO/BigBrowningHP.png
       # 147: Resources/BallisticWeapons/NATO/BigFALShotgun.png
       # 148: Resources/BallisticWeapons/NATO/BigSG510Carbine.png
-      157: Resources/BallisticWeapons/New/BigMP5SD.png
+      173: Resources/BallisticWeapons/New/BigMP5SD.png
       149: Resources/BallisticWeapons/New/BigMP5SDnomag.png
       165: Resources/BallisticWeapons/New/BigMP5SD20.png
-      173: Resources/BallisticWeapons/New/BigMP5SD10.png
+      157: Resources/BallisticWeapons/New/BigMP5SD10.png
 #      150: Resources/BallisticWeapons/NATO/BigPSG1.png
       # 151: Resources/BallisticWeapons/NATO/BigFNMAG.png
       # 152: Resources/BallisticWeapons/NATO/BigCarlGustafM2.png
@@ -1243,7 +1253,14 @@ extraSprites:
       # 153: Resources/BallisticWeapons/USSR/BigStechkinAPS.png
       # 154: Resources/BallisticWeapons/USSR/BigAKMBayoneted.png
       # 155: Resources/BallisticWeapons/USSR/BigAKMSU.png
-      156: Resources/BallisticWeapons/USSR/BigSkorpion.png
+      156: Resources/BallisticWeapons/New/BigSkorpionnomag.png
+      164: Resources/BallisticWeapons/New/BigSkorpion10.png
+      172: Resources/BallisticWeapons/New/BigSkorpion20.png
+      180: Resources/BallisticWeapons/New/BigSkorpion.png
+      196: Resources/BallisticWeapons/New/BigSkorpionFoldednomag.png
+      204: Resources/BallisticWeapons/New/BigSkorpionFolded10.png
+      212: Resources/BallisticWeapons/New/BigSkorpionFolded20.png
+      220: Resources/BallisticWeapons/New/BigSkorpionFolded.png
       # 157: Resources/BallisticWeapons/USSR/BigDragunov.png
       # 158: Resources/BallisticWeapons/USSR/BigKS23Shotgun.png
       # 159: Resources/BallisticWeapons/USSR/BigRPG.png
@@ -1284,16 +1301,6 @@ extraSprites:
       # 189: Resources/BallisticWeapons/Allies/BigCombatKnife.png
       # 190: Resources/BallisticWeapons/CustomWeapons/BigColtScopeAccessory.png
       # 191: Resources/BallisticWeapons/CustomWeapons/BigM203Accessory.png
-
-      192: Resources/BallisticWeapons/Medical&Food/BigCannedFood.png
-      193: Resources/BallisticWeapons/Medical&Food/BigCigarettes.png
-      194: Resources/BallisticWeapons/Medical&Food/BigFlask.png
-      195: Resources/BallisticWeapons/Medical&Food/BigMedicalBag.png
-      196: Resources/BallisticWeapons/Medical&Food/BigFieldDressing.png
-      197: Resources/BallisticWeapons/Medical&Food/BigMedicalPouch.png
-
-      200: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
-      201: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
 
       # 210: Resources/BallisticWeapons/CustomWeapons/BigWeaponToolKit.png
       # 211: Resources/BallisticWeapons/CustomWeapons/BigM16A1Scoped.png
@@ -1370,7 +1377,14 @@ extraSprites:
       # 153: Resources/BallisticWeapons/USSR/FloorStechkinAPS.png
       # 154: Resources/BallisticWeapons/USSR/FloorAKMBayoneted.png
       # 155: Resources/BallisticWeapons/USSR/FloorAKMSU.png
-      156: Resources/BallisticWeapons/USSR/FloorSkorpion.png
+      156: Resources/BallisticWeapons/New/FloorSkorpion.png
+      164: Resources/BallisticWeapons/New/FloorSkorpion.png
+      172: Resources/BallisticWeapons/New/FloorSkorpion.png
+      180: Resources/BallisticWeapons/New/FloorSkorpion.png
+      188: Resources/BallisticWeapons/New/FloorSkorpion.png
+      196: Resources/BallisticWeapons/New/FloorSkorpion.png
+      204: Resources/BallisticWeapons/New/FloorSkorpion.png
+      212: Resources/BallisticWeapons/New/FloorSkorpion.png
       # 157: Resources/BallisticWeapons/USSR/FloorDragunov.png
       # 158: Resources/BallisticWeapons/USSR/FloorKS23Shotgun.png
       # 159: Resources/BallisticWeapons/USSR/FloorRPG.png
@@ -1416,7 +1430,7 @@ extraSprites:
       193: Resources/BallisticWeapons/Medical&Food/FloorCigarettes.png
       194: Resources/BallisticWeapons/Medical&Food/FloorFlask.png
       195: Resources/BallisticWeapons/Medical&Food/FloorMedicalBag.png
-      196: Resources/BallisticWeapons/Medical&Food/FloorFieldDressing.png
+      198: Resources/BallisticWeapons/Medical&Food/FloorFieldDressing.png
       197: Resources/BallisticWeapons/Medical&Food/FloorMedicalPouch.png
 
       200: Resources/BallisticWeapons/Explosives/FloorSmokeGrenade.png
@@ -1500,12 +1514,20 @@ extraSprites:
       # 532: Resources/BallisticWeapons/USSR/HandAKMBayoneted.png
       # 540: Resources/BallisticWeapons/USSR/HandAKMSU.png
       548: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      556: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      564: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      572: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      580: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      588: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      596: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      604: Resources/BallisticWeapons/USSR/HandSkorpion.png
+      612: Resources/BallisticWeapons/USSR/HandSkorpion.png
       # 556: Resources/BallisticWeapons/USSR/HandDragunov.png
       # 564: Resources/BallisticWeapons/USSR/HandKS23Shotgun.png
       # 572: Resources/BallisticWeapons/USSR/HandRPG.png
       # 580: Resources/BallisticWeapons/USSR/HandRPKS.png
 
-      588: Resources/BallisticWeapons/Civilian/HandMakarov.png
+      620: Resources/BallisticWeapons/Civilian/HandMakarov.png
       # 596: Resources/BallisticWeapons/Civilian/HandSnubnosePistol.png
       # 604: Resources/BallisticWeapons/Civilian/HandHuntingRifle.png
       # 612: Resources/BallisticWeapons/Civilian/HandModel1900.png

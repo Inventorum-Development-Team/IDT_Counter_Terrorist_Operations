@@ -33,6 +33,11 @@ items:
   - type: STR_MP5 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_SKORPION #ignoreDuplicate
+    tags:
+     FoldStock: 1
+     AmmoReSprite: 1
+       
   
 extended:
   tags:
@@ -43,6 +48,7 @@ extended:
       Shout: int
       AmmoReSprite: int
       AmmoNo: int
+      FoldStock: int
     BattleGame:
       Enemies: int
       Allies: int
@@ -128,20 +134,56 @@ extended:
        - offset: 1
          code: |
           var int x;
+          var int y;
           var ptr BattleItem ammoptr;
+          var ptr RuleInventory invptr;
+          var int left;
+          var int right;
           var int ammono;
+          var int z;
           BattleItem.getTag item x Tag.AmmoReSprite;
           if eq x 1;
            item.getAmmoItem ammoptr;
            BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
-           if eq ammono 3;
-            add sprite_index 8;
+           BattleItem.getTag item y Tag.FoldStock;
+           if eq y 1;
+            item.getSlot invptr;
+            RuleInventory.isLeftHand invptr left;
+            RuleInventory.isRightHand invptr right;
+            debug_log left;
+            debug_log right;
+            if and eq left 0 eq right 0;
+             set z 1;
+             end;
             end;
-           if eq ammono 2;
-            add sprite_index 16;
+           if eq z 1;
+            add sprite_index 40;
+            if eq ammono 1;
+             add sprite_index 8;
+             end;
+            if eq ammono 2;
+             add sprite_index 16;
+             end;
+            if eq ammono 3;
+             add sprite_index 24;
+             end;
+            if eq ammono 4;
+             add sprite_index 32;
             end;
-           if eq ammono 1;
-            add sprite_index 24;
+           end;
+           if neq z 1;
+            if eq ammono 1;
+             add sprite_index 8;
+             end;
+            if eq ammono 2;
+             add sprite_index 16;
+             end;
+            if eq ammono 3;
+             add sprite_index 24;
+             end;
+            if eq ammono 4;
+             add sprite_index 32;
+             end;
             end;
            end;
           return sprite_index; 
