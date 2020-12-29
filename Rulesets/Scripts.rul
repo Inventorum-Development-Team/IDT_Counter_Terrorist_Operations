@@ -20,6 +20,23 @@ items:
     blastRadius: 0
     tags:
       Shout: 1
+  - type: STR_HANDCUFFS
+    battleType: 6
+    size: 0.1
+    medikitTargetImmune: true
+    invWidth: 1
+    invHeight: 1
+    tuUse: 60
+    weight: 2
+    costBuy: 300
+    costSell: 200
+    medikitActionName: STR_USE_CUFFS
+    medikitTargetMatrix: 32
+    stimulant: 1
+    tags:
+      Cuffs: 1
+
+    
 
   - type: STR_9MM_PISTOL_X10 #ignoreDuplicate
     tags:
@@ -30,31 +47,90 @@ items:
   - type: STR_9MM_PISTOL_X30 #ignoreDuplicate
     tags:
      AmmoNo: 3
+  - type: STR_7_62MM_SOVIET_RIFLE_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
+  - type: STR_7_62MM_SOVIET_RIFLE_X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 2
+  - type: STR_7_62MM_SOVIET_RIFLE_X40 #ignoreDuplicate
+    tags:
+     AmmoNo: 3
+  - type: STR_7_62MM_SOVIET_RIFLE_X75 #ignoreDuplicate
+    tags:
+     AmmoNo: 4
+  - type: STR_MAKAROV #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_MP5 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AKM #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_SKORPION #ignoreDuplicate
     tags:
      FoldStock: 1
      AmmoReSprite: 1
+  - type: STR_MPX #ignoreDuplicate
+    tags:
+     FoldStock: 1
+     AmmoReSprite: 1
+
+  - type: STR_RIOT_SHIELD #ignoreDuplicate
+    tags:
+     Shield: 1
        
+  - type: STR_FLASHBANG_GRENADE #ignoreDuplicate
+    tags:
+     FlashBang: 1
   
 extended:
   tags:
     BattleUnit:
       Rank: int
       Shouted: int
+      FlashBanged: int
+      OGfiring: int
+      OGreactions: int
     RuleItem:
       Shout: int
+      Cuffs: int
       AmmoReSprite: int
       AmmoNo: int
       FoldStock: int
+      Shield: int
+      FlashBang: int
+#      JammChance: int
     BattleGame:
       Enemies: int
       Allies: int
       Turn: int
   scripts:
-     newTurnItem:
+
+     createUnit:
+        - offset: 1 #Halves enemies Tu:s on the first turn
+          code: |
+           var int tu;
+           var int remainder;
+           var int faction;
+           BattleUnit.getFaction unit faction;
+           if eq faction 1;
+            unit.getTimeUnits tu;
+            set remainder tu;
+            mod remainder 2;
+            sub tu remainder;
+            div tu 20;
+            BattleUnit.setTimeUnits unit tu;
+            end;
+           return;
+        - offset: 2 #Makes Flashbang work early
+          code: |
+           BattleUnit.setTag unit Tag.FlashBanged -5;
+           return;
+
+
+     newTurnItem: #Resets number of Allies and Enemies alive
         - offset: 1
           code: |
            var int x;
@@ -64,7 +140,7 @@ extended:
            BattleGame.setTag battle_game Tag.Turn turn;
            return;
 
-     newTurnUnit:
+     newTurnUnit: #Counts number of Allies And Enemies alive
         - offset: 2
           code: |
            var int faction;
@@ -82,8 +158,51 @@ extended:
              BattleGame.setTag battle_game Tag.Enemies enemies;
            end;
            return;
-     hitUnit:
-         - offset: 3
+        - offset: 3
+          code: | #flashbang effect removal
+           var int flashbanged;
+           var int accuracy;
+           var int reactions;
+           var int OGaccuracy;
+           var int OGreactions;
+           BattleUnit.getTag unit flashbanged Tag.FlashBanged;
+           BattleUnit.getTag unit OGaccuracy Tag.OGfiring;
+           BattleUnit.getTag unit OGreactions Tag.OGreactions;
+           debug_log flashbanged;
+           add flashbanged 4;
+           if and gt turn flashbanged gt OGaccuracy 0;
+            BattleUnit.Stats.setFiring unit OGaccuracy;
+            BattleUnit.Stats.setReactions unit OGreactions;
+            end;
+           return;
+     hitUnit: 
+         - offset: 2 #Shield Script
+           code: |
+            var ptr BattleItem righthand;
+            var ptr BattleItem lefthand;
+            var int shield;
+            var int random;
+            var int kneeling;
+            unit.getLeftHandWeapon lefthand;
+            unit.getRightHandWeapon righthand;
+            BattleItem.getTag lefthand shield Tag.Shield;
+            if neq shield 1;
+             BattleItem.getTag righthand shield Tag.Shield;
+             end;
+            if and eq side 0 eq shield 1;
+             BattleGame.randomRange battle_game random 0 100;
+             BattleUnit.isKneeled unit kneeling;
+             if lt random 85;
+              set power 0;
+              end;
+             if and lt random 95 eq kneeling 1;
+              set power 0;
+              end;
+            end;
+            
+            
+            return power part side;
+         - offset: 3 #Shouting Script
            code: |
             var int x;
             var int allies;
@@ -116,7 +235,6 @@ extended:
                 set allies 0;
                end;
                mul allies 20;
-               debug_log allies;
                BattleUnit.getMorale unit morale;
                sub morale allies;
                BattleUnit.setMorale unit morale;
@@ -130,7 +248,72 @@ extended:
              end;
             end;
             return power part side;
-     selectItemSprite:
+
+         - offset: 4 #FlashBang Script
+           code: |
+             var int flashbang;
+             var int flashbanged;
+             var int turn;
+             var int accuracy;
+             var int reactions;
+             damaging_item.getTag flashbang Tag.FlashBang;
+             if eq flashbang 1;
+              battle_game.getTurn turn;
+              unit.getTag flashbanged Tag.FlashBanged;
+              add flashbanged 4;
+              debug_log flashbanged;
+              if gt turn flashbanged;
+               BattleUnit.Stats.getFiring unit accuracy;
+               BattleUnit.Stats.getReactions unit reactions;
+               BattleUnit.setTag unit Tag.OGfiring accuracy;
+               BattleUnit.setTag unit Tag.OGreactions reactions;
+               sub reactions 50;
+               sub accuracy 50;
+               BattleUnit.Stats.setFiring unit accuracy;
+               BattleUnit.Stats.setReactions unit reactions;
+              end;
+             return power part side;
+     healUnit: #Handcuff script
+       - offset: 1
+         code: |
+          var int x;
+          var int morale;
+          var int health;
+          BattleItem.getTag item x Tag.Cuffs;
+          if eq x 1;
+           BattleUnit.getMorale target morale;
+           if lt morale 30;
+             BattleUnit.getHealth target health;
+             add health 1;
+             BattleUnit.setStun target health;
+             end;
+           end;
+          return;
+
+    #  reactionWeaponAction: #Jamming Script (doesn't work)
+    #     - offset: 1
+    #       code: |
+    #        var int chance;
+    #        var int random;
+    #        var int total;
+    #        BattleItem.getTag weapon chance Tag.JammChance;
+    #        if gt chance 0;
+    #         set total 1000;
+    #         sub total chance;
+    #         BattleGame.randomRange battle_game random 0 1000;
+    #         debug_log random;
+    #         if gt random total;
+    #          BattleItem.setAmmoQuantity weapon 0;
+    #          BattleGame.flashMessage battle_game "STR_JAMMED";
+    #          end;
+    #         end;
+    #         return reaction_chance;
+
+            
+           
+           
+            
+     selectItemSprite: #Switches between weapon sprites depending on ammo
        - offset: 1
          code: |
           var int x;
@@ -150,8 +333,6 @@ extended:
             item.getSlot invptr;
             RuleInventory.isLeftHand invptr left;
             RuleInventory.isRightHand invptr right;
-            debug_log left;
-            debug_log right;
             if and eq left 0 eq right 0;
              set z 1;
              end;
@@ -192,3 +373,4 @@ extraStrings:
   - type: en-US
     strings:
       STR_ALREADY_SHOUTED: "Unit already shouted at"
+      STR_JAMMED: "Weapon Jammed"

@@ -793,27 +793,6 @@ countries:
     areas:
       - [15, 19, -55, -50] #Western Poland
       - [19, 24, -54.52, -49.25] #Eastern Poland
-  - type: STR_SOUTH_AFRICA
-    fundingBase: 20
-    fundingCap: 3000
-    labelLon: 17.5
-    labelLat: 30
-    areas:
-      - [15, 25, 26, 35]
-      - [25, 33, 22, 35]
-  - type: STR_EGYPT
-    fundingBase: 20
-    fundingCap: 2000
-    labelLon: 29
-    labelLat: -27
-    areas:
-      - [25, 35, -32, -22]
-  - type: STR_CANADA
-    fundingBase: 50
-    fundingCap: 4000
-    labelLon: 260
-    labelLat: -54
-    areas:
       - [224, 230, -60.36, -58.5] #North of US Box Near Juneau
       - [219, 230, -80, -60.36] #Juneau Landsplit2
       - [230, 271, -80, -49] #moved up from -40 to -49 and cut off
@@ -866,13 +845,6 @@ countries:
       - [350.5, 352.917, -40, -39] #Central Portugal
       - [350.2, 352.411, -39, -37.6] #Southern Portugal with Lisbon
       - [350.8, 352.32, -37.6, -36.8] #Southernmost Portugal
-  - type: STR_NIGERIA
-    fundingBase: 30
-    fundingCap: 2200
-    labelLon: 7.5
-    labelLat: -10
-    areas:
-      - [3, 14, -14, -4]
   - type: STR_MEXICO
     fundingBase: 25
     fundingCap: 2000

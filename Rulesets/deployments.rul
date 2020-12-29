@@ -51,7 +51,43 @@ alienDeployments:
              - STR_AKM
              - STR_7_62MM_SOVIET_RIFLE_X30
              - STR_7_62MM_SOVIET_RIFLE_X30 
-
+  - type: PLANE_HIJACK
+    width: 70
+    length: 20
+    height: 10
+    civilians: 6
+    terrains:
+      - AIRPORT
+    despawnPenalty: 300
+    data:
+       - alienRank: 5
+         lowQty: 4
+         highQty: 8
+         dQty: 3
+         percentageOutsideUfo: 100
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_PISTOL_X10
+             - STR_9MM_PISTOL_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_PISTOL_X20
+             - STR_9MM_PISTOL_X20
+       - alienRank: 3
+         lowQty: 1
+         highQty: 2
+         dQty: 1
+         percentageOutsideUfo: 100
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_PISTOL_X20
+             - STR_9MM_PISTOL_X20
+           -
+             - STR_AKM
+             - STR_7_62MM_SOVIET_RIFLE_X30
+             - STR_7_62MM_SOVIET_RIFLE_X30 
 extraStrings:
   - type: en-US
     strings:
