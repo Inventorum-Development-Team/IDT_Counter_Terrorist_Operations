@@ -47,6 +47,9 @@ items:
   - type: STR_9MM_PISTOL_X30 #ignoreDuplicate
     tags:
      AmmoNo: 3
+  - type: STR_9MM_PISTOL_X40 #ignoreDuplicate
+    tags:
+     AmmoNo: 4
   - type: STR_7_62MM_SOVIET_RIFLE_X10 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -107,7 +110,7 @@ extended:
       Allies: int
       Turn: int
   scripts:
-
+  #startY
      createUnit:
         - offset: 1 #Halves enemies Tu:s on the first turn
           code: |
@@ -368,7 +371,7 @@ extended:
             end;
            end;
           return sprite_index; 
-
+#endY
 extraStrings:
   - type: en-US
     strings:

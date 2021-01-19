@@ -1,6 +1,6 @@
 name: "Counter-Terrorist Operations"
 version: "0.1"
-requiredExtendedVersion: "6.8"
+requiredExtendedVersion: "6.9"
 author: "Filip H"
 description: ""
 id: CTO

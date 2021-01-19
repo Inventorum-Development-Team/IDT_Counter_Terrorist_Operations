@@ -714,19 +714,19 @@ items:
     weight: 4
     clipSize: 20
     listOrder: 2000
-  - type: STR_NATO_7_62_X30
-    categories: [STR_CLIPS]
-    refNode: *STR_7_62MM_NATO_RIFLE_AMMO
-    bigSprite:
-    handSprite:
-    floorSprite:
-    size: 0.1
-    armor: 30
-    costBuy: 600
-    costSell: 300
-    weight: 6
-    clipSize: 30
-    listOrder: 2000
+  # - type: STR_NATO_7_62_X30
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_7_62MM_NATO_RIFLE_AMMO
+  #   bigSprite:
+  #   handSprite:
+  #   floorSprite:
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 600
+  #   costSell: 300
+  #   weight: 6
+  #   clipSize: 30
+  #   listOrder: 2000
   - type: STR_NATO_7_62_X50
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -1210,7 +1210,7 @@ items:
     invHeight: 2
     ammo:
        0:
-        compatibleAmmo: [STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20]
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X20,STR_9MM_PARABELLUM_X30]
         tuLoad: 20
         tuUnload: 10
     listOrder: 2100
@@ -3002,7 +3002,7 @@ items:
     invHeight: 3
     ammo:
        0:
-        compatibleAmmo: [STR_NATO_7_62_X10,STR_NATO_7_62_X30]
+        compatibleAmmo: [STR_NATO_7_62_X10]
         tuLoad: 30
         tuUnload: 15
     listOrder: 2100
@@ -3068,7 +3068,41 @@ items:
         tuLoad: 40
         tuUnload: 20
     listOrder: 2100
-    
+
+  - type: STR_SERBU
+    categories: [STR_FIREARMS,STR_SHOTGUNS]
+#    requiresBuy:
+    size: 1
+    weight: 12
+    battleType: 1
+    bigSprite: 
+    floorSprite:
+    handSprite:
+    fireSound: 4
+    costBuy: 30000
+    costSell: 15000
+    accuracyAimed: 75
+    accuracySnap: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 12
+    snapRange: 5
+    kneelBonus: 10
+    tuAimed: 60
+    tuSnap: 30
+    invWidth: 1
+    invHeight: 2
+    shotgunBehavior: 1
+    shotgunChoke: 70 
+    ammo:
+       0:
+        compatibleAmmo: [STR_12G_BUCKSHOT_X5]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 2100   
   - type: STR_REMINGTON
     categories: [STR_FIREARMS,STR_SHOTGUNS]
 #    requiresBuy:
@@ -3476,230 +3510,230 @@ items:
 
 
   
-###Grenades###
-  - type: STR_GRENADE
-    categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costBuy: 300
-    costSell: 240
-    weight: 3
-    bigSprite: 19
-    floorSprite: 19
-    power: 50
-    tuPrime: 20
-    damageAlter:
-      RandomType: 6
-      IgnoreSelfDestruct: true
-      ToTile: 0.6
-      ToWound: 1.2
-      RandomWound: true
-    tuUnprime: 50
-    damageType: 3
-    battleType: 4
-    blastRadius: 5
+# ###Grenades###
+#   - type: STR_GRENADE
+#     categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
+#     size: 0.1
+#     costBuy: 300
+#     costSell: 240
+#     weight: 3
+#     bigSprite: 19
+#     floorSprite: 19
+#     power: 50
+#     tuPrime: 20
+#     damageAlter:
+#       RandomType: 6
+#       IgnoreSelfDestruct: true
+#       ToTile: 0.6
+#       ToWound: 1.2
+#       RandomWound: true
+#     tuUnprime: 50
+#     damageType: 3
+#     battleType: 4
+#     blastRadius: 5
 
-  - type: STR_SMOKE_GRENADE
-    categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costBuy: 150
-    costSell: 120
-    weight: 3
-    bigSprite: 200
-    floorSprite: 200
-    handSprite: 904
-    power: 60
-    damageType: 9
-    costPrime:
-      time: 25
-    costUnprime:
-      time: 20
-    unprimeActionName: STR_UNPRIME_GRENADE
-    battleType: 4
-    blastRadius: 5
-    listOrder: 2135
+#   - type: STR_SMOKE_GRENADE
+#     categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
+#     size: 0.1
+#     costBuy: 150
+#     costSell: 120
+#     weight: 3
+#     bigSprite: 200
+#     floorSprite: 200
+#     handSprite: 904
+#     power: 60
+#     damageType: 9
+#     costPrime:
+#       time: 25
+#     costUnprime:
+#       time: 20
+#     unprimeActionName: STR_UNPRIME_GRENADE
+#     battleType: 4
+#     blastRadius: 5
+#     listOrder: 2135
 
-  - type: STR_FLASHBANG_GRENADE
-    categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costBuy: 1000
-    costSell: 850
-    weight: 4
-    bigSprite: 201
-    floorSprite: 201
-    handSprite: 912
-    hitSound: 210
-    hitAnimation: 0
-    power: 30
-    fuseType: -2 # Explodes on contact
-    damageType: 6
-    damageAlter:
-      RandomType: 6
-      IgnoreSelfDestruct: true
-      ToTime: 2.5
-      ToStun: 0.5
-      ToEnergy: 2.0
-    costPrime:
-      time: 25
-    battleType: 4
-    blastRadius: 3
-    armor: 20
-    attraction: 6
-###Healing Items###
-  - type: STR_CANNED_FOOD
-    categories: [ STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costBuy: 500
-    costSell: 1200
-    weight: 4
-    bigSprite: 192
-    floorSprite: 192
-    handSprite: 820
-    hitSound: 207
-    battleType: 6
-    medikitTargetSelf: true
-    isConsumable: true
-    medikitType: 3
-    painKiller: 1
-    costUse:
-      time: 25
-      energy: -20
-      morale: -25
-      health: -5
-    invWidth: 1
-    invHeight: 1
-    experienceTrainingMode: 21
-    recoveryPoints: 10
-    listOrder: 2128
+#   - type: STR_FLASHBANG_GRENADE
+#     categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
+#     size: 0.1
+#     costBuy: 1000
+#     costSell: 850
+#     weight: 4
+#     bigSprite: 201
+#     floorSprite: 201
+#     handSprite: 912
+#     hitSound: 210
+#     hitAnimation: 0
+#     power: 30
+#     fuseType: -2 # Explodes on contact
+#     damageType: 6
+#     damageAlter:
+#       RandomType: 6
+#       IgnoreSelfDestruct: true
+#       ToTime: 2.5
+#       ToStun: 0.5
+#       ToEnergy: 2.0
+#     costPrime:
+#       time: 25
+#     battleType: 4
+#     blastRadius: 3
+#     armor: 20
+#     attraction: 6
+# ###Healing Items###
+#   - type: STR_CANNED_FOOD
+#     categories: [ STR_LIGHT_EQUIPMENT]
+#     size: 0.1
+#     costBuy: 500
+#     costSell: 1200
+#     weight: 4
+#     bigSprite: 192
+#     floorSprite: 192
+#     handSprite: 820
+#     hitSound: 207
+#     battleType: 6
+#     medikitTargetSelf: true
+#     isConsumable: true
+#     medikitType: 3
+#     painKiller: 1
+#     costUse:
+#       time: 25
+#       energy: -20
+#       morale: -25
+#       health: -5
+#     invWidth: 1
+#     invHeight: 1
+#     experienceTrainingMode: 21
+#     recoveryPoints: 10
+#     listOrder: 2128
 
-  - type: STR_CIGARETTES
-    categories: [ STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costSell: 2000
-    weight: 4
-    bigSprite: 193
-    floorSprite: 193
-    handSprite: 828
-    hitSound: 208
-    battleType: 6
-    medikitTargetSelf: true
-    isConsumable: true
-    medikitType: 3
-    painKiller: 3
-    costUse:
-      time: 10
-      energy: 5
-      morale: -50
-      health: 5
-    invWidth: 1
-    invHeight: 1
-    experienceTrainingMode: 21
-    recoveryPoints: 10
-    listOrder: 2129
+#   - type: STR_CIGARETTES
+#     categories: [ STR_LIGHT_EQUIPMENT]
+#     size: 0.1
+#     costSell: 2000
+#     weight: 4
+#     bigSprite: 193
+#     floorSprite: 193
+#     handSprite: 828
+#     hitSound: 208
+#     battleType: 6
+#     medikitTargetSelf: true
+#     isConsumable: true
+#     medikitType: 3
+#     painKiller: 3
+#     costUse:
+#       time: 10
+#       energy: 5
+#       morale: -50
+#       health: 5
+#     invWidth: 1
+#     invHeight: 1
+#     experienceTrainingMode: 21
+#     recoveryPoints: 10
+#     listOrder: 2129
 
-  - type: STR_FLASK
-    categories: [ STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costSell: 2000
-    weight: 4
-    bigSprite: 194
-    floorSprite: 194
-    handSprite: 836
-    hitSound: 209
-    battleType: 6
-    medikitTargetSelf: true
-    isConsumable: true
-    medikitType: 3
-    painKiller: 2
-    costUse:
-      time: 40
-      morale: -80
-      stun: 10
-    invWidth: 1
-    invHeight: 1
-    experienceTrainingMode: 21
-    recoveryPoints: 10
-    listOrder: 2130
+#   - type: STR_FLASK
+#     categories: [ STR_LIGHT_EQUIPMENT]
+#     size: 0.1
+#     costSell: 2000
+#     weight: 4
+#     bigSprite: 194
+#     floorSprite: 194
+#     handSprite: 836
+#     hitSound: 209
+#     battleType: 6
+#     medikitTargetSelf: true
+#     isConsumable: true
+#     medikitType: 3
+#     painKiller: 2
+#     costUse:
+#       time: 40
+#       morale: -80
+#       stun: 10
+#     invWidth: 1
+#     invHeight: 1
+#     experienceTrainingMode: 21
+#     recoveryPoints: 10
+#     listOrder: 2130
 ########################################
 
-  - type: STR_MEDICAL_BAG
-    medikitBackground: MEDIKIT_BACKGROUND
-    categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT]
-    size: 0.5
-    costBuy: 2000
-    costSell: 4500
-    weight: 10
-    bigSprite: 191
-    floorSprite: 191
-    handSprite: 844
-    battleType: 6
-    invWidth: 2
-    invHeight: 2
-    painKiller: 6
-    heal: 6
-    stimulant: 6
-    woundRecovery: 4
-    healthRecovery: 5
-    stunRecovery: 6
-    energyRecovery: 15
-    costUse:
-      time: 30
-      energy: -3
-    flatRate: false
-    attraction: 5
-    experienceTrainingMode: 19
-    medikitActionName: STR_DEPLOY_MEDICAL_BAG
-    listOrder: 2132
+  # - type: STR_MEDICAL_BAG
+  #   medikitBackground: MEDIKIT_BACKGROUND
+  #   categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT]
+  #   size: 0.5
+  #   costBuy: 2000
+  #   costSell: 4500
+  #   weight: 10
+  #   bigSprite: 191
+  #   floorSprite: 191
+  #   handSprite: 844
+  #   battleType: 6
+  #   invWidth: 2
+  #   invHeight: 2
+  #   painKiller: 6
+  #   heal: 6
+  #   stimulant: 6
+  #   woundRecovery: 4
+  #   healthRecovery: 5
+  #   stunRecovery: 6
+  #   energyRecovery: 15
+  #   costUse:
+  #     time: 30
+  #     energy: -3
+  #   flatRate: false
+  #   attraction: 5
+  #   experienceTrainingMode: 19
+  #   medikitActionName: STR_DEPLOY_MEDICAL_BAG
+  #   listOrder: 2132
 
-  - type: STR_FIELD_DRESSING
-    categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costBuy: 100
-    costSell: 50
-    weight: 1
-    bigSprite: 199
-    floorSprite: 199
-    handSprite: 852
-    battleType: 6
-    invWidth: 1
-    invHeight: 1
-    heal: 1
-    woundRecovery: 6
-    healthRecovery: 1
-    isConsumable: true
-    medikitTargetSelf: true
-    medikitType: 1  #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
-    costUse:
-      time: 7
-    flatRate: true
-    attraction: 6
-    experienceTrainingMode: 19
-    medikitActionName: STR_USE_FIELD_DRESSING
-    listOrder: 2133
+  # - type: STR_FIELD_DRESSING
+  #   categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT]
+  #   size: 0.1
+  #   costBuy: 100
+  #   costSell: 50
+  #   weight: 1
+  #   bigSprite: 199
+  #   floorSprite: 199
+  #   handSprite: 852
+  #   battleType: 6
+  #   invWidth: 1
+  #   invHeight: 1
+  #   heal: 1
+  #   woundRecovery: 6
+  #   healthRecovery: 1
+  #   isConsumable: true
+  #   medikitTargetSelf: true
+  #   medikitType: 1  #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+  #   costUse:
+  #     time: 7
+  #   flatRate: true
+  #   attraction: 6
+  #   experienceTrainingMode: 19
+  #   medikitActionName: STR_USE_FIELD_DRESSING
+  #   listOrder: 2133
 
-  - type: STR_MEDICAL_POUCH
-    categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
-    size: 0.1
-    costBuy: 200
-    costSell: 250
-    weight: 2
-    bigSprite: 197
-    floorSprite: 197
-    handSprite: 880
-    battleType: 6
-    invWidth: 1
-    invHeight: 1
-    heal: 3
-    healthRecovery: 3
-    isConsumable: true
-    medikitTargetSelf: true
-    medikitType: 1  #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
-    costUse:
-      time: 10
-    flatRate: true
-    attraction: 6
-    experienceTrainingMode: 19
-    medikitActionName: STR_USE_MEDICAL_POUCH
-    listOrder: 2134
+  # - type: STR_MEDICAL_POUCH
+  #   categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
+  #   size: 0.1
+  #   costBuy: 200
+  #   costSell: 250
+  #   weight: 2
+  #   bigSprite: 197
+  #   floorSprite: 197
+  #   handSprite: 880
+  #   battleType: 6
+  #   invWidth: 1
+  #   invHeight: 1
+  #   heal: 3
+  #   healthRecovery: 3
+  #   isConsumable: true
+  #   medikitTargetSelf: true
+  #   medikitType: 1  #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+  #   costUse:
+  #     time: 10
+  #   flatRate: true
+  #   attraction: 6
+  #   experienceTrainingMode: 19
+  #   medikitActionName: STR_USE_MEDICAL_POUCH
+  #   listOrder: 2134
 
   - type: STR_RIOT_SHIELD
     size: 0.5
@@ -3744,433 +3778,683 @@ extraSprites:
 #########################################
   - type: BIGOBS.PCK
     files:
-      97: Resources/BallisticWeapons/Ammo/BigKS23Sharpnel25Ammo_x4.png
-      98: Resources/BallisticWeapons/Ammo/BigKS23BarrikadeAmmo_x4.png
-      99: Resources/BallisticWeapons/Ammo/BigKS23SatanaAmmo_x4.png
-      100: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x10.png
-      101: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x20.png
-      102: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x30.png
-      103: Resources/BallisticWeapons/Ammo/Big45PistolAmmo_x7.png
-      104: Resources/BallisticWeapons/Ammo/Big45PistolAmmo_x30.png
-      105: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x20.png
-      106: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x30.png
-      107: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x5.png
-      108: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x20.png
-      109: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x30.png
-      110: Resources/BallisticWeapons/Ammo/Big762NATOLMGAmmo_x50.png
-      111: Resources/BallisticWeapons/Ammo/Big762NATOLMGAmmo_x100.png
-      112: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x10.png
-      113: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x30.png
-      114: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x40.png
-      115: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x75.png
-      116: Resources/BallisticWeapons/Ammo/Big762SovietSniperAmmo_x10.png
-      117: Resources/BallisticWeapons/Ammo/Big12GaugeBuckshotAmmo_x2.png
-      118: Resources/BallisticWeapons/Ammo/Big12GaugeSlugAmmo_x2.png
-      119: Resources/BallisticWeapons/Ammo/Big12GaugeBuckshotAmmo_x8.png
-      120: Resources/BallisticWeapons/Ammo/Big12GaugeNonLethalAmmo_x8.png
-      121: Resources/BallisticWeapons/Ammo/Big12GaugeIncendiaryAmmo_x8.png
-      122: Resources/BallisticWeapons/Ammo/Big12GaugeEleriumShardsAmmo_x8.png
-      123: Resources/BallisticWeapons/Ammo/Big40mmFragAmmo.png
-      124: Resources/BallisticWeapons/Ammo/Big40mmIncendiaryAmmo.png
-      125: Resources/BallisticWeapons/Ammo/Big40mmSmokeAmmo.png
-      126: Resources/BallisticWeapons/Ammo/Big40mmNonLethalAmmo.png
-      127: Resources/BallisticWeapons/Ammo/Big38RevolverAmmo_x6.png
-      128: Resources/BallisticWeapons/Ammo/Big22LongRifleAmmo_x14.png
-      129: Resources/BallisticWeapons/Ammo/BigFALShotgunShells.png
-      130: Resources/BallisticWeapons/Ammo/BigCarlGustafM2HERound.png
-      131: Resources/BallisticWeapons/Ammo/BigCarlGustafM2HEATRound.png
-      132: Resources/BallisticWeapons/Ammo/BigCarlGustafM2EleriumRound.png
-      133: Resources/BallisticWeapons/Ammo/BigRPGHERocket.png
-      134: Resources/BallisticWeapons/Ammo/BigRPGINCRocket.png
-      135: Resources/BallisticWeapons/Ammo/BigRPGEWHRocket.png
-
-
-      192: Resources/BallisticWeapons/Medical&Food/BigCannedFood.png
-      193: Resources/BallisticWeapons/Medical&Food/BigCigarettes.png
-      194: Resources/BallisticWeapons/Medical&Food/BigFlask.png
-      191: Resources/BallisticWeapons/Medical&Food/BigMedicalBag.png
-      199: Resources/BallisticWeapons/Medical&Food/BigFieldDressing.png
-      197: Resources/BallisticWeapons/Medical&Food/BigMedicalPouch.png
-
-      200: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
-      201: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
-      # 136: Resources/BallisticWeapons/USA/BigM1911Colt45.png
-      # 137: Resources/BallisticWeapons/USA/BigM16M203.png
-      # 138: Resources/BallisticWeapons/USA/BigXM117.png
-      # 139: Resources/BallisticWeapons/USA/BigM3Greasegun.png
-      # 140: Resources/BallisticWeapons/USA/BigXM21.png
-      # 141: Resources/BallisticWeapons/USA/BigRemingtonCombatShotgun.png
-      # 142: Resources/BallisticWeapons/USA/BigM79ThumperGL.png
-      # 143: Resources/BallisticWeapons/USA/BigM72LAW.png
-      # 144: Resources/BallisticWeapons/USA/BigM60.png
-      # 145: Resources/BallisticWeapons/USA/BigAR5.png
-
-      # 146: Resources/BallisticWeapons/NATO/BigBrowningHP.png
-      # 147: Resources/BallisticWeapons/NATO/BigFALShotgun.png
-      # 148: Resources/BallisticWeapons/NATO/BigSG510Carbine.png
-      173: Resources/BallisticWeapons/New/BigMP5SD.png
-      149: Resources/BallisticWeapons/New/BigMP5SDnomag.png
-      165: Resources/BallisticWeapons/New/BigMP5SD20.png
-      157: Resources/BallisticWeapons/New/BigMP5SD10.png
-      147: Resources/BallisticWeapons/New/BigMPXnomag.png
-      155: Resources/BallisticWeapons/New/BigMPX10.png
-      163: Resources/BallisticWeapons/New/BigMPX20.png
-      171: Resources/BallisticWeapons/New/BigMPX.png
-      187: Resources/BallisticWeapons/New/BigMPXFoldednomag.png
-      195: Resources/BallisticWeapons/New/BigMPXFolded10.png
-      203: Resources/BallisticWeapons/New/BigMPXFolded20.png
-      211: Resources/BallisticWeapons/New/BigMPXFolded.png
-      # 151: Resources/BallisticWeapons/NATO/BigFNMAG.png
-      # 152: Resources/BallisticWeapons/NATO/BigCarlGustafM2.png
-
-      # 153: Resources/BallisticWeapons/USSR/BigStechkinAPS.png
-      # 154: Resources/BallisticWeapons/USSR/BigAKMBayoneted.png
-      # 155: Resources/BallisticWeapons/USSR/BigAKMSU.png
-      156: Resources/BallisticWeapons/New/BigSkorpionnomag.png
-      164: Resources/BallisticWeapons/New/BigSkorpion10.png
-      172: Resources/BallisticWeapons/New/BigSkorpion20.png
-      180: Resources/BallisticWeapons/New/BigSkorpion.png
-      196: Resources/BallisticWeapons/New/BigSkorpionFoldednomag.png
-      204: Resources/BallisticWeapons/New/BigSkorpionFolded10.png
-      212: Resources/BallisticWeapons/New/BigSkorpionFolded20.png
-      220: Resources/BallisticWeapons/New/BigSkorpionFolded.png
-      # 157: Resources/BallisticWeapons/USSR/BigDragunov.png
-      # 158: Resources/BallisticWeapons/USSR/BigKS23Shotgun.png
-      # 159: Resources/BallisticWeapons/USSR/BigRPG.png
-      # 160: Resources/BallisticWeapons/USSR/BigRPKS.png
-
-      161: Resources/BallisticWeapons/new/BigMakarovnomag.png
-      169: Resources/BallisticWeapons/Civilian/BigMakarov.png
-      # 162: Resources/BallisticWeapons/Civilian/BigSnubnosePistol.png
-      # 163: Resources/BallisticWeapons/Civilian/BigHuntingRifle.png
-      # 164: Resources/BallisticWeapons/Civilian/BigModel1900.png
-      # 165: Resources/BallisticWeapons/Civilian/BigMachete.png
-
-      # 166: Resources/BallisticWeapons/Civilian/BigPoliceRevolver.png
-      # 167: Resources/BallisticWeapons/Civilian/BigBerettaM12.png
-      # 168: Resources/BallisticWeapons/Civilian/BigPoliceShotgun.png
-      # 169: Resources/BallisticWeapons/Civilian/BigPoliceTonfa.png
-
-      # 170: Resources/BallisticWeapons/Allies/BigM16A1.png
-      # 171: Resources/BallisticWeapons/Allies/BigFNFAL.png
-      # 172: Resources/BallisticWeapons/Allies/BigBren.png
-      # 173: Resources/BallisticWeapons/Allies/BigOwenSMG.png
-      174: Resources/BallisticWeapons/new/BigAKMnomag.png
-      190: Resources/BallisticWeapons/Allies/BigAKM.png
-      198: Resources/BallisticWeapons/new/BigAKM40.png
-      # 175: Resources/BallisticWeapons/Allies/BigSKS.png
-      # 176: Resources/BallisticWeapons/Allies/BigPPS43.png
-
-      # 177: Resources/SoldiersAndArmors/DeltaArmor/BigMG3.png
-      # 178: Resources/SoldiersAndArmors/RiotArmor/BigAngryWife.png
-      179: Resources/SoldiersAndArmors/RiotArmor/BigRiotShield.png
-
-      # 180: Resources/BallisticWeapons/CustomWeapons/BigMAT49.png
-      # 181: Resources/BallisticWeapons/CustomWeapons/BigSawedOffM79Thumper.png
-      # 182: Resources/BallisticWeapons/CustomWeapons/BigSawedOffShotgun.png
-      # 183: Resources/BallisticWeapons/CustomWeapons/BigXM117Scoped.png
-      # 184: Resources/BallisticWeapons/CustomWeapons/BigXM117Shotgun.png
-      # 185: Resources/BallisticWeapons/CustomWeapons/BigXM117M203.png
-      # 186: Resources/BallisticWeapons/CustomWeapons/BigFNFSC.png
-      # 187: Resources/BallisticWeapons/CustomWeapons/BigFNFSCScoped.png
-      # 188: Resources/BallisticWeapons/CustomWeapons/BigFNFSCBayoneted.png
-      # 189: Resources/BallisticWeapons/Allies/BigCombatKnife.png
-      # 190: Resources/BallisticWeapons/CustomWeapons/BigColtScopeAccessory.png
-      # 191: Resources/BallisticWeapons/CustomWeapons/BigM203Accessory.png
-
-      # 210: Resources/BallisticWeapons/CustomWeapons/BigWeaponToolKit.png
-      # 211: Resources/BallisticWeapons/CustomWeapons/BigM16A1Scoped.png
-      # 212: Resources/BallisticWeapons/CustomWeapons/BigM16A1Shotgun.png
-      # 213: Resources/BallisticWeapons/CustomWeapons/Big50CalMagnum.png
-      # 214: Resources/BallisticWeapons/CustomWeapons/Big50CalMagnumClip.png
-      # 224: Resources/BallisticWeapons/CustomWeapons/BigEnforcer.png
-      # 248: Resources/BallisticWeapons/USA/BigCarbine.png
-
+      200: Resources/BallisticWeapons/Ammo
+      208: Resources/BallisticWeapons/Ammo
+      216: Resources/BallisticWeapons/Ammo
+      224: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x10.png
+      232: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x20.png
+      240: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x30.png
+      248: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x40.png
+      256: Resources/BallisticWeapons/Ammo/BigFN57mm.png
+      264: Resources/BallisticWeapons/Ammo/Big45PistolAmmo_x7.png
+      272: Resources/BallisticWeapons/Ammo/Big45Ammo_x12.png
+      280: Resources/BallisticWeapons/Ammo/BigG11Clip.png
+      288: Resources/BallisticWeapons/Ammo/Big545RifleAmmo_x30.png
+      296: Resources/BallisticWeapons/Ammo/Big545RifleAmmo_x45.png
+      304: Resources/BallisticWeapons/Ammo/
+      312: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x30.png
+      320: Resources/BallisticWeapons/Ammo/
+      328: Resources/BallisticWeapons/Ammo/Big556NATOLMGAmmo_x100.png
+      336: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x30.png
+      344: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x5.png
+      352: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x10.png
+      360: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x20.png
+      368: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x30.png
+      376: Resources/BallisticWeapons/Ammo/Big762NATOLMGAmmo_x50.png
+      384: Resources/BallisticWeapons/Ammo/Big762NATOLMGAmmo_x100.png
+      392: Resources/BallisticWeapons/Ammo/
+      400: Resources/BallisticWeapons/Ammo/Big762mmRAmmo_x100.png
+      408: Resources/BallisticWeapons/Ammo/Big9mmRifleAmmo_x10.png
+      416: Resources/BallisticWeapons/Ammo/Big9mmRifleAmmo_x20.png
+      424: Resources/BallisticWeapons/Ammo/
+      432: Resources/BallisticWeapons/Ammo/
+      440: Resources/BallisticWeapons/Ammo/Big50BMGAmmo_x10.png 
+      448: Resources/BallisticWeapons/Ammo/Big12gaugex5.png
+      456: Resources/BallisticWeapons/Ammo/Big
+      464: Resources/BallisticWeapons/Ammo
+      472: Resources/BallisticWeapons/Ammo 
+      480: Resources/BallisticWeapons/Ammo
+      488: Resources/BallisticWeapons/Ammo
+      496: Resources/BallisticWeapons/Ammo
+      504: Resources/BallisticWeapons/Ammo
+      512: Resources/BallisticWeapons/Ammo
+      520: Resources/BallisticWeapons/Ammo
+      528: Resources/BallisticWeapons/Ammo
+      536: Resources/BallisticWeapons/Ammo
+      544: Resources/BallisticWeapons/Ammo
+      552: Resources/BallisticWeapons/Ammo
+      560: Resources/BallisticWeapons/Ammo
+      568: Resources/BallisticWeapons/Ammo
+      576: Resources/BallisticWeapons/Ammo
+      584: Resources/BallisticWeapons/Ammo
+      592: Resources/BallisticWeapons/Ammo
+      600:
+      608:
+      616:
+      624:
+      632:
+      640:
+      648:
+      656:
+      664:
+      672:
+      680:
+      688:
+      696:
+      704:
+      712:
+      720:
+      728:
+      736:
+      744:
+      752:
+      760:
+      768:
+      776:
+      784:
+      792:
+      800:
+      808:
+      816:
+      824:
+      832:
+      840:
+      848:
+      856:
+      864:
+      872:
+      880:
+      888:
+      896:
+      904:
+      912:
+      920:
+      928:
+      936:
+      944:
+      952:
+      960:
+      968:
+      976:
+      984:
+      992:
+      1000:
+      1008:
+      1016:
+      1024:
+      1032:
+      1040:
+      1048:
+      1056:
+      1064:
+      1072:
+      1080:
+      1088:
+      1096:
+      1104:
+      1112:
+      1120:
+      1128:
+      1136:
+      1144:
+      1152:
+      1160:
+      1168:
+      1176:
+      1184:
+      1192:
+      1200:
+      1208:
+      1216:
+      1224:
+      1232:
+      1240:
+      1248:
+      1256:
+      1264:
+      1272:
+      1280:
+      1288:
+      1296:
+      1304:
+      1312:
+      1320:
+      1328:
+      1336:
+      1344:
+      1352:
+      1360:
+      1368:
+      1376:
+      1384:
+      1392:
+      1400:
+      1408:
+      1416:
+      1424:
+      1432:
+      1440:
+      1448:
+      1456:
+      1464:
+      1472:
+      1480:
+      1488:
+      1496:
+      1504:
+      1512:
+      1520:
+      1528:
+      1536:
+      1544:
+      1552:
+      1560:
+      1568:
+      1576:
+      1584:
+      1592:
+      1600:
+      1608:
+      1616:
+      1624:
+      1632:
+      1640:
+      1648:
+      1656:
+      1664:
+      1672:
+      1680:
+      1688:
+      1696:
+      1704:
+      1712:
+      1720:
+      1728:
+      1736:
+      1744:
+      1752:
+      1760:
+      1768:
+      1776:
+      1784:
+      1792:
+      1800:
+      1808:
+      1816:
+      1824:
+      1832:
+      1840:
+      1848:
+      1856:
+      1864:
+      1872:
+      1880:
+      1888:
+      1896:
+      1904:
+      1912:
+      1920:
+      1928:
+      1936:
+      1944:
+      1952:
+      1960:
+      1968:
+      1976:
   - type: FLOOROB.PCK
     files:
-      97: Resources/BallisticWeapons/Ammo/FloorKS23Sharpnel25Ammo_x4.png
-      98: Resources/BallisticWeapons/Ammo/FloorKS23BarrikadeAmmo_x4.png
-      99: Resources/BallisticWeapons/Ammo/FloorKS23SatanaAmmo_x4.png
-      100: Resources/BallisticWeapons/Ammo/Floor9mmPistolAmmo_x10.png
-      101: Resources/BallisticWeapons/Ammo/Floor9mmPistolAmmo_x20.png
-      102: Resources/BallisticWeapons/Ammo/Floor9mmPistolAmmo_x30.png
-      103: Resources/BallisticWeapons/Ammo/Floor45PistolAmmo_x7.png
-      104: Resources/BallisticWeapons/Ammo/Floor45PistolAmmo_x30.png
-      105: Resources/BallisticWeapons/Ammo/Floor556NATORifleAmmo_x20.png
-      106: Resources/BallisticWeapons/Ammo/Floor556NATORifleAmmo_x30.png
-      107: Resources/BallisticWeapons/Ammo/Floor762NATORifleAmmo_x5.png
-      108: Resources/BallisticWeapons/Ammo/Floor762NATORifleAmmo_x20.png
-      109: Resources/BallisticWeapons/Ammo/Floor762NATORifleAmmo_x30.png
-      110: Resources/BallisticWeapons/Ammo/Floor762NATOLMGAmmo_x50.png
-      111: Resources/BallisticWeapons/Ammo/Floor762NATOLMGAmmo_x100.png
-      112: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x10.png
-      113: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x30.png
-      114: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x40.png
-      115: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x75.png
-      116: Resources/BallisticWeapons/Ammo/Floor762SovietSniperAmmo_x10.png
-      117: Resources/BallisticWeapons/Ammo/Floor12GaugeBuckshotAmmo_x2.png
-      118: Resources/BallisticWeapons/Ammo/Floor12GaugeSlugAmmo_x2.png
-      119: Resources/BallisticWeapons/Ammo/Floor12GaugeBuckshotAmmo_x8.png
-      120: Resources/BallisticWeapons/Ammo/Floor12GaugeNonLethalAmmo_x8.png
-      121: Resources/BallisticWeapons/Ammo/Floor12GaugeIncendiaryAmmo_x8.png
-      122: Resources/BallisticWeapons/Ammo/Floor12GaugeEleriumShardsAmmo_x8.png
-      123: Resources/BallisticWeapons/Ammo/Floor40mmFragAmmo.png
-      124: Resources/BallisticWeapons/Ammo/Floor40mmIncendiaryAmmo.png
-      125: Resources/BallisticWeapons/Ammo/Floor40mmSmokeAmmo.png
-      126: Resources/BallisticWeapons/Ammo/Floor40mmNonLethalAmmo.png
-      127: Resources/BallisticWeapons/Ammo/Floor38RevolverAmmo_x6.png
-      128: Resources/BallisticWeapons/Ammo/Floor22LongRifleAmmo_x14.png
-      129: Resources/BallisticWeapons/Ammo/FloorFALShotgunShells.png
-      130: Resources/BallisticWeapons/Ammo/FloorCarlGustafM2HERound.png
-      131: Resources/BallisticWeapons/Ammo/FloorCarlGustafM2HEATRound.png
-      132: Resources/BallisticWeapons/Ammo/FloorCarlGustafM2EleriumRound.png
-      133: Resources/BallisticWeapons/Ammo/FloorRPGHERocket.png
-      134: Resources/BallisticWeapons/Ammo/FloorRPGINCRocket.png
-      135: Resources/BallisticWeapons/Ammo/FloorRPGEWHRocket.png
-
-      # 136: Resources/BallisticWeapons/USA/FloorM1911Colt45.png
-      # 137: Resources/BallisticWeapons/USA/FloorM16M203.png
-      # 138: Resources/BallisticWeapons/USA/FloorXM117.png
-      # 139: Resources/BallisticWeapons/USA/FloorM3Greasegun.png
-      # 140: Resources/BallisticWeapons/USA/FloorXM21.png
-      # 141: Resources/BallisticWeapons/USA/FloorRemingtonCombatShotgun.png
-      # 142: Resources/BallisticWeapons/USA/FloorM79ThumperGL.png
-      # 143: Resources/BallisticWeapons/USA/FloorM72LAW.png
-      # 144: Resources/BallisticWeapons/USA/FloorM60.png
-      # 145: Resources/BallisticWeapons/USA/FloorAR5.png
-
-      # 146: Resources/BallisticWeapons/NATO/FloorBrowningHP.png
-      # 147: Resources/BallisticWeapons/NATO/FloorFALShotgun.png
-      # 148: Resources/BallisticWeapons/NATO/FloorSG510Carbine.png
-      149: Resources/BallisticWeapons/New/FloorMP5SD.png
-      157: Resources/BallisticWeapons/New/FloorMP5SD.png
-      165: Resources/BallisticWeapons/New/FloorMP5SD.png
-      173: Resources/BallisticWeapons/New/FloorMP5SD.png
-      147: Resources/BallisticWeapons/New/FloorMPX.png
-      155: Resources/BallisticWeapons/New/FloorMPX.png
-      163: Resources/BallisticWeapons/New/FloorMPX.png
-      171: Resources/BallisticWeapons/New/FloorMPX.png
-      187: Resources/BallisticWeapons/New/FloorMPX.png
-      195: Resources/BallisticWeapons/New/FloorMPX.png
-      203: Resources/BallisticWeapons/New/FloorMPX.png
-      311: Resources/BallisticWeapons/New/FloorMPX.png
-      # 150: Resources/BallisticWeapons/NATO/FloorPSG1.png
-      # 151: Resources/BallisticWeapons/NATO/FloorFNMAG.png
-      # 152: Resources/BallisticWeapons/NATO/FloorCarlGustafM2.png
-
-      # 153: Resources/BallisticWeapons/USSR/FloorStechkinAPS.png
-      # 154: Resources/BallisticWeapons/USSR/FloorAKMBayoneted.png
-      # 155: Resources/BallisticWeapons/USSR/FloorAKMSU.png
-      156: Resources/BallisticWeapons/New/FloorSkorpion.png
-      164: Resources/BallisticWeapons/New/FloorSkorpion.png
-      172: Resources/BallisticWeapons/New/FloorSkorpion.png
-      180: Resources/BallisticWeapons/New/FloorSkorpion.png
-      188: Resources/BallisticWeapons/New/FloorSkorpion.png
-      196: Resources/BallisticWeapons/New/FloorSkorpion.png
-      204: Resources/BallisticWeapons/New/FloorSkorpion.png
-      212: Resources/BallisticWeapons/New/FloorSkorpion.png
-      # 157: Resources/BallisticWeapons/USSR/FloorDragunov.png
-      # 158: Resources/BallisticWeapons/USSR/FloorKS23Shotgun.png
-      # 159: Resources/BallisticWeapons/USSR/FloorRPG.png
-      # 160: Resources/BallisticWeapons/USSR/FloorRPKS.png
-
-      161: Resources/BallisticWeapons/Civilian/FloorMakarov.png
-      169: Resources/BallisticWeapons/Civilian/FloorMakarov.png
-#       162: Resources/BallisticWeapons/Civilian/FloorSnubnosePistol.png
-#       163: Resources/BallisticWeapons/Civilian/FloorHuntingRifle.png
-#       164: Resources/BallisticWeapons/Civilian/FloorModel1900.png
-#       165: Resources/BallisticWeapons/Civilian/FloorMachete.png
-
-#       166: Resources/BallisticWeapons/Civilian/FloorPoliceRevolver.png
-#       167: Resources/BallisticWeapons/Civilian/FloorBerettaM12.png
-#       168: Resources/BallisticWeapons/Civilian/FloorPoliceShotgun.png
-#       169: Resources/BallisticWeapons/Civilian/FloorPoliceTonfa.png
-
-#       170: Resources/BallisticWeapons/Allies/FloorM16A1.png
-#       171: Resources/BallisticWeapons/Allies/FloorFNFAL.png
-#       172: Resources/BallisticWeapons/Allies/FloorBren.png
-#       173: Resources/BallisticWeapons/Allies/FloorOwenSMG.png
-      174: Resources/BallisticWeapons/Allies/FloorAKM.png
-      190: Resources/BallisticWeapons/Allies/FloorAKM.png
-      198: Resources/BallisticWeapons/Allies/FloorAKM.png
-#       175: Resources/BallisticWeapons/Allies/FloorSKS.png
-#       176: Resources/BallisticWeapons/Allies/FloorPPS43.png
-
-# #      177: Resources/SoldiersAndArmors/FloorMG3.png
-#       178: Resources/SoldiersAndArmors/RiotArmor/FloorAngryWife.png
-#      179: Resources/SoldiersAndArmors/FloorRiotShield.png
-
-#       180: Resources/BallisticWeapons/CustomWeapons/FloorMAT49.png
-#       181: Resources/BallisticWeapons/CustomWeapons/FloorSawedOffM79Thumper.png
-#       182: Resources/BallisticWeapons/CustomWeapons/FloorSawedOffShotgun.png
-#       183: Resources/BallisticWeapons/CustomWeapons/FloorXM117Scoped.png
-#       184: Resources/BallisticWeapons/CustomWeapons/FloorXM117Shotgun.png
-#       185: Resources/BallisticWeapons/CustomWeapons/FloorXM117M203.png
-#       186: Resources/BallisticWeapons/CustomWeapons/FloorFNFSC.png
-#       187: Resources/BallisticWeapons/CustomWeapons/FloorFNFSCScoped.png
-#       188: Resources/BallisticWeapons/CustomWeapons/FloorFNFSCBayoneted.png
-#       189: Resources/BallisticWeapons/Allies/FloorCombatKnife.png
-#       190: Resources/BallisticWeapons/CustomWeapons/FloorColtScopeAccessory.png
-#       191: Resources/BallisticWeapons/CustomWeapons/FloorM203Accessory.png
-
-      192: Resources/BallisticWeapons/Medical&Food/FloorCannedFood.png
-      193: Resources/BallisticWeapons/Medical&Food/FloorCigarettes.png
-      194: Resources/BallisticWeapons/Medical&Food/FloorFlask.png
-      191: Resources/BallisticWeapons/Medical&Food/FloorMedicalBag.png
-      199: Resources/BallisticWeapons/Medical&Food/FloorFieldDressing.png
-      197: Resources/BallisticWeapons/Medical&Food/FloorMedicalPouch.png
-
-      200: Resources/BallisticWeapons/Explosives/FloorSmokeGrenade.png
-      201: Resources/BallisticWeapons/Explosives/FloorFlashbangGrenade.png
-
-      210: Resources/BallisticWeapons/CustomWeapons/FloorWeaponToolKit.png
-      # 211: Resources/BallisticWeapons/CustomWeapons/FloorM16A1Scoped.png
-      # 212: Resources/BallisticWeapons/CustomWeapons/FloorM16A1Shotgun.png
-      # 213: Resources/BallisticWeapons/CustomWeapons/Floor50CalMagnum.png
-      # 214: Resources/BallisticWeapons/CustomWeapons/Floor50CalMagnumClip.png
-      # 224: Resources/BallisticWeapons/CustomWeapons/FloorEnforcer.png
-      # 248: Resources/BallisticWeapons/USA/FloorCarbine.png
-
-
+      200:
+      208:
+      216:
+      224:
+      232:
+      240:
+      248:
+      256:
+      264:
+      272:
+      280:
+      288:
+      296:
+      304:
+      312:
+      320:
+      328:
+      336:
+      344:
+      352:
+      360:
+      368:
+      376:
+      384:
+      392:
+      400:
+      408:
+      416:
+      424:
+      432:
+      440:
+      448:
+      456:
+      464:
+      472:
+      480:
+      488:
+      496:
+      504:
+      512:
+      520:
+      528:
+      536:
+      544:
+      552:
+      560:
+      568:
+      576:
+      584:
+      592:
+      600:
+      608:
+      616:
+      624:
+      632:
+      640:
+      648:
+      656:
+      664:
+      672:
+      680:
+      688:
+      696:
+      704:
+      712:
+      720:
+      728:
+      736:
+      744:
+      752:
+      760:
+      768:
+      776:
+      784:
+      792:
+      800:
+      808:
+      816:
+      824:
+      832:
+      840:
+      848:
+      856:
+      864:
+      872:
+      880:
+      888:
+      896:
+      904:
+      912:
+      920:
+      928:
+      936:
+      944:
+      952:
+      960:
+      968:
+      976:
+      984:
+      992:
+      1000:
+      1008:
+      1016:
+      1024:
+      1032:
+      1040:
+      1048:
+      1056:
+      1064:
+      1072:
+      1080:
+      1088:
+      1096:
+      1104:
+      1112:
+      1120:
+      1128:
+      1136:
+      1144:
+      1152:
+      1160:
+      1168:
+      1176:
+      1184:
+      1192:
+      1200:
+      1208:
+      1216:
+      1224:
+      1232:
+      1240:
+      1248:
+      1256:
+      1264:
+      1272:
+      1280:
+      1288:
+      1296:
+      1304:
+      1312:
+      1320:
+      1328:
+      1336:
+      1344:
+      1352:
+      1360:
+      1368:
+      1376:
+      1384:
+      1392:
+      1400:
+      1408:
+      1416:
+      1424:
+      1432:
+      1440:
+      1448:
+      1456:
+      1464:
+      1472:
+      1480:
+      1488:
+      1496:
+      1504:
+      1512:
+      1520:
+      1528:
+      1536:
+      1544:
+      1552:
+      1560:
+      1568:
+      1576:
+      1584:
+      1592:
+      1600:
+      1608:
+      1616:
+      1624:
+      1632:
+      1640:
+      1648:
+      1656:
+      1664:
+      1672:
+      1680:
+      1688:
+      1696:
+      1704:
+      1712:
+      1720:
+      1728:
+      1736:
+      1744:
+      1752:
+      1760:
+      1768:
+      1776:
+      1784:
+      1792:
+      1800:
+      1808:
+      1816:
+      1824:
+      1832:
+      1840:
+      1848:
+      1856:
+      1864:
+      1872:
+      1880:
+      1888:
+      1896:
+      1904:
+      1912:
+      1920:
+      1928:
+      1936:
+      1944:
+      1952:
+      1960:
+      1968:
+      1976:
   - type: HANDOB.PCK
     width: 256
     height: 40
     subX: 32
     subY: 40
     files:
-    #   100: Resources/BallisticWeapons/CustomWeapons/HandM16A1Scoped.png
-    #   108: Resources/BallisticWeapons/CustomWeapons/HandM16A1Shotgun.png
-      116: Resources/BallisticWeapons/Ammo/Hand9mmPistolAmmo_x30.png
-      124: Resources/BallisticWeapons/Ammo/Hand45PistolAmmo_x7.png
-      132: Resources/BallisticWeapons/Ammo/Hand45PistolAmmo_x30.png
-      140: Resources/BallisticWeapons/Ammo/Hand556NATORifleAmmo_x20.png
-      148: Resources/BallisticWeapons/Ammo/Hand556NATORifleAmmo_x30.png
-      156: Resources/BallisticWeapons/Ammo/Hand762NATORifleAmmo_x5.png
-      164: Resources/BallisticWeapons/Ammo/Hand762NATORifleAmmo_x20.png
-      172: Resources/BallisticWeapons/Ammo/Hand762NATORifleAmmo_x30.png
-      180: Resources/BallisticWeapons/Ammo/Hand762NATOLMGAmmo_x50.png
-      188: Resources/BallisticWeapons/Ammo/Hand762NATOLMGAmmo_x100.png
-      196: Resources/BallisticWeapons/Ammo/Hand762SovietRifleAmmo_x10.png
-      204: Resources/BallisticWeapons/Ammo/Hand762SovietRifleAmmo_x30.png
-      212: Resources/BallisticWeapons/Ammo/Hand762SovietRifleAmmo_x40.png
-      220: Resources/BallisticWeapons/Ammo/Hand762SovietRifleAmmo_x75.png
-      228: Resources/BallisticWeapons/Ammo/Hand762SovietSniperAmmo_x10.png
-      236: Resources/BallisticWeapons/Ammo/Hand12GaugeBuckshotAmmo_x2.png
-      244: Resources/BallisticWeapons/Ammo/Hand12GaugeSlugAmmo_x2.png
-      252: Resources/BallisticWeapons/Ammo/Hand12GaugeBuckshotAmmo_x8.png
-      260: Resources/BallisticWeapons/Ammo/Hand12GaugeNonLethalAmmo_x8.png
-      268: Resources/BallisticWeapons/Ammo/Hand12GaugeIncendiaryAmmo_x8.png
-      276: Resources/BallisticWeapons/Ammo/Hand12GaugeEleriumShardsAmmo_x8.png
-      284: Resources/BallisticWeapons/Ammo/Hand40mmFragAmmo.png
-      292: Resources/BallisticWeapons/Ammo/Hand40mmIncendiaryAmmo.png
-      300: Resources/BallisticWeapons/Ammo/Hand40mmSmokeAmmo.png
-      308: Resources/BallisticWeapons/Ammo/Hand40mmNonLethalAmmo.png
-      316: Resources/BallisticWeapons/Ammo/Hand38RevolverAmmo_x6.png
-      324: Resources/BallisticWeapons/Ammo/Hand22LongRifleAmmo_x14.png
-      332: Resources/BallisticWeapons/Ammo/HandFALShotgunShells.png
-      340: Resources/BallisticWeapons/Ammo/HandCarlGustafM2HERound.png
-      348: Resources/BallisticWeapons/Ammo/HandCarlGustafM2HEATRound.png
-      356: Resources/BallisticWeapons/Ammo/HandCarlGustafM2EleriumRound.png
-      364: Resources/BallisticWeapons/Ammo/HandRPGHERocket.png
-      372: Resources/BallisticWeapons/Ammo/HandRPGINCRocket.png
-      # 380: Resources/BallisticWeapons/Ammo/HandRPGEWHRocket.png
-
-      # 388: Resources/BallisticWeapons/USA/HandM1911Colt45.png
-      # 396: Resources/BallisticWeapons/USA/HandM16M203.png
-      # 404: Resources/BallisticWeapons/USA/HandXM117.png
-      # 412: Resources/BallisticWeapons/USA/HandM3Greasegun.png
-      # 420: Resources/BallisticWeapons/USA/HandXM21.png
-      # 428: Resources/BallisticWeapons/USA/HandRemingtonCombatShotgun.png
-      # 436: Resources/BallisticWeapons/USA/HandM79ThumperGL.png
-      # 444: Resources/BallisticWeapons/USA/HandM72LAW.png
-      # 452: Resources/BallisticWeapons/USA/HandM60.png
-      # 460: Resources/BallisticWeapons/USA/HandAR5.png
-
-      # 468: Resources/BallisticWeapons/NATO/HandBrowningHP.png
-      # 476: Resources/BallisticWeapons/NATO/HandFALShotgun.png
-      # 484: Resources/BallisticWeapons/NATO/HandSG510Carbine.png
-      492: Resources/BallisticWeapons/New/HandMP5SD.png
-      500: Resources/BallisticWeapons/New/HandMP5SD.png
-      508: Resources/BallisticWeapons/New/HandMP5SD.png
-      516: Resources/BallisticWeapons/New/HandMP5SD.png
-      # 500: Resources/BallisticWeapons/NATO/HandPSG1.png
-      # 508: Resources/BallisticWeapons/NATO/HandFNMAG.png
-      # 516: Resources/BallisticWeapons/NATO/HandCarlGustafM2.png
-
-      # 524: Resources/BallisticWeapons/USSR/HandStechkinAPS.png
-      # 532: Resources/BallisticWeapons/USSR/HandAKMBayoneted.png
-      # 540: Resources/BallisticWeapons/USSR/HandAKMSU.png
-      548: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      556: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      564: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      572: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      580: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      588: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      596: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      604: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      612: Resources/BallisticWeapons/USSR/HandSkorpion.png
-      # 556: Resources/BallisticWeapons/USSR/HandDragunov.png
-      # 564: Resources/BallisticWeapons/USSR/HandKS23Shotgun.png
-      # 572: Resources/BallisticWeapons/USSR/HandRPG.png
-      # 580: Resources/BallisticWeapons/USSR/HandRPKS.png
-
-      620: Resources/BallisticWeapons/Civilian/HandMakarov.png
-      628: Resources/BallisticWeapons/Civilian/HandMakarov.png
-      # 596: Resources/BallisticWeapons/Civilian/HandSnubnosePistol.png
-      # 604: Resources/BallisticWeapons/Civilian/HandHuntingRifle.png
-      # 612: Resources/BallisticWeapons/Civilian/HandModel1900.png
-      # 620: Resources/BallisticWeapons/Civilian/HandMachete.png
-
-      # 628: Resources/BallisticWeapons/Civilian/HandPoliceRevolver.png
-      # 636: Resources/BallisticWeapons/Civilian/HandBerettaM12.png
-      # 644: Resources/BallisticWeapons/Civilian/HandPoliceShotgun.png
-      # 652: Resources/BallisticWeapons/Civilian/HandPoliceTonfa.png
-
-      # 660: Resources/BallisticWeapons/Allies/HandM16A1.png
-      # 668: Resources/BallisticWeapons/Allies/HandFNFAL.png
-      # 676: Resources/BallisticWeapons/Allies/HandBren.png
-      # 684: Resources/BallisticWeapons/Allies/HandOwenSMG.png
-      692: Resources/BallisticWeapons/Allies/HandAKM.png
-      708: Resources/BallisticWeapons/Allies/HandAKM.png
-      716: Resources/BallisticWeapons/Allies/HandAKM.png
-      724: Resources/BallisticWeapons/New/HandMPX.png
-      732: Resources/BallisticWeapons/New/HandMPX.png
-      740: Resources/BallisticWeapons/New/HandMPX.png
-      748: Resources/BallisticWeapons/New/HandMPX.png
-      764: Resources/BallisticWeapons/New/HandMPX.png
-      772: Resources/BallisticWeapons/New/HandMPX.png
-      780: Resources/BallisticWeapons/New/HandMPX.png
-      788: Resources/BallisticWeapons/New/HandMPX.png
-      # 700: Resources/BallisticWeapons/Allies/HandSKS.png
-      # 708: Resources/BallisticWeapons/Allies/HandPPS43.png
-
-      # 716: Resources/SoldiersAndArmors/DeltaArmor/HandMG3.png
-      # 724: Resources/SoldiersAndArmors/RiotArmor/HandAngryWife.png
-      796: Resources/SoldiersAndArmors/RiotArmor/HandRiotShield.png
-
-      # 740: Resources/BallisticWeapons/CustomWeapons/HandMAT49.png
-      # 748: Resources/BallisticWeapons/CustomWeapons/HandSawedOffM79Thumper.png
-      # 756: Resources/BallisticWeapons/CustomWeapons/HandSawedOffShotgun.png
-      # 764: Resources/BallisticWeapons/CustomWeapons/HandXM117Scoped.png
-      # 772: Resources/BallisticWeapons/CustomWeapons/HandXM117Shotgun.png
-      # 780: Resources/BallisticWeapons/CustomWeapons/HandXM117M203.png
-      # 788: Resources/BallisticWeapons/CustomWeapons/HandFNFSC.png
-      # 796: Resources/BallisticWeapons/CustomWeapons/HandFNFSCScoped.png
-      # 804: Resources/BallisticWeapons/CustomWeapons/HandFNFSCBayoneted.png
-      # 812: Resources/BallisticWeapons/Allies/HandCombatKnife.png
-
-      820: Resources/BallisticWeapons/Medical&Food/HandCannedFood.png
-      828: Resources/BallisticWeapons/Medical&Food/HandCigarettes.png
-      836: Resources/BallisticWeapons/Medical&Food/HandFlask.png
-      844: Resources/BallisticWeapons/Medical&Food/HandMedicalBag.png
-      852: Resources/BallisticWeapons/Medical&Food/HandFieldDressing.png
-      880: Resources/BallisticWeapons/Medical&Food/HandMedicalPouch.png
-
-      904: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
-      912: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
-      # 920: Resources/BallisticWeapons/CustomWeapons/HandEnforcer.png
-      # 928: Resources/BallisticWeapons/CustomWeapons/Hand50CalMagnum.png
-      # 948: Resources/BallisticWeapons/USA/HandCarbine.png
+      200:
+      208:
+      216:
+      224:
+      232:
+      240:
+      248:
+      256:
+      264:
+      272:
+      280:
+      288:
+      296:
+      304:
+      312:
+      320:
+      328:
+      336:
+      344:
+      352:
+      360:
+      368:
+      376:
+      384:
+      392:
+      400:
+      408:
+      416:
+      424:
+      432:
+      440:
+      448:
+      456:
+      464:
+      472:
+      480:
+      488:
+      496:
+      504:
+      512:
+      520:
+      528:
+      536:
+      544:
+      552:
+      560:
+      568:
+      576:
+      584:
+      592:
+      600:
+      608:
+      616:
+      624:
+      632:
+      640:
+      648:
+      656:
+      664:
+      672:
+      680:
+      688:
+      696:
+      704:
+      712:
+      720:
+      728:
+      736:
+      744:
+      752:
+      760:
+      768:
+      776:
+      784:
+      792:
+      800:
+      808:
+      816:
+      824:
+      832:
+      840:
+      848:
+      856:
+      864:
+      872:
+      880:
+      888:
+      896:
+      904:
+      912:
+      920:
+      928:
+      936:
+      944:
+      952:
+      960:
+      968:
+      976:
+      984:
+      992:
+      1000:
+      1008:
+      1016:
+      1024:
+      1032:
+      1040:
+      1048:
+      1056:
+      1064:
+      1072:
+      1080:
+      1088:
+      1096:
+      1104:
+      1112:
+      1120:
+      1128:
+      1136:
+      1144:
+      1152:
+      1160:
+      1168:
+      1176:
+      1184:
+      1192:
+      1200:
+      1208:
+      1216:
+      1224:
+      1232:
+      1240:
+      1248:
+      1256:
+      1264:
+      1272:
+      1280:
+      1288:
+      1296:
+      1304:
+      1312:
+      1320:
+      1328:
+      1336:
+      1344:
+      1352:
+      1360:
+      1368:
+      1376:
+      1384:
+      1392:
+      1400:
+      1408:
+      1416:
+      1424:
+      1432:
+      1440:
+      1448:
+      1456:
+      1464:
+      1472:
+      1480:
+      1488:
+      1496:
+      1504:
+      1512:
+      1520:
+      1528:
+      1536:
+      1544:
+      1552:
+      1560:
+      1568:
+      1576:
+      1584:
+      1592:
+      1600:
+      1608:
+      1616:
+      1624:
+      1632:
+      1640:
+      1648:
+      1656:
+      1664:
+      1672:
+      1680:
+      1688:
+      1696:
+      1704:
+      1712:
+      1720:
+      1728:
+      1736:
+      1744:
+      1752:
+      1760:
+      1768:
+      1776:
+      1784:
+      1792:
+      1800:
+      1808:
+      1816:
+      1824:
+      1832:
+      1840:
+      1848:
+      1856:
+      1864:
+      1872:
+      1880:
+      1888:
+      1896:
+      1904:
+      1912:
+      1920:
+      1928:
+      1936:
+      1944:
+      1952:
+      1960:
+      1968:
+      1976:
 
   - type: SMOKE.PCK
     height: 80
