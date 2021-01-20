@@ -3810,197 +3810,196 @@ extraSprites:
       432: Resources/BallisticWeapons/Ammo/
       440: Resources/BallisticWeapons/Ammo/Big50BMGAmmo_x10.png 
       448: Resources/BallisticWeapons/Ammo/Big12gaugex5.png
-      456: Resources/BallisticWeapons/Ammo/Big
-      464: Resources/BallisticWeapons/Ammo
-      472: Resources/BallisticWeapons/Ammo 
-      480: Resources/BallisticWeapons/Ammo
-      488: Resources/BallisticWeapons/Ammo
-      496: Resources/BallisticWeapons/Ammo
-      504: Resources/BallisticWeapons/Ammo
-      512: Resources/BallisticWeapons/Ammo
-      520: Resources/BallisticWeapons/Ammo
-      528: Resources/BallisticWeapons/Ammo
-      536: Resources/BallisticWeapons/Ammo
-      544: Resources/BallisticWeapons/Ammo
-      552: Resources/BallisticWeapons/Ammo
-      560: Resources/BallisticWeapons/Ammo
-      568: Resources/BallisticWeapons/Ammo
-      576: Resources/BallisticWeapons/Ammo
-      584: Resources/BallisticWeapons/Ammo
-      592: Resources/BallisticWeapons/Ammo
-      600:
-      608:
-      616:
-      624:
-      632:
-      640:
-      648:
-      656:
-      664:
-      672:
-      680:
-      688:
-      696:
-      704:
-      712:
-      720:
-      728:
-      736:
-      744:
-      752:
-      760:
-      768:
-      776:
-      784:
-      792:
-      800:
-      808:
-      816:
-      824:
-      832:
-      840:
-      848:
-      856:
-      864:
-      872:
-      880:
-      888:
-      896:
-      904:
-      912:
-      920:
-      928:
-      936:
-      944:
-      952:
-      960:
-      968:
-      976:
-      984:
-      992:
-      1000:
-      1008:
-      1016:
-      1024:
-      1032:
-      1040:
-      1048:
-      1056:
-      1064:
-      1072:
-      1080:
-      1088:
-      1096:
-      1104:
-      1112:
-      1120:
-      1128:
-      1136:
-      1144:
-      1152:
-      1160:
-      1168:
-      1176:
-      1184:
-      1192:
-      1200:
-      1208:
-      1216:
-      1224:
-      1232:
-      1240:
-      1248:
-      1256:
-      1264:
-      1272:
-      1280:
-      1288:
-      1296:
-      1304:
-      1312:
-      1320:
-      1328:
-      1336:
-      1344:
-      1352:
-      1360:
-      1368:
-      1376:
-      1384:
-      1392:
-      1400:
-      1408:
-      1416:
-      1424:
-      1432:
-      1440:
-      1448:
-      1456:
-      1464:
-      1472:
-      1480:
-      1488:
-      1496:
-      1504:
-      1512:
-      1520:
-      1528:
-      1536:
-      1544:
-      1552:
-      1560:
-      1568:
-      1576:
-      1584:
-      1592:
-      1600:
-      1608:
-      1616:
-      1624:
-      1632:
-      1640:
-      1648:
-      1656:
-      1664:
-      1672:
-      1680:
-      1688:
-      1696:
-      1704:
-      1712:
-      1720:
-      1728:
-      1736:
-      1744:
-      1752:
-      1760:
-      1768:
-      1776:
-      1784:
-      1792:
-      1800:
-      1808:
-      1816:
-      1824:
-      1832:
-      1840:
-      1848:
-      1856:
-      1864:
-      1872:
-      1880:
-      1888:
-      1896:
-      1904:
-      1912:
-      1920:
-      1928:
-      1936:
-      1944:
-      1952:
-      1960:
-      1968:
-      1976:
+      456: Resources/BallisticWeapons/Ammo/Big12GaugeMag_x8.png
+      464: Resources/BallisticWeapons/Ammo/Big23gauge_x20.png
+      472: Resources/BallisticWeapons/Ammo/Big12GaugeDrum_x30.png
+      480: Resources/BallisticWeapons/Ammo/Big12GaugeSlug_x8.png
+      488: Resources/BallisticWeapons/Ammo/Big12GaugeNonLethalAmmo_x8.png
+      496: Resources/BallisticWeapons/Ammo/
+      504: Resources/BallisticWeapons/Ammo/
+      512: Resources/BallisticWeapons/Ammo/
+      520: Resources/BallisticWeapons/Ammo/
+      528: Resources/BallisticWeapons/Ammo/Big40mmFragAmmo.png
+      536: Resources/BallisticWeapons/Ammo/Big40mmFragAmmo6.png
+      544: Resources/BallisticWeapons/Ammo/Big40mmSmokeAmmo.png
+      552: Resources/BallisticWeapons/Ammo/Big40mmNonLethalAmmo.png
+      560: Resources/BallisticWeapons/Ammo/
+      568: Resources/BallisticWeapons/Ammo/
+      576: Resources/BallisticWeapons/Ammo/
+      584: Resources/BallisticWeapons/Ammo/
+      592: Resources/BallisticWeapons/Ammo/BigRPGHERocket.png
+      600: Resources/BallisticWeapons/Pistols/BigP226nomag.png
+      608: Resources/BallisticWeapons/Pistols/BigP226.png
+      616: Resources/BallisticWeapons/Pistols/BigP226.png
+      624: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
+      640: Resources/BallisticWeapons/Pistols/BigGlock18.png
+      648: Resources/BallisticWeapons/Pistols/BigGlock1830.png
+      656: Resources/BallisticWeapons/Pistols/BigM1911Colt45nomag.png
+      664: Resources/BallisticWeapons/Pistols/BigM1911Colt45.png
+      672: Resources/BallisticWeapons/Pistols/BigMK23SOCOMnomag.png
+      680: Resources/BallisticWeapons/Pistols/BigMK23SOCOM.png
+      688: Resources/BallisticWeapons/Pistols/BigMakarovnomag.png
+      696: Resources/BallisticWeapons/Pistols/BigMakarov.png
+      704: Resources/BalisticWeapons/SMGs/BigTec9nomag
+      712: Resources/BalisticWeapons/SMGs/BigTec910
+      720: Resources/BalisticWeapons/SMGs/BigTec920
+      728: Resources/BalisticWeapons/SMGs/BigTec9
+      736: Resources/BalisticWeapons/SMGs/BigTec940
+      744: Resources/BalisticWeapons/SMGs/BigMP5SDnomag
+      752: Resources/BalisticWeapons/SMGs/BigMP5SD10
+      760: Resources/BalisticWeapons/SMGs/BigMP5SD20
+      768: Resources/BalisticWeapons/SMGs/BigMP5SD
+      776: Resources/BalisticWeapons/SMGs/BigMP5SD40
+      784: Resources/BalisticWeapons/SMGs/BigMPXFoldednomag
+      792: Resources/BalisticWeapons/SMGs/BigMPXFolded10
+      800: Resources/BalisticWeapons/SMGs/BigMPXFolded20
+      808: Resources/BalisticWeapons/SMGs/BigMPXFolded
+      816: Resources/BalisticWeapons/SMGs/BigMPXnomag
+      824: Resources/BalisticWeapons/SMGs/BigMPX10
+      832: Resources/BalisticWeapons/SMGs/BigMPX20
+      840: Resources/BalisticWeapons/SMGs/BigMPX
+      848: Resources/BalisticWeapons/SMGs/BigP90nomag
+      856: Resources/BalisticWeapons/SMGs/BigP90
+      864: Resources/BalisticWeapons/SMGs/BigSkorpionFoldednomag
+      872: Resources/BalisticWeapons/SMGs/BigSkorpionFolded10
+      880: Resources/BalisticWeapons/SMGs/BigSkorpionFolded20
+      888: Resources/BalisticWeapons/SMGs/BigSkorpionFolded
+      896: Resources/BalisticWeapons/SMGs/BigSkorpionnomag
+      904: Resources/BalisticWeapons/SMGs/BigSkorpion10
+      912: Resources/BalisticWeapons/SMGs/BigSkorpion20
+      920: Resources/BalisticWeapons/SMGs/BigSkorpion
+      928: Resources/BalisticWeapons/
+      936: Resources/BalisticWeapons/
+      944: Resources/BalisticWeapons/
+      952: Resources/BalisticWeapons/
+      960: Resources/BalisticWeapons/
+      968: Resources/BalisticWeapons/
+      976: Resources/BalisticWeapons/
+      984: Resources/BalisticWeapons/
+      992: Resources/BalisticWeapons/
+      1000: Resources/BalisticWeapons/
+      1008: Resources/BalisticWeapons/
+      1016: Resources/BalisticWeapons/
+      1024: Resources/BalisticWeapons/
+      1032: Resources/BalisticWeapons/
+      1040: Resources/BalisticWeapons/
+      1048: Resources/BalisticWeapons/
+      1056: Resources/BalisticWeapons/
+      1064: Resources/BalisticWeapons/
+      1072: Resources/BalisticWeapons/
+      1080: Resources/BalisticWeapons/
+      1088: Resources/BalisticWeapons/
+      1096: Resources/BalisticWeapons/
+      1104: Resources/BalisticWeapons/
+      1112: Resources/BalisticWeapons/
+      1120: Resources/BalisticWeapons/
+      1128: Resources/BalisticWeapons/
+      1136: Resources/BalisticWeapons/
+      1144: Resources/BalisticWeapons/
+      1152: Resources/BalisticWeapons/
+      1160: Resources/BalisticWeapons/
+      1168: Resources/BalisticWeapons/
+      1176: Resources/BalisticWeapons/
+      1184: Resources/BalisticWeapons/
+      1192: Resources/BalisticWeapons/
+      1200: Resources/BalisticWeapons/
+      1208: Resources/BalisticWeapons/
+      1216: Resources/BalisticWeapons/
+      1224: Resources/BalisticWeapons/
+      1232: Resources/BalisticWeapons/
+      1240: Resources/BalisticWeapons/
+      1248: Resources/BalisticWeapons/
+      1256: Resources/BalisticWeapons/
+      1264: Resources/BalisticWeapons/
+      1272: Resources/BalisticWeapons/
+      1280: Resources/BalisticWeapons/
+      1288: Resources/BalisticWeapons/
+      1296: Resources/BalisticWeapons/
+      1304: Resources/BalisticWeapons/
+      1312: Resources/BalisticWeapons/
+      1320: Resources/BalisticWeapons/
+      1328: Resources/BalisticWeapons/
+      1336: Resources/BalisticWeapons/
+      1344: Resources/BalisticWeapons/
+      1352: Resources/BalisticWeapons/
+      1360: Resources/BalisticWeapons/
+      1368: Resources/BalisticWeapons/
+      1376: Resources/BalisticWeapons/
+      1384: Resources/BalisticWeapons/
+      1392: Resources/BalisticWeapons/
+      1400: Resources/BalisticWeapons/
+      1408: Resources/BalisticWeapons/
+      1416: Resources/BalisticWeapons/
+      1424: Resources/BalisticWeapons/
+      1432: Resources/BalisticWeapons/
+      1440: Resources/BalisticWeapons/
+      1448: Resources/BalisticWeapons/
+      1456: Resources/BalisticWeapons/
+      1464: Resources/BalisticWeapons/
+      1472: Resources/BalisticWeapons/
+      1480: Resources/BalisticWeapons/
+      1488: Resources/BalisticWeapons/
+      1496: Resources/BalisticWeapons/
+      1504: Resources/BalisticWeapons/
+      1512: Resources/BalisticWeapons/
+      1520: Resources/BalisticWeapons/
+      1528: Resources/BalisticWeapons/
+      1536: Resources/BalisticWeapons/
+      1544: Resources/BalisticWeapons/
+      1552: Resources/BalisticWeapons/
+      1560: Resources/BalisticWeapons/
+      1568: Resources/BalisticWeapons/
+      1576: Resources/BalisticWeapons/
+      1584: Resources/BalisticWeapons/
+      1592: Resources/BalisticWeapons/
+      1600: Resources/BalisticWeapons/
+      1608: Resources/BalisticWeapons/
+      1616: Resources/BalisticWeapons/
+      1624: Resources/BalisticWeapons/
+      1632: Resources/BalisticWeapons/
+      1640: Resources/BalisticWeapons/
+      1648: Resources/BalisticWeapons/
+      1656: Resources/BalisticWeapons/
+      1664: Resources/BalisticWeapons/
+      1672: Resources/BalisticWeapons/
+      1680: Resources/BalisticWeapons/
+      1688: Resources/BalisticWeapons/
+      1696: Resources/BalisticWeapons/
+      1704: Resources/BalisticWeapons/
+      1712: Resources/BalisticWeapons/
+      1720: Resources/BalisticWeapons/
+      1728: Resources/BalisticWeapons/
+      1736: Resources/BalisticWeapons/
+      1744: Resources/BalisticWeapons/
+      1752: Resources/BalisticWeapons/
+      1760: Resources/BalisticWeapons/
+      1768: Resources/BalisticWeapons/
+      1776: Resources/BalisticWeapons/
+      1784: Resources/BalisticWeapons/
+      1792: Resources/BalisticWeapons/
+      1800: Resources/BalisticWeapons/
+      1808: Resources/BalisticWeapons/
+      1816: Resources/BalisticWeapons/
+      1824: Resources/BalisticWeapons/
+      1832: Resources/BalisticWeapons/
+      1840: Resources/BalisticWeapons/
+      1848: Resources/BalisticWeapons/
+      1856: Resources/BalisticWeapons/
+      1864: Resources/BalisticWeapons/
+      1872: Resources/BalisticWeapons/
+      1880: Resources/BalisticWeapons/
+      1888: Resources/BalisticWeapons/
+      1896: Resources/BalisticWeapons/
+      1904: Resources/BalisticWeapons/
+      1912: Resources/BalisticWeapons/
+      1920: Resources/BalisticWeapons/
+      1928: Resources/BalisticWeapons/
+      1936: Resources/BalisticWeapons/
+      1944: Resources/BalisticWeapons/
+      1952: Resources/BalisticWeapons/
+      1960: Resources/BalisticWeapons/
+      1968: Resources/BalisticWeapons/
+      1976: Resources/BalisticWeapons/
   - type: FLOOROB.PCK
     files:
       200:
