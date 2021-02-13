@@ -373,8 +373,8 @@ items:
      ToStun: 3.0
      ToWound: 0 
 
-  - &STR_AT_HEAT
-    type: STR_AT_HEAT
+  - &STR_CG_HEAT
+    type: STR_CG_HEAT
     power: 200 
     bulletSprite: 0
     hitSound: 0
@@ -387,8 +387,8 @@ items:
      ToArmorPre: 1
      FixRadius: 3
 
-  - &STR_AT_HE
-    type: STR_AT_HE
+  - &STR_CG_HE
+    type: STR_CG_HE
     power: 100 
     bulletSprite: 0
     hitSound: 0
@@ -1028,9 +1028,9 @@ items:
     weight: 2
     clipSize: 1 
     listOrder: 2000    
-  - type: STR_AT_HEAT_X1
+  - type: STR_CG_HEAT_X1
     categories: [STR_CLIPS]
-    refNode: *STR_AT_HEAT
+    refNode: *STR_CG_HEAT
     bigSprite: 576
     handSprite: 576
     floorSprite: 576
@@ -1041,9 +1041,9 @@ items:
     weight: 20
     clipSize: 1
     listOrder: 2000    
-  - type: STR_AT_HE_X1
+  - type: STR_CG_HE_X1
     categories: [STR_CLIPS]
-    refNode: *STR_AT_HE
+    refNode: *STR_CG_HE
     bigSprite: 584
     handSprite: 584
     floorSprite: 584
@@ -1892,7 +1892,7 @@ items:
     confAuto:
         shots: 5
         name: STR_FULL_AUTO
-        ammoSlot: 1
+        ammoSlot: 0
     tuAimed: 60
     tuSnap: 40
     tuAuto: 65
@@ -1930,7 +1930,7 @@ items:
     confAuto:
         shots: 5
         name: STR_FULL_AUTO
-        ammoSlot: 1
+        ammoSlot: 0
     tuAimed: 80
     tuSnap: 37
     tuAuto: 62
@@ -3446,7 +3446,7 @@ items:
         tuUnload: 22
     listOrder: 2100
     
-  - type: STR_AT_4
+  - type: STR_GUSTAF
     categories: [STR_FIREARMS,STR_ARTILLERY]
 #    requiresBuy:
     size: 1
@@ -3472,7 +3472,7 @@ items:
     invHeight: 3
     ammo:
        0:
-        compatibleAmmo: [STR_AT_HEAT_X1,STR_AT_HE_X1]
+        compatibleAmmo: [STR_CG_HEAT_X1,STR_CG_HE_X1]
         tuLoad: 50
         tuUnload: 25
     listOrder: 2100
@@ -3825,11 +3825,11 @@ extraSprites:
       552: Resources/BallisticWeapons/Ammo/Big40mmFragAmmo6.png
       560: Resources/BallisticWeapons/Ammo/Big40mmSmokeAmmo.png
       568: Resources/BallisticWeapons/Ammo/Big40mmNonLethalAmmo.png
-      576: Resources/BallisticWeapons/Ammo/
-      584: Resources/BallisticWeapons/Ammo/
-      592: Resources/BallisticWeapons/Ammo/
-      600: Resources/BallisticWeapons/Ammo/
-      608: Resources/BallisticWeapons/Ammo/BigRPGHERocket.png
+      576: Resources/BallisticWeapons/Ammo/BigCarlGustafM2HEATRound.png
+      584: Resources/BallisticWeapons/Ammo/BigCarlGustafM2HERound.png
+      592: Resources/BallisticWeapons/Ammo/BigRPGRocket.png
+#      600: Resources/BallisticWeapons/Ammo/
+#      608: Resources/BallisticWeapons/Ammo/
       616: Resources/BallisticWeapons/Pistols/BigP226nomag.png
       624: Resources/BallisticWeapons/Pistols/BigP226.png
       632: Resources/BallisticWeapons/Pistols/BigP226.png
@@ -3884,8 +3884,8 @@ extraSprites:
       1024: Resources/BallisticWeapons/Rifles/BigM4.png
       1032: Resources/BallisticWeapons/Rifles/BigM4SOPMODnomag.png
       1040: Resources/BallisticWeapons/Rifles/BigM4SOPMOD.png
-      1048: Resources/BallisticWeapons/Rifles/
-      1056: Resources/BallisticWeapons/Rifles/
+      1048: Resources/BallisticWeapons/Rifles/BigM4M320nomag.png
+      1056: Resources/BallisticWeapons/Rifles/BigM4M320.png
       1064: Resources/BallisticWeapons/Rifles/BigM4MASSnomag3.png
       1072: Resources/BallisticWeapons/Rifles/BigM4MASSnomag2.png
       1080: Resources/BallisticWeapons/Rifles/BigM4MASSnomag.png
@@ -3894,8 +3894,8 @@ extraSprites:
       1104: Resources/BallisticWeapons/Rifles/BigM4A1.png
       1112: Resources/BallisticWeapons/Rifles/BigM4A1SOPMODnomag.png
       1120: Resources/BallisticWeapons/Rifles/BigM4A1SOPMOD.png
-      1128: Resources/BallisticWeapons/Rifles/
-      1136: Resources/BallisticWeapons/Rifles/
+      1128: Resources/BallisticWeapons/Rifles/BigM4A1M320nomag.png
+      1136: Resources/BallisticWeapons/Rifles/BigM4A1M320.png
       1144: Resources/BallisticWeapons/Rifles/BigM4A1MASSnomag3.png
       1152: Resources/BallisticWeapons/Rifles/BigM4A1MASSnomag2.png
       1160: Resources/BallisticWeapons/Rifles/BigM4A1MASSnomag.png
@@ -3916,32 +3916,32 @@ extraSprites:
       1280: Resources/BallisticWeapons/Rifles/BigAK15SCOPED30.png
       1288: Resources/BallisticWeapons/Rifles/BigAK15SCOPED.png
       1296: Resources/BallisticWeapons/Rifles/BigAK15SCOPED75.png
-      1304: Resources/BallisticWeapons/Rifles/
-      1312: Resources/BallisticWeapons/Rifles/
-      1320: Resources/BallisticWeapons/Rifles/
-      1328: Resources/BallisticWeapons/Rifles/
-      1336: Resources/BallisticWeapons/Rifles/
-      1344: Resources/BallisticWeapons/Rifles/
-      1352: Resources/BallisticWeapons/Rifles/
-      1360: Resources/BallisticWeapons/Rifles/
-      1368: Resources/BallisticWeapons/Rifles/
-      1376: Resources/BallisticWeapons/Rifles/
+      1304: Resources/BallisticWeapons/Rifles/BigHK416nomag.png
+      1312: Resources/BallisticWeapons/Rifles/BigHK416.png
+      1320: Resources/BallisticWeapons/Rifles/BigHK416SOPMODnomag.png
+      1328: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
+      1336: Resources/BallisticWeapons/Rifles/BigHK416M320nomag.png
+      1344: Resources/BallisticWeapons/Rifles/BigHK416M320nomag.png
+      1352: Resources/BallisticWeapons/Rifles/BigHK416MASSnomag3.png
+      1360: Resources/BallisticWeapons/Rifles/BigHK416MASSnomag2.png
+      1368: Resources/BallisticWeapons/Rifles/BigHK416MASSnomag.png
+      1376: Resources/BallisticWeapons/Rifles/BigHK416MASS.png
       1384: Resources/BallisticWeapons/Rifles/BigFX05nomag.png
       1392: Resources/BallisticWeapons/Rifles/BigFX05_30.png
       1400: Resources/BallisticWeapons/Rifles/BigFX05Scopednomag.png
       1408: Resources/BallisticWeapons/Rifles/BigFX05Scoped_30.png
-      1416: Resources/BallisticWeapons/Rifles/
-      1424: Resources/BallisticWeapons/Rifles/
-      1432: Resources/BallisticWeapons/Rifles/
-      1440: Resources/BallisticWeapons/Rifles/
-      1448: Resources/BallisticWeapons/Rifles/
-      1456: Resources/BallisticWeapons/Rifles/
-      1464: Resources/BallisticWeapons/Rifles/
-      1472: Resources/BallisticWeapons/Rifles/
-      1480: Resources/BallisticWeapons/Rifles/
-      1488: Resources/BallisticWeapons/Rifles/
-      1496: Resources/BallisticWeapons/Rifles/
-      1504: Resources/BallisticWeapons/Rifles/
+      1416: Resources/BallisticWeapons/Rifles/BigSCAR-Lnomag.png
+      1424: Resources/BallisticWeapons/Rifles/BigSCAR-L.png
+      1432: Resources/BallisticWeapons/Rifles/BigSCAR-LSOPMODnomag.png
+      1440: Resources/BallisticWeapons/Rifles/BigSCAR-LSOPMOD.png
+      1448: Resources/BallisticWeapons/Rifles/BigSCAR-LGLnomag.png
+      1456: Resources/BallisticWeapons/Rifles/BigSCAR-LGL.png
+      1464: Resources/BallisticWeapons/Rifles/BigSCAR-Hnomag.png
+      1472: Resources/BallisticWeapons/Rifles/BigSCAR-H.png
+      1480: Resources/BallisticWeapons/Rifles/BigSCAR-HSOPMODnomag.png
+      1488: Resources/BallisticWeapons/Rifles/BigSCAR-HSOPMOD.png
+      1496: Resources/BallisticWeapons/Rifles/BigSCAR-HGLnomag.png
+      1504: Resources/BallisticWeapons/Rifles/BigSCAR-HGL.png
       1512: Resources/BallisticWeapons/Rifles/BigG11nomag.png
       1520: Resources/BallisticWeapons/Rifles/BigG11.png
       1528: Resources/BallisticWeapons/Rifles/BigSR3VikhrDeployednomag.png
@@ -3972,9 +3972,9 @@ extraSprites:
       1728: Resources/BallisticWeapons/Snipers/BigAWP.png
       1736: Resources/BallisticWeapons/Snipers/BigAIAWnomag.png
       1744: Resources/BallisticWeapons/Snipers/BigAIAW.png
-      1752: Resources/BallisticWeapons/Snipers/
-      1760: Resources/BallisticWeapons/Snipers/
-      1768: Resources/BallisticWeapons/Snipers/
+      1752: Resources/BallisticWeapons/Snipers/BigM82nomag.png
+      1760: Resources/BallisticWeapons/Snipers/BigM825.png
+      1768: Resources/BallisticWeapons/Snipers/BigM82.png
       1776: Resources/BallisticWeapons/Shotguns/BigSuperShorty.png
       1784: Resources/BallisticWeapons/Shotguns/BigSuperShortyextended.png
       1792: Resources/BallisticWeapons/Shotguns/BigRemingtonCombatShotgun.png
@@ -3997,68 +3997,68 @@ extraSprites:
       1928: Resources/BallisticWeapons/LMGs/BigMk48LMGDrum.png
       1936: Resources/BallisticWeapons/LMGs/Big6P41PechenegBullpupnomag.png
       1944: Resources/BallisticWeapons/LMGs/Big6P41PechenegBullpupDrum.png
-      1952: Resources/BallisticWeapons/Artillery/
-      1960: Resources/BallisticWeapons/Artillery/
-      1968: Resources/BallisticWeapons/Artillery/
-      1976: Resources/BallisticWeapons/Artillery/
-      1984: Resources/BallisticWeapons/Artillery/
+      1952: Resources/BallisticWeapons/Artillery/BigM320.png
+      1960: Resources/BallisticWeapons/Artillery/BigMGL.png
+      1968: Resources/BallisticWeapons/Artillery/BigCarlGustafM4.png
+      1976: Resources/BallisticWeapons/Artillery/BigRPGnomag.png
+      1984: Resources/BallisticWeapons/Artillery/BigRPG.png
       1992: Resources/BallisticWeapons/Snipers/BigTRGnomag.png
       2000: Resources/BallisticWeapons/Snipers/BigTRG.png
 
   - type: FLOOROB.PCK
     files:
-      200: Resources/BallisticWeapons/Ammo
-      208: Resources/BallisticWeapons/Ammo
-      216: Resources/BallisticWeapons/Ammo
-      224: Resources/BallisticWeapons/Ammo/Floor9mmPistolAmmo_x10.png
-      232: Resources/BallisticWeapons/Ammo/Floor9mmPistolAmmo_x20.png
-      240: Resources/BallisticWeapons/Ammo/Floor9mmPistolAmmo_x30.png
-      248: Resources/BallisticWeapons/Ammo/Floor9mmPistolAmmo_x40.png
+      200: Resources/BallisticWeapons/Ammo/Floor.png
+      208: Resources/BallisticWeapons/Ammo/Floor.png
+      216: Resources/BallisticWeapons/Ammo/Floor.png
+      224: Resources/BallisticWeapons/Ammo/Floor.png
+      232: Resources/BallisticWeapons/Ammo/Floor.png
+      240: Resources/BallisticWeapons/Ammo/Floor.png
+      248: Resources/BallisticWeapons/Ammo/Floor.png
       256: Resources/BallisticWeapons/Ammo/FloorFN57mm.png
-      264: Resources/BallisticWeapons/Ammo/Floor45PistolAmmo_x7.png
-      272: Resources/BallisticWeapons/Ammo/Floor45Ammo_x12.png
-      280: Resources/BallisticWeapons/Ammo/FloorG11Clip.png
-      288: Resources/BallisticWeapons/Ammo/Floor545RifleAmmo_x30.png
-      296: Resources/BallisticWeapons/Ammo/Floor545RifleAmmo_x45.png
-      304: Resources/BallisticWeapons/Ammo/
-      312: Resources/BallisticWeapons/Ammo/Floor556NATORifleAmmo_x30.png
-      320: Resources/BallisticWeapons/Ammo/
-      328: Resources/BallisticWeapons/Ammo/Floor556NATOLMGAmmo_x100.png
-      336: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x30.png
-      344: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x40.png
-      352: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x75.png
-      360: Resources/BallisticWeapons/Ammo/Floor762NATORifleAmmo_x5.png
-      368: Resources/BallisticWeapons/Ammo/Floor762NATORifleAmmo_x10.png
-      376: Resources/BallisticWeapons/Ammo/Floor762NATORifleAmmo_x20.png
-      384: Resources/BallisticWeapons/Ammo/Floor762NATORifleAmmo_x30.png
-      392: Resources/BallisticWeapons/Ammo/Floor762NATOLMGAmmo_x50.png
-      400: Resources/BallisticWeapons/Ammo/Floor762NATOLMGAmmo_x100.png
-      408: Resources/BallisticWeapons/Ammo/
-      416: Resources/BallisticWeapons/Ammo/Floor762mmRAmmo_x100.png
-      424: Resources/BallisticWeapons/Ammo/Floor9mmRifleAmmo_x10.png
-      432: Resources/BallisticWeapons/Ammo/Floor9mmRifleAmmo_x20.png
-      440: Resources/BallisticWeapons/Ammo/
-      448: Resources/BallisticWeapons/Ammo/
-      456: Resources/BallisticWeapons/Ammo/Floor50BMGAmmo_x10.png 
-      464: Resources/BallisticWeapons/Ammo/Floor12gaugex5.png
-      472: Resources/BallisticWeapons/Ammo/Floor12GaugeMag_x8.png
-      480: Resources/BallisticWeapons/Ammo/Floor23gauge_x20.png
-      488: Resources/BallisticWeapons/Ammo/Floor12GaugeDrum_x30.png
-      496: Resources/BallisticWeapons/Ammo/Floor12GaugeSlug_x8.png
-      504: Resources/BallisticWeapons/Ammo/Floor12GaugeNonLethalAmmo_x8.png
-      512: Resources/BallisticWeapons/Ammo/
-      520: Resources/BallisticWeapons/Ammo/
-      528: Resources/BallisticWeapons/Ammo/
-      536: Resources/BallisticWeapons/Ammo/
-      544: Resources/BallisticWeapons/Ammo/Floor40mmFragAmmo.png
-      552: Resources/BallisticWeapons/Ammo/Floor40mmFragAmmo6.png
-      560: Resources/BallisticWeapons/Ammo/Floor40mmSmokeAmmo.png
-      568: Resources/BallisticWeapons/Ammo/Floor40mmNonLethalAmmo.png
-      576: Resources/BallisticWeapons/Ammo/
-      584: Resources/BallisticWeapons/Ammo/
-      592: Resources/BallisticWeapons/Ammo/
-      600: Resources/BallisticWeapons/Ammo/
-      608: Resources/BallisticWeapons/Ammo/FloorRPGHERocket.png
+      264: Resources/BallisticWeapons/Ammo/Floor.png
+      272: Resources/BallisticWeapons/Ammo/Floor.png
+      280: Resources/BallisticWeapons/Ammo/Floor.png
+      288: Resources/BallisticWeapons/Ammo/Floor.png
+      296: Resources/BallisticWeapons/Ammo/Floor.png
+      304: Resources/BallisticWeapons/Ammo/Floor.png
+      312: Resources/BallisticWeapons/Ammo/Floor.png
+      320: Resources/BallisticWeapons/Ammo/Floor.png
+      328: Resources/BallisticWeapons/Ammo/Floor.png
+      336: Resources/BallisticWeapons/Ammo/Floor.png
+      344: Resources/BallisticWeapons/Ammo/Floor.png
+      352: Resources/BallisticWeapons/Ammo/Floor.png
+      360: Resources/BallisticWeapons/Ammo/Floor.png
+      368: Resources/BallisticWeapons/Ammo/Floor.png
+      376: Resources/BallisticWeapons/Ammo/Floor.png
+      384: Resources/BallisticWeapons/Ammo/Floor.png
+      392: Resources/BallisticWeapons/Ammo/Floor.png
+      400: Resources/BallisticWeapons/Ammo/Floor.png
+      408: Resources/BallisticWeapons/Ammo/Floor.png
+      416: Resources/BallisticWeapons/Ammo/Floor.png
+      424: Resources/BallisticWeapons/Ammo/Floor.png
+      432: Resources/BallisticWeapons/Ammo/Floor.png
+      440: Resources/BallisticWeapons/Ammo/Floor.png
+      448: Resources/BallisticWeapons/Ammo/Floor.png
+      456: Resources/BallisticWeapons/Ammo/Floor.png 
+      464: Resources/BallisticWeapons/Ammo/Floor.png
+      472: Resources/BallisticWeapons/Ammo/Floor.png
+      480: Resources/BallisticWeapons/Ammo/Floorob_G_Shotgun_Clip.png
+      488: Resources/BallisticWeapons/Ammo/Floor.png
+      496: Resources/BallisticWeapons/Ammo/Floor.png
+      504: Resources/BallisticWeapons/Ammo/Floor.png
+      512: Resources/BallisticWeapons/Ammo/Floor.png
+      520: Resources/BallisticWeapons/Ammo/Floor.png
+      528: Resources/BallisticWeapons/Ammo/Floor.png
+      536: Resources/BallisticWeapons/Ammo/Floor.png
+      544: Resources/BallisticWeapons/Ammo/Floor.png
+      552: Resources/BallisticWeapons/Ammo/Floor.png
+      560: Resources/BallisticWeapons/Ammo/Floor.png
+      568: Resources/BallisticWeapons/Ammo/Floor.png
+      576: Resources/BallisticWeapons/Ammo/Floor.png
+      584: Resources/BallisticWeapons/Ammo/Floor.png
+      592: Resources/BallisticWeapons/Ammo/Floor.png
+      600: Resources/BallisticWeapons/Ammo/Floor.png
+      608: Resources/BallisticWeapons/Ammo/Floor.png
       616: Resources/BallisticWeapons/Pistols/FloorP226.png
       624: Resources/BallisticWeapons/Pistols/FloorP226.png
       632: Resources/BallisticWeapons/Pistols/FloorP226.png
@@ -4239,58 +4239,58 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      200: Resources/BallisticWeapons/Ammo
-      208: Resources/BallisticWeapons/Ammo
-      216: Resources/BallisticWeapons/Ammo
-      224: Resources/BallisticWeapons/Ammo/Hand9mmPistolAmmo_x10.png
-      232: Resources/BallisticWeapons/Ammo/Hand9mmPistolAmmo_x20.png
-      240: Resources/BallisticWeapons/Ammo/Hand9mmPistolAmmo_x30.png
-      248: Resources/BallisticWeapons/Ammo/Hand9mmPistolAmmo_x40.png
+      200: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      208: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      216: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      224: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      232: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      240: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      248: Resources/BallisticWeapons/Ammo/HandAmmo.png
       256: Resources/BallisticWeapons/Ammo/HandFN57mm.png
-      264: Resources/BallisticWeapons/Ammo/Hand45PistolAmmo_x7.png
-      272: Resources/BallisticWeapons/Ammo/Hand45Ammo_x12.png
-      280: Resources/BallisticWeapons/Ammo/HandG11Clip.png
-      288: Resources/BallisticWeapons/Ammo/Hand545RifleAmmo_x30.png
-      296: Resources/BallisticWeapons/Ammo/Hand545RifleAmmo_x45.png
-      304: Resources/BallisticWeapons/Ammo/
-      312: Resources/BallisticWeapons/Ammo/Hand556NATORifleAmmo_x30.png
-      320: Resources/BallisticWeapons/Ammo/
-      328: Resources/BallisticWeapons/Ammo/Hand556NATOLMGAmmo_x100.png
-      336: Resources/BallisticWeapons/Ammo/Hand762SovietRifleAmmo_x30.png
-      344: Resources/BallisticWeapons/Ammo/Hand762SovietRifleAmmo_x40.png
-      352: Resources/BallisticWeapons/Ammo/Hand762SovietRifleAmmo_x75.png
-      360: Resources/BallisticWeapons/Ammo/Hand762NATORifleAmmo_x5.png
-      368: Resources/BallisticWeapons/Ammo/Hand762NATORifleAmmo_x10.png
-      376: Resources/BallisticWeapons/Ammo/Hand762NATORifleAmmo_x20.png
-      384: Resources/BallisticWeapons/Ammo/Hand762NATORifleAmmo_x30.png
-      392: Resources/BallisticWeapons/Ammo/Hand762NATOLMGAmmo_x50.png
-      400: Resources/BallisticWeapons/Ammo/Hand762NATOLMGAmmo_x100.png
-      408: Resources/BallisticWeapons/Ammo/
-      416: Resources/BallisticWeapons/Ammo/Hand762mmRAmmo_x100.png
-      424: Resources/BallisticWeapons/Ammo/Hand9mmRifleAmmo_x10.png
-      432: Resources/BallisticWeapons/Ammo/Hand9mmRifleAmmo_x20.png
-      440: Resources/BallisticWeapons/Ammo/
-      448: Resources/BallisticWeapons/Ammo/
-      456: Resources/BallisticWeapons/Ammo/Hand50BMGAmmo_x10.png 
-      464: Resources/BallisticWeapons/Ammo/Hand12gaugex5.png
-      472: Resources/BallisticWeapons/Ammo/Hand12GaugeMag_x8.png
-      480: Resources/BallisticWeapons/Ammo/Hand23gauge_x20.png
-      488: Resources/BallisticWeapons/Ammo/Hand12GaugeDrum_x30.png
-      496: Resources/BallisticWeapons/Ammo/Hand12GaugeSlug_x8.png
-      504: Resources/BallisticWeapons/Ammo/Hand12GaugeNonLethalAmmo_x8.png
-      512: Resources/BallisticWeapons/Ammo/
-      520: Resources/BallisticWeapons/Ammo/
-      528: Resources/BallisticWeapons/Ammo/
-      536: Resources/BallisticWeapons/Ammo/
-      544: Resources/BallisticWeapons/Ammo/Hand40mmFragAmmo.png
-      552: Resources/BallisticWeapons/Ammo/Hand40mmFragAmmo6.png
-      560: Resources/BallisticWeapons/Ammo/Hand40mmSmokeAmmo.png
-      568: Resources/BallisticWeapons/Ammo/Hand40mmNonLethalAmmo.png
-      576: Resources/BallisticWeapons/Ammo/
-      584: Resources/BallisticWeapons/Ammo/
-      592: Resources/BallisticWeapons/Ammo/
-      600: Resources/BallisticWeapons/Ammo/
-      608: Resources/BallisticWeapons/Ammo/HandRPGHERocket.png
+      264: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      272: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      280: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      288: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      296: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      304: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      312: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      320: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      328: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      336: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      344: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      352: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      360: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      368: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      376: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      384: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      392: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      400: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      408: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      416: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      424: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      432: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      440: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      448: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      456: Resources/BallisticWeapons/Ammo/HandAmmo.png 
+      464: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      472: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      480: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      488: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      496: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      504: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      512: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      520: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      528: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      536: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      544: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      552: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      560: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      568: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      576: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      584: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      592: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      600: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      608: Resources/BallisticWeapons/Ammo/HandAmmo.png
       616: Resources/BallisticWeapons/Pistols/HandP226.png
       624: Resources/BallisticWeapons/Pistols/HandP226.png
       632: Resources/BallisticWeapons/Pistols/HandP226.png
