@@ -890,8 +890,8 @@ items:
   - type: STR_CORPSE_DEFAULT
     name: STR_CORPSE
     weight: 24
-    bigSprite: 504
-    floorSprite: 504
+    bigSprite: 3000
+    floorSprite: 3000
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -900,8 +900,8 @@ items:
   - type: STR_CORPSE_DEFAULT_VEST
     name: STR_CORPSE
     weight: 24
-    bigSprite: 505
-    floorSprite: 505
+    bigSprite: 3001
+    floorSprite: 3001
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -910,8 +910,8 @@ items:
   - type: STR_CORPSE_DEFAULT_NV
     name: STR_CORPSE
     weight: 24
-    bigSprite: 506
-    floorSprite: 506
+    bigSprite: 3002
+    floorSprite: 3002
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -920,8 +920,8 @@ items:
   - type: STR_CORPSE_DEFAULT_ADVNV
     name: STR_CORPSE
     weight: 24
-    bigSprite: 507
-    floorSprite: 507
+    bigSprite: 3003
+    floorSprite: 3003
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1030,10 +1030,10 @@ extraSprites:
       0: Resources/SoldiersAndArmors/Mercenary/MercenarySpritesheetNoBP.png
   - type: BIGOBS.PCK
     files:
-      504: Resources/SoldiersAndArmors/Mercenary/MERCENARY_CORPSE_BIGOB.png
+      3000: Resources/SoldiersAndArmors/Mercenary/MERCENARY_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      504: Resources/SoldiersAndArmors/Mercenary/MERCENARY_CORPSE_FLOOROB.png
+      3000: Resources/SoldiersAndArmors/Mercenary/MERCENARY_CORPSE_FLOOROB.png
 
   - type: BKINVF0.SPK
     singleImage: true
@@ -1085,10 +1085,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      505: Resources/SoldiersAndArmors/BeretKevlar/Corpse/Vest_Inventory_Corpse.gif
+      3001: Resources/SoldiersAndArmors/BeretKevlar/Corpse/Vest_Inventory_Corpse.gif
   - type: FLOOROB.PCK
     files:
-      505: Resources/SoldiersAndArmors/BeretKevlar/Corpse/Vest_Corpse.gif
+      3001: Resources/SoldiersAndArmors/BeretKevlar/Corpse/Vest_Corpse.gif
 
   - type: BOINVF0.SPK
     singleImage: true
@@ -1140,10 +1140,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      506: Resources/SoldiersAndArmors/BlackOps/Corpse/Vest_Inventory_Corpse_Black.gif
+      3002: Resources/SoldiersAndArmors/BlackOps/Corpse/Vest_Inventory_Corpse_Black.gif
   - type: FLOOROB.PCK
     files:
-      506: Resources/SoldiersAndArmors/BlackOps/Corpse/Vest_Corpse_Black.gif
+      3002: Resources/SoldiersAndArmors/BlackOps/Corpse/Vest_Corpse_Black.gif
 
   - type: DADVNVINVF0.SPK
     singleImage: true
@@ -1195,10 +1195,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      507: Resources/SoldiersAndArmors/DefaultADVNV/Corpse/XOps_Inventory_Corpse_Black.gif
+      3003: Resources/SoldiersAndArmors/DefaultADVNV/Corpse/XOps_Inventory_Corpse_Black.gif
   - type: FLOOROB.PCK
     files:
-      507: Resources/SoldiersAndArmors/DefaultADVNV/Corpse/XOps_Corpse_Black.gif
+      3003: Resources/SoldiersAndArmors/DefaultADVNV/Corpse/XOps_Corpse_Black.gif
 ########################################
 ######### NATO DELTA ARMOR #############
 ######################################

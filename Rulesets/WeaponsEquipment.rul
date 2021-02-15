@@ -3740,8 +3740,9 @@ items:
     weight: 10
     costBuy: 5000
     costSell: 3000
-    bigSprite: 179
-    handSprite: 796
+    bigSprite: 2500
+    handSprite: 2500
+    floorSprite: 2500
     defaultInventorySlot: STR_LEFT_HAND
     flatRate: true
     battleType: 3
@@ -3778,9 +3779,9 @@ extraSprites:
 #########################################
   - type: BIGOBS.PCK
     files:
-      200: Resources/BallisticWeapons/Ammo
-      208: Resources/BallisticWeapons/Ammo
-      216: Resources/BallisticWeapons/Ammo
+      200: Resources/BallisticWeapons/Ammo/BigMakarov_x10.png
+      208: Resources/BallisticWeapons/Ammo/BigMakarov_x20.png
+      216: Resources/BallisticWeapons/Ammo/BigMakarov_x30.png
       224: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x10.png
       232: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x20.png
       240: Resources/BallisticWeapons/Ammo/Big9mmPistolAmmo_x30.png
@@ -3791,9 +3792,9 @@ extraSprites:
       280: Resources/BallisticWeapons/Ammo/BigG11Clip.png
       288: Resources/BallisticWeapons/Ammo/Big545RifleAmmo_x30.png
       296: Resources/BallisticWeapons/Ammo/Big545RifleAmmo_x45.png
-      304: Resources/BallisticWeapons/Ammo/
+      304: Resources/BallisticWeapons/Ammo/Big545RifleAmmo_x60.png
       312: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x30.png
-      320: Resources/BallisticWeapons/Ammo/
+      320: Resources/BallisticWeapons/Ammo/Big556NATOLMGAmmo_x50.png
       328: Resources/BallisticWeapons/Ammo/Big556NATOLMGAmmo_x100.png
       336: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x30.png
       344: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x40.png
@@ -3801,15 +3802,15 @@ extraSprites:
       360: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x5.png
       368: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x10.png
       376: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x20.png
-      384: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x30.png
+#      384: Resources/BallisticWeapons/Ammo/Big762NATORifleAmmo_x30.png
       392: Resources/BallisticWeapons/Ammo/Big762NATOLMGAmmo_x50.png
       400: Resources/BallisticWeapons/Ammo/Big762NATOLMGAmmo_x100.png
-      408: Resources/BallisticWeapons/Ammo/
+      408: Resources/BallisticWeapons/Ammo/Big762mmRAmmo_x50.png
       416: Resources/BallisticWeapons/Ammo/Big762mmRAmmo_x100.png
       424: Resources/BallisticWeapons/Ammo/Big9mmRifleAmmo_x10.png
       432: Resources/BallisticWeapons/Ammo/Big9mmRifleAmmo_x20.png
-      440: Resources/BallisticWeapons/Ammo/
-      448: Resources/BallisticWeapons/Ammo/
+      440: Resources/BallisticWeapons/Ammo/Big338Ammo.png
+      448: Resources/BallisticWeapons/Ammo/Big50BMGAmmo_x5.png 
       456: Resources/BallisticWeapons/Ammo/Big50BMGAmmo_x10.png 
       464: Resources/BallisticWeapons/Ammo/Big12gaugex5.png
       472: Resources/BallisticWeapons/Ammo/Big12GaugeMag_x8.png
@@ -3817,10 +3818,10 @@ extraSprites:
       488: Resources/BallisticWeapons/Ammo/Big12GaugeDrum_x30.png
       496: Resources/BallisticWeapons/Ammo/Big12GaugeSlug_x8.png
       504: Resources/BallisticWeapons/Ammo/Big12GaugeNonLethalAmmo_x8.png
-      512: Resources/BallisticWeapons/Ammo/
-      520: Resources/BallisticWeapons/Ammo/
-      528: Resources/BallisticWeapons/Ammo/
-      536: Resources/BallisticWeapons/Ammo/
+      512: Resources/BallisticWeapons/Ammo/BigKS23Sharpnel25Ammo_x3.png
+      520: Resources/BallisticWeapons/Ammo/BigKS23BarrikadeAmmo_x3.png
+      528: Resources/BallisticWeapons/Ammo/BigKS23VolnaAmmo_x3.png
+      536: Resources/BallisticWeapons/Ammo/BigKS23ZevadaAmmo_x3.png
       544: Resources/BallisticWeapons/Ammo/Big40mmFragAmmo.png
       552: Resources/BallisticWeapons/Ammo/Big40mmFragAmmo6.png
       560: Resources/BallisticWeapons/Ammo/Big40mmSmokeAmmo.png
@@ -4004,6 +4005,7 @@ extraSprites:
       1984: Resources/BallisticWeapons/Artillery/BigRPG.png
       1992: Resources/BallisticWeapons/Snipers/BigTRGnomag.png
       2000: Resources/BallisticWeapons/Snipers/BigTRG.png
+      2500: Resources/SoldiersAndArmors/RiotArmor/BigRiotShield.png
 
   - type: FLOOROB.PCK
     files:
@@ -4071,7 +4073,7 @@ extraSprites:
       688: Resources/BallisticWeapons/Pistols/FloorMK23SOCOM.png
       696: Resources/BallisticWeapons/Pistols/FloorMakarov.png
       704: Resources/BallisticWeapons/Pistols/FloorMakarov.png
-      712: Resources/BallisticWeapons/SMGs/FloorTec9nomag.png
+      712: Resources/BallisticWeapons/SMGs/FloorTec9.png
       720: Resources/BallisticWeapons/SMGs/FloorTec9.png
       728: Resources/BallisticWeapons/SMGs/FloorTec9.png
       736: Resources/BallisticWeapons/SMGs/FloorTec9.png
@@ -4086,7 +4088,7 @@ extraSprites:
       808: Resources/BallisticWeapons/SMGs/FloorMPX.png
       816: Resources/BallisticWeapons/SMGs/FloorMPX.png
       824: Resources/BallisticWeapons/SMGs/FloorMPX.png
-      832: Resources/BallisticWeapons/SMGs/HFloorMPX.png
+      832: Resources/BallisticWeapons/SMGs/FloorMPX.png
       840: Resources/BallisticWeapons/SMGs/FloorMPX.png
       848: Resources/BallisticWeapons/SMGs/FloorMPX.png
       856: Resources/BallisticWeapons/SMGs/FloorP90.png
@@ -4103,32 +4105,32 @@ extraSprites:
       944: Resources/BallisticWeapons/Rifles/FloorTAVOR.png
       952: Resources/BallisticWeapons/Rifles/FloorTAVORM203.png
       960: Resources/BallisticWeapons/Rifles/FloorTAVORM203.png
-      968: Resources/BallisticWeapons/Rifles/FloorTAVORSCOPE.png
-      976: Resources/BallisticWeapons/Rifles/FloorTAVORSCOPE.png
+      968: Resources/BallisticWeapons/Rifles/FloorTAVORScoped.png
+      976: Resources/BallisticWeapons/Rifles/FloorTAVORScoped.png
       984: Resources/BallisticWeapons/Rifles/FloorTAVOR95X.png
       992: Resources/BallisticWeapons/Rifles/FloorTAVOR95X.png
-      1000: Resources/BallisticWeapons/Rifles/FloorTAVOR95XSCOPED.png
-      1008: Resources/BallisticWeapons/Rifles/FloorTAVOR95XSCOPED.png
+      1000: Resources/BallisticWeapons/Rifles/FloorTAVOR95XScoped.png
+      1008: Resources/BallisticWeapons/Rifles/FloorTAVOR95XScoped.png
       1016: Resources/BallisticWeapons/Rifles/FloorM4.png
       1024: Resources/BallisticWeapons/Rifles/FloorM4.png
       1032: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
       1040: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
-      1048: Resources/BallisticWeapons/Rifles/
-      1056: Resources/BallisticWeapons/Rifles/
+      1048: Resources/BallisticWeapons/Rifles/FloorM4M320.png
+      1056: Resources/BallisticWeapons/Rifles/FloorM4M320.png
       1064: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1072: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1080: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1088: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1096: Resources/BallisticWeapons/Rifles/FloorM4A1.png
-      1104: Resources/BallisticWeapons/Rifles/FloorM4A1.png
-      1112: Resources/BallisticWeapons/Rifles/FloorM4A1SOPMOD.png
-      1120: Resources/BallisticWeapons/Rifles/FloorM4A1SOPMOD.png
-      1128: Resources/BallisticWeapons/Rifles/
-      1136: Resources/BallisticWeapons/Rifles/
-      1144: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
-      1152: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
-      1160: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
-      1168: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
+      1096: Resources/BallisticWeapons/Rifles/FloorM4.png
+      1104: Resources/BallisticWeapons/Rifles/FloorM4.png
+      1112: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
+      1120: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
+      1128: Resources/BallisticWeapons/Rifles/FloorM4M320.png
+      1136: Resources/BallisticWeapons/Rifles/FloorM4M320.png
+      1144: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
+      1152: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
+      1160: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
+      1168: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1176: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1184: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1192: Resources/BallisticWeapons/Rifles/FloorAK12.png
@@ -4145,32 +4147,32 @@ extraSprites:
       1280: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1288: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1296: Resources/BallisticWeapons/Rifles/FloorAK12.png
-      1304: Resources/BallisticWeapons/Rifles/
-      1312: Resources/BallisticWeapons/Rifles/
-      1320: Resources/BallisticWeapons/Rifles/
-      1328: Resources/BallisticWeapons/Rifles/
-      1336: Resources/BallisticWeapons/Rifles/
-      1344: Resources/BallisticWeapons/Rifles/
-      1352: Resources/BallisticWeapons/Rifles/
-      1360: Resources/BallisticWeapons/Rifles/
-      1368: Resources/BallisticWeapons/Rifles/
-      1376: Resources/BallisticWeapons/Rifles/
+      1304: Resources/BallisticWeapons/Rifles/FloorHK416.png
+      1312: Resources/BallisticWeapons/Rifles/FloorHK416.png
+      1320: Resources/BallisticWeapons/Rifles/FloorHK416SOPMOD.png
+      1328: Resources/BallisticWeapons/Rifles/FloorHK416SOPMOD.png
+      1336: Resources/BallisticWeapons/Rifles/FloorHK416M320.png
+      1344: Resources/BallisticWeapons/Rifles/FloorHK416M320.png
+      1352: Resources/BallisticWeapons/Rifles/FloorHK416MASS.png
+      1360: Resources/BallisticWeapons/Rifles/FloorHK416MASS.png
+      1368: Resources/BallisticWeapons/Rifles/FloorHK416MASS.png
+      1376: Resources/BallisticWeapons/Rifles/FloorHK416MASS.png
       1384: Resources/BallisticWeapons/Rifles/FloorFX05.png
       1392: Resources/BallisticWeapons/Rifles/FloorFX05.png
       1400: Resources/BallisticWeapons/Rifles/FloorFX05.png
       1408: Resources/BallisticWeapons/Rifles/FloorFX05.png
-      1416: Resources/BallisticWeapons/Rifles/
-      1424: Resources/BallisticWeapons/Rifles/
-      1432: Resources/BallisticWeapons/Rifles/
-      1440: Resources/BallisticWeapons/Rifles/
-      1448: Resources/BallisticWeapons/Rifles/
-      1456: Resources/BallisticWeapons/Rifles/
-      1464: Resources/BallisticWeapons/Rifles/
-      1472: Resources/BallisticWeapons/Rifles/
-      1480: Resources/BallisticWeapons/Rifles/
-      1488: Resources/BallisticWeapons/Rifles/
-      1496: Resources/BallisticWeapons/Rifles/
-      1504: Resources/BallisticWeapons/Rifles/
+      1416: Resources/BallisticWeapons/Rifles/FloorSCAR.png
+      1424: Resources/BallisticWeapons/Rifles/FloorSCAR.png
+      1432: Resources/BallisticWeapons/Rifles/FloorSCARSOPMOD.png
+      1440: Resources/BallisticWeapons/Rifles/FloorSCARSOPMOD.png
+      1448: Resources/BallisticWeapons/Rifles/FloorSCARGL.png
+      1456: Resources/BallisticWeapons/Rifles/FloorSCARGL.png
+      1464: Resources/BallisticWeapons/Rifles/FloorSCAR.png
+      1472: Resources/BallisticWeapons/Rifles/FloorSCAR.png
+      1480: Resources/BallisticWeapons/Rifles/FloorSCARSOPMOD.png
+      1488: Resources/BallisticWeapons/Rifles/FloorSCARSOPMOD.png
+      1496: Resources/BallisticWeapons/Rifles/FloorSCARGL.png
+      1504: Resources/BallisticWeapons/Rifles/FloorSCARGL.png
       1512: Resources/BallisticWeapons/Rifles/FloorG11.png
       1520: Resources/BallisticWeapons/Rifles/FloorG11.png
       1528: Resources/BallisticWeapons/Rifles/FloorSR3VikhrDeployed.png
@@ -4201,9 +4203,9 @@ extraSprites:
       1728: Resources/BallisticWeapons/Snipers/FloorAWP.png
       1736: Resources/BallisticWeapons/Snipers/FloorAIAW.png
       1744: Resources/BallisticWeapons/Snipers/FloorAIAW.png
-      1752: Resources/BallisticWeapons/Snipers/
-      1760: Resources/BallisticWeapons/Snipers/
-      1768: Resources/BallisticWeapons/Snipers/
+      1752: Resources/BallisticWeapons/Snipers/FloorM82.png
+      1760: Resources/BallisticWeapons/Snipers/FloorM82.png
+      1768: Resources/BallisticWeapons/Snipers/FloorM82.png
       1776: Resources/BallisticWeapons/Shotguns/FloorSuperShorty.png
       1784: Resources/BallisticWeapons/Shotguns/FloorSuperShorty.png
       1792: Resources/BallisticWeapons/Shotguns/FloorRemingtonCombatShotgun.png
@@ -4226,13 +4228,14 @@ extraSprites:
       1928: Resources/BallisticWeapons/LMGs/FloorMk48LMG.png
       1936: Resources/BallisticWeapons/LMGs/Floor6P41PechenegBullpup.png
       1944: Resources/BallisticWeapons/LMGs/Floor6P41PechenegBullpup.png
-      1952: Resources/BallisticWeapons/Artillery/
-      1960: Resources/BallisticWeapons/Artillery/
-      1968: Resources/BallisticWeapons/Artillery/
-      1976: Resources/BallisticWeapons/Artillery/
-      1984: Resources/BallisticWeapons/Artillery/
-      1992: Resources/BallisticWeapons/Snipers/FloorTRGnomag.png
+      1952: Resources/BallisticWeapons/Artillery/FloorM320.png
+      1960: Resources/BallisticWeapons/Artillery/FloorMGL.png
+      1968: Resources/BallisticWeapons/Artillery/FloorCarlGustafM4.png
+      1976: Resources/BallisticWeapons/Artillery/FloorRPG.png
+      1984: Resources/BallisticWeapons/Artillery/FloorRPG.png
+      1992: Resources/BallisticWeapons/Snipers/FloorTRG.png
       2000: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      2500: Resources/SoldiersAndArmors/RiotArmor/FloorRiotShield.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -4303,7 +4306,7 @@ extraSprites:
       688: Resources/BallisticWeapons/Pistols/HandMK23SOCOM.png
       696: Resources/BallisticWeapons/Pistols/HandMakarov.png
       704: Resources/BallisticWeapons/Pistols/HandMakarov.png
-      712: Resources/BallisticWeapons/SMGs/HandTec9nomag.png
+      712: Resources/BallisticWeapons/SMGs/HandTec9.png
       720: Resources/BallisticWeapons/SMGs/HandTec9.png
       728: Resources/BallisticWeapons/SMGs/HandTec9.png
       736: Resources/BallisticWeapons/SMGs/HandTec9.png
@@ -4318,7 +4321,7 @@ extraSprites:
       808: Resources/BallisticWeapons/SMGs/HandMPX.png
       816: Resources/BallisticWeapons/SMGs/HandMPX.png
       824: Resources/BallisticWeapons/SMGs/HandMPX.png
-      832: Resources/BallisticWeapons/SMGs/HHandMPX.png
+      832: Resources/BallisticWeapons/SMGs/HandMPX.png
       840: Resources/BallisticWeapons/SMGs/HandMPX.png
       848: Resources/BallisticWeapons/SMGs/HandMPX.png
       856: Resources/BallisticWeapons/SMGs/HandP90.png
@@ -4335,32 +4338,32 @@ extraSprites:
       944: Resources/BallisticWeapons/Rifles/HandTAVOR.png
       952: Resources/BallisticWeapons/Rifles/HandTAVORM203.png
       960: Resources/BallisticWeapons/Rifles/HandTAVORM203.png
-      968: Resources/BallisticWeapons/Rifles/HandTAVORSCOPE.png
-      976: Resources/BallisticWeapons/Rifles/HandTAVORSCOPE.png
+      968: Resources/BallisticWeapons/Rifles/HandTAVORScoped.png
+      976: Resources/BallisticWeapons/Rifles/HandTAVORScoped.png
       984: Resources/BallisticWeapons/Rifles/HandTAVOR95X.png
       992: Resources/BallisticWeapons/Rifles/HandTAVOR95X.png
-      1000: Resources/BallisticWeapons/Rifles/HandTAVOR95XSCOPED.png
-      1008: Resources/BallisticWeapons/Rifles/HandTAVOR95XSCOPED.png
+      1000: Resources/BallisticWeapons/Rifles/HandTAVOR95XScoped.png
+      1008: Resources/BallisticWeapons/Rifles/HandTAVOR95XScoped.png
       1016: Resources/BallisticWeapons/Rifles/HandM4.png
       1024: Resources/BallisticWeapons/Rifles/HandM4.png
       1032: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
       1040: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
-      1048: Resources/BallisticWeapons/Rifles/
-      1056: Resources/BallisticWeapons/Rifles/
+      1048: Resources/BallisticWeapons/Rifles/HandM4M320.png
+      1056: Resources/BallisticWeapons/Rifles/HandM4M320.png
       1064: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1072: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1080: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1088: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1096: Resources/BallisticWeapons/Rifles/HandM4A1.png
-      1104: Resources/BallisticWeapons/Rifles/HandM4A1.png
-      1112: Resources/BallisticWeapons/Rifles/HandM4A1SOPMOD.png
-      1120: Resources/BallisticWeapons/Rifles/HandM4A1SOPMOD.png
-      1128: Resources/BallisticWeapons/Rifles/
-      1136: Resources/BallisticWeapons/Rifles/
-      1144: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
-      1152: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
-      1160: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
-      1168: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
+      1096: Resources/BallisticWeapons/Rifles/HandM4.png
+      1104: Resources/BallisticWeapons/Rifles/HandM4.png
+      1112: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
+      1120: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
+      1128: Resources/BallisticWeapons/Rifles/HandM4M320.png
+      1136: Resources/BallisticWeapons/Rifles/HandM4M320.png
+      1144: Resources/BallisticWeapons/Rifles/HandM4MASS.png
+      1152: Resources/BallisticWeapons/Rifles/HandM4MASS.png
+      1160: Resources/BallisticWeapons/Rifles/HandM4MASS.png
+      1168: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1176: Resources/BallisticWeapons/Rifles/HandAK12.png
       1184: Resources/BallisticWeapons/Rifles/HandAK12.png
       1192: Resources/BallisticWeapons/Rifles/HandAK12.png
@@ -4377,32 +4380,32 @@ extraSprites:
       1280: Resources/BallisticWeapons/Rifles/HandAK12.png
       1288: Resources/BallisticWeapons/Rifles/HandAK12.png
       1296: Resources/BallisticWeapons/Rifles/HandAK12.png
-      1304: Resources/BallisticWeapons/Rifles/
-      1312: Resources/BallisticWeapons/Rifles/
-      1320: Resources/BallisticWeapons/Rifles/
-      1328: Resources/BallisticWeapons/Rifles/
-      1336: Resources/BallisticWeapons/Rifles/
-      1344: Resources/BallisticWeapons/Rifles/
-      1352: Resources/BallisticWeapons/Rifles/
-      1360: Resources/BallisticWeapons/Rifles/
-      1368: Resources/BallisticWeapons/Rifles/
-      1376: Resources/BallisticWeapons/Rifles/
+      1304: Resources/BallisticWeapons/Rifles/HandHK416.png
+      1312: Resources/BallisticWeapons/Rifles/HandHK416.png
+      1320: Resources/BallisticWeapons/Rifles/HandHK416SOPMOD.png
+      1328: Resources/BallisticWeapons/Rifles/HandHK416SOPMOD.png
+      1336: Resources/BallisticWeapons/Rifles/HandHK416M320.png
+      1344: Resources/BallisticWeapons/Rifles/HandHK416M320.png
+      1352: Resources/BallisticWeapons/Rifles/HandHK416MASS.png
+      1360: Resources/BallisticWeapons/Rifles/HandHK416MASS.png
+      1368: Resources/BallisticWeapons/Rifles/HandHK416MASS.png
+      1376: Resources/BallisticWeapons/Rifles/HandHK416MASS.png
       1384: Resources/BallisticWeapons/Rifles/HandFX05.png
       1392: Resources/BallisticWeapons/Rifles/HandFX05.png
       1400: Resources/BallisticWeapons/Rifles/HandFX05.png
       1408: Resources/BallisticWeapons/Rifles/HandFX05.png
-      1416: Resources/BallisticWeapons/Rifles/
-      1424: Resources/BallisticWeapons/Rifles/
-      1432: Resources/BallisticWeapons/Rifles/
-      1440: Resources/BallisticWeapons/Rifles/
-      1448: Resources/BallisticWeapons/Rifles/
-      1456: Resources/BallisticWeapons/Rifles/
-      1464: Resources/BallisticWeapons/Rifles/
-      1472: Resources/BallisticWeapons/Rifles/
-      1480: Resources/BallisticWeapons/Rifles/
-      1488: Resources/BallisticWeapons/Rifles/
-      1496: Resources/BallisticWeapons/Rifles/
-      1504: Resources/BallisticWeapons/Rifles/
+      1416: Resources/BallisticWeapons/Rifles/HandSCAR.png
+      1424: Resources/BallisticWeapons/Rifles/HandSCAR.png
+      1432: Resources/BallisticWeapons/Rifles/HandSCARSOPMOD.png
+      1440: Resources/BallisticWeapons/Rifles/HandSCARSOPMOD.png
+      1448: Resources/BallisticWeapons/Rifles/HandSCARGL.png
+      1456: Resources/BallisticWeapons/Rifles/HandSCARGL.png
+      1464: Resources/BallisticWeapons/Rifles/HandSCAR.png
+      1472: Resources/BallisticWeapons/Rifles/HandSCAR.png
+      1480: Resources/BallisticWeapons/Rifles/HandSCARSOPMOD.png
+      1488: Resources/BallisticWeapons/Rifles/HandSCARSOPMOD.png
+      1496: Resources/BallisticWeapons/Rifles/HandSCARGL.png
+      1504: Resources/BallisticWeapons/Rifles/HandSCARGL.png
       1512: Resources/BallisticWeapons/Rifles/HandG11.png
       1520: Resources/BallisticWeapons/Rifles/HandG11.png
       1528: Resources/BallisticWeapons/Rifles/HandSR3VikhrDeployed.png
@@ -4433,9 +4436,9 @@ extraSprites:
       1728: Resources/BallisticWeapons/Snipers/HandAWP.png
       1736: Resources/BallisticWeapons/Snipers/HandAIAW.png
       1744: Resources/BallisticWeapons/Snipers/HandAIAW.png
-      1752: Resources/BallisticWeapons/Snipers/
-      1760: Resources/BallisticWeapons/Snipers/
-      1768: Resources/BallisticWeapons/Snipers/
+      1752: Resources/BallisticWeapons/Snipers/HandM82.png
+      1760: Resources/BallisticWeapons/Snipers/HandM82.png
+      1768: Resources/BallisticWeapons/Snipers/HandM82.png
       1776: Resources/BallisticWeapons/Shotguns/HandSuperShorty1hand.png
       1784: Resources/BallisticWeapons/Shotguns/HandSuperShorty2hands.png
       1792: Resources/BallisticWeapons/Shotguns/HandRemingtonCombatShotgun.png
@@ -4458,13 +4461,14 @@ extraSprites:
       1928: Resources/BallisticWeapons/LMGs/HandMk48LMG.png
       1936: Resources/BallisticWeapons/LMGs/Hand6P41PechenegBullpup.png
       1944: Resources/BallisticWeapons/LMGs/Hand6P41PechenegBullpup.png
-      1952: Resources/BallisticWeapons/Artillery/
-      1960: Resources/BallisticWeapons/Artillery/
-      1968: Resources/BallisticWeapons/Artillery/
-      1976: Resources/BallisticWeapons/Artillery/
-      1984: Resources/BallisticWeapons/Artillery/
-      1992: Resources/BallisticWeapons/Snipers/HandTRGnomag.png
+      1952: Resources/BallisticWeapons/Artillery/HandM320.png
+      1960: Resources/BallisticWeapons/Artillery/HandMGL.png
+      1968: Resources/BallisticWeapons/Artillery/HandCarlGustafM4.png
+      1976: Resources/BallisticWeapons/Artillery/HandCarlGustafM4.png
+      1984: Resources/BallisticWeapons/Artillery/HandRPG.png
+      1992: Resources/BallisticWeapons/Snipers/HandTRG.png
       2000: Resources/BallisticWeapons/Snipers/HandTRG.png
+      2500: Resources/SoldiersAndArmors/RiotArmor/HandRiotShield.png
 
   - type: SMOKE.PCK
     height: 80
