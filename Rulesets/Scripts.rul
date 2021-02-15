@@ -37,7 +37,15 @@ items:
       Cuffs: 1
 
     
-
+  - type: STR_9MM_MAKAROV_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_9MM_MAKAROV_X20 #ignoreDuplicate
+    tags:
+     AmmoNo: 2    
+  - type: STR_9MM_MAKAROV_X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 3
   - type: STR_9MM_PISTOL_X10 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -49,35 +57,278 @@ items:
      AmmoNo: 3
   - type: STR_9MM_PISTOL_X40 #ignoreDuplicate
     tags:
-     AmmoNo: 4
-  - type: STR_7_62MM_SOVIET_RIFLE_X10 #ignoreDuplicate
+     AmmoNo: 4    
+  - type: STR_FN_57_X50 #ignoreDuplicate
     tags:
-     AmmoNo: 1
-  - type: STR_7_62MM_SOVIET_RIFLE_X30 #ignoreDuplicate
+     AmmoNo: 1    
+  - type: STR_45_ACP_X7 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_45_ACP_X12 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_CASELESS_4_73_X50 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_5_45_X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_5_45_X45 #ignoreDuplicate
+    tags:
+     AmmoNo: 2    
+  - type: STR_5_45_X60 #ignoreDuplicate
+    tags:
+     AmmoNo: 3    
+  - type: STR_5_56_X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_5_56_X50 #ignoreDuplicate
+    tags:
+     AmmoNo: 2    
+  - type: STR_5_56_X100 #ignoreDuplicate
     tags:
      AmmoNo: 2
+  - type: STR_7_62MM_SOVIET_RIFLE_X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
   - type: STR_7_62MM_SOVIET_RIFLE_X40 #ignoreDuplicate
     tags:
-     AmmoNo: 3
+     AmmoNo: 2
   - type: STR_7_62MM_SOVIET_RIFLE_X75 #ignoreDuplicate
     tags:
-     AmmoNo: 4
+     AmmoNo: 3    
+  - type: STR_NATO_7_62_X5 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_NATO_7_62_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 2    
+  - type: STR_NATO_7_62_X20 #ignoreDuplicate
+    tags:
+     AmmoNo: 3    
+  - type: STR_NATO_7_62_X50 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_NATO_7_62_X100 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_SOVIET_7_62_MMR_X50 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_SOVIET_7_62_MMR_X100 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_9_39_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_9_39_X20 #ignoreDuplicate
+    tags:
+     AmmoNo: 2    
+  - type: STR_338_LAPUA_X5 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_50_BMG_X5 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_50_BMG_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_12G_BUCKSHOT_X5 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_12G_BUCKSHOT_X8 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_12G_BUCKSHOT_X20 #ignoreDuplicate
+    tags:
+     AmmoNo: 2    
+  - type: STR_12G_BUCKSHOT_X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 3    
+  - type: STR_12G_SLUG_X8 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_12G_NON_LETHAL_X8 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_RPG_HEAT_X1 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
+  - type: STR_P226 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_GLOCK_18 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M1911 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_MK_23 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_MAKAROV #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_TEC_9 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_MP5 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_AKM #ignoreDuplicate
+  - type: STR_MPX #ignoreDuplicate
+    tags:
+     FoldStock: 1
+     AmmoReSprite: 1
+  - type: STR_P90 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_SKORPION #ignoreDuplicate
     tags:
      FoldStock: 1
      AmmoReSprite: 1
-  - type: STR_MPX #ignoreDuplicate
+  - type: STR_TAVOR #ignoreDuplicate
     tags:
-     FoldStock: 1
+     AmmoReSprite: 1
+  - type: STR_TAVOR_M203 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_TAVOR_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_TAVOR_95X #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_TAVOR_95X_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4_SOPMOD #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4_M320 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4_UBS #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4A1 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4A1_SOPMOD #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4A1_M320 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M4A1_UBS #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AK12 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AK12_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AK15 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AK15_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_HK416 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_HK416_SOPMOD #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_HK416_M320 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_HK416_UBS #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_FX_05 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_FX_05_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SCAR_L #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SCAR_L_SOPMOD #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SCAR_L_GL #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SCAR_H #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SCAR_H_SOPMOD #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SCAR_H_GL #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_G11 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SR_3 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SR_3_ONE_HANDED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AKM #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AK_74 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_PSG_1 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_MSG_90 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_VSS #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SAKO_TRG #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AWP #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AW #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M82 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_ORIGIN_12 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AA_12 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_USAS_12 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M249 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_MK_48 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_PECHENEG #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_RPG #ignoreDuplicate
+    tags:
      AmmoReSprite: 1
 
   - type: STR_RIOT_SHIELD #ignoreDuplicate
@@ -171,7 +422,6 @@ extended:
            BattleUnit.getTag unit flashbanged Tag.FlashBanged;
            BattleUnit.getTag unit OGaccuracy Tag.OGfiring;
            BattleUnit.getTag unit OGreactions Tag.OGreactions;
-           debug_log flashbanged;
            add flashbanged 4;
            if and gt turn flashbanged gt OGaccuracy 0;
             BattleUnit.Stats.setFiring unit OGaccuracy;
@@ -264,7 +514,6 @@ extended:
               battle_game.getTurn turn;
               unit.getTag flashbanged Tag.FlashBanged;
               add flashbanged 4;
-              debug_log flashbanged;
               if gt turn flashbanged;
                BattleUnit.Stats.getFiring unit accuracy;
                BattleUnit.Stats.getReactions unit reactions;
