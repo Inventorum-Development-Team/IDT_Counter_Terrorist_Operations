@@ -73,10 +73,10 @@ armors:
     corpseBattle:
       - STR_TERRORIST_MALE_CORPSE
     spriteInv: TERRORIST_MALE_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 5
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
     visibilityAtDark: 9
     damageModifier:
       - 1.0
@@ -95,10 +95,10 @@ armors:
     corpseBattle:
       - STR_TERRORIST_FEMALE_CORPSE
     spriteInv: TERRORIST_FEMALE_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 5
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
     visibilityAtDark: 9
     damageModifier:
       - 1.0
@@ -117,10 +117,10 @@ armors:
     corpseBattle:
       - STR_TERRORIST_GASMASK_CORPSE
     spriteInv: TERRORIST_GASMASK_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 5
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
     visibilityAtDark: 9
     damageModifier:
       - 1.0

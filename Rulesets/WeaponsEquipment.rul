@@ -245,7 +245,7 @@ items:
 
   - &STR_12G_BUCKSHOT
     type: STR_12G_BUCKSHOT
-    power: 10
+    power: 20
     shotgunPellets: 6
     hitSound: 22
     hitAnimation: 26
@@ -257,7 +257,7 @@ items:
       IgnoreOverKill: true
   - &STR_12G_SLUG
     type: STR_12G_SLUG
-    power: 30
+    power: 45
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 2
@@ -270,7 +270,7 @@ items:
 
   - &STR_12G_NON_LETHAL
     type: STR_12G_NON_LETHAL
-    power: 5
+    power: 10
     shotgunPellets: 6
     hitSound: 22
     hitAnimation: 26
@@ -287,7 +287,7 @@ items:
 
   - &STR_SHRAPNEL_25
     type: STR_SHRAPNEL_25
-    power: 10
+    power: 20
     shotgunPellets: 10
     hitSound: 22
     hitAnimation: 26
@@ -299,7 +299,7 @@ items:
       IgnoreOverKill: true
   - &STR_BARRICADE
     type: STR_BARRICADE
-    power: 40
+    power: 55
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 2
@@ -312,7 +312,7 @@ items:
 
   - &STR_VOLNA_R
     type: STR_VOLNA_R
-    power: 5
+    power: 10
     shotgunPellets: 10
     hitSound: 22
     hitAnimation: 26
@@ -329,7 +329,7 @@ items:
 
   - &STR_40MM_FRAG
     type: STR_40MM_FRAG
-    power: 40 
+    power: 50 
     bulletSprite: 14
     hitSound: 0
     hitAnimation: 0
@@ -516,6 +516,7 @@ items:
     armor: 30
     costBuy: 800
     costSell: 400
+    invWidth: 2
     weight: 4
     clipSize: 50
     listOrder: 2000
@@ -555,6 +556,7 @@ items:
     armor: 30
     costBuy: 1200
     costSell: 600
+    invHeight: 2
     weight: 4
     clipSize: 50
     listOrder: 2000
@@ -620,6 +622,7 @@ items:
     armor: 30
     costBuy: 700
     costSell: 350
+    invWidth: 2
     weight: 7
     clipSize: 50
     listOrder: 2000
@@ -633,6 +636,8 @@ items:
     armor: 30
     costBuy: 1400
     costSell: 7000
+    invWidth: 2
+    invHeight: 2
     weight: 14
     clipSize: 100
     listOrder: 2000
@@ -737,6 +742,7 @@ items:
     armor: 30
     costBuy: 1000
     costSell: 500
+    invWidth: 2
     weight: 10
     clipSize: 50
     listOrder: 2000
@@ -750,6 +756,8 @@ items:
     armor: 30
     costBuy: 2000
     costSell: 1000
+    invWidth: 2
+    invHeight: 2
     weight: 20
     clipSize: 100
     listOrder: 2000
@@ -763,6 +771,7 @@ items:
     armor: 30
     costBuy: 1100
     costSell: 550
+    invWidth: 2
     weight: 11
     clipSize: 50
     listOrder: 2000
@@ -776,6 +785,8 @@ items:
     armor: 30
     costBuy: 2200
     costSell: 1100
+    invWidth: 2
+    invHeight: 2
     weight: 22
     clipSize: 100
     listOrder: 2000
@@ -896,6 +907,7 @@ items:
     costSell: 500
     weight: 12
     clipSize: 30
+    invHeight: 2
     listOrder: 2000    
   - type: STR_12G_SLUG_X8
     categories: [STR_CLIPS]
@@ -999,6 +1011,8 @@ items:
     armor: 30
     costBuy: 2000
     costSell: 1000
+    invWidth: 2
+    invHeight: 2
     weight: 12
     clipSize: 6
     listOrder: 2000    
@@ -1038,6 +1052,7 @@ items:
     armor: 30
     costBuy: 5000
     costSell: 2500
+    invHeight: 2
     weight: 20
     clipSize: 1
     listOrder: 2000    
@@ -1051,6 +1066,7 @@ items:
     armor: 30
     costBuy: 5000
     costSell: 2500
+    invHeight: 2
     weight: 20
     clipSize: 1
     listOrder: 2000    
@@ -1063,6 +1079,7 @@ items:
     size: 0.1
     armor: 30
     costSell: 2000
+    invHeight: 2
     weight: 18
     clipSize: 1
     listOrder: 2000    
@@ -1853,7 +1870,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 70
+    shotgunChoke: 80
     ammo:
        0:
         compatibleAmmo: [STR_5_56_X30] 
@@ -2005,7 +2022,7 @@ items:
     accuracyAimed: 40
     accuracySnap: 65
     accuracyAuto: 50
-    blockBothHands: true
+    blockBothHands: false
     twoHanded: true
     oneHandedPenalty: 50 
     maxRange: 200
@@ -2029,7 +2046,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 70
+    shotgunChoke: 80
     ammo:
        0:
         compatibleAmmo: [STR_5_56_X30]
@@ -2296,7 +2313,7 @@ items:
     invHeight: 3
     ammo:
        0:
-        compatibleAmmo: [STR_5_56_X50]
+        compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
        1:
@@ -2342,7 +2359,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 70
+    shotgunChoke: 80
     ammo:
        0:
         compatibleAmmo: [STR_5_56_X30]
@@ -3096,7 +3113,7 @@ items:
     invWidth: 1
     invHeight: 2
     shotgunBehavior: 1
-    shotgunChoke: 70 
+    shotgunChoke: 80 
     ammo:
        0:
         compatibleAmmo: [STR_12G_BUCKSHOT_X5]
@@ -3130,7 +3147,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 75 
+    shotgunChoke: 85 
     ammo:
        0:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
@@ -3165,7 +3182,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 90 
+    shotgunChoke: 95 
     ammo:
        0:
         compatibleAmmo: [STR_SHRAPNEL_25_X3,STR_BARRICADE_X3, STR_VOLNA_R_X3,STR_ZEVADA_X3]
@@ -3200,7 +3217,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80 
+    shotgunChoke: 90 
     ammo:
        0:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_BUCKSHOT_X20,STR_12G_BUCKSHOT_X30,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
@@ -3239,7 +3256,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 75 
+    shotgunChoke: 85 
     ammo:
        0:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_BUCKSHOT_X20,STR_12G_BUCKSHOT_X30,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
@@ -3278,7 +3295,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80 
+    shotgunChoke: 90 
     ammo:
        0:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_BUCKSHOT_X20,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
@@ -3832,7 +3849,7 @@ extraSprites:
 #      600: Resources/BallisticWeapons/Ammo/
 #      608: Resources/BallisticWeapons/Ammo/
       616: Resources/BallisticWeapons/Pistols/BigP226nomag.png
-      624: Resources/BallisticWeapons/Pistols/BigP226nomag.png
+      624: Resources/BallisticWeapons/Pistols/BigP226.png
       632: Resources/BallisticWeapons/Pistols/BigP226.png
       640: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
       648: Resources/BallisticWeapons/Pistols/BigGlock18.png
@@ -3853,24 +3870,24 @@ extraSprites:
       768: Resources/BallisticWeapons/SMGs/BigMP5SD20.png
       776: Resources/BallisticWeapons/SMGs/BigMP5SD.png
       784: Resources/BallisticWeapons/SMGs/BigMP5SD40.png
-      792: Resources/BallisticWeapons/SMGs/BigMPXFoldednomag.png
-      800: Resources/BallisticWeapons/SMGs/BigMPXFolded10.png
-      808: Resources/BallisticWeapons/SMGs/BigMPXFolded20.png
-      816: Resources/BallisticWeapons/SMGs/BigMPXFolded.png
-      824: Resources/BallisticWeapons/SMGs/BigMPXnomag.png
-      832: Resources/BallisticWeapons/SMGs/BigMPX10.png
-      840: Resources/BallisticWeapons/SMGs/BigMPX20.png
-      848: Resources/BallisticWeapons/SMGs/BigMPX.png
+      792: Resources/BallisticWeapons/SMGs/BigMPXnomag.png
+      800: Resources/BallisticWeapons/SMGs/BigMPX10.png
+      808: Resources/BallisticWeapons/SMGs/BigMPX20.png
+      816: Resources/BallisticWeapons/SMGs/BigMPX.png
+      824: Resources/BallisticWeapons/SMGs/BigMPXFoldednomag.png
+      832: Resources/BallisticWeapons/SMGs/BigMPXFolded10.png
+      840: Resources/BallisticWeapons/SMGs/BigMPXFolded20.png
+      848: Resources/BallisticWeapons/SMGs/BigMPXFolded.png
       856: Resources/BallisticWeapons/SMGs/BigP90nomag.png
-      864: Resources/BallisticWeapons/SMGs/BigP90.png
-      872: Resources/BallisticWeapons/SMGs/BigSkorpionFoldednomag.png
-      880: Resources/BallisticWeapons/SMGs/BigSkorpionFolded10.png
-      888: Resources/BallisticWeapons/SMGs/BigSkorpionFolded20.png
-      896: Resources/BallisticWeapons/SMGs/BigSkorpionFolded.png
-      904: Resources/BallisticWeapons/SMGs/BigSkorpionnomag.png
-      912: Resources/BallisticWeapons/SMGs/BigSkorpion10.png
-      920: Resources/BallisticWeapons/SMGs/BigSkorpion20.png
-      928: Resources/BallisticWeapons/SMGs/BigSkorpion.png
+      864: Resources/BallisticWeapons/SMGs/BigP90.png 
+      872: Resources/BallisticWeapons/SMGs/BigSkorpionnomag.png
+      880: Resources/BallisticWeapons/SMGs/BigSkorpion10.png
+      888: Resources/BallisticWeapons/SMGs/BigSkorpion20.png
+      896: Resources/BallisticWeapons/SMGs/BigSkorpion.png
+      904: Resources/BallisticWeapons/SMGs/BigSkorpionFoldednomag.png
+      912: Resources/BallisticWeapons/SMGs/BigSkorpionFolded10.png
+      920: Resources/BallisticWeapons/SMGs/BigSkorpionFolded20.png
+      928: Resources/BallisticWeapons/SMGs/BigSkorpionFolded.png
       936: Resources/BallisticWeapons/Rifles/BigTAVORnomag.png
       944: Resources/BallisticWeapons/Rifles/BigTAVOR.png
       952: Resources/BallisticWeapons/Rifles/BigTAVORM203nomag.png
@@ -4583,7 +4600,7 @@ extraStrings:
       STR_SOVIET_7_62_MMR_X50: "7.62x54mmR (50x)"
       STR_SOVIET_7_62_MMR_X100: "7.62x54mmR (100x)"
       STR_9_39_X10: "9x39mm (10x)"
-      STR_9_39_X20: "8x39 (20x)"
+      STR_9_39_X20: "9x39mm (20x)"
       STR_338_LAPUA_X5: ".338 Lapua Magnum (5x)"
       STR_50_BMG_X5: ".50 BMG (5x)"
       STR_50_BMG_X10: ".50 BMG (10x)"
@@ -4667,7 +4684,7 @@ extraStrings:
       STR_PECHENEG: "PKP Pecheneg"
       STR_M320: "M320"
       STR_MGL: "Milkor MGL"
-      STR_CG: "Carl Gustaf Recoilless Rifle"
+      STR_GUSTAF: "Carl Gustaf Recoilless Rifle"
       STR_RPG: "RPG-7"
 
 

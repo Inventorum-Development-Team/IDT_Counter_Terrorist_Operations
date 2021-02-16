@@ -46,16 +46,16 @@ items:
   - type: STR_9MM_MAKAROV_X30 #ignoreDuplicate
     tags:
      AmmoNo: 3
-  - type: STR_9MM_PISTOL_X10 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X10 #ignoreDuplicate
     tags:
      AmmoNo: 1
-  - type: STR_9MM_PISTOL_X20 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X20 #ignoreDuplicate
     tags:
      AmmoNo: 2
-  - type: STR_9MM_PISTOL_X30 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X30 #ignoreDuplicate
     tags:
      AmmoNo: 3
-  - type: STR_9MM_PISTOL_X40 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X40 #ignoreDuplicate
     tags:
      AmmoNo: 4    
   - type: STR_FN_57_X50 #ignoreDuplicate
@@ -88,13 +88,13 @@ items:
   - type: STR_5_56_X100 #ignoreDuplicate
     tags:
      AmmoNo: 2
-  - type: STR_7_62MM_SOVIET_RIFLE_X30 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_X30 #ignoreDuplicate
     tags:
      AmmoNo: 1
-  - type: STR_7_62MM_SOVIET_RIFLE_X40 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_X40 #ignoreDuplicate
     tags:
      AmmoNo: 2
-  - type: STR_7_62MM_SOVIET_RIFLE_X75 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_X75 #ignoreDuplicate
     tags:
      AmmoNo: 3    
   - type: STR_NATO_7_62_X5 #ignoreDuplicate
@@ -154,6 +154,8 @@ items:
   - type: STR_RPG_HEAT_X1 #ignoreDuplicate
     tags:
      AmmoNo: 1
+
+
   - type: STR_P226 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -213,6 +215,7 @@ items:
   - type: STR_M4_UBS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UBS: 1
   - type: STR_M4A1 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -225,6 +228,7 @@ items:
   - type: STR_M4A1_UBS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UBS: 1
   - type: STR_AK12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -249,6 +253,7 @@ items:
   - type: STR_HK416_UBS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UBS: 1
   - type: STR_FX_05 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -335,9 +340,9 @@ items:
     tags:
      Shield: 1
        
-  - type: STR_FLASHBANG_GRENADE #ignoreDuplicate
-    tags:
-     FlashBang: 1
+  # - type: STR_FLASHBANG_GRENADE #ignoreDuplicate
+  #   tags:
+  #    FlashBang: 1
   
 extended:
   tags:
@@ -353,6 +358,7 @@ extended:
       AmmoReSprite: int
       AmmoNo: int
       FoldStock: int
+      UBS: int
       Shield: int
       FlashBang: int
 #      JammChance: int
@@ -502,29 +508,30 @@ extended:
             end;
             return power part side;
 
-         - offset: 4 #FlashBang Script
-           code: |
-             var int flashbang;
-             var int flashbanged;
-             var int turn;
-             var int accuracy;
-             var int reactions;
-             damaging_item.getTag flashbang Tag.FlashBang;
-             if eq flashbang 1;
-              battle_game.getTurn turn;
-              unit.getTag flashbanged Tag.FlashBanged;
-              add flashbanged 4;
-              if gt turn flashbanged;
-               BattleUnit.Stats.getFiring unit accuracy;
-               BattleUnit.Stats.getReactions unit reactions;
-               BattleUnit.setTag unit Tag.OGfiring accuracy;
-               BattleUnit.setTag unit Tag.OGreactions reactions;
-               sub reactions 50;
-               sub accuracy 50;
-               BattleUnit.Stats.setFiring unit accuracy;
-               BattleUnit.Stats.setReactions unit reactions;
-              end;
-             return power part side;
+ #        - offset: 4 #FlashBang Script
+ #          code: |
+ #            var int flashbang;
+ #            var int flashbanged;
+ #            var int turn;
+ #            var int accuracy;
+ #            var int reactions;
+ #            damaging_item.getTag flashbang Tag.FlashBang;
+ #            if eq flashbang 1;
+ #             battle_game.getTurn turn;
+ #             unit.getTag flashbanged Tag.FlashBanged;
+ #             add flashbanged 4;
+ #             if gt turn flashbanged;
+ #              BattleUnit.Stats.getFiring unit accuracy;
+ #              BattleUnit.Stats.getReactions unit reactions;
+ #              BattleUnit.setTag unit Tag.OGfiring accuracy;
+ #              BattleUnit.setTag unit Tag.OGreactions reactions;
+ #              sub reactions 50;
+ #              sub accuracy 50;
+ #              BattleUnit.Stats.setFiring unit accuracy;
+ #              BattleUnit.Stats.setReactions unit reactions;
+ #            end;
+ #            return power part side;
+
      healUnit: #Handcuff script
        - offset: 1
          code: |
@@ -571,11 +578,14 @@ extended:
           var int x;
           var int y;
           var ptr BattleItem ammoptr;
+          var ptr BattleItem UBSammoptr;
           var ptr RuleInventory invptr;
           var int left;
           var int right;
           var int ammono;
+          var int UBSammono;
           var int z;
+          var int a;
           BattleItem.getTag item x Tag.AmmoReSprite;
           if eq x 1;
            item.getAmmoItem ammoptr;
@@ -590,7 +600,7 @@ extended:
              end;
             end;
            if eq z 1;
-            add sprite_index 40;
+            add sprite_index 32;
             if eq ammono 1;
              add sprite_index 8;
              end;
@@ -617,6 +627,14 @@ extended:
             if eq ammono 4;
              add sprite_index 32;
              end;
+            end;
+           BattleItem.getTag item a Tag.UBS;
+           if eq a 1;
+             item.getAmmoForSlot UBSammoptr 1;
+             BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
+             if eq UBSammono 1;
+              add sprite_index 16;
+              end;
             end;
            end;
           return sprite_index; 

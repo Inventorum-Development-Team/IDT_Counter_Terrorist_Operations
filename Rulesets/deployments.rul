@@ -31,12 +31,12 @@ alienDeployments:
          itemSets:
            - 
              - STR_MAKAROV
-             - STR_9MM_PISTOL_X10
-             - STR_9MM_PISTOL_X10
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
            - 
              - STR_SKORPION
-             - STR_9MM_PISTOL_X20
-             - STR_9MM_PISTOL_X20
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
        - alienRank: 3
          lowQty: 1
          highQty: 2
@@ -45,12 +45,12 @@ alienDeployments:
          itemSets:
            - 
              - STR_SKORPION
-             - STR_9MM_PISTOL_X20
-             - STR_9MM_PISTOL_X20
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
            -
              - STR_AKM
-             - STR_7_62MM_SOVIET_RIFLE_X30
-             - STR_7_62MM_SOVIET_RIFLE_X30 
+             - STR_SOVIET_7_62_X30
+             - STR_SOVIET_7_62_X30 
   - type: PLANE_HIJACK
     width: 70
     length: 20
@@ -68,12 +68,12 @@ alienDeployments:
          itemSets:
            - 
              - STR_MAKAROV
-             - STR_9MM_PISTOL_X10
-             - STR_9MM_PISTOL_X10
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
            - 
              - STR_SKORPION
-             - STR_9MM_PISTOL_X20
-             - STR_9MM_PISTOL_X20
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
        - alienRank: 3
          lowQty: 1
          highQty: 2
@@ -82,12 +82,12 @@ alienDeployments:
          itemSets:
            - 
              - STR_SKORPION
-             - STR_9MM_PISTOL_X20
-             - STR_9MM_PISTOL_X20
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
            -
              - STR_AKM
-             - STR_7_62MM_SOVIET_RIFLE_X30
-             - STR_7_62MM_SOVIET_RIFLE_X30 
+             - STR_SOVIET_7_62_X30
+             - STR_SOVIET_7_62_X30 
 extraStrings:
   - type: en-US
     strings:
