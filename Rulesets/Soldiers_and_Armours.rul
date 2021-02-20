@@ -41,7 +41,7 @@ soldiers:
       reactions: 100
       firing: 110
       throwing: 80
-      strength: 100
+      strength: 120
       psiStrength: 75
       psiSkill: 100
       melee: 100

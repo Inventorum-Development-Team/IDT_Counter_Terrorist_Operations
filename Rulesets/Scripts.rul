@@ -58,6 +58,9 @@ items:
   - type: STR_9MM_PARABELLUM_X40 #ignoreDuplicate
     tags:
      AmmoNo: 4    
+  - type: STR_FN_57_X20 #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
   - type: STR_FN_57_X50 #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -88,6 +91,12 @@ items:
   - type: STR_5_56_X100 #ignoreDuplicate
     tags:
      AmmoNo: 2
+  - type: STR_22_LONG_RIFLE_6x #ignoreDuplicate
+    tags:
+     AmmoNo: 1
+  - type: STR_SOVIET_7_62_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
   - type: STR_SOVIET_7_62_X30 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -132,7 +141,10 @@ items:
      AmmoNo: 1    
   - type: STR_50_BMG_X10 #ignoreDuplicate
     tags:
-     AmmoNo: 1    
+     AmmoNo: 1      
+  - type: STR_12G_BUCKSHOT_X2 #ignoreDuplicate
+    tags:
+     AmmoNo: 1  
   - type: STR_12G_BUCKSHOT_X5 #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -169,6 +181,9 @@ items:
     tags:
      AmmoReSprite: 1
   - type: STR_MAKAROV #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_FIVE_SEVEN #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_TEC_9 #ignoreDuplicate
@@ -287,10 +302,25 @@ items:
   - type: STR_SR_3_ONE_HANDED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_M16A2 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AR_18 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AR_180 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_AKM #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_AK_74 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_FN_FAL_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_SKS_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_PSG_1 #ignoreDuplicate
