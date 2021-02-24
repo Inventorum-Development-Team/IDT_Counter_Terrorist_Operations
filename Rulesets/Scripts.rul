@@ -353,6 +353,9 @@ items:
   - type: STR_USAS_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_M60 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_M249 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
