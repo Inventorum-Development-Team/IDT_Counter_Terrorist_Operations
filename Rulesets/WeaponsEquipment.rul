@@ -452,7 +452,7 @@ items:
     costSell: 100
     weight: 2
     clipSize: 20
-    listOrder: 2000
+    listOrder: 2001
   - type: STR_9MM_MAKAROV_X30
     categories: [STR_CLIPS]
     refNode: *STR_MAKAROV_AMMO
@@ -465,7 +465,7 @@ items:
     costSell: 200
     weight: 3
     clipSize: 30
-    listOrder: 2000
+    listOrder: 2002
   - type: STR_9MM_PARABELLUM_X10
     categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
@@ -478,7 +478,7 @@ items:
     costSell: 75
     weight: 1
     clipSize: 10
-    listOrder: 2000
+    listOrder: 2010
   - type: STR_9MM_PARABELLUM_X20
     categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
@@ -491,7 +491,7 @@ items:
     costSell: 150
     weight: 2
     clipSize: 20
-    listOrder: 2000
+    listOrder: 2011
   - type: STR_9MM_PARABELLUM_X30
     categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
@@ -504,7 +504,7 @@ items:
     costSell: 225
     weight: 3
     clipSize: 30
-    listOrder: 2000
+    listOrder: 2012
   - type: STR_9MM_PARABELLUM_X40
     categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
@@ -517,7 +517,7 @@ items:
     costSell: 350
     weight: 4
     clipSize: 40
-    listOrder: 2000
+    listOrder: 2013
   - type: STR_FN_57_X20
     categories: [STR_CLIPS]
     refNode: *STR_FN57_AMMO
@@ -530,7 +530,7 @@ items:
     costSell: 200
     weight: 1
     clipSize: 20
-    listOrder: 2000
+    listOrder: 2020
   - type: STR_FN_57_X50
     categories: [STR_CLIPS]
     refNode: *STR_FN57_AMMO
@@ -544,7 +544,7 @@ items:
     invWidth: 2
     weight: 4
     clipSize: 50
-    listOrder: 2000
+    listOrder: 2021
   - type: STR_45_ACP_X7
     categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
@@ -557,7 +557,7 @@ items:
     costSell: 50
     weight: 2
     clipSize: 7
-    listOrder: 2000
+    listOrder: 2030
   - type: STR_45_ACP_X12
     categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
@@ -570,7 +570,7 @@ items:
     costSell: 75
     weight: 4
     clipSize: 12
-    listOrder: 2000
+    listOrder: 2031
   - type: STR_CASELESS_4_73_X50
     categories: [STR_CLIPS]
     refNode: *STR_CASELESS_4_73_AMMO
@@ -584,7 +584,7 @@ items:
     invHeight: 2
     weight: 4
     clipSize: 50
-    listOrder: 2000
+    listOrder: 2040
   - type: STR_5_45_X30
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
@@ -597,7 +597,7 @@ items:
     costSell: 250
     weight: 4
     clipSize: 30
-    listOrder: 2000
+    listOrder: 2050
   - type: STR_5_45_X45
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
@@ -610,7 +610,7 @@ items:
     costSell: 550
     weight: 6
     clipSize: 45
-    listOrder: 2000
+    listOrder: 2051
   - type: STR_5_45_X60
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
@@ -623,7 +623,7 @@ items:
     costSell: 550
     weight: 4
     clipSize: 60
-    listOrder: 2000
+    listOrder: 2052
   - type: STR_5_56_X30
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
@@ -636,7 +636,7 @@ items:
     costSell: 200
     weight: 4
     clipSize: 30
-    listOrder: 2000
+    listOrder: 2060
   - type: STR_5_56_X50
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
@@ -650,7 +650,7 @@ items:
     invWidth: 2
     weight: 7
     clipSize: 50
-    listOrder: 2000
+    listOrder: 2061
   - type: STR_5_56_X100
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
@@ -665,7 +665,7 @@ items:
     invHeight: 2
     weight: 14
     clipSize: 100
-    listOrder: 2000
+    listOrder: 2062
   - type: STR_22_LONG_RIFLE_X6
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
@@ -679,7 +679,7 @@ items:
     invHeight: 1
     weight: 1
     clipSize: 6
-    listOrder: 2000
+    listOrder: 2070
   - type: STR_SOVIET_7_62_X10
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
@@ -691,7 +691,7 @@ items:
     costSell: 150
     weight: 5
     clipSize: 10
-    listOrder: 2000
+    listOrder: 2080
   - type: STR_SOVIET_7_62_X30
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
@@ -704,7 +704,7 @@ items:
     costSell: 250
     weight: 5
     clipSize: 30
-    listOrder: 2000
+    listOrder: 2081
   - type: STR_SOVIET_7_62_X40
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
@@ -717,7 +717,7 @@ items:
     costSell: 300
     weight: 6
     clipSize: 40
-    listOrder: 2000
+    listOrder: 2082
   - type: STR_SOVIET_7_62_X75
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
@@ -730,7 +730,7 @@ items:
     costSell: 500
     weight: 10
     clipSize: 75
-    listOrder: 2000
+    listOrder: 2083
   - type: STR_NATO_7_62_X5
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -743,7 +743,7 @@ items:
     costSell: 50
     weight: 1
     clipSize: 5
-    listOrder: 2000
+    listOrder: 2090
   - type: STR_NATO_7_62_X10
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -756,7 +756,7 @@ items:
     costSell: 100
     weight: 2
     clipSize: 10
-    listOrder: 2000
+    listOrder: 2091
   - type: STR_NATO_7_62_X20
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -769,7 +769,7 @@ items:
     costSell: 200
     weight: 4
     clipSize: 20
-    listOrder: 2000
+    listOrder: 2092
   # - type: STR_NATO_7_62_X30
   #   categories: [STR_CLIPS]
   #   refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -782,7 +782,7 @@ items:
   #   costSell: 300
   #   weight: 6
   #   clipSize: 30
-  #   listOrder: 2000
+  #   listOrder: 2093
   - type: STR_NATO_7_62_X50
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -796,7 +796,7 @@ items:
     invWidth: 2
     weight: 10
     clipSize: 50
-    listOrder: 2000
+    listOrder: 2094
   - type: STR_NATO_7_62_X100
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -811,7 +811,7 @@ items:
     invHeight: 2
     weight: 20
     clipSize: 100
-    listOrder: 2000
+    listOrder: 2095
   - type: STR_SOVIET_7_62_MMR_X50
     categories: [STR_CLIPS]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
@@ -825,7 +825,7 @@ items:
     invWidth: 2
     weight: 11
     clipSize: 50
-    listOrder: 2000
+    listOrder: 2100
   - type: STR_SOVIET_7_62_MMR_X100
     categories: [STR_CLIPS]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
@@ -840,7 +840,7 @@ items:
     invHeight: 2
     weight: 22
     clipSize: 100
-    listOrder: 2000
+    listOrder: 2101
   - type: STR_9_39_X10
     categories: [STR_CLIPS]
     refNode: *STR_9_39_AMMO
@@ -853,7 +853,7 @@ items:
     costSell: 250
     weight: 3
     clipSize: 10
-    listOrder: 2000
+    listOrder: 2110
   - type: STR_9_39_X20
     categories: [STR_CLIPS]
     refNode: *STR_9_39_AMMO
@@ -866,7 +866,7 @@ items:
     costSell: 500
     weight: 6
     clipSize: 20
-    listOrder: 2000
+    listOrder: 2111
   - type: STR_338_LAPUA_X5
     categories: [STR_CLIPS]
     refNode: *STR_338_LAPUA_AMMO
@@ -879,7 +879,7 @@ items:
     costSell: 200
     weight: 4
     clipSize: 5
-    listOrder: 2000
+    listOrder: 2120
   - type: STR_50_BMG_X5
     categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
@@ -892,7 +892,7 @@ items:
     costSell: 225
     weight: 5
     clipSize: 5
-    listOrder: 2000
+    listOrder: 2130
   - type: STR_50_BMG_X10
     categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
@@ -905,7 +905,7 @@ items:
     costSell: 450
     weight: 10
     clipSize: 10
-    listOrder: 2000
+    listOrder: 2140
   - type: STR_12G_BUCKSHOT_X2
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
@@ -917,7 +917,7 @@ items:
     costSell: 50
     weight: 1
     clipSize: 2 
-    listOrder: 2000       
+    listOrder: 2150    
   - type: STR_12G_BUCKSHOT_X5
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
@@ -930,7 +930,7 @@ items:
     costSell: 150
     weight: 2
     clipSize: 5 
-    listOrder: 2000    
+    listOrder: 2151 
   - type: STR_12G_BUCKSHOT_X8
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
@@ -943,7 +943,7 @@ items:
     costSell: 150
     weight: 3
     clipSize: 8 
-    listOrder: 2000    
+    listOrder: 2152  
   - type: STR_12G_BUCKSHOT_X20
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
@@ -956,7 +956,7 @@ items:
     costSell: 325
     weight: 8
     clipSize: 20 
-    listOrder: 2000     
+    listOrder: 2153    
   - type: STR_12G_BUCKSHOT_X30
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
@@ -970,7 +970,7 @@ items:
     weight: 12
     clipSize: 30
     invHeight: 2
-    listOrder: 2000    
+    listOrder: 2154   
   - type: STR_12G_SLUG_X8
     categories: [STR_CLIPS]
     refNode: *STR_12G_SLUG
@@ -983,7 +983,7 @@ items:
     costSell: 250
     weight: 5
     clipSize: 8 
-    listOrder: 2000    
+    listOrder: 2160
   - type: STR_12G_NON_LETHAL_X8
     categories: [STR_CLIPS]
     refNode: *STR_12G_NON_LETHAL
@@ -996,7 +996,7 @@ items:
     costSell: 150
     weight: 3
     clipSize: 8 
-    listOrder: 2000    
+    listOrder: 2170
   - type: STR_SHRAPNEL_25_X3
     categories: [STR_CLIPS]
     refNode: *STR_SHRAPNEL_25
@@ -1009,7 +1009,7 @@ items:
     costSell: 200
     weight: 2
     clipSize: 3 
-    listOrder: 2000    
+    listOrder: 2180 
   - type: STR_BARRICADE_X3
     categories: [STR_CLIPS]
     refNode: *STR_BARRICADE
@@ -1022,7 +1022,7 @@ items:
     costSell: 250
     weight: 3
     clipSize: 3 
-    listOrder: 2000    
+    listOrder: 2190 
   - type: STR_VOLNA_R_X3
     categories: [STR_CLIPS]
     refNode: *STR_VOLNA_R
@@ -1035,7 +1035,7 @@ items:
     costSell: 200
     weight: 2
     clipSize: 3 
-    listOrder: 2000    
+    listOrder: 2200
   - type: STR_ZEVADA_X3
     categories: [STR_CLIPS]
     refNode: *STR_SHRAPNEL_25
@@ -1048,7 +1048,7 @@ items:
     costSell: 250
     weight: 2
     clipSize: 3
-    listOrder: 2000
+    listOrder: 2210
 
   - type: STR_40MM_FRAG_X1
     categories: [STR_CLIPS]
@@ -1062,7 +1062,7 @@ items:
     costSell: 150
     weight: 2
     clipSize: 1 
-    listOrder: 2000    
+    listOrder: 2220
   - type: STR_40MM_FRAG_X6
     categories: [STR_CLIPS]
     refNode: *STR_40MM_FRAG
@@ -1077,7 +1077,7 @@ items:
     invHeight: 2
     weight: 12
     clipSize: 6
-    listOrder: 2000    
+    listOrder: 2221
   - type: STR_40MM_SMOKE_X1
     categories: [STR_CLIPS]
     refNode: *STR_40MM_SMOKE
@@ -1090,7 +1090,7 @@ items:
     costSell: 125
     weight: 2
     clipSize: 1
-    listOrder: 2000    
+    listOrder: 2230
   - type: STR_40MM_NON_LETHAL_X1
     categories: [STR_CLIPS]
     refNode: *STR_40MM_NON_LETHAL
@@ -1103,7 +1103,7 @@ items:
     costSell: 125
     weight: 2
     clipSize: 1 
-    listOrder: 2000    
+    listOrder: 2240
   - type: STR_CG_HEAT_X1
     categories: [STR_CLIPS]
     refNode: *STR_CG_HEAT
@@ -1117,7 +1117,7 @@ items:
     invHeight: 2
     weight: 20
     clipSize: 1
-    listOrder: 2000    
+    listOrder: 2250  
   - type: STR_CG_HE_X1
     categories: [STR_CLIPS]
     refNode: *STR_CG_HE
@@ -1131,7 +1131,7 @@ items:
     invHeight: 2
     weight: 20
     clipSize: 1
-    listOrder: 2000    
+    listOrder: 2260    
   - type: STR_RPG_HEAT_X1
     categories: [STR_CLIPS]
     refNode: *STR_RPG_HEAT
@@ -1144,7 +1144,7 @@ items:
     invHeight: 2
     weight: 18
     clipSize: 1
-    listOrder: 2000    
+    listOrder: 2270    
 
   # - type: STR_38_REVOLVER_AMMO_X6
   #   categories: [STR_FIREARMS, STR_PISTOLS, STR_CLIPS]
@@ -1255,7 +1255,7 @@ items:
         compatibleAmmo: [STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20]
         tuLoad: 20
         tuUnload: 10
-    listOrder: 2100
+    listOrder: 2300
 
   - type: STR_GLOCK_18
     categories: [STR_FIREARMS,STR_PISTOLS]
@@ -1292,7 +1292,7 @@ items:
         compatibleAmmo: [ STR_9MM_PARABELLUM_X20,STR_9MM_PARABELLUM_X30]
         tuLoad: 20
         tuUnload: 10
-    listOrder: 2100
+    listOrder: 2301
 
   - type: STR_M1911
     categories: [STR_FIREARMS,STR_PISTOLS]
@@ -1329,7 +1329,7 @@ items:
         compatibleAmmo: [STR_45_ACP_X7]
         tuLoad: 25
         tuUnload: 12
-    listOrder: 2100
+    listOrder: 2302
 
   - type: STR_MK_23
     categories: [STR_FIREARMS,STR_PISTOLS]
@@ -1366,7 +1366,7 @@ items:
         compatibleAmmo: [ STR_45_ACP_X12]
         tuLoad: 25
         tuUnload: 12
-    listOrder: 2100
+    listOrder: 2303
 
   - type: STR_MAKAROV
     categories: [STR_FIREARMS,STR_PISTOLS,STR_SEIZED]
@@ -1401,7 +1401,7 @@ items:
         compatibleAmmo: [STR_9MM_MAKAROV_X10]
         tuLoad: 20
         tuUnload: 10
-    listOrder: 2100
+    listOrder: 2304
 
   - type: STR_FIVE_SEVEN
     categories: [STR_FIREARMS,STR_PISTOLS]
@@ -1437,7 +1437,7 @@ items:
         compatibleAmmo: [STR_FN_57_X20]
         tuLoad: 20 
         tuUnload: 10
-    listOrder: 2100
+    listOrder: 2305
 
   - type: STR_TEC_9
     categories: [STR_FIREARMS,STR_SMGS,STR_SEIZED]
@@ -1472,7 +1472,7 @@ items:
         compatibleAmmo: [STR_9MM_PARABELLUM_X10,STR_9MM_PARABELLUM_X20,STR_9MM_PARABELLUM_X30,STR_9MM_PARABELLUM_X40]
         tuLoad: 25
         tuUnload: 12
-    listOrder: 2100
+    listOrder: 2400
 
   - type: STR_MP5
     categories: [STR_FIREARMS,STR_SMGS]
@@ -1509,7 +1509,7 @@ items:
         compatibleAmmo: [STR_9MM_PARABELLUM_X10,STR_9MM_PARABELLUM_X20,STR_9MM_PARABELLUM_X30,STR_9MM_PARABELLUM_X40]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2401
 
   - type: STR_MPX
     categories: [STR_FIREARMS,STR_SMGS]
@@ -1546,7 +1546,7 @@ items:
         compatibleAmmo: [STR_9MM_PARABELLUM_X10,STR_9MM_PARABELLUM_X20,STR_9MM_PARABELLUM_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2402
 
   - type: STR_P90
     categories: [STR_FIREARMS,STR_SMGS]
@@ -1583,7 +1583,7 @@ items:
         compatibleAmmo: [STR_FN_57_X50]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2403
 
   - type: STR_SKORPION
     categories: [STR_FIREARMS,STR_SMGS,STR_SEIZED]
@@ -1619,7 +1619,7 @@ items:
         compatibleAmmo: [STR_9MM_MAKAROV_X10,STR_9MM_MAKAROV_X20,STR_9MM_MAKAROV_X30]
         tuLoad: 25
         tuUnload: 12
-    listOrder: 2100
+    listOrder: 2404
 
   - type: STR_TAVOR
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1656,7 +1656,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2500
 
   - type: STR_TAVOR_M203
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1704,7 +1704,7 @@ items:
         compatibleAmmo: [STR_40MM_FRAG_X1,STR_40MM_SMOKE_X1,STR_40MM_NON_LETHAL_X1]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2501
 
   - type: STR_TAVOR_SCOPED
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1739,7 +1739,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2502
 
   - type: STR_TAVOR_95X
     categories:  [STR_FIREARMS,STR_RIFLES]
@@ -1776,7 +1776,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2503
 
   - type: STR_TAVOR_95X_SCOPED
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1811,7 +1811,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2504
 
   - type: STR_M4
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1847,7 +1847,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2510
 
   - type: STR_M4_SOPMOD
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1881,7 +1881,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2511
 
   - type: STR_M4_M320
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1929,7 +1929,7 @@ items:
         compatibleAmmo: [STR_40MM_FRAG_X1, STR_40MM_SMOKE_X1,STR_40MM_NON_LETHAL_X1]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2512
     
   - type: STR_M4_UBS
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -1978,7 +1978,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X5]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2513
 
   - type: STR_M4A1
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2018,7 +2018,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2514
 
   - type: STR_M4A1_SOPMOD
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2056,7 +2056,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2515
 
   - type: STR_M4A1_M320
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2105,7 +2105,7 @@ items:
         tuLoad: 40
         tuUnload: 20
           
-    listOrder: 2100
+    listOrder: 2516
     
   - type: STR_M4A1_UBS
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2154,7 +2154,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X5]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2517
 
   - type: STR_AK12
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2191,7 +2191,7 @@ items:
         compatibleAmmo: [STR_5_45_X30,STR_5_45_X45,STR_5_45_X60]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2520
 
   - type: STR_AK12_SCOPED
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2226,7 +2226,7 @@ items:
         compatibleAmmo: [STR_5_45_X30,STR_5_45_X45,STR_5_45_X60]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2521
 
   - type: STR_AK15
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2263,7 +2263,7 @@ items:
         compatibleAmmo: [STR_SOVIET_7_62_X30,STR_SOVIET_7_62_X40,STR_SOVIET_7_62_X75]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2522
 
   - type: STR_AK15_SCOPED
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2298,7 +2298,7 @@ items:
         compatibleAmmo: [STR_SOVIET_7_62_X30,STR_SOVIET_7_62_X40,STR_SOVIET_7_62_X75]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2523
 
   - type: STR_HK416
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2335,7 +2335,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2530
 
   - type: STR_HK416_SOPMOD
     categories:  [STR_FIREARMS,STR_RIFLES]
@@ -2370,7 +2370,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2531
 
   - type: STR_HK416_M320
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2418,7 +2418,7 @@ items:
         compatibleAmmo: [STR_40MM_FRAG_X1,STR_40MM_SMOKE_X1,STR_40MM_NON_LETHAL_X1]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2532
     
   - type: STR_HK416_UBS
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2467,7 +2467,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X5]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2533
 
   - type: STR_FX_05
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2504,7 +2504,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2540
 
   - type: STR_FX_05_SCOPED
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2539,7 +2539,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2541
 
   - type: STR_SCAR_L
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2576,7 +2576,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2550
 
   - type: STR_SCAR_L_SOPMOD
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2611,7 +2611,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2551
 
   - type: STR_SCAR_L_GL
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2659,7 +2659,7 @@ items:
         compatibleAmmo: [STR_40MM_FRAG_X1,STR_40MM_SMOKE_X1,STR_40MM_NON_LETHAL_X1]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2552
 
   - type: STR_SCAR_H
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2696,7 +2696,7 @@ items:
         compatibleAmmo: [STR_NATO_7_62_X20]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2553
 
   - type: STR_SCAR_H_SOPMOD
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2731,7 +2731,7 @@ items:
         compatibleAmmo: [STR_NATO_7_62_X20]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2554
 
   - type: STR_SCAR_H_GL
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2779,7 +2779,7 @@ items:
         compatibleAmmo: [STR_40MM_FRAG_X1,STR_40MM_SMOKE_X1,STR_40MM_NON_LETHAL_X1]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2555
 
   - type: STR_G11
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2816,7 +2816,7 @@ items:
         compatibleAmmo: [STR_CASELESS_4_73_X50]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 2100
+    listOrder: 2560
 
   - type: STR_SR_3
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2853,7 +2853,7 @@ items:
         compatibleAmmo: [STR_9_39_X10,STR_9_39_X20]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2561
 
   - type: STR_SR_3_ONE_HANDED
     categories: [STR_FIREARMS,STR_RIFLES]
@@ -2888,7 +2888,7 @@ items:
         compatibleAmmo: [STR_9_39_X10,STR_9_39_X20]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2562
 
   - type: STR_M16A2
     categories: [STR_FIREARMS,STR_RIFLES,STR_SEIZED]
@@ -2923,7 +2923,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2570
 
   - type: STR_AR_18
     categories: [STR_FIREARMS,STR_RIFLES,STR_SEIZED]
@@ -2959,7 +2959,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2571
 
   - type: STR_AR_180
     categories: [STR_FIREARMS,STR_RIFLES,STR_SEIZED]
@@ -2991,7 +2991,7 @@ items:
         compatibleAmmo: [STR_5_56_X30]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2572
 
   - type: STR_AKM
     categories: [STR_FIREARMS,STR_RIFLES,STR_SEIZED]
@@ -3026,7 +3026,7 @@ items:
         compatibleAmmo: [STR_SOVIET_7_62_X30,STR_SOVIET_7_62_X40,STR_SOVIET_7_62_X75]
         tuLoad: 30
         tuUnload: 35
-    listOrder: 2100
+    listOrder: 2573
 
   - type: STR_AK_74
     categories: [STR_FIREARMS,STR_RIFLES,STR_SEIZED]
@@ -3061,7 +3061,7 @@ items:
         compatibleAmmo: [STR_5_45_X30,STR_5_45_X45,STR_5_45_X60]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2574
 
   - type: STR_FN_FAL_SCOPED
     categories: [STR_FIREARMS,STR_RIFLES,STR_SEIZED]
@@ -3101,7 +3101,7 @@ items:
         compatibleAmmo: [STR_NATO_7_62_X20]
         tuLoad: 30
         tuUnload: 25
-    listOrder: 2100
+    listOrder: 2575
 
   - type: STR_HUNTING_RIFLE
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES,STR_SEIZED]
@@ -3131,7 +3131,7 @@ items:
         compatibleAmmo: [STR_22_LONG_RIFLE_X6]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2580
   - type: STR_SKS_SCOPED
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES,STR_SEIZED]
 #    requiresBuy:
@@ -3162,7 +3162,7 @@ items:
         compatibleAmmo: [STR_SOVIET_7_62_X10]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 2100
+    listOrder: 2581
   - type: STR_PSG_1
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
 #    requiresBuy:
@@ -3192,7 +3192,7 @@ items:
         compatibleAmmo: [STR_NATO_7_62_X5,STR_NATO_7_62_X10,STR_NATO_7_62_X20]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2582
     
   - type: STR_MSG_90
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
@@ -3226,7 +3226,7 @@ items:
         compatibleAmmo: [STR_NATO_7_62_X5,STR_NATO_7_62_X20]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2583
     
   - type: STR_VSS
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
@@ -3262,7 +3262,7 @@ items:
         compatibleAmmo: [STR_9_39_X10,STR_9_39_X20]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2584
     
   - type: STR_SAKO_TRG
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
@@ -3293,7 +3293,7 @@ items:
         compatibleAmmo: [STR_338_LAPUA_X5]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 2100
+    listOrder: 2585
     
   - type: STR_AWP
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
@@ -3324,7 +3324,7 @@ items:
         compatibleAmmo: [STR_NATO_7_62_X10]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2586
     
   - type: STR_AW
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
@@ -3355,7 +3355,7 @@ items:
         compatibleAmmo: [STR_338_LAPUA_X5]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 2100
+    listOrder: 2587
     
   - type: STR_M82
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
@@ -3386,7 +3386,7 @@ items:
         compatibleAmmo: [STR_50_BMG_X5,STR_50_BMG_X10]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2588
 
   - type: STR_DOUBLE_BARREL
     categories: [STR_FIREARMS,STR_SHOTGUNS,STR_SEIZED]
@@ -3420,7 +3420,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X2]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2590
 
   - type: STR_SERBU
     categories: [STR_FIREARMS,STR_SHOTGUNS]
@@ -3455,7 +3455,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X5]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100   
+    listOrder: 2591   
   - type: STR_REMINGTON
     categories: [STR_FIREARMS,STR_SHOTGUNS]
 #    requiresBuy:
@@ -3489,7 +3489,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2592
     
   - type: STR_KS_23
     categories:  [STR_FIREARMS,STR_SHOTGUNS]
@@ -3524,7 +3524,7 @@ items:
         compatibleAmmo: [STR_SHRAPNEL_25_X3,STR_BARRICADE_X3, STR_VOLNA_R_X3,STR_ZEVADA_X3]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 2100
+    listOrder: 2593
     
   - type: STR_ORIGIN_12
     categories: [STR_FIREARMS,STR_SHOTGUNS]
@@ -3559,7 +3559,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_BUCKSHOT_X20,STR_12G_BUCKSHOT_X30,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2594
     
   - type: STR_AA_12
     categories: [STR_FIREARMS,STR_SHOTGUNS]
@@ -3598,7 +3598,7 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_BUCKSHOT_X20,STR_12G_BUCKSHOT_X30,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
+    listOrder: 2595
     
   - type: STR_USAS_12
     categories: [STR_FIREARMS,STR_SHOTGUNS]
@@ -3637,8 +3637,39 @@ items:
         compatibleAmmo: [STR_12G_BUCKSHOT_X8,STR_12G_BUCKSHOT_X20,STR_12G_SLUG_X8,STR_12G_NON_LETHAL_X8]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 2100
-    
+    listOrder: 2596
+
+  - type: STR_M60
+    categories: [STR_FIREARMS,STR_LMGS,STR_SEIZED]
+#    requiresBuy:
+    size: 1
+    weight: 72
+    battleType: 1
+    bigSprite: 2248
+    floorSprite: 2248
+    handSprite: 2248
+    fireSound: 4
+    costSell: 20000
+    accuracySnap: 45
+    accuracyAuto: 20
+    blockBothHands: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 28
+    autoRange: 14
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 50
+    tuAuto: 75
+    invWidth: 2
+    invHeight: 3
+    ammo:
+       0:
+        compatibleAmmo: [STR_NATO_7_62_X50,STR_NATO_7_62_X100]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 2600
+
   - type: STR_M249
     categories: [STR_FIREARMS,STR_LMGS]
 #    requiresBuy:
@@ -3669,7 +3700,7 @@ items:
         compatibleAmmo: [STR_5_56_X30,STR_5_56_X50,STR_5_56_X100]
         tuLoad: 45
         tuUnload: 22
-    listOrder: 2100
+    listOrder: 2601
     
   - type: STR_MK_48
     categories: [STR_FIREARMS,STR_LMGS]
@@ -3701,7 +3732,7 @@ items:
         compatibleAmmo: [STR_NATO_7_62_X50,STR_NATO_7_62_X100]
         tuLoad: 45
         tuUnload: 22
-    listOrder: 2100
+    listOrder: 2602
     
   - type: STR_PECHENEG
     categories: [STR_FIREARMS,STR_LMGS]
@@ -3733,7 +3764,7 @@ items:
         compatibleAmmo: [STR_SOVIET_7_62_MMR_X50,STR_SOVIET_7_62_MMR_X100]
         tuLoad: 45
         tuUnload: 22
-    listOrder: 2100
+    listOrder: 2603
     
   - type: STR_M320
     categories:  [STR_FIREARMS,STR_ARTILLERY]
@@ -3766,7 +3797,7 @@ items:
         compatibleAmmo: [STR_40MM_FRAG_X1,STR_40MM_SMOKE_X1,STR_40MM_NON_LETHAL_X1]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 2100
+    listOrder: 2610
     
   - type: STR_MGL
     categories:  [STR_FIREARMS,STR_ARTILLERY]
@@ -3797,7 +3828,7 @@ items:
         compatibleAmmo:  [STR_40MM_FRAG_X1,STR_40MM_FRAG_X6,STR_40MM_SMOKE_X1,STR_40MM_NON_LETHAL_X1]
         tuLoad: 45
         tuUnload: 22
-    listOrder: 2100
+    listOrder: 2611
     
   - type: STR_GUSTAF
     categories: [STR_FIREARMS,STR_ARTILLERY]
@@ -3828,7 +3859,7 @@ items:
         compatibleAmmo: [STR_CG_HEAT_X1,STR_CG_HE_X1]
         tuLoad: 50
         tuUnload: 25
-    listOrder: 2100
+    listOrder: 2611
     
   - type: STR_RPG
     categories: [STR_FIREARMS,STR_ARTILLERY,STR_SEIZED]
@@ -3858,235 +3889,140 @@ items:
         compatibleAmmo: [STR_RPG_HEAT_X1]
         tuLoad: 50
         tuUnload: 25
-    listOrder: 2100
+    listOrder: 2612
 
 
 
   
-# ###Grenades###
-#   - type: STR_GRENADE
-#     categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
-#     size: 0.1
-#     costBuy: 300
-#     costSell: 240
-#     weight: 3
-#     bigSprite: 19
-#     floorSprite: 19
-#     power: 50
-#     tuPrime: 20
-#     damageAlter:
-#       RandomType: 6
-#       IgnoreSelfDestruct: true
-#       ToTile: 0.6
-#       ToWound: 1.2
-#       RandomWound: true
-#     tuUnprime: 50
-#     damageType: 3
-#     battleType: 4
-#     blastRadius: 5
+###Grenades###
+  - type: STR_GRENADE
+    categories: [STR_EXPLOSIVES]
+    size: 0.3
+    costBuy: 400
+    costSell: 200
+    weight: 4
+    bigSprite: 19
+    floorSprite: 19
+    power: 60
+    tuPrime: 25
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+      FixRadius: 4
+    damageType: 3
+    battleType: 4
+    blastRadius: 5
+    fuseType: -2
+    listOrder: 2810
 
-#   - type: STR_SMOKE_GRENADE
-#     categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
-#     size: 0.1
-#     costBuy: 150
-#     costSell: 120
-#     weight: 3
-#     bigSprite: 200
-#     floorSprite: 200
-#     handSprite: 904
-#     power: 60
-#     damageType: 9
-#     costPrime:
-#       time: 25
-#     costUnprime:
-#       time: 20
-#     unprimeActionName: STR_UNPRIME_GRENADE
-#     battleType: 4
-#     blastRadius: 5
-#     listOrder: 2135
+  - type: STR_MOLOTOV
+    categories: [STR_EXPLOSIVES]
+    size: 0.3
+    costBuy: 400
+    costSell: 200
+    weight: 4
+    invHeight: 2
+    bigSprite: 2540
+    floorSprite: 2540
+    handSprite: 2540
+    power: 50
+    tuPrime: 35
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+      FixRadius: 3
+    damageType: 2
+    battleType: 4
+    blastRadius: 3
+    fuseType: -2
+    listOrder: 2811
 
-#   - type: STR_FLASHBANG_GRENADE
-#     categories: [STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT]
-#     size: 0.1
-#     costBuy: 1000
-#     costSell: 850
-#     weight: 4
-#     bigSprite: 201
-#     floorSprite: 201
-#     handSprite: 912
-#     hitSound: 210
-#     hitAnimation: 0
-#     power: 30
-#     fuseType: -2 # Explodes on contact
-#     damageType: 6
-#     damageAlter:
-#       RandomType: 6
-#       IgnoreSelfDestruct: true
-#       ToTime: 2.5
-#       ToStun: 0.5
-#       ToEnergy: 2.0
-#     costPrime:
-#       time: 25
-#     battleType: 4
-#     blastRadius: 3
-#     armor: 20
-#     attraction: 6
-# ###Healing Items###
-#   - type: STR_CANNED_FOOD
-#     categories: [ STR_LIGHT_EQUIPMENT]
-#     size: 0.1
-#     costBuy: 500
-#     costSell: 1200
-#     weight: 4
-#     bigSprite: 192
-#     floorSprite: 192
-#     handSprite: 820
-#     hitSound: 207
-#     battleType: 6
-#     medikitTargetSelf: true
-#     isConsumable: true
-#     medikitType: 3
-#     painKiller: 1
-#     costUse:
-#       time: 25
-#       energy: -20
-#       morale: -25
-#       health: -5
-#     invWidth: 1
-#     invHeight: 1
-#     experienceTrainingMode: 21
-#     recoveryPoints: 10
-#     listOrder: 2128
+  - type: STR_SMOKE_GRENADE
+    categories: [STR_EXPLOSIVES]
+    size: 0.3
+    costBuy: 300
+    costSell: 150
+    weight: 3
+    bigSprite: 2532
+    floorSprite: 2532
+    handSprite: 2532
+    power: 50
+    damageType: 9
+    tuPrime: 25
+    battleType: 4
+    blastRadius: 6
+    fuseType: -2
+    listOrder: 2812
 
-#   - type: STR_CIGARETTES
-#     categories: [ STR_LIGHT_EQUIPMENT]
-#     size: 0.1
-#     costSell: 2000
-#     weight: 4
-#     bigSprite: 193
-#     floorSprite: 193
-#     handSprite: 828
-#     hitSound: 208
-#     battleType: 6
-#     medikitTargetSelf: true
-#     isConsumable: true
-#     medikitType: 3
-#     painKiller: 3
-#     costUse:
-#       time: 10
-#       energy: 5
-#       morale: -50
-#       health: 5
-#     invWidth: 1
-#     invHeight: 1
-#     experienceTrainingMode: 21
-#     recoveryPoints: 10
-#     listOrder: 2129
+  - type: STR_FLASHBANG_GRENADE
+    categories: [STR_EXPLOSIVES]
+    size: 0.3
+    costBuy: 300
+    costSell: 150
+    weight: 3
+    bigSprite: 2524
+    floorSprite: 2524
+    handSprite: 2524
+    hitAnimation: 0
+    power: 10
+    damageType: 6
+    damageAlter:
+      RandomType: 1
+      FixRadius: 5
+      RadiusReduction: 0
+    tuPrime: 25
+    battleType: 4
+    blastRadius: 5
+    attraction: 6
+    fuseType: -2
+    listOrder: 2813
 
-#   - type: STR_FLASK
-#     categories: [ STR_LIGHT_EQUIPMENT]
-#     size: 0.1
-#     costSell: 2000
-#     weight: 4
-#     bigSprite: 194
-#     floorSprite: 194
-#     handSprite: 836
-#     hitSound: 209
-#     battleType: 6
-#     medikitTargetSelf: true
-#     isConsumable: true
-#     medikitType: 3
-#     painKiller: 2
-#     costUse:
-#       time: 40
-#       morale: -80
-#       stun: 10
-#     invWidth: 1
-#     invHeight: 1
-#     experienceTrainingMode: 21
-#     recoveryPoints: 10
-#     listOrder: 2130
-########################################
+  - type: STR_HIGH_EXPLOSIVE
+    categories: [STR_EXPLOSIVES]
+    size: 0.3
+    costBuy: 4000
+    costSell: 2000
+    weight: 20
+    invWidth: 2
+    bigSprite: 22
+    floorSprite: 22
+    power: 100
+    tuPrime: 40
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.4
+      FixRadius: 7
+    damageType: 3
+    battleType: 4
+    blastRadius: 7
+    fuseType: -2
+    listOrder: 2814
 
-  # - type: STR_MEDICAL_BAG
-  #   medikitBackground: MEDIKIT_BACKGROUND
-  #   categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT]
-  #   size: 0.5
-  #   costBuy: 2000
-  #   costSell: 4500
-  #   weight: 10
-  #   bigSprite: 191
-  #   floorSprite: 191
-  #   handSprite: 844
-  #   battleType: 6
-  #   invWidth: 2
-  #   invHeight: 2
-  #   painKiller: 6
-  #   heal: 6
-  #   stimulant: 6
-  #   woundRecovery: 4
-  #   healthRecovery: 5
-  #   stunRecovery: 6
-  #   energyRecovery: 15
-  #   costUse:
-  #     time: 30
-  #     energy: -3
-  #   flatRate: false
-  #   attraction: 5
-  #   experienceTrainingMode: 19
-  #   medikitActionName: STR_DEPLOY_MEDICAL_BAG
-  #   listOrder: 2132
+  - type: STR_FIELD_DRESSING
+    categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT]
+    size: 0.3
+    costBuy: 300
+    costSell: 150
+    weight: 5
+    bigSprite: 2516
+    floorSprite: 2516
+    handSprite: 2516
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    heal: 1
+    woundRecovery: 6
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1  
+    tuUse: 40
+    medikitActionName: STR_USE_FIELD_DRESSING
+    listOrder: 2820
 
-  # - type: STR_FIELD_DRESSING
-  #   categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT]
-  #   size: 0.1
-  #   costBuy: 100
-  #   costSell: 50
-  #   weight: 1
-  #   bigSprite: 199
-  #   floorSprite: 199
-  #   handSprite: 852
-  #   battleType: 6
-  #   invWidth: 1
-  #   invHeight: 1
-  #   heal: 1
-  #   woundRecovery: 6
-  #   healthRecovery: 1
-  #   isConsumable: true
-  #   medikitTargetSelf: true
-  #   medikitType: 1  #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
-  #   costUse:
-  #     time: 7
-  #   flatRate: true
-  #   attraction: 6
-  #   experienceTrainingMode: 19
-  #   medikitActionName: STR_USE_FIELD_DRESSING
-  #   listOrder: 2133
-
-  # - type: STR_MEDICAL_POUCH
-  #   categories: [STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
-  #   size: 0.1
-  #   costBuy: 200
-  #   costSell: 250
-  #   weight: 2
-  #   bigSprite: 197
-  #   floorSprite: 197
-  #   handSprite: 880
-  #   battleType: 6
-  #   invWidth: 1
-  #   invHeight: 1
-  #   heal: 3
-  #   healthRecovery: 3
-  #   isConsumable: true
-  #   medikitTargetSelf: true
-  #   medikitType: 1  #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
-  #   costUse:
-  #     time: 10
-  #   flatRate: true
-  #   attraction: 6
-  #   experienceTrainingMode: 19
-  #   medikitActionName: STR_USE_MEDICAL_POUCH
-  #   listOrder: 2134
 
   - type: STR_RIOT_SHIELD
     size: 0.5
@@ -4096,13 +4032,12 @@ items:
     bigSprite: 2500
     handSprite: 2500
     floorSprite: 2500
-    defaultInventorySlot: STR_LEFT_HAND
     flatRate: true
     battleType: 3
     clipSize: -1
     invWidth: 2
     invHeight: 3
-    listOrder: 2120
+    listOrder: 2800
 
 
 manufacture:
@@ -4317,8 +4252,8 @@ extraSprites:
       1656: Resources/BallisticWeapons/Snipers/BigPSG110.png
       1664: Resources/BallisticWeapons/Snipers/BigPSG120.png
       1672: Resources/BallisticWeapons/Snipers/BigHuntingRifle.png
-      1680: Resources/BallisticWeapons/Snipers/BigSKSnomag.png
-      1688: Resources/BallisticWeapons/Snipers/BigSKS.png
+      1680: Resources/BallisticWeapons/Snipers/BigSKS.png
+      # 1688: 
       1696: Resources/BallisticWeapons/Snipers/BigVSSVintoreznomag.png
       1704: Resources/BallisticWeapons/Snipers/BigVSSVintorez10.png
       1712: Resources/BallisticWeapons/Snipers/BigVSSVintorez20.png
@@ -4388,7 +4323,15 @@ extraSprites:
       2224: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
       2232: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
       2240: Resources/BallisticWeapons/Rifles/BigFNFAL.png
+      2248: Resources/BallisticWeapons/LMGs/BigM60nomag.png
+      2256: Resources/BallisticWeapons/LMGs/BigM60.png
       2500: Resources/SoldiersAndArmors/RiotArmor/BigRiotShield.png
+      2508: Resources/BallisticWeapons/Equipment/BigHandcuffs.png
+      2516: Resources/BallisticWeapons/Equipment/BigFieldDressing.png
+      2524: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
+      2532: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
+      2540: Resources/BallisticWeapons/Explosives/BigMolotov.png
+#      2548: Resources/BallisticWeapons/Explosives/BigMolotovprimed.png
 
   - type: FLOOROB.PCK
     files:
@@ -4578,7 +4521,7 @@ extraSprites:
       1664: Resources/BallisticWeapons/Snipers/FloorPSG1.png
       1672: Resources/BallisticWeapons/Snipers/FloorHuntingRifle.png
       1680: Resources/BallisticWeapons/Snipers/FloorSKS.png
-      1688: Resources/BallisticWeapons/Snipers/FloorSKS.png
+      # 1688: 
       1696: Resources/BallisticWeapons/Snipers/FloorVSSVintorez.png
       1704: Resources/BallisticWeapons/Snipers/FloorVSSVintorez.png
       1712: Resources/BallisticWeapons/Snipers/FloorVSSVintorez.png
@@ -4648,7 +4591,15 @@ extraSprites:
       2224: Resources/BallisticWeapons/Rifles/FloorFNFAL.png
       2232: Resources/BallisticWeapons/Rifles/FloorFNFAL.png
       2240: Resources/BallisticWeapons/Rifles/FloorFNFAL.png
+      2248: Resources/BallisticWeapons/LMGs/FloorM60.png
+      2256: Resources/BallisticWeapons/LMGs/FloorM60.png
       2500: Resources/SoldiersAndArmors/RiotArmor/FloorRiotShield.png
+      2508: Resources/BallisticWeapons/Equipment/FloorHandcuffs.png
+      2516: Resources/BallisticWeapons/Equipment/FloorFieldDressing.png
+      2524: Resources/BallisticWeapons/Explosives/FloorFlashbangGrenade.png
+      2532: Resources/BallisticWeapons/Explosives/FloorSmokeGrenade.png
+      2540: Resources/BallisticWeapons/Explosives/FloorMolotov.png
+#      2548: Resources/BallisticWeapons/Explosives/FloorMolotov.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -4841,7 +4792,7 @@ extraSprites:
       1664: Resources/BallisticWeapons/Snipers/HandPSG1.png
       1672: Resources/BallisticWeapons/Snipers/HandHuntingRifle.png
       1680: Resources/BallisticWeapons/Snipers/HandSKS.png
-      1688: Resources/BallisticWeapons/Snipers/HandSKS.png
+      # 1688: 
       1696: Resources/BallisticWeapons/Snipers/HandVSSVintorez.png
       1704: Resources/BallisticWeapons/Snipers/HandVSSVintorez.png
       1712: Resources/BallisticWeapons/Snipers/HandVSSVintorez.png
@@ -4911,7 +4862,15 @@ extraSprites:
       2224: Resources/BallisticWeapons/Rifles/HandFNFAL.png
       2232: Resources/BallisticWeapons/Rifles/HandFNFAL.png
       2240: Resources/BallisticWeapons/Rifles/HandFNFAL.png
+      2248: Resources/BallisticWeapons/LMGs/HandM60.png
+      2256: Resources/BallisticWeapons/LMGs/HandM60.png
       2500: Resources/SoldiersAndArmors/RiotArmor/HandRiotShield.png
+      2508: Resources/BallisticWeapons/Equipment/HandHandcuffs.png
+      2516: Resources/BallisticWeapons/Equipment/HandFieldDressing.png
+      2524: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
+      2532: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
+      2540: Resources/BallisticWeapons/Explosives/HandMolotov.png
+#      2548: Resources/BallisticWeapons/Explosives/HandMolotov.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -5060,6 +5019,7 @@ extraStrings:
       STR_ORIGIN_12: "Origin-12"
       STR_AA_12: "Atchisson AA-12"
       STR_USAS_12: "USAS-12"
+      STR_M60: "M60"
       STR_M249: "M249 SAW"
       STR_MK_48: "Mk 48"
       STR_PECHENEG: "PKP Pecheneg"
@@ -5096,3 +5056,4 @@ extraStrings:
 
       STR_SMOKE_GRENADE: "M18 Smoke Grenade"
       STR_FLASHBANG_GRENADE: "G60 Flashbang Grenade"
+      STR_MOLOTOV: "Molotov Cocktail"

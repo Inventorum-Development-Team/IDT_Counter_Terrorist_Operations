@@ -1,0 +1,7 @@
+extraSprites:
+  - type: BACK04.SCR #equipments
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK04.png

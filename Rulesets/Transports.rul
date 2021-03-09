@@ -4,7 +4,7 @@ crafts:
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
 
-  - type: STR_GMC_VAN
+  - type: STR_GMC_VAN_SMALL
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
     soldiers: 6
     vehicles: 0
@@ -40,6 +40,76 @@ crafts:
       - [4, 3, 0, 0]
     listOrder: 382
 
+  - type: STR_GMC_VAN_MEDIUM
+    sprite: 868 # this sprite is the number for minimized in INTICON.pck
+    soldiers: 6
+    vehicles: 0
+    costBuy: 30000
+    costRent: 4000
+    costSell: 10000
+    refuelRate: 500
+    repairRate: 4
+    transferTime: 72
+    score: 100
+    fuelMax: 650
+    damageMax: 50
+    speedMax: 230
+    accel: 1
+    radarRange: 0
+    keepCraftAfterFailedMission: true
+    battlescapeTerrainData:
+      name: GMC_Van
+      mapDataSets:
+        - BLANKS
+        - GMC_Van2
+      mapBlocks:
+        - name: GMC_Van
+          width: 10
+          length: 10
+    craftInventoryTile: [5, 3, 0]
+    deployment:
+      - [6, 7, 0, 3]
+      - [3, 7, 0, 5]
+      - [6, 6, 0, 2]
+      - [3, 6, 0, 6]
+      - [5, 3, 0, 0]
+      - [4, 3, 0, 0]
+    listOrder: 382
+  - type: STR_GMC_VAN_LARGE
+    sprite: 868 # this sprite is the number for minimized in INTICON.pck
+    soldiers: 6
+    vehicles: 0
+    costBuy: 30000
+    costRent: 4000
+    costSell: 10000
+    refuelRate: 500
+    repairRate: 4
+    transferTime: 72
+    score: 100
+    fuelMax: 650
+    damageMax: 50
+    speedMax: 230
+    accel: 1
+    radarRange: 0
+    keepCraftAfterFailedMission: true
+    battlescapeTerrainData:
+      name: GMC_Van
+      mapDataSets:
+        - BLANKS
+        - GMC_Van2
+      mapBlocks:
+        - name: GMC_Van
+          width: 10
+          length: 10
+    craftInventoryTile: [5, 3, 0]
+    deployment:
+      - [6, 7, 0, 3]
+      - [3, 7, 0, 5]
+      - [6, 6, 0, 2]
+      - [3, 6, 0, 6]
+      - [5, 3, 0, 0]
+      - [4, 3, 0, 0]
+    listOrder: 382
 manufacture:
   - delete: STR_LIGHTNING
   - delete: STR_FIRESTORM
@@ -62,4 +132,6 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
-      STR_GMC_VAN: Covert Van
+      STR_GMC_VAN_SMALL: "Small Deployment"
+      STR_GMC_VAN_MEDIUM: "Medium Deployment"
+      STR_GMC_VAN_LARGE: "Large Deployment"

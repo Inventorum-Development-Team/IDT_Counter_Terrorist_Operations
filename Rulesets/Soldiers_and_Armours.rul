@@ -1,6 +1,6 @@
 soldiers:
   - delete: STR_SOLDIER
-  - type: STR_OPERATIVE
+  - type: STR_OPERATOR
     costBuy: 200000
     costSalary: 100000
     costSalarySquaddie: 10000
@@ -37,7 +37,7 @@ soldiers:
       tu: 100
       stamina: 110
       health: 60
-      bravery: 90
+      bravery: 100
       reactions: 100
       firing: 110
       throwing: 80
@@ -103,7 +103,7 @@ armors:
     builtInWeapons:
       - STR_NO_BACKPACK
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
   - type: STR_DEFAULT_BACKPACK
     spriteSheet: XCOM_4MERC.PCK
@@ -122,7 +122,7 @@ armors:
       strength: -2
       stamina: -5
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
   - type: STR_DEFAULT_KEVLAR
     spriteSheet: BK.PCK
@@ -145,7 +145,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_DEFAULT_KEVLAR_BACKPACK
     spriteSheet: BKBP.PCK
@@ -166,7 +166,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_DEFAULT_KEVLAR_NV
     spriteSheet: BO.PCK
@@ -190,7 +190,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_DEFAULT_KEVLAR_BACKPACK_NV
     spriteSheet: BO.PCK
@@ -212,7 +212,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_DEFAULT_KEVLAR_ADVNV
     spriteSheet: DADVNV.PCK
@@ -239,7 +239,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
     spriteSheet: DADVNVBP.PCK
@@ -264,7 +264,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
   - type: STR_CAMO
     spriteSheet: XCOM_4MERC.PCK
@@ -284,7 +284,7 @@ armors:
     builtInWeapons:
       - STR_NO_BACKPACK
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
   - type: STR_CAMO_BACKPACK
     spriteSheet: XCOM_4MERC.PCK
@@ -305,7 +305,7 @@ armors:
       strength: -2
       stamina: -5
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
   - type: STR_CAMO_KEVLAR
     spriteSheet: XCOM_4MERC.PCK
@@ -330,7 +330,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_CAMO_KEVLAR_BACKPACK
     spriteSheet: XCOM_4MERC.PCK
@@ -353,7 +353,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_CAMO_KEVLAR_NV
     spriteSheet: XCOM_4MERC.PCK
@@ -379,7 +379,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_CAMO_KEVLAR_BACKPACK_NV
     spriteSheet: XCOM_4MERC.PCK
@@ -403,7 +403,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_CAMO_KEVLAR_ADVNV
     spriteSheet: XCOM_4MERC.PCK
@@ -432,7 +432,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_CAMO_KEVLAR_BACKPACK_ADVNV
     spriteSheet: XCOM_4MERC.PCK
@@ -459,7 +459,7 @@ armors:
       tu: -5
       bravery: 10
     units:
-      - STR_OPERATIVE    
+      - STR_OPERATOR    
 
 
   - type: STR_GASMASK
@@ -493,7 +493,7 @@ armors:
     builtInWeapons:
       - STR_NO_BACKPACK
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
   - type: STR_GASMASK_BACKPACK
     spriteSheet: XCOM_4MERC.PCK
@@ -526,7 +526,7 @@ armors:
       firing: -6
       stamina: -5
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
   - type: STR_GASMASK_KEVLAR
     spriteSheet: XCOM_4MERC.PCK
@@ -563,7 +563,7 @@ armors:
       bravery: 10
       firing: -6
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_GASMASK_KEVLAR_BACKPACK
     spriteSheet: XCOM_4MERC.PCK
@@ -598,7 +598,7 @@ armors:
       bravery: 10
       firing: -6
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_GASMASK_KEVLAR_NV
     spriteSheet: XCOM_4MERC.PCK
@@ -635,7 +635,7 @@ armors:
       bravery: 10
       firing: -6
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_GASMASK_KEVLAR_BACKPACK_NV
     spriteSheet: XCOM_4MERC.PCK
@@ -670,7 +670,7 @@ armors:
       bravery: 10
       firing: -6
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_GASMASK_KEVLAR_ADVNV
     spriteSheet: XCOM_4MERC.PCK
@@ -710,7 +710,7 @@ armors:
       bravery: 10
       firing: -6
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
       
   - type: STR_GASMASK_KEVLAR_BACKPACK_ADVNV
     spriteSheet: XCOM_4MERC.PCK
@@ -748,9 +748,9 @@ armors:
       bravery: 10
       firing: -6
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 
-  - type: STR_RIOT
+  - type: STR_HEAVY
     spriteSheet: XCOM_4MERC.PCK
     spriteInv: MAN_4MERC
     storeItem: STR_NONE
@@ -774,9 +774,9 @@ armors:
     builtInWeapons:
       - STR_NO_BACKPACK
     units:
-      - STR_OPERATIVE  
+      - STR_OPERATOR  
       
-  - type: STR_RIOT_NV
+  - type: STR_HEAVY_NV
     spriteSheet: XCOM_4MERC.PCK
     spriteInv: MAN_4MERC
     storeItem: STR_NONE
@@ -800,9 +800,9 @@ armors:
     builtInWeapons:
       - STR_NO_BACKPACK
     units:
-      - STR_OPERATIVE  
+      - STR_OPERATOR  
       
-  - type: STR_RIOT_ADVNV
+  - type: STR_HEAVY_ADVNV
     spriteSheet: XCOM_4MERC.PCK
     spriteInv: MAN_4MERC
     storeItem: STR_NONE
@@ -829,7 +829,7 @@ armors:
     builtInWeapons:
       - STR_NO_BACKPACK
     units:
-      - STR_OPERATIVE  
+      - STR_OPERATOR  
 
 
   - type: STR_EOD
@@ -870,7 +870,7 @@ armors:
     builtInWeapons:
       - STR_NO_BACKPACK
     units:
-      - STR_OPERATIVE
+      - STR_OPERATOR
 items:
   - type: STR_DEFAULT_BACKPACK
     size: 1

@@ -18,13 +18,24 @@ alienRaces:
     members:
       - STR_TERRORIST_COMMANDER
       - STR_TERRORIST_LEADER
+      - STR_TERRORIST_SAW
+      - STR_TERRORIST_RIFLEMAN
+      - STR_TERRORIST_RAIDER
+      - STR_TERRORIST_GRUNT
       - STR_TERRORIST_GRENADIER
-      - STR_TERRORIST_MEDIC
-      - STR_TERRORIST_SOLDIER
-      - STR_TERRORIST_SOLDIER
-      - STR_TERRORIST_SOLDIER
-      - STR_TERRORIST_SOLDIER
+      - STR_TERRORIST_SNIPER
+  - id: STR_PRIVATE_SECURITY
+    members:
+      - STR_PR_LEADER
+      - STR_PR_LEADER
+      - STR_PR_SHIELD
+      - STR_PR_RIFLEMAN
+      - STR_PR_HEAVY
+      - STR_PR_GRUNT
+      - STR_PR_SAW
+      - STR_PR_SNIPER
 extraStrings:
   - type: en-US
     strings:
-      STR_TERRORISTS: The Terrorists
+      STR_TERRORISTS: "Terrorists"
+      STR_PRIVATE_SECURITY: "Private Security"

@@ -26,6 +26,9 @@ items:
     medikitTargetImmune: true
     invWidth: 1
     invHeight: 1
+    bigSprite: 2508
+    floorSprite: 2508
+    handSprite: 2508
     tuUse: 60
     weight: 2
     costBuy: 300
@@ -320,9 +323,6 @@ items:
   - type: STR_FN_FAL_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_SKS_SCOPED #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
   - type: STR_PSG_1 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -373,9 +373,9 @@ items:
     tags:
      Shield: 1
        
-  # - type: STR_FLASHBANG_GRENADE #ignoreDuplicate
-  #   tags:
-  #    FlashBang: 1
+  - type: STR_FLASHBANG_GRENADE #ignoreDuplicate
+    tags:
+     FlashBang: 1
   
 extended:
   tags:
@@ -400,7 +400,6 @@ extended:
       Allies: int
       Turn: int
   scripts:
-  #startY
      createUnit:
         - offset: 1 #Halves enemies Tu:s on the first turn
           code: |
@@ -541,29 +540,29 @@ extended:
             end;
             return power part side;
 
- #        - offset: 4 #FlashBang Script
- #          code: |
- #            var int flashbang;
- #            var int flashbanged;
- #            var int turn;
- #            var int accuracy;
- #            var int reactions;
- #            damaging_item.getTag flashbang Tag.FlashBang;
- #            if eq flashbang 1;
- #             battle_game.getTurn turn;
- #             unit.getTag flashbanged Tag.FlashBanged;
- #             add flashbanged 4;
- #             if gt turn flashbanged;
- #              BattleUnit.Stats.getFiring unit accuracy;
- #              BattleUnit.Stats.getReactions unit reactions;
- #              BattleUnit.setTag unit Tag.OGfiring accuracy;
- #              BattleUnit.setTag unit Tag.OGreactions reactions;
- #              sub reactions 50;
- #              sub accuracy 50;
- #              BattleUnit.Stats.setFiring unit accuracy;
- #              BattleUnit.Stats.setReactions unit reactions;
- #            end;
- #            return power part side;
+         - offset: 4 #FlashBang Script
+           code: |
+             var int flashbang;
+             var int flashbanged;
+             var int turn;
+             var int accuracy;
+             var int reactions;
+             damaging_item.getTag flashbang Tag.FlashBang;
+             if eq flashbang 1;
+              battle_game.getTurn turn;
+              unit.getTag flashbanged Tag.FlashBanged;
+              add flashbanged 4;
+              if gt turn flashbanged;
+               BattleUnit.Stats.getFiring unit accuracy;
+               BattleUnit.Stats.getReactions unit reactions;
+               BattleUnit.setTag unit Tag.OGfiring accuracy;
+               BattleUnit.setTag unit Tag.OGreactions reactions;
+               sub reactions 50;
+               sub accuracy 50;
+               BattleUnit.Stats.setFiring unit accuracy;
+               BattleUnit.Stats.setReactions unit reactions;
+             end;
+             return power part side;
 
      healUnit: #Handcuff script
        - offset: 1
@@ -671,9 +670,10 @@ extended:
             end;
            end;
           return sprite_index; 
-#endY
+
 extraStrings:
   - type: en-US
     strings:
       STR_ALREADY_SHOUTED: "Unit already shouted at"
       STR_JAMMED: "Weapon Jammed"
+      STR_HANDCUFFS: "Handcuffs"
