@@ -1,8 +1,8 @@
 name: "Counter-Terrorist Operations"
 version: "0.1"
 requiredExtendedVersion: "6.9"
-author: "Filip H"
-description: ""
+author: "Filip H and efrenespartano"
+description: "Lead a International Task Unit in a fight against terrorist forces"
 id: CTO
 isMaster: true
 master: xcom1

@@ -10,6 +10,68 @@ items:
     armor: 30
     recover: false
 
+  - type: STR_TERRORIST_COMMANDER
+    liveAlien: true
+    costSell: 100000
+    size: 0
+  - type: STR_TERRORIST_LEADER
+    liveAlien: true
+    costSell: 70000
+    size: 0
+  - type: STR_TERRORIST_SAW
+    liveAlien: true
+    costSell: 35000
+    size: 0
+  - type: STR_TERRORIST_RIFLEMAN
+    liveAlien: true
+    costSell: 25000
+    size: 0
+  - type: STR_TERRORIST_RAIDER
+    liveAlien: true
+    costSell: 25000
+    size: 0
+  - type: STR_TERRORIST_GRUNT
+    liveAlien: true
+    costSell: 15000
+    size: 0
+  - type: STR_TERRORIST_GRENADIER
+    liveAlien: true
+    costSell: 40000
+    size: 0
+  - type: STR_TERRORIST_SNIPER
+    liveAlien: true
+    costSell: 40000
+    size: 0
+
+  - type: STR_PR_LEADER
+    liveAlien: true
+    costSell: 80000
+    size: 0
+  - type: STR_PR_SHIELD
+    liveAlien: true
+    costSell: 30000
+    size: 0
+  - type: STR_PR_RIFLEMAN
+    liveAlien: true
+    costSell: 30000
+    size: 0
+  - type: STR_PR_HEAVY
+    liveAlien: true
+    costSell: 30000
+    size: 0
+  - type: STR_PR_GRUNT
+    liveAlien: true
+    costSell: 25000
+    size: 0
+  - type: STR_PR_SAW
+    liveAlien: true
+    costSell: 30000
+    size: 0
+  - type: STR_PR_SNIPER
+    liveAlien: true
+    costSell: 30000
+    size: 0
+
 
 
 armors:

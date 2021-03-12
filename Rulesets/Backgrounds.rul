@@ -5,3 +5,9 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK04.png
+  - type: BACK05.SCR #Research
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK05.png

@@ -1,3 +1,16 @@
+items:
+
+  - type: STR_HOUSE_EVIDENCE
+    size: 0.1
+    costSell: 30000
+  - type: STR_HIDEOUT_EVIDENCE
+    size: 0.1
+    costSell: 30000
+  - type: STR_OFFICE_EVIDENCE
+    size: 0.1
+    costSell: 30000
+
+
 alienDeployments:
   - delete: STR_SMALL_SCOUT
   - delete: STR_MEDIUM_SCOUT
@@ -848,6 +861,7 @@ alienDeployments:
     abortPenalty: 50
     duration: [15,30]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HOUSE_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 0
@@ -982,6 +996,7 @@ alienDeployments:
     abortPenalty: 50
     duration: [15,30]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HOUSE_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 0
@@ -1115,6 +1130,7 @@ alienDeployments:
     abortPenalty: 50
     duration: [15,30]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HOUSE_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 0
@@ -2048,6 +2064,7 @@ alienDeployments:
     abortPenalty: 100
     duration: [25,50]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HIDEOUT_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 1
@@ -2182,6 +2199,7 @@ alienDeployments:
     abortPenalty: 100
     duration: [25,50]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HIDEOUT_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 1
@@ -2315,6 +2333,7 @@ alienDeployments:
     abortPenalty: 100
     duration: [25,50]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HIDEOUT_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 1
@@ -2446,6 +2465,7 @@ alienDeployments:
     abortPenalty: 100
     duration: [25,50]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_OFFICE_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 0
@@ -2513,6 +2533,7 @@ alienDeployments:
     abortPenalty: 100
     duration: [25,50]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_OFFICE_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 0
@@ -2578,6 +2599,7 @@ alienDeployments:
     abortPenalty: 100
     duration: [25,50]
     keepCraftAfterFailedMission: true
+    missionBountyItem: STR_OFFICE_EVIDENCE
     data:
        - alienRank: 7
          lowQty: 0

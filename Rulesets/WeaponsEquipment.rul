@@ -3933,10 +3933,12 @@ items:
       IgnoreSelfDestruct: true
       ToArmorPre: 0.2
       FixRadius: 3
+      RadiusReduction: 0
     damageType: 2
     battleType: 4
     blastRadius: 3
     fuseType: -2
+    isExplodingInHands: true
     listOrder: 2811
 
   - type: STR_SMOKE_GRENADE
@@ -3998,7 +4000,6 @@ items:
     damageType: 3
     battleType: 4
     blastRadius: 7
-    fuseType: -2
     listOrder: 2814
 
   - type: STR_FIELD_DRESSING
@@ -5039,7 +5040,7 @@ extraStrings:
       STR_UNPRIME_GRENADE: "Unprime Grenade"
       STR_AUTO_SHOT: "Burst"
 
-      STR_RIOT_SHIELD: Ballistic shield
+      STR_RIOT_SHIELD: "Ballistic shield"
 
       STR_CANNED_FOOD: "Canned Food"
       STR_CIGARETTES: "Cigarettes"
@@ -5055,5 +5056,5 @@ extraStrings:
 
 
       STR_SMOKE_GRENADE: "M18 Smoke Grenade"
-      STR_FLASHBANG_GRENADE: "G60 Flashbang Grenade"
+      STR_FLASHBANG_GRENADE: "M84 Flashbang Grenade"
       STR_MOLOTOV: "Molotov Cocktail"
