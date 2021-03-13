@@ -36,7 +36,7 @@ alienDeployments:
       - COMRCURBAN
     despawnPenalty: 300
     abortPenalty: 300
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -173,7 +173,7 @@ alienDeployments:
       - COMRCURBAN
     despawnPenalty: 300
     abortPenalty: 300
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -309,7 +309,7 @@ alienDeployments:
       - COMRCURBAN
     despawnPenalty: 300
     abortPenalty: 300
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -457,7 +457,7 @@ alienDeployments:
       - AIRPORT
     despawnPenalty: 400
     abortPenalty: 400
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -593,7 +593,7 @@ alienDeployments:
       - AIRPORT
     despawnPenalty: 400
     abortPenalty: 400
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -728,7 +728,7 @@ alienDeployments:
       - AIRPORT
     despawnPenalty: 400
     abortPenalty: 400
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -1257,10 +1257,13 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    terrains:
+      - EXPANDED_TERROR
+      - COMRCURBAN
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -1391,10 +1394,13 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    terrains:
+      - EXPANDED_TERROR
+      - COMRCURBAN
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -1524,10 +1530,13 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    terrains:
+      - EXPANDED_TERROR
+      - COMRCURBAN
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     data:
        - alienRank: 7
@@ -1658,7 +1667,7 @@ alienDeployments:
     civilians: 10
     despawnPenalty: 500
     abortPenalty: 500
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     markCiviliansAsVIP: true
     vipSurvivalPercentage: 4
@@ -1794,7 +1803,7 @@ alienDeployments:
     civilians: 10
     despawnPenalty: 500
     abortPenalty: 500
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     markCiviliansAsVIP: true
     vipSurvivalPercentage: 4
@@ -1929,7 +1938,7 @@ alienDeployments:
     civilians: 10
     despawnPenalty: 500
     abortPenalty: 500
-    duration: [1,2]
+    duration: [3,5]
     keepCraftAfterFailedMission: true
     markCiviliansAsVIP: true
     vipSurvivalPercentage: 4

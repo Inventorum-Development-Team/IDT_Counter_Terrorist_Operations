@@ -2,10 +2,10 @@ startingTime:
   second: 0
   minute: 0
   hour: 12
-  weekday: 1
+  weekday: 4
   day: 10
   month: 3
-  year: 2014
+  year: 2016
 initialFunding: 2000
 customTrainingFactor: 20
 allowCountriesToCancelAlienPact: true
