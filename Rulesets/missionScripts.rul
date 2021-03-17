@@ -53,7 +53,6 @@ missionScripts:
       0:
         MAJOR_ATTACK_EAST_EU: 100
     executionOdds: 33
-    label: 1
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
@@ -67,8 +66,6 @@ missionScripts:
       0:
         MAJOR_ATTACK_USA: 100
     executionOdds: 33
-    label: 2
-    conditionals: [-1]
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
@@ -81,8 +78,7 @@ missionScripts:
     missionWeights:
       0:
         MAJOR_ATTACK_WEST_EU: 100
-    executionOdds: 66
-    conditionals: [-2]
+    executionOdds: 33
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
@@ -272,8 +268,7 @@ missionScripts:
     missionWeights:
      0:
        SKY_SCRAPER_EAST_EU: 100
-    executionOdds: 33
-    label: 3
+    executionOdds: 100
     startDelay: 100
     randomDelay: 43200
     regionWeights:
@@ -281,6 +276,7 @@ missionScripts:
        REGION_SOVIET_CITIES: 100
     researchTriggers:
       STR_SKYSCRAPER_RAID: true
+      STR_RANDOM_3: true
     useTable: false
     varName: east_scraper
     maxRuns: 1
@@ -289,9 +285,7 @@ missionScripts:
     missionWeights:
      0:
        SKY_SCRAPER_USA: 100
-    executionOdds: 33
-    label: 4
-    conditionals: [-3]
+    executionOdds: 100
     startDelay: 100
     randomDelay: 43200
     regionWeights:
@@ -299,6 +293,7 @@ missionScripts:
        REGION_AMERICAN_CITIES: 100
     researchTriggers:
       STR_SKYSCRAPER_RAID: true
+      STR_RANDOM_1: true
     useTable: false
     varName: usa_scraper
     maxRuns: 1
@@ -308,7 +303,6 @@ missionScripts:
      0:
        SKY_SCRAPER_WEST_EU: 100
     executionOdds: 100
-    conditionals: [-4]
     startDelay: 100
     randomDelay: 43200
     regionWeights:
@@ -316,6 +310,7 @@ missionScripts:
        REGION_EUROPEAN_CITIES: 100
     researchTriggers:
       STR_SKYSCRAPER_RAID: true
+      STR_RANDOM_2: true
     useTable: false
     varName: west_scraper
     maxRuns: 1

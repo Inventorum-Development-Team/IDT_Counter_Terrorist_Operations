@@ -1,4 +1,5 @@
 crafts:
+  - delete: STR_SKYRANGER
   - delete: STR_INTERCEPTOR
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
@@ -8,8 +9,8 @@ crafts:
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
     soldiers: 6
     vehicles: 0
-    costBuy: 30000
-    costRent: 4000
+    costBuy: 100000
+    costRent: 5000
     costSell: 10000
     refuelRate: 500
     repairRate: 4
@@ -17,8 +18,8 @@ crafts:
     score: 100
     fuelMax: 650
     damageMax: 50
-    speedMax: 230
-    accel: 1
+    speedMax: 800
+    accel: 5
     radarRange: 0
     keepCraftAfterFailedMission: true
     battlescapeTerrainData:
@@ -42,19 +43,21 @@ crafts:
 
   - type: STR_GMC_VAN_MEDIUM
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
+    requires:
+     - STR_MEDIUM_TRANSPORT
     soldiers: 6
     vehicles: 0
-    costBuy: 30000
-    costRent: 4000
-    costSell: 10000
+    costBuy: 200000
+    costRent: 10000
+    costSell: 20000
     refuelRate: 500
     repairRate: 4
     transferTime: 72
     score: 100
     fuelMax: 650
     damageMax: 50
-    speedMax: 230
-    accel: 1
+    speedMax: 800
+    accel: 5
     radarRange: 0
     keepCraftAfterFailedMission: true
     battlescapeTerrainData:
@@ -63,33 +66,41 @@ crafts:
         - BLANKS
         - GMC_Van2
       mapBlocks:
-        - name: GMC_Van
+        - name: GMC_VAN2
           width: 10
           length: 10
-    craftInventoryTile: [5, 3, 0]
+    craftInventoryTile: [3, 3, 0]
     deployment:
-      - [6, 7, 0, 3]
-      - [3, 7, 0, 5]
-      - [6, 6, 0, 2]
-      - [3, 6, 0, 6]
-      - [5, 3, 0, 0]
-      - [4, 3, 0, 0]
+      - [4, 7, 0, 3]
+      - [2, 7, 0, 5]
+      - [4, 6, 0, 2]
+      - [2, 6, 0, 6]
+      - [3, 3, 0, 0]
+      - [2, 3, 0, 0]
+      - [9, 5, 0, 3]
+      - [6, 5, 0, 5]
+      - [9, 4, 0, 2]
+      - [6, 4, 0, 6]
+      - [8, 1, 0, 0]
+      - [7, 1, 0, 0]
     listOrder: 382
   - type: STR_GMC_VAN_LARGE
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
+    requires:
+     - STR_LARGE_TRANSPORT
     soldiers: 6
     vehicles: 0
-    costBuy: 30000
-    costRent: 4000
-    costSell: 10000
+    costBuy: 300000
+    costRent: 15000
+    costSell: 30000
     refuelRate: 500
     repairRate: 4
     transferTime: 72
     score: 100
     fuelMax: 650
     damageMax: 50
-    speedMax: 230
-    accel: 1
+    speedMax: 800
+    accel: 5
     radarRange: 0
     keepCraftAfterFailedMission: true
     battlescapeTerrainData:
@@ -98,17 +109,29 @@ crafts:
         - BLANKS
         - GMC_Van2
       mapBlocks:
-        - name: GMC_Van
+        - name: GMC_VAN3
           width: 10
-          length: 10
-    craftInventoryTile: [5, 3, 0]
+          length: 20
+    craftInventoryTile: [3, 13, 0]
     deployment:
-      - [6, 7, 0, 3]
-      - [3, 7, 0, 5]
-      - [6, 6, 0, 2]
-      - [3, 6, 0, 6]
-      - [5, 3, 0, 0]
-      - [4, 3, 0, 0]
+      - [4, 17, 0, 3]
+      - [2, 17, 0, 5]
+      - [4, 16, 0, 2]
+      - [2, 16, 0, 6]
+      - [3, 13, 0, 0]
+      - [2, 13, 0, 0]
+      - [9, 15, 0, 3]
+      - [6, 15, 0, 5]
+      - [9, 14, 0, 2]
+      - [6, 14, 0, 6]
+      - [8, 11, 0, 0]
+      - [7, 11, 0, 0]
+      - [4, 11, 0, 3]
+      - [1, 11, 0, 5]
+      - [4, 10, 0, 2]
+      - [2, 10, 0, 6]
+      - [3, 7, 0, 0]
+      - [2, 7, 0, 0]
     listOrder: 382
 manufacture:
   - delete: STR_LIGHTNING

@@ -58,9 +58,14 @@ soldiers:
     value: 100
     femaleFrequency: 50
     specialWeapon: STR_SHOUT
+    soldierNames:
+      - SoldierName/
 
 armors:
   - delete: STR_NONE_UC
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
 
   - &STR_NO_VEST
     type: STR_NO_VEST
@@ -266,494 +271,494 @@ armors:
     units:
       - STR_OPERATOR
 
-  - type: STR_CAMO
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_NO_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    personalLight: 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    units:
-      - STR_OPERATOR
+  # - type: STR_CAMO
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_NO_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   personalLight: 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   units:
+  #     - STR_OPERATOR
 
-  - type: STR_CAMO_BACKPACK
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_NO_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    personalLight: 0
-    stats:
-      strength: -2
-      stamina: -5
-    units:
-      - STR_OPERATOR
+  # - type: STR_CAMO_BACKPACK
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_NO_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   personalLight: 0
+  #   stats:
+  #     strength: -2
+  #     stamina: -5
+  #   units:
+  #     - STR_OPERATOR
 
-  - type: STR_CAMO_KEVLAR
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    personalLight: 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    stats:
-      strength: -10
-      stamina: -15
-      tu: -5
-      bravery: 10
-    units:
-      - STR_OPERATOR
+  # - type: STR_CAMO_KEVLAR
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   personalLight: 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   stats:
+  #     strength: -10
+  #     stamina: -15
+  #     tu: -5
+  #     bravery: 10
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_CAMO_KEVLAR_BACKPACK
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    personalLight: 0
-    stats:
-      strength: -12
-      stamina: -20
-      tu: -5
-      bravery: 10
-    units:
-      - STR_OPERATOR
+  # - type: STR_CAMO_KEVLAR_BACKPACK
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   personalLight: 0
+  #   stats:
+  #     strength: -12
+  #     stamina: -20
+  #     tu: -5
+  #     bravery: 10
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_CAMO_KEVLAR_NV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDark: 18
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    personalLight: 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    stats:
-      strength: -10
-      stamina: -15
-      tu: -5
-      bravery: 10
-    units:
-      - STR_OPERATOR
+  # - type: STR_CAMO_KEVLAR_NV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDark: 18
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   personalLight: 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   stats:
+  #     strength: -10
+  #     stamina: -15
+  #     tu: -5
+  #     bravery: 10
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_CAMO_KEVLAR_BACKPACK_NV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDark: 18
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    personalLight: 0
-    stats:
-      strength: -12
-      stamina: -20
-      tu: -5
-      bravery: 10
-    units:
-      - STR_OPERATOR
+  # - type: STR_CAMO_KEVLAR_BACKPACK_NV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDark: 18
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   personalLight: 0
+  #   stats:
+  #     strength: -12
+  #     stamina: -20
+  #     tu: -5
+  #     bravery: 10
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_CAMO_KEVLAR_ADVNV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    visibilityAtDark: 25
-    heatVision: 100
-    antiCamouflageAtDark: 25
-    antiCamouflageAtDay: 30
-    personalLight: 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    stats:
-      strength: -10
-      stamina: -15
-      tu: -5
-      bravery: 10
-    units:
-      - STR_OPERATOR
+  # - type: STR_CAMO_KEVLAR_ADVNV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   visibilityAtDark: 25
+  #   heatVision: 100
+  #   antiCamouflageAtDark: 25
+  #   antiCamouflageAtDay: 30
+  #   personalLight: 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   stats:
+  #     strength: -10
+  #     stamina: -15
+  #     tu: -5
+  #     bravery: 10
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_CAMO_KEVLAR_BACKPACK_ADVNV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    camouflageAtDay: 8
-    camouflageAtDark: 4
-    visibilityAtDark: 25
-    heatVision: 100
-    antiCamouflageAtDark: 25
-    antiCamouflageAtDay: 30
-    personalLight: 0
-    stats:
-      strength: -12
-      stamina: -20
-      tu: -5
-      bravery: 10
-    units:
-      - STR_OPERATOR    
+  # - type: STR_CAMO_KEVLAR_BACKPACK_ADVNV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   camouflageAtDay: 8
+  #   camouflageAtDark: 4
+  #   visibilityAtDark: 25
+  #   heatVision: 100
+  #   antiCamouflageAtDark: 25
+  #   antiCamouflageAtDay: 30
+  #   personalLight: 0
+  #   stats:
+  #     strength: -12
+  #     stamina: -20
+  #     tu: -5
+  #     bravery: 10
+  #   units:
+  #     - STR_OPERATOR    
 
 
-  - type: STR_GASMASK
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_NO_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 5
-    personalLight: 0
-    stats:
-      firing: -6
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_NO_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 5
+  #   personalLight: 0
+  #   stats:
+  #     firing: -6
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   units:
+  #     - STR_OPERATOR
 
-  - type: STR_GASMASK_BACKPACK
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_NO_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 5
-    personalLight: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    stats:
-      strength: -2
-      firing: -6
-      stamina: -5
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK_BACKPACK
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_NO_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 5
+  #   personalLight: 0
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   stats:
+  #     strength: -2
+  #     firing: -6
+  #     stamina: -5
+  #   units:
+  #     - STR_OPERATOR
 
-  - type: STR_GASMASK_KEVLAR
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 5
-    personalLight: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    stats:
-      strength: -10
-      stamina: -15
-      tu: -5
-      bravery: 10
-      firing: -6
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK_KEVLAR
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 5
+  #   personalLight: 0
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   stats:
+  #     strength: -10
+  #     stamina: -15
+  #     tu: -5
+  #     bravery: 10
+  #     firing: -6
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_GASMASK_KEVLAR_BACKPACK
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 5
-    personalLight: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    stats:
-      strength: -12
-      stamina: -20
-      tu: -5
-      bravery: 10
-      firing: -6
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK_KEVLAR_BACKPACK
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 5
+  #   personalLight: 0
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   stats:
+  #     strength: -12
+  #     stamina: -20
+  #     tu: -5
+  #     bravery: 10
+  #     firing: -6
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_GASMASK_KEVLAR_NV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 18
-    personalLight: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    stats:
-      strength: -10
-      stamina: -15
-      tu: -5
-      bravery: 10
-      firing: -6
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK_KEVLAR_NV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 18
+  #   personalLight: 0
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   stats:
+  #     strength: -10
+  #     stamina: -15
+  #     tu: -5
+  #     bravery: 10
+  #     firing: -6
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_GASMASK_KEVLAR_BACKPACK_NV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 18
-    personalLight: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    stats:
-      strength: -12
-      stamina: -20
-      tu: -5
-      bravery: 10
-      firing: -6
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK_KEVLAR_BACKPACK_NV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 18
+  #   personalLight: 0
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   stats:
+  #     strength: -12
+  #     stamina: -20
+  #     tu: -5
+  #     bravery: 10
+  #     firing: -6
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_GASMASK_KEVLAR_ADVNV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 25
-    personalLight: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    heatVision: 100
-    antiCamouflageAtDark: 25
-    antiCamouflageAtDay: 30
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    stats:
-      strength: -10
-      stamina: -15
-      tu: -5
-      bravery: 10
-      firing: -6
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK_KEVLAR_ADVNV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 25
+  #   personalLight: 0
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   heatVision: 100
+  #   antiCamouflageAtDark: 25
+  #   antiCamouflageAtDay: 30
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   stats:
+  #     strength: -10
+  #     stamina: -15
+  #     tu: -5
+  #     bravery: 10
+  #     firing: -6
+  #   units:
+  #     - STR_OPERATOR
       
-  - type: STR_GASMASK_KEVLAR_BACKPACK_ADVNV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 25
-    personalLight: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    heatVision: 100
-    antiCamouflageAtDark: 25
-    antiCamouflageAtDay: 30
-    stats:
-      strength: -12
-      stamina: -20
-      tu: -5
-      bravery: 10
-      firing: -6
-    units:
-      - STR_OPERATOR
+  # - type: STR_GASMASK_KEVLAR_BACKPACK_ADVNV
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   refNode: *STR_VEST
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 25
+  #   personalLight: 0
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   heatVision: 100
+  #   antiCamouflageAtDark: 25
+  #   antiCamouflageAtDay: 30
+  #   stats:
+  #     strength: -12
+  #     stamina: -20
+  #     tu: -5
+  #     bravery: 10
+  #     firing: -6
+  #   units:
+  #     - STR_OPERATOR
 
   - type: STR_HEAVY
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
+    spriteSheet: ARMOR_RIOT.PCK
+    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    storeItem: STR_HEAVY
     corpseBattle:
       - STR_CORPSE_DEFAULT
     loftempsSet: [ 3 ]
@@ -777,9 +782,9 @@ armors:
       - STR_OPERATOR  
       
   - type: STR_HEAVY_NV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
+    spriteSheet: ARMOR_RIOT.PCK
+    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    storeItem: STR_HEAVY_NV
     corpseBattle:
       - STR_CORPSE_DEFAULT
     loftempsSet: [ 3 ]
@@ -803,9 +808,9 @@ armors:
       - STR_OPERATOR  
       
   - type: STR_HEAVY_ADVNV
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
+    spriteSheet: ARMOR_RIOT.PCK
+    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    storeItem: STR_HEAVY_ADVNV
     corpseBattle:
       - STR_CORPSE_DEFAULT
     loftempsSet: [ 3 ]
@@ -832,50 +837,56 @@ armors:
       - STR_OPERATOR  
 
 
-  - type: STR_EOD
-    spriteSheet: XCOM_4MERC.PCK
-    spriteInv: MAN_4MERC
-    storeItem: STR_NONE
-    corpseBattle:
-      - STR_CORPSE_DEFAULT
-    loftempsSet: [ 3 ]
-    frontArmor: 30
-    sideArmor: 25
-    rearArmor: 30
-    underArmor: 20
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    visibilityAtDay: 26
-    visibilityAtDark: 5
-    personalLight: 0
-    stats:
-      strength: -20
-      stamina: -30
-      firing: -40
-      tu: -20
-      bravery: 10
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.3
-      - 1.0
-      - 1.0
-      - 0
-      - 1.0
-      - 0
-      - 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    units:
-      - STR_OPERATOR
+  # - type: STR_EOD
+  #   spriteSheet: XCOM_4MERC.PCK
+  #   spriteInv: MAN_4MERC
+  #   storeItem: STR_NONE
+  #   corpseBattle:
+  #     - STR_CORPSE_DEFAULT
+  #   loftempsSet: [ 3 ]
+  #   frontArmor: 30
+  #   sideArmor: 25
+  #   rearArmor: 30
+  #   underArmor: 20
+  #   spriteFaceGroup: 6
+  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   spriteHairGroup: 9
+  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+  #   visibilityAtDay: 26
+  #   visibilityAtDark: 5
+  #   personalLight: 0
+  #   stats:
+  #     strength: -20
+  #     stamina: -30
+  #     firing: -40
+  #     tu: -20
+  #     bravery: 10
+  #   damageModifier:
+  #     - 1.0
+  #     - 1.0
+  #     - 1.0
+  #     - 0.3
+  #     - 1.0
+  #     - 1.0
+  #     - 0
+  #     - 1.0
+  #     - 0
+  #     - 0
+  #   builtInWeapons:
+  #     - STR_NO_BACKPACK
+  #   units:
+  #     - STR_OPERATOR
 items:
   - type: STR_DEFAULT_BACKPACK
     size: 1
+    costBuy: 3000
+    requiresBuy:
+      - STR_BACKPACK_ACQUISITION
   - type: STR_DEFAULT_KEVLAR
     size: 1
+    costBuy: 30000
+    requiresBuy:
+      - STR_ARMORED_VEST_ACQUISITION
   - type: STR_DEFAULT_KEVLAR_BACKPACK
     size: 1
   - type: STR_DEFAULT_KEVLAR_NV
@@ -885,6 +896,15 @@ items:
   - type: STR_DEFAULT_KEVLAR_ADVNV
     size: 1
   - type: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
+    size: 1
+  - type: STR_HEAVY
+    size: 1
+    costBuy: 50000
+    requiresBuy:
+      - STR_HEAVY_VEST_ACQUISITION
+  - type: STR_HEAVY_NV
+    size: 1
+  - type: STR_HEAVY_ADVNV
     size: 1
 
   - type: STR_CORPSE_DEFAULT
@@ -1261,6 +1281,8 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
+       STR_OPERATOR: "Soldier"
+
        STR_DEFAULT: "Uniform"
        STR_DEFAULT_BACKPACK: "Uniform (BP)"
        STR_DEFAULT_KEVLAR: "Uniform (Kevlar)"
@@ -1269,3 +1291,6 @@ extraStrings:
        STR_DEFAULT_KEVLAR_BACKPACK_NV: "Uniform (Kevlar, NV, BP)"
        STR_DEFAULT_KEVLAR_ADVNV: "Uniform (Kevlar, ADVNV)"
        STR_DEFAULT_KEVLAR_BACKPACK_ADVNV: "Uniform (Kevlar, ADVNV, BP)"
+       STR_HEAVY: "Heavy Vest"
+       STR_HEAVY_NV: "Heavy Vest (NV)"
+       STR_HEAVY_ADVNV: "Heavy Vest (ADVNV)"

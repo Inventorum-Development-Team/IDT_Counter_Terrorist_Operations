@@ -1,0 +1,662 @@
+items:
+  - type: STR_SCOPE
+    costBuy: 4000
+    costSell: 2000
+    requiresBuy:
+     - STR_SCOPE_ACQUISITION
+    size: 0.1
+  - type: STR_SOPMOD_KIT
+    costBuy: 6000
+    costSell: 3000
+    requiresBuy:
+     - STR_SOPMOD_ACQUISITION
+    size: 0.1
+  - type: STR_M203
+    costBuy: 15000
+    costSell: 7500
+    requiresBuy:
+     - STR_M203_ACQUISITION
+    size: 0.1
+  - type: STR_FN40GL
+    costBuy: 20000
+    costSell: 10000
+    requiresBuy:
+     - STR_FN40GL_ACQUISITION
+    size: 0.1
+  - type: STR_UBS
+    costBuy: 18000
+    costSell: 9000
+    requiresBuy:
+     - STR_UBS_ACQUISITION
+    size: 0.1
+  - type: STR_NV
+    costBuy: 15000
+    costSell: 7500
+    requiresBuy:
+     - STR_NIGHT_VISION
+    size: 0.1
+  - type: STR_ADVNV
+    costBuy: 25000
+    costSell: 12500
+    requiresBuy:
+     - STR_ADV_NIGHTVISION
+    size: 0.1
+
+
+manufacture:
+  - delete: STR_FUSION_BALL_LAUNCHER
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_BEAM
+  - delete: STR_FUSION_BALL
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_HWP_FUSION_BOMB
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+  - delete: STR_PSI_AMP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_MIND_PROBE
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+
+  - name: STR_M4_SOPMOD
+    time: 10
+    requires:
+     - STR_M4_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+      STR_M4: 1
+      STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_M4_SOPMOD_REMOVAL
+    time: 10
+    requires:
+     - STR_M4_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+     STR_M4_SOPMOD: 1
+    producedItems:
+     STR_M4: 1
+     STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_M4_M320
+    time: 10
+    requires:
+     - STR_M4_ACQUISITION
+     - STR_M320_ACQUISITION
+    requiredItems:
+     STR_M4: 1
+     STR_M320: 1
+    refund: true
+    
+  - name: STR_M4_M320_REMOVAL
+    time: 10
+    requires:
+     - STR_M4_ACQUISITION
+     - STR_M320_ACQUISITION
+    requiredItems:
+     STR_M4_M320: 1
+    producedItems:
+     STR_M4: 1
+     STR_M320: 1
+    refund: true
+
+  - name: STR_M4_UBS
+    time: 10
+    requires:
+     - STR_M4_ACQUISITION
+     - STR_UBS_ACQUISITION
+    requiredItems:
+     STR_M4: 1
+     STR_UBS: 1
+    refund: true
+    
+  - name: STR_M4_UBS_REMOVAL
+    time: 10
+    requires:
+     - STR_M4_ACQUISITION
+     - STR_UBS_ACQUISITION
+    requiredItems:
+     STR_M4_UBS: 1
+    producedItems:
+     STR_M4: 1
+     STR_UBS: 1
+    refund: true
+
+  - name: STR_M4A1_SOPMOD
+    time: 10
+    requires:
+     - STR_M4A1_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+      STR_M4A1: 1
+      STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_M4A1_SOPMOD_REMOVAL
+    time: 10
+    requires:
+     - STR_M4A1_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+     STR_M4A1_SOPMOD: 1
+    producedItems:
+     STR_M4A1: 1
+     STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_M4A1_M320
+    time: 10
+    requires:
+     - STR_M4A1_ACQUISITION
+     - STR_M320_ACQUISITION
+    requiredItems:
+     STR_M4A1: 1
+     STR_M320: 1
+    refund: true
+    
+  - name: STR_M4A1_M320_REMOVAL
+    time: 10
+    requires:
+     - STR_M4A1_ACQUISITION
+     - STR_M320_ACQUISITION
+    requiredItems:
+     STR_M4A1_M320: 1
+    producedItems:
+     STR_M4A1: 1
+     STR_M320: 1
+    refund: true
+
+  - name: STR_M4A1_UBS
+    time: 10
+    requires:
+     - STR_M4A1_ACQUISITION
+     - STR_UBS_ACQUISITION
+    requiredItems:
+     STR_M4A1: 1
+     STR_UBS: 1
+    refund: true
+    
+  - name: STR_M4A1_UBS_REMOVAL
+    time: 10
+    requires:
+     - STR_M4A1_ACQUISITION
+     - STR_UBS_ACQUISITION
+    requiredItems:
+     STR_M4A1_UBS: 1
+    producedItems:
+     STR_M4A1: 1
+     STR_UBS: 1
+    refund: true
+
+  - name: STR_TAVOR_SCOPED
+    time: 10
+    requires:
+     - STR_TAVOR_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_TAVOR: 1
+     STR_SCOPE: 1
+    refund: true
+    
+  - name: STR_TAVOR_SCOPED_REMOVAL
+    time: 10
+    requires:
+     - STR_TAVOR_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_TAVOR_SCOPED: 1
+    producedItems:
+     STR_TAVOR: 1
+     STR_SCOPE: 1
+    refund: true
+
+  - name: STR_TAVOR_M203
+    time: 10
+    requires:
+     - STR_TAVOR_ACQUISITION
+     - STR_M203_ACQUISITION
+    requiredItems:
+     STR_TAVOR: 1
+     STR_M203: 1
+    refund: true
+    
+  - name: STR_TAVOR_M203_REMOVAL
+    time: 10
+    requires:
+     - STR_TAVOR_ACQUISITION
+     - STR_M203_ACQUISITION
+    requiredItems:
+     STR_TAVOR_M203: 1
+    producedItems:
+     STR_TAVOR: 1
+     STR_M203: 1
+    refund: true
+
+  - name: STR_TAVOR_95X_SCOPED
+    time: 10
+    requires:
+     - STR_TAVOR_95X_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_TAVOR_95X: 1
+     STR_SCOPE: 1
+    refund: true
+    
+  - name: STR_TAVOR_95X_SCOPED_REMOVAL
+    time: 10
+    requires:
+     - STR_TAVOR_95X_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_TAVOR_95X_SCOPED: 1
+    producedItems:
+     STR_TAVOR_95X: 1
+     STR_SCOPE: 1
+    refund: true
+
+  - name: STR_AK12_SCOPED
+    time: 10
+    requires:
+     - STR_AK12_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_AK12: 1
+     STR_SCOPE: 1
+    refund: true
+    
+  - name: STR_AK12_SCOPED_REMOVAL
+    time: 10
+    requires:
+     - STR_AK12_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_AK12_SCOPED: 1
+    producedItems:
+     STR_AK12: 1
+     STR_SCOPE: 1
+    refund: true
+
+  - name: STR_AK15_SCOPED
+    time: 10
+    requires:
+     - STR_AK15_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_AK15: 1
+     STR_SCOPE: 1
+    refund: true
+    
+  - name: STR_AK15_SCOPED_REMOVAL
+    time: 10
+    requires:
+     - STR_AK15_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_AK15_SCOPED: 1
+    producedItems:
+     STR_AK15: 1
+     STR_SCOPE: 1
+    refund: true
+
+  - name: STR_FX_05_SCOPED
+    time: 10
+    requires:
+     - STR_FX_05_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_FX_05: 1
+     STR_SCOPE: 1
+    refund: true
+    
+  - name: STR_FX_05_SCOPED_REMOVAL
+    time: 10
+    requires:
+     - STR_FX_05_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+    requiredItems:
+     STR_FX_05_SCOPED: 1
+    producedItems:
+     STR_FX_05: 1
+     STR_SCOPE: 1
+    refund: true
+
+  - name: STR_HK416_SOPMOD
+    time: 10
+    requires:
+     - STR_HK416_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+      STR_HK416: 1
+      STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_HK416_SOPMOD_REMOVAL
+    time: 10
+    requires:
+     - STR_HK416_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+     STR_HK416_SOPMOD: 1
+    producedItems:
+     STR_HK416: 1
+     STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_HK416_M320
+    time: 10
+    requires:
+     - STR_HK416_ACQUISITION
+     - STR_M320_ACQUISITION
+    requiredItems:
+     STR_HK416: 1
+     STR_M320: 1
+    refund: true
+    
+  - name: STR_HK416_M320_REMOVAL
+    time: 10
+    requires:
+     - STR_HK416_ACQUISITION
+     - STR_M320_ACQUISITION
+    requiredItems:
+     STR_HK416_M320: 1
+    producedItems:
+     STR_HK416: 1
+     STR_M320: 1
+    refund: true
+
+  - name: STR_HK416_UBS
+    time: 10
+    requires:
+     - STR_HK416_ACQUISITION
+     - STR_UBS_ACQUISITION
+    requiredItems:
+     STR_HK416: 1
+     STR_UBS: 1
+    refund: true
+    
+  - name: STR_HK416_UBS_REMOVAL
+    time: 10
+    requires:
+     - STR_HK416_ACQUISITION
+     - STR_UBS_ACQUISITION
+    requiredItems:
+     STR_HK416_UBS: 1
+    producedItems:
+     STR_HK416: 1
+     STR_UBS: 1
+    refund: true
+    
+  - name: STR_SCAR_L_SOPMOD
+    time: 10
+    requires:
+     - STR_SCAR_L_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+      STR_SCAR_L: 1
+      STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_SCAR_L_SOPMOD_REMOVAL
+    time: 10
+    requires:
+     - STR_SCAR_L_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+     STR_SCAR_L_SOPMOD: 1
+    producedItems:
+     STR_SCAR_L: 1
+     STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_SCAR_L_GL
+    time: 10
+    requires:
+     - STR_SCAR_L_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+    requiredItems:
+     STR_SCAR_L: 1
+     STR_FN40GL: 1
+    refund: true
+    
+  - name: STR_SCAR_L_GL_REMOVAL
+    time: 10
+    requires:
+     - STR_SCAR_L_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+    requiredItems:
+     STR_SCAR_L_GL: 1
+    producedItems:
+     STR_SCAR_L: 1
+     STR_FN40GL: 1
+    refund: true
+    
+  - name: STR_SCAR_H_SOPMOD
+    time: 10
+    requires:
+     - STR_SCAR_H_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+      STR_SCAR_H: 1
+      STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_SCAR_H_SOPMOD_REMOVAL
+    time: 10
+    requires:
+     - STR_SCAR_H_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+     STR_SCAR_H_SOPMOD: 1
+    producedItems:
+     STR_SCAR_H: 1
+     STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_SCAR_H_GL
+    time: 10
+    requires:
+     - STR_SCAR_H_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+    requiredItems:
+     STR_SCAR_H: 1
+     STR_FN40GL: 1
+    refund: true
+    
+  - name: STR_SCAR_H_GL_REMOVAL
+    time: 10
+    requires:
+     - STR_SCAR_H_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+    requiredItems:
+     STR_SCAR_H_GL: 1
+    producedItems:
+     STR_SCAR_H: 1
+     STR_FN40GL: 1
+    refund: true
+
+  - name: STR_SR_3_ONE_HANDED
+    time: 5
+    requires:
+     - STR_SR3_ACQUISITION
+    requiredItems:
+     STR_SR_3: 1
+    refund: true
+
+  - name: STR_SR_3
+    time: 5
+    requires:
+     - STR_SR3_ACQUISITION
+    requiredItems:
+     STR_SR_3_ONE_HANDED: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_BACKPACK
+    time: 5
+    requires:
+     - STR_ARMORED_VEST_ACQUISITION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL
+    time: 5
+    requires:
+     - STR_ARMORED_VEST_ACQUISITION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_BACKPACK: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_NV
+    time: 20
+    requires:
+     - STR_NIGHT_VISION
+    requiredItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_NV: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_NV_REMOVAL
+    time: 20
+    requires:
+     - STR_NIGHT_VISION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_NV: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_NV: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_BACKPACK_NV
+    time: 5
+    requires:
+     - STR_NIGHT_VISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_NV: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL
+    time: 5
+    requires:
+     - STR_NIGHT_VISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_BACKPACK_NV: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR_NV: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_ADVNV
+    time: 20
+    requires:
+     - STR_ADV_NIGHTVISION
+    requiredItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_ADVNV: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_ADVNV_REMOVAL
+    time: 20
+    requires:
+     - STR_ADV_NIGHTVISION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_ADVNV: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_ADVNV: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
+    time: 5
+    requires:
+     - STR_ADV_NIGHTVISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_ADVNV: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL
+    time: 5
+    requires:
+     - STR_ADV_NIGHTVISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_BACKPACK_ADVNV: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR_ADVNV: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+
+
+
+extraStrings:
+  - type: en-US
+    strings:
+
+      STR_SCOPE: "Scope"
+      STR_SOPMOD_KIT: "SOPMOD kit"
+      STR_M203: "M203"
+      STR_FN40GL: "FN40GL"
+      STR_UBS: "Modular Accessory Shotgun System"
+      STR_NV: "Nightvision Goggles"
+      STR_ADVNV: "Advanced Nightvision Goggles"
+      STR_M4_SOPMOD_REMOVAL: "M4: Remove SOPMOD"
+      STR_M4_M320_REMOVAL: "M4: Remove M320"
+      STR_M4_UBS_REMOVAL: "M4: Remove MASS"
+      STR_M4A1_SOPMOD_REMOVAL: "M4A1: Remove SOPMOD"
+      STR_M4A1_M320_REMOVAL: "M4A1: Remove M320"
+      STR_M4A1_UBS_REMOVAL: "M4A1: Remove MASS"
+      STR_TAVOR_SCOPED_REMOVAL: "IWI Tavor: Remove Scope"
+      STR_TAVOR_M203_REMOVAL: "IWI Tavor: Remove M203"
+      STR_TAVOR_95X_SCOPED_REMOVAL: "IWI Tavor 95X: Remove Scope"
+      STR_AK12_SCOPED_REMOVAL: "AK-12: Remove Scope"
+      STR_AK15_SCOPED_REMOVAL: "AK-15: Remove Scope"
+      STR_HK416_SOPMOD_REMOVAL: "HK416: Remove SOPMOD"
+      STR_HK416_UBS_REMOVAL: "HK416: Remove MASS"
+      STR_HK416_M320_REMOVAL: "HK416: Remove M320"
+      STR_FX_05_SCOPED_REMOVAL: "FX-05: Remove Scope"
+      STR_SCAR_L_SOPMOD_REMOVAL: "SCAR-L: Remove SOPMOD"
+      STR_SCAR_L_GL_REMOVAL: "SCAR-L: Remove FN40GL"
+      STR_SCAR_H_SOPMOD_REMOVAL: "SCAR-H: Remove SOPMOD"
+      STR_SCAR_H_GL_REMOVAL: "SCAR-H: Remove FN40GL"
+      STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL: "(Kevlar, BP): Remove Backpack"
+      STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Nightvision"
+      STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL: "(Kevlar, NV, BP): Remove Backpack"
+      STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Nightvision"
+      STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL: "(Kevlar, ADVNV, BP): Remove Backpack"
+
+
+

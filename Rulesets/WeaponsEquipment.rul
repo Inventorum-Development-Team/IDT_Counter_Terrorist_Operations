@@ -48,6 +48,9 @@ items:
   - delete: STR_ALIEN_GRENADE
   - delete: STR_MOTION_SCANNER
   - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_TANK_LASER_CANNON
 
   - &STR_SMG
     type: STR_SMG
@@ -435,7 +438,6 @@ items:
     floorSprite: 200
     size: 0.1
     armor: 30
-    costBuy: 100
     costSell: 50
     weight: 1
     clipSize: 10
@@ -448,7 +450,6 @@ items:
     floorSprite: 208
     size: 0.1
     armor: 30
-    costBuy: 200
     costSell: 100
     weight: 2
     clipSize: 20
@@ -461,7 +462,6 @@ items:
     floorSprite: 216
     size: 0.1
     armor: 30
-    costBuy: 400
     costSell: 200
     weight: 3
     clipSize: 30
@@ -520,6 +520,8 @@ items:
     listOrder: 2013
   - type: STR_FN_57_X20
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_FIVE_SEVEN_ACQUISITION
     refNode: *STR_FN57_AMMO
     bigSprite: 600
     handSprite: 600
@@ -532,6 +534,8 @@ items:
     clipSize: 20
     listOrder: 2020
   - type: STR_FN_57_X50
+    requiresBuy:
+     - STR_P90_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_FN57_AMMO
     bigSprite: 256
@@ -546,6 +550,8 @@ items:
     clipSize: 50
     listOrder: 2021
   - type: STR_45_ACP_X7
+    requiresBuy:
+     - STR_M1911_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 264
@@ -559,6 +565,8 @@ items:
     clipSize: 7
     listOrder: 2030
   - type: STR_45_ACP_X12
+    requiresBuy:
+     - STR_MK_23_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 272
@@ -573,6 +581,8 @@ items:
     listOrder: 2031
   - type: STR_CASELESS_4_73_X50
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_G11_ACQUISITION
     refNode: *STR_CASELESS_4_73_AMMO
     bigSprite: 280
     handSprite: 280
@@ -586,6 +596,8 @@ items:
     clipSize: 50
     listOrder: 2040
   - type: STR_5_45_X30
+    requiresBuy:
+     - STR_AK12_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
     bigSprite: 288
@@ -599,6 +611,8 @@ items:
     clipSize: 30
     listOrder: 2050
   - type: STR_5_45_X45
+    requiresBuy:
+     - STR_AK12_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
     bigSprite: 296
@@ -612,6 +626,8 @@ items:
     clipSize: 45
     listOrder: 2051
   - type: STR_5_45_X60
+    requiresBuy:
+     - STR_AK12_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
     bigSprite: 304
@@ -625,6 +641,8 @@ items:
     clipSize: 60
     listOrder: 2052
   - type: STR_5_56_X30
+    requiresBuy:
+     - STR_5_56_AMMO
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 312
@@ -638,6 +656,8 @@ items:
     clipSize: 30
     listOrder: 2060
   - type: STR_5_56_X50
+    requiresBuy:
+     - STR_M249_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 320
@@ -652,6 +672,8 @@ items:
     clipSize: 50
     listOrder: 2061
   - type: STR_5_56_X100
+    requiresBuy:
+     - STR_M249_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 328
@@ -693,6 +715,8 @@ items:
     clipSize: 10
     listOrder: 2080
   - type: STR_SOVIET_7_62_X30
+    requiresBuy:
+     - STR_AK15_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 336
@@ -706,6 +730,8 @@ items:
     clipSize: 30
     listOrder: 2081
   - type: STR_SOVIET_7_62_X40
+    requiresBuy:
+     - STR_AK15_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 344
@@ -719,6 +745,8 @@ items:
     clipSize: 40
     listOrder: 2082
   - type: STR_SOVIET_7_62_X75
+    requiresBuy:
+     - STR_AK15_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 352
@@ -733,6 +761,8 @@ items:
     listOrder: 2083
   - type: STR_NATO_7_62_X5
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 360
     handSprite: 360
@@ -746,6 +776,8 @@ items:
     listOrder: 2090
   - type: STR_NATO_7_62_X10
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 368
     handSprite: 368
@@ -759,6 +791,8 @@ items:
     listOrder: 2091
   - type: STR_NATO_7_62_X20
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 376
     handSprite: 376
@@ -784,6 +818,8 @@ items:
   #   clipSize: 30
   #   listOrder: 2093
   - type: STR_NATO_7_62_X50
+    requiresBuy:
+     - STR_MK_48_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 392
@@ -798,6 +834,8 @@ items:
     clipSize: 50
     listOrder: 2094
   - type: STR_NATO_7_62_X100
+    requiresBuy:
+     - STR_MK_48_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 400
@@ -813,6 +851,8 @@ items:
     clipSize: 100
     listOrder: 2095
   - type: STR_SOVIET_7_62_MMR_X50
+    requiresBuy:
+     - STR_PECHENEG_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
     bigSprite: 408
@@ -828,6 +868,8 @@ items:
     listOrder: 2100
   - type: STR_SOVIET_7_62_MMR_X100
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_PECHENEG_ACQUISITION
     refNode: *STR_SOVIET_7_62_MMR_AMMO
     bigSprite: 416
     handSprite: 416
@@ -843,6 +885,8 @@ items:
     listOrder: 2101
   - type: STR_9_39_X10
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_9_39_AMMO
     refNode: *STR_9_39_AMMO
     bigSprite: 424
     handSprite: 424
@@ -856,6 +900,8 @@ items:
     listOrder: 2110
   - type: STR_9_39_X20
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_9_39_AMMO
     refNode: *STR_9_39_AMMO
     bigSprite: 432
     handSprite: 432
@@ -869,6 +915,8 @@ items:
     listOrder: 2111
   - type: STR_338_LAPUA_X5
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_LAPUA_AMMO
     refNode: *STR_338_LAPUA_AMMO
     bigSprite: 440
     handSprite: 440
@@ -881,6 +929,8 @@ items:
     clipSize: 5
     listOrder: 2120
   - type: STR_50_BMG_X5
+    requiresBuy:
+     - STR_M82_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
     bigSprite: 448
@@ -894,6 +944,8 @@ items:
     clipSize: 5
     listOrder: 2130
   - type: STR_50_BMG_X10
+    requiresBuy:
+     - STR_M82_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
     bigSprite: 456
@@ -919,6 +971,8 @@ items:
     clipSize: 2 
     listOrder: 2150    
   - type: STR_12G_BUCKSHOT_X5
+    requiresBuy:
+     - STR_12G_X5_AMMO
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 464
@@ -932,6 +986,8 @@ items:
     clipSize: 5 
     listOrder: 2151 
   - type: STR_12G_BUCKSHOT_X8
+    requiresBuy:
+     - STR_SHOTGUN_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 472
@@ -945,6 +1001,8 @@ items:
     clipSize: 8 
     listOrder: 2152  
   - type: STR_12G_BUCKSHOT_X20
+    requiresBuy:
+     - STR_12G_DRUM_AMMO
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 480
@@ -959,6 +1017,8 @@ items:
     listOrder: 2153    
   - type: STR_12G_BUCKSHOT_X30
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_12G_DRUM_AMMO
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 488
     handSprite: 488
@@ -972,6 +1032,8 @@ items:
     invHeight: 2
     listOrder: 2154   
   - type: STR_12G_SLUG_X8
+    requiresBuy:
+     - STR_SHOTGUN_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_12G_SLUG
     bigSprite: 496
@@ -985,6 +1047,8 @@ items:
     clipSize: 8 
     listOrder: 2160
   - type: STR_12G_NON_LETHAL_X8
+    requiresBuy:
+     - STR_SHOTGUN_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_12G_NON_LETHAL
     bigSprite: 504
@@ -998,6 +1062,8 @@ items:
     clipSize: 8 
     listOrder: 2170
   - type: STR_SHRAPNEL_25_X3
+    requiresBuy:
+     - STR_KS_23_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_SHRAPNEL_25
     bigSprite: 512
@@ -1011,6 +1077,8 @@ items:
     clipSize: 3 
     listOrder: 2180 
   - type: STR_BARRICADE_X3
+    requiresBuy:
+     - STR_KS_23_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_BARRICADE
     bigSprite: 520
@@ -1024,6 +1092,8 @@ items:
     clipSize: 3 
     listOrder: 2190 
   - type: STR_VOLNA_R_X3
+    requiresBuy:
+     - STR_KS_23_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_VOLNA_R
     bigSprite: 528
@@ -1037,6 +1107,8 @@ items:
     clipSize: 3 
     listOrder: 2200
   - type: STR_ZEVADA_X3
+    requiresBuy:
+     - STR_KS_23_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_SHRAPNEL_25
     bigSprite: 536
@@ -1052,6 +1124,8 @@ items:
 
   - type: STR_40MM_FRAG_X1
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_40MM_AMMO
     refNode: *STR_40MM_FRAG
     bigSprite: 544
     handSprite: 544
@@ -1065,6 +1139,9 @@ items:
     listOrder: 2220
   - type: STR_40MM_FRAG_X6
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_40MM_AMMO
+     - STR_MGL_ACQUISITION
     refNode: *STR_40MM_FRAG
     bigSprite: 552
     handSprite: 552
@@ -1080,6 +1157,8 @@ items:
     listOrder: 2221
   - type: STR_40MM_SMOKE_X1
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_40MM_AMMO
     refNode: *STR_40MM_SMOKE
     bigSprite: 560
     handSprite: 560
@@ -1093,6 +1172,8 @@ items:
     listOrder: 2230
   - type: STR_40MM_NON_LETHAL_X1
     categories: [STR_CLIPS]
+    requiresBuy:
+     - STR_40MM_AMMO
     refNode: *STR_40MM_NON_LETHAL
     bigSprite: 568
     handSprite: 568
@@ -1105,6 +1186,8 @@ items:
     clipSize: 1 
     listOrder: 2240
   - type: STR_CG_HEAT_X1
+    requiresBuy:
+     - STR_AT_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_CG_HEAT
     bigSprite: 576
@@ -1119,6 +1202,8 @@ items:
     clipSize: 1
     listOrder: 2250  
   - type: STR_CG_HE_X1
+    requiresBuy:
+     - STR_AT_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_CG_HE
     bigSprite: 584
@@ -1222,7 +1307,8 @@ items:
 
   - type: STR_P226
     categories: [STR_FIREARMS,STR_PISTOLS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_P226_ACQUISITION
     size: 1
     weight: 10
     battleType: 1
@@ -1259,7 +1345,8 @@ items:
 
   - type: STR_GLOCK_18
     categories: [STR_FIREARMS,STR_PISTOLS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_GLOCK_18_ACQUISITION
     size: 1
     weight: 11
     battleType: 1
@@ -1296,7 +1383,8 @@ items:
 
   - type: STR_M1911
     categories: [STR_FIREARMS,STR_PISTOLS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_M1911_ACQUISITION
     size: 1
     weight: 12
     battleType: 1
@@ -1333,7 +1421,8 @@ items:
 
   - type: STR_MK_23
     categories: [STR_FIREARMS,STR_PISTOLS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_MK_23_ACQUISITION
     size: 1
     weight: 14
     battleType: 1
@@ -1405,6 +1494,8 @@ items:
 
   - type: STR_FIVE_SEVEN
     categories: [STR_FIREARMS,STR_PISTOLS]
+    requiresBuy:
+     - STR_FIVE_SEVEN_ACQUISITION
     size: 1
     weight: 6
     battleType: 1
@@ -1513,7 +1604,8 @@ items:
 
   - type: STR_MPX
     categories: [STR_FIREARMS,STR_SMGS]
-#    requiresBuy: 
+    requiresBuy:
+     - STR_MPX_ACQUISITION
     size: 1
     weight: 22
     battleType: 1
@@ -1550,7 +1642,8 @@ items:
 
   - type: STR_P90
     categories: [STR_FIREARMS,STR_SMGS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_P90_ACQUISITION
     size: 1
     weight: 21
     battleType: 1
@@ -1623,7 +1716,8 @@ items:
 
   - type: STR_TAVOR
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_TAVOR_ACQUISITION
     size: 1
     weight: 23
     battleType: 1
@@ -1743,7 +1837,8 @@ items:
 
   - type: STR_TAVOR_95X
     categories:  [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_TAVOR_95X_ACQUISITION
     size: 1
     weight: 24
     battleType: 1
@@ -1815,7 +1910,8 @@ items:
 
   - type: STR_M4
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_M4_ACQUISITION
     size: 1
     weight: 24
     battleType: 1
@@ -1982,7 +2078,8 @@ items:
 
   - type: STR_M4A1
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_M4A1_ACQUISITION
     size: 1
     weight: 24
     battleType: 1
@@ -2158,7 +2255,8 @@ items:
 
   - type: STR_AK12
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_AK12_ACQUISITION
     size: 1
     weight: 20
     battleType: 1
@@ -2230,7 +2328,8 @@ items:
 
   - type: STR_AK15
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_AK15_ACQUISITION
     size: 1
     weight: 22
     battleType: 1
@@ -2302,7 +2401,8 @@ items:
 
   - type: STR_HK416
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_HK416_ACQUISITION
     size: 1
     weight: 25
     battleType: 1
@@ -2471,7 +2571,8 @@ items:
 
   - type: STR_FX_05
     categories: [STR_FIREARMS,STR_RIFLES]
-   # requiresBuy:
+    requiresBuy:
+     - STR_FX_05_ACQUISITION
     size: 1
     weight: 19
     battleType: 1
@@ -2543,7 +2644,8 @@ items:
 
   - type: STR_SCAR_L
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_SCAR_L_ACQUISITION
     size: 1
     weight: 24
     battleType: 1
@@ -2663,7 +2765,8 @@ items:
 
   - type: STR_SCAR_H
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_SCAR_H_ACQUISITION
     size: 1
     weight: 28
     battleType: 1
@@ -2783,7 +2886,8 @@ items:
 
   - type: STR_G11
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_G11_ACQUISITION
     size: 1
     weight: 30
     battleType: 1
@@ -2820,7 +2924,8 @@ items:
 
   - type: STR_SR_3
     categories: [STR_FIREARMS,STR_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_SR3_ACQUISITION
     size: 1
     weight: 20
     battleType: 1
@@ -3165,7 +3270,8 @@ items:
     listOrder: 2581
   - type: STR_PSG_1
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_PSG1_ACQUISITION
     size: 1
     weight: 50
     battleType: 1
@@ -3196,7 +3302,8 @@ items:
     
   - type: STR_MSG_90
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_MSG_90_ACQUISITION
     size: 1
     weight: 43
     battleType: 1
@@ -3230,7 +3337,8 @@ items:
     
   - type: STR_VSS
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_VSS_ACQUISITION
     size: 1
     weight: 16
     battleType: 1
@@ -3266,7 +3374,8 @@ items:
     
   - type: STR_SAKO_TRG
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_TRG_ACQUISITION
     size: 1
     weight: 40
     battleType: 1
@@ -3297,7 +3406,8 @@ items:
     
   - type: STR_AWP
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_AWP_ACQUISITION
     size: 1
     weight: 47
     battleType: 1
@@ -3328,7 +3438,8 @@ items:
     
   - type: STR_AW
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_AW_ACQUISITION
     size: 1
     weight: 47
     battleType: 1
@@ -3359,7 +3470,8 @@ items:
     
   - type: STR_M82
     categories: [STR_FIREARMS,STR_SNIPER_RIFLES]
-#    requiresBuy:
+    requiresBuy:
+     - STR_M82_ACQUISITION
     size: 1
     weight: 70
     battleType: 1
@@ -3424,7 +3536,8 @@ items:
 
   - type: STR_SERBU
     categories: [STR_FIREARMS,STR_SHOTGUNS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_SERBU_ACQUISITION
     size: 1
     weight: 12
     battleType: 1
@@ -3458,7 +3571,8 @@ items:
     listOrder: 2591   
   - type: STR_REMINGTON
     categories: [STR_FIREARMS,STR_SHOTGUNS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_REMINGTON_ACQUISITION
     size: 1
     weight: 25
     battleType: 1
@@ -3493,7 +3607,8 @@ items:
     
   - type: STR_KS_23
     categories:  [STR_FIREARMS,STR_SHOTGUNS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_KS_23_ACQUISITION
     size: 1
     weight: 30
     battleType: 1
@@ -3528,7 +3643,8 @@ items:
     
   - type: STR_ORIGIN_12
     categories: [STR_FIREARMS,STR_SHOTGUNS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_ORIGIN_12_ACQUISITION
     size: 1
     weight: 37
     battleType: 1
@@ -3563,7 +3679,8 @@ items:
     
   - type: STR_AA_12
     categories: [STR_FIREARMS,STR_SHOTGUNS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_AA_12_ACQUISITION
     size: 1
     weight: 46
     battleType: 1
@@ -3602,7 +3719,8 @@ items:
     
   - type: STR_USAS_12
     categories: [STR_FIREARMS,STR_SHOTGUNS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_USAS_12_ACQUISITION
     size: 1
     weight: 42
     battleType: 1
@@ -3672,7 +3790,8 @@ items:
 
   - type: STR_M249
     categories: [STR_FIREARMS,STR_LMGS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_M249_ACQUISITION
     size: 1
     weight: 52
     battleType: 1
@@ -3704,7 +3823,8 @@ items:
     
   - type: STR_MK_48
     categories: [STR_FIREARMS,STR_LMGS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_MK_48_ACQUISITION
     size: 1
     weight: 60
     battleType: 1
@@ -3736,7 +3856,8 @@ items:
     
   - type: STR_PECHENEG
     categories: [STR_FIREARMS,STR_LMGS]
-#    requiresBuy:
+    requiresBuy:
+     - STR_PECHENEG_ACQUISITION
     size: 1
     weight: 59
     battleType: 1
@@ -3768,7 +3889,8 @@ items:
     
   - type: STR_M320
     categories:  [STR_FIREARMS,STR_ARTILLERY]
-#    requiresBuy:
+    requiresBuy:
+     - STR_M320_ACQUISITION
     size: 1
     weight: 12
     battleType: 1
@@ -3801,7 +3923,8 @@ items:
     
   - type: STR_MGL
     categories:  [STR_FIREARMS,STR_ARTILLERY]
-#    requiresBuy:
+    requiresBuy:
+     - STR_MGL_ACQUISITION
     size: 1
     weight: 52
     battleType: 1
@@ -3832,7 +3955,8 @@ items:
     
   - type: STR_GUSTAF
     categories: [STR_FIREARMS,STR_ARTILLERY]
-#    requiresBuy:
+    requiresBuy:
+     - STR_AT_ACQUISITION
     size: 1
     weight: 65
     battleType: 1
@@ -3897,6 +4021,8 @@ items:
 ###Grenades###
   - type: STR_GRENADE
     categories: [STR_EXPLOSIVES]
+    requiresBuy:
+     - STR_GRENADES
     size: 0.3
     costBuy: 400
     costSell: 200
@@ -3919,7 +4045,6 @@ items:
   - type: STR_MOLOTOV
     categories: [STR_EXPLOSIVES]
     size: 0.3
-    costBuy: 400
     costSell: 200
     weight: 4
     invHeight: 2
@@ -3943,6 +4068,8 @@ items:
 
   - type: STR_SMOKE_GRENADE
     categories: [STR_EXPLOSIVES]
+    requiresBuy:
+     - STR_UTILITY_GRENADES
     size: 0.3
     costBuy: 300
     costSell: 150
@@ -3960,6 +4087,8 @@ items:
 
   - type: STR_FLASHBANG_GRENADE
     categories: [STR_EXPLOSIVES]
+    requiresBuy:
+     - STR_UTILITY_GRENADES
     size: 0.3
     costBuy: 300
     costSell: 150
@@ -3983,6 +4112,8 @@ items:
 
   - type: STR_HIGH_EXPLOSIVE
     categories: [STR_EXPLOSIVES]
+    requiresBuy:
+     - STR_HIGH_EXPLOSIVES
     size: 0.3
     costBuy: 4000
     costSell: 2000
@@ -4026,6 +4157,8 @@ items:
 
 
   - type: STR_RIOT_SHIELD
+    requiresBuy:
+     - STR_BALLISTIC_SHIELD_ACQUISITION
     size: 0.5
     weight: 10
     costBuy: 5000
@@ -4040,28 +4173,18 @@ items:
     invHeight: 3
     listOrder: 2800
 
+  - type: STR_ELECTRO_FLARE
+    size: 0.1
+    costBuy: 60
+    costSell: 40
+    weight: 3
+    bigSprite: 55
+    floorSprite: 72
+    power: 15
+    battleType: 10
+    armor: 8
 
-manufacture:
-  - delete: STR_MIND_PROBE
-  - delete: STR_LASER_PISTOL
-  - delete: STR_LASER_RIFLE
-  - delete: STR_HEAVY_LASER
-  - delete: STR_MOTION_SCANNER
-  - delete: STR_MEDI_KIT
-  - delete: STR_PSI_AMP
-  - delete: STR_STUN_ROD
-  - delete: STR_HEAVY_PLASMA
-  - delete: STR_HEAVY_PLASMA_CLIP
-  - delete: STR_PLASMA_RIFLE
-  - delete: STR_PLASMA_RIFLE_CLIP
-  - delete: STR_PLASMA_PISTOL
-  - delete: STR_PLASMA_PISTOL_CLIP
-  - delete: STR_BLASTER_LAUNCHER
-  - delete: STR_BLASTER_BOMB
-  - delete: STR_SMALL_LAUNCHER
-  - delete: STR_STUN_BOMB
-  - delete: STR_ALIEN_GRENADE
-  - delete: STR_MOTION_SCANNER
+
 extraSprites:
 #########################################
 ######### TIER I WEAPONS USA ############

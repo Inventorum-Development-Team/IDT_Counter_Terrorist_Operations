@@ -1,0 +1,7 @@
+arcScripts:
+  - type: RANDOM_TECHS
+    randomArcs:
+     STR_RANDOM_1: 33
+     STR_RANDOM_2: 33
+     STR_RANDOM_3: 33
+    maxArcs: 1

@@ -1,196 +1,347 @@
 research:
+  - delete: STR_LASER_WEAPONS
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+  - delete: STR_PSI_AMP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_MIND_PROBE
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_NEW_FIGHTER_CRAFT
+  - delete: STR_NEW_FIGHTER_TRANSPORTER
+  - delete: STR_ULTIMATE_CRAFT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_CANNON
+  - delete: STR_FUSION_MISSILE
+  - delete: STR_LASER_DEFENSE
+  - delete: STR_PLASMA_DEFENSE
+  - delete: STR_FUSION_DEFENSE
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSI_LAB
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_LEADER_PLUS
+  - delete: STR_COMMANDER_PLUS
+  - delete: STR_ZOMBIE_CORPSE
+  - delete: STR_SECTOID_CORPSE
+  - delete: STR_SNAKEMAN_CORPSE
+  - delete: STR_ETHEREAL_CORPSE
+  - delete: STR_MUTON_CORPSE
+  - delete: STR_FLOATER_CORPSE
+  - delete: STR_CELATID_CORPSE
+  - delete: STR_SILACOID_CORPSE
+  - delete: STR_CHRYSSALID_CORPSE
+  - delete: STR_REAPER_CORPSE
+  - delete: STR_SECTOPOD_CORPSE
+  - delete: STR_CYBERDISC_CORPSE
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
+  - delete: STR_SECTOID_COMMANDER
+  - delete: STR_SECTOID_LEADER
+  - delete: STR_SECTOID_ENGINEER
+  - delete: STR_SECTOID_MEDIC
+  - delete: STR_SECTOID_NAVIGATOR
+  - delete: STR_SECTOID_SOLDIER
+  - delete: STR_SNAKEMAN_COMMANDER
+  - delete: STR_SNAKEMAN_LEADER
+  - delete: STR_SNAKEMAN_ENGINEER
+  - delete: STR_SNAKEMAN_MEDIC
+  - delete: STR_SNAKEMAN_NAVIGATOR
+  - delete: STR_SNAKEMAN_SOLDIER
+  - delete: STR_ETHEREAL_COMMANDER
+  - delete: STR_ETHEREAL_LEADER
+  - delete: STR_ETHEREAL_ENGINEER
+  - delete: STR_ETHEREAL_MEDIC
+  - delete: STR_ETHEREAL_NAVIGATOR
+  - delete: STR_ETHEREAL_SOLDIER
+  - delete: STR_MUTON_COMMANDER
+  - delete: STR_MUTON_LEADER
+  - delete: STR_MUTON_ENGINEER
+  - delete: STR_MUTON_MEDIC
+  - delete: STR_MUTON_NAVIGATOR
+  - delete: STR_MUTON_SOLDIER
+  - delete: STR_FLOATER_COMMANDER
+  - delete: STR_FLOATER_LEADER
+  - delete: STR_FLOATER_ENGINEER
+  - delete: STR_FLOATER_MEDIC
+  - delete: STR_FLOATER_NAVIGATOR
+  - delete: STR_FLOATER_SOLDIER
+  - delete: STR_CELATID_TERRORIST
+  - delete: STR_SILACOID_TERRORIST
+  - delete: STR_CHRYSSALID_TERRORIST
+  - delete: STR_REAPER_TERRORIST
+  - delete: STR_SECTOPOD_TERRORIST
+  - delete: STR_CYBERDISC_TERRORIST
+  - delete: STR_PLASMA_CANNON_DEP1
+  - delete: STR_PLASMA_CANNON_DEP2
+  - delete: STR_SECTOID_AUTOPSY
+  - delete: STR_SNAKEMAN_AUTOPSY
+  - delete: STR_ETHEREAL_AUTOPSY
+  - delete: STR_MUTON_AUTOPSY
+  - delete: STR_FLOATER_AUTOPSY
+  - delete: STR_CELATID_AUTOPSY
+  - delete: STR_SILACOID_AUTOPSY
+  - delete: STR_CHRYSSALID_AUTOPSY
+  - delete: STR_REAPER_AUTOPSY
+  - delete: STR_SECTOPOD_AUTOPSY
+  - delete: STR_CYBERDISC_AUTOPSY
+  - delete: STR_SECTOID
+  - delete: STR_SNAKEMAN
+  - delete: STR_ETHEREAL
+  - delete: STR_MUTON
+  - delete: STR_FLOATER
+  - delete: STR_CELATID
+  - delete: STR_SILACOID
+  - delete: STR_CHRYSSALID
+  - delete: STR_REAPER
+  - delete: STR_SECTOPOD
+  - delete: STR_CYBERDISC
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
 
-  - name: STR_EQUIPMENT_AQUISITION
+  - name: STR_EQUIPMENT_ACQUISITION
     cost: 30
 
   - name: STR_UTILITY_GRENADES
     cost: 50
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
 
-  - name: STR_BALLISTIC_SHIELD
+  - name: STR_BALLISTIC_SHIELD_ACQUISITION
     cost: 50
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
 
-  - name: STR_ARMORED_VEST_AQUISITION
+  - name: STR_ARMORED_VEST_ACQUISITION
     cost: 100
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
     unlocks:
      - STR_ARMORY
 
-  - name: STR_BACKPACK_AQUISITION
+  - name: STR_BACKPACK_ACQUISITION
     cost: 30
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
     unlocks:
      - STR_ARMORY
 
-  - name: STR_SHOTGUN_AQUISITION
+  - name: STR_SHOTGUN_ACQUISITION
     cost: 70
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
 
-  - name: STR_PISTOL_AQUISITION
+  - name: STR_PISTOL_ACQUISITION
     cost: 60
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_RIFLE_AQUISTION
     cost: 100
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
 
-  - name: STR_SNIPER_AQUISITION
+  - name: STR_SNIPER_ACQUISITION
     cost: 70
     dependencies:
-     - STR_EQUIPMENT_AQUISITION
+     - STR_EQUIPMENT_ACQUISITION
 
-  - name: STR_REMINGTON_AQUISITON
+  - name: STR_REMINGTON_ACQUISITION
     cost: 30
     dependencies:
-     - STR_SHOTGUN_AQUISITION
+     - STR_SHOTGUN_ACQUISITION
 
-  - name: STR_P226_AQUISITION
+  - name: STR_P226_ACQUISITION
     cost: 30
     dependencies:
-     - STR_PISTOL_AQUISITION
+     - STR_PISTOL_ACQUISITION
     disables:
-     - STR_GLOCK_18_AQUISITION
-     - STR_M1911_AQUISITION
+     - STR_GLOCK_18_ACQUISITION
+     - STR_M1911_ACQUISITION
 
-  - name: STR_GLOCK_18_AQUISITION
+  - name: STR_GLOCK_18_ACQUISITION
     cost: 30
     dependencies:
-     - STR_PISTOL_AQUISITION
+     - STR_PISTOL_ACQUISITION
     disables:
-     - STR_P226_AQUISITION
-     - STR_M1911_AQUISITION
+     - STR_P226_ACQUISITION
+     - STR_M1911_ACQUISITION
 
-  - name: STR_M1911_AQUISITION
+  - name: STR_M1911_ACQUISITION
     cost: 30
     dependencies:
-     - STR_PISTOL_AQUISITION
+     - STR_PISTOL_ACQUISITION
     disables:
-     - STR_P226_AQUISITION
-     - STR_GLOCK_18_AQUISITION
+     - STR_P226_ACQUISITION
+     - STR_GLOCK_18_ACQUISITION
 
-  - name: STR_TAVOR_AQUISITION
+  - name: STR_TAVOR_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_AQUISTION
     disables:
-     - STR_M4_AQUISITION
-     - STR_AK12_AQUISITION
-     - STR_HK416_AQUISITION
-     - STR_FX_05_AQUISITION
-     - STR_SCAR_L_AQUISITION
-     - STR_UBS_AQUISITION
-     - STR_M320_AQUISITION
-     - STR_SOPMOD_AQUISITION
-     - STR_FN40GL_AQUISITION
+     - STR_M4_ACQUISITION
+     - STR_AK12_ACQUISITION
+     - STR_HK416_ACQUISITION
+     - STR_FX_05_ACQUISITION
+     - STR_SCAR_L_ACQUISITION
+     - STR_UBS_ACQUISITION
+     - STR_M320_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+     - STR_FN40GL_ACQUISITION
     unlocks:
      - STR_RIFLE_MODIFICATION
+    getOneFree:
+     - STR_5_56_AMMO
 
-  - name: STR_M4_AQUISITION
+  - name: STR_M4_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_AQUISITION
-     - STR_AK12_AQUISITION
-     - STR_HK416_AQUISITION
-     - STR_FX_05_AQUISITION
-     - STR_SCAR_L_AQUISITION
-     - STR_SCOPE_AQUISITION
-     - STR_FN40GL_AQUISITION
-     - STR_M203_AQUISITION
+     - STR_TAVOR_ACQUISITION
+     - STR_AK12_ACQUISITION
+     - STR_HK416_ACQUISITION
+     - STR_FX_05_ACQUISITION
+     - STR_SCAR_L_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+     - STR_M203_ACQUISITION
     unlocks:
      - STR_RIFLE_MODIFICATION
+    getOneFree:
+     - STR_5_56_AMMO
 
-  - name: STR_AK12_AQUISITION
+  - name: STR_AK12_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_AQUISITION
-     - STR_M4_AQUISITION
-     - STR_HK416_AQUISITION
-     - STR_FX_05_AQUISITION
-     - STR_SCAR_L_AQUISITION
-     - STR_UBS_AQUISITION
-     - STR_M320_AQUISITION
-     - STR_SOPMOD_AQUISITION
-     - STR_FN40GL_AQUISITION
-     - STR_M203_AQUISITION
+     - STR_TAVOR_ACQUISITION
+     - STR_M4_ACQUISITION
+     - STR_HK416_ACQUISITION
+     - STR_FX_05_ACQUISITION
+     - STR_SCAR_L_ACQUISITION
+     - STR_UBS_ACQUISITION
+     - STR_M320_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+     - STR_M203_ACQUISITION
     unlocks:
      - STR_RIFLE_MODIFICATION
 
-  - name: STR_HK416_AQUISITION
+  - name: STR_HK416_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_AQUISITION
-     - STR_M4_AQUISITION
-     - STR_AK12_AQUISITION
-     - STR_FX_05_AQUISITION
-     - STR_SCAR_L_AQUISITION
-     - STR_SCOPE_AQUISITION
-     - STR_FN40GL_AQUISITION
-     - STR_M203_AQUISITION
+     - STR_TAVOR_ACQUISITION
+     - STR_M4_ACQUISITION
+     - STR_AK12_ACQUISITION
+     - STR_FX_05_ACQUISITION
+     - STR_SCAR_L_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+     - STR_M203_ACQUISITION
     unlocks:
      - STR_RIFLE_MODIFICATION
+    getOneFree:
+     - STR_5_56_AMMO
 
-  - name: STR_FX_05_AQUISITION
+  - name: STR_FX_05_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_AQUISITION
-     - STR_M4_AQUISITION
-     - STR_AK12_AQUISITION
-     - STR_HK416_AQUISITION
-     - STR_SCAR_L_AQUISITION
-     - STR_UBS_AQUISITION
-     - STR_M320_AQUISITION
-     - STR_SOPMOD_AQUISITION
-     - STR_FN40GL_AQUISITION
-     - STR_M203_AQUISITION
+     - STR_TAVOR_ACQUISITION
+     - STR_M4_ACQUISITION
+     - STR_AK12_ACQUISITION
+     - STR_HK416_ACQUISITION
+     - STR_SCAR_L_ACQUISITION
+     - STR_UBS_ACQUISITION
+     - STR_M320_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+     - STR_FN40GL_ACQUISITION
+     - STR_M203_ACQUISITION
     unlocks:
      - STR_RIFLE_MODIFICATION
+    getOneFree:
+     - STR_5_56_AMMO
 
-  - name: STR_SCAR_L_AQUISITION
+  - name: STR_SCAR_L_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_AQUISITION
-     - STR_M4_AQUISITION
-     - STR_AK12_AQUISITION
-     - STR_HK416_AQUISITION
-     - STR_FX_05_AQUISITION
-     - STR_UBS_AQUISITION
-     - STR_M320_AQUISITION
-     - STR_SCOPE_AQUISITION
-     - STR_M203_AQUISITION
+     - STR_TAVOR_ACQUISITION
+     - STR_M4_ACQUISITION
+     - STR_AK12_ACQUISITION
+     - STR_HK416_ACQUISITION
+     - STR_FX_05_ACQUISITION
+     - STR_UBS_ACQUISITION
+     - STR_M320_ACQUISITION
+     - STR_SCOPE_ACQUISITION
+     - STR_M203_ACQUISITION
     unlocks:
      - STR_RIFLE_MODIFICATION
+    getOneFree:
+     - STR_5_56_AMMO
 
-  - name: STR_AWP_AQUISITION
+  - name: STR_AWP_ACQUISITION
     cost: 30
     dependencies:
-     - STR_SNIPER_AQUISITION
+     - STR_SNIPER_ACQUISITION
     disables:
-     - STR_PSG1_AQUISITION
+     - STR_PSG1_ACQUISITION
+    getOneFree:
+     - STR_7_62_AMMO
 
-  - name: STR_PSG1_AQUISITION
+  - name: STR_PSG1_ACQUISITION
     cost: 30
     dependencies:
-     - STR_SNIPER_AQUISITION
+     - STR_SNIPER_ACQUISITION
     disables:
-     - STR_AWP_AQUISITION
+     - STR_AWP_ACQUISITION
+    getOneFree:
+     - STR_7_62_AMMO
   
   - name: STR_RIFLE_MODIFICATION
     cost: 50
@@ -198,12 +349,12 @@ research:
     unlocks:
      - STR_ARMORY
   
-  - name: STR_SCOPE_AQUISITION
+  - name: STR_SCOPE_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_MODIFICATION
   
-  - name: STR_SOPMOD_AQUISITION
+  - name: STR_SOPMOD_ACQUISITION
     cost: 30
     dependencies:
      - STR_RIFLE_MODIFICATION
@@ -212,154 +363,177 @@ research:
     cost: 50
     needItem: true
 
-  - name: STR_MILITARY_EQUIPMENT_AQUISITION
+  - name: STR_MILITARY_EQUIPMENT_ACQUISITION
     cost: 200
     dependencies:
-     - STR_SHOTGUN_AQUISITION
-     - STR_PISTOL_AQUISITION
+     - STR_SHOTGUN_ACQUISITION
+     - STR_PISTOL_ACQUISITION
      - STR_RIFLE_AQUISTION
-     - STR_SNIPER_AQUISITION
+     - STR_SNIPER_ACQUISITION
      - STR_HIDEOUT_RAIDS
-     - STR_ARMORED_VEST_AQUISITION
+     - STR_ARMORED_VEST_ACQUISITION
   
-  - name: STR_TAVOR_95X_AQUISITION
+  - name: STR_TAVOR_95X_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_TAVOR_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_TAVOR_ACQUISITION
   
-  - name: STR_M4A1_AQUISITION
+  - name: STR_M4A1_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_M4_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_M4_ACQUISITION
 
-  - name: STR_AK15_AQUISITION
+  - name: STR_AK15_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_AK12_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_AK12_ACQUISITION
 
-  - name: STR_SCAR_H_AQUISITION
+  - name: STR_SCAR_H_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_SCAR_L_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_SCAR_L_ACQUISITION
+    getOneFree:
+     - STR_7_62_AMMO
   
-  - name: STR_AW_AQUISITION
+  - name: STR_AW_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_AWP_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_AWP_ACQUISITION
+    getOneFree:
+     - STR_LAPUA_AMMO
 
-  - name: STR_MSG_90_AQUISITION
+  - name: STR_MSG_90_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_PSG1_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_PSG1_ACQUISITION
+    getOneFree:
+     - STR_7_62_AMMO
 
-  - name: STR_AUTO_SHOTGUN_AQUISITION
+  - name: STR_FIVE_SEVEN_ACQUISITION
+    cost: 40
+    dependencies:
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+
+  - name: STR_AUTO_SHOTGUN_ACQUISITION
     cost: 100
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_SHOTGUN_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_SHOTGUN_ACQUISITION
 
-  - name: STR_AA_12_AQUISITION
+  - name: STR_AA_12_ACQUISITION
     cost: 40
     dependencies:
-     - STR_AUTO_SHOTGUN_AQUISITION
+     - STR_AUTO_SHOTGUN_ACQUISITION
     disables:
-     - STR_USAS_12_AQUISITION
+     - STR_USAS_12_ACQUISITION
+    getOneFree:
+     - STR_12G_DRUM_AMMO
     
-  - name: STR_USAS_12_AQUISITION
+  - name: STR_USAS_12_ACQUISITION
     cost: 40
     dependencies:
-     - STR_AUTO_SHOTGUN_AQUISITION
+     - STR_AUTO_SHOTGUN_ACQUISITION
     disables:
-     - STR_AA_12_AQUISITION
+     - STR_AA_12_ACQUISITION
+    getOneFree:
+     - STR_12G_DRUM_AMMO
 
-  - name: STR_LMG_AQUISITION
+  - name: STR_LMG_ACQUISITION
     cost: 100
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
 
-  - name: STR_M249_AQUISITION
+  - name: STR_M249_ACQUISITION
     cost: 40 
     dependencies:
-     - STR_LMG_AQUISITION
+     - STR_LMG_ACQUISITION
     disables:
-     - STR_MK_48_AQUISITION
-     - STR_PECHENEG_AQUISITION
+     - STR_MK_48_ACQUISITION
+     - STR_PECHENEG_ACQUISITION
 
-  - name: STR_MK_48_AQUISITION
+  - name: STR_MK_48_ACQUISITION
     cost: 40
     dependencies:
-     - STR_LMG_AQUISITION
+     - STR_LMG_ACQUISITION
     disables:
-     - STR_M249_AQUISITION
-     - STR_PECHENEG_AQUISITION
+     - STR_M249_ACQUISITION
+     - STR_PECHENEG_ACQUISITION
 
-  - name: STR_PECHENEG_AQUISITION
+  - name: STR_PECHENEG_ACQUISITION
     cost: 40
     dependencies:
-     - STR_LMG_AQUISITION
+     - STR_LMG_ACQUISITION
     disables:
-     - STR_M249_AQUISITION
-     - STR_MK_48_AQUISITION
+     - STR_M249_ACQUISITION
+     - STR_MK_48_ACQUISITION
 
-  - name: STR_AT_AQUISITION
+  - name: STR_AT_ACQUISITION
     cost: 150
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
 
-  - name: STR_UBS_AQUISITION
+  - name: STR_UBS_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_RIFLE_MODIFICATION
+    getOneFree:
+     - STR_12G_X5_AMMO
 
-  - name: STR_M203_AQUISITION
+  - name: STR_M203_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_RIFLE_MODIFICATION
-     - STR_TAVOR_AQUISITION
+     - STR_TAVOR_ACQUISITION
+    getOneFree:
+     - STR_40MM_AMMO
   
-  - name: STR_M320_AQUISITION
+  - name: STR_M320_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_RIFLE_MODIFICATION
+    getOneFree:
+     - STR_40MM_AMMO
 
-  - name: STR_FN40GL_AQUISITION
+  - name: STR_FN40GL_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_RIFLE_MODIFICATION
-     - STR_SCAR_L_AQUISITION
+     - STR_SCAR_L_ACQUISITION
+    getOneFree:
+     - STR_40MM_AMMO
     
-  - name: STR_HEAVY_VEST_AQUISITION
+  - name: STR_HEAVY_VEST_ACQUISITION
     cost: 50
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
-     - STR_ARMORED_VEST_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_ARMORED_VEST_ACQUISITION
 
   - name: STR_NIGHT_VISION
     cost: 50
     dependencies:
-     - STR_ARMORED_VEST_AQUISITION
+     - STR_ARMORED_VEST_ACQUISITION
      - STR_SAFE_HOUSE_RAIDS
 
   - name: STR_ADV_NIGHTVISION
     cost: 70
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_NIGHT_VISION
 
   - name: STR_GRENADES
     cost: 90
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
 
   - name: STR_HIGH_EXPLOSIVES
     cost: 150
@@ -369,7 +543,7 @@ research:
   - name: STR_PRIVATE_CONTRACTORS
     cost: 250
     dependencies:
-     - STR_MILITARY_EQUIPMENT_AQUISITION
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_OFFICE_RAIDS
 
   - name: STR_RANDOM_1
@@ -381,77 +555,109 @@ research:
   - name: STR_RANDOM_3
     needItem: true
      
-  - name: STR_MK_23_AQUISITION
+  - name: STR_MK_23_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_1
      
-  - name: STR_MPX_AQUISITION
+  - name: STR_MPX_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_1
      
-  - name: STR_ORIGIN_12_AQUISITION
+  - name: STR_ORIGIN_12_ACQUISITION
+    cost: 50
+    dependencies:
+     - STR_PRIVATE_CONTRACTORS
+     - STR_RANDOM_1  
+    getOneFree:
+     - STR_12G_DRUM_AMMO
+     
+  - name: STR_M82_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_1
      
-  - name: STR_M82_AQUISITION
+  - name: STR_SERBU_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
+     - STR_RANDOM_2  
+    getOneFree:
+     - STR_12G_X5_AMMO
      
-  - name: STR_FIVE_SEVEN_AQUISITION
+  - name: STR_P90_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_2
      
-  - name: STR_P90_AQUISITION
+  - name: STR_G11_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_2
      
-  - name: STR_G11_AQUISITION
+  - name: STR_TRG_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
-     
-  - name: STR_TRG_AQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
-     
-  - name: STR_SERBU_AQUISITION
+     - STR_RANDOM_2    
+    getOneFree:
+     - STR_LAPUA_AMMO
+
+  - name: STR_KS_23_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_3
-     
-  - name: STR_SR3_AQUISITION
+
+  - name: STR_SR3_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_3
+    getOneFree:
+     - STR_9_39_AMMO
      
-  - name: STR_VSS_AQUISITION
+  - name: STR_VSS_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_3
+    getOneFree:
+     - STR_9_39_AMMO
      
-  - name: STR_MGL_AQUISITION
+  - name: STR_MGL_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_3
+    getOneFree:
+     - STR_40MM_AMMO
+
+  - name: STR_5_56_AMMO
+    needItem: true
+  - name: STR_7_62_AMMO
+    needItem: true
+  - name: STR_40MM_AMMO
+    needItem: true
+  - name: STR_12G_X5_AMMO
+    needItem: true
+  - name: STR_12G_DRUM_AMMO
+    needItem: true
+  - name: STR_LAPUA_AMMO
+    needItem: true
+  - name: STR_9_39_AMMO
+    needItem: true
+
+
+
+
+
 
   - name: STR_INTELLIGENCE_GATHERING
     cost: 30
@@ -556,6 +762,7 @@ research:
 
   - name: STR_HOUSE_EVIDENCE
     cost: 50
+    needItem: true
     getOneFree:
       - STR_HIDEOUT_LEAD_3
 
@@ -706,3 +913,93 @@ research:
     dependencies:
      - STR_SKYSCRAPER_LEAD_1
      - STR_SKYSCRAPER_LEAD_2
+
+extraStrings:
+  - type: en-US
+    strings:
+    
+      STR_EQUIPMENT_ACQUISITION: "Equipment Acquisition"
+      STR_UTILITY_GRENADES: "Non-Lethal Grenades"
+      STR_BALLISTIC_SHIELD_ACQUISITION: "Ballistic Shields"
+      STR_ARMORED_VEST_ACQUISITION: "Armored Vests"
+      STR_BACKPACK_ACQUISITION: "Backpacks"
+      STR_NIGHT_VISION: "Night-Vision Equipment"
+      STR_ADV_NIGHTVISION: "Advanced Night-Vision"
+      STR_HEAVY_VEST_ACQUISITION: "Heavy Vests"
+      STR_SHOTGUN_ACQUISITION: "Shotgun Acquisition"
+      STR_REMINGTON_ACQUISITION: "Shotgun Acquisition: Remington 870"
+      STR_AUTO_SHOTGUN_ACQUISITION: "Automatic Shotgun Acquisition"
+      STR_AA_12_ACQUISITION: "Shotgun Acquisition: AA-12"
+      STR_USAS_12_ACQUISITION: "Shotgun Acquisition: USAS-12"
+      STR_PISTOL_ACQUISITION: "Pistol Acquisition"
+      STR_P226_ACQUISITION: "Pistol Acquisition: SIG P226"
+      STR_GLOCK_18_ACQUISITION: "Pistol Acquisition: Glock 18"
+      STR_M1911_ACQUISITION: "Pistol Acquisition: M1911"
+      STR_FIVE_SEVEN_ACQUISITION: "Pistol Acquisition: Five-seveN"
+      STR_RIFLE_AQUISTION: "Rifle Acquisition"
+      STR_TAVOR_ACQUISITION: "Rifle Acquisition: IWI Tavor"
+      STR_M4_ACQUISITION: "Rifle Acquisition: M4 Carbine"
+      STR_FX_05_ACQUISITION: "Rifle Acquisition: FX-05 Xiuhcoatl"
+      STR_AK12_ACQUISITION: "Rifle Acquisition: AK12"
+      STR_HK416_ACQUISITION: "Rifle Acquisition: HK416"
+      STR_SCAR_L_ACQUISITION: "Rifle Acquisition: SCAR-L"
+      STR_TAVOR_95X_ACQUISITION: "Rifle Acquisition: IWI Tavor 95X"
+      STR_M4A1_ACQUISITION: "Rifle Acquisition: M4A1 Carbine"
+      STR_AK15_ACQUISITION: "Rifle Acquisition: AK-15"
+      STR_SCAR_H_ACQUISITION: "Rifle Acquisition: SCAR-H"
+      STR_SNIPER_ACQUISITION: "Sniper Acquisition"
+      STR_PSG1_ACQUISITION: "Sniper Acquisition: PSG1"
+      STR_AWP_ACQUISITION: "Sniper Acquisition: AWP"
+      STR_AW_ACQUISITION: "Sniper Acquisition: AIAW"
+      STR_MSG_90_ACQUISITION: "Sniper Acquisition: MSG90"
+      STR_ARMORY: "Armory"
+      STR_RIFLE_MODIFICATION: "Rifle Modification"
+      STR_SCOPE_ACQUISITION: "Rifle Modification: Scopes"
+      STR_SOPMOD_ACQUISITION: "Rifle Modification: SOPMOD Kits"
+      STR_UBS_ACQUISITION: "Rifle Modification: MASS"
+      STR_M203_ACQUISITION: "Rifle Modification: M203"
+      STR_M320_ACQUISITION: "Rifle Modification: M320"
+      STR_FN40GL_ACQUISITION: "Rifle Modification: FN40GL"
+      STR_MILITARY_EQUIPMENT_ACQUISITION: "Military Equipment"
+      STR_GRENADES: "Grenades"
+      STR_HIGH_EXPLOSIVES: "High-Explosives"
+      STR_LMG_ACQUISITION: "LMG Acquisition"
+      STR_M249_ACQUISITION: "LMG Acquisition: M249"
+      STR_MK_48_ACQUISITION: "LMG Acquisition: MK 48"
+      STR_PECHENEG_ACQUISITION: "LMG Acquisition: PKP Pecheneg"
+      STR_AT_ACQUISITION: "AT Weaponry Aquisition"
+      STR_PRIVATE_CONTRACTORS: "Private Contractors"
+      STR_MK_23_ACQUISITION: "Private Contract: USSOCOM MK 23"
+      STR_MPX_ACQUISITION: "Private Contract: SIG MPX"
+      STR_ORIGIN_12_ACQUISITION: "Private Contract: Origin-12"
+      STR_M82_ACQUISITION: "Private Contract: Barrett M82"
+      STR_SERBU_ACQUISITION: "Private Contract: Serbu Super-Shorty"
+      STR_P90_ACQUISITION: "Private Contract: FN P90"
+      STR_G11_ACQUISITION: "Private Contract: HK G11"
+      STR_TRG_ACQUISITION: "Private Contract: Sako TRG"
+      STR_KS_23_ACQUISITION: "Private Contract: KS-23"
+      STR_SR3_ACQUISITION: "Private Contract: SR-3 Vikhr"
+      STR_VSS_ACQUISITION: "Private Contract: VSS Vintorez"
+      STR_MGL_ACQUISITION: "Private Contract: Milkor MGL"
+
+      STR_INTELLIGENCE_GATHERING: "Intelligence Gathering"
+      STR_PRISON_CELLS: "Prison Cells"
+      STR_HOUSE_LEAD_1: "Suspect Testimony"
+      STR_HOUSE_LEAD_2: "Phone Tracking"
+      STR_HOUSE_LEAD_3: "Property Ownership"
+      STR_SAFE_HOUSE_RAIDS: "Safe-House Raids"
+      STR_HIDEOUT_LEAD_1: "Plea Deals"
+      STR_HIDEOUT_LEAD_2: "Shadowing Suspects"
+      STR_HIDEOUT_LEAD_3: "Paper Trail"
+      STR_HIDEOUT_RAIDS: "Hideout Raids"
+      STR_OFFICE_LEAD_1: "Company Connections"
+      STR_OFFICE_LEAD_2: "Tracing Weapons"
+      STR_OFFICE_LEAD_3: "Property Sales"
+      STR_OFFICE_RAIDS: "Office Raids"
+      STR_SKYSCRAPER_LEAD_1: "Company Doucments"
+      STR_SKYSCRAPER_LEAD_2: "Company Employees"
+      STR_SKYSCRAPER_RAID: "Skyscraper Raid"
+      STR_MEDIUM_TRANSPORT: "Medium Deployments"
+      STR_LARGE_TRANSPORT: "Large Deployments"
+
+

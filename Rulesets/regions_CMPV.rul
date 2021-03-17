@@ -21,7 +21,7 @@ regions:
 
 ##BEGIN NORTH AMERICA
   - type: STR_NORTH_AMERICA
-    cost: 800000
+    cost: 100000000
     areas:
       - [195, 305, -70, -55]
       - [230, 305, -55, -30]
@@ -127,7 +127,7 @@ regions:
 
 ##BEGIN ARCTIC
   - type: STR_ARCTIC
-    cost: 950000
+    cost: 100000000
     areas:
       - [0, 360, -90, -70]
     regionWeight: 4
@@ -184,7 +184,7 @@ regions:
 
 ##BEGIN ANTARCTICA
   - type: STR_ANTARCTICA
-    cost: 900000
+    cost: 100000000
     areas:
       - [0, 360, 60, 90]
     regionWeight: 4
@@ -235,7 +235,7 @@ regions:
 
 ##BEGIN SOUTH AMERICA
   - type: STR_SOUTH_AMERICA
-    cost: 600000
+    cost: 100000000
     areas:
       - [270, 315, -10, 0]
       - [275, 330, 0, 15]
@@ -311,7 +311,7 @@ regions:
 
 ##BEGIN EUROPE
   - type: STR_EUROPE
-    cost: 1000000
+    cost: 100000000
     areas:
       - [335, 60, -70, -35]
     regionWeight: 16
@@ -402,7 +402,7 @@ regions:
 
 ##BEGIN NORTH AFRICA
   - type: STR_NORTH_AFRICA
-    cost: 650000
+    cost: 100000000
     areas:
       - [335, 40, -35, -15]
       - [335, 55, -15, 0]
@@ -467,7 +467,7 @@ regions:
 
 ##BEGIN SOUTHERN AFRICA
   - type: STR_SOUTHERN_AFRICA
-    cost: 550000
+    cost: 100000000
     areas:
       - [5, 55, 0, 40]
     regionWeight: 8
@@ -543,7 +543,7 @@ regions:
 
 ##BEGIN CENTRAL ASIA
   - type: STR_CENTRAL_ASIA
-    cost: 500000
+    cost: 100000000
     areas:
       - [40, 70, -35, -15]
       - [60, 90, -50, -35]
@@ -616,7 +616,7 @@ regions:
 
 ##BEGIN SOUTH EAST ASIA
   - type: STR_SOUTH_EAST_ASIA
-    cost: 750000
+    cost: 100000000
     areas:
       - [90, 105, -50, 10]
       - [105, 150, -50, -5]
@@ -693,7 +693,7 @@ regions:
 
 ##BEGIN SIBERIA
   - type: STR_SIBERIA
-    cost: 800000
+    cost: 100000000
     areas:
       - [60, 180, -70, -50]
     regionWeight: 10
@@ -747,7 +747,7 @@ regions:
 
 ##BEGIN AUSTRALASIA
   - type: STR_AUSTRALASIA
-    cost: 750000
+    cost: 100000000
     areas:
       - [105, 180, -5, 60]
     regionWeight: 10
@@ -823,7 +823,7 @@ regions:
 
 ##BEGIN NORTH PACIFIC
   - type: STR_NORTH_PACIFIC
-    cost: 600000
+    cost: 100000000
     areas:
       - [180, 195, -70, -55]
       - [180, 230, -55, -30]
@@ -890,7 +890,7 @@ regions:
 
 ##BEGIN SOUTH PACIFIC
   - type: STR_SOUTH_PACIFIC
-    cost: 600000
+    cost: 100000000
     areas:
       - [180, 275, 0, 60]
     regionWeight: 5
@@ -944,7 +944,7 @@ regions:
 
 ##BEGIN NORTH ATLANTIC
   - type: STR_NORTH_ATLANTIC 
-    cost: 500000
+    cost: 100000000
     areas:
       - [305, 335, -70, -30]
       - [300, 335, -30, -10]
@@ -1022,7 +1022,7 @@ regions:
 
 ##BEGIN SOUTH ATLANTIC
   - type: STR_SOUTH_ATLANTIC
-    cost: 500000
+    cost: 100000000
     areas:
       - [330, 5, 0,  15]
       - [325, 5, 15, 60]
@@ -1099,7 +1099,7 @@ regions:
 
 ##BEGIN INDIAN OCEAN
   - type: STR_INDIAN_OCEAN 
-    cost: 500000
+    cost: 100000000
     areas:
       - [55, 70, -15, 10]
       - [70, 90, -5, 10]

@@ -12,6 +12,7 @@ allowCountriesToCancelAlienPact: true
 buildInfiltrationBaseCloseToTheCountry: true
 chanceToStopRetaliation: 100
 timePersonnel: 72
+costScientist: 50000
 pediaReplaceCraftFuelWithRangeType: 1
 maxViewDistance: 30
 noLOSAccuracyPenaltyGlobal: 50
