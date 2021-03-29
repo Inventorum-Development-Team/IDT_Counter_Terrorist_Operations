@@ -1106,21 +1106,21 @@ items:
     weight: 2
     clipSize: 3 
     listOrder: 2200
-  - type: STR_ZEVADA_X3
-    requiresBuy:
-     - STR_KS_23_ACQUISITION
-    categories: [STR_CLIPS]
-    refNode: *STR_SHRAPNEL_25
-    bigSprite: 536
-    handSprite: 536
-    floorSprite: 536
-    size: 0.1
-    armor: 30
-    costBuy: 700
-    costSell: 250
-    weight: 2
-    clipSize: 3
-    listOrder: 2210
+  # - type: STR_ZEVADA_X3
+  #   requiresBuy:
+  #    - STR_KS_23_ACQUISITION
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_SHRAPNEL_25
+  #   bigSprite: 536
+  #   handSprite: 536
+  #   floorSprite: 536
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 700
+  #   costSell: 250
+  #   weight: 2
+  #   clipSize: 3
+  #   listOrder: 2210
 
   - type: STR_40MM_FRAG_X1
     categories: [STR_CLIPS]
@@ -2190,8 +2190,8 @@ items:
     tuAimed: 65
     tuSnap: 40
     tuAuto: 65
-    invWidth: 3
-    invHeight: 1
+    invWidth: 1
+    invHeight: 3
     ammo:
        0:
         compatibleAmmo: [STR_5_56_X30]
@@ -3604,7 +3604,7 @@ items:
         tuLoad: 40
         tuUnload: 20
     listOrder: 2592
-    
+
   - type: STR_KS_23
     categories:  [STR_FIREARMS,STR_SHOTGUNS]
     requiresBuy:
@@ -3636,7 +3636,7 @@ items:
     shotgunChoke: 95 
     ammo:
        0:
-        compatibleAmmo: [STR_SHRAPNEL_25_X3,STR_BARRICADE_X3, STR_VOLNA_R_X3,STR_ZEVADA_X3]
+        compatibleAmmo: [STR_SHRAPNEL_25_X3,STR_BARRICADE_X3, STR_VOLNA_R_X3]
         tuLoad: 35
         tuUnload: 17
     listOrder: 2593
@@ -4456,6 +4456,13 @@ extraSprites:
       2532: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
       2540: Resources/BallisticWeapons/Explosives/BigMolotov.png
 #      2548: Resources/BallisticWeapons/Explosives/BigMolotovprimed.png
+
+
+      2800: Resources/BallisticWeapons/WeaponMods/BigColtScopeAccessory.png
+      2808: Resources/BallisticWeapons/WeaponMods/BigFN40GL.png
+      2816: Resources/BallisticWeapons/WeaponMods/BigM203Accessory.png
+      2824: Resources/BallisticWeapons/WeaponMods/MASS.png
+      2832: Resources/BallisticWeapons/WeaponMods/SOPMOD.png
 
   - type: FLOOROB.PCK
     files:

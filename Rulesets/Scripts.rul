@@ -162,10 +162,13 @@ items:
      AmmoNo: 3    
   - type: STR_12G_SLUG_X8 #ignoreDuplicate
     tags:
-     AmmoNo: 1    
+     AmmoNo: 1 
   - type: STR_12G_NON_LETHAL_X8 #ignoreDuplicate
     tags:
      AmmoNo: 1    
+  # - type: STR_ZEVADA_X3 #ignoreDuplicate
+  #   tags:
+  #    FlashAmmo: 1
   - type: STR_RPG_HEAT_X1 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -394,6 +397,7 @@ extended:
       UBS: int
       Shield: int
       FlashBang: int
+#      FlashAmmo: int
 #      JammChance: int
     BattleGame:
       Enemies: int
@@ -561,8 +565,43 @@ extended:
                sub accuracy 50;
                BattleUnit.Stats.setFiring unit accuracy;
                BattleUnit.Stats.setReactions unit reactions;
+              end;
              end;
              return power part side;
+
+#         - offset: 5 #KS-23 Flashbang script
+#           code: |
+#             var int flashbang;
+#             var int flashbanged;
+#             var int turn;
+#             var int accuracy;
+#             var int reactions;
+#             var ptr BattleItem ammo;
+#             var int ammoQ;
+#
+#             damaging_item.getAmmoItem ammo; #Why no WORK??????????????????????????
+#             ammo.getTag flashbang Tag.FlashAmmo;
+#
+#             debug_log flashbang;
+#             BattleItem.getAmmoQuantity damaging_item ammoQ;
+#             debug_log ammoQ;
+#             if and eq flashbang 1 eq ammoQ 2;
+#              battle_game.getTurn turn;
+#              unit.getTag flashbanged Tag.FlashBanged;
+#              add flashbanged 4;
+#              if gt turn flashbanged;
+#               BattleUnit.Stats.getFiring unit accuracy;
+#               BattleUnit.Stats.getReactions unit reactions;
+#               BattleUnit.setTag unit Tag.OGfiring accuracy;
+#               BattleUnit.setTag unit Tag.OGreactions reactions;
+#               sub reactions 50;
+#               sub accuracy 50;
+#               BattleUnit.Stats.setFiring unit accuracy;
+#               BattleUnit.Stats.setReactions unit reactions;
+#               set power 0;
+#              end;
+#             end;
+#             return power part side;
 
      healUnit: #Handcuff script
        - offset: 1

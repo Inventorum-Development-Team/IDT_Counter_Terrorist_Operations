@@ -63,9 +63,9 @@ soldiers:
 
 armors:
   - delete: STR_NONE_UC
-  - delete: STR_PERSONAL_ARMOR
-  - delete: STR_POWER_SUIT
-  - delete: STR_FLYING_SUIT
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
 
   - &STR_NO_VEST
     type: STR_NO_VEST

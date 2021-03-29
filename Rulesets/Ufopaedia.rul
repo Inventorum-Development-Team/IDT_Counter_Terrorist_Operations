@@ -516,7 +516,7 @@ ufopaedia:
 
   - id: STR_M60
     type_id: 4
-    text: STR_M60
+    text: STR_M60_UFOPAEDIA
     section: STR_LMGS
     listOrder: 700
 
@@ -538,12 +538,6 @@ ufopaedia:
     section: STR_LMGS
     listOrder: 703
 
-  - id: STR_M320
-    type_id: 4
-    text: STR_M320_UFOPAEDIA
-    section: STR_ARTILLERY
-    listOrder: 800
-
   - id: STR_MGL
     type_id: 4
     text: STR_MGL_UFOPAEDIA
@@ -562,6 +556,475 @@ ufopaedia:
     section: STR_ARTILLERY
     listOrder: 803
 
+  - id: STR_9MM_MAKAROV_X10
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1000
+
+  - id: STR_9MM_MAKAROV_X20
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1001
+
+  - id: STR_9MM_MAKAROV_X30
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1002
+
+  - id: STR_9MM_PARABELLUM_X10
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1003
+
+  - id: STR_9MM_PARABELLUM_X20
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1004
+
+  - id: STR_9MM_PARABELLUM_X30
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1005
+
+  - id: STR_9MM_PARABELLUM_X40
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1006
+
+  - id: STR_FN_57_X20
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1007
+
+  - id: STR_FN_57_X50
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1008
+
+  - id: STR_45_ACP_X7
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1009
+
+  - id: STR_45_ACP_X12
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1010
+
+  - id: STR_CASELESS_4_73_X50
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1011
+
+  - id: STR_5_45_X30
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1012
+
+  - id: STR_5_45_X45
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1013
+
+  - id: STR_5_45_X60
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1014
+
+  - id: STR_5_56_X30
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1015
+
+  - id: STR_5_56_X50
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1016
+
+  - id: STR_5_56_X100
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1017
+
+  - id: STR_22_LONG_RIFLE_X6
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1018
+
+  - id: STR_SOVIET_7_62_X10
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1019
+
+  - id: STR_SOVIET_7_62_X30
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1020
+
+  - id: STR_SOVIET_7_62_X40
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1021
+
+  - id: STR_SOVIET_7_62_X75
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1022
+
+  - id: STR_NATO_7_62_X5
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1023
+
+  - id: STR_NATO_7_62_X10
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1024
+
+  - id: STR_NATO_7_62_X20
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1025
+
+  - id: STR_NATO_7_62_X50
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1026
+
+  - id: STR_NATO_7_62_X100
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1027
+
+  - id: STR_SOVIET_7_62_MMR_X50
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1028
+
+  - id: STR_SOVIET_7_62_MMR_X100
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1029
+
+  - id: STR_9_39_X10
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1030
+
+  - id: STR_9_39_X20
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1031
+
+  - id: STR_338_LAPUA_X5
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1032
+
+  - id: STR_50_BMG_X5
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1033
+
+  - id: STR_50_BMG_X10
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1034
+
+  - id: STR_12G_BUCKSHOT_X2
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1035
+
+  - id: STR_12G_BUCKSHOT_X5
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1036
+
+  - id: STR_12G_BUCKSHOT_X8
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1037
+
+  - id: STR_12G_BUCKSHOT_X20
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1038
+
+  - id: STR_12G_BUCKSHOT_X30
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1039
+
+  - id: STR_12G_SLUG_X8
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1040
+
+  - id: STR_12G_NON_LETHAL_X8
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1041
+
+  - id: STR_SHRAPNEL_25_X3
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1042
+
+  - id: STR_BARRICADE_X3
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1043
+
+  - id: STR_VOLNA_R_X3
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1044
+
+  # - id: STR_ZEVADA_X3
+  #   type_id: 4
+  #   text: "..."
+  #   section: STR_AMMO
+  #   listOrder: 1045
+
+  - id: STR_40MM_FRAG_X1
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1046
+
+  - id: STR_40MM_FRAG_X6
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1047
+
+  - id: STR_40MM_SMOKE_X1
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1048
+
+  - id: STR_40MM_NON_LETHAL_X1
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1049
+
+  - id: STR_CG_HEAT_X1
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1050
+
+  - id: STR_CG_HE_X1
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1051
+
+  - id: STR_RPG_HEAT_X1
+    type_id: 4
+    text: "..."
+    section: STR_AMMO
+    listOrder: 1052
+
+  - id: STR_GRENADE
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1100
+
+  - id: STR_SMOKE_GRENADE
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1101
+
+  - id: STR_FLASHBANG_GRENADE
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1102
+
+  - id: STR_HIGH_EXPLOSIVE
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1103
+
+  - id: STR_MOLOTOV
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1104
+
+  - id: STR_RIOT_SHIELD
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
+  - id: STR_HANDCUFFS
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1106
+
+  - id: STR_ELECTRO_FLARE
+    type_id: 4
+    section: STR_EQUIPMENT
+    listOrder: 1107
+
+  - id: STR_SCOPE
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1108
+
+  - id: STR_SOPMOD_KIT
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1109
+
+  - id: STR_M203
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1110
+
+  - id: STR_M320
+    type_id: 4
+    text: STR_M320_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1111
+
+  - id: STR_FN40GL
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1112
+
+  - id: STR_UBS
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1113
+
+  - id: STR_DEFAULT
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1200
+
+  - id: STR_DEFAULT_BACKPACK
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1201
+
+  - id: STR_DEFAULT_KEVLAR
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1202
+
+  - id: STR_DEFAULT_KEVLAR_BACKPACK
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1203
+
+  - id: STR_DEFAULT_KEVLAR_NV
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1204
+
+  - id: STR_DEFAULT_KEVLAR_BACKPACK_NV
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1205
+
+  - id: STR_DEFAULT_KEVLAR_ADVNV
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1206
+
+  - id: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1207
+
+  - id: STR_HEAVY
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1208
+
+  - id: STR_HEAVY_NV
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1209
+
+  - id: STR_HEAVY_ADVNV
+    type_id: 5
+    text: "..."
+    section: STR_ARMORS
+    listOrder: 1210
+
+
+
 
 extraStrings:
   - type: en-US
@@ -574,6 +1037,8 @@ extraStrings:
       STR_SHOTGUNS: "Shotguns"
       STR_LMGS: "Machine Guns"
       STR_ARTILLERY: "Heavy Weapons"
+      STR_AMMO: "Ammunition"
+      STR_EQUIPMENT: "Equipment"
 
       STR_P226_UFOPAEDIA: "The SIG Sauer P226 is a service pistol used by militaries and police forces around the world. An Upgrade to the P220 model, with the main improvement consisting of the allowance of higher capacity magazines. Light and reliable, it serves as an excellent sidearm."
       STR_GLOCK_18_UFOPAEDIA: "The Glock 18 is the selective-fire variant of the Glock 17, capable of automatic fire. Originally developed at the request of the couter-terrorist unit EKO Cobra, it is now available to us. While not as accurate as other pistols available to us, the increased fire rate nakes up for this shortcoming."
@@ -582,7 +1047,7 @@ extraStrings:
       STR_MAKAROV_UFOPAEDIA: "The Makarov Pistol is a semi-automatic pistol that served as the standard sidearm of the soviet militarty and police forces, along with seeing significant use in the rest of the Warsaw Pact. Due to the widespread use of the pistol, many of them have found their way into the black market."
       STR_FIVE_SEVEN_UFOPAEDIA: "The FN Five-seveN was desigend to use the FN 5.7x28mm cartridge, giving the pistol an unprecedented ability to penetrate armored vests. This ability has given the pistol popularity among militaries and police forces, but also has led to controversy due to the pistols availability on the civilian market."
       STR_TEC_9_UFOPAEDIA: "Originally developed for military use, the TEC-9 gained notoriety due to its use by criminal groups. Despite the negative reputation and gun control legislation limting it's sale, the machine pistol became a commercial success on the civilian market."
-      STR_MP5_UFOPAEDIA: "The MP5 is one of the most widely used submachine guns in the world. It is used by everything from military forces to private security organisations. It gained significant fame due to its use by the SAS during the Iranian embassy siege in 1980. Th MP5SD is the supressed variant of the MP5, the inbuilt suppresor lowering the bullets velocity enough to make it subsonic."
+      STR_MP5_UFOPAEDIA: "The MP5 is one of the most widely used submachine guns in the world. It is used by everything from military forces to private security organisations. It gained significant fame due to its use by the SAS during the Iranian embassy siege in 1980."
       STR_MPX_UFOPAEDIA: "The SIG MPX is a relatively modern submachine gun, designed in 2013. It features a closed, rotating bolt, which is rare for submachine guns. This design choice was chosen to increase user safety and reliability. "
       STR_P90_UFOPAEDIA: "The P90 is an unconventional design with a distincitve appearance. It is extremely compact and has an unique top-mounted magazine. Despite as a personal defence weapon meant for military support personnel, the firearm has seen siginificant adoption among special forces and counter-terrorist units."
       STR_SKORPION_UFOPAEDIA: "A machine pistol designed in Czechoslovakia as a sidearm for vehicle drivers and army staff, designed to be compact to fit into the limited space of armored vehicles. It saw wide use by many armed groups, both terrorist and criminal. "
@@ -590,7 +1055,7 @@ extraStrings:
       STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."
       STR_M4_UFOPAEDIA: "The M4 carbine is extensively used by the United States Armed Forces as a primary infantry weapon. The carbines short lenght made it more ideal in close quartes battle than the M16 that it replaced, a feature which became desirable as the United States Armed Forces found itself engaging in multiple assymetrical conflicts inside urban areas. Notably the M4 carbine lacks a fully automatic firing mode."
       STR_M4A1_UFOPAEDIA: "The M4A1 is a variant of the M4 that replaces the burst fire mode in favor of a fully automatic mode, as it was considered to be better for clearing rooms. The carbine variant was intended for special operations use and is used by most US special forces units."
-      STR_AK12_UFOPAEDIA: "The AK-12 is the latest assault rifle model manufactured by the Kalashnikov Concern. While initionally rejected by the Russian Army after initial trials, the military later announced that the rifle would be accepted into service. Its main advanatage over contemporary rifles is the posibility to use large capacity magazines."
+      STR_AK12_UFOPAEDIA: "The AK-12 is the latest assault rifle model manufactured by the Kalashnikov Concern. While initionally rejected by the Russian Army after initial trials, the military later announced that the rifle would be accepted into service."
       STR_AK15_UFOPAEDIA: "The AK-15 is a variant of the AK-12 chambered in 7.62x39mm, granting it better effective range and stopping power at the cost of weight. It was designed at the request of the russian armed forces and is compatible with box magazines of preceding AK rifles."
       STR_HK416_UFOPAEDIA: "The Heckler & Koch HK416 is an assault rifle of german origin, being designed based on the M4 carbine while drawing some design features from the G36. The Rifle has seen extensive adoption by many special forces units and has been chosen as the standard issue rifle both by the French and Norwegian militaries."
       STR_FX_05_UFOPAEDIA: "Named after a Aztec mythological fire serpent, the FX-05 was specifically designed as a cost-effective service rifle for the Mexican military. It features rare polygonal rifling meant to increase the barrels durability and reduce wear."
@@ -602,8 +1067,8 @@ extraStrings:
       STR_M16A2_UFOPAEDIA: "The M16 was famously used by the US military during the vietnam war and has been the primary service rifle of the United States until the 21st century. While largely phased out by the military it is still an effective rifle. Notably the Rifle was desigend not to have a fully automatic firing mode."
       STR_AR_18_UFOPAEDIA: "Designed as an alternative to the AR-15, the AR-18 saw extremely limited success, and wasn't adopetd by any country as a standard service rifle. Infamously large number of AR-18:s were smuggled into Ireland to be used by the IRA, leading to the rifle to become an iconic symbol of the movement and gainging the nickname Widowmaker"
       STR_AR_180_UFOPAEDIA: "The AR-180 is the civilian variant of the AR-18. While it is easily obtainable by civilians it lacks the firepower of military assault rifles. Nevertheless it should not be underestimated, as it still fires 5.56 cartridges."
-      STR_AKM_UFOPAEDIA: "The AKM is the modernized variant of the AK-47. Like its predecessor the rifle is extremely reliable and durable, and it has found exessive use in nation affiliated with the Soviet Union during the cold war. While officially replaced by the AK-74, the rifle still finds widespread use by both regular and irregular armed forces."
-      STR_AK_74_UFOPAEDIA: "The AK-74 was designed as a replacement for the AKM. Firing the smaller 5.45x39mm cartridge (replacing the Soviet 7.62x39mm) the rifle sacrificed some of its firepower in exchange of less recoil. Due to its widespread use, many AK-74:s have found their way into the black market and terrorist organisations."
+      STR_AKM_UFOPAEDIA: "The AKM is the modernized variant of the AK-47. Like its predecessor the rifle is extremely reliable and durable, and it has found exessive use in nation affiliated with the Soviet Union during the cold war."
+      STR_AK_74_UFOPAEDIA: "The AK-74 was designed as a replacement for the AKM. Firing the smaller 5.45x39mm cartridge (replacing the Soviet 7.62x39mm) the rifle sacrificed some of its firepower in exchange of less recoil."
       STR_FN_FAL_SCOPED_UFOPAEDIA: "The FN FAL is one of the most widely used assault rifles. Used during the early cold war by many countries within NATO and other nations friendly with the alliance, due to this the rifle has gained the nickname The right arm of the free world"
       STR_HUNTING_RIFLE_UFOPAEDIA: "Different models of hunting rifles are easily available to civilians that aquire hunting licenses. While intended to hunt animals they are still lethal against human targets, though they struggle against armored targets and are usuallly outperformed by most, if not all military rifles."
       STR_SKS_SCOPED_UFOPAEDIA: "The SKS is a semi-automatic carbine originally meant to be used by soviet armed forces, but it was quickly overshadowed by the AK-47. The SKS nevertheless found success among irregular forces thanks to its light weight, simple design and ease of use. The SKS also found popularity in North America as a hunting and sporting weapon."
@@ -619,10 +1084,10 @@ extraStrings:
       STR_REMINGTON_UFOPAEDIA: "The Remington 870 is a shotgun widely used for sport shooting, hunting, law enforcment and military purposes. It is a reliable and inexpensive design and has held the record for being the best selling shotgun in the world."
       STR_KS_23_UFOPAEDIA: "Designated as a carbine by the russian military due to its rifled barrel, The KS-23 is the larges-bore shotgun in use. It was originally desigend to suppress prison riots in the Soviet Union and has seen use by russian security forces. Curiosly the barrels of early KS-23:s were made from rejected aircraft gun barrels."
       STR_ORIGIN_12_UFOPAEDIA: "The Fostech Origin-12 is a semi-automatic shotgun that has been heralded as one of the fastet semi-automatic shotguns available. Unlike similar weapons like the Saiga-12, the Origin-12 has not been adopted by either law enforcement nor national militaries."
-      STR_AA_12_UFOPAEDIA: "The Auto Assault-12 is one of the earliest automatic shotgun designs. The shotgun has incredibly low recoil. While only capable of firing in fully automatic mode, semi-automatic fire is possible with brief trigger pulls. The weapon saw little success and extremely few models of the weapon have been produced, however manufacturers have promised to provide us with them if we show interest."
+      STR_AA_12_UFOPAEDIA: "The Auto Assault-12 is one of the earliest automatic shotgun designs. While only capable of firing in fully automatic mode, semi-automatic fire is possible with brief trigger pulls. The weapon saw little success and extremely few models of the weapon have been produced."
       STR_USAS_12_UFOPAEDIA: "The Daewoo Precision Industries USAS-12:s design is based on the AA-12. Though unlike the AA-12 the USAS-12 was a selective fire weapon, and it found commercial success especially in east Asian markets."
       STR_M60_UFOPAEDIA: "A general-purpose machine gun that served as the primary machine gun on the US military during the first half of the cold war. While it saw extensive use, early versions were plauged by reliability issues. While newer designs are avilable the M60 is still widely used and some have even fallen into the hands of terrorist organisations."
-      STR_M249_UFOPAEDIA: "An American adaption of the Belgian FN minimi, the M249 is a light machine gun widely used by the US armed forces and has served in a multitude of conflicts. Unllike many other machine guns, the M249 can be fed both from linked ammunition and STANAG magazines, though the use of the latter is adviced to only be used in emergencies due to a higher rate od malfunctions."
+      STR_M249_UFOPAEDIA: "An American adaption of the Belgian FN minimi, the M249 is a light machine gun widely used by the US armed forces. Unllike many other machine guns, the M249 can be fed both from linked ammunition and STANAG magazines, though the use of the latter is adviced to only be used in emergencies due to a higher rate od malfunctions."
       STR_MK_48_UFOPAEDIA: "The Mark 48  is a variant od the M249 developed for USSOCOM to be fielded by special operations units. Unlike the M249, it fires 7.62x51mm NATO cartridges instead of the lighter 5.56 cartridge."
       STR_PECHENEG_UFOPAEDIA: "A russian general-purpose machine gun that has a heavy non-removable barrel that is forced-air-cooled instead of relying on the barrel to be switched during heavy use. The PHP Pecheneg has seen extensive use by Spetsnaz units. Its name is derived from the pecheneg people, a tribe that lived in the steppes of Russia an Ukraine."
       STR_M320_UFOPAEDIA: "The M320 was designed as a replacement for the M203 underbarrel grenade launcher. Unlike its predecessor, the M320 can be used stand-alone weapon aswell as being mounted on a rifle. It can fire a multitude of 40mm grenades, from frag grenades to non-lethal sponge grenades."
