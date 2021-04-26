@@ -175,7 +175,7 @@ items:
       ToArmorPre: 0.4
   - &STR_22_LONG_RIFLE_AMMO
     type: STR_22_LONG_RIFLE_AMMO
-    power: 35
+    power: 28
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -4442,7 +4442,7 @@ extraSprites:
       2184: Resources/BallisticWeapons/Pistols/BigGlock1830.png
       2192: Resources/BallisticWeapons/Pistols/BigFiveSevennomag.png
       2200: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      2208: Resources/BallisticWeapons/Shotguns/BigDoubleBarreled.png
+      2208: Resources/BallisticWeapons/Shotguns/BigModel1900.png
       2216: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
       2224: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
       2232: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
@@ -4717,7 +4717,7 @@ extraSprites:
       2184: Resources/BallisticWeapons/Pistols/FloorGlock18.png
       2192: Resources/BallisticWeapons/Pistols/FloorFiveSeven.png
       2200: Resources/BallisticWeapons/Pistols/FloorFiveSeven.png
-      2208: Resources/BallisticWeapons/Shotguns/FloorDoubleBarreled.png
+      2208: Resources/BallisticWeapons/Shotguns/FloorModel1900.png
       2216: Resources/BallisticWeapons/Rifles/FloorFNFAL.png
       2224: Resources/BallisticWeapons/Rifles/FloorFNFAL.png
       2232: Resources/BallisticWeapons/Rifles/FloorFNFAL.png
@@ -4988,7 +4988,7 @@ extraSprites:
       2184: Resources/BallisticWeapons/Pistols/HandGlock18.png
       2192: Resources/BallisticWeapons/Pistols/HandFiveSeven.png
       2200: Resources/BallisticWeapons/Pistols/HandFiveSeven.png
-      2208: Resources/BallisticWeapons/Shotguns/HandDoubleBarreled.png
+      2208: Resources/BallisticWeapons/Shotguns/HandModel1900.png
       2216: Resources/BallisticWeapons/Rifles/HandFNFAL.png
       2224: Resources/BallisticWeapons/Rifles/HandFNFAL.png
       2232: Resources/BallisticWeapons/Rifles/HandFNFAL.png

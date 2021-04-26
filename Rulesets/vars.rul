@@ -32,7 +32,6 @@ constants:
    extendedTerrainMelee: 4
 fixedUserOptions:
    battleUFOExtenderAccuracy: true
-   battleInstantGrenade: true
    noAlienPanicMessages: true
    alienBleeding: true
 
