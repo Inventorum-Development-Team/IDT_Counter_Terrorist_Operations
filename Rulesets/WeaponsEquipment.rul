@@ -4390,7 +4390,7 @@ extraSprites:
       1768: Resources/BallisticWeapons/Snipers/BigM82.png
       1776: Resources/BallisticWeapons/Shotguns/BigSuperShorty.png
       1784: Resources/BallisticWeapons/Shotguns/BigSuperShortyextended.png
-      1792: Resources/BallisticWeapons/Shotguns/BigRemingtonCombatShotgun.png
+      1792: Resources/BallisticWeapons/Shotguns/BigRemington.png
       1800: Resources/BallisticWeapons/Shotguns/BigKS23Shotgun.png
       1808: Resources/BallisticWeapons/Shotguns/BigOrigin12nomag.png
       1816: Resources/BallisticWeapons/Shotguns/BigOrigin12_8.png
@@ -4665,7 +4665,7 @@ extraSprites:
       1768: Resources/BallisticWeapons/Snipers/FloorM82.png
       1776: Resources/BallisticWeapons/Shotguns/FloorSuperShorty.png
       1784: Resources/BallisticWeapons/Shotguns/FloorSuperShorty.png
-      1792: Resources/BallisticWeapons/Shotguns/FloorRemingtonCombatShotgun.png
+      1792: Resources/BallisticWeapons/Shotguns/FloorRemington.png
       1800: Resources/BallisticWeapons/Shotguns/FloorKS23Shotgun.png
       1808: Resources/BallisticWeapons/Shotguns/FloorOrigin12.png
       1816: Resources/BallisticWeapons/Shotguns/FloorOrigin12.png
@@ -4936,7 +4936,7 @@ extraSprites:
       1768: Resources/BallisticWeapons/Snipers/HandM82.png
       1776: Resources/BallisticWeapons/Shotguns/HandSuperShorty1hand.png
       1784: Resources/BallisticWeapons/Shotguns/HandSuperShorty2hands.png
-      1792: Resources/BallisticWeapons/Shotguns/HandRemingtonCombatShotgun.png
+      1792: Resources/BallisticWeapons/Shotguns/HandRemington.png
       1800: Resources/BallisticWeapons/Shotguns/HandKS23Shotgun.png
       1808: Resources/BallisticWeapons/Shotguns/HandOrigin12.png
       1816: Resources/BallisticWeapons/Shotguns/HandOrigin12.png
