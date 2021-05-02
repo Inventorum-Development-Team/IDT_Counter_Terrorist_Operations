@@ -120,7 +120,7 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
   - type: STR_TERRORIST_SAW_ARMOR
-    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
+    spriteSheet: TERRORIST_GUNNER_SPRITESHEET.PCK
     corpseBattle:
       - STR_TERRORIST_CORPSE
     spriteInv: TERRORIST_MALE_INVENTORY
@@ -164,7 +164,7 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
   - type: STR_TERRORIST_RAIDER_ARMOR
-    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
+    spriteSheet: TERRORIST_GASMASK_SPRITESHEET.PCK
     corpseBattle:
       - STR_TERRORIST_CORPSE
     spriteInv: TERRORIST_MALE_INVENTORY
@@ -186,7 +186,7 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
   - type: STR_TERRORIST_GRUNT_ARMOR
-    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
+    spriteSheet: TERRORIST_FEMALE_SPRITESHEET.PCK
     corpseBattle:
       - STR_TERRORIST_CORPSE
     spriteInv: TERRORIST_MALE_INVENTORY
@@ -657,6 +657,14 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GASMASK_SPRITESHEET.png
 
+
+  - type: TERRORIST_GUNNER_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/TerroristFaction/TERRORIST_GUNNER_SPRITESHEET.png
 
   - type: BIGOBS.PCK
     files:
