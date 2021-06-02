@@ -2758,6 +2758,8 @@ alienDeployments:
     height: 10
     civilians: 12
     despawnPenalty: 0
+    terrains:
+     - SKYSCRAPER
     abortPenalty: 500
     duration: [99999,99999]
     keepCraftAfterFailedMission: true
@@ -2828,6 +2830,8 @@ alienDeployments:
     height: 10
     civilians: 12
     despawnPenalty: 0
+    terrains:
+     - SKYSCRAPER
     abortPenalty: 500
     duration: [99999,99999]
     keepCraftAfterFailedMission: true
@@ -2891,11 +2895,13 @@ alienDeployments:
              - STR_5_56_X30
              - STR_5_56_X30
   - type: SKY_SCRAPER_WEST_EU
-    width: 30
-    length: 30
+    width: 40
+    length: 40
     height: 10
     civilians: 12
     despawnPenalty: 0
+    terrains:
+     - SKYSCRAPER
     abortPenalty: 500
     duration: [99999,99999]
     keepCraftAfterFailedMission: true

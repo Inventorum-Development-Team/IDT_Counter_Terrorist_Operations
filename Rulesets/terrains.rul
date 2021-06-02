@@ -1,0 +1,21 @@
+terrains:
+
+   - name: SKYSCRAPER
+     script: SKYSCRAPER
+     mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECORREDUCED
+      - ENTRY
+     mapBlocks:
+      - name: SKYSCRAPER00
+        width: 30
+        length: 30
+        height: 10
+        revealedFloors: 1
+
+
+    

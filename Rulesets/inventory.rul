@@ -30,8 +30,6 @@ invs:
     slots:
       - [0, 0]
       - [1, 0]
-      - [2, 0]
-      - [3, 0]
     costs:
       STR_QD_SLOT: 6
       STR_BACK_PACK: 14

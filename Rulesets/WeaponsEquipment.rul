@@ -262,6 +262,7 @@ items:
     type: STR_12G_BUCKSHOT
     power: 20
     shotgunPellets: 6
+    shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 2
@@ -287,6 +288,7 @@ items:
     type: STR_12G_NON_LETHAL
     power: 10
     shotgunPellets: 6
+    shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 2
@@ -304,6 +306,7 @@ items:
     type: STR_SHRAPNEL_25
     power: 20
     shotgunPellets: 10
+    shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 2
@@ -329,6 +332,7 @@ items:
     type: STR_VOLNA_R
     power: 10
     shotgunPellets: 10
+    shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 2
@@ -4029,7 +4033,7 @@ items:
     weight: 4
     bigSprite: 19
     floorSprite: 19
-    power: 60
+    power: 45
     tuPrime: 25
     damageAlter:
       RandomType: 1
@@ -5141,7 +5145,7 @@ extraStrings:
       STR_VSS: "VSS Vintorez"
       STR_SAKO_TRG: "Sako TRG"
       STR_AWP: "Arctic Warfare Police"
-      STR_AW: "Accuracy International Arctic Warfare"
+      STR_AW: "Arctic Warfare Magnum"
       STR_M82: "Barret M82"
       STR_DOUBLE_BARREL: "Double-Barreled Shotgun"
       STR_SERBU: "Serbu Super-Shorty"
@@ -5184,7 +5188,7 @@ extraStrings:
       STR_USE_FIELD_DRESSING: "Use Field Dressing"
       STR_USE_MEDICAL_POUCH: "Use Medical Pouch"
 
-
+      STR_GRENADE: "Impact Grenade"
       STR_SMOKE_GRENADE: "M18 Smoke Grenade"
       STR_FLASHBANG_GRENADE: "M84 Flashbang Grenade"
       STR_MOLOTOV: "Molotov Cocktail"

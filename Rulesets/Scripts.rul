@@ -708,6 +708,36 @@ extended:
               end;
             end;
            end;
+
+
+          if and eq x 2 eq blit_part blit_item_big;
+           item.getAmmoItem ammoptr;
+           BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+           BattleItem.getTag item y Tag.FoldStock;
+           if eq y 1;
+            item.getSlot invptr;
+            RuleInventory.isLeftHand invptr left;
+            RuleInventory.isRightHand invptr right;
+            if and eq left 0 eq right 0;
+             set z 1;
+             end;
+            end;
+           if eq z 1;
+            add sprite_index 4;
+            add sprite_index ammono;
+           end;
+           if neq z 1;
+            add sprite_index ammono;
+            end;
+           BattleItem.getTag item a Tag.UBS;
+           if eq a 1;
+             item.getAmmoForSlot UBSammoptr 1;
+             BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
+             if eq UBSammono 1;
+              add sprite_index 2;
+              end;
+            end;
+           end;
           return sprite_index; 
 
 extraStrings:
