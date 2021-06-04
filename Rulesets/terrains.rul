@@ -18,4 +18,66 @@ terrains:
         revealedFloors: 1
 
 
-    
+
+   - name: OFFICE
+     script: OFFICE
+     mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECORREDUCED
+      - ENTRY  
+     mapBlocks:
+      - name: OFFICE00
+        width: 20
+        length: 10
+        height: 4
+      - name: OFFICE01
+        width: 20
+        length: 20
+        height: 4
+      - name: OFFICE02
+        width: 10
+        length: 20
+        height: 4
+
+   - name: AIRPORT
+     script: AIRPORT_HIJACKED_PLANE_SCRIPT
+     mapDataSets:
+      - BLANKS
+      - IDT_PLANE_2
+      - IDT_PLANE_3
+      - PORT01_UFO
+      - PORT02_UFO
+      - PORT05_UFO
+     mapBlocks:
+      - name: AIRBASE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AIRBASE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: AIRPORT_N
+        width: 10
+        length: 10
+        groups: 3
+      - name: AIRPORT_S
+        width: 10
+        length: 10
+        groups: 4
+
+   - name: IDT_PLANE_HIJACKED
+    # script: AIRPORT_SCRIPT
+    # enviroEffects: STR_LAND
+     mapDataSets:
+      - BLANKS
+      - IDT_PLANE
+      - PORT01_UFO
+     mapBlocks:
+      - name: HIJACKED_PLANE02
+        width: 30
+        length: 20

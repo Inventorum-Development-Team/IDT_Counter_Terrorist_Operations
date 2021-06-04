@@ -2551,6 +2551,8 @@ alienDeployments:
     missionBountyItem: STR_OFFICE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_OFFICE_RAID
+    terrains:
+     - OFFICE
     briefing:
      desc: STR_OFFICE_RAID_BRIEFING
     data:
@@ -2623,6 +2625,8 @@ alienDeployments:
     missionBountyItem: STR_OFFICE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_OFFICE_RAID
+    terrains:
+     - OFFICE
     briefing:
      desc: STR_OFFICE_RAID_BRIEFING
     data:
@@ -2693,6 +2697,8 @@ alienDeployments:
     missionBountyItem: STR_OFFICE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_OFFICE_RAID
+    terrains:
+     - OFFICE
     briefing:
      desc: STR_OFFICE_RAID_BRIEFING
     data:
