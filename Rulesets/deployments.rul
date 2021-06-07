@@ -896,6 +896,8 @@ alienDeployments:
     missionBountyItem: STR_HOUSE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_HOUSE_RAID
+    terrains:
+     - SAFEHOUSE
     briefing:
      desc: STR_HOUSE_RAID_BRIEFING
     data:
@@ -1035,6 +1037,8 @@ alienDeployments:
     missionBountyItem: STR_HOUSE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_HOUSE_RAID
+    terrains:
+     - SAFEHOUSE
     briefing:
      desc: STR_HOUSE_RAID_BRIEFING
     data:
@@ -1173,6 +1177,8 @@ alienDeployments:
     missionBountyItem: STR_HOUSE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_HOUSE_RAID
+    terrains:
+     - SAFEHOUSE
     briefing:
      desc: STR_HOUSE_RAID_BRIEFING
     data:
@@ -1726,6 +1732,8 @@ alienDeployments:
     vipSurvivalPercentage: 4
     startingCondition: STR_NO_LARGE
     alert: STR_HOSTAGE_SITUATION
+    terrains:
+      - SAFEHOUSE
     briefing:
      desc: STR_HOSTAGE_SITUATION_BRIEFING
     data:
@@ -1866,6 +1874,8 @@ alienDeployments:
     vipSurvivalPercentage: 4
     startingCondition: STR_NO_LARGE
     alert: STR_HOSTAGE_SITUATION
+    terrains:
+      - SAFEHOUSE
     briefing:
      desc: STR_HOSTAGE_SITUATION_BRIEFING
     data:
@@ -2005,6 +2015,8 @@ alienDeployments:
     vipSurvivalPercentage: 4
     startingCondition: STR_NO_LARGE
     alert: STR_HOSTAGE_SITUATION
+    terrains:
+      - SAFEHOUSE
     briefing:
      desc: STR_HOSTAGE_SITUATION_BRIEFING
     data:
@@ -2140,6 +2152,13 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
+    terrains:
+      - PORTTFTD5
+      - PORTTFTD6
+      - PORTUFO
+      - CHEMTOWN
+      - INDUSTRIALSLUM
+      - REFINERY
     briefing:
      desc: STR_HIDEOUT_RAID_BRIEFING
     data:
@@ -2278,6 +2297,13 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
+    terrains:
+      - PORTTFTD5
+      - PORTTFTD6
+      - PORTUFO
+      - CHEMTOWN
+      - INDUSTRIALSLUM
+      - REFINERY
     briefing:
      desc: STR_HIDEOUT_RAID_BRIEFING
     data:
@@ -2415,6 +2441,13 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
+    terrains:
+      - PORTTFTD5
+      - PORTTFTD6
+      - PORTUFO
+      - CHEMTOWN
+      - INDUSTRIALSLUM
+      - REFINERY
     briefing:
      desc: STR_HIDEOUT_RAID_BRIEFING
     data:

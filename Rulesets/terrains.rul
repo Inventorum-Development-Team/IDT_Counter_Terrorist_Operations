@@ -81,3 +81,29 @@ terrains:
       - name: HIJACKED_PLANE02
         width: 30
         length: 20
+
+   - name: SAFEHOUSE
+     mapDataSets:
+      - BLANKS
+      - DAWNURBAN
+      - DAWNURBITS
+      - CRIBDECOR
+      - MANSIONBITS
+      - CITYFRNITURE
+     script: SAFEHOUSESCRIPT
+     mapBlocks:
+      - name: LT_HOUSE_02G
+        width: 20
+        length: 20
+        height: 6
+        groups: 4
+      - name: LT_HOUSE_03G
+        width: 20
+        length: 20
+        height: 6
+        groups: 4
+      - name: LT_HOUSE_04G
+        width: 20
+        length: 20
+        height: 6
+        groups: 4

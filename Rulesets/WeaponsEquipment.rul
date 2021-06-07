@@ -91,7 +91,7 @@ items:
 
   - &STR_MAKAROV_AMMO
     type: STR_MAKAROV_AMMO
-    power: 24
+    power: 29
     hitAnimation: 26
     hitSound: 22
     bulletSprite: 2
@@ -102,7 +102,7 @@ items:
       IgnoreOverKill: true
   - &STR_9MM_PISTOL_AMMO
     type: STR_9MM_PISTOL_AMMO
-    power: 26
+    power: 31
     hitAnimation: 26
     hitSound: 22
     bulletSprite: 2
@@ -113,7 +113,7 @@ items:
       IgnoreOverKill: true
   - &STR_FN57_AMMO
     type: STR_FN57_AMMO
-    power: 28
+    power: 33
     hitAnimation: 26
     hitSound: 22
     bulletSprite: 2
@@ -125,7 +125,7 @@ items:
       ToArmorPre: 0.4
   - &STR_45_PISTOL_AMMO
     type: STR_45_PISTOL_AMMO
-    power: 30
+    power: 35
     hitAnimation: 26
     hitSound: 22
     bulletSprite: 2
@@ -138,7 +138,7 @@ items:
   #RIFLE AMMO
   - &STR_CASELESS_4_73_AMMO
     type: STR_CASELESS_4_73_AMMO
-    power: 30
+    power: 35
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -150,7 +150,7 @@ items:
       ToArmorPre: 0.3
   - &STR_5_45_AMMO
     type: STR_5_45_AMMO
-    power: 31
+    power: 36
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -162,7 +162,7 @@ items:
       ToArmorPre: 0.3
   - &STR_5_56MM_NATO_RIFLE_AMMO
     type: STR_5_56MM_NATO_RIFLE_AMMO
-    power: 32
+    power: 37
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -174,7 +174,7 @@ items:
       ToArmorPre: 0.4
   - &STR_22_LONG_RIFLE_AMMO
     type: STR_22_LONG_RIFLE_AMMO
-    power: 28
+    power: 33
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -186,7 +186,7 @@ items:
       ToArmorPre: 0
   - &STR_7_62MM_SOVIET_RIFLE_AMMO
     type: STR_7_62MM_SOVIET_RIFLE_AMMO
-    power: 38
+    power: 43
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -198,7 +198,7 @@ items:
       ToArmorPre: 0.6
   - &STR_7_62MM_NATO_RIFLE_AMMO
     type: STR_7_62MM_NATO_RIFLE_AMMO
-    power: 40
+    power: 45
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -210,7 +210,7 @@ items:
       ToArmorPre: 0.6
   - &STR_SOVIET_7_62_MMR_AMMO
     type: STR_SOVIET_7_62_MMR_AMMO
-    power: 44
+    power: 49
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -222,7 +222,7 @@ items:
       ToArmorPre: 0.7
   - &STR_9_39_AMMO
     type: STR_9_39_AMMO
-    power: 46
+    power: 51
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -234,7 +234,7 @@ items:
       ToArmorPre: 0.7
   - &STR_338_LAPUA_AMMO
     type: STR_338_LAPUA_AMMO
-    power: 56
+    power: 61
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -246,7 +246,7 @@ items:
       ToArmorPre: 0.8
   - &STR_50_BMG_AMMO
     type: STR_50_BMG_AMMO
-    power: 65
+    power: 70
     hitAnimation: 26
     hitSound: 22
     battleType: 2
@@ -259,8 +259,8 @@ items:
 
   - &STR_12G_BUCKSHOT
     type: STR_12G_BUCKSHOT
-    power: 20
-    shotgunPellets: 6
+    power: 25
+    shotgunPellets: 10
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
@@ -285,8 +285,8 @@ items:
 
   - &STR_12G_NON_LETHAL
     type: STR_12G_NON_LETHAL
-    power: 10
-    shotgunPellets: 6
+    power: 20
+    shotgunPellets: 10
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
@@ -294,7 +294,7 @@ items:
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
-    powerRangeReduction: 1
+    powerRangeReduction: 2
     damageAlter:
       RandomType: 1
       IgnoreOverKill: true
@@ -303,8 +303,8 @@ items:
 
   - &STR_SHRAPNEL_25
     type: STR_SHRAPNEL_25
-    power: 20
-    shotgunPellets: 10
+    power: 25
+    shotgunPellets: 20
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
@@ -329,8 +329,8 @@ items:
 
   - &STR_VOLNA_R
     type: STR_VOLNA_R
-    power: 10
-    shotgunPellets: 10
+    power: 20
+    shotgunPellets: 20
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
@@ -338,7 +338,7 @@ items:
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
-    powerRangeReduction: 1
+    powerRangeReduction: 2
     damageAlter:
       RandomType: 1
       IgnoreOverKill: true
@@ -3869,6 +3869,7 @@ items:
     refNode: *STR_LMG
     tuSnap: 50
     tuAuto: 75
+    sprayWaypoints: 2
     invWidth: 2
     invHeight: 3
     ammo:
@@ -3910,6 +3911,7 @@ items:
         tuLoad: 45
         tuUnload: 22
     listOrder: 20980
+    sprayWaypoints: 2
 
   - type: STR_MK_48
     categories: [ STR_FIREARMS, STR_LMGS ]
@@ -3943,6 +3945,7 @@ items:
         tuLoad: 45
         tuUnload: 22
     listOrder: 21930
+    sprayWaypoints: 2
 
   - type: STR_PECHENEG
     categories: [ STR_FIREARMS, STR_LMGS ]
@@ -3976,6 +3979,7 @@ items:
         tuLoad: 45
         tuUnload: 22
     listOrder: 22070
+    sprayWaypoints: 2
 
   - type: STR_M320
     categories: [ STR_FIREARMS, STR_ARTILLERY ]

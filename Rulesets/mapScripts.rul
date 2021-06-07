@@ -98,4 +98,31 @@ mapScripts:
      - type: fillArea
        terrain: COMRCURBAN
        groups: [0,5]
+
+
+
+  - type: SAFEHOUSESCRIPT
+    commands:
+      - type: addBlock
+        executions: 1
+        rects:
+        - [0,0,2,2]
+        size: [2,2,6]
+        groups: 4
+      - type: addLine
+        direction: vertical
+        executions: 1
+        terrain: EXPANDED_TERROR
+        rects:
+        - [2,0,1,2]
+        groups: 3
+      - type: addCraft
+        rects:
+        - [3,0,2,2]
+        executions: 1
+        terrain: EXPANDED_TERROR
+        groups: 1
+      - type: fillArea
+        groups: 1
+        terrain: EXPANDED_TERROR
        

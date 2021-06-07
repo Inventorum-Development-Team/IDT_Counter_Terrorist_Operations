@@ -9,6 +9,36 @@ items:
     battleType: 11
     armor: 30
     recover: false
+  - type: STR_GRUNT_CORPSE
+    size: 2
+    weight: 50
+    bigSprite: 3051
+    floorSprite: 3051
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
+  - type: STR_GASMASK_CORPSE
+    size: 2
+    weight: 50
+    bigSprite: 3052
+    floorSprite: 3052
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
+  - type: STR_GRENADIER_CORPSE
+    size: 2
+    weight: 50
+    bigSprite: 3053
+    floorSprite: 3053
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
 
   - type: STR_TERRORIST_COMMANDER
     liveAlien: true
@@ -72,8 +102,6 @@ items:
     costSell: 30000
     size: 0
 
-
-
 armors:
   - type: STR_TERRORIST_COMMANDER_ARMOR
     spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
@@ -96,7 +124,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: []
   - type: STR_TERRORIST_LEADER_ARMOR
     spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
     corpseBattle:
@@ -118,9 +146,31 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: []
   - type: STR_TERRORIST_SAW_ARMOR
     spriteSheet: TERRORIST_GUNNER_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_GASMASK_CORPSE
+    spriteInv: TERRORIST_GASMASK_INVENTORY
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: []
+  - type: STR_TERRORIST_RIFLEMAN_ARMOR
+    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
     corpseBattle:
       - STR_TERRORIST_CORPSE
     spriteInv: TERRORIST_MALE_INVENTORY
@@ -140,34 +190,12 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: [ 3 ]
-  - type: STR_TERRORIST_RIFLEMAN_ARMOR
-    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
-    corpseBattle:
-      - STR_TERRORIST_CORPSE
-    spriteInv: TERRORIST_MALE_INVENTORY
-    frontArmor: 20
-    sideArmor: 6
-    rearArmor: 20
-    underArmor: 4
-    visibilityAtDark: 9
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: []
   - type: STR_TERRORIST_RAIDER_ARMOR
     spriteSheet: TERRORIST_GASMASK_SPRITESHEET.PCK
     corpseBattle:
-      - STR_TERRORIST_CORPSE
-    spriteInv: TERRORIST_MALE_INVENTORY
+      - STR_GASMASK_CORPSE
+    spriteInv: TERRORIST_GASMASK_INVENTORY
     frontArmor: 30
     sideArmor: 10
     rearArmor: 30
@@ -184,12 +212,12 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: []
   - type: STR_TERRORIST_GRUNT_ARMOR
     spriteSheet: TERRORIST_FEMALE_SPRITESHEET.PCK
     corpseBattle:
-      - STR_TERRORIST_CORPSE
-    spriteInv: TERRORIST_MALE_INVENTORY
+      - STR_GRUNT_CORPSE
+    spriteInv: TERRORIST_FEMALE_INVENTORY
     frontArmor: 4
     sideArmor: 4
     rearArmor: 4
@@ -206,12 +234,12 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: []
   - type: STR_TERRORIST_GRENADIER_ARMOR
-    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
+    spriteSheet: TERRORIST_GRENADIER_SPRITESHEET.PCK
     corpseBattle:
-      - STR_TERRORIST_CORPSE
-    spriteInv: TERRORIST_MALE_INVENTORY
+      - STR_GRENADIER_CORPSE
+    spriteInv: TERRORIST_GRENADIER_INVENTORY
     frontArmor: 4
     sideArmor: 4
     rearArmor: 4
@@ -228,7 +256,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: []
   - type: STR_TERRORIST_SNIPER_ARMOR
     spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
     corpseBattle:
@@ -250,7 +278,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: []
 units:
   - type: STR_TERRORIST_COMMANDER
     race: STR_TERRORISTS
@@ -269,7 +297,7 @@ units:
     armor: STR_TERRORIST_COMMANDER_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 50
     aggression: 1
     intelligence: 3
@@ -294,7 +322,7 @@ units:
     armor: STR_TERRORIST_LEADER_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 40
     aggression: 1
     intelligence: 3
@@ -319,7 +347,7 @@ units:
     armor: STR_TERRORIST_SAW_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 25
     aggression: 1
     intelligence: 1
@@ -344,7 +372,7 @@ units:
     armor: STR_TERRORIST_RIFLEMAN_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 20
     aggression: 1
     intelligence: 2
@@ -369,7 +397,7 @@ units:
     armor: STR_TERRORIST_RAIDER_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 20
     aggression: 2
     intelligence: 1
@@ -394,7 +422,7 @@ units:
     armor: STR_TERRORIST_GRUNT_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 15
     aggression: 0
     intelligence: 1
@@ -419,7 +447,7 @@ units:
     armor: STR_TERRORIST_GRENADIER_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 2
     intelligence: 1
@@ -444,7 +472,7 @@ units:
     armor: STR_TERRORIST_SNIPER_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 0
     intelligence: 2
@@ -469,7 +497,7 @@ units:
     armor: STR_DEFAULT_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 50
     aggression: 1
     intelligence: 5
@@ -494,7 +522,7 @@ units:
     armor: STR_DEFAULT_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 1
     intelligence: 3
@@ -519,7 +547,7 @@ units:
     armor: STR_DEFAULT_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 1
     intelligence: 3
@@ -544,7 +572,7 @@ units:
     armor: STR_HEAVY
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 1
     intelligence: 3
@@ -569,7 +597,7 @@ units:
     armor: STR_DEFAULT_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 1
     intelligence: 3
@@ -594,7 +622,7 @@ units:
     armor: STR_DEFAULT_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 1
     intelligence: 3
@@ -619,18 +647,13 @@ units:
     armor: STR_DEFAULT_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
-    deathSound: [41, 42, 43]
+    deathSound: [ 41, 42, 43 ]
     value: 30
     aggression: 0
     intelligence: 5
     spotter: 3
     sniper: 5
     canSurrender: true
-
-
-
-
-
 
 extraSprites:
   - type: TERRORIST_MALE_SPRITESHEET.PCK
@@ -657,7 +680,6 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GASMASK_SPRITESHEET.png
 
-
   - type: TERRORIST_GUNNER_SPRITESHEET.PCK
     width: 512
     height: 720
@@ -666,16 +688,27 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GUNNER_SPRITESHEET.png
 
+
+  - type: TERRORIST_GRENADIER_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/TerroristFaction/INSURGENT_SPRITESHEET.png
+
   - type: BIGOBS.PCK
     files:
       3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_BIGOB.png
       3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_BIGOB.png
       3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_BIGOB.png
+      3053: Resources/TerroristFaction/INSURGENT_COROSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
       3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
       3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
+      3053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
 
   - type: TERRORIST_MALE_INVENTORY.SPK
     singleImage: true
@@ -698,24 +731,13 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GASMASK_INVENTORY.png
 
-  - type: TERRORIST_FACTION_IMAGE
+
+  - type: TERRORIST_GRENADIER_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UFOpedia/TERRORIST_FACTION_IMAGE.png
-  - type: TERRORIST_OPERATIONS_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/TERRORIST_OPERATIONS_IMAGE.png
-  - type: AUTOPSY_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/AUTOPSY_IMAGE.png
+      0: Resources/TerroristFaction/INSURGENT_OMO.png
 
 extraStrings:
   - type: en-US
@@ -730,9 +752,3 @@ extraStrings:
       STR_TERRORIST_FEMALE_CORPSE: Female Terrorist Corpse
       STR_TERRORIST_GASMASK_CORPSE: Gasmask Terrorist Corpse
 
-      STR_TERRORISTS: The Terrorists
-      STR_TERRORISTS_UFOPEDIA: Terrorists are a diverse group of political, religious and ideological radicals who use violence and fear to impose their ideals or make demands on the world's governments. Each cell is independent of the others, but they use similar equipment and weaponry. They are extremely dangerous because they are not afraid to die.
-      STR_TERRORISTS_OPERATIONS: Terrorist Operations
-      STR_TERRORISTS_OPERATIONS_UFOPEDIA: Terrorist operations are often financed by extremist political or religious factions in countries around the world, who use terrorists as the means to achieve their goals without getting their hands dirty. They usually demand a ransom in the form of money or the release of prisoners loyal to their faction. Their activity has been greatly increased by the massive export of weapons from the Superpowers to Third World countries.
-      STR_TERRORIST_AUTOPSY: Terrorist Autopsy
-      STR_TERRORIST_AUTOPSY_UFOPEDIA: This is an ordinary human, with nothing we would not have seen in another member of our species and as easy to kill as an ordinary soldier. Some were equipped with bulletproof vests under their clothes, although in general their attire is that of a civilian, with some tactical elements of military origin, probably obtained illegally on the black market.

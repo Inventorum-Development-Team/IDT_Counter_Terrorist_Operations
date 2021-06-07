@@ -988,7 +988,7 @@ extraStrings:
       STR_HOUSE_LEAD_2: "Phone Tracking"
       STR_HOUSE_LEAD_3: "Property Ownership"
       STR_SAFE_HOUSE_RAIDS: "Safe-House Raids"
-      STR_HIDEOUT_LEAD_1: "Plea Deals"
+      STR_HIDEOUT_LEAD_1: "Confessions"
       STR_HIDEOUT_LEAD_2: "Shadowing Suspects"
       STR_HIDEOUT_LEAD_3: "Paper Trail"
       STR_HIDEOUT_RAIDS: "Hideout Raids"
