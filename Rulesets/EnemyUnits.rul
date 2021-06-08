@@ -1,6 +1,5 @@
 items:
   - type: STR_TERRORIST_CORPSE
-    size: 2
     weight: 50
     bigSprite: 3050
     floorSprite: 3050
@@ -8,9 +7,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recover: false
   - type: STR_GRUNT_CORPSE
-    size: 2
     weight: 50
     bigSprite: 3051
     floorSprite: 3051
@@ -18,9 +15,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recover: false
   - type: STR_GASMASK_CORPSE
-    size: 2
     weight: 50
     bigSprite: 3052
     floorSprite: 3052
@@ -28,9 +23,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recover: false
   - type: STR_GRENADIER_CORPSE
-    size: 2
     weight: 50
     bigSprite: 3053
     floorSprite: 3053
@@ -38,7 +31,6 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recover: false
 
   - type: STR_TERRORIST_COMMANDER
     liveAlien: true
@@ -124,7 +116,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
   - type: STR_TERRORIST_LEADER_ARMOR
     spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
     corpseBattle:
@@ -146,7 +138,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
   - type: STR_TERRORIST_SAW_ARMOR
     spriteSheet: TERRORIST_GUNNER_SPRITESHEET.PCK
     corpseBattle:
@@ -168,7 +160,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
   - type: STR_TERRORIST_RIFLEMAN_ARMOR
     spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
     corpseBattle:
@@ -190,7 +182,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
   - type: STR_TERRORIST_RAIDER_ARMOR
     spriteSheet: TERRORIST_GASMASK_SPRITESHEET.PCK
     corpseBattle:
@@ -212,7 +204,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
   - type: STR_TERRORIST_GRUNT_ARMOR
     spriteSheet: TERRORIST_FEMALE_SPRITESHEET.PCK
     corpseBattle:
@@ -234,7 +226,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
   - type: STR_TERRORIST_GRENADIER_ARMOR
     spriteSheet: TERRORIST_GRENADIER_SPRITESHEET.PCK
     corpseBattle:
@@ -256,7 +248,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
   - type: STR_TERRORIST_SNIPER_ARMOR
     spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
     corpseBattle:
@@ -278,7 +270,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftempsSet: []
+    loftempsSet: [3]
 units:
   - type: STR_TERRORIST_COMMANDER
     race: STR_TERRORISTS
