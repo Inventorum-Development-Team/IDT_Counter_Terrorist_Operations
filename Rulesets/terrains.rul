@@ -15,6 +15,7 @@ terrains:
         width: 30
         length: 30
         height: 10
+        groups: 1
         revealedFloors: 1
 
 

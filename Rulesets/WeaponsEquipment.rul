@@ -379,7 +379,7 @@ items:
     power: 40
     bulletSprite: 14
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 26
     battleType: 2
     damageType: 1
     arcingShot: true

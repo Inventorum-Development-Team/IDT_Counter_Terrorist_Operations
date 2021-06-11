@@ -3,6 +3,9 @@ crafts:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
+  - delete: STR_SKYRANGER
+
+
 
   - type: STR_GMC_VAN_SMALL
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
@@ -44,7 +47,7 @@ crafts:
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
     requires:
      - STR_MEDIUM_TRANSPORT
-    soldiers: 6
+    soldiers: 12
     vehicles: 0
     costBuy: 200000
     costRent: 10000
@@ -87,7 +90,7 @@ crafts:
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
     requires:
      - STR_LARGE_TRANSPORT
-    soldiers: 6
+    soldiers: 18
     vehicles: 0
     costBuy: 300000
     costRent: 15000
