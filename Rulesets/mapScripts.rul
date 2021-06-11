@@ -72,10 +72,14 @@ mapScripts:
   - type: SKYSCRAPER
     commands: 
     - type: addBlock
-      size: [3,3,10] 
-    - type: addCraft
-    - type: fillArea
-      terrain: COMRCURBAN
+      size: [3,3,10]
+      executions: 1
+      verticalLevels:
+       - type: ground
+         size: [3,3,10]
+       - type: ceiling
+         terrain: LITTLEBIRD
+         size: [1,2,5]
 
 
   - type: OFFICE
@@ -106,9 +110,17 @@ mapScripts:
       - type: addBlock
         executions: 1
         rects:
-        - [0,0,2,2]
-        size: [2,2,6]
+        - [0,0,3,2]
+        size: [2,3,6]
         groups: 4
+        executionChances: 33
+      # - type: addBlock
+      #   executions: 1
+      #   rects:
+      #   - [0,0,2,2]
+      #   - [0,1,2,2]
+      #   size: [2,2,6]
+      #   groups: 4
       - type: addLine
         direction: vertical
         executions: 1
@@ -118,7 +130,7 @@ mapScripts:
         groups: 3
       - type: addCraft
         rects:
-        - [3,0,2,2]
+        - [3,0,3,2]
         executions: 1
         terrain: EXPANDED_TERROR
         groups: 1

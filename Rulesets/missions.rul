@@ -22,7 +22,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -37,7 +37,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -52,7 +52,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -66,7 +66,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -80,7 +80,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -94,7 +94,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -108,7 +108,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -122,7 +122,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -136,7 +136,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -151,7 +151,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -166,7 +166,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -181,7 +181,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -196,7 +196,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -211,7 +211,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -226,7 +226,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -240,7 +240,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -254,7 +254,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -268,7 +268,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORIST: 100
+      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1

@@ -558,271 +558,271 @@ ufopaedia:
 
   - id: STR_9MM_MAKAROV_X10
     type_id: 4
-    text: "..."
+    text: STR_9MM_MAKAROV_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1000
 
   - id: STR_9MM_MAKAROV_X20
     type_id: 4
-    text: "..."
+    text: STR_9MM_MAKAROV_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1001
 
   - id: STR_9MM_MAKAROV_X30
     type_id: 4
-    text: "..."
+    text: STR_9MM_MAKAROV_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1002
 
   - id: STR_9MM_PARABELLUM_X10
     type_id: 4
-    text: "..."
+    text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1003
 
   - id: STR_9MM_PARABELLUM_X20
     type_id: 4
-    text: "..."
+    text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1004
 
   - id: STR_9MM_PARABELLUM_X30
     type_id: 4
-    text: "..."
+    text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1005
 
   - id: STR_9MM_PARABELLUM_X40
     type_id: 4
-    text: "..."
+    text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1006
 
   - id: STR_FN_57_X20
     type_id: 4
-    text: "..."
+    text: STR_FN_57_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1007
 
   - id: STR_FN_57_X50
     type_id: 4
-    text: "..."
+    text: STR_FN_57_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1008
 
   - id: STR_45_ACP_X7
     type_id: 4
-    text: "..."
+    text: STR_45_ACP_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1009
 
   - id: STR_45_ACP_X12
     type_id: 4
-    text: "..."
+    text: STR_45_ACP_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1010
 
   - id: STR_CASELESS_4_73_X50
     type_id: 4
-    text: "..."
+    text: STR_CASELESS_4_73_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1011
 
   - id: STR_5_45_X30
     type_id: 4
-    text: "..."
+    text: STR_5_45_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1012
 
   - id: STR_5_45_X45
     type_id: 4
-    text: "..."
+    text: STR_5_45_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1013
 
   - id: STR_5_45_X60
     type_id: 4
-    text: "..."
+    text: STR_5_45_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1014
 
   - id: STR_5_56_X30
     type_id: 4
-    text: "..."
+    text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1015
 
   - id: STR_5_56_X50
     type_id: 4
-    text: "..."
+    text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1016
 
   - id: STR_5_56_X100
     type_id: 4
-    text: "..."
+    text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1017
 
   - id: STR_22_LONG_RIFLE_X6
     type_id: 4
-    text: "..."
+    text: STR_22_LONG_RIFLE_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1018
 
   - id: STR_SOVIET_7_62_X10
     type_id: 4
-    text: "..."
+    text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1019
 
   - id: STR_SOVIET_7_62_X30
     type_id: 4
-    text: "..."
+    text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1020
 
   - id: STR_SOVIET_7_62_X40
     type_id: 4
-    text: "..."
+    text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1021
 
   - id: STR_SOVIET_7_62_X75
     type_id: 4
-    text: "..."
+    text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1022
 
   - id: STR_NATO_7_62_X5
     type_id: 4
-    text: "..."
+    text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1023
 
   - id: STR_NATO_7_62_X10
     type_id: 4
-    text: "..."
+    text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1024
 
   - id: STR_NATO_7_62_X20
     type_id: 4
-    text: "..."
+    text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1025
 
   - id: STR_NATO_7_62_X50
     type_id: 4
-    text: "..."
+    text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1026
 
   - id: STR_NATO_7_62_X100
     type_id: 4
-    text: "..."
+    text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1027
 
   - id: STR_SOVIET_7_62_MMR_X50
     type_id: 4
-    text: "..."
+    text: STR_SOVIET_7_62_MMR_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1028
 
   - id: STR_SOVIET_7_62_MMR_X100
     type_id: 4
-    text: "..."
+    text: STR_SOVIET_7_62_MMR_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1029
 
   - id: STR_9_39_X10
     type_id: 4
-    text: "..."
+    text: STR_9_39_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1030
 
   - id: STR_9_39_X20
     type_id: 4
-    text: "..."
+    text: STR_9_39_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1031
 
   - id: STR_338_LAPUA_X5
     type_id: 4
-    text: "..."
+    text: STR_338_LAPUA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1032
 
   - id: STR_50_BMG_X5
     type_id: 4
-    text: "..."
+    text: STR_50_BMG_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1033
 
   - id: STR_50_BMG_X10
     type_id: 4
-    text: "..."
+    text: STR_50_BMG_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1034
 
   - id: STR_12G_BUCKSHOT_X2
     type_id: 4
-    text: "..."
+    text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1035
 
   - id: STR_12G_BUCKSHOT_X5
     type_id: 4
-    text: "..."
+    text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1036
 
   - id: STR_12G_BUCKSHOT_X8
     type_id: 4
-    text: "..."
+    text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1037
 
   - id: STR_12G_BUCKSHOT_X20
     type_id: 4
-    text: "..."
+    text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1038
 
   - id: STR_12G_BUCKSHOT_X30
     type_id: 4
-    text: "..."
+    text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1039
 
   - id: STR_12G_SLUG_X8
     type_id: 4
-    text: "..."
+    text: STR_12G_SLUG_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1040
 
   - id: STR_12G_NON_LETHAL_X8
     type_id: 4
-    text: "..."
+    text: STR_12G_NON_LETHAL_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1041
 
   - id: STR_SHRAPNEL_25_X3
     type_id: 4
-    text: "..."
+    text: STR_SHRAPNEL_25_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1042
 
   - id: STR_BARRICADE_X3
     type_id: 4
-    text: "..."
+    text: STR_BARRICADE_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1043
 
   - id: STR_VOLNA_R_X3
     type_id: 4
-    text: "..."
+    text: STR_VOLNA_R_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1044
 
@@ -834,43 +834,43 @@ ufopaedia:
 
   - id: STR_40MM_FRAG_X1
     type_id: 4
-    text: "..."
+    text: STR_40MM_FRAG_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1046
 
   - id: STR_40MM_FRAG_X6
     type_id: 4
-    text: "..."
+    text: STR_40MM_FRAG_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1047
 
   - id: STR_40MM_SMOKE_X1
     type_id: 4
-    text: "..."
+    text: STR_40MM_SMOKE_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1048
 
   - id: STR_40MM_NON_LETHAL_X1
     type_id: 4
-    text: "..."
+    text: STR_40MM_NON_LETHAL_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1049
 
   - id: STR_CG_HEAT_X1
     type_id: 4
-    text: "..."
+    text: STR_CG_HEAT_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1050
 
   - id: STR_CG_HE_X1
     type_id: 4
-    text: "..."
+    text: STR_CG_HE_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1051
 
   - id: STR_RPG_HEAT_X1
     type_id: 4
-    text: "..."
+    text: STR_RPG_HEAT_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1052
 
@@ -1094,3 +1094,30 @@ extraStrings:
       STR_MGL_UFOPAEDIA: "The Milkor MGL is a grenade launcher with a revolving cylinder magazine that can contain 6 40mm grenades. Its design means it can quickly and accurately bring a lot of firepower to an enemy target. "
       STR_GUSTAF_UFOPAEDIA: "The Carl Gustaf is a reusable anti-tank recoilles rifle. Designed in 1946, it has gone trough multiple upgrades, and is the only weapon of its type from its era that is still in use. Due to its widespread use and long name, it has gained multiple nicknames like Charlie G or Kusti."
       STR_RPG_UFOPAEDIA: "Due to its simplicity, low cost and effectiveness, the RPG-7 has become the most used anti-armor weapon in the world. For this reason it has also proved commonplace among the arsenals of irregular and terrorist forces, and it is usually their only weapon capable of challenging armored vehicles."
+
+      STR_9MM_MAKAROV_UFOPAEDIA: "The 9x18mm round, commonly know as the makarov, was designed in the Soviet Union after previous pistol cartridges were found lacking. Since then it has seen extensive use in eastern block nations. It is most commonly used for pistols and submachine guns."
+      STR_9MM_PARABELLUM_UFOPAEDIA: "The most popular handgun and submachine gun cartridge in the world. Designed in 1901, the popularity of the 9x19mm Parabellum has grown ever since. It is also the NATO standard pistol cartridge. Its name is derived from the latin saying Si vis pace, Para bellum (if you seek peace, prepare for war)"
+      STR_FN_57_UFOPAEDIA: "The FN 5.7x28mm cartridge was designed as a replacement to the 9mm parabellum cartridge, though it was never adopted as a NATO standard due to objections of some member nations. It has proven to be very effective against armor. The cartridge was designed alongside the FN P90 and FN Five-seveN, both of which use the round."
+      STR_45_ACP_UFOPAEDIA: "The .45 ACP (Automatic Colt Pistol) cartridge was designed for use in prototype Colt semi automatic pistols, and was later chosen to be used in the M1911. While having more stopping power, .45 ACP has generally seen less adoption than the 9x19mm cartridge due to being heavier, larger and more expensive."
+      STR_CASELESS_4_73_UFOPAEDIA: "Used in the G11, the most notable quality of the 4-73x33mm cartridge is that it is caseless, consisting only of a propellant, booster and the bullet itself. The lack of a case leads to a lesser weight and the elimination of the need to extract the case from the firearm after firing."
+      STR_5_45_UFOPAEDIA: "The 5.45x39mm served as the replacement for the 7.62x39mm cartridge in the soviet military. It followed the general trend of smaller light-weight cartridges being commonly adopted, due to to their better performance in automatic weapons."
+      STR_5_56_UFOPAEDIA: "Due to the criticism of the 7.62 NATO cartridges performance in automatic fire of a hand-held service rifle, the 5.56x45 NATO was selected as the second standard service rifle cartridge of NATO in 1980. While less powerful than the 7.62 cartridge, the 5.56 NATO makes up for it by being lighter and havin less recoil, making it easer to control when firing in a fully automatic mode."
+      STR_22_LONG_RIFLE_UFOPAEDIA: "The .22 Long Rifle is the most commonly sold ammunition in the world. Generally used for training or for hunting small game, it lacks the power to gurantee a lethal shot on larger animals. Despite this the .22 LR is still capable of killing humans if it hits vital organs."
+      STR_SOVIET_7_62_UFOPAEDIA: "7.62x39mm cartridges were developed during the second world war to be used in the new generation of soviet infantry weapons. Due to the widespread use of the AK-47, the 7.62 cartridge has been used by numerous armed forces worldwide."
+      STR_NATO_7_62_UFOPAEDIA: "The 7.62x51mm NATO was chosen as the first standard NATO rifle cartridge. Though it has been mostly supplanted by the NATO 5.56 cartridge, it is still commonly used in marksman and sniper rifles, due to its power."
+      STR_SOVIET_7_62_MMR_UFOPAEDIA: "One of the oldest, still-used military cartridges, The 7.62x54mmR was originally designed for the Mosin-Nagant rifle. While not commonly used in service rifles anymore, it is still used as a sniper rifle and machine gun cartridge."
+      STR_9_39_UFOPAEDIA: "The 9x39mm is a sub-sonic rifle cartridge developed for silenced weapons. It was designed with the intent to provide a more powerful alternative to pistol rounds that are more commonly used in silenced weapons."
+      STR_338_LAPUA_UFOPAEDIA: "Developed as a joint venture between British and Finnish rifle manufacturers to be a high power cartridge for military snipers. It can penetrate body armor even over the range of one kilometer."
+      STR_50_BMG_UFOPAEDIA: "The most powerful cartridge available for us. The .50 BMG was developed for the M2 Browning machine gun but has also been used in sniper and anti-materiel rifles. A single .50 BMG round is capable of penetrating brick walls or disavle a vehicle if fired into the engine block."
+      STR_12G_BUCKSHOT_UFOPAEDIA: "Buckshot rounds consists of shells packed with small lead pellets approximately 8mm in diameter, creating a lethal hail when fired. Due to the pellets spreading out the further they travel, the effective range of buckshot shells is only around 30-40 meters."
+      STR_12G_SLUG_UFOPAEDIA: "Shotgun slugs consist of a single solid projectile instead of multiple pellets like buckshot rounds, giving them more power and accuracy."
+      STR_12G_NON_LETHAL_UFOPAEDIA: "Meant to be used as a way to subdue targets, non-lethal rounds consist of rubber instead of lead. While considerably less lethal than buckshot, they can still kill someone if fired against a close or wounded targets. They also lose power faster than conventional shells."
+      STR_SHRAPNEL_25_UFOPAEDIA: "Buckshot round for the KS-23. It has an effective range of 25 meters."
+      STR_BARRICADE_UFOPAEDIA: "Powerful solid steel slug for the KS-23 shotgun. Powerful enough to destroy an engine block at the range of a 100 meters."
+      STR_VOLNA_R_UFOPAEDIA: "Non-Lethal rubber cartridge for the KS-23. "
+      STR_40MM_FRAG_UFOPAEDIA: "40mm fragmentation grenade designed to be fired from a grenade launcher."
+      STR_40MM_SMOKE_UFOPAEDIA: "40mm smoke grenade designed to be fired from a grenade launcher."
+      STR_40MM_NON_LETHAL_UFOPAEDIA: "40mm non-lethal bean bag round to be fired from a grenade launcher."
+      STR_CG_HEAT_UFOPAEDIA: "An explosive round for the Carl Gustaf recoilles rifle with the capability to take out armored vehicles."
+      STR_CG_HE_UFOPAEDIA: "A round containing a high-explosive warhead for the Carl Gustaf recoilles rifle, to be used against infantry or unarmored vehicles."
+      STR_RPG_HEAT_UFOPAEDIA: "While the HEAT round for the RPG-7 is outdated by modern standard, as it is neither self-homing nor powerful enough to defeat modern armor, it is still powerful enough to take out anything we can field."

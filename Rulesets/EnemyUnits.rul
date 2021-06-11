@@ -1,5 +1,6 @@
 items:
   - type: STR_TERRORIST_CORPSE
+    name: STR_CORPSE
     weight: 50
     bigSprite: 3050
     floorSprite: 3050
@@ -8,6 +9,7 @@ items:
     battleType: 11
     armor: 30
   - type: STR_GRUNT_CORPSE
+    name: STR_CORPSE
     weight: 50
     bigSprite: 3051
     floorSprite: 3051
@@ -16,6 +18,7 @@ items:
     battleType: 11
     armor: 30
   - type: STR_GASMASK_CORPSE
+    name: STR_CORPSE
     weight: 50
     bigSprite: 3052
     floorSprite: 3052
@@ -24,6 +27,7 @@ items:
     battleType: 11
     armor: 30
   - type: STR_GRENADIER_CORPSE
+    name: STR_CORPSE
     weight: 50
     bigSprite: 3053
     floorSprite: 3053
@@ -31,6 +35,17 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
+
+
+  - type: STR_PR_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3002
+    floorSprite: 3002
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+
 
   - type: STR_TERRORIST_COMMANDER
     liveAlien: true
@@ -271,6 +286,55 @@ armors:
       - 1.0
       - 1.0
     loftempsSet: [3]
+
+
+
+      
+  - type: STR_ENEMY_KEVLAR_NV
+    spriteSheet: BO.PCK
+    spriteInv: BOINV
+    loftempsSet: [ 3 ]
+    corpseBattle:
+     - STR_PR_CORPSE
+    frontArmor: 30
+    sideArmor: 10
+    rearArmor: 30
+    underArmor: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDark: 18
+    personalLight: 0
+    stats:
+      strength: -10
+      stamina: -15
+      tu: -5
+      bravery: 10
+
+  - type: STR_HEAVY_ENEMY
+    spriteSheet: ARMOR_RIOT.PCK
+    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    corpseBattle:
+     - STR_PR_CORPSE
+    loftempsSet: [ 3 ]
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 40
+    underArmor: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDay: 26
+    visibilityAtDark: 5
+    personalLight: 0
+    stats:
+      strength: -15
+      stamina: -20
+      firing: -5
+      tu: -10
+      bravery: 20
 units:
   - type: STR_TERRORIST_COMMANDER
     race: STR_TERRORISTS
@@ -486,7 +550,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 80
-    armor: STR_DEFAULT_KEVLAR_NV
+    armor: STR_ENEMY_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -511,7 +575,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 80
-    armor: STR_DEFAULT_KEVLAR_NV
+    armor: STR_ENEMY_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -536,7 +600,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_DEFAULT_KEVLAR_NV
+    armor: STR_ENEMY_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -561,7 +625,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_HEAVY
+    armor: STR_HEAVY_ENEMY
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -586,7 +650,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_DEFAULT_KEVLAR_NV
+    armor: STR_ENEMY_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -611,7 +675,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_DEFAULT_KEVLAR_NV
+    armor: STR_ENEMY_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -636,7 +700,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 60
-    armor: STR_DEFAULT_KEVLAR_NV
+    armor: STR_ENEMY_KEVLAR_NV
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -734,13 +798,9 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
-      STR_TERRORIST: Terrorists
-      STR_TERRORIST_SOLDIER: Terrorist Soldier
-      STR_TERRORIST_MEDIC: Terrorist Medic
-      STR_TERRORIST_GRENADIER: Terrorist Grenadier
-      STR_TERRORIST_LEADER: Terrorist Leader
-      STR_TERRORIST_COMMANDER: Terrorist Commander
-      STR_TERRORIST_MALE_CORPSE: Male Terrorist Corpse
-      STR_TERRORIST_FEMALE_CORPSE: Female Terrorist Corpse
-      STR_TERRORIST_GASMASK_CORPSE: Gasmask Terrorist Corpse
+      STR_TERRORIST_CORPSE: "Rifleman Corpse"
+      STR_GRUNT_CORPSE: "Grunt Corpse"
+      STR_GASMASK_CORPSE: "Raider Corpse"
+      STR_GRENADIER_CORPSE: "Grenadier Corpse"
+      STR_PR_CORPSE: "Guard Corpse"
 

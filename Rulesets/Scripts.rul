@@ -746,3 +746,4 @@ extraStrings:
       STR_ALREADY_SHOUTED: "Unit already shouted at"
       STR_JAMMED: "Weapon Jammed"
       STR_HANDCUFFS: "Handcuffs"
+      STR_SHOUT: "Shout"

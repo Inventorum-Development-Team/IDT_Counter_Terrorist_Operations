@@ -885,7 +885,7 @@ alienDeployments:
              - STR_5_56_X30
              - STR_5_56_X30
   - type: HOUSE_RAID_EAST_EU
-    width: 30
+    width: 50
     length: 30
     height: 10
     civilians: 0
@@ -1026,7 +1026,7 @@ alienDeployments:
              - STR_9_39_X20
              - STR_9_39_X20
   - type: HOUSE_RAID_USA
-    width: 30
+    width: 50
     length: 30
     height: 10
     civilians: 0
@@ -1166,7 +1166,7 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X20
              - STR_12G_BUCKSHOT_X8
   - type: HOUSE_RAID_WEST_EU
-    width: 30
+    width: 50
     length: 30
     height: 10
     civilians: 0
@@ -1720,7 +1720,7 @@ alienDeployments:
              - STR_5_56_X30
              - STR_5_56_X30
   - type: HOSTAGE_SITUATION_EAST_EU
-    width: 30
+    width: 50
     length: 30
     height: 10
     civilians: 10
@@ -1862,7 +1862,7 @@ alienDeployments:
              - STR_9_39_X20
              - STR_9_39_X20
   - type: HOSTAGE_SITUATION_USA
-    width: 30
+    width: 50
     length: 30
     height: 10
     civilians: 10
@@ -2003,7 +2003,7 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X20
              - STR_12G_BUCKSHOT_X8
   - type: HOSTAGE_SITUATION_WEST_EU
-    width: 30
+    width: 50
     length: 30
     height: 10
     civilians: 10
@@ -2794,7 +2794,7 @@ alienDeployments:
   - type: SKY_SCRAPER_EAST_EU
     width: 30
     length: 30
-    height: 10
+    height: 15
     civilians: 12
     despawnPenalty: 0
     terrains:
@@ -2866,7 +2866,7 @@ alienDeployments:
   - type: SKY_SCRAPER_USA
     width: 30
     length: 30
-    height: 10
+    height: 15
     civilians: 12
     despawnPenalty: 0
     terrains:
@@ -2934,9 +2934,9 @@ alienDeployments:
              - STR_5_56_X30
              - STR_5_56_X30
   - type: SKY_SCRAPER_WEST_EU
-    width: 40
-    length: 40
-    height: 10
+    width: 30
+    length: 30
+    height: 15
     civilians: 12
     despawnPenalty: 0
     terrains:

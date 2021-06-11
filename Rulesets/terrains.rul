@@ -104,6 +104,18 @@ terrains:
         groups: 4
       - name: LT_HOUSE_04G
         width: 20
-        length: 20
+        length: 30
         height: 6
         groups: 4
+
+   - name: LITTLEBIRD
+     mapDataSets:
+       - BLANKS
+       - LITTLE_BIRD
+       - ROPE
+     mapBlocks:
+      - name: LITTLE_BIRD
+        width: 10
+        length: 20
+        height: 5
+        revealedFloors: [0,1,2,3,4]

@@ -1294,3 +1294,5 @@ extraStrings:
        STR_HEAVY: "Heavy Vest"
        STR_HEAVY_NV: "Heavy Vest (NV)"
        STR_HEAVY_ADVNV: "Heavy Vest (ADVNV)"
+
+       STR_CORPSE: Corpse

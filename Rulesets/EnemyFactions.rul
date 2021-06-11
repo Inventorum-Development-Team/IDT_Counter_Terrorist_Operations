@@ -14,7 +14,7 @@ alienRaces:
 #alienRank: 2 - Engineer
 #alienRank: 1 - Leader
 #alienRank: 0 - Commander
-  - id: STR_TERRORIST
+  - id: STR_TERRORISTS
     members:
       - STR_TERRORIST_COMMANDER
       - STR_TERRORIST_LEADER
