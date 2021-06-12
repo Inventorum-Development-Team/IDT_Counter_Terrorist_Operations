@@ -3,9 +3,10 @@ items:
     specialIconSprite: 1
     battleType: 9
     weight: 0
-    tuUse: 30
     accuracyUse: 100
     psiAttackName: STR_SHOUT
+    costUse:     # <-- added this
+      time: 30
     costPanic:
       time: 0
     costMindControl:
