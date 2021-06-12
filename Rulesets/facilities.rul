@@ -1,6 +1,5 @@
 facilities:
 
-  - delete: STR_ACCESS_LIFT
   - delete: STR_SMALL_RADAR_SYSTEM
   - delete: STR_LARGE_RADAR_SYSTEM
   - delete: STR_MISSILE_DEFENSES
