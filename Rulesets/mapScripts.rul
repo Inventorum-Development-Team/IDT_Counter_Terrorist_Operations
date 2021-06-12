@@ -74,12 +74,13 @@ mapScripts:
     - type: addBlock
       size: [3,3,10]
       verticalLevels:
-       - type: ceiling
-         terrain: LITTLEBIRD
-         size: [1,2,5]
        - type: ground
-         size: [3,3,10]
+         size: [3,3,9]
          groups: 1
+       - type: middle
+         terrain: LITTLEBIRD
+         groups: 1
+         size: [3,3,5]
 
 
   - type: OFFICE

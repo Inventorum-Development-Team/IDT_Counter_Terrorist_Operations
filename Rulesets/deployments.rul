@@ -2794,7 +2794,7 @@ alienDeployments:
   - type: SKY_SCRAPER_EAST_EU
     width: 30
     length: 30
-    height: 16
+    height: 15
     civilians: 12
     despawnPenalty: 0
     terrains:
@@ -2805,6 +2805,9 @@ alienDeployments:
     alert: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     data:
        - alienRank: 7
          lowQty: 1
@@ -2866,7 +2869,7 @@ alienDeployments:
   - type: SKY_SCRAPER_USA
     width: 30
     length: 30
-    height: 16
+    height: 15
     civilians: 12
     despawnPenalty: 0
     terrains:
@@ -2877,6 +2880,9 @@ alienDeployments:
     alert: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     data:
        - alienRank: 7
          lowQty: 1
@@ -2936,7 +2942,7 @@ alienDeployments:
   - type: SKY_SCRAPER_WEST_EU
     width: 30
     length: 30
-    height: 16
+    height: 15
     civilians: 12
     despawnPenalty: 0
     terrains:
@@ -2947,6 +2953,9 @@ alienDeployments:
     alert: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     data:
        - alienRank: 7
          lowQty: 1
