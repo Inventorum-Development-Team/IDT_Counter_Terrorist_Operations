@@ -72,14 +72,14 @@ mapScripts:
   - type: SKYSCRAPER
     commands: 
     - type: addBlock
-      size: [3,3,10]
+      size: [3,3,20]
       verticalLevels:
        - type: ground
          size: [3,3,9]
          groups: 1
        - type: middle
          terrain: LITTLEBIRD
-         groups: 1
+         groups: 6
          size: [3,3,5]
 
 

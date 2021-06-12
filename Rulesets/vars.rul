@@ -17,10 +17,9 @@ pediaReplaceCraftFuelWithRangeType: 1
 maxViewDistance: 30
 noLOSAccuracyPenaltyGlobal: 50
 oneHandedPenaltyGlobal: 50
-enableCloseQuartersCombat: 1
-closeQuartersAccuracyGlobal: 60
 statisticalBulletConservation: true
 tuRecoveryWakeUpNewTurn: 50
+newBaseUnlockResearch: STR_UNOBTAINABLE
 ai:
    useDelayGrenade: 0
 surrenderMode: 3

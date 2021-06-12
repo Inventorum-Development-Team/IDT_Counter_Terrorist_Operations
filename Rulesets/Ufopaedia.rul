@@ -128,6 +128,159 @@ ufopaedia:
   - delete: STR_SUPPLY_SHIP
   
 
+  - id: STR_COALITION
+    type_id: 8
+    text: STR_COALITION_UFOPAEDIA
+    section: STR_REPORTS
+    listOrder: 10
+
+  - id: STR_TASK_FORCE
+    type_id: 8
+    text: STR_TASK_FORCE_UFOPAEDIA
+    section: STR_REPORTS
+    listOrder: 11
+
+  - id: STR_OBEJCTIVE
+    type_id: 8
+    text: STR_OBJECTIVE_UFOPAEDIA
+    section: STR_REPORTS
+    listOrder: 12
+
+  - id: STR_EQUIPMENT_ACQUISITION
+    type_id: 8
+    text: STR_EQUIPMENT_ACQUISITION_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_EQUIPMENT_ACQUISITION
+    listOrder: 13
+
+  - id: STR_INTELLIGENCE_GATHERING
+    type_id: 8
+    text: STR_INTELLIGENCE_GATHERING_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_INTELLIGENCE_GATHERING
+    listOrder: 14
+
+  - id: STR_HOUSE_LEAD_1
+    type_id: 8
+    text: STR_HOUSE_LEAD_1_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_HOUSE_LEAD_1
+    listOrder: 15
+
+  - id: STR_HOUSE_LEAD_2
+    type_id: 8
+    text: STR_HOUSE_LEAD_2_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_HOUSE_LEAD_2
+    listOrder: 16
+
+  - id: STR_HOUSE_LEAD_3
+    type_id: 8
+    text: STR_HOUSE_LEAD_3_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_HOUSE_LEAD_3
+    listOrder: 17
+
+  - id: STR_SAFE_HOUSE_RAIDS
+    type_id: 8
+    text: STR_SAFE_HOUSE_RAIDS_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_SAFE_HOUSE_RAIDS
+    listOrder: 18
+
+  - id: STR_HIDEOUT_LEAD_1
+    type_id: 8
+    text: STR_HIDEOUT_LEAD_1_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_HIDEOUT_LEAD_1
+    listOrder: 19
+
+  - id: STR_HIDEOUT_LEAD_2
+    type_id: 8
+    text: STR_HIDEOUT_LEAD_2_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_HIDEOUT_LEAD_2
+    listOrder: 20
+
+  - id: STR_HIDEOUT_LEAD_3
+    type_id: 8
+    text: STR_HIDEOUT_LEAD_3_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_HIDEOUT_LEAD_3
+    listOrder: 21
+
+  - id: STR_HIDEOUT_RAIDS
+    type_id: 8
+    text: STR_HIDEOUT_RAIDS_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_HIDEOUT_RAIDS
+    listOrder: 22
+
+  - id: STR_OFFICE_LEAD_1
+    type_id: 8
+    text: STR_OFFICE_LEAD_1_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_OFFICE_LEAD_1
+    listOrder: 23
+
+  - id: STR_OFFICE_LEAD_2
+    type_id: 8
+    text: STR_OFFICE_LEAD_2_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_OFFICE_LEAD_2
+    listOrder: 24
+
+  - id: STR_OFFICE_LEAD_3
+    type_id: 8
+    text: STR_OFFICE_LEAD_3_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_OFFICE_LEAD_3
+    listOrder: 25
+
+  - id: STR_OFFICE_RAIDS
+    type_id: 8
+    text: STR_OFFICE_RAIDS_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_OFFICE_RAIDS
+    listOrder: 26
+
+  - id: STR_SKYSCRAPER_LEAD_1
+    type_id: 8
+    text: STR_SKYSCRAPER_LEAD_1_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_SKYSCRAPER_LEAD_1
+    listOrder: 27
+
+  - id: STR_SKYSCRAPER_LEAD_2
+    type_id: 8
+    text: STR_SKYSCRAPER_LEAD_2_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_SKYSCRAPER_LEAD_2
+    listOrder: 28
+
+  - id: STR_SKYSCRAPER_RAID
+    type_id: 8
+    text: STR_SKYSCRAPER_RAID_UFOPAEDIA
+    section: STR_REPORTS
+    requires:
+     - STR_SKYSCRAPER_RAID
+    listOrder: 28
 
   - id: STR_P226
     type_id: 4
@@ -888,7 +1041,7 @@ ufopaedia:
 
   - id: STR_FLASHBANG_GRENADE
     type_id: 4
-    text: "..."
+    text: STR_FLASHBANG_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1102
 
@@ -906,13 +1059,13 @@ ufopaedia:
 
   - id: STR_RIOT_SHIELD
     type_id: 4
-    text: "..."
+    text: STR_RIOT_SHIELD_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1105
 
   - id: STR_HANDCUFFS
     type_id: 4
-    text: "..."
+    text: STR_HANDCUFFS_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1106
 
@@ -923,19 +1076,19 @@ ufopaedia:
 
   - id: STR_SCOPE
     type_id: 4
-    text: "..."
+    text: STR_SCOPE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1108
 
   - id: STR_SOPMOD_KIT
     type_id: 4
-    text: "..."
+    text: STR_SOPMOD_KIT_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1109
 
   - id: STR_M203
     type_id: 4
-    text: "..."
+    text: STR_M203_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1110
 
@@ -947,89 +1100,100 @@ ufopaedia:
 
   - id: STR_FN40GL
     type_id: 4
-    text: "..."
+    text: STR_FN40GL_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1112
 
   - id: STR_UBS
     type_id: 4
-    text: "..."
+    text: STR_UBS_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1113
 
   - id: STR_DEFAULT
     type_id: 5
-    text: "..."
+    text: STR_UNIFORM_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1200
 
   - id: STR_DEFAULT_BACKPACK
     type_id: 5
-    text: "..."
+    text: STR_BACKPACK_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1201
 
   - id: STR_DEFAULT_KEVLAR
     type_id: 5
-    text: "..."
+    text: STR_KEVLAR_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1202
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK
     type_id: 5
-    text: "..."
+    text: STR_KEVLAR_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1203
 
   - id: STR_DEFAULT_KEVLAR_NV
     type_id: 5
-    text: "..."
+    text: STR_NV_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1204
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK_NV
     type_id: 5
-    text: "..."
+    text: STR_NV_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1205
 
   - id: STR_DEFAULT_KEVLAR_ADVNV
     type_id: 5
-    text: "..."
+    text: STR_ADVNV_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1206
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
     type_id: 5
-    text: "..."
+    text: STR_ADVNV_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1207
 
   - id: STR_HEAVY
     type_id: 5
-    text: "..."
+    text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1208
 
   - id: STR_HEAVY_NV
     type_id: 5
-    text: "..."
+    text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1209
 
   - id: STR_HEAVY_ADVNV
     type_id: 5
-    text: "..."
+    text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
     listOrder: 1210
 
-
+  - id: STR_SHOUTING
+    type_id: 8
+    text: STR_SHOUT_UFOPAEDIA
+    section: STR_MANUAL
+    listOrder: 1300
+  
+  - id: STR_NON_LETHAL
+    type_id: 8
+    text: STR_NON_LETHAL_UFOPAEDIA
+    section: STR_MANUAL
+    listOrder: 1301
 
 
 extraStrings:
   - type: en-US
     strings:
 
+      STR_REPORTS: "Reports"
       STR_PISTOLS: "Pistols"
       STR_SMGS: "Submachine Guns"
       STR_RIFLES: "Rifles"
@@ -1039,6 +1203,7 @@ extraStrings:
       STR_ARTILLERY: "Heavy Weapons"
       STR_AMMO: "Ammunition"
       STR_EQUIPMENT: "Equipment"
+      STR_MANUAL: "Field Manual"
 
       STR_P226_UFOPAEDIA: "The SIG Sauer P226 is a service pistol used by militaries and police forces around the world. An Upgrade to the P220 model, with the main improvement consisting of the allowance of higher capacity magazines. Light and reliable, it serves as an excellent sidearm."
       STR_GLOCK_18_UFOPAEDIA: "The Glock 18 is the selective-fire variant of the Glock 17, capable of automatic fire. Originally developed at the request of the couter-terrorist unit EKO Cobra, it is now available to us. While not as accurate as other pistols available to us, the increased fire rate nakes up for this shortcoming."
@@ -1121,3 +1286,51 @@ extraStrings:
       STR_CG_HEAT_UFOPAEDIA: "An explosive round for the Carl Gustaf recoilles rifle with the capability to take out armored vehicles."
       STR_CG_HE_UFOPAEDIA: "A round containing a high-explosive warhead for the Carl Gustaf recoilles rifle, to be used against infantry or unarmored vehicles."
       STR_RPG_HEAT_UFOPAEDIA: "While the HEAT round for the RPG-7 is outdated by modern standard, as it is neither self-homing nor powerful enough to defeat modern armor, it is still powerful enough to take out anything we can field."
+
+
+      STR_SCOPE_UFOPAEDIA: "A telescopic sight capable of being attached onto a rifle, imroving long range accuracy while slightly inhibiting accuracy of automatic fire."
+      STR_SOPMOD_KIT_UFOPAEDIA: "The Special Operations Peculiar Moidification kit is a collection of accessories capable to e attached to the M4, SCAR, HK416 and other weapons used by US Special Forces Command. The kit contains scopes, supessors, and several foregrips to improve accuracy and ease handling."
+      STR_M203_UFOPAEDIA: "A single shot grenade laucnher introduced into the american military during the late Vietnam war. Originally designed to attach under the barrel of the M16 rifle, it has been adapted to fit into a multitude of other rifles."
+      STR_FN40GL_UFOPAEDIA: "The FN40GL is a 40mm grenade launcher that can be attached under the barrel of the FN SCAR rifle."
+      STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
+      
+      STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
+      STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
+      STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, using handcuffs will stun them."
+
+      STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
+      STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."
+      STR_KEVLAR_UFOPAEDIA: "Kevlar vests offer our troops protection against low-caliber firearms and increases their chance of survival. While a bit cumbersome, they also increase the confidence of our soldiers."
+      STR_NV_UFOPAEDIA: "Night vision equipment offers our troops an advantage against opponents during the night, granting them the ability to see twice the distance they would see without them in darkness."
+      STR_ADVNV_UFOPAEDIA: "Advanced nightvision improves the distance our troops can see during the night, while having built in thermal imaging that can help see trough smoke and spot units wearing camouflage."
+      STR_HEAVY_UFOPAEDIA: "Heavy vests offer even more protection than conventional vests, with a greater trade-off of mobility lost."
+
+      STR_SHOUTING: "Shouting"
+      STR_SHOUT_UFOPAEDIA: "Our soldiers are capable of shouting orders at civilians or enemy units. When targetting civilians the soldier will order the civilian to get on the ground, and if succesful the civilian will be stunned. If used on enemy units, their morale will be reduced. The effectiveness is determined by how outnumbered the enemy unit is. A unit cannot be successfully shouted at more than once per turn."
+      STR_NON_LETHAL: "Non-Lethal Weaponry"
+      STR_NON_LETHAL_UFOPAEDIA: "Non-lethal ammunition is a bit of a misnomer. While they are designed to not cause lethal injories, a poorly placed shot or one fired at a close range can be fatal. Non-lethal ammunition generally uses blunt force from rubber or sponge bullets to incapacitate their target. It is generally used in situations where conventional weaponry is deemed as too excessive, like riot control."
+      
+      STR_COALITION: "The Coalition"
+      STR_TASK_FORCE: "Task Forces"
+      STR_OBEJCTIVE: "The Objective"
+
+      STR_EQUIPMENT_ACQUISITION_UFOPAEDIA: "The council has set stringent rules upon us regarding the acquisition of new equipment and weaponry. Any request must go trough council bureaucracy to be approved, a process that can take multiple days. This also severely limits the selection of weapons we can even try to acquire, as council members are unlikely to grant us weapons that aren't from council approved manufacturers, and are unlikely to grant any weapons that could cause political issues, such as explosives or gas before we've had any operational success. "
+      STR_COALITION_UFOPAEDIA: "The International Counter-Terrorism Coalition, or the Coalition for short, is an international organisation formed to combat various terrorist organisations and similar threats. It is headed by the council, formed by a representative from each funding nation. To achieve it's aims the Coalition creates task forces with authority to operate in each of the coalition nations and a multitude of other nations that have granted the Coalition authority."
+      STR_TASK_FORCE_UFOPAEDIA: "Coalition Task Forces consist of a tactical unit, a intelligence department and various supporting elements that forms a small but effecitve unit capable of rapidly reacting against any threat, and to find and neutralize potential ones. Working in tandem with various national security forces, the Task Force works as a spearhead against the threat, while leaving minor operations to be dealt by local forces. Task Forces can cross most national borders without delay, giving the Task force an advantage when combating international terrorist organisations."
+      STR_OBJECTIVE_UFOPAEDIA: "Our opponents are a collection of differnet separatist and political terrorist cells with a wide range of goals. Initially appearing independent, various intelligence agencies have found that they have been linking together into a large network at an alarming rate during recent years. This revelation has led the Coalition to assign a task force to deal with the emerging threat and to find out the cause of the sudden cooperation."
+      STR_INTELLIGENCE_GATHERING_UFOPAEDIA: "The council has not only tasked us with responding to terrorist attacks but to also lead investigations into the perpetrators and the terrorist organisations behind the attacks. Our best approach is to interrogate captured perpetrators to try to track down locations where the attacks are planned and prepared for. To complete this objective the council has given us to take custody of perpetrators and interrogate them before handing them over to the appropriate justice system."
+      STR_HOUSE_LEAD_1_UFOPAEDIA: "Suspect testimony has revealed information of safehouses used as staging points to attacks. These safehouses are usually large residental houses in which a group dwells in while preparing. The houses are usually only occupied for a short while to not garner too much attention before the terrorist group is ready to act, after which the house is either sold or left empty for another group to occupy."
+      STR_HOUSE_LEAD_2_UFOPAEDIA: "Our intelligence department has looked into the suspects identified by a recent interrigation and found out that they own property near locations of recent terrorist activity. They suspect these properites are used in illicit activities and recommend that they be put under surveilance to confirm or absolve these suspicions."
+      STR_HOUSE_LEAD_3_UFOPAEDIA: "Our intelligence officers have managed to access the phone of a suspect in custody, and identified several numbers saved in it as known terrorist suspects. Leveraging this information, the intelligence department has managed to track the movement of several suspects, which has led us to be able to flag multiple locations as potential safehouses."
+      STR_SAFE_HOUSE_RAIDS_UFOPAEDIA: "We've managed to identify multiple residental buildings as terrorist safehouses. Local forces have started preparations for raids against these locations. We will be notified once a strike is possible."
+      STR_HIDEOUT_LEAD_1_UFOPAEDIA: "A suspect has offered to give up information in exchange for a reduced sentence. They described and offered approximate locations of hideouts used as major gathering points for terroists cells. Most of these locations are found within industrial regions and are often either a major base of operations or the HQ of a cell. They've also revealed that leaders of the terrorist cells often reside within these hideouts."
+      STR_HIDEOUT_LEAD_2_UFOPAEDIA: "A suspect has offered up the identities of several of their associates. Instead of arresting them our intelligence officers have decided to shadow them to gather intelligence about potential safehouses and hideouts. They've managed to mark multiple locations however the officers didn't get closer to gather more intelligence in fear of being spotted."
+      STR_HIDEOUT_LEAD_3_UFOPAEDIA: "Documents found in a safehouse reveal links to several properties in industrial areas. Investigators sent to these locations have found traces of terrorist cells. Further investigations of these locations have to be undertaken before a raid can be done."
+      STR_HIDEOUT_RAIDS_UFOPAEDIA: "Our intelligence department has managed to identify several locations serving as the hideouts for terrorist cells. Almost all of these locations seem to be located in industrial districts, where little attention seems to be paid to them. Local forces have started preparations for a raid, and we will be notified once one will be possible."
+      STR_OFFICE_LEAD_1_UFOPAEDIA: "The Terrorist commander we've apprehended seems to have worked previously for a private arms manufacturer until seemingly quitting without explanation. Investigations have also revealed that the commander has been in recent contact with their former superiors. Our intelligence department has deemed these links worth investigating further."
+      STR_OFFICE_LEAD_2_UFOPAEDIA: "While most of the weapons recovered from the hideout seem to have their serial numbers scrathced out, however most of the weapons with surviving serial numbers have been found to originate from the same private arms manufacturer, and upon further investigation some of them don't seem to have been ever sold. Our intelligence department have started to prepare further investigations into the company."
+      STR_OFFICE_LEAD_3_UFOPAEDIA: "Upon further investigation, several of the properties raided have been previosly owned by a private arms manufacturer before being sold to individuals during recent years for below market rates. Our intelligence department has also discovered that most of these properties were directly or through a middleman then sold to people now marked as members of terrorsit rganisations."
+      STR_OFFICE_RAIDS_UFOPAEDIA: "Our intelligence department has now provided enough evidence of the involvment of a private arms manufacture in the recent terrorist attacks for the council to approve actions against them. We've been authorized to conduct raids against several offices of the company. However it seems these locations are protected by a private security company who will most likely intervene in any attempted raid, so heavy resistance is expected."
+      STR_SKYSCRAPER_LEAD_1_UFOPAEDIA: "The evidence we recovered isn't enough to fully shut down the company we are after, however documents found in the offices have created a paper trail towards a possible location serving as a unofficial headquarters of their illegitemate operations. Our intelligence department has started to try and confirm the veracity of this lead."
+      STR_SKYSCRAPER_LEAD_2_UFOPAEDIA: "Interrogations of arrested members of the private security firm point towards a location where an unusally large amount of employees are deployed. We suspect this location must be of great importance and therefore our intelligence officers have started to try and locate it."
+      STR_SKYSCRAPER_RAID_UFOPAEDIA: "We've located what is believed to be the nerve center for the shell company behind this conspiracy, a office complex at the top of a skyscraper. Seizing it would not only serve siginificant blow to their oerations but also provide a treasure trove of evidence. THe operation will be the largest one we've undertaken, and will consist of two teams. One will be deployed on the roof while the other will approach from the bottom to cut of any escape."

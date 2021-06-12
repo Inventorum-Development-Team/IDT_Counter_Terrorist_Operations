@@ -111,6 +111,7 @@ terrains:
 
    - name: LITTLEBIRD
      mapDataSets:
+       - blanks
        - LITTLE_BIRD
        - ROPE
      mapBlocks:
@@ -118,5 +119,5 @@ terrains:
         width: 30
         length: 30
         height: 5
-        groups: 1
+        groups: 6
         revealedFloors: [0,1,2,3,4]

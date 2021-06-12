@@ -137,6 +137,11 @@ research:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
+ 
+  - name: STR_UNOBTAINABLE
+    needItem: true
+    cost: 50
+
   - name: STR_EQUIPMENT_ACQUISITION
     cost: 30
 
