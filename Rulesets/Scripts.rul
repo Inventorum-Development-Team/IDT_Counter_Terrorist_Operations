@@ -13,7 +13,12 @@ items:
       time: 0
     recover: false
     damageType: 1
-    power: 1
+    power: 100 
+    damageAlter: 
+     ToStun: 0
+     ToHealth: 0
+     ToArmor: 0
+     ToWound: 0
     fixedWeapon: true
     hitAnimation: -1
     maxRange: 15
