@@ -1374,7 +1374,7 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_PARABELLUM_X20, STR_9MM_PARABELLUM_X30 ]
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X10,STR_9MM_PARABELLUM_X20, STR_9MM_PARABELLUM_X30 ]
         tuLoad: 20
         tuUnload: 10
     listOrder: 21590
@@ -4537,7 +4537,7 @@ extraSprites:
       2144: Resources/BallisticWeapons/Snipers/BigAWPnomag.png
       2152: Resources/BallisticWeapons/Snipers/BigAWP.png
       2160: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
-      2168: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
+      2168: Resources/BallisticWeapons/Pistols/BigGlock18.png
       2176: Resources/BallisticWeapons/Pistols/BigGlock18.png
       2184: Resources/BallisticWeapons/Pistols/BigGlock1830.png
       2192: Resources/BallisticWeapons/Pistols/BigFiveSevennomag.png
