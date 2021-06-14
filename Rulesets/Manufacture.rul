@@ -625,7 +625,44 @@ manufacture:
      STR_DEFAULT_BACKPACK: 1
     refund: true
 
+  - name: STR_HEAVY_NV
+    time: 10
+    requires:
+     - STR_NIGHT_VISION
+    requiredItems:
+     STR_HEAVY: 1
+     STR_NV: 1
+    refund: true
+    
+  - name: STR_HEAVY_NV_REMOVAL
+    time: 10
+    requires:
+     - STR_NIGHT_VISION
+    requiredItems:
+     STR_HEAVY_NV: 1
+    producedItems:
+     STR_HEAVY: 1
+     STR_NV: 1
+    refund: true
 
+  - name: STR_HEAVY_ADVNV
+    time: 10
+    requires:
+     - STR_ADV_NIGHTVISION
+    requiredItems:
+     STR_HEAVY: 1
+     STR_ADVNV: 1
+    refund: true
+    
+  - name: STR_HEAVY_ADVNV_REMOVAL
+    time: 10
+    requires:
+     - STR_ADV_NIGHTVISION
+    requiredItems:
+     STR_HEAVY_ADVNV: 1
+    producedItems:
+     STR_HEAVY: 1
+     STR_ADVNV: 1
 
 extraStrings:
   - type: en-US
@@ -662,6 +699,8 @@ extraStrings:
       STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL: "(Kevlar, NV, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Nightvision"
       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL: "(Kevlar, ADVNV, BP): Remove Backpack"
+      STR_HEAVY_NV_REMOVAL: "(Heavy Vest, NV): Remove Nightvision"
+      STR_HEAVY_ADVNV_REMOVAL: "(Heavy Vest, ADVNV): Remove Adv. Nightvision"
 
 
 
