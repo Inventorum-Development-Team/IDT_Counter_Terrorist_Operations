@@ -629,6 +629,7 @@ manufacture:
     time: 10
     requires:
      - STR_NIGHT_VISION
+     - STR_HEAVY_VEST_ACQUISITION
     requiredItems:
      STR_HEAVY: 1
      STR_NV: 1
@@ -638,6 +639,7 @@ manufacture:
     time: 10
     requires:
      - STR_NIGHT_VISION
+     - STR_HEAVY_VEST_ACQUISITION
     requiredItems:
      STR_HEAVY_NV: 1
     producedItems:
@@ -649,6 +651,7 @@ manufacture:
     time: 10
     requires:
      - STR_ADV_NIGHTVISION
+     - STR_HEAVY_VEST_ACQUISITION
     requiredItems:
      STR_HEAVY: 1
      STR_ADVNV: 1
@@ -658,6 +661,7 @@ manufacture:
     time: 10
     requires:
      - STR_ADV_NIGHTVISION
+     - STR_HEAVY_VEST_ACQUISITION
     requiredItems:
      STR_HEAVY_ADVNV: 1
     producedItems:
