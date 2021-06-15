@@ -52,6 +52,41 @@ items:
   - delete: STR_HOVERTANK_LAUNCHER
   - delete: STR_TANK_LASER_CANNON
 
+
+  - &STR_PISTOL 
+    type: STR_PISTOL
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 10
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     ToWound: 0.5
+     RandomType: 6
+
+  - &STR_AUTO_PISTOL 
+    type: STR_AUTO_PISTOL
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 10
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     ToWound: 0.5
+     RandomType: 6
+
   - &STR_SMG
     type: STR_SMG
     confAuto:
@@ -64,6 +99,7 @@ items:
       name: STR_BURST
       ammoSlot: 0
       arcing: false
+
   - &STR_AR
     type: STR_AR
     confAuto:
@@ -76,6 +112,16 @@ items:
       name: STR_BURST
       ammoSlot: 0
       arcing: false
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     ToWound: 0.5
+     RandomType: 6
+     
   - &STR_LMG
     type: STR_LMG
     confAuto:
@@ -88,6 +134,7 @@ items:
       name: STR_BURST
       ammoSlot: 0
       arcing: false
+
 
   - &STR_MAKAROV_AMMO
     type: STR_MAKAROV_AMMO
@@ -1328,7 +1375,7 @@ items:
     snapRange: 7
     autoRange: 5
     kneelBonus: 100
-    #    refNode:
+    refNode: *STR_PISTOL
     tuAimed: 45
     tuSnap: 20
     tuAuto: 60
@@ -1366,7 +1413,7 @@ items:
     snapRange: 8
     autoRange: 4
     kneelBonus: 100
-    refNode: *STR_AR
+    refNode: *STR_AUTO_PISTOL
     tuAimed: 45
     tuSnap: 15
     tuAuto: 40
@@ -1404,7 +1451,7 @@ items:
     snapRange: 8
     autoRange: 4
     kneelBonus: 100
-    #    refNode: 
+    refNode: *STR_PISTOL
     tuAimed: 60
     tuSnap: 30
     tuAuto: 70
@@ -1442,7 +1489,7 @@ items:
     snapRange: 10
     autoRange: 6
     kneelBonus: 100
-    #    refNode:
+    refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 25
     tuAuto: 65
@@ -1477,7 +1524,7 @@ items:
     snapRange: 7
     autoRange: 5
     kneelBonus: 100
-    #    refNode:
+    refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 20
     tuAuto: 60
@@ -1515,7 +1562,7 @@ items:
     snapRange: 8
     autoRange: 5
     kneelBonus: 100
-    #    refNode:
+    refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 20
     tuAuto: 60
@@ -1963,6 +2010,14 @@ items:
     tuAuto: 55
     invWidth: 1
     invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -1997,6 +2052,14 @@ items:
     tuAuto: 52
     invWidth: 1
     invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -2041,6 +2104,14 @@ items:
     tuAuto: 65
     invWidth: 1
     invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -2095,6 +2166,14 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 80
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -2140,6 +2219,14 @@ items:
     tuAuto: 65
     invWidth: 1
     invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -2178,6 +2265,14 @@ items:
     tuAuto: 62
     invWidth: 1
     invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -2222,6 +2317,14 @@ items:
     tuAuto: 65
     invWidth: 1
     invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -2277,6 +2380,14 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 80
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
