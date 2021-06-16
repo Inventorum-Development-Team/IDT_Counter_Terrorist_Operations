@@ -3050,6 +3050,10 @@ extraStrings:
       STR_OFFICE_RAID: "Office Raid"
       STR_SKYSCRAPER_RAID: "Skyscraper Raid"
 
+      STR_HOUSE_EVIDENCE: "Safehouse Evidence"
+      STR_HIDEOUT_EVIDENCE: "Hideout Evidence"
+      STR_OFFICE_EVIDENCE: "Office Evidence"
+
       STR_TERROR_ATTACK_BRIEFING: "Local police have alerted us to an ongoing terror attack. The Area has been cordoned off and while local police has skirmished against the perpetraotrs, multiple hostiles still remain. Civilian evacuation efforts are ongoing, but some civilians might still remain in the area of operations."
       STR_PLANE_HIJACKING_BRIEFING: "Goverment entities have called us to deal with a plane hijacking. While negotiations with the perpetrators are ongoing, a peaceful resolution has been judged unlikely to happen and an assault has been ordered. Our Assault team will be approaching along the runway, trying to utilize the planes blindspots to get as close as possible while undetected. There are civilians inside the plane, so extreme care must be taken to avoid them getting hit in the crossfire."
       STR_HOUSE_RAID_BRIEFING: "Our Intelligence division has located a locale suspected to be used as a safehouse for a local terrorist cell and confirmed the presence of known suspects and their accomplishes. A raid of the building has been authorized. Weapons have been confirmed to be on the property so resistance is expected. The nearby area has been covertly cordoned of so no civilians will be in the area of operations."
