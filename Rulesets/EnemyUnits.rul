@@ -8,6 +8,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
+    recoverCorpse: false
   - type: STR_GRUNT_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -17,6 +18,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
+    recoverCorpse: false
   - type: STR_GASMASK_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -26,6 +28,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
+    recoverCorpse: false
   - type: STR_GRENADIER_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -35,6 +38,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
+    recoverCorpse: false
 
 
   - type: STR_PR_CORPSE
@@ -44,7 +48,9 @@ items:
     floorSprite: 3002
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 30
+    recoverCorpse: false
 
 
   - type: STR_TERRORIST_COMMANDER
@@ -803,4 +809,21 @@ extraStrings:
       STR_GASMASK_CORPSE: "Raider Corpse"
       STR_GRENADIER_CORPSE: "Grenadier Corpse"
       STR_PR_CORPSE: "Guard Corpse"
+
+      STR_TERRORIST_GRENADIER: "Terrorist Grenadier"
+      STR_TERRORIST_SNIPER: "Terrorist Sniper"
+      STR_TERRORIST_SAW: "Terrorist Gunner"
+      STR_TERRORIST_RIFLEMAN: "Terrorist Rifleman"
+      STR_TERRORIST_RAIDER: "Terrorist Raider"
+      STR_TERRORIST_GRUNT: "Terrorist Grunt"
+      STR_TERRORIST_COMMANDER: "Terrorist Commander"
+      STR_TERRORIST_LEADER: "Terrorist Leader"
+
+      STR_PR_GRUNT: "Guard Grunt"
+      STR_PR_HEAVY: "Guard Heavy"
+      STR_PR_SHIELD: "Guard Pointman"
+      STR_PR_SAW: "Guard Gunner"
+      STR_PR_SNIPER: "Guard Sniper"
+      STR_PR_LEADER: "Guard Leader"
+      STR_PR_RIFLEMAN: "Guard Rifleman"
 
