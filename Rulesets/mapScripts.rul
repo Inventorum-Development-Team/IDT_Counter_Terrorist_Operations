@@ -99,7 +99,6 @@ mapScripts:
        conditionals: [-2]
      - type: addCraft
        terrain: COMRCURBAN
-       groups: [0,5]
      - type: fillArea
        terrain: COMRCURBAN
        groups: [0,5]
