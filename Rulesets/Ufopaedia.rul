@@ -1186,7 +1186,13 @@ ufopaedia:
     type_id: 8
     text: STR_NON_LETHAL_UFOPAEDIA
     section: STR_MANUAL
-    listOrder: 1301
+    listOrder: 1301  
+
+  - id: STR_MELEE_ATTACKS
+    type_id: 8
+    text: STR_MELEE_ATTACKS_UFOPAEDIA
+    section: STR_MANUAL
+    listOrder: 1302
 
 
 extraStrings:
@@ -1309,6 +1315,8 @@ extraStrings:
       STR_SHOUT_UFOPAEDIA: "Our soldiers are capable of shouting orders at civilians or enemy units. When targetting civilians the soldier will order the civilian to get on the ground, and if succesful the civilian will be stunned. If used on enemy units, their morale will be reduced. The effectiveness is determined by how outnumbered the enemy unit is. A unit cannot be successfully shouted at more than once per turn."
       STR_NON_LETHAL: "Non-Lethal Weaponry"
       STR_NON_LETHAL_UFOPAEDIA: "Non-lethal ammunition is a bit of a misnomer. While they are designed to not cause lethal injories, a poorly placed shot or one fired at a close range can be fatal. Non-lethal ammunition generally uses blunt force from rubber or sponge bullets to incapacitate their target. It is generally used in situations where conventional weaponry is deemed as too excessive, like riot control."
+      STR_MELEE_ATTACKS: "Melee Attacks"
+      STR_MELEE_ATTACKS_UFOPAEDIA: "Our Troops may use their pistols or the butts of their rifles to strike a target to attempt to subdue them if other means are not suitable in the situation. Care should be used when using this tactic, as these attacks can wound or even kill the target."
       
       STR_COALITION: "The Coalition"
       STR_TASK_FORCE: "Task Forces"
@@ -1333,4 +1341,4 @@ extraStrings:
       STR_OFFICE_RAIDS_UFOPAEDIA: "Our intelligence department has now provided enough evidence of the involvment of a private arms manufacture in the recent terrorist attacks for the council to approve actions against them. We've been authorized to conduct raids against several offices of the company. However it seems these locations are protected by a private security company who will most likely intervene in any attempted raid, so heavy resistance is expected."
       STR_SKYSCRAPER_LEAD_1_UFOPAEDIA: "The evidence we recovered isn't enough to fully shut down the company we are after, however documents found in the offices have created a paper trail towards a possible location serving as a unofficial headquarters of their illegitemate operations. Our intelligence department has started to try and confirm the veracity of this lead."
       STR_SKYSCRAPER_LEAD_2_UFOPAEDIA: "Interrogations of arrested members of the private security firm point towards a location where an unusally large amount of employees are deployed. We suspect this location must be of great importance and therefore our intelligence officers have started to try and locate it."
-      STR_SKYSCRAPER_RAID_UFOPAEDIA: "We've located what is believed to be the nerve center for the shell company behind this conspiracy, a office complex at the top of a skyscraper. Seizing it would not only serve siginificant blow to their oerations but also provide a treasure trove of evidence. THe operation will be the largest one we've undertaken, and will consist of two teams. One will be deployed on the roof while the other will approach from the bottom to cut of any escape."
+      STR_SKYSCRAPER_RAID_UFOPAEDIA: "We've located what is believed to be the nerve center for the shell company behind this conspiracy, a office complex at the top of a skyscraper. Seizing it would not only serve siginificant blow to their operations but also provide a treasure trove of evidence. The operation will be the largest one we've undertaken, and will consist of two teams. One will be deployed on the roof while the other will approach from the bottom to cut of any escape."
