@@ -8,7 +8,6 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recoverCorpse: false
   - type: STR_GRUNT_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -18,7 +17,6 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recoverCorpse: false
   - type: STR_GASMASK_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -28,7 +26,6 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recoverCorpse: false
   - type: STR_GRENADIER_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -38,7 +35,6 @@ items:
     invHeight: 3
     battleType: 11
     armor: 30
-    recoverCorpse: false
 
 
   - type: STR_PR_CORPSE
@@ -49,7 +45,6 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 30
-    recoverCorpse: false
 
 
   - type: STR_TERRORIST_COMMANDER
