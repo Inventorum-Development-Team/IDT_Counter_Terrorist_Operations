@@ -359,7 +359,7 @@ items:
 
   - &STR_12G_NON_LETHAL
     type: STR_12G_NON_LETHAL
-    power: 20
+    power: 10
     shotgunPellets: 10
     shotgunSpread: 100
     hitSound: 22
@@ -368,11 +368,11 @@ items:
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
-    powerRangeReduction: 2
+    powerRangeReduction: 1
     damageAlter:
       RandomType: 1
       IgnoreOverKill: true
-      ToStun: 3.0
+      ToStun: 4.0
       ToWound: 0
 
   - &STR_SHRAPNEL_25
@@ -403,7 +403,7 @@ items:
 
   - &STR_VOLNA_R
     type: STR_VOLNA_R
-    power: 20
+    power: 10
     shotgunPellets: 20
     shotgunSpread: 100
     hitSound: 22
@@ -412,11 +412,11 @@ items:
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
-    powerRangeReduction: 2
+    powerRangeReduction: 1
     damageAlter:
       RandomType: 1
       IgnoreOverKill: true
-      ToStun: 3.0
+      ToStun: 4.0
       ToWound: 0
 
   - &STR_40MM_FRAG
