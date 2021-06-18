@@ -1405,7 +1405,7 @@ items:
     refNode: *STR_PISTOL
     tuAimed: 45
     tuSnap: 20
-    tuAuto: 60
+    tuAuto: 50
     invWidth: 1
     invHeight: 2
     ammo:
@@ -1759,7 +1759,7 @@ items:
     tuSnap: 25
     tuAuto: 40
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     ammo:
       0:
         compatibleAmmo: [ STR_FN_57_X50 ]
