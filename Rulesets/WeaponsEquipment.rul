@@ -3900,7 +3900,7 @@ items:
     categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
     #    requiresBuy:
     size: 1
-    weight: 72
+    weight: 65
     battleType: 1
     bigSprite: 2248
     floorSprite: 2248
