@@ -3,7 +3,7 @@ items:
     specialIconSprite: 1
     battleType: 9
     weight: 0
-    accuracyUse: 100
+    accuracyUse: 1000
     psiAttackName: STR_SHOUT
     costUse:     # <-- added this
       time: 30
