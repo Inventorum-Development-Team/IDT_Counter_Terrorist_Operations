@@ -1967,8 +1967,8 @@ items:
     fireSound: 4
     costBuy: 6000
     costSell: 3000
-    accuracyAimed: 50
-    accuracySnap: 30
+    accuracyAimed: 70
+    accuracySnap: 45
     accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
