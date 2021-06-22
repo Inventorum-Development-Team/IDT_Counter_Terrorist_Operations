@@ -2041,8 +2041,8 @@ items:
     floorSprite: 3376
     handSprite: 3376
     fireSound: 4
-    costBuy: 10000
-    costSell: 5000
+    costBuy: 12500
+    costSell: 6250
     accuracyAimed: 35 
     accuracySnap: 35
     accuracyAuto: 20
