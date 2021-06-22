@@ -194,6 +194,11 @@ research:
     dependencies:
      - STR_SHOTGUN_ACQUISITION
 
+  - name: STR_TASER_ACQUISITION
+    cost: 30
+    dependencies:
+     - STR_PISTOL_ACQUISITION
+     
   - name: STR_P226_ACQUISITION
     cost: 30
     dependencies:
