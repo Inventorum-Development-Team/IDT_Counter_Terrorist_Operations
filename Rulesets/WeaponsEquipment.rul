@@ -5074,8 +5074,8 @@ items:
     refNode: *STR_LMG
     tuSnap: 40
     tuAuto: 60
-    invWidth: 45
-    invHeight: 22
+    invWidth: 2
+    invHeight: 3
     ammo:
         0:
          compatibleAmmo: [STR_5_56_X50,STR_5_56_X100,STR_5_56_X30]
