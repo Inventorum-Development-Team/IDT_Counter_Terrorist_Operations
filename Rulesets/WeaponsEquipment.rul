@@ -5646,10 +5646,14 @@ items:
     costBuy: 60
     costSell: 40
     weight: 3
-    bigSprite: 55
-    floorSprite: 72
+    bigSprite: 2564
+    floorSprite: 2564
+    handSprite: 2564
     power: 15
+    tuPrime: 15
     battleType: 10
+    primeActionName: STR_PRIME_FLARE
+    fuseType: -2
     armor: 8
 
 extraSprites:
@@ -5924,6 +5928,8 @@ extraSprites:
       2540: Resources/BallisticWeapons/Explosives/BigMolotov.png
       #      2548: Resources/BallisticWeapons/Explosives/BigMolotovprimed.png
       2556: Resources/BallisticWeapons/Explosives/BigImpactGrenade.png
+      2564: Resources/BallisticWeapons/Equipment/BigFlare.png
+      2572: Resources/BallisticWeapons/Equipment/BigFlarelit.png
       2800: Resources/BallisticWeapons/WeaponMods/BigColtScopeAccessory.png
       2808: Resources/BallisticWeapons/WeaponMods/BigFN40GL.png
       2816: Resources/BallisticWeapons/WeaponMods/BigM203Accessory.png
@@ -6286,6 +6292,8 @@ extraSprites:
       2532: Resources/BallisticWeapons/Explosives/FloorSmokeGrenade.png
       2540: Resources/BallisticWeapons/Explosives/FloorMolotov.png
   #      2548: Resources/BallisticWeapons/Explosives/FloorMolotov.png
+      2564: Resources/BallisticWeapons/Equipment/FloorFlare.png
+      2572: Resources/BallisticWeapons/Equipment/FloorFlarelit.png
       3200: Resources/BallisticWeapons/Ammo/Floor.png
       3208: Resources/BallisticWeapons/Ammo/Floor.png
       3216: Resources/BallisticWeapons/Ammo/Floor.png
@@ -6644,6 +6652,8 @@ extraSprites:
       2532: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
       2540: Resources/BallisticWeapons/Explosives/HandMolotov.png
   #      2548: Resources/BallisticWeapons/Explosives/HandMolotov.png
+      2564: Resources/BallisticWeapons/Equipment/HandFlare.png
+      2572: Resources/BallisticWeapons/Equipment/HandFlare.png
       3200: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3208: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3216: Resources/BallisticWeapons/Ammo/HandAmmo.png
@@ -6952,3 +6962,5 @@ extraStrings:
       STR_SMOKE_GRENADE: "M18 Smoke Grenade"
       STR_FLASHBANG_GRENADE: "M84 Flashbang Grenade"
       STR_MOLOTOV: "Molotov Cocktail"
+      STR_ELECTRO_FLARE: "Flare"
+      STR_PRIME_FLARE: "Light Flare"

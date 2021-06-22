@@ -465,6 +465,10 @@ items:
     tags:
      FlashBang: 1
   
+  - type: STR_ELECTRO_FLARE #ignoreDuplicate
+    tags:
+      STRIKE: 1
+
 extended:
   tags:
     BattleUnit:
@@ -482,6 +486,7 @@ extended:
       UBS: int
       Shield: int
       FlashBang: int
+      STRIKE: int
 #      FlashAmmo: int
 #      JammChance: int
     BattleGame:
@@ -825,6 +830,16 @@ extended:
            end;
           return sprite_index; 
 
+       - offset: 1 # Air Strike Smoke sprite Script
+         code: |
+          var int x;
+          var int y;
+          BattleItem.getTag item x Tag.STRIKE;
+          BattleItem.isFuseEnabled item y;
+          if and eq x 1 eq y 1;
+            add sprite_index 8;
+          end;
+          return sprite_index;
 extraStrings:
   - type: en-US
     strings:
