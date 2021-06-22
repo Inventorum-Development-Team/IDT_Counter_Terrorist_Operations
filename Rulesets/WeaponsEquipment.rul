@@ -4217,9 +4217,9 @@ items:
     autoRange: 11
     kneelBonus: 125
     refNode: *STR_AR
-    tuAimed: 75
-    tuSnap: 50
-    tuAuto: 60
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 40
     invWidth: 1
     invHeight: 3
     ammo:
