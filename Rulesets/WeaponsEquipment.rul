@@ -2374,7 +2374,7 @@ items:
     refNode: *STR_SMG
     tuAimed: 25
     tuSnap: 20
-    tuAuto: 35
+    tuAuto: 40
     invWidth: 1
     invHeight: 3
     ammo:
