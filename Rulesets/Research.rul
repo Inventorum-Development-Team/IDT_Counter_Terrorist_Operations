@@ -682,6 +682,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -692,6 +693,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -702,6 +704,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -712,6 +715,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -722,6 +726,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -732,6 +737,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -742,6 +748,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_HIDEOUT_LEAD_1
      - STR_HIDEOUT_LEAD_2
@@ -751,6 +758,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_OFFICE_LEAD_1
 
@@ -773,6 +781,7 @@ research:
   - name: STR_HOUSE_EVIDENCE
     cost: 50
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HIDEOUT_LEAD_3
 
@@ -806,6 +815,7 @@ research:
   - name: STR_HIDEOUT_EVIDENCE
     cost: 50
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_OFFICE_LEAD_2
      - STR_OFFICE_LEAD_3
@@ -829,6 +839,7 @@ research:
   - name: STR_OFFICE_EVIDENCE
     cost: 50
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_SKYSCRAPER_LEAD_1
 
@@ -837,6 +848,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -847,6 +859,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -857,6 +870,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -867,6 +881,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -877,6 +892,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -887,6 +903,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -897,6 +914,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_SKYSCRAPER_LEAD_2
 
