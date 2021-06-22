@@ -623,7 +623,7 @@ extended:
               end;
             if eq faction 2;
              BattleUnit.getHealth unit health;
-             add health 1;
+             mul health 2;
              BattleUnit.setStun unit health;
              end;
             end;
@@ -699,7 +699,7 @@ extended:
            BattleUnit.getMorale target morale;
            if lt morale 30;
              BattleUnit.getHealth target health;
-             add health 1;
+             mul health 2;
              BattleUnit.setStun target health;
              end;
            end;
