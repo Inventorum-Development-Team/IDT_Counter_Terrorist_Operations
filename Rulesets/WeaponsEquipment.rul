@@ -4411,15 +4411,18 @@ items:
     costSell: 21500
     accuracyAimed: 120
     accuracySnap: 90
+    accuracyAuto: 45
     blockBothHands: true
     twoHanded: true
     maxRange: 200
     minRange: 5
     aimRange: 200
     snapRange: 35
-    kneelBonus: 145
+    autoRange: 20
+    kneelBonus: 130
     tuAimed: 85
     tuSnap: 55
+    tuAuto: 70
     invWidth: 1
     invHeight: 3
     ammo:
