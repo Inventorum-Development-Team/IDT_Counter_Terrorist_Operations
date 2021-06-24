@@ -1,5 +1,5 @@
 name: "Counter-Terrorist Operations"
-version: "0.1"
+version: "0.1.1"
 requiredExtendedVersion: "7.0"
 author: "Filip H and efrenespartano + IDT"
 description: "Lead a International Task Unit in a fight against terrorist forces."

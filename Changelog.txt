@@ -1,3 +1,30 @@
+24-Jun-2021 v0.1.1 Who Dares Wins
+Changes made:
+New Content:
+*Pistols and Rifles now have a melee attack
+*New ammo and flare sprites, by efrenespartano and Filip H
+*Glock 17 and Taser available in campaign
+*Added pistol stocks
+*Added 23 new weapons for new battle mode
+Bugfixes and Adjustments:
+*Sprite adjustments for ammo sprites, Remington, Pecheneg and research background, by efrenespartano
+*Glocks can now use 10 round magazines.
+*Corpses are no longer recovered
+*Added Burst fire to M4A1
+*Made the requirements of surrender lower
+*Adjusted non-lethal ammo stun damage
+*Adjusted stats of several weapons
+*Removed armory from starting base
+*Fixed heavy armor with nightvision not being manufacturable, ruleset provided by Buscher
+*Fixed Medium and Large deployments not deploying all troops
+*Fixed Shouting not being occasionally usable
+*Fixed Craft sometimes appearing in building in office mission
+*Fixed several map bugs
+*Fixed issue with sniper hand sprites
+*Fixed typoes and Ufopaedia cutting of part of texts
+*Fixed weapon modification tech requirements
+
+
 12-Jun-2021 v0.1 Who Dares Wins
 Changes made:
 *Initial Release

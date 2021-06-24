@@ -4,6 +4,7 @@ Andr: M16, 9mm 20x
 Badfella: Default Uniform (modified)
 Hans Woofington: Heavy Armor inventory
 JustTheDude: Terrorist Raider
+PERLHA: Taser BigOB
 Tingcat: Terrorist inventories
 Wolverin: Terrorist safehouse maps
 XOps: Kevlar, nightvision and advanced nightvision (modified)
