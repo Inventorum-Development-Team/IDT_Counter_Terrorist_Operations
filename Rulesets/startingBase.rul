@@ -15,9 +15,6 @@ startingBase:
     - type: STR_LABORATORY
       x: 2
       y: 3
-    - type: STR_WORKSHOP
-      x: 3
-      y: 3
   randomSoldiers: 8
   crafts:
    - type: STR_GMC_VAN_SMALL
