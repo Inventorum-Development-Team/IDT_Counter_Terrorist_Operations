@@ -15,9 +15,6 @@ startingBase:
     - type: STR_LABORATORY
       x: 2
       y: 3
-    - type: STR_WORKSHOP
-      x: 3
-      y: 3
   randomSoldiers: 8
   crafts:
    - type: STR_GMC_VAN_SMALL
@@ -26,12 +23,14 @@ startingBase:
      damage: 0
      items:
       STR_MP5: 6
-      STR_9MM_PARABELLUM_X30: 12
+      STR_9MM_PARABELLUM_X20: 18
+      STR_GLOCK_17: 6
       STR_ELECTRO_FLARE: 6
       STR_FIELD_DRESSING: 6
   items:
       STR_MP5: 2
-      STR_9MM_PARABELLUM_X30: 16
+      STR_GLOCK_17: 2
+      STR_9MM_PARABELLUM_X20: 16
       STR_ELECTRO_FLARE: 12
       STR_FIELD_DRESSING: 12
   scientists: 5

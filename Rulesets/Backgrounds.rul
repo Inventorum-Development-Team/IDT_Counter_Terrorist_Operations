@@ -36,7 +36,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK12.PNG
-  - type: BACK13.SCR #buy stuff, purschase things
+  - type: BACK13.SCR #buy stuff, purchase things
     singleImage: true
     width: 320
     height: 200

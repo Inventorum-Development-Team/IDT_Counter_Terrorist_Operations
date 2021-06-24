@@ -22,7 +22,7 @@ tuRecoveryWakeUpNewTurn: 50
 newBaseUnlockResearch: STR_UNOBTAINABLE
 ai:
    useDelayGrenade: 0
-surrenderMode: 3
+surrenderMode: 2
 bughuntMinTurn: 20
 constants:
    extendedItemReloadCost: true

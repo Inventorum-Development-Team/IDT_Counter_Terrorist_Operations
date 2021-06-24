@@ -34,6 +34,12 @@ items:
      - STR_UBS_ACQUISITION
     size: 0.1
     bigSprite: 2824
+  - type: STR_STOCK
+    costBuy: 5000
+    costSell: 2500
+    requiresBuy:
+     - STR_STOCK_ACQUISITION
+    size: 0.1
   - type: STR_NV
     costBuy: 15000
     costSell: 7500
@@ -519,6 +525,28 @@ manufacture:
      STR_SR_3_ONE_HANDED: 1
     refund: true
 
+  - name: STR_GLOCK_18_STOCK
+    time: 10
+    requires:
+     - STR_GLOCK_18_ACQUISITION
+     - STR_STOCK_ACQUISITION
+    requiredItems:
+     STR_GLOCK_18: 1
+     STR_STOCK: 1
+    refund: true
+
+  - name: STR_GLOCK_18_STOCK_REMOVAL
+    time: 10
+    requires:
+     - STR_GLOCK_18_ACQUISITION
+     - STR_STOCK_ACQUISITION
+    requiredItems:
+     STR_GLOCK_18_STOCK: 1
+    producedItems:
+     STR_GLOCK_18: 1
+     STR_STOCK: 1
+    refund: true
+
   - name: STR_DEFAULT_KEVLAR_BACKPACK
     time: 5
     requires:
@@ -625,7 +653,48 @@ manufacture:
      STR_DEFAULT_BACKPACK: 1
     refund: true
 
+  - name: STR_HEAVY_NV
+    time: 10
+    requires:
+     - STR_NIGHT_VISION
+     - STR_HEAVY_VEST_ACQUISITION
+    requiredItems:
+     STR_HEAVY: 1
+     STR_NV: 1
+    refund: true
+    
+  - name: STR_HEAVY_NV_REMOVAL
+    time: 10
+    requires:
+     - STR_NIGHT_VISION
+     - STR_HEAVY_VEST_ACQUISITION
+    requiredItems:
+     STR_HEAVY_NV: 1
+    producedItems:
+     STR_HEAVY: 1
+     STR_NV: 1
+    refund: true
 
+  - name: STR_HEAVY_ADVNV
+    time: 10
+    requires:
+     - STR_ADV_NIGHTVISION
+     - STR_HEAVY_VEST_ACQUISITION
+    requiredItems:
+     STR_HEAVY: 1
+     STR_ADVNV: 1
+    refund: true
+    
+  - name: STR_HEAVY_ADVNV_REMOVAL
+    time: 10
+    requires:
+     - STR_ADV_NIGHTVISION
+     - STR_HEAVY_VEST_ACQUISITION
+    requiredItems:
+     STR_HEAVY_ADVNV: 1
+    producedItems:
+     STR_HEAVY: 1
+     STR_ADVNV: 1
 
 extraStrings:
   - type: en-US
@@ -636,6 +705,7 @@ extraStrings:
       STR_M203: "M203"
       STR_FN40GL: "FN40GL"
       STR_UBS: "Modular Accessory Shotgun System"
+      STR_STOCK: "Pistol Stock"
       STR_NV: "Nightvision Goggles"
       STR_ADVNV: "Advanced Nightvision Goggles"
       STR_M4_SOPMOD_REMOVAL: "M4: Remove SOPMOD"
@@ -657,11 +727,14 @@ extraStrings:
       STR_SCAR_L_GL_REMOVAL: "SCAR-L: Remove FN40GL"
       STR_SCAR_H_SOPMOD_REMOVAL: "SCAR-H: Remove SOPMOD"
       STR_SCAR_H_GL_REMOVAL: "SCAR-H: Remove FN40GL"
+      STR_GLOCK_18_STOCK_REMOVAL: "Glock 18: Remove Stock"
       STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL: "(Kevlar, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Nightvision"
       STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL: "(Kevlar, NV, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Nightvision"
       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL: "(Kevlar, ADVNV, BP): Remove Backpack"
+      STR_HEAVY_NV_REMOVAL: "(Heavy Vest, NV): Remove Nightvision"
+      STR_HEAVY_ADVNV_REMOVAL: "(Heavy Vest, ADVNV): Remove Adv. Nightvision"
 
 
 

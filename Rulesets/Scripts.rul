@@ -3,16 +3,22 @@ items:
     specialIconSprite: 1
     battleType: 9
     weight: 0
-    tuUse: 30
-    accuracyUse: 100
+    accuracyUse: 1000
     psiAttackName: STR_SHOUT
+    costUse:     # <-- added this
+      time: 30
     costPanic:
       time: 0
     costMindControl:
       time: 0
     recover: false
     damageType: 1
-    power: 1
+    power: 100 
+    damageAlter: 
+     ToStun: 0
+     ToHealth: 0
+     ToArmor: 0
+     ToWound: 0
     fixedWeapon: true
     hitAnimation: -1
     maxRange: 15
@@ -60,7 +66,13 @@ items:
      AmmoNo: 3
   - type: STR_9MM_PARABELLUM_X40 #ignoreDuplicate
     tags:
-     AmmoNo: 4    
+     AmmoNo: 4   
+  - type: STR_9MM_GYURZA_X20  #ignoreDuplicate
+    tags:
+     AmmoNo: 1    
+  - type: STR_9MM_GYURZA_X30  #ignoreDuplicate
+    tags:
+     AmmoNo: 2   
   - type: STR_FN_57_X20 #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -72,7 +84,10 @@ items:
      AmmoNo: 1    
   - type: STR_45_ACP_X12 #ignoreDuplicate
     tags:
-     AmmoNo: 1    
+     AmmoNo: 1     
+  - type: STR_45_ACP_X25 #ignoreDuplicate
+    tags:
+     AmmoNo: 1   
   - type: STR_CASELESS_4_73_X50 #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -124,6 +139,9 @@ items:
   - type: STR_NATO_7_62_X100 #ignoreDuplicate
     tags:
      AmmoNo: 1    
+  - type: STR_SOVIET_7_62_MMR_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 1       
   - type: STR_SOVIET_7_62_MMR_X50 #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -144,7 +162,10 @@ items:
      AmmoNo: 1    
   - type: STR_50_BMG_X10 #ignoreDuplicate
     tags:
-     AmmoNo: 1      
+     AmmoNo: 1        
+  - type: STR_127_X5 #ignoreDuplicate
+    tags:
+     AmmoNo: 1     
   - type: STR_12G_BUCKSHOT_X2 #ignoreDuplicate
     tags:
      AmmoNo: 1  
@@ -172,12 +193,21 @@ items:
   - type: STR_RPG_HEAT_X1 #ignoreDuplicate
     tags:
      AmmoNo: 1
+  - type: STR_APAV40_X1 #ignoreDuplicate
+    tags:
+     AmmoNo: 2
 
 
   - type: STR_P226 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_GLOCK_17  #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_GLOCK_18 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_GLOCK_18_STOCK #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_M1911 #ignoreDuplicate
@@ -190,6 +220,12 @@ items:
     tags:
      AmmoReSprite: 1
   - type: STR_FIVE_SEVEN #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_VEKTOR #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_STETCKIN #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_TEC_9 #ignoreDuplicate
@@ -208,6 +244,19 @@ items:
   - type: STR_SKORPION #ignoreDuplicate
     tags:
      FoldStock: 1
+     AmmoReSprite: 1
+  - type: STR_UZI  #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     FoldStock: 1
+  - type: STR_UMP #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_VITYAZ #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_VERSEK #ignoreDuplicate
+    tags:
      AmmoReSprite: 1
   - type: STR_TAVOR #ignoreDuplicate
     tags:
@@ -262,6 +311,18 @@ items:
   - type: STR_AK15_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_FAMAS #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_FAMAS_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_G36 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_G36_AG #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_HK416 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -275,6 +336,12 @@ items:
     tags:
      AmmoReSprite: 1
      UBS: 1
+  - type: STR_HK417 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_HK417_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_FX_05 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -326,6 +393,9 @@ items:
   - type: STR_FN_FAL_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_G3 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_PSG_1 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -333,6 +403,12 @@ items:
     tags:
      AmmoReSprite: 1
   - type: STR_VSS #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_DRAGUNOV #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_OSV_96 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_SAKO_TRG #ignoreDuplicate
@@ -356,13 +432,22 @@ items:
   - type: STR_USAS_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_SAIGA_12 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_M60 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_M249 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_FN_MINIMI #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_MK_48 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_RPK_74 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_PECHENEG #ignoreDuplicate
@@ -380,6 +465,10 @@ items:
     tags:
      FlashBang: 1
   
+  - type: STR_ELECTRO_FLARE #ignoreDuplicate
+    tags:
+      STRIKE: 1
+
 extended:
   tags:
     BattleUnit:
@@ -397,6 +486,7 @@ extended:
       UBS: int
       Shield: int
       FlashBang: int
+      STRIKE: int
 #      FlashAmmo: int
 #      JammChance: int
     BattleGame:
@@ -538,7 +628,7 @@ extended:
               end;
             if eq faction 2;
              BattleUnit.getHealth unit health;
-             add health 1;
+             mul health 2;
              BattleUnit.setStun unit health;
              end;
             end;
@@ -614,7 +704,7 @@ extended:
            BattleUnit.getMorale target morale;
            if lt morale 30;
              BattleUnit.getHealth target health;
-             add health 1;
+             mul health 2;
              BattleUnit.setStun target health;
              end;
            end;
@@ -740,6 +830,16 @@ extended:
            end;
           return sprite_index; 
 
+       - offset: 1 # Air Strike Smoke sprite Script
+         code: |
+          var int x;
+          var int y;
+          BattleItem.getTag item x Tag.STRIKE;
+          BattleItem.isFuseEnabled item y;
+          if and eq x 1 eq y 1;
+            add sprite_index 8;
+          end;
+          return sprite_index;
 extraStrings:
   - type: en-US
     strings:

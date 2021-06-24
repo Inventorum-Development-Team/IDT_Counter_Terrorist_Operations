@@ -194,6 +194,11 @@ research:
     dependencies:
      - STR_SHOTGUN_ACQUISITION
 
+  - name: STR_TASER_ACQUISITION
+    cost: 30
+    dependencies:
+     - STR_PISTOL_ACQUISITION
+     
   - name: STR_P226_ACQUISITION
     cost: 30
     dependencies:
@@ -209,6 +214,8 @@ research:
     disables:
      - STR_P226_ACQUISITION
      - STR_M1911_ACQUISITION
+    unlocks:
+     - STR_RIFLE_MODIFICATION
 
   - name: STR_M1911_ACQUISITION
     cost: 30
@@ -350,7 +357,14 @@ research:
   
   - name: STR_RIFLE_MODIFICATION
     cost: 50
-    needItem: true
+    dependencies:
+     - STR_GLOCK_18_ACQUISITION
+     - STR_TAVOR_ACQUISITION
+     - STR_M4_ACQUISITION
+     - STR_AK12_ACQUISITION
+     - STR_HK416_ACQUISITION
+     - STR_FX_05_ACQUISITION
+     - STR_SCAR_L_ACQUISITION
     unlocks:
      - STR_ARMORY
   
@@ -358,6 +372,7 @@ research:
     cost: 30
     dependencies:
      - STR_RIFLE_MODIFICATION
+     - STR_RIFLE_AQUISTION
   
   - name: STR_SOPMOD_ACQUISITION
     cost: 30
@@ -366,7 +381,10 @@ research:
 
   - name: STR_ARMORY
     cost: 50
-    needItem: true
+    dependencies:
+      - STR_BACKPACK_ACQUISITION
+      - STR_ARMORED_VEST_ACQUISITION
+      - STR_RIFLE_MODIFICATION
 
   - name: STR_MILITARY_EQUIPMENT_ACQUISITION
     cost: 200
@@ -516,6 +534,12 @@ research:
      - STR_SCAR_L_ACQUISITION
     getOneFree:
      - STR_40MM_AMMO
+
+  - name: STR_STOCK_ACQUISITION
+    cost: 20
+    dependencies:
+     - STR_GLOCK_18_ACQUISITION
+     - STR_RIFLE_MODIFICATION
     
   - name: STR_HEAVY_VEST_ACQUISITION
     cost: 50
@@ -677,6 +701,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -687,6 +712,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -697,6 +723,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -707,6 +734,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -717,6 +745,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -727,6 +756,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
@@ -737,6 +767,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_HIDEOUT_LEAD_1
      - STR_HIDEOUT_LEAD_2
@@ -746,6 +777,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_OFFICE_LEAD_1
 
@@ -768,6 +800,7 @@ research:
   - name: STR_HOUSE_EVIDENCE
     cost: 50
     needItem: true
+    destroyItem: true
     getOneFree:
       - STR_HIDEOUT_LEAD_3
 
@@ -801,6 +834,7 @@ research:
   - name: STR_HIDEOUT_EVIDENCE
     cost: 50
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_OFFICE_LEAD_2
      - STR_OFFICE_LEAD_3
@@ -824,6 +858,7 @@ research:
   - name: STR_OFFICE_EVIDENCE
     cost: 50
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_SKYSCRAPER_LEAD_1
 
@@ -832,6 +867,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -842,6 +878,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -852,6 +889,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -862,6 +900,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -872,6 +911,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -882,6 +922,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_PR_INTERROGATION_1
      - STR_PR_INTERROGATION_2
@@ -892,6 +933,7 @@ research:
     dependencies:
      - STR_INTELLIGENCE_GATHERING
     needItem: true
+    destroyItem: true
     getOneFree:
      - STR_SKYSCRAPER_LEAD_2
 
@@ -941,6 +983,7 @@ extraStrings:
       STR_GLOCK_18_ACQUISITION: "Pistol Acquisition: Glock 18"
       STR_M1911_ACQUISITION: "Pistol Acquisition: M1911"
       STR_FIVE_SEVEN_ACQUISITION: "Pistol Acquisition: Five-seveN"
+      STR_TASER_ACQUISITION: "Pistol Acquistion: Taser"
       STR_RIFLE_AQUISTION: "Rifle Acquisition"
       STR_TAVOR_ACQUISITION: "Rifle Acquisition: IWI Tavor"
       STR_M4_ACQUISITION: "Rifle Acquisition: M4 Carbine"
@@ -958,13 +1001,14 @@ extraStrings:
       STR_AW_ACQUISITION: "Sniper Acquisition: AIAW"
       STR_MSG_90_ACQUISITION: "Sniper Acquisition: MSG90"
       STR_ARMORY: "Armory"
-      STR_RIFLE_MODIFICATION: "Rifle Modification"
+      STR_RIFLE_MODIFICATION: "Weapon Modification"
       STR_SCOPE_ACQUISITION: "Rifle Modification: Scopes"
       STR_SOPMOD_ACQUISITION: "Rifle Modification: SOPMOD Kits"
       STR_UBS_ACQUISITION: "Rifle Modification: MASS"
       STR_M203_ACQUISITION: "Rifle Modification: M203"
       STR_M320_ACQUISITION: "Rifle Modification: M320"
       STR_FN40GL_ACQUISITION: "Rifle Modification: FN40GL"
+      STR_STOCK_ACQUISITION: "Pistol Modification: Stock"
       STR_MILITARY_EQUIPMENT_ACQUISITION: "Military Equipment"
       STR_GRENADES: "Grenades"
       STR_HIGH_EXPLOSIVES: "High-Explosives"
@@ -972,7 +1016,7 @@ extraStrings:
       STR_M249_ACQUISITION: "LMG Acquisition: M249"
       STR_MK_48_ACQUISITION: "LMG Acquisition: MK 48"
       STR_PECHENEG_ACQUISITION: "LMG Acquisition: PKP Pecheneg"
-      STR_AT_ACQUISITION: "AT Weaponry Aquisition"
+      STR_AT_ACQUISITION: "AT Weaponry Acquisition"
       STR_PRIVATE_CONTRACTORS: "Private Contractors"
       STR_MK_23_ACQUISITION: "Private Contract: USSOCOM MK 23"
       STR_MPX_ACQUISITION: "Private Contract: SIG MPX"
@@ -990,8 +1034,8 @@ extraStrings:
       STR_INTELLIGENCE_GATHERING: "Intelligence Gathering"
       STR_PRISON_CELLS: "Prison Cells"
       STR_HOUSE_LEAD_1: "Suspect Testimony"
-      STR_HOUSE_LEAD_2: "Phone Tracking"
-      STR_HOUSE_LEAD_3: "Property Ownership"
+      STR_HOUSE_LEAD_2: "Property Ownership"
+      STR_HOUSE_LEAD_3: "Phone Tracking"
       STR_SAFE_HOUSE_RAIDS: "Safe-House Raids"
       STR_HIDEOUT_LEAD_1: "Confessions"
       STR_HIDEOUT_LEAD_2: "Shadowing Suspects"
@@ -1001,7 +1045,7 @@ extraStrings:
       STR_OFFICE_LEAD_2: "Tracing Weapons"
       STR_OFFICE_LEAD_3: "Property Sales"
       STR_OFFICE_RAIDS: "Office Raids"
-      STR_SKYSCRAPER_LEAD_1: "Company Doucments"
+      STR_SKYSCRAPER_LEAD_1: "Company Documents"
       STR_SKYSCRAPER_LEAD_2: "Company Employees"
       STR_SKYSCRAPER_RAID: "Skyscraper Raid"
       STR_MEDIUM_TRANSPORT: "Medium Deployments"
