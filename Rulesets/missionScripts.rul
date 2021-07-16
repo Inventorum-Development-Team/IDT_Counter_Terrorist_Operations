@@ -15,34 +15,28 @@ missionScripts:
   - type: east_eu_terror_attack
     missionWeights:
      0:
-       TERRORIST_ATTACK_EAST_EU: 100
+       TERRORIST_ATTACK: 100
     executionOdds: 80
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_TERRORISTS_EAST_EU: 100
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
     useTable: false
 
-  - type: usa_terror_attack
-    missionWeights:
-     0:
-       TERRORIST_ATTACK_USA: 100
-    executionOdds: 80
-    startDelay: 100
-    randomDelay: 43200
-    regionWeights:
-     0:
-       REGION_AMERICAN_CITIES: 100
-    useTable: false
-
   - type: west_eu_terror_attack
     missionWeights:
      0:
-       TERRORIST_ATTACK_WEST_EU: 100
+       TERRORIST_ATTACK: 100
     executionOdds: 80
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_TERRORISTS_WEST_EU: 100
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
@@ -51,37 +45,30 @@ missionScripts:
   - type: east_eu_major_attack
     missionWeights:
       0:
-        MAJOR_ATTACK_EAST_EU: 100
+        MAJOR_ATTACK: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
+    raceWeights:
+     0:
+      STR_TERRORISTS_EAST_EU: 100
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
     useTable: false
 
-  - type: usa_major_attack
-    missionWeights:
-      0:
-        MAJOR_ATTACK_USA: 100
-    executionOdds: 33
-    startDelay: 100
-    randomDelay: 43200
-    firstMonth: 3
-    regionWeights:
-     0:
-       REGION_AMERICAN_CITIES: 100
-    useTable: false
-
   - type: west_eu_major_attack
     missionWeights:
       0:
-        MAJOR_ATTACK_WEST_EU: 100
+        MAJOR_ATTACK: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
+    raceWeights:
+     0:
+      STR_TERRORISTS_WEST_EU: 100
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
@@ -90,10 +77,13 @@ missionScripts:
   - type: east_eu_house_raids
     missionWeights:
      0:
-       HOUSE_RAID_EAST_EU: 100
+       HOUSE_RAID: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_TERRORISTS_EAST_EU: 100
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
@@ -102,28 +92,16 @@ missionScripts:
       STR_HIDEOUT_RAIDS: false 
     useTable: false
 
-  - type: usa_house_raids
-    missionWeights:
-     0:
-       HOUSE_RAID_USA: 100
-    executionOdds: 33
-    startDelay: 100
-    randomDelay: 43200
-    regionWeights:
-     0:
-       REGION_AMERICAN_CITIES: 100
-    researchTriggers:
-      STR_SAFE_HOUSE_RAIDS: true
-      STR_HIDEOUT_RAIDS: false 
-    useTable: false
-
   - type: west_eu_house_raids
     missionWeights:
      0:
-       HOUSE_RAID_WEST_EU: 100
+       HOUSE_RAID: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_TERRORISTS_WEST_EU: 100
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
@@ -135,40 +113,32 @@ missionScripts:
   - type: east_eu_rare_attack
     missionWeights:
       0:
-        PLANE_HIJACK_EAST_EU: 50
-        HOSTAGE_SITUATION_EAST_EU: 50
+        PLANE_HIJACK: 50
+        HOSTAGE_SITUATION: 50
     executionOdds: 10
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
+    raceWeights:
+     0:
+      STR_TERRORISTS_EAST_EU: 100
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
     useTable: false
 
-  - type: usa_rare_attack
-    missionWeights:
-      0:
-        PLANE_HIJACK_USA: 50
-        HOSTAGE_SITUATION_USA: 50
-    executionOdds: 10
-    startDelay: 100
-    randomDelay: 43200
-    firstMonth: 3
-    regionWeights:
-     0:
-       REGION_AMERICAN_CITIES: 100
-    useTable: false
-
   - type: west_eu_rare_attack
     missionWeights:
       0:
-        PLANE_HIJACK_WEST_EU: 50
-        HOSTAGE_SITUATION_WEST_EU: 50
+        PLANE_HIJACK: 50
+        HOSTAGE_SITUATION: 50
     executionOdds: 10
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
+    raceWeights:
+     0:
+      STR_TERRORISTS_WEST_EU: 100
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
@@ -177,40 +147,31 @@ missionScripts:
   - type: east_eu_hideout_raids
     missionWeights:
      0:
-       HIDEOUT_RAID_EAST_EU: 100
+       HIDEOUT_RAID: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
+    raceWeights:
+     0:
+      STR_TERRORISTS_EAST_EU: 100
     researchTriggers:
       STR_HIDEOUT_RAIDS: true
-      STR_OFFICE_RAIDS: false
-    useTable: false
-
-  - type: usa_hideout_raids
-    missionWeights:
-     0:
-       HIDEOUT_RAID_USA: 100
-    executionOdds: 33
-    startDelay: 100
-    randomDelay: 43200
-    regionWeights:
-     0:
-       REGION_AMERICAN_CITIES: 100
-    researchTriggers:
-      STR_HIDEOUT_RAIDS: true 
       STR_OFFICE_RAIDS: false
     useTable: false
 
   - type: west_eu_hideout_raids
     missionWeights:
      0:
-       HIDEOUT_RAID_WEST_EU: 100
+       HIDEOUT_RAID: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_TERRORISTS_WEST_EU: 100
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
@@ -222,10 +183,13 @@ missionScripts:
   - type: east_eu_office_raids
     missionWeights:
      0:
-       OFFICE_RAID_EAST_EU: 100
+       OFFICE_RAID: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_PRIVATE_SECURITY_EAST_EU: 100
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
@@ -234,28 +198,16 @@ missionScripts:
       STR_SKYSCRAPER_RAID: false
     useTable: false
 
-  - type: usa_office_raids
-    missionWeights:
-     0:
-       OFFICE_RAID_USA: 100
-    executionOdds: 33
-    startDelay: 100
-    randomDelay: 43200
-    regionWeights:
-     0:
-       REGION_AMERICAN_CITIES: 100
-    researchTriggers:
-      STR_OFFICE_RAIDS: true
-      STR_SKYSCRAPER_RAID: false
-    useTable: false
-
   - type: west_eu_office_raids
     missionWeights:
      0:
-       OFFICE_RAID_WEST_EU: 100
+       OFFICE_RAID: 100
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_PRIVATE_SECURITY_WEST_EU: 100
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
@@ -267,10 +219,13 @@ missionScripts:
   - type: east_eu_sky_scraper_raid
     missionWeights:
      0:
-       SKY_SCRAPER_EAST_EU: 100
+       SKY_SCRAPER: 100
     executionOdds: 100
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_PRIVATE_SECURITY_EAST_EU: 100
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
@@ -281,30 +236,16 @@ missionScripts:
     varName: east_scraper
     maxRuns: 1
 
-  - type: usa_sky_scraper_raid
-    missionWeights:
-     0:
-       SKY_SCRAPER_USA: 100
-    executionOdds: 100
-    startDelay: 100
-    randomDelay: 43200
-    regionWeights:
-     0:
-       REGION_AMERICAN_CITIES: 100
-    researchTriggers:
-      STR_SKYSCRAPER_RAID: true
-      STR_RANDOM_1: true
-    useTable: false
-    varName: usa_scraper
-    maxRuns: 1
-
   - type: west_sky_scraper_raid
     missionWeights:
      0:
-       SKY_SCRAPER_WEST_EU: 100
+       SKY_SCRAPER: 100
     executionOdds: 100
     startDelay: 100
     randomDelay: 43200
+    raceWeights:
+     0:
+      STR_PRIVATE_SECURITY_WEST_EU: 100
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
