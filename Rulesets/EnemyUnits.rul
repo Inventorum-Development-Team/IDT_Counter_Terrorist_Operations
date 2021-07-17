@@ -341,11 +341,13 @@ armors:
       firing: -5
       tu: -10
       bravery: 20
-units:
 
+
+units:
 
   - &STR_TERRORIST_COMMANDER
     type: STR_TERRORIST_COMMANDER
+    liveAlien: STR_TERRORIST_COMMANDER
     stats:
       tu: 80
       stamina: 100
@@ -371,6 +373,7 @@ units:
 
   - &STR_TERRORIST_LEADER
     type: STR_TERRORIST_LEADER
+    liveAlien: STR_TERRORIST_LEADER
     stats:
       tu: 70
       stamina: 100
@@ -396,6 +399,7 @@ units:
 
   - &STR_TERRORIST_SAW
     type: STR_TERRORIST_SAW
+    liveAlien: STR_TERRORIST_SAW
     stats:
       tu: 60
       stamina: 100
@@ -421,6 +425,7 @@ units:
 
   - &STR_TERRORIST_RIFLEMAN
     type: STR_TERRORIST_RIFLEMAN
+    liveAlien: STR_TERRORIST_RIFLEMAN
     stats:
       tu: 65
       stamina: 100
@@ -446,6 +451,7 @@ units:
 
   - &STR_TERRORIST_RAIDER
     type: STR_TERRORIST_RAIDER
+    liveAlien: STR_TERRORIST_RAIDER
     stats:
       tu: 75
       stamina: 100
@@ -471,6 +477,7 @@ units:
 
   - &STR_TERRORIST_GRUNT
     type: STR_TERRORIST_GRUNT
+    liveAlien: STR_TERRORIST_GRUNT
     stats:
       tu: 60
       stamina: 100
@@ -496,6 +503,7 @@ units:
 
   - &STR_TERRORIST_GRENADIER
     type: STR_TERRORIST_GRENADIER
+    liveAlien: STR_TERRORIST_GRENADIER
     stats:
       tu: 60
       stamina: 100
@@ -521,6 +529,7 @@ units:
 
   - &STR_TERRORIST_SNIPER
     type: STR_TERRORIST_SNIPER
+    liveAlien: STR_TERRORIST_SNIPER
     stats:
       tu: 60
       stamina: 100
@@ -546,6 +555,7 @@ units:
 
   - &STR_PR_LEADER
     type: STR_PR_LEADER
+    liveAlien: STR_PR_LEADER
     stats:
       tu: 90
       stamina: 100
@@ -571,6 +581,7 @@ units:
 
   - &STR_PR_SHIELD
     type: STR_PR_SHIELD
+    liveAlien: STR_PR_SHIELD
     stats:
       tu: 70
       stamina: 100
@@ -596,6 +607,7 @@ units:
 
   - &STR_PR_RIFLEMAN
     type: STR_PR_RIFLEMAN
+    liveAlien: STR_PR_RIFLEMAN
     stats:
       tu: 75
       stamina: 100
@@ -621,6 +633,7 @@ units:
 
   - &STR_PR_HEAVY
     type: STR_PR_HEAVY
+    liveAlien: STR_PR_HEAVY
     stats:
       tu: 85
       stamina: 100
@@ -646,6 +659,7 @@ units:
 
   - &STR_PR_GRUNT
     type: STR_PR_GRUNT
+    liveAlien: STR_PR_GRUNT
     stats:
       tu: 75
       stamina: 100
@@ -671,6 +685,7 @@ units:
 
   - &STR_PR_SAW
     type: STR_PR_SAW
+    liveAlien: STR_PR_SAW
     stats:
       tu: 75
       stamina: 100
@@ -696,6 +711,7 @@ units:
 
   - &STR_PR_SNIPER
     type: STR_PR_SNIPER
+    liveAlien: STR_PR_SNIPER
     stats:
       tu: 70
       stamina: 100

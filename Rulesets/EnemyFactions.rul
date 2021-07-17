@@ -77,5 +77,9 @@ alienRaces:
 extraStrings:
   - type: en-US
     strings:
-      STR_TERRORISTS: "Terrorists"
-      STR_PRIVATE_SECURITY: "Private Security"
+      STR_TERRORISTS_EAST_EU: "Terrorists, East Europe"
+      STR_PRIVATE_SECURITY_EAST_EU: "Private Security, East Europe"
+      STR_TERRORISTS_USA: "Terrorists, USA"
+      STR_PRIVATE_SECURITY_USA: "Private Security, USA"
+      STR_TERRORISTS_WEST_EU: "Terrorists, West Europe"
+      STR_PRIVATE_SECURITY_WEST_EU: "Private Security, West Europe"

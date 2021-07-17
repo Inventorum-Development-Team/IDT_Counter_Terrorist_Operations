@@ -18,7 +18,7 @@ alienMissions:
   - type: TERRORIST_ATTACK
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: TERRORIST_ATTACK
+    siteType: STR_TERRORIST_ATTACK
     spawnZone: 0
     waves:
       - ufo: dummy
@@ -29,7 +29,7 @@ alienMissions:
 
   - type: PLANE_HIJACK
     objective: 3
-    siteType: PLANE_HIJACK
+    siteType: STR_PLANE_HIJACK
     spawnZone: 0
     waves:
       - ufo: dummy
@@ -40,7 +40,7 @@ alienMissions:
 
   - type: HOUSE_RAID
     objective: 3
-    siteType: HOUSE_RAID
+    siteType: STR_HOUSE_RAID
     spawnZone: 0
     waves:
       - ufo: dummy
@@ -52,7 +52,7 @@ alienMissions:
   - type: MAJOR_ATTACK
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: MAJOR_ATTACK
+    siteType: STR_MAJOR_ATTACK
     spawnZone: 0
     waves:
       - ufo: dummy
@@ -64,7 +64,7 @@ alienMissions:
   - type: HOSTAGE_SITUATION
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: HOSTAGE_SITUATION
+    siteType: STR_HOSTAGE_SITUATION
     spawnZone: 0
     waves:
       - ufo: dummy
@@ -75,7 +75,7 @@ alienMissions:
 
   - type: HIDEOUT_RAID
     objective: 3
-    siteType: HIDEOUT_RAID
+    siteType: STR_HIDEOUT_RAID
     spawnZone: 0
     waves:
       - ufo: dummy
@@ -88,7 +88,7 @@ alienMissions:
 
   - type: OFFICE_RAID
     objective: 3
-    siteType: OFFICE_RAID
+    siteType: STR_OFFICE_RAID
     spawnZone: 0
     waves:
       - ufo: dummy
@@ -99,7 +99,7 @@ alienMissions:
 
   - type: SKY_SCRAPER
     objective: 3
-    siteType: SKY_SCRAPER
+    siteType: STR_SKY_SCRAPER
     spawnZone: 0
     waves:
       - ufo: dummy

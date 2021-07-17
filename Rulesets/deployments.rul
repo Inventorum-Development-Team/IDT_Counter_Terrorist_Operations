@@ -34,7 +34,7 @@ alienDeployments:
   - delete: STR_MARS_CYDONIA_LANDING
   - delete: STR_MARS_THE_FINAL_ASSAULT
 
-  - type: TERRORIST_ATTACK
+  - type: STR_TERRORIST_ATTACK
     width: 30
     length: 30
     height: 10
@@ -63,17 +63,20 @@ alienDeployments:
           - []
        - alienRank: 5
          lowQty: 3
-         highQty: 4
+         highQty: 3
+         dQty: 1
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 2
-         highQty: 4
+         lowQty: 3
+         highQty: 3
+         dQty: 1
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 2
-         highQty: 4
+         lowQty: 3
+         highQty: 3
+         dQty: 1
          itemSets:
           - []
        - alienRank: 2
@@ -91,7 +94,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: PLANE_HIJACK
+  - type: STR_PLANE_HIJACK
     width: 70
     length: 20
     height: 10
@@ -103,7 +106,7 @@ alienDeployments:
     duration: [24,48]
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
-    alert: STR_PLANE_HIJACKING
+    alert: STR_PLANE_HIJACK
     briefing:
      desc: STR_PLANE_HIJACKING_BRIEFING
     data:
@@ -119,17 +122,20 @@ alienDeployments:
           - []
        - alienRank: 5
          lowQty: 3
-         highQty: 4
+         highQty: 3
+         dQty: 1
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 2
-         highQty: 4
+         lowQty: 3
+         highQty: 3
+         dQty: 1
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 2
-         highQty: 4
+         lowQty: 3
+         highQty: 3
+         dQty: 1
          itemSets:
           - []
        - alienRank: 2
@@ -147,7 +153,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: HOUSE_RAID
+  - type: STR_HOUSE_RAID
     width: 50
     length: 30
     height: 10
@@ -175,18 +181,21 @@ alienDeployments:
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 5
-         highQty: 10
+         lowQty: 7
+         highQty: 7
+         dQty: 3
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 3
-         highQty: 5
+         lowQty: 4
+         highQty: 4
+         dQty: 1
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 3
-         highQty: 5
+         lowQty: 4
+         highQty: 4
+         dQty: 1
          itemSets:
           - []
        - alienRank: 2
@@ -204,7 +213,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: MAJOR_ATTACK
+  - type: STR_MAJOR_ATTACK
     width: 60
     length: 60
     height: 10
@@ -222,32 +231,38 @@ alienDeployments:
     data:
        - alienRank: 7
          lowQty: 1
-         highQty: 3
+         highQty: 1
+         dQty: 2
          itemSets:
           - []
        - alienRank: 6
          lowQty: 1
-         highQty: 2
+         highQty: 1
+         dQty: 1
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 6
-         highQty: 12
+         lowQty: 8
+         highQty: 8
+         dQty: 4
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 4
-         highQty: 7
+         lowQty: 5
+         highQty: 5
+         dQty: 2
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 4
-         highQty: 7
+         lowQty: 5
+         highQty: 5
+         dQty: 7
          itemSets:
           - []
        - alienRank: 2
          lowQty: 2
-         highQty: 3
+         highQty: 2
+         dQty: 1
          itemSets:
           - []
        - alienRank: 1
@@ -260,7 +275,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: HOSTAGE_SITUATION
+  - type: STR_HOSTAGE_SITUATION
     width: 50
     length: 30
     height: 10
@@ -289,18 +304,21 @@ alienDeployments:
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 3
-         highQty: 5
+         lowQty: 4
+         highQty: 4
+         dQty: 1
          itemSets:
           - []
        - alienRank: 4
          lowQty: 3
-         highQty: 5
+         highQty: 3
+         dQty: 2
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 3
-         highQty: 5
+         lowQty: 4
+         highQty: 4
+         dQty: 1
          itemSets:
           - []
        - alienRank: 2
@@ -318,7 +336,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: HIDEOUT_RAID
+  - type: STR_HIDEOUT_RAID
     width: 50
     length: 50
     height: 10
@@ -340,33 +358,39 @@ alienDeployments:
      desc: STR_HIDEOUT_RAID_BRIEFING
     data:
        - alienRank: 7
-         lowQty: 1
-         highQty: 4
+         lowQty: 2
+         highQty: 2
+         dQty: 2
          itemSets:
           - []
        - alienRank: 6
          lowQty: 1
-         highQty: 2
+         highQty: 1
+         dQty: 1
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 8
-         highQty: 14
+         lowQty: 10
+         highQty: 10
+         dQty: 4
          itemSets:
           - []
        - alienRank: 4
          lowQty: 4
-         highQty: 6
+         highQty: 4
+         dQty: 2
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 4
-         highQty: 8
+         lowQty: 6
+         highQty: 6
+         dQty: 2
          itemSets:
           - []
        - alienRank: 2
-         lowQty: 4
-         highQty: 8
+         lowQty: 2
+         highQty: 2
+         dQty: 2
          itemSets:
           - []
        - alienRank: 1
@@ -379,7 +403,7 @@ alienDeployments:
          highQty: 1
          itemSets:
           - []
-  - type: OFFICE_RAID
+  - type: STR_OFFICE_RAID
     width: 30
     length: 30
     height: 10
@@ -407,18 +431,21 @@ alienDeployments:
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 3
-         highQty: 7
+         lowQty: 5
+         highQty: 5
+         dQty: 2
          itemSets:
           - []
        - alienRank: 4
          lowQty: 3
-         highQty: 5
+         highQty: 3
+         dQty: 2
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 3
-         highQty: 5
+         lowQty: 4
+         highQty: 4
+         dQty: 1
          itemSets:
           - []
        - alienRank: 2
@@ -431,7 +458,7 @@ alienDeployments:
          highQty: 1
          itemSets:
           - []
-  - type: SKY_SCRAPER
+  - type: STR_SKY_SCRAPER
     width: 30
     length: 30
     height: 15
@@ -442,7 +469,7 @@ alienDeployments:
     abortPenalty: 500
     duration: [99999,99999]
     keepCraftAfterFailedMission: true
-    alert: STR_SKYSCRAPER_RAID
+    alert: STR_SKY_SCRAPER
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
     winCutscene: winGame
@@ -451,75 +478,58 @@ alienDeployments:
     data:
        - alienRank: 7
          lowQty: 1
-         highQty: 3
+         highQty: 1
+         dQty: 2
          itemSets:
           - []
        - alienRank: 6
          lowQty: 2
-         highQty: 3
+         highQty: 2
+         dQty: 1
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 6
-         highQty: 12
+         lowQty: 9
+         highQty: 9
+         dQty: 3
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 5
-         highQty: 10
+         lowQty: 7
+         highQty: 7
+         dQty: 3
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 5
-         highQty: 10
+         lowQty: 8
+         highQty: 8
+         dQty: 2
          itemSets:
           - []
        - alienRank: 2
-         lowQty: 3
-         highQty: 5
+         lowQty: 4
+         highQty: 4
+         dQty: 1
          itemSets:
           - []
        - alienRank: 1
-         lowQty: 2
-         highQty: 4
+         lowQty: 3
+         highQty: 3
+         dQty: 1
          itemSets:
           - []
 extraStrings:
   - type: en-US
     strings:
-      TERRORIST_ATTACK_EAST_EU: "Terrorist Attack, Eastern Europe"
-      TERRORIST_ATTACK_USA: "Terrorist Attack, USA"
-      TERRORIST_ATTACK_WEST_EU: "Terrorist Attack, Western Europe"
-      PLANE_HIJACK_EAST_EU: "Plane Hijacking, Eastern Europe"
-      PLANE_HIJACK_USA: "Plane Hijacking, USA"
-      PLANE_HIJACK_WEST_EU: "Plane Hijacking, Western Europe"
-      HOUSE_RAID_EAST_EU: "Safehouse Raid, Eastern Europe"
-      HOUSE_RAID_USA: "Safehouse Raid, USA"
-      HOUSE_RAID_WEST_EU: "Safehouse Raid, Western Europe"
-      MAJOR_ATTACK_EAST_EU: "Major Attack, Eastern Europe"
-      MAJOR_ATTACK_USA: "Major Attack, USA"
-      MAJOR_ATTACK_WEST_EU: "Major Attack, Western Europe"
-      HOSTAGE_SITUATION_EAST_EU: "Hostage Situation, Eastern Europe"
-      HOSTAGE_SITUATION_USA: "Hostage Situation, USA"
-      HOSTAGE_SITUATION_WEST_EU: "Hostage Situation, Western Europe"
-      HIDEOUT_RAID_EAST_EU: "Hideout Raid, Eastern Europe"
-      HIDEOUT_RAID_USA: "Hideout Raid, USA"
-      HIDEOUT_RAID_WEST_EU: "Hideout Raid, Western Europe"
-      OFFICE_RAID_EAST_EU: "Office Raid, Eastern Europe"
-      OFFICE_RAID_USA: "Office Raid, USA"
-      OFFICE_RAID_WEST_EU: "Office Raid, Western Europe"
-      SKY_SCRAPER_EAST_EU: "Skyscraper Raid, Eastern Europe"
-      SKY_SCRAPER_USA: "Skyscraper Raid, USA"
-      SKY_SCRAPER_WEST_EU: "Skyscraper Raid, Western Europe"
 
-      STR_TERROR_ATTACK: "Terror Attack"
-      STR_PLANE_HIJACKING: "Plane Hijacking"
+      STR_TERRORIST_ATTACK: "Terrorist Attack"
+      STR_PLANE_HIJACK: "Plane Hijacking"
       STR_HOUSE_RAID: "Safe-House Raid"
       STR_MAJOR_ATTACK: "Major Attack"
       STR_HOSTAGE_SITUATION: "Hostage Situation"
       STR_HIDEOUT_RAID: "Hideout Raid"
       STR_OFFICE_RAID: "Office Raid"
-      STR_SKYSCRAPER_RAID: "Skyscraper Raid"
+      STR_SKY_SCRAPER: "Skyscraper Raid"
 
       STR_HOUSE_EVIDENCE: "Safehouse Evidence"
       STR_HIDEOUT_EVIDENCE: "Hideout Evidence"

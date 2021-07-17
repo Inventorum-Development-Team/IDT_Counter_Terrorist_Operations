@@ -25,6 +25,8 @@ missionScripts:
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
+    researchTriggers:
+      STR_EUROPE: TRUE
     useTable: false
 
   - type: west_eu_terror_attack
@@ -40,6 +42,8 @@ missionScripts:
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
+    researchTriggers:
+      STR_EUROPE: TRUE
     useTable: false
 
   - type: east_eu_major_attack
@@ -56,6 +60,8 @@ missionScripts:
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
+    researchTriggers:
+      STR_EUROPE: TRUE
     useTable: false
 
   - type: west_eu_major_attack
@@ -72,6 +78,8 @@ missionScripts:
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
+    researchTriggers:
+      STR_EUROPE: TRUE
     useTable: false
 
   - type: east_eu_house_raids
@@ -88,6 +96,7 @@ missionScripts:
      0:
        REGION_SOVIET_CITIES: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_SAFE_HOUSE_RAIDS: true
       STR_HIDEOUT_RAIDS: false 
     useTable: false
@@ -106,6 +115,7 @@ missionScripts:
      0:
        REGION_EUROPEAN_CITIES: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_SAFE_HOUSE_RAIDS: true
       STR_HIDEOUT_RAIDS: false 
     useTable: false
@@ -125,6 +135,8 @@ missionScripts:
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
+    researchTriggers:
+      STR_EUROPE: TRUE
     useTable: false
 
   - type: west_eu_rare_attack
@@ -142,6 +154,8 @@ missionScripts:
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
+    researchTriggers:
+      STR_EUROPE: TRUE
     useTable: false
 
   - type: east_eu_hideout_raids
@@ -158,6 +172,7 @@ missionScripts:
      0:
       STR_TERRORISTS_EAST_EU: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_HIDEOUT_RAIDS: true
       STR_OFFICE_RAIDS: false
     useTable: false
@@ -176,6 +191,7 @@ missionScripts:
      0:
        REGION_EUROPEAN_CITIES: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_HIDEOUT_RAIDS: true
       STR_OFFICE_RAIDS: false
     useTable: false
@@ -194,6 +210,7 @@ missionScripts:
      0:
        REGION_SOVIET_CITIES: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_OFFICE_RAIDS: true
       STR_SKYSCRAPER_RAID: false
     useTable: false
@@ -212,6 +229,7 @@ missionScripts:
      0:
        REGION_EUROPEAN_CITIES: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_OFFICE_RAIDS: true
       STR_SKYSCRAPER_RAID: false
     useTable: false
@@ -230,8 +248,9 @@ missionScripts:
      0:
        REGION_SOVIET_CITIES: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_SKYSCRAPER_RAID: true
-      STR_RANDOM_3: true
+      STR_RANDOM_1: true
     useTable: false
     varName: east_scraper
     maxRuns: 1
@@ -250,6 +269,7 @@ missionScripts:
      0:
        REGION_EUROPEAN_CITIES: 100
     researchTriggers:
+      STR_EUROPE: TRUE
       STR_SKYSCRAPER_RAID: true
       STR_RANDOM_2: true
     useTable: false
