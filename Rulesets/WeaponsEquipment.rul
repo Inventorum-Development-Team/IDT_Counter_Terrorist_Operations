@@ -6146,16 +6146,16 @@ extraSprites:
       1072: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1080: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1088: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1096: Resources/BallisticWeapons/Rifles/FloorM4.png
-      1104: Resources/BallisticWeapons/Rifles/FloorM4.png
-      1112: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
-      1120: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
-      1128: Resources/BallisticWeapons/Rifles/FloorM4M320.png
-      1136: Resources/BallisticWeapons/Rifles/FloorM4M320.png
-      1144: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1152: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1160: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1168: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
+      1096: Resources/BallisticWeapons/Rifles/FloorM4A1.png
+      1104: Resources/BallisticWeapons/Rifles/FloorM4A1.png
+      1112: Resources/BallisticWeapons/Rifles/FloorM4A1SOPMOD.png
+      1120: Resources/BallisticWeapons/Rifles/FloorM4A1SOPMOD.png
+      1128: Resources/BallisticWeapons/Rifles/FloorM4A1M320.png
+      1136: Resources/BallisticWeapons/Rifles/FloorM4A1M320.png
+      1144: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
+      1152: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
+      1160: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
+      1168: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
       1176: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1184: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1192: Resources/BallisticWeapons/Rifles/FloorAK12.png
@@ -6312,14 +6312,14 @@ extraSprites:
       3264: Resources/BallisticWeapons/Ammo/Floor.png
       3272: Resources/BallisticWeapons/Ammo/Floor.png
       3280: Resources/BallisticWeapons/Pistols/FloorTaser.png
-      3288: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3296: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3304: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3312: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3320: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
+      3288: Resources/BallisticWeapons/Pistols/FloorGlock17nomag.png
+      3296: Resources/BallisticWeapons/Pistols/FloorGlock17.png
+      3304: Resources/BallisticWeapons/Pistols/FloorGlock17.png
+      3312: Resources/BallisticWeapons/Pistols/FloorGlock1730.png
+      3320: Resources/BallisticWeapons/Pistols/FloorGlock18Stocknomag.png
       3328: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
       3336: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
-      3344: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
+      3344: Resources/BallisticWeapons/Pistols/FloorGlock18Stock30.png
       3352: Resources/BallisticWeapons/Pistols/FloorManhurin.png
       3360: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
       3368: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
@@ -6506,16 +6506,16 @@ extraSprites:
       1072: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1080: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1088: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1096: Resources/BallisticWeapons/Rifles/HandM4.png
-      1104: Resources/BallisticWeapons/Rifles/HandM4.png
-      1112: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
-      1120: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
-      1128: Resources/BallisticWeapons/Rifles/HandM4M320.png
-      1136: Resources/BallisticWeapons/Rifles/HandM4M320.png
-      1144: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1152: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1160: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1168: Resources/BallisticWeapons/Rifles/HandM4MASS.png
+      1096: Resources/BallisticWeapons/Rifles/HandM4A1.png
+      1104: Resources/BallisticWeapons/Rifles/HandM4A1.png
+      1112: Resources/BallisticWeapons/Rifles/HandM4A1SOPMOD.png
+      1120: Resources/BallisticWeapons/Rifles/HandM4A1SOPMOD.png
+      1128: Resources/BallisticWeapons/Rifles/HandM4A1M320.png
+      1136: Resources/BallisticWeapons/Rifles/HandM4A1M320.png
+      1144: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
+      1152: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
+      1160: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
+      1168: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
       1176: Resources/BallisticWeapons/Rifles/HandAK12.png
       1184: Resources/BallisticWeapons/Rifles/HandAK12.png
       1192: Resources/BallisticWeapons/Rifles/HandAK12.png
@@ -6672,14 +6672,14 @@ extraSprites:
       3264: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3272: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3280: Resources/BallisticWeapons/Pistols/HandTaser.png
-      3288: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3296: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3304: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3312: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3320: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
+      3288: Resources/BallisticWeapons/Pistols/HandGlock17nomag.png
+      3296: Resources/BallisticWeapons/Pistols/HandGlock17.png
+      3304: Resources/BallisticWeapons/Pistols/HandGlock17.png
+      3312: Resources/BallisticWeapons/Pistols/HandGlock1730.png
+      3320: Resources/BallisticWeapons/Pistols/HandGlock18Stocknomag.png
       3328: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
       3336: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
-      3344: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
+      3344: Resources/BallisticWeapons/Pistols/HandGlock18Stock30.png
       3352: Resources/BallisticWeapons/Pistols/HandManhurin.png
       3360: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
       3368: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
