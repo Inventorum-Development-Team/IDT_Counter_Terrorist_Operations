@@ -948,6 +948,12 @@ items:
     recover: false
     
 extraSprites:
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      2: Resources/SoldiersAndArmors/SPICON_SHOUT.png
+
 ########################################
 ######### SPECIAL FORCES ##############
 ######################################

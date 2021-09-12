@@ -1,6 +1,6 @@
 items:
   - type: STR_SHOUT
-    specialIconSprite: 1
+    specialIconSprite: 2
     battleType: 9
     weight: 0
     accuracyUse: 1000
