@@ -2,7 +2,8 @@ Credits:
 Alex_D: Covert Van (modified), Little Bird (modified)
 Andr: M16, 9mm 20x
 Badfella: Default Uniform (modified)
-Hans Woofington: Heavy Armor inventory, original Uniform and Kevlar sprites (modified)
+Drages: ballistic bulletSprite
+Hans Woofington: Heavy Armor inventory, original Uniform and Kevlar inventory sprites (modified)
 JustTheDude: Terrorist Raider
 PERLHA: Taser BigOB
 Tingcat: Terrorist inventories

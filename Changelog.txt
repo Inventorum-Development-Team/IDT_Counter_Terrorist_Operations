@@ -2,6 +2,7 @@ X-Sep-2021 v0.1.2 Who Dares Wins
 Changes made:
 New Content:
 Bugfixes and Adjustments:
+*New UI, by efrenespartano
 *Replaced M4A1 with Mk 18 Mod 0, renamed M4 Carbine to M4A1 Carbine
 *New sprites, by efrenespartano
     - Glock 17
