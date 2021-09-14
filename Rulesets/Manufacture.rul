@@ -52,6 +52,12 @@ items:
     requiresBuy:
      - STR_ADV_NIGHTVISION
     size: 0.1
+  - type: STR_RIOT_ARMOR_PLATES
+    costBuy: 15000
+    costSell: 7500
+    requiresBuy:
+     - STR_RIOT_GEAR
+    size: 0.1
 
 
 manufacture:
@@ -569,6 +575,50 @@ manufacture:
      STR_DEFAULT_BACKPACK: 1
     refund: true
 
+  - name: STR_DEFAULT_KEVLAR_RIOT
+    time: 35
+    requires:
+     - STR_RIOT_GEAR
+    requiredItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_RIOT_ARMOR_PLATES: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_RIOT_REMOVAL
+    time: 35
+    requires:
+     - STR_RIOT_GEAR
+    requiredItems:
+     STR_DEFAULT_KEVLAR_RIOT: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_RIOT_ARMOR_PLATES: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
+    time: 35
+    requires:
+     - STR_RIOT_GEAR
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_RIOT: 1
+     STR_DEFAULT_BACKPACK: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR_RIOT_BACKPACK: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_RIOT_BACKPACK_REMOVAL
+    time: 5
+    requires:
+     - STR_RIOT_GEAR
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_RIOT_BACKPACK: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR_RIOT: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+
   - name: STR_DEFAULT_KEVLAR_NV
     time: 20
     requires:
@@ -706,8 +756,9 @@ extraStrings:
       STR_FN40GL: "FN40GL"
       STR_UBS: "Modular Accessory Shotgun System"
       STR_STOCK: "Pistol Stock"
-      STR_NV: "Nightvision Goggles"
-      STR_ADVNV: "Advanced Nightvision Goggles"
+      STR_NV: "Night Vision Goggles"
+      STR_ADVNV: "Advanced Night Vision Goggles"
+      STR_RIOT_ARMOR_PLATES: "Riot Armor Plates"
       STR_M4_SOPMOD_REMOVAL: "M4: Remove SOPMOD"
       STR_M4_M320_REMOVAL: "M4: Remove M320"
       STR_M4_UBS_REMOVAL: "M4: Remove MASS"
@@ -730,6 +781,8 @@ extraStrings:
       STR_GLOCK_18_STOCK_REMOVAL: "Glock 18: Remove Stock"
       STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL: "(Kevlar, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Nightvision"
+      STR_DEFAULT_KEVLAR_RIOT_REMOVAL: "(Kevlar, Face Shield): Remove Riot Armor Plates"
+      STR_DEFAULT_KEVLAR_RIOT_BACKPACK_REMOVAL: "(Kevlar, Face Shield, BP): Remove Backpack" 
       STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL: "(Kevlar, NV, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Nightvision"
       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL: "(Kevlar, ADVNV, BP): Remove Backpack"

@@ -3,12 +3,13 @@ Changes made:
 New Content:
 Bugfixes and Adjustments:
 *Replaced M4A1 with Mk 18 Mod 0, renamed M4 Carbine to M4A1 Carbine
-*New sprites
+*New sprites, by efrenespartano
     - Glock 17
     - Glock 18
     - Five-seveN
     - M4A1 Carbine
     - Mk 18 Mod 0
+*Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins

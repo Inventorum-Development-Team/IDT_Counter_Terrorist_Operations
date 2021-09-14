@@ -553,6 +553,12 @@ research:
      - STR_ARMORED_VEST_ACQUISITION
      - STR_SAFE_HOUSE_RAIDS
 
+  - name: STR_RIOT_GEAR
+    cost: 50
+    dependencies:
+     - STR_ARMORED_VEST_ACQUISITION
+     - STR_SAFE_HOUSE_RAIDS
+
   - name: STR_ADV_NIGHTVISION
     cost: 70
     dependencies:
@@ -971,6 +977,7 @@ extraStrings:
       STR_ARMORED_VEST_ACQUISITION: "Armored Vests"
       STR_BACKPACK_ACQUISITION: "Backpacks"
       STR_NIGHT_VISION: "Night-Vision Equipment"
+      STR_RIOT_GEAR: "Riot Gear"
       STR_ADV_NIGHTVISION: "Advanced Night-Vision"
       STR_HEAVY_VEST_ACQUISITION: "Heavy Vests"
       STR_SHOTGUN_ACQUISITION: "Shotgun Acquisition"
