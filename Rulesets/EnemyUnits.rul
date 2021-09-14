@@ -44,8 +44,8 @@ items:
   - type: STR_PR_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3002
-    floorSprite: 3002
+    bigSprite: 3003
+    floorSprite: 3003
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -297,7 +297,7 @@ armors:
 
       
   - type: STR_ENEMY_KEVLAR_NV
-    spriteSheet: BO.PCK
+    spriteSheet: BO_SPRITESHEET.PCK
     spriteInv: BOINV
     loftempsSet: [ 3 ]
     corpseBattle:
@@ -750,6 +750,22 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GUNNER_SPRITESHEET.png
 
+#################################
+######## ENEMY NV GUARD #########
+################################
+
+  - type: BO_SPRITESHEET.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardFaction/BO_SPRITESHEET.png
+
+  - type: BOINV.SPK
+    singleImage: true
+    files:
+      0: Resources/GuardFaction/BOINVM0.png
 
   - type: TERRORIST_GRENADIER_SPRITESHEET.PCK
     width: 512
