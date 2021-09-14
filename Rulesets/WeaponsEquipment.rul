@@ -198,7 +198,7 @@ items:
     power: 26
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 1
     battleType: 2
     damageType: 1
     damageAlter:
@@ -209,7 +209,7 @@ items:
     power: 29
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 14 #Pistol bullet 35*14=490
     battleType: 2
     damageType: 1
     damageAlter:
@@ -220,7 +220,7 @@ items:
     power: 31
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 14 #Pistol bullet 35*14=490
     battleType: 2
     damageType: 1
     damageAlter:
@@ -231,7 +231,7 @@ items:
     power: 34
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 14 #Pistol bullet 35*14=490
     battleType: 2
     damageType: 1
     damageAlter:
@@ -243,7 +243,7 @@ items:
     power: 33
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 14 #Pistol bullet 35*14=490
     battleType: 2
     damageType: 1
     damageAlter:
@@ -255,7 +255,7 @@ items:
     power: 35
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 14 #Pistol bullet 35*14=490
     battleType: 2
     damageType: 1
     damageAlter:
@@ -270,7 +270,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 #Rifle bullet 35*15=525
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -282,7 +282,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 #Rifle bullet 35*15=525
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -294,7 +294,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 #Rifle bullet 35*15=525
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -318,7 +318,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 #Rifle bullet 35*15=525
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -330,7 +330,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 #Rifle bullet 35*15=525
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -342,7 +342,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 #Rifle bullet 35*15=525
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -354,7 +354,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 #Rifle bullet 35*15=525
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -366,7 +366,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 16 #Large caliber bullet 35*16=560
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -378,7 +378,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 16 #Large caliber bullet 35*16=560
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -388,7 +388,7 @@ items:
     power: 75
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 16 #Large caliber bullet 35*16=560
     battleType: 2
     damageType: 1
     damageAlter:
@@ -6763,6 +6763,8 @@ extraSprites:
     subY: 3
     files:
       385: Resources/BallisticWeapons/Smoke/GrenadeLauncherProjectileSprite.png
+      490: Resources/BallisticWeapons/BulletSprites/Ballistic_Bullet.png
+ 
   # - type: MEDIKIT_BACKGROUND
   #   singleImage: true
   #   width: 320
