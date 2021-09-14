@@ -1,0 +1,40 @@
+extraSprites:
+  - type: InvCopy
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy.png
+  - type: InvCopyActive
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy_active.png
+  - type: InvPaste
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste.png
+  - type: InvPasteEmpty
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste_empty.png
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: Resources/UI/TAC01.png
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: Resources/UI/ui.png
+  - type: KneelButton
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/UI/kneelButton.png
