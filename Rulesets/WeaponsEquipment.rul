@@ -186,7 +186,7 @@ items:
     power: 40
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 2
+    bulletSprite: 10
     battleType: 2
     damageType: 6
     damageAlter:
@@ -209,7 +209,7 @@ items:
     power: 29
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 14 #Pistol bullet 35*14=490
+    bulletSprite: 11 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -220,7 +220,7 @@ items:
     power: 31
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 14 #Pistol bullet 35*14=490
+    bulletSprite: 11 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -231,7 +231,7 @@ items:
     power: 34
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 14 #Pistol bullet 35*14=490
+    bulletSprite: 11 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -243,7 +243,7 @@ items:
     power: 33
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 14 #Pistol bullet 35*14=490
+    bulletSprite: 12 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -255,7 +255,7 @@ items:
     power: 35
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 14 #Pistol bullet 35*14=490
+    bulletSprite: 2 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -270,7 +270,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 15 #Rifle bullet 35*15=525
+    bulletSprite: 12 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -282,7 +282,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 15 #Rifle bullet 35*15=525
+    bulletSprite: 13 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -294,7 +294,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 15 #Rifle bullet 35*15=525
+    bulletSprite: 14 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -318,7 +318,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 15 #Rifle bullet 35*15=525
+    bulletSprite: 13 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -330,7 +330,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 15 #Rifle bullet 35*15=525
+    bulletSprite: 15 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -342,7 +342,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 15 #Rifle bullet 35*15=525
+    bulletSprite: 13 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -354,7 +354,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 15 #Rifle bullet 35*15=525
+    bulletSprite: 16 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -366,7 +366,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 16 #Large caliber bullet 35*16=560
+    bulletSprite: 17 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -378,7 +378,7 @@ items:
     hitSound: 22
     battleType: 2
     damageType: 1
-    bulletSprite: 16 #Large caliber bullet 35*16=560
+    bulletSprite: 18 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -388,7 +388,7 @@ items:
     power: 75
     hitAnimation: 26
     hitSound: 22
-    bulletSprite: 16 #Large caliber bullet 35*16=560
+    bulletSprite: 18 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -403,7 +403,7 @@ items:
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -414,7 +414,7 @@ items:
     power: 45
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -429,7 +429,7 @@ items:
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
@@ -447,7 +447,7 @@ items:
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -458,7 +458,7 @@ items:
     power: 55
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -473,7 +473,7 @@ items:
     shotgunSpread: 100
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
@@ -487,7 +487,7 @@ items:
   - &STR_40MM_FRAG
     type: STR_40MM_FRAG
     power: 50
-    bulletSprite: 14
+    bulletSprite: 19
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -502,7 +502,7 @@ items:
   - &STR_40MM_SMOKE
     type: STR_40MM_SMOKE
     power: 40
-    bulletSprite: 14
+    bulletSprite: 19
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -516,7 +516,7 @@ items:
   - &STR_APAV40
     type: STR_APAV40
     power: 60
-    bulletSprite: 14
+    bulletSprite: 4
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -531,7 +531,7 @@ items:
   - &STR_40MM_NON_LETHAL
     type: STR_40MM_NON_LETHAL
     power: 40
-    bulletSprite: 14
+    bulletSprite: 19
     hitSound: 0
     hitAnimation: 26
     battleType: 2
@@ -548,7 +548,7 @@ items:
   - &STR_CG_HEAT
     type: STR_CG_HEAT
     power: 200
-    bulletSprite: 0
+    bulletSprite: 20
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -562,7 +562,7 @@ items:
   - &STR_CG_HE
     type: STR_CG_HE
     power: 100
-    bulletSprite: 0
+    bulletSprite: 20
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -590,7 +590,7 @@ items:
   - &STR_RPG_29_HEAT
     type: STR_RPG_29_HEAT
     power: 190
-    bulletSprite: 0
+    bulletSprite: 21
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -604,7 +604,7 @@ items:
   - &STR_RPG_29_THERMO
     type: STR_RPG_29_THERMO
     power: 140
-    bulletSprite: 0
+    bulletSprite: 21
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -6757,13 +6757,23 @@ extraSprites:
   #     70: Resources/BallisticWeapons/Smoke/GrenadeLauncherHitAnimation.gif
   #     80: Resources/BallisticWeapons/Smoke/StunHitAnimation.gif
   - type: Projectiles
-    height: 27
+    height: 3
     width: 105
     subX: 3
     subY: 3
     files:
-      385: Resources/BallisticWeapons/Smoke/GrenadeLauncherProjectileSprite.png
-      490: Resources/BallisticWeapons/BulletSprites/Ballistic_Bullet.png
+      350: Resources/BallisticWeapons/BulletSprites/TaserBullet.png #10
+      385: Resources/BallisticWeapons/BulletSprites/9mmPistolBullet.png #11
+      420: Resources/BallisticWeapons/BulletSprites/57mmPistolBullet.png #12
+      455: Resources/BallisticWeapons/BulletSprites/RussianIntermediateRifleBullet.png #13
+      490: Resources/BallisticWeapons/BulletSprites/NATOIntermediateRifleBullet.png #14
+      525: Resources/BallisticWeapons/BulletSprites/NATOFullRifleBullet.png #15
+      560: Resources/BallisticWeapons/BulletSprites/SubsonicBullet.png #16
+      595: Resources/BallisticWeapons/BulletSprites/LapuaMagnumBullet.png #17
+      630: Resources/BallisticWeapons/BulletSprites/HighCaliberBullet.png #18
+      665: Resources/BallisticWeapons/BulletSprites/40mmGrenadeBullet.png #19
+      700: Resources/BallisticWeapons/BulletSprites/CarlGustavRound.png #20
+      735: Resources/BallisticWeapons/BulletSprites/RussianRocket.png #21
  
   # - type: MEDIKIT_BACKGROUND
   #   singleImage: true
