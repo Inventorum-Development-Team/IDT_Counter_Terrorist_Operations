@@ -184,7 +184,7 @@ armors:
   - type: STR_DEFAULT_KEVLAR_RIOT
     spriteSheet: RIOT_KEVLAR_SPRITESHEET.PCK
     spriteInv: KEVLAR_RIOT_INV
-    storeItem: STR_DEFAULT_KEVLAR
+    storeItem: STR_DEFAULT_KEVLAR_RIOT
     corpseBattle:
       - STR_CORPSE_DEFAULT_RIOT
     loftempsSet: [ 3 ]
