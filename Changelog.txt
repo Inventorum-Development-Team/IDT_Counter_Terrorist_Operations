@@ -10,7 +10,10 @@ Bugfixes and Adjustments:
     - Five-seveN
     - M4A1 Carbine
     - Mk 18 Mod 0
+    - USAS-12
+    - KS-23
 *Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
+*New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins
