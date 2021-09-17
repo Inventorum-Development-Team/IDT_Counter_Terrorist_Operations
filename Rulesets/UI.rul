@@ -38,3 +38,39 @@ extraSprites:
     subY: 16
     files:
       0: Resources/UI/kneelButton.png
+#  - type: SCANBORD.PCK
+#    singleImage: true
+#    files:
+#      0: Resources/UI/SCANBORD.png
+  - type: BigBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: BigStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: BigWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: BigShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+  - type: FloorBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: FloorStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: FloorWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: FloorShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
