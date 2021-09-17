@@ -74,3 +74,38 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/Shock.png
+interfaces:
+  - type: inventory
+    elements: #color is the color index of the PAL_BATTLESCAPE palette
+      - id: textName
+        color: 128 # 64
+      - id: textTUs
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textWeight
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine1
+        custom: 11 # 1
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine2
+        custom: 12 # 2
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine3
+        custom: 13 # 3
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine4
+        custom: 14 # 4
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textItem
+        color: 112 # 48
+        color2: 16 # 16
+      - id: textAmmo
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textSlots
+        color: 112
