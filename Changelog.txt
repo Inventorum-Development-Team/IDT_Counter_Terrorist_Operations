@@ -5,15 +5,21 @@ Bugfixes and Adjustments:
 *New UI, by efrenespartano
 *Replaced M4A1 with Mk 18 Mod 0, renamed M4 Carbine to M4A1 Carbine
 *New sprites, by efrenespartano
-    - Glock 17
-    - Glock 18
-    - Five-seveN
-    - M4A1 Carbine
-    - Mk 18 Mod 0
-    - USAS-12
-    - KS-23
+	- Glock 17
+	- Glock 18
+	- Five-seveN
+	- M4A1 Carbine
+	- Mk 18 Mod 0
+	- USAS-12
+	- KS-23
+	- Skorpion vz 68
+	- Makarov PM
+	- USSOCOM MK 23
+	- M1911
+	- M320 GL
 *Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
 *New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
+*New text colors on inventory, by Alex_D
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins
