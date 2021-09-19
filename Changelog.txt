@@ -17,9 +17,15 @@ Bugfixes and Adjustments:
 	- USSOCOM MK 23
 	- M1911
 	- M320 GL
+	- P90
+	- Tec9
+	- MPX
 *Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
 *New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
 *New text colors on inventory, by Alex_D
+*Each weapon has an unique fire sound
+*Random hit sounds 
+*Shock, Stun, Bleed, Burning icons enabled
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins
