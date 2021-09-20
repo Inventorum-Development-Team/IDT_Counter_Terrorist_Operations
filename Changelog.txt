@@ -23,7 +23,7 @@ Bugfixes and Adjustments:
 *Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
 *New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
 *New text colors on inventory, by Alex_D
-*Each weapon has an unique fire sound
+*Each weapon has an unique fire and reload sound, normalised by pedroterzero
 *Random hit sounds 
 *Shock, Stun, Bleed, Burning icons enabled
     
