@@ -44,14 +44,24 @@ items:
   - type: STR_PR_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3003
-    floorSprite: 3003
+    bigSprite: 3056
+    floorSprite: 3056
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 30
     recoverCorpse: false
 
+  - type: STR_PR_HEAVY_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3057
+    floorSprite: 3057
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
 
   - type: STR_TERRORIST_COMMANDER
     liveAlien: true
@@ -319,10 +329,10 @@ armors:
       bravery: 10
 
   - type: STR_HEAVY_ENEMY
-    spriteSheet: ARMOR_RIOT.PCK
-    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    spriteSheet: MASKA_SPRITESHEET.PCK
+    spriteInv: MASKAINV.SPK
     corpseBattle:
-     - STR_PR_CORPSE
+     - STR_PR_HEAVY_CORPSE
     loftempsSet: [ 3 ]
     frontArmor: 40
     sideArmor: 20
@@ -750,8 +760,16 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GUNNER_SPRITESHEET.png
 
+  - type: TERRORIST_GRENADIER_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/TerroristFaction/INSURGENT_SPRITESHEET.png
+
 #################################
-######## ENEMY NV GUARD #########
+######## ENEMY NV PMC ##########
 ################################
 
   - type: BO_SPRITESHEET.PCK
@@ -767,13 +785,22 @@ extraSprites:
     files:
       0: Resources/GuardFaction/BOINVM0.png
 
-  - type: TERRORIST_GRENADIER_SPRITESHEET.PCK
+#################################
+######## ENEMY HEAVY ARMOR ##########
+################################
+
+  - type: MASKA_SPRITESHEET.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/TerroristFaction/INSURGENT_SPRITESHEET.png
+      0: Resources/GuardFaction/MASKA_SPRITESHEET.png
+
+  - type: MASKAINV.SPK
+    singleImage: true
+    files:
+      0: Resources/GuardFaction/MASKAINVM0.png
 
   - type: BIGOBS.PCK
     files:
@@ -781,12 +808,20 @@ extraSprites:
       3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_BIGOB.png
       3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_BIGOB.png
       3053: Resources/TerroristFaction/INSURGENT_COROSE_BIGOB.png
+      #3054: Resources/GuardFaction/PMC_BLUE_CORPSE_BIGOB.png
+      #3055: Resources/GuardFaction/PMC_WHITE_CORPSE_BIGOB.png
+      3056: Resources/GuardFaction/BO_CORPSE_BIGOB.png
+      3057: Resources/GuardFaction/MASKA_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
       3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
       3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
       3053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
+      #3054: Resources/GuardFaction/PMC_BLUE_CORPSE_FLOOROB.png
+      #3055: Resources/GuardFaction/PMC_WHITE_CORPSE_FLOOROB.png
+      3056: Resources/GuardFaction/BO_CORPSE_FLOOROB.png
+      3057: Resources/GuardFaction/MASKA_CORPSE_FLOOROB.png
 
   - type: TERRORIST_MALE_INVENTORY.SPK
     singleImage: true
@@ -825,6 +860,7 @@ extraStrings:
       STR_GASMASK_CORPSE: "Raider Corpse"
       STR_GRENADIER_CORPSE: "Grenadier Corpse"
       STR_PR_CORPSE: "Guard Corpse"
+      STR_PR_HEAVY_CORPSE: "Heavy Guard Corpse"
 
       STR_TERRORIST_GRENADIER: "Terrorist Grenadier"
       STR_TERRORIST_SNIPER: "Terrorist Sniper"

@@ -780,14 +780,14 @@ extraStrings:
       STR_SCAR_H_GL_REMOVAL: "SCAR-H: Remove FN40GL"
       STR_GLOCK_18_STOCK_REMOVAL: "Glock 18: Remove Stock"
       STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL: "(Kevlar, BP): Remove Backpack"
-      STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Nightvision"
+      STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Night Vision"
       STR_DEFAULT_KEVLAR_RIOT_REMOVAL: "(Kevlar, Face Shield): Remove Riot Armor Plates"
       STR_DEFAULT_KEVLAR_RIOT_BACKPACK_REMOVAL: "(Kevlar, Face Shield, BP): Remove Backpack" 
       STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL: "(Kevlar, NV, BP): Remove Backpack"
-      STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Nightvision"
+      STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Night Vision"
       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL: "(Kevlar, ADVNV, BP): Remove Backpack"
-      STR_HEAVY_NV_REMOVAL: "(Heavy Vest, NV): Remove Nightvision"
-      STR_HEAVY_ADVNV_REMOVAL: "(Heavy Vest, ADVNV): Remove Adv. Nightvision"
+      STR_HEAVY_NV_REMOVAL: "(Heavy Armor, NV): Remove Night Vision"
+      STR_HEAVY_ADVNV_REMOVAL: "(Heavy Armor, ADVNV): Remove Adv. Night Vision"
 
 
 

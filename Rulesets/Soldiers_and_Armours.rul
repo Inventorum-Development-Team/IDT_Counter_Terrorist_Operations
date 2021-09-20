@@ -1320,35 +1320,6 @@ extraSprites:
 
 
 ########################################
-######### NATO DELTA ARMOR #############
-######################################
-  - type: ARMOR_DELTA.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/SoldiersAndArmors/DeltaArmor/ARMOR_DELTA.PNG
-  - type: ARMOR_DELTA_INVENTORY.SPK
-    height: 200
-    width: 320
-    singleImage: true
-    files:
-      0: Resources/SoldiersAndArmors/DeltaArmor/man_7m0.png
-  - type: DELTA_ARMOR_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/SoldiersAndArmors/DeltaArmor/DELTA_ARMOR_IMAGE.PNG
-  - type: BIGOBS.PCK
-    files:
-      510: Resources/SoldiersAndArmors/DeltaArmor/DELTA_ARMOR_CORPSE_BIGOB.png
-  - type: FLOOROB.PCK
-    files:
-      510: Resources/SoldiersAndArmors/DeltaArmor/DELTA_ARMOR_CORPSE_FLOOROB.png
-
-########################################
 ######### USSR RIOT ARMOR #############
 ######################################
   - type: ARMOR_RIOT.PCK
@@ -1392,8 +1363,8 @@ extraStrings:
        STR_DEFAULT_KEVLAR_BACKPACK_NV: "Uniform (Kevlar, NV, BP)"
        STR_DEFAULT_KEVLAR_ADVNV: "Uniform (Kevlar, Adv. NV)"
        STR_DEFAULT_KEVLAR_BACKPACK_ADVNV: "Uniform (Kevlar, Adv. NV, BP)"
-       STR_HEAVY: "Heavy Vest"
-       STR_HEAVY_NV: "Heavy Vest (NV)"
-       STR_HEAVY_ADVNV: "Heavy Vest (Adv. NV)"
+       STR_HEAVY: "Heavy Armor"
+       STR_HEAVY_NV: "Heavy Armor (NV)"
+       STR_HEAVY_ADVNV: "Heavy Armor (Adv. NV)"
 
        STR_CORPSE: Corpse

@@ -1635,7 +1635,6 @@ items:
     bigSprite: 3280
     floorSprite: 3280
     handSprite: 3280
-    reloadSound: 4
     fireSound: 4
     costBuy: 10000
     costSell: 5000
@@ -5451,9 +5450,9 @@ items:
     battleType: 1
     bigSprite: 3872
     floorSprite: 3872
-    handSprite: 158
-    reloadSound: 159
-    fireSound: 4
+    handSprite: 3872
+    reloadSound: 158
+    fireSound: 159
     costBuy: 38000
     costSell: 19000
     accuracyAimed: 60
