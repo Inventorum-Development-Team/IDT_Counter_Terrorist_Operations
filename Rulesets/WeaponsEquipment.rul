@@ -4427,7 +4427,7 @@ items:
     tuAimed: 85
     tuSnap: 55
     tuAuto: 70
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:
@@ -4604,7 +4604,7 @@ items:
     kneelBonus: 145
     tuAimed: 80
     tuSnap: 55
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:
@@ -4638,7 +4638,7 @@ items:
     kneelBonus: 145
     tuAimed: 85
     tuSnap: 65
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:
@@ -4706,7 +4706,7 @@ items:
     kneelBonus: 150
     tuAimed: 90
     tuSnap: 70
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:

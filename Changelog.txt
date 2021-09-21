@@ -18,8 +18,13 @@ Bugfixes and Adjustments:
 	- M1911
 	- M320 GL
 	- P90
-	- Tec9
+	- TEC9
 	- MPX
+	- AI AW
+	- AWP
+	- G3
+	- PSG-1
+	- MSG-90
 *Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
 *New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
 *New text colors on inventory, by Alex_D
