@@ -5,7 +5,7 @@ items:
     weight: 0
     accuracyUse: 1000
     psiAttackName: STR_SHOUT
-    costUse:     # <-- added this
+    costUse:
       time: 30
     costPanic:
       time: 0
@@ -23,6 +23,7 @@ items:
     hitAnimation: -1
     maxRange: 15
     targetMatrix: 6
+    LOSRequired: true
     blastRadius: 0
     tags:
       Shout: 1

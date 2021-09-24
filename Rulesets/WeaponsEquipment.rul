@@ -58,7 +58,8 @@ items:
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 15
-    damageAlter:
+    meleeType: 7
+    meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
      ToArmor: 0.0
@@ -71,7 +72,8 @@ items:
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
-    damageAlter:
+    meleeType: 7
+    meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
      ToArmor: 0.0
@@ -189,10 +191,12 @@ items:
     bulletSprite: 10
     battleType: 2
     damageType: 6
+    blastRadius: 0
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
       ToArmor: 0
+      FixRadius: 0
   - &STR_38_SPECIAL_AMMO
     type: STR_38_SPECIAL
     power: 26
