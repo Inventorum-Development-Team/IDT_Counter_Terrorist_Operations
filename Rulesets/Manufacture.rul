@@ -40,6 +40,8 @@ items:
     requiresBuy:
      - STR_STOCK_ACQUISITION
     size: 0.1
+    invWidth: 2
+    bigSprite: 2840
   - type: STR_NV
     costBuy: 15000
     costSell: 7500

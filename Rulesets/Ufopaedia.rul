@@ -1643,7 +1643,7 @@ extraStrings:
       STR_M203_UFOPAEDIA: "A single shot grenade launcher introduced into the american military during the late Vietnam war. Originally designed to attach under the barrel of the M16 rifle, it has been adapted to fit into a multitude of other rifles."
       STR_FN40GL_UFOPAEDIA: "The FN40GL is a 40mm grenade launcher that can be attached under the barrel of the FN SCAR rifle."
       STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
-      STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster.S"
+      STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster."
       
       STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."

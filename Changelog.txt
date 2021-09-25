@@ -37,6 +37,7 @@ Bugfixes and Adjustments:
 *Fixed issue with UZI sprites
 *Removed USAS-12 from enemy item sets
 *Reduced Armoury and lab buildtime, reduced lab cost
+*Fixed Crash on ufopaedia article for stock
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins

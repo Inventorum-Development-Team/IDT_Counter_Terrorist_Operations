@@ -6082,6 +6082,7 @@ extraSprites:
       2816: Resources/BallisticWeapons/WeaponMods/BigM203Accessory.png
       2824: Resources/BallisticWeapons/WeaponMods/MASS.png
       2832: Resources/BallisticWeapons/WeaponMods/SOPMOD.png
+      2840: Resources/BallisticWeapons/WeaponMods/Stock.png 
       3200: Resources/BallisticWeapons/Ammo/BigTaserClip.png
       3208: Resources/BallisticWeapons/Ammo/BigRevolverClip.png
       3216: Resources/BallisticWeapons/Ammo/BigGyurza20.png
