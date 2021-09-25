@@ -75,6 +75,7 @@ armors:
     sideArmor: 4
     rearArmor: 4
     underArmor: 4
+    loftempsSet: [ 3 ]
   - &STR_VEST
     type: STR_VEST
     corpseBattle:
@@ -83,6 +84,7 @@ armors:
     sideArmor: 10
     rearArmor: 30
     underArmor: 4
+    loftempsSet: [ 3 ]
   - &STR_VEST_RIOT
     type: STR_VEST_RIOT
     corpseBattle:
@@ -91,6 +93,7 @@ armors:
     sideArmor: 15
     rearArmor: 30
     underArmor: 4
+    loftempsSet: [ 3 ]
   - &STR_HEAVY_VEST
     type: STR_HEAVY_VEST
     corpseBattle:
@@ -99,6 +102,7 @@ armors:
     sideArmor: 20
     rearArmor: 40
     underArmor: 4
+    loftempsSet: [ 3 ]
 
   - type: STR_DEFAULT
     spriteSheet: UNIFORM_SPRITESHEET.PCK
