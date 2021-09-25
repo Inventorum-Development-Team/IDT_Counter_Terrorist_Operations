@@ -34,6 +34,7 @@ Bugfixes and Adjustments:
 *Fixed issues with rifle and pistol melee, by Buscher
 *Low morale enemies now flash, by Buscher
 *Handcuffs now also work on unarmed enemies, by Buscher
+*Fixed issue with UZI sprites
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins

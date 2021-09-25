@@ -2379,9 +2379,9 @@ items:
     size: 1
     weight: 28
     # battleType: 1
-    bigSprite: 3408
-    floorSprite: 3408
-    handSprite: 3408
+    bigSprite: 3896
+    floorSprite: 3896
+    handSprite: 3896
     reloadSound: 177
     fireSound: 178
     costBuy: 14000
@@ -5806,9 +5806,7 @@ items:
     armor: 8
 
 extraSprites:
-  #########################################
-  ######### TIER I WEAPONS USA ############
-  #########################################
+
   - type: BIGOBS.PCK
     files:
       200: Resources/BallisticWeapons/Ammo/BigMakarov_x10.png
@@ -6110,14 +6108,14 @@ extraSprites:
       3384: Resources/BallisticWeapons/Pistols/BigStetchkin.png
       # 3392: Resources/BallisticWeapons
       # 3400: Resources/BallisticWeapons
-      3408: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
-      3416: Resources/BallisticWeapons/SMGs/BigUziunfolded20.png
-      3424: Resources/BallisticWeapons/SMGs/BigUziunfolded.png
-      3432: Resources/BallisticWeapons/SMGs/BigUziunfolded40.png
-      3440: Resources/BallisticWeapons/SMGs/BigUzinomag.png
-      3448: Resources/BallisticWeapons/SMGs/BigUzi20.png
-      3456: Resources/BallisticWeapons/SMGs/BigUzi.png
-      3464: Resources/BallisticWeapons/SMGs/BigUzi40.png
+      # 3408: 
+      # 3416: 
+      # 3424: 
+      # 3432: 
+      # 3440: 
+      # 3448: 
+      # 3456: 
+      # 3464: 
       3472: Resources/BallisticWeapons/SMGs/BigUMP45nomag.png
       3480: Resources/BallisticWeapons/SMGs/BigUMP45.png
       3488: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
@@ -6170,7 +6168,17 @@ extraSprites:
       3864: Resources/BallisticWeapons/LMGs/BigNegev.png
       3872: Resources/BallisticWeapons/Artillery/BigGM-94.png
       3880: Resources/BallisticWeapons/Artillery/BigRPG-29.png
-      3888: Resources/BallisticWeapons/Ammo/Big762SovietSniperAmmo_x10.png
+      3888: Resources/BallisticWeapons/Ammo/Big762SovietSniperAmmo_x10.png   
+      3896: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
+      3904: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
+      3912: Resources/BallisticWeapons/SMGs/BigUziunfolded20.png
+      3920: Resources/BallisticWeapons/SMGs/BigUziunfolded.png
+      3928: Resources/BallisticWeapons/SMGs/BigUziunfolded40.png
+      3936: Resources/BallisticWeapons/SMGs/BigUzinomag.png
+      3944: Resources/BallisticWeapons/SMGs/BigUzinomag.png
+      3952: Resources/BallisticWeapons/SMGs/BigUzi20.png
+      3960: Resources/BallisticWeapons/SMGs/BigUzi.png
+      3968: Resources/BallisticWeapons/SMGs/BigUzi40.png
 
 
 
@@ -6469,14 +6477,14 @@ extraSprites:
       3384: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
       # 3392: Resources/BallisticWeapons
       # 3400: Resources/BallisticWeapons
-      3408: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3416: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3424: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3432: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3440: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3448: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3456: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3464: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      # 3408:
+      # 3416: 
+      # 3424: 
+      # 3432: 
+      # 3440: 
+      # 3448: 
+      # 3456: 
+      # 3464: 
       3472: Resources/BallisticWeapons/SMGs/FloorUMP45.png
       3480: Resources/BallisticWeapons/SMGs/FloorUMP45.png
       3488: Resources/BallisticWeapons/SMGs/FloorVityaz.png
@@ -6530,6 +6538,16 @@ extraSprites:
       3872: Resources/BallisticWeapons/Artillery/FloorGM-94.png
       3880: Resources/BallisticWeapons/Artillery/FloorRPG-29.png
       3888: Resources/BallisticWeapons/Ammo/Floor.png
+      3896: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3904: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3912: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3920: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3928: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3936: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3944: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3952: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3960: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3968: Resources/BallisticWeapons/SMGs/FloorUzi.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -6829,14 +6847,14 @@ extraSprites:
       3384: Resources/BallisticWeapons/Pistols/HandStetchkin.png
       # 3392: Resources/BallisticWeapons
       # 3400: Resources/BallisticWeapons
-      3408: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3416: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3424: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3432: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3440: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3448: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3456: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3464: Resources/BallisticWeapons/SMGs/HandUzi.png
+      # 3408:
+      # 3416: 
+      # 3424: 
+      # 3432: 
+      # 3440: 
+      # 3448: 
+      # 3456: 
+      # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png
       3480: Resources/BallisticWeapons/SMGs/HandUMP45.png
       3488: Resources/BallisticWeapons/SMGs/HandVityaz.png
@@ -6890,6 +6908,16 @@ extraSprites:
       3872: Resources/BallisticWeapons/Artillery/HandGM-94.png
       3880: Resources/BallisticWeapons/Artillery/HandRPG-29.png
       3888: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      3896: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3904: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3912: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3920: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3928: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3936: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3944: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3952: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3960: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3968: Resources/BallisticWeapons/SMGs/HandUzi.png
   # - type: SMOKE.PCK
   #   height: 80
   #   width: 160
