@@ -63,6 +63,7 @@ items:
     tuMelee: 30
     meleePower: 15
     meleeType: 7
+    meleeHitSound: [350,351,352]
     meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
@@ -81,6 +82,7 @@ items:
     tuMelee: 30
     meleePower: 10
     meleeType: 7
+    meleeHitSound: [350,351,352]
     meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
@@ -106,6 +108,8 @@ items:
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
+    meleeType: 7
+    meleeHitSound: [350,351,352]
     meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0

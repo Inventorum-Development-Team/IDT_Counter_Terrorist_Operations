@@ -1,8 +1,11 @@
 X-Sep-2021 v0.1.2 Who Dares Wins
 Changes made:
 New Content:
-Bugfixes and Adjustments:
 *New UI, by efrenespartano
+*New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
+*Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
+*New text colors on inventory, by Alex_D
+Bugfixes and Adjustments:
 *Replaced M4A1 with Mk 18 Mod 0, renamed M4 Carbine to M4A1 Carbine
 *New sprites, by efrenespartano
 	- Glock 17
@@ -25,12 +28,12 @@ Bugfixes and Adjustments:
 	- G3
 	- PSG-1
 	- MSG-90
-*Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
-*New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
-*New text colors on inventory, by Alex_D
 *Each weapon has an unique fire and reload sound, normalised by pedroterzero
-*Random hit sounds 
-*Shock, Stun, Bleed, Burning icons enabled
+*Added Random hit sounds
+*Shock, Stun, Bleed, Burning icons enabled, icons by Meridian
+*Fixed issues with rifle and pistol melee, by Buscher
+*Low morale enemies now flash, by Buscher
+*Handcuffs now also work on unarmed enemies, by Buscher
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins
