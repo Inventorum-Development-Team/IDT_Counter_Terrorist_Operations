@@ -21,8 +21,8 @@ facilities:
     spriteShape: 1
     spriteFacility: 18
   - type: STR_LABORATORY
-    buildCost: 750000
-    buildTime: 26
+    buildCost: 325000
+    buildTime: 13
     monthlyCost: 30000
     labs: 10
     mapName: XBASE_02
@@ -32,7 +32,7 @@ facilities:
     requires:
      - STR_ARMORY
     buildCost: 150000
-    buildTime: 32
+    buildTime: 16
     monthlyCost: 35000
     workshops: 5
     mapName: XBASE_03
