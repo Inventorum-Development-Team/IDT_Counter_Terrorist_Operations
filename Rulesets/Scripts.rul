@@ -478,6 +478,13 @@ extended:
       FlashBanged: int
       OGfiring: int
       OGreactions: int
+
+      UNIT_RECOLOR_DESYNC: int
+      UNIT_RECOLOR_COLOR: int
+      UNIT_RECOLOR_BRIGHTNESS: int
+      UNIT_RECOLOR_START_FRAME: int
+      UNIT_RECOLOR_FRAME_LENGTH: int
+
     RuleItem:
       Shout: int
       Cuffs: int
@@ -858,6 +865,75 @@ extended:
             add sprite_index 8;
           end;
           return sprite_index;
+
+     recolorUnitSprite:
+      # Based on script of the 40k mod
+      # Credits go to BulletDesigner and Ohartenstein
+      #*** Handles periodic recolors due to buffs/debuffs on units ***
+       - offset: 10
+         code: |
+          var int frame;
+          var int frameLength;
+          var int recolorPeriod;
+          var int desync;
+          var int color;
+          var int newShade;
+          var int temp;
+          var int morale;
+
+          # Check to make sure this unit isn't set to be recolored by a hit first
+          unit.getTag frame Tag.UNIT_RECOLOR_START_FRAME;
+          unit.getTag frameLength Tag.UNIT_RECOLOR_FRAME_LENGTH;
+
+          if neq frame 0;
+
+            set temp anim_frame;
+            sub temp frame;
+
+            if lt temp frameLength;
+
+              return new_pixel;
+
+            end;
+
+          end;
+
+          set recolorPeriod 32;
+          set frameLength 4;
+
+          unit.getTag desync Tag.UNIT_RECOLOR_DESYNC;
+          set frame anim_frame;
+          add frame desync;
+          mod frame recolorPeriod;
+
+          sub frame frameLength;
+          sub frame 1;
+
+          BattleUnit.getMorale unit morale;
+
+          if and lt morale 30 lt frame frameLength;
+
+            set color COLOR_X1_GRAY;
+
+            set temp frameLength;
+            sub temp frame;
+            mul temp 2; # a parameter that creates a nice flash animation
+            get_shade newShade new_pixel;
+            sub newShade temp;
+
+            if and gt newShade 3 lt newShade 16;
+
+              set_shade new_pixel newShade;
+              set_color new_pixel color;
+
+            end;
+
+          end;
+
+          return new_pixel;
+
+
+
 extraStrings:
   - type: en-US
     strings:
