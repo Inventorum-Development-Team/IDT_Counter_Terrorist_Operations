@@ -700,15 +700,32 @@ extended:
           var int x;
           var int morale;
           var int health;
+
+          var int emptyHands;
+          var ptr BattleItem handWeapon;
+
           BattleItem.getTag item x Tag.Cuffs;
           if eq x 1;
+
+           BattleUnit.getLeftHandWeapon target handWeapon;
+
+           if eq null handWeapon;
+             add emptyHands 1;
+           end;
+
+           BattleUnit.getRightHandWeapon target handWeapon;
+
+           if eq null handWeapon;
+             add emptyHands 1;
+           end;
+
            BattleUnit.getMorale target morale;
-           if lt morale 30;
+           if or lt morale 30 eq emptyHands 2;
              BattleUnit.getHealth target health;
              mul health 2;
              BattleUnit.setStun target health;
-             end;
            end;
+          end;
           return;
 
     #  reactionWeaponAction: #Jamming Script (doesn't work)
