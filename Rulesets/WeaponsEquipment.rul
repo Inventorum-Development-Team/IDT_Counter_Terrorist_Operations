@@ -55,6 +55,10 @@ items:
 
   - &STR_RIFLE_MELEE
     type: STR_RIFLE_MELEE
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 15
@@ -69,6 +73,10 @@ items:
 
   - &STR_PISTOL 
     type: STR_PISTOL
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
@@ -83,6 +91,10 @@ items:
 
   - &STR_AUTO_PISTOL 
     type: STR_AUTO_PISTOL
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -94,7 +106,7 @@ items:
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
-    damageAlter:
+    meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
      ToArmor: 0.0
@@ -104,6 +116,10 @@ items:
 
   - &STR_SMG
     type: STR_SMG
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     confAuto:
       shots: 7
       name: STR_FULL_AUTO
@@ -138,6 +154,11 @@ items:
       name: STR_FIRE_SHOTGUN
       ammoSlot: 1
     refNode: *STR_RIFLE_MELEE
+    ammo: # required by battleType for STR_AR_UBS
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+        1:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
 
   - &STR_AR_GL
     type: STR_AR_GL
@@ -152,9 +173,18 @@ items:
       ammoSlot: 1
       arcing: true
     refNode: *STR_RIFLE_MELEE
+    ammo: # required by battleType for STR_AR_UBS
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+        1:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
 
   - &STR_LMG
     type: STR_LMG
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     confAuto:
       shots: 15
       name: STR_SUPPRESSION
@@ -1635,7 +1665,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 12
-    battleType: 1
+    # battleType: 1
     bigSprite: 3280
     floorSprite: 3280
     handSprite: 3280
@@ -1672,7 +1702,7 @@ items:
       - STR_P226_ACQUISITION
     size: 1
     weight: 10
-    battleType: 1
+    # battleType: 1
     bigSprite: 640
     floorSprite: 640
     handSprite: 640
@@ -1711,7 +1741,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 11
-    battleType: 1
+    # battleType: 1
     bigSprite: 3288
     floorSprite: 3288
     handSprite: 3288
@@ -1750,7 +1780,7 @@ items:
       - STR_GLOCK_18_ACQUISITION
     size: 1
     weight: 11
-    battleType: 1
+    # battleType: 1
     bigSprite: 2160
     floorSprite: 2160
     handSprite: 2160
@@ -1790,7 +1820,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 12
-    battleType: 1
+    # battleType: 1
     bigSprite: 3320
     floorSprite: 3320
     handSprite: 3320
@@ -1827,7 +1857,7 @@ items:
       - STR_M1911_ACQUISITION
     size: 1
     weight: 12
-    battleType: 1
+    # battleType: 1
     bigSprite: 664
     floorSprite: 664
     handSprite: 664
@@ -1866,7 +1896,7 @@ items:
       - STR_MK_23_ACQUISITION
     size: 1
     weight: 14
-    battleType: 1
+    # battleType: 1
     bigSprite: 680
     floorSprite: 680
     handSprite: 680
@@ -1903,7 +1933,7 @@ items:
     categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
     size: 1
     weight: 7
-    battleType: 1
+    # battleType: 1
     bigSprite: 696
     floorSprite: 696
     handSprite: 696
@@ -1941,7 +1971,7 @@ items:
       - STR_FIVE_SEVEN_ACQUISITION
     size: 1
     weight: 6
-    battleType: 1
+    # battleType: 1
     bigSprite: 2192
     floorSprite: 2192
     handSprite: 2192
@@ -1981,7 +2011,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 7
-    battleType: 1
+    # battleType: 1
     bigSprite: 3352
     floorSprite: 3352
     handSprite: 3352
@@ -2020,7 +2050,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 11
-    battleType: 1
+    # battleType: 1
     bigSprite: 3360
     floorSprite: 3360
     handSprite: 3360
@@ -2059,7 +2089,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 14
-    battleType: 1
+    # battleType: 1
     bigSprite: 3376
     floorSprite: 3376
     handSprite: 3376
@@ -2130,7 +2160,7 @@ items:
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
     size: 1
     weight: 13
-    battleType: 1
+    # battleType: 1
     bigSprite: 712
     floorSprite: 712
     handSprite: 712
@@ -2173,7 +2203,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 752
     floorSprite: 752
     handSprite: 752
@@ -2218,7 +2248,7 @@ items:
       - STR_MPX_ACQUISITION
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 792
     floorSprite: 792
     handSprite: 792
@@ -2262,7 +2292,7 @@ items:
       - STR_P90_ACQUISITION
     size: 1
     weight: 21
-    battleType: 1
+    # battleType: 1
     bigSprite: 856
     floorSprite: 856
     handSprite: 856
@@ -2300,7 +2330,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 14
-    battleType: 1
+    # battleType: 1
     bigSprite: 872
     floorSprite: 872
     handSprite: 872
@@ -2344,7 +2374,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 28
-    battleType: 1
+    # battleType: 1
     bigSprite: 3408
     floorSprite: 3408
     handSprite: 3408
@@ -2383,7 +2413,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 3472
     floorSprite: 3472
     handSprite: 3472
@@ -2422,7 +2452,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 23
-    battleType: 1
+    # battleType: 1
     bigSprite: 3488
     floorSprite: 3488
     handSprite: 3488
@@ -2461,7 +2491,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 15
-    battleType: 1
+    # battleType: 1
     bigSprite: 3504
     floorSprite: 3504
     handSprite: 3504
@@ -2499,7 +2529,7 @@ items:
       - STR_TAVOR_ACQUISITION
     size: 1
     weight: 23
-    battleType: 1
+    # battleType: 1
     bigSprite: 936
     floorSprite: 936
     handSprite: 936
@@ -2591,7 +2621,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 25
-    battleType: 1
+    # battleType: 1
     bigSprite: 968
     floorSprite: 968
     handSprite: 968
@@ -2628,7 +2658,7 @@ items:
       - STR_TAVOR_95X_ACQUISITION
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 984
     floorSprite: 984
     handSprite: 984
@@ -2666,7 +2696,7 @@ items:
     # requiresBuy:
     size: 1
     weight: 26
-    battleType: 1
+    # battleType: 1
     bigSprite: 1000
     floorSprite: 1000
     handSprite: 1000
@@ -2703,7 +2733,7 @@ items:
       - STR_M4_ACQUISITION
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1016
     floorSprite: 1016
     handSprite: 1016
@@ -2741,7 +2771,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 26
-    battleType: 1
+    # battleType: 1
     bigSprite: 1032
     floorSprite: 1032
     handSprite: 1032
@@ -2777,7 +2807,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 36
-    battleType: 1
+    # battleType: 1
     bigSprite: 1048
     floorSprite: 1048
     handSprite: 1048
@@ -2835,7 +2865,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 33
-    battleType: 1
+    # battleType: 1
     bigSprite: 1064
     floorSprite: 1064
     handSprite: 1064
@@ -2887,7 +2917,7 @@ items:
       - STR_M4A1_ACQUISITION
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1096
     floorSprite: 1096
     handSprite: 1096
@@ -2933,7 +2963,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 26
-    battleType: 1
+    # battleType: 1
     bigSprite: 1112
     floorSprite: 1112
     handSprite: 1112
@@ -2969,7 +2999,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 36
-    battleType: 1
+    # battleType: 1
     bigSprite: 1128
     floorSprite: 1128
     handSprite: 1128
@@ -3023,7 +3053,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 33
-    battleType: 1
+    # battleType: 1
     bigSprite: 1144
     floorSprite: 1144
     handSprite: 1144
@@ -3066,7 +3096,7 @@ items:
       - STR_AK12_ACQUISITION
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 1176
     floorSprite: 1176
     handSprite: 1176
@@ -3104,7 +3134,7 @@ items:
     #requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1208
     floorSprite: 1208
     handSprite: 1208
@@ -3141,7 +3171,7 @@ items:
       - STR_AK15_ACQUISITION
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1240
     floorSprite: 1240
     handSprite: 1240
@@ -3184,7 +3214,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1272
     floorSprite: 1272
     handSprite: 1272
@@ -3227,7 +3257,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 28
-    battleType: 1
+    # battleType: 1
     bigSprite: 3528
     floorSprite: 3528
     handSprite: 3528
@@ -3266,7 +3296,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 30
-    battleType: 1
+    # battleType: 1
     bigSprite: 3552
     floorSprite: 3552
     handSprite: 3552
@@ -3303,7 +3333,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 27
-    battleType: 1
+    # battleType: 1
     bigSprite: 3592
     floorSprite: 3592
     handSprite: 3592
@@ -3342,7 +3372,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 37
-    battleType: 1
+    # battleType: 1
     bigSprite: 3576
     floorSprite: 3576
     handSprite: 3576
@@ -3382,7 +3412,7 @@ items:
       - STR_HK416_ACQUISITION
     size: 1
     weight: 25
-    battleType: 1
+    # battleType: 1
     bigSprite: 1304
     floorSprite: 1304
     handSprite: 1304
@@ -3420,7 +3450,7 @@ items:
     #    requiresBuy: 
     size: 1
     weight: 27
-    battleType: 1
+    # battleType: 1
     bigSprite: 1320
     floorSprite: 1320
     handSprite: 1320
@@ -3456,7 +3486,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 37
-    battleType: 1
+    # battleType: 1
     bigSprite: 1336
     floorSprite: 1336
     handSprite: 1336
@@ -3501,7 +3531,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 34
-    battleType: 1
+    # battleType: 1
     bigSprite: 1352
     floorSprite: 1352
     handSprite: 1352
@@ -3545,7 +3575,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 31
-    battleType: 1
+    # battleType: 1
     bigSprite: 3608
     floorSprite: 3608
     handSprite: 3608
@@ -3584,7 +3614,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 33
-    battleType: 1
+    # battleType: 1
     bigSprite: 3640
     floorSprite: 3640
     handSprite: 3640
@@ -3620,7 +3650,7 @@ items:
       - STR_FX_05_ACQUISITION
     size: 1
     weight: 19
-    battleType: 1
+    # battleType: 1
     bigSprite: 1384
     floorSprite: 1384
     handSprite: 1384
@@ -3658,7 +3688,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 21
-    battleType: 1
+    # battleType: 1
     bigSprite: 1400
     floorSprite: 1400
     handSprite: 1400
@@ -3695,7 +3725,7 @@ items:
       - STR_SCAR_L_ACQUISITION
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1416
     floorSprite: 1416
     handSprite: 1416
@@ -3733,7 +3763,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 26
-    battleType: 1
+    # battleType: 1
     bigSprite: 1432
     floorSprite: 1432
     handSprite: 1432
@@ -3769,7 +3799,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 34
-    battleType: 1
+    # battleType: 1
     bigSprite: 1448
     floorSprite: 1448
     handSprite: 1448
@@ -3815,7 +3845,7 @@ items:
       - STR_SCAR_H_ACQUISITION
     size: 1
     weight: 28
-    battleType: 1
+    # battleType: 1
     bigSprite: 2008
     floorSprite: 2008
     handSprite: 2008
@@ -3853,7 +3883,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 30
-    battleType: 1
+    # battleType: 1
     bigSprite: 2040
     floorSprite: 2040
     handSprite: 2040
@@ -3889,7 +3919,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 38
-    battleType: 1
+    # battleType: 1
     bigSprite: 2072
     floorSprite: 2072
     handSprite: 2072
@@ -3935,7 +3965,7 @@ items:
       - STR_G11_ACQUISITION
     size: 1
     weight: 30
-    battleType: 1
+    # battleType: 1
     bigSprite: 1512
     floorSprite: 1512
     handSprite: 1512
@@ -3974,7 +4004,7 @@ items:
       - STR_SR3_ACQUISITION
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 1528
     floorSprite: 1528
     handSprite: 1528
@@ -4012,7 +4042,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 1552
     floorSprite: 1552
     handSprite: 1552
@@ -4048,7 +4078,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1464
     floorSprite: 1464
     handSprite: 1464
@@ -4085,7 +4115,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1480
     floorSprite: 1480
     handSprite: 1480
@@ -4122,7 +4152,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1480
     floorSprite: 1480
     handSprite: 1480
@@ -4155,7 +4185,7 @@ items:
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1576
     floorSprite: 1576
     handSprite: 1576
@@ -4196,7 +4226,7 @@ items:
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     size: 1
     weight: 23
-    battleType: 1
+    # battleType: 1
     bigSprite: 1608
     floorSprite: 1608
     handSprite: 1608
@@ -4233,7 +4263,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 38
-    battleType: 1
+    # battleType: 1
     bigSprite: 2216
     floorSprite: 2216
     handSprite: 2216
@@ -4277,7 +4307,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 33
-    battleType: 1
+    # battleType: 1
     bigSprite: 3672
     floorSprite: 3672
     handSprite: 3672
@@ -4953,7 +4983,7 @@ items:
       - STR_AA_12_ACQUISITION
     size: 1
     weight: 46
-    battleType: 1
+    # battleType: 1
     bigSprite: 1840
     floorSprite: 1840
     handSprite: 1840
@@ -5001,7 +5031,7 @@ items:
       - STR_USAS_12_ACQUISITION
     size: 1
     weight: 42
-    battleType: 1
+    # battleType: 1
     bigSprite: 1872
     floorSprite: 1872
     handSprite: 1872
@@ -5049,7 +5079,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 28
-    battleType: 1
+    # battleType: 1
     bigSprite: 3752
     floorSprite: 3752
     handSprite: 3752
@@ -5086,7 +5116,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 65
-    battleType: 1
+    # battleType: 1
     bigSprite: 2248
     floorSprite: 2248
     handSprite: 2248
@@ -5121,7 +5151,7 @@ items:
       - STR_M249_ACQUISITION
     size: 1
     weight: 52
-    battleType: 1
+    # battleType: 1
     bigSprite: 1896
     floorSprite: 1896
     handSprite: 1896
@@ -5158,7 +5188,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 49
-    battleType: 1
+    # battleType: 1
     bigSprite: 3784
     floorSprite: 3784
     handSprite: 3784
@@ -5225,7 +5255,7 @@ items:
       - STR_MK_48_ACQUISITION
     size: 1
     weight: 60
-    battleType: 1
+    # battleType: 1
     bigSprite: 1920
     floorSprite: 1920
     handSprite: 1920
@@ -5262,7 +5292,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 38
-    battleType: 1
+    # battleType: 1
     bigSprite: 3824
     floorSprite: 3824
     handSprite: 3824
@@ -5296,7 +5326,7 @@ items:
       - STR_PECHENEG_ACQUISITION
     size: 1
     weight: 59
-    battleType: 1
+    # battleType: 1
     bigSprite: 1936
     floorSprite: 1936
     handSprite: 1936
@@ -5333,7 +5363,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 48
-    battleType: 1
+    # battleType: 1
     bigSprite: 3848
     floorSprite: 3848
     handSprite: 3848
