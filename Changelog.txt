@@ -8,26 +8,45 @@ New Content:
 Bugfixes and Adjustments:
 *Replaced M4A1 with Mk 18 Mod 0, renamed M4 Carbine to M4A1 Carbine
 *New sprites, by efrenespartano
+> Pistols
 	- Glock 17
 	- Glock 18
 	- Five-seveN
-	- M4A1 Carbine
-	- Mk 18 Mod 0
-	- USAS-12
-	- KS-23
-	- Skorpion vz 68
 	- Makarov PM
 	- USSOCOM MK 23
 	- M1911
-	- M320 GL
+> Rifles
+	- M4A1 Carbine
+	- Mk 18 Mod 0
+	- G3
+	- SCAR L (and variants)
+	- SCAR H (and variants)
+	- HK416 (and variants)
+	- HK417 (and variant)
+> SMGs
+	- Skorpion vz 68
 	- P90
 	- TEC9
 	- MPX
+> LMGs
+	- FN Minimi
+	- M249 SAW
+	- Mk48
+	- Negev
+	- M60
+> Snipers
 	- AI AW
 	- AWP
-	- G3
+	- M82 Barrett
 	- PSG-1
 	- MSG-90
+> Shotguns
+	- USAS-12
+	- KS-23
+	- Origin-12
+	- Super Shorty
+> Artillery
+	- M320 GL
 *Each weapon has an unique fire and reload sound, normalised by pedroterzero
 *Added Random hit sounds
 *Shock, Stun, Bleed, Burning icons enabled, icons by Meridian
