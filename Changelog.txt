@@ -35,6 +35,7 @@ Bugfixes and Adjustments:
 *Low morale enemies now flash, by Buscher
 *Handcuffs now also work on unarmed enemies, by Buscher
 *Fixed issue with UZI sprites
+*Removed USAS-12 from enemy item sets
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins

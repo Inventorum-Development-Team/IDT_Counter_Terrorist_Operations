@@ -253,8 +253,8 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
            - 
-             - STR_USAS_12
-             - STR_12G_BUCKSHOT_X20
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
        - alienRank: 3
          lowQty: 2
@@ -685,8 +685,8 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
            - 
-             - STR_USAS_12
-             - STR_12G_BUCKSHOT_X20
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
        - alienRank: 3
          lowQty: 2
@@ -1103,8 +1103,8 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
            - 
-             - STR_USAS_12
-             - STR_12G_BUCKSHOT_X20
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
        - alienRank: 3
          lowQty: 3
@@ -1520,8 +1520,8 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
            - 
-             - STR_USAS_12
-             - STR_12G_BUCKSHOT_X20
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
        - alienRank: 3
          lowQty: 4
@@ -1940,8 +1940,8 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
            - 
-             - STR_USAS_12
-             - STR_12G_BUCKSHOT_X20
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
        - alienRank: 3
          lowQty: 3
@@ -2368,8 +2368,8 @@ alienDeployments:
              - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
            - 
-             - STR_USAS_12
-             - STR_12G_BUCKSHOT_X20
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
              - STR_12G_BUCKSHOT_X8
        - alienRank: 3
          lowQty: 4
