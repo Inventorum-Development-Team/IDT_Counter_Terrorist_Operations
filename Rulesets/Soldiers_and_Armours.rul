@@ -814,11 +814,11 @@ armors:
   #     - STR_OPERATOR
 
   - type: STR_HEAVY
-    spriteSheet: ARMOR_RIOT.PCK
-    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    spriteSheet: HEAVY_ARMOR_SPRITESHEET.PCK
+    spriteInv: HEAVY_INV
     storeItem: STR_HEAVY
     corpseBattle:
-      - STR_CORPSE_DEFAULT
+      - STR_CORPSE_HEAVY
     loftempsSet: [ 3 ]
     refNode: *STR_HEAVY_VEST
     spriteFaceGroup: 6
@@ -840,11 +840,11 @@ armors:
       - STR_OPERATOR  
       
   - type: STR_HEAVY_NV
-    spriteSheet: ARMOR_RIOT.PCK
-    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    spriteSheet: HEAVY_ARMOR_SPRITESHEET.PCK
+    spriteInv: HEAVY_INV
     storeItem: STR_HEAVY_NV
     corpseBattle:
-      - STR_CORPSE_DEFAULT
+      - STR_CORPSE_HEAVY
     loftempsSet: [ 3 ]
     refNode: *STR_HEAVY_VEST
     spriteFaceGroup: 6
@@ -866,11 +866,11 @@ armors:
       - STR_OPERATOR  
       
   - type: STR_HEAVY_ADVNV
-    spriteSheet: ARMOR_RIOT.PCK
-    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    spriteSheet: HEAVY_ARMOR_SPRITESHEET.PCK
+    spriteInv: HEAVY_INV
     storeItem: STR_HEAVY_ADVNV
     corpseBattle:
-      - STR_CORPSE_DEFAULT
+      - STR_CORPSE_HEAVY
     loftempsSet: [ 3 ]
     refNode: *STR_HEAVY_VEST
     spriteFaceGroup: 6
@@ -1014,6 +1014,16 @@ items:
     weight: 24
     bigSprite: 3004
     floorSprite: 3004
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_HEAVY
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 3005
+    floorSprite: 3005
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1324,21 +1334,49 @@ extraSprites:
 
 
 ########################################
-######### USSR RIOT ARMOR #############
+######### HEAVY ARMOR SET #############
 ######################################
-  - type: ARMOR_RIOT.PCK
+  - type: HEAVY_ARMOR_SPRITESHEET.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersAndArmors/RiotArmor/ARMOR_RIOT.PNG
-  - type: ARMOR_RIOT_INVENTORY.SPK
-    height: 200
-    width: 320
+      0: Resources/SoldiersAndArmors/Heavy/HEAVY_ARMOR_SPRITESHEET.PNG
+
+  - type: HEAVY_INVF0.SPK
     singleImage: true
     files:
-      0: Resources/SoldiersAndArmors/RiotArmor/man_6m0.png
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_F0.png
+  - type: HEAVY_INVF1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_F1.png
+  - type: HEAVY_INVF2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_F2.png
+  - type: HEAVY_INVF3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_F3.png
+  - type: HEAVY_INVM0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_M0.png
+  - type: HEAVY_INVM1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_M1.png
+  - type: HEAVY_INVM2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_M2.png
+  - type: HEAVY_INVM3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/Heavy/INV/MAN_M3.png
+
   - type: RIOT_ARMOR_IMAGE
     singleImage: true
     width: 320
@@ -1347,10 +1385,10 @@ extraSprites:
       0: Resources/SoldiersAndArmors/RiotArmor/RIOT_ARMOR_IMAGE.PNG
   - type: BIGOBS.PCK
     files:
-      511: Resources/SoldiersAndArmors/RiotArmor/RIOT_ARMOR_CORPSE_BIGOB.png
+      3005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      511: Resources/SoldiersAndArmors/RiotArmor/RIOT_ARMOR_CORPSE_FLOOROB.png
+      3005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_FLOOROB.png
 
 extraStrings:
   - type: en-US
