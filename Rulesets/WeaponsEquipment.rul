@@ -7111,7 +7111,7 @@ extraStrings:
       STR_SAIGA_12: "Saiga 12"
       STR_USAS_12: "USAS-12"
       STR_M60: "M60"
-      STR_M249: "M249 SAW"
+      STR_M249: "M249 SAW Para"
       STR_FN_MINIMI: "FN Minimi"
       STR_MK_48: "Mk 48"
       STR_RPK_74: "RPK-74M"

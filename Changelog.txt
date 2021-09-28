@@ -5,6 +5,8 @@ New Content:
 *New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
 *Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
 *New text colors on inventory, by Alex_D
+*Private Security has two new unit sprites
+*Terrorists have three new unit sprites
 Bugfixes and Adjustments:
 *Replaced M4A1 with Mk 18 Mod 0, renamed M4 Carbine to M4A1 Carbine
 *New sprites, by efrenespartano
