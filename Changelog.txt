@@ -61,6 +61,8 @@ Bugfixes and Adjustments:
 *Fixed Crash on ufopaedia article for stock
 *Female and Male civilians have inventory sprite
 *Enabled one more terrain per region for Terror Attack and Major Attack 
+*Handcuffs stun permanently
+*Adjusted safehouse maps civilian spawns, removed occult items
     
 
 24-Jun-2021 v0.1.1 Who Dares Wins

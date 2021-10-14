@@ -2738,190 +2738,6 @@ items:
     size: 1
     weight: 24
     # battleType: 1
-    bigSprite: 1016
-    floorSprite: 1016
-    handSprite: 1016
-    reloadSound: 152
-    fireSound: 153
-    costBuy: 29000
-    costSell: 14500
-    accuracyAimed: 80
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 35
-    snapRange: 31
-    autoRange: 25
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    tuAimed: 60
-    tuSnap: 40
-    tuAuto: 55
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 21100
-
-  - type: STR_M4_SOPMOD
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 26
-    # battleType: 1
-    bigSprite: 1032
-    floorSprite: 1032
-    handSprite: 1032
-    reloadSound: 152
-    fireSound: 154
-    accuracyAimed: 100
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: false
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 45
-    snapRange: 41
-    autoRange: 30
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    tuAimed: 80
-    tuSnap: 37
-    tuAuto: 52
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 21120
-
-  - type: STR_M4_M320
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 36
-    # battleType: 1
-    bigSprite: 1048
-    floorSprite: 1048
-    handSprite: 1048
-    reloadSound: 152
-    fireSound: 153
-    accuracyAimed: 50
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 25
-    snapRange: 31
-    autoRange: 18
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    confAimed:
-      shots: 3
-      name: STR_BURST
-      ammoSlot: 0
-      arcing: false
-    confAuto:
-      shots: 1
-      name: STR_FIRE_GRENADE
-      ammoSlot: 1
-      arcing: true
-    tuAimed: 60
-    tuSnap: 40
-    tuAuto: 65
-    invWidth: 1
-    invHeight: 3
-    accuracyMelee: 100
-    tuMelee: 30
-    meleePower: 15
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-      1:
-        compatibleAmmo:
-          [
-            STR_40MM_FRAG_X1,
-            STR_40MM_SMOKE_X1,
-            STR_40MM_NON_LETHAL_X1
-          ]
-        tuLoad: 40
-        tuUnload: 20
-    listOrder: 20450
-
-  - type: STR_M4_UBS
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 33
-    # battleType: 1
-    bigSprite: 1064
-    floorSprite: 1064
-    handSprite: 1064
-    reloadSound: 152
-    fireSound: 153
-    accuracyAimed: 50
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 25
-    snapRange: 31
-    autoRange: 7
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    confAimed:
-      shots: 3
-      name: STR_BURST
-      ammoSlot: 0
-      arcing: false
-    confAuto:
-      shots: 1
-      name: STR_FIRE_SHOTGUN
-      ammoSlot: 1
-    tuAimed: 55
-    tuSnap: 40
-    tuAuto: 30
-    invWidth: 1
-    invHeight: 3
-    shotgunBehavior: 1
-    shotgunChoke: 80
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-      1:
-        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
-        tuLoad: 40
-        tuUnload: 20
-    listOrder: 20190
-
-  - type: STR_M4A1
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    requiresBuy:
-      - STR_M4A1_ACQUISITION
-    size: 1
-    weight: 24
-    # battleType: 1
     bigSprite: 1096
     floorSprite: 1096
     handSprite: 1096
@@ -2962,15 +2778,15 @@ items:
         tuUnload: 15
     listOrder: 21140
 
-  - type: STR_M4A1_SOPMOD
+  - type: STR_M4_SOPMOD
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
     weight: 26
     # battleType: 1
-    bigSprite: 1112
-    floorSprite: 1112
-    handSprite: 1112
+    bigSprite: 1032
+    floorSprite: 1032
+    handSprite: 1032
     reloadSound: 152
     fireSound: 154
     accuracyAimed: 90
@@ -2998,6 +2814,184 @@ items:
         tuUnload: 15
     listOrder: 21160
 
+  - type: STR_M4_M320
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 36
+    # battleType: 1
+    bigSprite: 1048
+    floorSprite: 1048
+    handSprite: 1048
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 18
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20500
+
+  - type: STR_M4_UBS
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    # battleType: 1
+    bigSprite: 1064
+    floorSprite: 1064
+    handSprite: 1064
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR_UBS
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 30
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 80
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20220
+
+  - type: STR_M4A1
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_M4A1_ACQUISITION
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 1096
+    floorSprite: 1096
+    handSprite: 1096
+    reloadSound: 152
+    fireSound: 153
+    costBuy: 32000
+    costSell: 16000
+    accuracyAimed: 75
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR 
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21140
+
+  - type: STR_M4A1_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 26
+    # battleType: 1
+    bigSprite: 1112
+    floorSprite: 1112
+    handSprite: 1112
+    reloadSound: 152
+    fireSound: 154
+    accuracyAimed: 95
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 29
+    snapRange: 41
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR 
+    tuAimed: 80
+    tuSnap: 37
+    tuAuto: 53
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21160
+
   - type: STR_M4A1_M320
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
@@ -3009,7 +3003,7 @@ items:
     handSprite: 1128
     reloadSound: 152
     fireSound: 153
-    accuracyAimed: 70
+    accuracyAimed: 75
     accuracySnap: 65
     accuracyAuto: 50
     blockBothHands: false
@@ -3063,7 +3057,7 @@ items:
     handSprite: 1144
     reloadSound: 152
     fireSound: 153
-    accuracyAimed: 70
+    accuracyAimed: 75
     accuracySnap: 65
     accuracyAuto: 50
     blockBothHands: false
