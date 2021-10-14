@@ -2738,9 +2738,9 @@ items:
     size: 1
     weight: 24
     # battleType: 1
-    bigSprite: 1096
-    floorSprite: 1096
-    handSprite: 1096
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 1016
     reloadSound: 152
     fireSound: 153
     costBuy: 32000
