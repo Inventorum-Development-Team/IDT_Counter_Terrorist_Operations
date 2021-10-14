@@ -971,6 +971,7 @@ items:
 
   - type: STR_CORPSE_DEFAULT
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 3000
     floorSprite: 3000
@@ -981,6 +982,7 @@ items:
 
   - type: STR_CORPSE_DEFAULT_VEST
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 3001
     floorSprite: 3001
@@ -991,6 +993,7 @@ items:
 
   - type: STR_CORPSE_DEFAULT_RIOT
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 3002
     floorSprite: 3002
@@ -1001,6 +1004,7 @@ items:
 
   - type: STR_CORPSE_DEFAULT_NV
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 3003
     floorSprite: 3003
@@ -1011,6 +1015,7 @@ items:
 
   - type: STR_CORPSE_DEFAULT_ADVNV
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 3004
     floorSprite: 3004
@@ -1021,6 +1026,7 @@ items:
 
   - type: STR_CORPSE_HEAVY
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 3005
     floorSprite: 3005
