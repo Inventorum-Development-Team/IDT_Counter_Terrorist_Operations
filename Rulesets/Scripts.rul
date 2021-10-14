@@ -478,6 +478,7 @@ extended:
       FlashBanged: int
       OGfiring: int
       OGreactions: int
+      Handcuffed: int
 
       UNIT_RECOLOR_DESYNC: int
       UNIT_RECOLOR_COLOR: int
@@ -568,6 +569,19 @@ extended:
             BattleUnit.Stats.setReactions unit OGreactions;
             end;
            return;
+        - offset: 4
+          code: | #handcuffs stay permanent
+           var int cuffed;
+           var int health;
+           BattleUnit.getTag unit cuffed Tag.Handcuffed;
+           if eq cuffed 1;
+            BattleUnit.getHealth unit health;
+            add health 1;
+            BattleUnit.setStun unit health;
+            end;
+           return;
+            
+
      hitUnit: 
          - offset: 2 #Shield Script
            code: |
@@ -729,8 +743,9 @@ extended:
            BattleUnit.getMorale target morale;
            if or lt morale 30 eq emptyHands 2;
              BattleUnit.getHealth target health;
-             mul health 2;
+             add health 1;
              BattleUnit.setStun target health;
+             BattleUnit.setTag target Tag.Handcuffed 1;
            end;
           end;
           return;
