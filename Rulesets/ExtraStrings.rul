@@ -2,6 +2,7 @@
 extraStrings:
   - type: en-US
     strings:
+     STR_OPENXCOM: "Counter-Terrorist Operations"
      STR_ALIENS_KILLED: "HOSTILES KILLED"
      STR_ALIEN_CORPSES_RECOVERED: "CORPSES RECOVERED"
      STR_LIVE_ALIENS_RECOVERED: "HOSTILES CAPTURED"

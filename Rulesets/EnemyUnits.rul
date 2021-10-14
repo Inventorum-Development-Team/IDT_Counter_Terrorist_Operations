@@ -39,19 +39,78 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: false
-
-
-  - type: STR_PR_CORPSE
+  - type: STR_TERRORIST_COMMANDER_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3002
-    floorSprite: 3002
+    bigSprite: 3054
+    floorSprite: 3054
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
+  - type: STR_TERRORIST_LEADER_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3055
+    floorSprite: 3055
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
+  - type: STR_GUNNER_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3060
+    floorSprite: 3060
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 30
     recoverCorpse: false
 
+
+  - type: STR_BLUE_PR_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3058
+    floorSprite: 3058
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
+  - type: STR_GRAY_PR_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3059
+    floorSprite: 3059
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
+  - type: STR_PR_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3056
+    floorSprite: 3056
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
+  - type: STR_PR_HEAVY_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3057
+    floorSprite: 3057
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
 
   - type: STR_TERRORIST_COMMANDER
     liveAlien: true
@@ -116,11 +175,14 @@ items:
     size: 0
 
 armors:
+#########################################
+############ TERRORISTS ################
+######################################
   - type: STR_TERRORIST_COMMANDER_ARMOR
-    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
+    spriteSheet: TERRORIST_COMMANDER_SPRITESHEET.PCK
     corpseBattle:
-      - STR_TERRORIST_CORPSE
-    spriteInv: TERRORIST_MALE_INVENTORY
+      - STR_TERRORIST_COMMANDER_CORPSE
+    spriteInv: TERRORIST_COMMANDER_INVENTORY
     frontArmor: 30
     sideArmor: 10
     rearArmor: 30
@@ -139,10 +201,10 @@ armors:
       - 1.0
     loftempsSet: [3]
   - type: STR_TERRORIST_LEADER_ARMOR
-    spriteSheet: TERRORIST_MALE_SPRITESHEET.PCK
+    spriteSheet: TERRORIST_LEADER_SPRITESHEET.PCK
     corpseBattle:
-      - STR_TERRORIST_CORPSE
-    spriteInv: TERRORIST_MALE_INVENTORY
+      - STR_TERRORIST_LEADER_CORPSE
+    spriteInv: TERRORIST_LEADER_INVENTORY
     frontArmor: 30
     sideArmor: 10
     rearArmor: 30
@@ -163,8 +225,8 @@ armors:
   - type: STR_TERRORIST_SAW_ARMOR
     spriteSheet: TERRORIST_GUNNER_SPRITESHEET.PCK
     corpseBattle:
-      - STR_GASMASK_CORPSE
-    spriteInv: TERRORIST_GASMASK_INVENTORY
+      - STR_GUNNER_CORPSE
+    spriteInv: TERRORIST_GUNNER_INVENTORY
     frontArmor: 4
     sideArmor: 4
     rearArmor: 4
@@ -294,10 +356,56 @@ armors:
     loftempsSet: [3]
 
 
+#########################################
+####### PRIVATE MILITARY COMPANY #######
+######################################
+  - type: STR_ENEMY_BLUE_KEVLAR
+    spriteSheet: PMC_BLUE_SPRITESHEET.PCK
+    spriteInv: PMC_BLUEINV
+    loftempsSet: [ 3 ]
+    corpseBattle:
+     - STR_BLUE_PR_CORPSE
+    frontArmor: 30
+    sideArmor: 10
+    rearArmor: 30
+    underArmor: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDark: 9
+    personalLight: 0
+    stats:
+      strength: -10
+      stamina: -15
+      tu: -5
+      bravery: 10
 
-      
+  - type: STR_ENEMY_GRAY_KEVLAR
+    spriteSheet: PMC_GRAY_SPRITESHEET.PCK
+    spriteInv: PMC_GRAYINV
+    loftempsSet: [ 3 ]
+    corpseBattle:
+     - STR_GRAY_PR_CORPSE
+    frontArmor: 30
+    sideArmor: 10
+    rearArmor: 30
+    underArmor: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDark: 9
+    personalLight: 0
+    stats:
+      strength: -10
+      stamina: -15
+      tu: -5
+      bravery: 10
+
+
   - type: STR_ENEMY_KEVLAR_NV
-    spriteSheet: BO.PCK
+    spriteSheet: BO_SPRITESHEET.PCK
     spriteInv: BOINV
     loftempsSet: [ 3 ]
     corpseBattle:
@@ -319,10 +427,10 @@ armors:
       bravery: 10
 
   - type: STR_HEAVY_ENEMY
-    spriteSheet: ARMOR_RIOT.PCK
-    spriteInv: ARMOR_RIOT_INVENTORY.SPK
+    spriteSheet: MASKA_SPRITESHEET.PCK
+    spriteInv: MASKAINV.SPK
     corpseBattle:
-     - STR_PR_CORPSE
+     - STR_PR_HEAVY_CORPSE
     loftempsSet: [ 3 ]
     frontArmor: 40
     sideArmor: 20
@@ -581,7 +689,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 80
-    armor: STR_ENEMY_KEVLAR_NV
+    armor: STR_HEAVY_ENEMY
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -606,7 +714,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_ENEMY_KEVLAR_NV
+    armor: STR_ENEMY_GRAY_KEVLAR
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -656,7 +764,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_ENEMY_KEVLAR_NV
+    armor: STR_ENEMY_BLUE_KEVLAR
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -681,7 +789,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_ENEMY_KEVLAR_NV
+    armor: STR_ENEMY_GRAY_KEVLAR
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -706,7 +814,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 60
-    armor: STR_ENEMY_KEVLAR_NV
+    armor: STR_ENEMY_BLUE_KEVLAR
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -718,6 +826,13 @@ units:
     canSurrender: true
 
 extraSprites:
+##################################
+######## TERRORIST UNITS ########
+################################
+
+###########################
+##### SPRITESHEETS #######
+#########################
   - type: TERRORIST_MALE_SPRITESHEET.PCK
     width: 512
     height: 720
@@ -733,6 +848,22 @@ extraSprites:
     subY: 40
     files:
       0: Resources/TerroristFaction/TERRORIST_FEMALE_SPRITESHEET.png
+
+  - type: TERRORIST_COMMANDER_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/TerroristFaction/TERRORIST_COMMANDER_SPRITESHEET.png
+
+  - type: TERRORIST_LEADER_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/TerroristFaction/TERRORIST_LEADER_SPRITESHEET.png
 
   - type: TERRORIST_GASMASK_SPRITESHEET.PCK
     width: 256
@@ -750,7 +881,6 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GUNNER_SPRITESHEET.png
 
-
   - type: TERRORIST_GRENADIER_SPRITESHEET.PCK
     width: 512
     height: 720
@@ -759,18 +889,9 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/INSURGENT_SPRITESHEET.png
 
-  - type: BIGOBS.PCK
-    files:
-      3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_BIGOB.png
-      3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_BIGOB.png
-      3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_BIGOB.png
-      3053: Resources/TerroristFaction/INSURGENT_COROSE_BIGOB.png
-  - type: FLOOROB.PCK
-    files:
-      3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
-      3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
-      3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
-      3053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
+###########################
+####### INVENTORY ########
+#########################
 
   - type: TERRORIST_MALE_INVENTORY.SPK
     singleImage: true
@@ -786,6 +907,20 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_FEMALE_INVENTORY.png
 
+  - type: TERRORIST_COMMANDER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/TerroristFaction/TERRORIST_COMMANDER_INVENTORY.png
+
+  - type: TERRORIST_LEADER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/TerroristFaction/TERRORIST_LEADER_INVENTORY.png
+
   - type: TERRORIST_GASMASK_INVENTORY.SPK
     singleImage: true
     width: 320
@@ -793,6 +928,12 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/TERRORIST_GASMASK_INVENTORY.png
 
+  - type: TERRORIST_GUNNER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/TerroristFaction/TERRORIST_GUNNER_INVENTORY.png
 
   - type: TERRORIST_GRENADIER_INVENTORY.SPK
     singleImage: true
@@ -801,6 +942,99 @@ extraSprites:
     files:
       0: Resources/TerroristFaction/INSURGENT_OMO.png
 
+##################################
+########## PMC UNITS ############
+################################
+
+###########################
+##### SPRITESHEETS #######
+#########################
+
+  - type: PMC_BLUE_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/PMCFaction/PMC_BLUE_SPRITESHEET.png
+
+  - type: PMC_GRAY_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/PMCFaction/PMC_GRAY_SPRITESHEET.png
+
+  - type: BO_SPRITESHEET.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/PMCFaction/BO_SPRITESHEET.png
+
+  - type: MASKA_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/PMCFaction/MASKA_SPRITESHEET.png
+
+###########################
+####### INVENTORY ########
+#########################
+
+  - type: PMC_BLUEINV.SPK
+    singleImage: true
+    files:
+      0: Resources/PMCFaction/PMC_BLUEINVMO.png
+
+  - type: PMC_GRAYINV.SPK
+    singleImage: true
+    files:
+      0: Resources/PMCFaction/PMC_GRAYINVMO.png
+
+  - type: BOINV.SPK
+    singleImage: true
+    files:
+      0: Resources/PMCFaction/BOINVM0.png
+
+  - type: MASKAINV.SPK
+    singleImage: true
+    files:
+      0: Resources/PMCFaction/MASKAINVM0.png
+
+  - type: BIGOBS.PCK
+    files:
+      3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_BIGOB.png
+      3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_BIGOB.png
+      3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_BIGOB.png
+      3053: Resources/TerroristFaction/INSURGENT_COROSE_BIGOB.png
+      3054: Resources/TerroristFaction/TERRORIST_COMMANDER_CORPSE_BIGOB.png
+      3055: Resources/TerroristFaction/TERRORIST_LEADER_CORPSE_BIGOB.png
+      3056: Resources/PMCFaction/BO_CORPSE_BIGOB.png
+      3057: Resources/PMCFaction/MASKA_CORPSE_BIGOB.png
+      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_BIGOB.png
+      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_BIGOB.png
+      3060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
+      3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
+      3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
+      3053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
+      3054: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
+      3055: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
+      3056: Resources/PMCFaction/BO_CORPSE_FLOOROB.png
+      3057: Resources/PMCFaction/MASKA_CORPSE_FLOOROB.png
+      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
+      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
+      3060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_FLOOROB.png
+
+
+
 extraStrings:
   - type: en-US
     strings:
@@ -808,7 +1042,12 @@ extraStrings:
       STR_GRUNT_CORPSE: "Grunt Corpse"
       STR_GASMASK_CORPSE: "Raider Corpse"
       STR_GRENADIER_CORPSE: "Grenadier Corpse"
+      STR_TERRORIST_COMMANDER_CORPSE: "Commander Corpse"
+      STR_TERRORIST_LEADER_CORPSE: "Leader Corpse"
       STR_PR_CORPSE: "Guard Corpse"
+      STR_BLUE_PR_CORPSE: "Guard Corpse"
+      STR_GRAY_PR_CORPSE: "Guard Corpse"
+      STR_PR_HEAVY_CORPSE: "Heavy Guard Corpse"
 
       STR_TERRORIST_GRENADIER: "Terrorist Grenadier"
       STR_TERRORIST_SNIPER: "Terrorist Sniper"

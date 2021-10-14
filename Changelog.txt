@@ -1,3 +1,70 @@
+14-Oct-2021 v0.1.2 Who Dares Wins
+Changes made:
+New Content:
+*New UI, by efrenespartano
+*New backgrounds for inventory, standard report and item report, by Hans Woofington & efrenespartano
+*Added new armor set: Uniform (Face Shield), sprites by efrenespartano & Hans Woofington
+*New text colors on inventory, by Alex_D
+*Private Security has two new unit sprites
+*Terrorists have three new unit sprites
+Bugfixes and Adjustments:
+*Replaced M4A1 with Mk 18 Mod 0, renamed M4 Carbine to M4A1 Carbine
+*New sprites, by efrenespartano
+> Pistols
+	- Glock 17
+	- Glock 18
+	- Five-seveN
+	- Makarov PM
+	- USSOCOM MK 23
+	- M1911
+> Rifles
+	- M4A1 Carbine
+	- Mk 18 Mod 0
+	- G3
+	- SCAR L (and variants)
+	- SCAR H (and variants)
+	- HK416 (and variants)
+	- HK417 (and variant)
+> SMGs
+	- Skorpion vz 68
+	- P90
+	- TEC9
+	- MPX
+> LMGs
+	- FN Minimi
+	- M249 SAW
+	- Mk48
+	- Negev
+	- M60
+> Snipers
+	- AI AW
+	- AWP
+	- M82 Barrett
+	- PSG-1
+	- MSG-90
+> Shotguns
+	- USAS-12
+	- KS-23
+	- Origin-12
+	- Super Shorty
+> Artillery
+	- M320 GL
+*Each weapon has an unique fire and reload sound, normalised by pedroterzero
+*Added Random hit sounds
+*Shock, Stun, Bleed, Burning icons enabled, icons by Meridian
+*Fixed issues with rifle and pistol melee, by Buscher
+*Low morale enemies now flash, by Buscher
+*Handcuffs now also work on unarmed enemies, by Buscher
+*Fixed issue with UZI sprites
+*Removed USAS-12 from enemy item sets
+*Reduced Armoury and lab buildtime, reduced lab cost
+*Fixed Crash on ufopaedia article for stock
+*Female and Male civilians have inventory sprite
+*Enabled one more terrain per region for Terror Attack and Major Attack 
+*Handcuffs stun permanently
+*Adjusted safehouse maps civilian spawns, removed occult items
+    
+
 24-Jun-2021 v0.1.1 Who Dares Wins
 Changes made:
 New Content:

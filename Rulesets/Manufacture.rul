@@ -40,6 +40,8 @@ items:
     requiresBuy:
      - STR_STOCK_ACQUISITION
     size: 0.1
+    invWidth: 2
+    bigSprite: 2840
   - type: STR_NV
     costBuy: 15000
     costSell: 7500
@@ -51,6 +53,12 @@ items:
     costSell: 12500
     requiresBuy:
      - STR_ADV_NIGHTVISION
+    size: 0.1
+  - type: STR_RIOT_ARMOR_PLATES
+    costBuy: 15000
+    costSell: 7500
+    requiresBuy:
+     - STR_RIOT_GEAR
     size: 0.1
 
 
@@ -569,6 +577,50 @@ manufacture:
      STR_DEFAULT_BACKPACK: 1
     refund: true
 
+  - name: STR_DEFAULT_KEVLAR_RIOT
+    time: 35
+    requires:
+     - STR_RIOT_GEAR
+    requiredItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_RIOT_ARMOR_PLATES: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_RIOT_REMOVAL
+    time: 35
+    requires:
+     - STR_RIOT_GEAR
+    requiredItems:
+     STR_DEFAULT_KEVLAR_RIOT: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR: 1
+     STR_RIOT_ARMOR_PLATES: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
+    time: 35
+    requires:
+     - STR_RIOT_GEAR
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_RIOT: 1
+     STR_DEFAULT_BACKPACK: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR_RIOT_BACKPACK: 1
+    refund: true
+    
+  - name: STR_DEFAULT_KEVLAR_RIOT_BACKPACK_REMOVAL
+    time: 5
+    requires:
+     - STR_RIOT_GEAR
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_RIOT_BACKPACK: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR_RIOT: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+
   - name: STR_DEFAULT_KEVLAR_NV
     time: 20
     requires:
@@ -706,14 +758,15 @@ extraStrings:
       STR_FN40GL: "FN40GL"
       STR_UBS: "Modular Accessory Shotgun System"
       STR_STOCK: "Pistol Stock"
-      STR_NV: "Nightvision Goggles"
-      STR_ADVNV: "Advanced Nightvision Goggles"
-      STR_M4_SOPMOD_REMOVAL: "M4: Remove SOPMOD"
-      STR_M4_M320_REMOVAL: "M4: Remove M320"
-      STR_M4_UBS_REMOVAL: "M4: Remove MASS"
-      STR_M4A1_SOPMOD_REMOVAL: "M4A1: Remove SOPMOD"
-      STR_M4A1_M320_REMOVAL: "M4A1: Remove M320"
-      STR_M4A1_UBS_REMOVAL: "M4A1: Remove MASS"
+      STR_NV: "Night Vision Goggles"
+      STR_ADVNV: "Advanced Night Vision Goggles"
+      STR_RIOT_ARMOR_PLATES: "Riot Armor Plates"
+      STR_M4_SOPMOD_REMOVAL: "M4A1: Remove SOPMOD"
+      STR_M4_M320_REMOVAL: "M4A1: Remove M320"
+      STR_M4_UBS_REMOVAL: "M4A1: Remove MASS"
+      STR_M4A1_SOPMOD_REMOVAL: "Mk 18 Mod 0: Remove SOPMOD"
+      STR_M4A1_M320_REMOVAL: "Mk 18 Mod 0: Remove M320"
+      STR_M4A1_UBS_REMOVAL: "Mk 18 Mod 0: Remove MASS"
       STR_TAVOR_SCOPED_REMOVAL: "IWI Tavor: Remove Scope"
       STR_TAVOR_M203_REMOVAL: "IWI Tavor: Remove M203"
       STR_TAVOR_95X_SCOPED_REMOVAL: "IWI Tavor 95X: Remove Scope"
@@ -729,12 +782,14 @@ extraStrings:
       STR_SCAR_H_GL_REMOVAL: "SCAR-H: Remove FN40GL"
       STR_GLOCK_18_STOCK_REMOVAL: "Glock 18: Remove Stock"
       STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL: "(Kevlar, BP): Remove Backpack"
-      STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Nightvision"
+      STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Night Vision"
+      STR_DEFAULT_KEVLAR_RIOT_REMOVAL: "(Kevlar, Face Shield): Remove Riot Armor Plates"
+      STR_DEFAULT_KEVLAR_RIOT_BACKPACK_REMOVAL: "(Kevlar, Face Shield, BP): Remove Backpack" 
       STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL: "(Kevlar, NV, BP): Remove Backpack"
-      STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Nightvision"
+      STR_DEFAULT_KEVLAR_ADVNV_REMOVAL: "(Kevlar, ADVNV): Remove Adv. Night Vision"
       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL: "(Kevlar, ADVNV, BP): Remove Backpack"
-      STR_HEAVY_NV_REMOVAL: "(Heavy Vest, NV): Remove Nightvision"
-      STR_HEAVY_ADVNV_REMOVAL: "(Heavy Vest, ADVNV): Remove Adv. Nightvision"
+      STR_HEAVY_NV_REMOVAL: "(Heavy Armor, NV): Remove Night Vision"
+      STR_HEAVY_ADVNV_REMOVAL: "(Heavy Armor, ADVNV): Remove Adv. Night Vision"
 
 
 

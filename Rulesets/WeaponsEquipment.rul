@@ -55,10 +55,16 @@ items:
 
   - &STR_RIFLE_MELEE
     type: STR_RIFLE_MELEE
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 15
-    damageAlter:
+    meleeType: 7
+    meleeHitSound: [350,351,352]
+    meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
      ToArmor: 0.0
@@ -68,10 +74,16 @@ items:
 
   - &STR_PISTOL 
     type: STR_PISTOL
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
-    damageAlter:
+    meleeType: 7
+    meleeHitSound: [350,351,352]
+    meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
      ToArmor: 0.0
@@ -81,6 +93,10 @@ items:
 
   - &STR_AUTO_PISTOL 
     type: STR_AUTO_PISTOL
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -92,7 +108,9 @@ items:
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
-    damageAlter:
+    meleeType: 7
+    meleeHitSound: [350,351,352]
+    meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
      ToArmor: 0.0
@@ -102,6 +120,10 @@ items:
 
   - &STR_SMG
     type: STR_SMG
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     confAuto:
       shots: 7
       name: STR_FULL_AUTO
@@ -136,6 +158,11 @@ items:
       name: STR_FIRE_SHOTGUN
       ammoSlot: 1
     refNode: *STR_RIFLE_MELEE
+    ammo: # required by battleType for STR_AR_UBS
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+        1:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
 
   - &STR_AR_GL
     type: STR_AR_GL
@@ -150,9 +177,18 @@ items:
       ammoSlot: 1
       arcing: true
     refNode: *STR_RIFLE_MELEE
+    ammo: # required by battleType for STR_AR_UBS
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+        1:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
 
   - &STR_LMG
     type: STR_LMG
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
     confAuto:
       shots: 15
       name: STR_SUPPRESSION
@@ -169,7 +205,7 @@ items:
   #   type: 
   #   power: 
   #   hitAnimation: 26
-  #   hitSound: 22
+  #   hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
   #   bulletSprite: 2
   #   battleType: 2
   #   damageType: 1
@@ -185,20 +221,22 @@ items:
     type: STR_TASER_AMMO
     power: 40
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 10
     battleType: 2
     damageType: 6
+    blastRadius: 0
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
       ToArmor: 0
+      FixRadius: 0
   - &STR_38_SPECIAL_AMMO
     type: STR_38_SPECIAL
     power: 26
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 1
     battleType: 2
     damageType: 1
     damageAlter:
@@ -208,8 +246,8 @@ items:
     type: STR_MAKAROV_AMMO
     power: 29
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 11 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -219,8 +257,8 @@ items:
     type: STR_9MM_PISTOL_AMMO
     power: 31
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 11 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -230,8 +268,8 @@ items:
     type: STR_9MM_GYURZA_AMMO
     power: 34
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 11 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -242,8 +280,8 @@ items:
     type: STR_FN57_AMMO
     power: 33
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 12 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -254,8 +292,8 @@ items:
     type: STR_45_PISTOL_AMMO
     power: 35
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 2 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -267,10 +305,10 @@ items:
     type: STR_CASELESS_4_73_AMMO
     power: 35
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 12 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -279,10 +317,10 @@ items:
     type: STR_5_45_AMMO
     power: 36
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 13 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -291,10 +329,10 @@ items:
     type: STR_5_56MM_NATO_RIFLE_AMMO
     power: 37
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 14 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -303,7 +341,7 @@ items:
     type: STR_22_LONG_RIFLE_AMMO
     power: 33
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
     bulletSprite: 2
@@ -315,10 +353,10 @@ items:
     type: STR_7_62MM_SOVIET_RIFLE_AMMO
     power: 43
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 13 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -327,10 +365,10 @@ items:
     type: STR_7_62MM_NATO_RIFLE_AMMO
     power: 45
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 15 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -339,10 +377,10 @@ items:
     type: STR_SOVIET_7_62_MMR_AMMO
     power: 49
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 13 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -351,10 +389,10 @@ items:
     type: STR_9_39_AMMO
     power: 51
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 16 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -363,10 +401,10 @@ items:
     type: STR_338_LAPUA_AMMO
     power: 61
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 17 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -375,10 +413,10 @@ items:
     type: STR_50_BMG_AMMO
     power: 70
     hitAnimation: 26
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 2
+    bulletSprite: 18 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -387,8 +425,8 @@ items:
     type: STR_127_AMMO
     power: 75
     hitAnimation: 26
-    hitSound: 22
-    bulletSprite: 2
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 18 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -401,9 +439,9 @@ items:
     power: 25
     shotgunPellets: 10
     shotgunSpread: 100
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -412,9 +450,9 @@ items:
   - &STR_12G_SLUG
     type: STR_12G_SLUG
     power: 45
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -427,9 +465,9 @@ items:
     power: 10
     shotgunPellets: 10
     shotgunSpread: 100
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
@@ -445,9 +483,9 @@ items:
     power: 25
     shotgunPellets: 20
     shotgunSpread: 100
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -456,9 +494,9 @@ items:
   - &STR_BARRICADE
     type: STR_BARRICADE
     power: 55
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     damageAlter:
@@ -471,9 +509,9 @@ items:
     power: 10
     shotgunPellets: 20
     shotgunSpread: 100
-    hitSound: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
-    bulletSprite: 2
+    bulletSprite: 3
     battleType: 2
     damageType: 1
     powerRangeThreshold: 5
@@ -487,7 +525,7 @@ items:
   - &STR_40MM_FRAG
     type: STR_40MM_FRAG
     power: 50
-    bulletSprite: 14
+    bulletSprite: 19
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -502,7 +540,7 @@ items:
   - &STR_40MM_SMOKE
     type: STR_40MM_SMOKE
     power: 40
-    bulletSprite: 14
+    bulletSprite: 19
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -516,7 +554,7 @@ items:
   - &STR_APAV40
     type: STR_APAV40
     power: 60
-    bulletSprite: 14
+    bulletSprite: 4
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -531,7 +569,7 @@ items:
   - &STR_40MM_NON_LETHAL
     type: STR_40MM_NON_LETHAL
     power: 40
-    bulletSprite: 14
+    bulletSprite: 19
     hitSound: 0
     hitAnimation: 26
     battleType: 2
@@ -548,7 +586,7 @@ items:
   - &STR_CG_HEAT
     type: STR_CG_HEAT
     power: 200
-    bulletSprite: 0
+    bulletSprite: 20
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -562,7 +600,7 @@ items:
   - &STR_CG_HE
     type: STR_CG_HE
     power: 100
-    bulletSprite: 0
+    bulletSprite: 20
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -590,7 +628,7 @@ items:
   - &STR_RPG_29_HEAT
     type: STR_RPG_29_HEAT
     power: 190
-    bulletSprite: 0
+    bulletSprite: 21
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -604,7 +642,7 @@ items:
   - &STR_RPG_29_THERMO
     type: STR_RPG_29_THERMO
     power: 140
-    bulletSprite: 0
+    bulletSprite: 21
     hitSound: 0
     hitAnimation: 0
     battleType: 2
@@ -1228,6 +1266,8 @@ items:
     costSell: 450
     weight: 10
     clipSize: 10
+    invWidth: 1
+    invHeight: 2
     listOrder: 20840
   - type: STR_127_X5
     requiresBuy:
@@ -1435,6 +1475,8 @@ items:
     costSell: 450
     weight: 6
     clipSize: 3
+    invWidth: 2
+    invHeight: 1
   - type: STR_40MM_FRAG_X6
     categories: [ STR_CLIPS ]
     requiresBuy:
@@ -1592,7 +1634,8 @@ items:
   #     bigSprite: 
   #     floorSprite:
   #     handSprite:
-  #     fireSound: 4
+  #     reloadSound: 4
+    fireSound: 4
   #     costBuy: 
   #     costSell: 
   #     accuracyAimed: 
@@ -1626,7 +1669,7 @@ items:
 #    requiresBuy:
     size: 1
     weight: 12
-    battleType: 1
+    # battleType: 1
     bigSprite: 3280
     floorSprite: 3280
     handSprite: 3280
@@ -1663,11 +1706,12 @@ items:
       - STR_P226_ACQUISITION
     size: 1
     weight: 10
-    battleType: 1
+    # battleType: 1
     bigSprite: 640
     floorSprite: 640
     handSprite: 640
-    fireSound: 4
+    reloadSound: 189
+    fireSound: 190
     costBuy: 10000
     costSell: 5000
     accuracyAimed: 60
@@ -1701,11 +1745,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 11
-    battleType: 1
+    # battleType: 1
     bigSprite: 3288
     floorSprite: 3288
     handSprite: 3288
-    fireSound: 4
+    reloadSound: 133
+    fireSound: 134
     costBuy: 8000
     costSell: 4000
     accuracyAimed: 55 
@@ -1739,11 +1784,12 @@ items:
       - STR_GLOCK_18_ACQUISITION
     size: 1
     weight: 11
-    battleType: 1
+    # battleType: 1
     bigSprite: 2160
     floorSprite: 2160
     handSprite: 2160
-    fireSound: 4
+    reloadSound: 133
+    fireSound: 134
     costBuy: 12000
     costSell: 6000
     accuracyAimed: 38
@@ -1778,11 +1824,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 12
-    battleType: 1
+    # battleType: 1
     bigSprite: 3320
     floorSprite: 3320
     handSprite: 3320
-    fireSound: 4
+    reloadSound: 133
+    fireSound: 134
     accuracyAimed: 45
     accuracySnap: 45
     accuracyAuto: 40
@@ -1814,11 +1861,12 @@ items:
       - STR_M1911_ACQUISITION
     size: 1
     weight: 12
-    battleType: 1
+    # battleType: 1
     bigSprite: 664
     floorSprite: 664
     handSprite: 664
-    fireSound: 4
+    reloadSound: 237
+    fireSound: 238
     costBuy: 3700
     costSell: 1850
     accuracyAimed: 70
@@ -1852,11 +1900,12 @@ items:
       - STR_MK_23_ACQUISITION
     size: 1
     weight: 14
-    battleType: 1
+    # battleType: 1
     bigSprite: 680
     floorSprite: 680
     handSprite: 680
-    fireSound: 4
+    reloadSound: 116
+    fireSound: 117
     costBuy: 13000
     costSell: 6500
     accuracyAimed: 80
@@ -1888,11 +1937,12 @@ items:
     categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
     size: 1
     weight: 7
-    battleType: 1
+    # battleType: 1
     bigSprite: 696
     floorSprite: 696
     handSprite: 696
-    fireSound: 4
+    reloadSound: 194
+    fireSound: 195
     costSell: 2500
     accuracyAimed: 55
     accuracySnap: 45
@@ -1925,11 +1975,12 @@ items:
       - STR_FIVE_SEVEN_ACQUISITION
     size: 1
     weight: 6
-    battleType: 1
+    # battleType: 1
     bigSprite: 2192
     floorSprite: 2192
     handSprite: 2192
-    fireSound: 4
+    reloadSound: 127
+    fireSound: 128
     costBuy: 12500
     costSell: 6250
     accuracyAimed: 65
@@ -1964,11 +2015,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 7
-    battleType: 1
+    # battleType: 1
     bigSprite: 3352
     floorSprite: 3352
     handSprite: 3352
-    fireSound: 4
+    reloadSound: 180
+    fireSound: 181
     costBuy: 6000
     costSell: 3000
     accuracyAimed: 70
@@ -2002,11 +2054,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 11
-    battleType: 1
+    # battleType: 1
     bigSprite: 3360
     floorSprite: 3360
     handSprite: 3360
-    fireSound: 4
+    reloadSound: 197
+    fireSound: 198
     costBuy: 12000
     costSell: 6000
     accuracyAimed: 60 
@@ -2040,11 +2093,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 14
-    battleType: 1
+    # battleType: 1
     bigSprite: 3376
     floorSprite: 3376
     handSprite: 3376
-    fireSound: 4
+    reloadSound: 197
+    fireSound: 198
     costBuy: 12500
     costSell: 6250
     accuracyAimed: 35 
@@ -2080,6 +2134,7 @@ items:
 #     bigSprite: 
 #     floorSprite:
 #     handSprite:
+#     reloadSound: 4
 #     fireSound: 4
 #     accuracyAimed: 42
 #     accuracySnap: 42
@@ -2109,11 +2164,12 @@ items:
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
     size: 1
     weight: 13
-    battleType: 1
+    # battleType: 1
     bigSprite: 712
     floorSprite: 712
     handSprite: 712
-    fireSound: 4
+    reloadSound: 229
+    fireSound: 230
     costSell: 5000
     accuracyAimed: 45
     accuracySnap: 60
@@ -2151,11 +2207,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 752
     floorSprite: 752
     handSprite: 752
-    fireSound: 4
+    reloadSound: 171
+    fireSound: 173
     costBuy: 15000
     costSell: 7500
     accuracyAimed: 50
@@ -2195,11 +2252,12 @@ items:
       - STR_MPX_ACQUISITION
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 792
     floorSprite: 792
     handSprite: 792
-    fireSound: 4
+    reloadSound: 174
+    fireSound: 175
     costBuy: 25000
     costSell: 12500
     accuracyAimed: 55
@@ -2238,11 +2296,12 @@ items:
       - STR_P90_ACQUISITION
     size: 1
     weight: 21
-    battleType: 1
+    # battleType: 1
     bigSprite: 856
     floorSprite: 856
     handSprite: 856
-    fireSound: 4
+    reloadSound: 185
+    fireSound: 186
     costBuy: 18000
     costSell: 9000
     accuracyAimed: 55
@@ -2275,11 +2334,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 14
-    battleType: 1
+    # battleType: 1
     bigSprite: 872
     floorSprite: 872
     handSprite: 872
-    fireSound: 4
+    reloadSound: 214
+    fireSound: 215
     costSell: 7500
     accuracyAimed: 50
     accuracySnap: 60
@@ -2318,11 +2378,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 28
-    battleType: 1
-    bigSprite: 3408
-    floorSprite: 3408
-    handSprite: 3408
-    fireSound: 4
+    # battleType: 1
+    bigSprite: 3896
+    floorSprite: 3896
+    handSprite: 3896
+    reloadSound: 177
+    fireSound: 178
     costBuy: 14000
     costSell: 7000
     accuracyAimed: 45 
@@ -2356,11 +2417,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 3472
     floorSprite: 3472
     handSprite: 3472
-    fireSound: 4
+    reloadSound: 231
+    fireSound: 232
     costBuy: 19000
     costSell: 95000
     accuracyAimed: 50
@@ -2394,11 +2456,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 23
-    battleType: 1
+    # battleType: 1
     bigSprite: 3488
     floorSprite: 3488
     handSprite: 3488
-    fireSound: 4
+    reloadSound: 237
+    fireSound: 238
     costBuy: 17000
     costSell: 8500
     accuracyAimed: 55 
@@ -2432,11 +2495,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 15
-    battleType: 1
+    # battleType: 1
     bigSprite: 3504
     floorSprite: 3504
     handSprite: 3504
-    fireSound: 4
+    reloadSound: 197
+    fireSound: 198
     costBuy: 23000
     costSell: 11500
     accuracyAimed: 50
@@ -2469,11 +2533,12 @@ items:
       - STR_TAVOR_ACQUISITION
     size: 1
     weight: 23
-    battleType: 1
+    # battleType: 1
     bigSprite: 936
     floorSprite: 936
     handSprite: 936
-    fireSound: 4
+    reloadSound: 227
+    fireSound: 228
     costBuy: 30000
     costSell: 15000
     accuracyAimed: 50
@@ -2510,7 +2575,8 @@ items:
     bigSprite: 952
     floorSprite: 952
     handSprite: 952
-    fireSound: 4
+    reloadSound: 227
+    fireSound: 228
     accuracyAimed: 50
     accuracySnap: 60
     accuracyAuto: 40
@@ -2559,11 +2625,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 25
-    battleType: 1
+    # battleType: 1
     bigSprite: 968
     floorSprite: 968
     handSprite: 968
-    fireSound: 4
+    reloadSound: 227
+    fireSound: 228
     accuracyAimed: 70
     accuracySnap: 55
     accuracyAuto: 50
@@ -2595,11 +2662,12 @@ items:
       - STR_TAVOR_95X_ACQUISITION
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 984
     floorSprite: 984
     handSprite: 984
-    fireSound: 4
+    reloadSound: 227
+    fireSound: 228
     costBuy: 40000
     costSell: 20000
     accuracyAimed: 60
@@ -2632,11 +2700,12 @@ items:
     # requiresBuy:
     size: 1
     weight: 26
-    battleType: 1
+    # battleType: 1
     bigSprite: 1000
     floorSprite: 1000
     handSprite: 1000
-    fireSound: 4
+    reloadSound: 227
+    fireSound: 228
     accuracyAimed: 80
     accuracySnap: 60
     accuracyAuto: 50
@@ -2668,191 +2737,12 @@ items:
       - STR_M4_ACQUISITION
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1016
     floorSprite: 1016
     handSprite: 1016
-    fireSound: 4
-    costBuy: 29000
-    costSell: 14500
-    accuracyAimed: 80
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 35
-    snapRange: 31
-    autoRange: 25
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    tuAimed: 60
-    tuSnap: 40
-    tuAuto: 55
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 21100
-
-  - type: STR_M4_SOPMOD
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 26
-    battleType: 1
-    bigSprite: 1032
-    floorSprite: 1032
-    handSprite: 1032
-    fireSound: 4
-    accuracyAimed: 100
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: false
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 45
-    snapRange: 41
-    autoRange: 30
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    tuAimed: 80
-    tuSnap: 37
-    tuAuto: 52
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 21120
-
-  - type: STR_M4_M320
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 36
-    battleType: 1
-    bigSprite: 1048
-    floorSprite: 1048
-    handSprite: 1048
-    fireSound: 4
-    accuracyAimed: 50
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 25
-    snapRange: 31
-    autoRange: 18
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    confAimed:
-      shots: 3
-      name: STR_BURST
-      ammoSlot: 0
-      arcing: false
-    confAuto:
-      shots: 1
-      name: STR_FIRE_GRENADE
-      ammoSlot: 1
-      arcing: true
-    tuAimed: 60
-    tuSnap: 40
-    tuAuto: 65
-    invWidth: 1
-    invHeight: 3
-    accuracyMelee: 100
-    tuMelee: 30
-    meleePower: 15
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-      1:
-        compatibleAmmo:
-          [
-            STR_40MM_FRAG_X1,
-            STR_40MM_SMOKE_X1,
-            STR_40MM_NON_LETHAL_X1
-          ]
-        tuLoad: 40
-        tuUnload: 20
-    listOrder: 20450
-
-  - type: STR_M4_UBS
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 33
-    battleType: 1
-    bigSprite: 1064
-    floorSprite: 1064
-    handSprite: 1064
-    fireSound: 4
-    accuracyAimed: 50
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 25
-    snapRange: 31
-    autoRange: 7
-    kneelBonus: 125
-    refNode: *STR_RIFLE_MELEE
-    confAimed:
-      shots: 3
-      name: STR_BURST
-      ammoSlot: 0
-      arcing: false
-    confAuto:
-      shots: 1
-      name: STR_FIRE_SHOTGUN
-      ammoSlot: 1
-    tuAimed: 55
-    tuSnap: 40
-    tuAuto: 30
-    invWidth: 1
-    invHeight: 3
-    shotgunBehavior: 1
-    shotgunChoke: 80
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-      1:
-        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
-        tuLoad: 40
-        tuUnload: 20
-    listOrder: 20190
-
-  - type: STR_M4A1
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    requiresBuy:
-      - STR_M4A1_ACQUISITION
-    size: 1
-    weight: 24
-    battleType: 1
-    bigSprite: 1096
-    floorSprite: 1096
-    handSprite: 1096
-    fireSound: 4
+    reloadSound: 152
+    fireSound: 153
     costBuy: 32000
     costSell: 16000
     accuracyAimed: 70
@@ -2888,16 +2778,17 @@ items:
         tuUnload: 15
     listOrder: 21140
 
-  - type: STR_M4A1_SOPMOD
+  - type: STR_M4_SOPMOD
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
     weight: 26
-    battleType: 1
-    bigSprite: 1112
-    floorSprite: 1112
-    handSprite: 1112
-    fireSound: 4
+    # battleType: 1
+    bigSprite: 1032
+    floorSprite: 1032
+    handSprite: 1032
+    reloadSound: 152
+    fireSound: 154
     accuracyAimed: 90
     accuracySnap: 65
     accuracyAuto: 40
@@ -2923,17 +2814,196 @@ items:
         tuUnload: 15
     listOrder: 21160
 
+  - type: STR_M4_M320
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 36
+    # battleType: 1
+    bigSprite: 1048
+    floorSprite: 1048
+    handSprite: 1048
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 18
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20500
+
+  - type: STR_M4_UBS
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    # battleType: 1
+    bigSprite: 1064
+    floorSprite: 1064
+    handSprite: 1064
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR_UBS
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 30
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 80
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20220
+
+  - type: STR_M4A1
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_M4A1_ACQUISITION
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 1096
+    floorSprite: 1096
+    handSprite: 1096
+    reloadSound: 152
+    fireSound: 153
+    costBuy: 32000
+    costSell: 16000
+    accuracyAimed: 75
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR 
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21140
+
+  - type: STR_M4A1_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 26
+    # battleType: 1
+    bigSprite: 1112
+    floorSprite: 1112
+    handSprite: 1112
+    reloadSound: 152
+    fireSound: 154
+    accuracyAimed: 95
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 29
+    snapRange: 41
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR 
+    tuAimed: 80
+    tuSnap: 37
+    tuAuto: 53
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21160
+
   - type: STR_M4A1_M320
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
     weight: 36
-    battleType: 1
+    # battleType: 1
     bigSprite: 1128
     floorSprite: 1128
     handSprite: 1128
-    fireSound: 4
-    accuracyAimed: 70
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 75
     accuracySnap: 65
     accuracyAuto: 50
     blockBothHands: false
@@ -2981,12 +3051,13 @@ items:
     #    requiresBuy:
     size: 1
     weight: 33
-    battleType: 1
+    # battleType: 1
     bigSprite: 1144
     floorSprite: 1144
     handSprite: 1144
-    fireSound: 4
-    accuracyAimed: 70
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 75
     accuracySnap: 65
     accuracyAuto: 50
     blockBothHands: false
@@ -3023,11 +3094,12 @@ items:
       - STR_AK12_ACQUISITION
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 1176
     floorSprite: 1176
     handSprite: 1176
-    fireSound: 4
+    reloadSound: 245
+    fireSound: 246
     costBuy: 28000
     costSell: 14000
     accuracyAimed: 60
@@ -3060,11 +3132,12 @@ items:
     #requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1208
     floorSprite: 1208
     handSprite: 1208
-    fireSound: 4
+    reloadSound: 245
+    fireSound: 246
     accuracyAimed: 80
     accuracySnap: 65
     accuracyAuto: 35
@@ -3096,11 +3169,12 @@ items:
       - STR_AK15_ACQUISITION
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1240
     floorSprite: 1240
     handSprite: 1240
-    fireSound: 4
+    reloadSound: 245
+    fireSound: 246
     costBuy: 31000
     costSell: 15500
     accuracyAimed: 65
@@ -3138,11 +3212,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1272
     floorSprite: 1272
     handSprite: 1272
-    fireSound: 4
+    reloadSound: 245
+    fireSound: 246
     accuracyAimed: 85
     accuracySnap: 65
     accuracyAuto: 30
@@ -3180,11 +3255,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 28
-    battleType: 1
+    # battleType: 1
     bigSprite: 3528
     floorSprite: 3528
     handSprite: 3528
-    fireSound: 4
+    reloadSound: 125
+    fireSound: 126
     costBuy: 28000
     costSell: 14000
     accuracyAimed: 55
@@ -3218,11 +3294,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 30
-    battleType: 1
+    # battleType: 1
     bigSprite: 3552
     floorSprite: 3552
     handSprite: 3552
-    fireSound: 4
+    reloadSound: 125
+    fireSound: 126
     accuracyAimed: 75
     accuracySnap: 40
     accuracyAuto: 35
@@ -3254,11 +3331,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 27
-    battleType: 1
+    # battleType: 1
     bigSprite: 3592
     floorSprite: 3592
     handSprite: 3592
-    fireSound: 4
+    reloadSound: 136
+    fireSound: 137
     costBuy: 31000
     costSell: 15500
     accuracyAimed: 80
@@ -3292,11 +3370,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 37
-    battleType: 1
+    # battleType: 1
     bigSprite: 3576
     floorSprite: 3576
     handSprite: 3576
-    fireSound: 4
+    reloadSound: 136
+    fireSound: 137
     accuracyAimed: 80
     accuracySnap: 60
     accuracyAuto: 45
@@ -3331,11 +3410,12 @@ items:
       - STR_HK416_ACQUISITION
     size: 1
     weight: 25
-    battleType: 1
+    # battleType: 1
     bigSprite: 1304
     floorSprite: 1304
     handSprite: 1304
-    fireSound: 4
+    reloadSound: 139
+    fireSound: 140
     costBuy: 35000
     costSell: 17500
     accuracyAimed: 70
@@ -3368,11 +3448,12 @@ items:
     #    requiresBuy: 
     size: 1
     weight: 27
-    battleType: 1
+    # battleType: 1
     bigSprite: 1320
     floorSprite: 1320
     handSprite: 1320
-    fireSound: 4
+    reloadSound: 139
+    fireSound: 138
     accuracyAimed: 90
     accuracySnap: 65
     accuracyAuto: 50
@@ -3403,11 +3484,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 37
-    battleType: 1
+    # battleType: 1
     bigSprite: 1336
     floorSprite: 1336
     handSprite: 1336
-    fireSound: 4
+    reloadSound: 139
+    fireSound: 140
     accuracyAimed: 70
     accuracySnap: 65
     accuracyAuto: 50
@@ -3447,11 +3529,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 34
-    battleType: 1
+    # battleType: 1
     bigSprite: 1352
     floorSprite: 1352
     handSprite: 1352
-    fireSound: 4
+    reloadSound: 139
+    fireSound: 140
     accuracyAimed: 70
     accuracySnap: 65
     accuracyAuto: 50
@@ -3490,11 +3573,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 31
-    battleType: 1
+    # battleType: 1
     bigSprite: 3608
     floorSprite: 3608
     handSprite: 3608
-    fireSound: 4
+    reloadSound: 139
+    fireSound: 140
     costBuy: 39000
     costSell: 19500
     accuracyAimed: 80
@@ -3528,11 +3612,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 33
-    battleType: 1
+    # battleType: 1
     bigSprite: 3640
     floorSprite: 3640
     handSprite: 3640
-    fireSound: 4
+    reloadSound: 139
+    fireSound: 138
     accuracyAimed: 100
     accuracySnap: 60
     accuracyAuto: 30
@@ -3563,11 +3648,12 @@ items:
       - STR_FX_05_ACQUISITION
     size: 1
     weight: 19
-    battleType: 1
+    # battleType: 1
     bigSprite: 1384
     floorSprite: 1384
     handSprite: 1384
-    fireSound: 4
+    reloadSound: 136
+    fireSound: 137
     costBuy: 17500
     costSell: 8750
     accuracyAimed: 55
@@ -3600,11 +3686,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 21
-    battleType: 1
+    # battleType: 1
     bigSprite: 1400
     floorSprite: 1400
     handSprite: 1400
-    fireSound: 4
+    reloadSound: 136
+    fireSound: 137
     accuracyAimed: 75
     accuracySnap: 55
     accuracyAuto: 30
@@ -3636,11 +3723,12 @@ items:
       - STR_SCAR_L_ACQUISITION
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1416
     floorSprite: 1416
     handSprite: 1416
-    fireSound: 4
+    reloadSound: 211
+    fireSound: 212
     costBuy: 38000
     costSell: 14000
     accuracyAimed: 80
@@ -3673,11 +3761,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 26
-    battleType: 1
+    # battleType: 1
     bigSprite: 1432
     floorSprite: 1432
     handSprite: 1432
-    fireSound: 4
+    reloadSound: 211
+    fireSound: 213
     accuracyAimed: 100
     accuracySnap: 70
     accuracyAuto: 50
@@ -3708,11 +3797,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 34
-    battleType: 1
+    # battleType: 1
     bigSprite: 1448
     floorSprite: 1448
     handSprite: 1448
-    fireSound: 4
+    reloadSound: 211
+    fireSound: 212
     accuracyAimed: 80
     accuracySnap: 70
     accuracyAuto: 45
@@ -3753,11 +3843,12 @@ items:
       - STR_SCAR_H_ACQUISITION
     size: 1
     weight: 28
-    battleType: 1
+    # battleType: 1
     bigSprite: 2008
     floorSprite: 2008
     handSprite: 2008
-    fireSound: 4
+    reloadSound: 209
+    fireSound: 210
     costBuy: 41000
     costSell: 20500
     accuracyAimed: 85
@@ -3790,11 +3881,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 30
-    battleType: 1
+    # battleType: 1
     bigSprite: 2040
     floorSprite: 2040
     handSprite: 2040
-    fireSound: 4
+    reloadSound: 209
+    fireSound: 213
     accuracyAimed: 105
     accuracySnap: 75
     accuracyAuto: 45
@@ -3825,11 +3917,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 38
-    battleType: 1
+    # battleType: 1
     bigSprite: 2072
     floorSprite: 2072
     handSprite: 2072
-    fireSound: 4
+    reloadSound: 209
+    fireSound: 210
     accuracyAimed: 85
     accuracySnap: 75
     accuracyAuto: 45
@@ -3870,11 +3963,12 @@ items:
       - STR_G11_ACQUISITION
     size: 1
     weight: 30
-    battleType: 1
+    # battleType: 1
     bigSprite: 1512
     floorSprite: 1512
     handSprite: 1512
-    fireSound: 4
+    reloadSound: 121
+    fireSound: 122
     costBuy: 85000
     costSell: 42500
     accuracyAimed: 90
@@ -3908,11 +4002,12 @@ items:
       - STR_SR3_ACQUISITION
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 1528
     floorSprite: 1528
     handSprite: 1528
-    fireSound: 4
+    reloadSound: 130
+    fireSound: 131
     costBuy: 45000
     costSell: 22500
     accuracyAimed: 70
@@ -3945,11 +4040,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 20
-    battleType: 1
+    # battleType: 1
     bigSprite: 1552
     floorSprite: 1552
     handSprite: 1552
-    fireSound: 4
+    reloadSound: 130
+    fireSound: 131
     accuracyAimed: 30
     accuracySnap: 60
     accuracyAuto: 10
@@ -3980,11 +4076,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1464
     floorSprite: 1464
     handSprite: 1464
-    fireSound: 4
+    reloadSound: 113
+    fireSound: 114
     costSell: 13000
     accuracyAimed: 70
     accuracySnap: 60
@@ -4016,11 +4113,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1480
     floorSprite: 1480
     handSprite: 1480
-    fireSound: 4
+    reloadSound: 113
+    fireSound: 114
     costSell: 15000
     accuracyAimed: 55
     accuracySnap: 55
@@ -4052,11 +4150,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 22
-    battleType: 1
+    # battleType: 1
     bigSprite: 1480
     floorSprite: 1480
     handSprite: 1480
-    fireSound: 4
+    reloadSound: 113
+    fireSound: 114
     costSell: 7500
     accuracyAimed: 75
     accuracySnap: 45
@@ -4084,11 +4183,12 @@ items:
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     size: 1
     weight: 24
-    battleType: 1
+    # battleType: 1
     bigSprite: 1576
     floorSprite: 1576
     handSprite: 1576
-    fireSound: 4
+    reloadSound: 242
+    fireSound: 244
     costSell: 10000
     accuracyAimed: 55
     accuracySnap: 65
@@ -4124,11 +4224,12 @@ items:
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     size: 1
     weight: 23
-    battleType: 1
+    # battleType: 1
     bigSprite: 1608
     floorSprite: 1608
     handSprite: 1608
-    fireSound: 4
+    reloadSound: 242
+    fireSound: 243
     costSell: 12000
     accuracyAimed: 50
     accuracySnap: 60
@@ -4160,11 +4261,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 38
-    battleType: 1
+    # battleType: 1
     bigSprite: 2216
     floorSprite: 2216
     handSprite: 2216
-    fireSound: 4
+    reloadSound: 123
+    fireSound: 124
     costSell: 12000
     accuracyAimed: 95
     accuracySnap: 50
@@ -4203,11 +4305,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 33
-    battleType: 1
+    # battleType: 1
     bigSprite: 3672
     floorSprite: 3672
     handSprite: 3672
-    fireSound: 4
+    reloadSound: 163
+    fireSound: 164
     accuracyAimed: 75
     accuracySnap: 55
     accuracyAuto: 35
@@ -4271,7 +4374,8 @@ items:
     bigSprite: 1680
     floorSprite: 1680
     handSprite: 1680
-    fireSound: 4
+    reloadSound: 242
+    fireSound: 244
     costSell: 10000
     accuracyAimed: 100
     accuracySnap: 60
@@ -4303,7 +4407,8 @@ items:
     bigSprite: 1640
     floorSprite: 1640
     handSprite: 1640
-    fireSound: 4
+    reloadSound: 204
+    fireSound: 205
     costBuy: 42000
     costSell: 21000
     accuracyAimed: 125
@@ -4336,7 +4441,8 @@ items:
     bigSprite: 2104
     floorSprite: 2104
     handSprite: 2104
-    fireSound: 4
+    reloadSound: 204
+    fireSound: 205
     costBuy: 46000
     costSell: 23000
     accuracyAimed: 130
@@ -4353,7 +4459,7 @@ items:
     tuAimed: 85
     tuSnap: 55
     tuAuto: 70
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:
@@ -4372,7 +4478,8 @@ items:
     bigSprite: 1696
     floorSprite: 1696
     handSprite: 1696
-    fireSound: 4
+    reloadSound: 197
+    fireSound: 199
     costBuy: 57000
     costSell: 28500
     accuracyAimed: 115
@@ -4410,7 +4517,8 @@ items:
     bigSprite: 3704
     floorSprite: 3704
     handSprite: 3704
-    fireSound: 4
+    reloadSound: 118
+    fireSound: 119
     costBuy: 43000
     costSell: 21500
     accuracyAimed: 120
@@ -4446,7 +4554,8 @@ items:
     bigSprite: 3720
     floorSprite: 3720
     handSprite: 3720
-    fireSound: 4 
+    reloadSound: 107
+    fireSound: 108
     costBuy: 62000
     costSell: 31000
     accuracyAimed: 115
@@ -4478,7 +4587,8 @@ items:
     bigSprite: 1992
     floorSprite: 1992
     handSprite: 1992
-    fireSound: 4
+    reloadSound: 149
+    fireSound: 151
     costBuy: 52000
     costSell: 26000
     accuracyAimed: 150
@@ -4511,7 +4621,8 @@ items:
     bigSprite: 2136
     floorSprite: 2136
     handSprite: 2136
-    fireSound: 4
+    reloadSound: 149
+    fireSound: 150
     costBuy: 47500
     costSell: 23750
     accuracyAimed: 115
@@ -4525,7 +4636,7 @@ items:
     kneelBonus: 145
     tuAimed: 80
     tuSnap: 55
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:
@@ -4544,7 +4655,8 @@ items:
     bigSprite: 1736
     floorSprite: 1736
     handSprite: 1736
-    fireSound: 4
+    reloadSound: 149
+    fireSound: 150
     costBuy: 51000
     costSell: 25500
     accuracyAimed: 135
@@ -4558,7 +4670,7 @@ items:
     kneelBonus: 145
     tuAimed: 85
     tuSnap: 65
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:
@@ -4578,7 +4690,8 @@ items:
     bigSprite: 3736
     floorSprite: 3736
     handSprite: 3736
-    fireSound: 4
+    reloadSound: 149
+    fireSound: 150
     costBuy: 44000
     costSell: 22000
     accuracyAimed: 110
@@ -4610,7 +4723,8 @@ items:
     bigSprite: 1752
     floorSprite: 1752
     handSprite: 1752
-    fireSound: 4
+    reloadSound: 110
+    fireSound: 111
     costBuy: 60000
     costSell: 30000
     accuracyAimed: 130
@@ -4624,7 +4738,7 @@ items:
     kneelBonus: 150
     tuAimed: 90
     tuSnap: 70
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     ammo:
       0:
@@ -4642,7 +4756,7 @@ items:
     bigSprite: 2208
     floorSprite: 2208
     handSprite: 2208
-    fireSound: 4
+    fireSound: 144
     costSell: 8000
     accuracyAimed: 80
     accuracySnap: 40
@@ -4677,7 +4791,8 @@ items:
     bigSprite: 1776
     floorSprite: 1776
     handSprite: 1776
-    fireSound: 4
+    reloadSound: 224
+    fireSound: 225
     costBuy: 30000
     costSell: 15000
     accuracyAimed: 75
@@ -4712,7 +4827,8 @@ items:
     bigSprite: 1792
     floorSprite: 1792
     handSprite: 1792
-    fireSound: 4
+    reloadSound: 200
+    fireSound: 201
     costBuy: 21000
     costSell: 10500
     accuracyAimed: 95
@@ -4754,7 +4870,8 @@ items:
     bigSprite: 3744
     floorSprite: 3744
     handSprite: 3744
-    fireSound: 4
+    reloadSound: 219
+    fireSound: 220
     costBuy: 28000
     costSell: 14000
     accuracyAimed: 110
@@ -4787,7 +4904,8 @@ items:
     bigSprite: 1800
     floorSprite: 1800
     handSprite: 1800
-    fireSound: 4
+    reloadSound: 143
+    fireSound: 144
     costBuy: 30000
     costSell: 15000
     accuracyAimed: 100
@@ -4823,7 +4941,8 @@ items:
     bigSprite: 1808
     floorSprite: 1808
     handSprite: 1808
-    fireSound: 4
+    reloadSound: 234
+    fireSound: 236
     costBuy: 51000
     costSell: 25500
     accuracyAimed: 80
@@ -4862,11 +4981,12 @@ items:
       - STR_AA_12_ACQUISITION
     size: 1
     weight: 46
-    battleType: 1
+    # battleType: 1
     bigSprite: 1840
     floorSprite: 1840
     handSprite: 1840
-    fireSound: 4
+    reloadSound: 102
+    fireSound: 103
     costBuy: 40000
     costSell: 20000
     accuracyAimed: 80
@@ -4909,11 +5029,12 @@ items:
       - STR_USAS_12_ACQUISITION
     size: 1
     weight: 42
-    battleType: 1
+    # battleType: 1
     bigSprite: 1872
     floorSprite: 1872
     handSprite: 1872
-    fireSound: 4
+    reloadSound: 234
+    fireSound: 235
     costBuy: 42000
     costSell: 21000
     accuracyAimed: 60
@@ -4956,11 +5077,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 28
-    battleType: 1
+    # battleType: 1
     bigSprite: 3752
     floorSprite: 3752
     handSprite: 3752
-    fireSound: 4
+    reloadSound: 207
+    fireSound: 208
     costBuy: 43000
     costSell: 21500
     accuracyAimed: 70
@@ -4992,11 +5114,12 @@ items:
     #    requiresBuy:
     size: 1
     weight: 65
-    battleType: 1
+    # battleType: 1
     bigSprite: 2248
     floorSprite: 2248
     handSprite: 2248
-    fireSound: 4
+    reloadSound: 155
+    fireSound: 156
     costSell: 20000
     accuracySnap: 45
     accuracyAuto: 20
@@ -5026,11 +5149,12 @@ items:
       - STR_M249_ACQUISITION
     size: 1
     weight: 52
-    battleType: 1
+    # battleType: 1
     bigSprite: 1896
     floorSprite: 1896
     handSprite: 1896
-    fireSound: 4
+    reloadSound: 160
+    fireSound: 161
     costBuy: 53000
     costSell: 26500
     accuracySnap: 60
@@ -5062,11 +5186,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 49
-    battleType: 1
+    # battleType: 1
     bigSprite: 3784
     floorSprite: 3784
     handSprite: 3784
-    fireSound: 4
+    reloadSound: 160
+    fireSound: 161
     costBuy: 50000
     costSell: 25000
     accuracySnap: 50
@@ -5098,6 +5223,7 @@ items:
 #     bigSprite: 
 #     floorSprite:
 #     handSprite:
+#     reloadSound: 4
 #     fireSound: 4
 #     costBuy: 48000
 #     costSell: 24000
@@ -5127,11 +5253,12 @@ items:
       - STR_MK_48_ACQUISITION
     size: 1
     weight: 60
-    battleType: 1
+    # battleType: 1
     bigSprite: 1920
     floorSprite: 1920
     handSprite: 1920
-    fireSound: 4
+    reloadSound: 166
+    fireSound: 167
     costBuy: 65000
     costSell: 32500
     accuracySnap: 55
@@ -5163,11 +5290,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 38
-    battleType: 1
+    # battleType: 1
     bigSprite: 3824
     floorSprite: 3824
     handSprite: 3824
-    fireSound: 4
+    reloadSound: 242
+    fireSound: 244
     costBuy: 49000
     costSell: 24500
     accuracySnap: 65
@@ -5196,11 +5324,12 @@ items:
       - STR_PECHENEG_ACQUISITION
     size: 1
     weight: 59
-    battleType: 1
+    # battleType: 1
     bigSprite: 1936
     floorSprite: 1936
     handSprite: 1936
-    fireSound: 4
+    reloadSound: 191
+    fireSound: 192
     costBuy: 56500
     costSell: 28250
     accuracySnap: 50
@@ -5232,11 +5361,12 @@ items:
 #    requiresBuy:
     size: 1
     weight: 48
-    battleType: 1
+    # battleType: 1
     bigSprite: 3848
     floorSprite: 3848
     handSprite: 3848
-    fireSound: 4
+    reloadSound: 146
+    fireSound: 192
     costBuy: 54000
     costSell: 27000
     accuracySnap: 60
@@ -5269,7 +5399,8 @@ items:
     bigSprite: 1952
     floorSprite: 1952
     handSprite: 1952
-    fireSound: 4
+    reloadSound: 158
+    fireSound: 159
     costBuy: 19500
     costSell: 9750
     accuracyAimed: 70
@@ -5284,7 +5415,7 @@ items:
     kneelBonus: 100
     tuAimed: 70
     tuSnap: 50
-    invWidth: 1
+    invWidth: 2
     invHeight: 2
     arcingShot: true
     ammo:
@@ -5309,7 +5440,8 @@ items:
     bigSprite: 1960
     floorSprite: 1960
     handSprite: 1960
-    fireSound: 4
+    reloadSound: 224
+    fireSound: 159
     costBuy: 61500
     costSell: 307500
     accuracyAimed: 75
@@ -5351,7 +5483,8 @@ items:
     bigSprite: 3872
     floorSprite: 3872
     handSprite: 3872
-    fireSound: 4
+    reloadSound: 158
+    fireSound: 159
     costBuy: 38000
     costSell: 19000
     accuracyAimed: 60
@@ -5385,7 +5518,8 @@ items:
     bigSprite: 1968
     floorSprite: 1968
     handSprite: 1968
-    fireSound: 4
+    reloadSound: 217
+    fireSound: 218
     costBuy: 87000
     costSell: 43500
     accuracyAimed: 120
@@ -5417,7 +5551,8 @@ items:
     bigSprite: 1976
     floorSprite: 1976
     handSprite: 1976
-    fireSound: 4
+    reloadSound: 202
+    fireSound: 203
     costSell: 35000
     accuracyAimed: 100
     accuracySnap: 50
@@ -5450,7 +5585,8 @@ items:
     bigSprite: 3880
     floorSprite: 3880
     handSprite: 3880
-    fireSound: 4
+    reloadSound: 141
+    fireSound: 142
     costBuy: 72000
     costSell: 36000
     accuracyAimed: 110
@@ -5664,9 +5800,7 @@ items:
     armor: 8
 
 extraSprites:
-  #########################################
-  ######### TIER I WEAPONS USA ############
-  #########################################
+
   - type: BIGOBS.PCK
     files:
       200: Resources/BallisticWeapons/Ammo/BigMakarov_x10.png
@@ -5942,6 +6076,7 @@ extraSprites:
       2816: Resources/BallisticWeapons/WeaponMods/BigM203Accessory.png
       2824: Resources/BallisticWeapons/WeaponMods/MASS.png
       2832: Resources/BallisticWeapons/WeaponMods/SOPMOD.png
+      2840: Resources/BallisticWeapons/WeaponMods/Stock.png 
       3200: Resources/BallisticWeapons/Ammo/BigTaserClip.png
       3208: Resources/BallisticWeapons/Ammo/BigRevolverClip.png
       3216: Resources/BallisticWeapons/Ammo/BigGyurza20.png
@@ -5968,14 +6103,14 @@ extraSprites:
       3384: Resources/BallisticWeapons/Pistols/BigStetchkin.png
       # 3392: Resources/BallisticWeapons
       # 3400: Resources/BallisticWeapons
-      3408: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
-      3416: Resources/BallisticWeapons/SMGs/BigUziunfolded20.png
-      3424: Resources/BallisticWeapons/SMGs/BigUziunfolded.png
-      3432: Resources/BallisticWeapons/SMGs/BigUziunfolded40.png
-      3440: Resources/BallisticWeapons/SMGs/BigUzinomag.png
-      3448: Resources/BallisticWeapons/SMGs/BigUzi20.png
-      3456: Resources/BallisticWeapons/SMGs/BigUzi.png
-      3464: Resources/BallisticWeapons/SMGs/BigUzi40.png
+      # 3408: 
+      # 3416: 
+      # 3424: 
+      # 3432: 
+      # 3440: 
+      # 3448: 
+      # 3456: 
+      # 3464: 
       3472: Resources/BallisticWeapons/SMGs/BigUMP45nomag.png
       3480: Resources/BallisticWeapons/SMGs/BigUMP45.png
       3488: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
@@ -6028,7 +6163,17 @@ extraSprites:
       3864: Resources/BallisticWeapons/LMGs/BigNegev.png
       3872: Resources/BallisticWeapons/Artillery/BigGM-94.png
       3880: Resources/BallisticWeapons/Artillery/BigRPG-29.png
-      3888: Resources/BallisticWeapons/Ammo/Big762SovietSniperAmmo_x10.png
+      3888: Resources/BallisticWeapons/Ammo/Big762SovietSniperAmmo_x10.png   
+      3896: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
+      3904: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
+      3912: Resources/BallisticWeapons/SMGs/BigUziunfolded20.png
+      3920: Resources/BallisticWeapons/SMGs/BigUziunfolded.png
+      3928: Resources/BallisticWeapons/SMGs/BigUziunfolded40.png
+      3936: Resources/BallisticWeapons/SMGs/BigUzinomag.png
+      3944: Resources/BallisticWeapons/SMGs/BigUzinomag.png
+      3952: Resources/BallisticWeapons/SMGs/BigUzi20.png
+      3960: Resources/BallisticWeapons/SMGs/BigUzi.png
+      3968: Resources/BallisticWeapons/SMGs/BigUzi40.png
 
 
 
@@ -6146,16 +6291,16 @@ extraSprites:
       1072: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1080: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
       1088: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1096: Resources/BallisticWeapons/Rifles/FloorM4.png
-      1104: Resources/BallisticWeapons/Rifles/FloorM4.png
-      1112: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
-      1120: Resources/BallisticWeapons/Rifles/FloorM4SOPMOD.png
-      1128: Resources/BallisticWeapons/Rifles/FloorM4M320.png
-      1136: Resources/BallisticWeapons/Rifles/FloorM4M320.png
-      1144: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1152: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1160: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
-      1168: Resources/BallisticWeapons/Rifles/FloorM4MASS.png
+      1096: Resources/BallisticWeapons/Rifles/FloorM4A1.png
+      1104: Resources/BallisticWeapons/Rifles/FloorM4A1.png
+      1112: Resources/BallisticWeapons/Rifles/FloorM4A1SOPMOD.png
+      1120: Resources/BallisticWeapons/Rifles/FloorM4A1SOPMOD.png
+      1128: Resources/BallisticWeapons/Rifles/FloorM4A1M320.png
+      1136: Resources/BallisticWeapons/Rifles/FloorM4A1M320.png
+      1144: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
+      1152: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
+      1160: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
+      1168: Resources/BallisticWeapons/Rifles/FloorM4A1MASS.png
       1176: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1184: Resources/BallisticWeapons/Rifles/FloorAK12.png
       1192: Resources/BallisticWeapons/Rifles/FloorAK12.png
@@ -6312,14 +6457,14 @@ extraSprites:
       3264: Resources/BallisticWeapons/Ammo/Floor.png
       3272: Resources/BallisticWeapons/Ammo/Floor.png
       3280: Resources/BallisticWeapons/Pistols/FloorTaser.png
-      3288: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3296: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3304: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3312: Resources/BallisticWeapons/Pistols/FloorGlock18.png
-      3320: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
+      3288: Resources/BallisticWeapons/Pistols/FloorGlock17nomag.png
+      3296: Resources/BallisticWeapons/Pistols/FloorGlock17.png
+      3304: Resources/BallisticWeapons/Pistols/FloorGlock17.png
+      3312: Resources/BallisticWeapons/Pistols/FloorGlock1730.png
+      3320: Resources/BallisticWeapons/Pistols/FloorGlock18Stocknomag.png
       3328: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
       3336: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
-      3344: Resources/BallisticWeapons/Pistols/FloorGlock18Stock.png
+      3344: Resources/BallisticWeapons/Pistols/FloorGlock18Stock30.png
       3352: Resources/BallisticWeapons/Pistols/FloorManhurin.png
       3360: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
       3368: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
@@ -6327,14 +6472,14 @@ extraSprites:
       3384: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
       # 3392: Resources/BallisticWeapons
       # 3400: Resources/BallisticWeapons
-      3408: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3416: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3424: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3432: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3440: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3448: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3456: Resources/BallisticWeapons/SMGs/FloorUzi.png
-      3464: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      # 3408:
+      # 3416: 
+      # 3424: 
+      # 3432: 
+      # 3440: 
+      # 3448: 
+      # 3456: 
+      # 3464: 
       3472: Resources/BallisticWeapons/SMGs/FloorUMP45.png
       3480: Resources/BallisticWeapons/SMGs/FloorUMP45.png
       3488: Resources/BallisticWeapons/SMGs/FloorVityaz.png
@@ -6388,6 +6533,16 @@ extraSprites:
       3872: Resources/BallisticWeapons/Artillery/FloorGM-94.png
       3880: Resources/BallisticWeapons/Artillery/FloorRPG-29.png
       3888: Resources/BallisticWeapons/Ammo/Floor.png
+      3896: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3904: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3912: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3920: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3928: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3936: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3944: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3952: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3960: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      3968: Resources/BallisticWeapons/SMGs/FloorUzi.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -6506,16 +6661,16 @@ extraSprites:
       1072: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1080: Resources/BallisticWeapons/Rifles/HandM4MASS.png
       1088: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1096: Resources/BallisticWeapons/Rifles/HandM4.png
-      1104: Resources/BallisticWeapons/Rifles/HandM4.png
-      1112: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
-      1120: Resources/BallisticWeapons/Rifles/HandM4SOPMOD.png
-      1128: Resources/BallisticWeapons/Rifles/HandM4M320.png
-      1136: Resources/BallisticWeapons/Rifles/HandM4M320.png
-      1144: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1152: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1160: Resources/BallisticWeapons/Rifles/HandM4MASS.png
-      1168: Resources/BallisticWeapons/Rifles/HandM4MASS.png
+      1096: Resources/BallisticWeapons/Rifles/HandM4A1.png
+      1104: Resources/BallisticWeapons/Rifles/HandM4A1.png
+      1112: Resources/BallisticWeapons/Rifles/HandM4A1SOPMOD.png
+      1120: Resources/BallisticWeapons/Rifles/HandM4A1SOPMOD.png
+      1128: Resources/BallisticWeapons/Rifles/HandM4A1M320.png
+      1136: Resources/BallisticWeapons/Rifles/HandM4A1M320.png
+      1144: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
+      1152: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
+      1160: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
+      1168: Resources/BallisticWeapons/Rifles/HandM4A1MASS.png
       1176: Resources/BallisticWeapons/Rifles/HandAK12.png
       1184: Resources/BallisticWeapons/Rifles/HandAK12.png
       1192: Resources/BallisticWeapons/Rifles/HandAK12.png
@@ -6672,14 +6827,14 @@ extraSprites:
       3264: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3272: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3280: Resources/BallisticWeapons/Pistols/HandTaser.png
-      3288: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3296: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3304: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3312: Resources/BallisticWeapons/Pistols/HandGlock18.png
-      3320: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
+      3288: Resources/BallisticWeapons/Pistols/HandGlock17nomag.png
+      3296: Resources/BallisticWeapons/Pistols/HandGlock17.png
+      3304: Resources/BallisticWeapons/Pistols/HandGlock17.png
+      3312: Resources/BallisticWeapons/Pistols/HandGlock1730.png
+      3320: Resources/BallisticWeapons/Pistols/HandGlock18Stocknomag.png
       3328: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
       3336: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
-      3344: Resources/BallisticWeapons/Pistols/HandGlock18Stock.png
+      3344: Resources/BallisticWeapons/Pistols/HandGlock18Stock30.png
       3352: Resources/BallisticWeapons/Pistols/HandManhurin.png
       3360: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
       3368: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
@@ -6687,14 +6842,14 @@ extraSprites:
       3384: Resources/BallisticWeapons/Pistols/HandStetchkin.png
       # 3392: Resources/BallisticWeapons
       # 3400: Resources/BallisticWeapons
-      3408: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3416: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3424: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3432: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3440: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3448: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3456: Resources/BallisticWeapons/SMGs/HandUzi.png
-      3464: Resources/BallisticWeapons/SMGs/HandUzi.png
+      # 3408:
+      # 3416: 
+      # 3424: 
+      # 3432: 
+      # 3440: 
+      # 3448: 
+      # 3456: 
+      # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png
       3480: Resources/BallisticWeapons/SMGs/HandUMP45.png
       3488: Resources/BallisticWeapons/SMGs/HandVityaz.png
@@ -6748,6 +6903,16 @@ extraSprites:
       3872: Resources/BallisticWeapons/Artillery/HandGM-94.png
       3880: Resources/BallisticWeapons/Artillery/HandRPG-29.png
       3888: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      3896: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3904: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3912: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3920: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3928: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3936: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3944: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3952: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3960: Resources/BallisticWeapons/SMGs/HandUzi.png
+      3968: Resources/BallisticWeapons/SMGs/HandUzi.png
   # - type: SMOKE.PCK
   #   height: 80
   #   width: 160
@@ -6757,12 +6922,24 @@ extraSprites:
   #     70: Resources/BallisticWeapons/Smoke/GrenadeLauncherHitAnimation.gif
   #     80: Resources/BallisticWeapons/Smoke/StunHitAnimation.gif
   - type: Projectiles
-    height: 27
+    height: 3
     width: 105
     subX: 3
     subY: 3
     files:
-      385: Resources/BallisticWeapons/Smoke/GrenadeLauncherProjectileSprite.png
+      350: Resources/BallisticWeapons/BulletSprites/TaserBullet.png #10
+      385: Resources/BallisticWeapons/BulletSprites/9mmPistolBullet.png #11
+      420: Resources/BallisticWeapons/BulletSprites/57mmPistolBullet.png #12
+      455: Resources/BallisticWeapons/BulletSprites/RussianIntermediateRifleBullet.png #13
+      490: Resources/BallisticWeapons/BulletSprites/NATOIntermediateRifleBullet.png #14
+      525: Resources/BallisticWeapons/BulletSprites/NATOFullRifleBullet.png #15
+      560: Resources/BallisticWeapons/BulletSprites/SubsonicBullet.png #16
+      595: Resources/BallisticWeapons/BulletSprites/LapuaMagnumBullet.png #17
+      630: Resources/BallisticWeapons/BulletSprites/HighCaliberBullet.png #18
+      665: Resources/BallisticWeapons/BulletSprites/40mmGrenadeBullet.png #19
+      700: Resources/BallisticWeapons/BulletSprites/CarlGustavRound.png #20
+      735: Resources/BallisticWeapons/BulletSprites/RussianRocket.png #21
+ 
   # - type: MEDIKIT_BACKGROUND
   #   singleImage: true
   #   width: 320
@@ -6856,7 +7033,7 @@ extraStrings:
       STR_MP5: "MP5SD"
       STR_MPX: "SIG MPX"
       STR_P90: "FN P90"
-      STR_SKORPION: "Škorpion vz. 61"
+      STR_SKORPION: "Škorpion vz. 65"
       STR_UZI: "Uzi"
       STR_UMP: "UMP45"
       STR_VITYAZ: "PP-19 Vityaz"
@@ -6866,14 +7043,14 @@ extraStrings:
       STR_TAVOR_SCOPED: "IWI Tavor (Scoped)"
       STR_TAVOR_95X: "IWI Tavor 95X"
       STR_TAVOR_95X_SCOPED: "IWI Tavor 95X (Scoped)"
-      STR_M4: "M4 Carbine"
-      STR_M4_SOPMOD: "M4 Carbine (SOPMOD)"
-      STR_M4_M320: "M4 Carbine (M320)"
-      STR_M4_UBS: "M4 Carbine (MASS)"
-      STR_M4A1: "M4A1"
-      STR_M4A1_SOPMOD: "M4A1 (SOPMOD)"
-      STR_M4A1_M320: "M4A1 (M320)"
-      STR_M4A1_UBS: "M4A1 (MASS)"
+      STR_M4: "M4A1 Carbine"
+      STR_M4_SOPMOD: "M4A1 Carbine (SOPMOD)"
+      STR_M4_M320: "M4A1 Carbine (M320)"
+      STR_M4_UBS: "M4A1 Carbine (MASS)"
+      STR_M4A1: "Mk 18 Mod 0"
+      STR_M4A1_SOPMOD: "Mk 18 Mod 0 (SOPMOD)"
+      STR_M4A1_M320: "Mk 18 Mod 0 (M320)"
+      STR_M4A1_UBS: "Mk 18 Mod 0 (MASS)"
       STR_AK12: "AK-12"
       STR_AK12_SCOPED: "AK-12 (Scoped)"
       STR_AK15: "AK-15"
@@ -6928,7 +7105,7 @@ extraStrings:
       STR_SAIGA_12: "Saiga 12"
       STR_USAS_12: "USAS-12"
       STR_M60: "M60"
-      STR_M249: "M249 SAW"
+      STR_M249: "M249 SAW Para"
       STR_FN_MINIMI: "FN Minimi"
       STR_MK_48: "Mk 48"
       STR_RPK_74: "RPK-74M"

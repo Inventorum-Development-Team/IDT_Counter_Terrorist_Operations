@@ -1434,47 +1434,60 @@ ufopaedia:
     section: STR_ARMORS
     listOrder: 1203
 
+
+  - id: STR_DEFAULT_KEVLAR_RIOT
+    type_id: 5
+    text: STR_RIOT_UFOPAEDIA
+    section: STR_ARMORS
+    listOrder: 1204
+
+  - id: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
+    type_id: 5
+    text: STR_RIOT_UFOPAEDIA
+    section: STR_ARMORS
+    listOrder: 1205
+
   - id: STR_DEFAULT_KEVLAR_NV
     type_id: 5
     text: STR_NV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1204
+    listOrder: 1206
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK_NV
     type_id: 5
     text: STR_NV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1205
+    listOrder: 1207
 
   - id: STR_DEFAULT_KEVLAR_ADVNV
     type_id: 5
     text: STR_ADVNV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1206
+    listOrder: 1208
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
     type_id: 5
     text: STR_ADVNV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1207
+    listOrder: 1209
 
   - id: STR_HEAVY
     type_id: 5
     text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1208
+    listOrder: 1210
 
   - id: STR_HEAVY_NV
     type_id: 5
     text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1209
+    listOrder: 1211
 
   - id: STR_HEAVY_ADVNV
     type_id: 5
     text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1210
+    listOrder: 1213
 
   - id: STR_SHOUTING
     type_id: 8
@@ -1533,8 +1546,8 @@ extraStrings:
       STR_VERSEK_UFOPEDIA: "While being developed at the behest of the russian Federal Security Service, the SR-2 gained the nickname Versek, meaning Heather. It has a gas-operated action with a rotating bolt, a feature more common in rifles than in submachine guns."
       STR_TAVOR_UFOPAEDIA: "The IWI Tavor was designed for the IDF as a possible replacement to the M16. The weapons design prioritizes ease of maintenance, durability and reliability. Its bullpup design makes the rifle better suited to close quarters combat than rifles of conventional design."
       STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."
-      STR_M4_UFOPAEDIA: "The M4 carbine is extensively used by the United States Armed Forces as a primary infantry weapon. The carbines short length made it more ideal in close quartes battle than the M16 that it replaced, a feature which became desirable as the United States Armed Forces found itself engaging in multiple asymmetrical conflicts inside urban areas. Notably the M4 carbine lacks a fully automatic firing mode."
-      STR_M4A1_UFOPAEDIA: "The M4A1 is a variant of the M4 that replaces the burst fire mode in favor of a fully automatic mode, as it was considered to be better for clearing rooms. The carbine variant was intended for special operations use and is used by most US special forces units."
+      STR_M4_UFOPAEDIA: "The M4A1 is a variant of the M4 that replaces the burst fire mode in favor of a fully automatic mode, as it was considered to be better for clearing rooms. The carbine variant was intended for special operations use and is used by most US special forces units."
+      STR_M4A1_UFOPAEDIA: "The Mk 18 Mod 0 Close Quarters Battle Receiver (CQBR) is a variant of the M4A1 Carbine with a replaced upper receiver. It has a shortened barrel, making it more compact than the M4A1 and more suitable for use in confined spaces."
       STR_AK12_UFOPAEDIA: "The AK-12 is the latest assault rifle model manufactured by the Kalashnikov Concern. While initially rejected by the Russian Army after initial trials, the military later announced that the rifle would be accepted into service."
       STR_AK15_UFOPAEDIA: "The AK-15 is a variant of the AK-12 chambered in 7.62x39mm, granting it better effective range and stopping power at the cost of weight. It was designed at the request of the russian armed forces and is compatible with box magazines of preceding AK rifles."
       STR_FAMAS_UFOPAEDIA: "The FAMAS is the service rifle of the French military. Notable for its high fire rate, the FAMAS is known as le Clarion (the Bugle) by french troops due to its shape."
@@ -1630,18 +1643,19 @@ extraStrings:
       STR_M203_UFOPAEDIA: "A single shot grenade launcher introduced into the american military during the late Vietnam war. Originally designed to attach under the barrel of the M16 rifle, it has been adapted to fit into a multitude of other rifles."
       STR_FN40GL_UFOPAEDIA: "The FN40GL is a 40mm grenade launcher that can be attached under the barrel of the FN SCAR rifle."
       STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
-      STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster.S"
+      STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster."
       
       STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
-      STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, using handcuffs will stun them."
+      STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, or have dropped their weapons, using handcuffs will stun them."
 
       STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
       STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."
       STR_KEVLAR_UFOPAEDIA: "Kevlar vests offer our troops protection against low-caliber firearms and increases their chance of survival. While a bit cumbersome, they also increase the confidence of our soldiers."
+      STR_RIOT_UFOPAEDIA: "The installation of reinforced kevlar plates on the shoulders and lower torso, plus the addition of a bullet-proof face shield allows the user to withstand a slightly higher amount of damage. This tactical configuration is often employed by riot control police and military forces."
       STR_NV_UFOPAEDIA: "Night vision equipment offers our troops an advantage against opponents during the night, granting them the ability to see twice the distance they would see without them in darkness."
-      STR_ADVNV_UFOPAEDIA: "Advanced nightvision improves the distance our troops can see during the night, while having built in thermal imaging that can help see trough smoke and spot units wearing camouflage."
-      STR_HEAVY_UFOPAEDIA: "Heavy vests offer even more protection than conventional vests, with a greater trade-off of mobility lost."
+      STR_ADVNV_UFOPAEDIA: "Advanced night vision improves the distance our troops can see during the night, while having built in thermal imaging that can help see trough smoke and spot units wearing camouflage."
+      STR_HEAVY_UFOPAEDIA: "Heavy tactical armor offer even more protection than conventional vests, with a greater trade-off of mobility lost."
 
       STR_SHOUTING: "Shouting"
       STR_SHOUT_UFOPAEDIA: "Our soldiers are capable of shouting orders at civilians or enemy units. When targeting civilians the soldier will order the civilian to get on the ground, and if successful the civilian will be stunned. If used on enemy units, their morale will be reduced. The effectiveness is determined by how outnumbered the enemy unit is. A unit cannot be successfully shouted at more than once per turn."
