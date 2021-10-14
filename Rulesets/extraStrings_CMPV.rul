@@ -35,7 +35,7 @@ extraStrings:
      MAP_PORTTFTD6: "Port A"
      MAP_PORTTFTD5: "Port B"
      MAP_PORTUFO: "Port, Roads"
-     MAP_ISLANDURBAN: "Island"
+     MAP_ISLANDURBAN: "Resort"
      MAP_CRUISE_LINER: "Big Cruiser Ship"
      MAP_LINERSHIP: "Small Cruiser Ship"
      MAP_CARGOSHIP: "Cargo Ship"

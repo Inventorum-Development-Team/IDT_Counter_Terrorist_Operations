@@ -42,6 +42,7 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - RURAL
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -183,6 +184,7 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - INDUSTRIALSLUM
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -323,6 +325,7 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - ISLANDURBAN
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -1310,6 +1313,7 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - RURAL
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -1450,6 +1454,7 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - INDUSTRIALSLUM
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -1589,6 +1594,7 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - ISLANDURBAN
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
