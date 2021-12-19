@@ -4230,7 +4230,6 @@ items:
     handSprite: 3802
     reloadSound: 242
     fireSound: 244
-    costBuy: 25000
     costSell: 10000
     accuracyAimed: 45
     accuracySnap: 75
