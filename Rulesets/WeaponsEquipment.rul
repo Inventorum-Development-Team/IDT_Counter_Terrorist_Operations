@@ -288,6 +288,18 @@ items:
       RandomType: 6
       IgnoreOverKill: true
       ToArmorPre: 0.4
+  - &STR_HK_4_6_30mm
+    type: STR_HK_4_6_30mm
+    power: 32
+    hitAnimation: 26
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 12 
+    battleType: 2
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
   - &STR_45_PISTOL_AMMO
     type: STR_45_PISTOL_AMMO
     power: 35
@@ -814,6 +826,51 @@ items:
     weight: 1
     clipSize: 20
     listOrder: 21810
+  - type: STR_HK_4_6_30mmX20
+    #requiresBuy:
+    categories: [ STR_CLIPS ]
+    refNode: *STR_HK_4_6_30mm
+    bigSprite: 256
+    handSprite: 256
+    floorSprite: 256
+    size: 0.1
+    armor: 30
+    costBuy: 800
+    costSell: 400
+    invWidth: 2
+    weight: 1
+    clipSize: 20
+    listOrder: 21831
+  - type: STR_HK_4_6_30mmX30
+    #requiresBuy:
+    categories: [ STR_CLIPS ]
+    refNode: *STR_HK_4_6_30mm
+    bigSprite: 256
+    handSprite: 256
+    floorSprite: 256
+    size: 0.1
+    armor: 30
+    costBuy: 1000
+    costSell: 400
+    invWidth: 2
+    weight: 2
+    clipSize: 30
+    listOrder: 21832
+  - type: STR_HK_4_6_30mmX40
+    #requiresBuy:
+    categories: [ STR_CLIPS ]
+    refNode: *STR_HK_4_6_30mm
+    bigSprite: 256
+    handSprite: 256
+    floorSprite: 256
+    size: 0.1
+    armor: 30
+    costBuy: 1200
+    costSell: 400
+    invWidth: 2
+    weight: 3
+    clipSize: 40
+    listOrder: 21833
   - type: STR_FN_57_X50
     requiresBuy:
       - STR_P90_ACQUISITION
@@ -2289,6 +2346,44 @@ items:
         tuLoad: 30
         tuUnload: 15
     listOrder: 21550
+
+  - type: STR_MP7
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    # requiresBuy:
+    size: 1
+    weight: 21
+    # battleType: 1
+    bigSprite: 856
+    floorSprite: 856
+    handSprite: 856
+    reloadSound: 185
+    fireSound: 186
+    costBuy: 18000
+    costSell: 9000
+    accuracyAimed: 55
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 30
+    tuSnap: 25
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_FN_57_X50 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 21821
 
   - type: STR_P90
     categories: [ STR_FIREARMS, STR_SMGS ]
@@ -7010,6 +7105,9 @@ extraStrings:
       STR_9MM_GYURZA_X30: "9mm Gyurza (30x)"
       STR_FN_57_X20: "FN 5.7x28mm (20x)"
       STR_FN_57_X50: "FN 5.7x28mm (50x)"
+      STR_HK_4_6_30X20: "HK 4.6x30mm (20x)"
+      STR_HK_4_6_30X30: "HK 4.6x30mm (30x)"
+      STR_HK_4_6_30X40: "HK 4.6x30mm (40x)"
       STR_45_ACP_X7: ".45 ACP (7x)"
       STR_45_ACP_X12: ".45 ACP (12x)"
       STR_45_ACP_X25: ".45 ACP (25x)"
@@ -7079,6 +7177,7 @@ extraStrings:
       STR_MP5: "MP5SD"
       STR_MPX: "SIG MPX"
       STR_P90: "FN P90"
+      STR_MP7: "HK MP7"
       STR_SKORPION: "Škorpion vz. 65"
       STR_UZI: "Uzi"
       STR_UMP: "UMP45"
