@@ -4221,7 +4221,7 @@ items:
     listOrder: 22200
 
   - type: STR_RK_62
-    categories: [ STR_FIREARMS, STR_RIFLES ]
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     size: 1
     weight: 16
     # battleType: 1
