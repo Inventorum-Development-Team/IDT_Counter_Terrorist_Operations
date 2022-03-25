@@ -1,0 +1,4282 @@
+items:
+  - &STR_RIFLE_MELEE
+    type: STR_RIFLE_MELEE
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+      ToStun: 1.0
+      ArmorEffectiveness: 0.0
+      ToArmor: 0.0
+      ToWound: 0.5
+      ToMorale: 0.5
+      RandomType: 6
+
+  - &STR_PISTOL 
+    type: STR_PISTOL
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 10
+    meleeType: 7
+    meleeHitSound: [350,351,352]
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     ToWound: 0.5
+     ToMorale: 0.5
+     RandomType: 6
+
+  - &STR_AUTO_PISTOL 
+    type: STR_AUTO_PISTOL
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 10
+    damageAlter:
+      ToStun: 1.0
+      ArmorEffectiveness: 0.0
+      ToArmor: 0.0
+      ToWound: 0.5
+      ToMorale: 0.5
+      RandomType: 6
+    meleeType: 7
+    meleeHitSound: [350,351,352]
+    meleeAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     ToWound: 0.5
+     ToMorale: 0.5
+     RandomType: 6
+
+  - &STR_SMG
+    type: STR_SMG
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    confAuto:
+      shots: 7
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+
+  - &STR_AR
+    type: STR_AR
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+    refNode: *STR_RIFLE_MELEE
+
+  - &STR_AR_UBS
+    type: STR_AR_UBS
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+    confAuto:
+      shots: 1
+      name: STR_FIRE_SHOTGUN
+      ammoSlot: 1
+    refNode: *STR_RIFLE_MELEE
+    ammo: # required by battleType for STR_AR_UBS
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+        1:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
+
+  - &STR_AR_GL
+    type: STR_AR_GL
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    refNode: *STR_RIFLE_MELEE
+    ammo: # required by battleType for STR_AR_UBS
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+        1:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
+
+  - &STR_LMG
+    type: STR_LMG
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+
+
+  #   - type: 
+  #     categories:
+  # #    requiresBuy:
+  #     size: 1
+  #     weight: 
+  #     battleType: 1
+  #     bigSprite: 
+  #     floorSprite:
+  #     handSprite:
+  #     reloadSound: 4
+  #     fireSound: 4
+  #     costBuy: 
+  #     costSell: 
+  #     accuracyAimed: 
+  #     accuracySnap: 
+  #     accuracyAuto: 
+  #     blockBothHands: 
+  #     twoHanded: 
+  #     oneHandedPenalty: 
+  #     maxRange: 
+  #     minRange: 
+  #     aimRange: 
+  #     snapRange: 
+  #     autoRange: 
+  #     kneelBonus: 
+  #     refNode: 
+  #     tuAimed: 
+  #     tuSnap: 
+  #     tuAuto: 
+  #     invWidth: 
+  #     invHeight: 
+  #     ammo:
+  #        0:
+  #         compatibleAmmo: 
+  #         tuLoad: 
+  #         tuUnload: 
+  - type: STR_TASER
+    requiresBuy:
+      - STR_TASER_ACQUISITION
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #    requiresBuy:
+    size: 1
+    weight: 12
+    # battleType: 1
+    bigSprite: 3280
+    floorSprite: 3280
+    handSprite: 3280
+    fireSound: 4
+    costBuy: 10000
+    costSell: 5000
+    accuracyAimed: 100
+    accuracySnap: 55
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 6
+    minRange: 0
+    aimRange: 6
+    snapRange: 6
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 50
+    tuSnap: 25
+    invWidth: 1
+    invHeight: 2
+    listOrder: 8080
+    ammo:
+      0:
+        compatibleAmmo: [ STR_TASER_X1 ]
+        tuLoad: 30
+        tuUnload: 15
+
+  - type: STR_P226
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_P226_ACQUISITION
+    size: 1
+    weight: 10
+    # battleType: 1
+    bigSprite: 640
+    floorSprite: 640
+    handSprite: 640
+    reloadSound: 189
+    fireSound: 190
+    costBuy: 10000
+    costSell: 5000
+    accuracyAimed: 60
+    accuracySnap: 40
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 20
+    minRange: 0
+    aimRange: 10
+    snapRange: 7
+    autoRange: 5
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 45
+    tuSnap: 20
+    tuAuto: 50
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20 ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 6940
+
+  - type: STR_GLOCK_17
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #    requiresBuy:
+    size: 1
+    weight: 11
+    # battleType: 1
+    bigSprite: 3288
+    floorSprite: 3288
+    handSprite: 3288
+    reloadSound: 133
+    fireSound: 134
+    costBuy: 8000
+    costSell: 4000
+    accuracyAimed: 55
+    accuracySnap: 35
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 20
+    minRange: 0
+    aimRange: 10
+    snapRange: 7
+    autoRange: 5
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 40
+    tuSnap: 15
+    tuAuto: 45
+    invWidth: 1
+    invHeight: 2
+    listOrder: 6970
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30
+          ]
+        tuLoad: 20
+        tuUnload: 10
+
+  - type: STR_GLOCK_18
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_GLOCK_18_ACQUISITION
+    size: 1
+    weight: 11
+    # battleType: 1
+    bigSprite: 2160
+    floorSprite: 2160
+    handSprite: 2160
+    reloadSound: 133
+    fireSound: 134
+    costBuy: 12000
+    costSell: 6000
+    accuracyAimed: 38
+    accuracySnap: 38
+    accuracyAuto: 25
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 20
+    minRange: 0
+    aimRange: 6
+    snapRange: 8
+    autoRange: 4
+    kneelBonus: 100
+    refNode: *STR_AUTO_PISTOL
+    tuAimed: 45
+    tuSnap: 15
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30
+          ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 7010
+
+  - type: STR_GLOCK_18_STOCK
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #    requiresBuy:
+    size: 1
+    weight: 12
+    # battleType: 1
+    bigSprite: 3320
+    floorSprite: 3320
+    handSprite: 3320
+    reloadSound: 133
+    fireSound: 134
+    accuracyAimed: 45
+    accuracySnap: 45
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 22
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 6
+    kneelBonus: 100
+    refNode: *STR_AUTO_PISTOL
+    tuAimed: 50
+    tuSnap: 20
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    listOrder: 7050
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30
+          ]
+        tuLoad: 20
+        tuUnload: 10
+
+  - type: STR_M1911
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_M1911_ACQUISITION
+    size: 1
+    weight: 12
+    # battleType: 1
+    bigSprite: 664
+    floorSprite: 664
+    handSprite: 664
+    reloadSound: 237
+    fireSound: 238
+    costBuy: 3700
+    costSell: 1850
+    accuracyAimed: 70
+    accuracySnap: 40
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 25
+    minRange: 0
+    aimRange: 12
+    snapRange: 8
+    autoRange: 4
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 60
+    tuSnap: 30
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_45_ACP_X7 ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 6080
+
+  - type: STR_MK_23
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_MK_23_ACQUISITION
+    size: 1
+    weight: 14
+    # battleType: 1
+    bigSprite: 680
+    floorSprite: 680
+    handSprite: 680
+    reloadSound: 116
+    fireSound: 117
+    costBuy: 13000
+    costSell: 6500
+    accuracyAimed: 80
+    accuracySnap: 50
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 25
+    minRange: 0
+    aimRange: 15
+    snapRange: 10
+    autoRange: 6
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 50
+    tuSnap: 25
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_45_ACP_X12 ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 6040
+
+  - type: STR_MAKAROV
+    categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
+    size: 1
+    weight: 7
+    # battleType: 1
+    bigSprite: 696
+    floorSprite: 696
+    handSprite: 696
+    reloadSound: 194
+    fireSound: 195
+    costSell: 2500
+    accuracyAimed: 55
+    accuracySnap: 45
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 18
+    minRange: 0
+    aimRange: 10
+    snapRange: 7
+    autoRange: 5
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 50
+    tuSnap: 20
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9MM_MAKAROV_X10 ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 6860
+
+  - type: STR_FIVE_SEVEN
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_FIVE_SEVEN_ACQUISITION
+    size: 1
+    weight: 6
+    # battleType: 1
+    bigSprite: 2192
+    floorSprite: 2192
+    handSprite: 2192
+    reloadSound: 127
+    fireSound: 128
+    costBuy: 12500
+    costSell: 6250
+    accuracyAimed: 65
+    accuracySnap: 42
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 22
+    minRange: 0
+    aimRange: 11
+    snapRange: 8
+    autoRange: 5
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 50
+    tuSnap: 20
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_FN_57_X20 ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 7470
+
+  - type: STR_MANHURIN
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #    requiresBuy:
+    size: 1
+    weight: 7
+    # battleType: 1
+    bigSprite: 3352
+    floorSprite: 3352
+    handSprite: 3352
+    reloadSound: 180
+    fireSound: 181
+    costBuy: 6000
+    costSell: 3000
+    accuracyAimed: 70
+    accuracySnap: 45
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 16
+    minRange: 0
+    aimRange: 8
+    snapRange: 6
+    autoRange: 4
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 50
+    tuSnap: 20
+    tuAuto: 50
+    invWidth: 1
+    invHeight: 1
+    ammo:
+      0:
+        compatibleAmmo: [ STR_38_SPECIAL_X6 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5520
+
+  - type: STR_VEKTOR
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #    requiresBuy:
+    size: 1
+    weight: 11
+    # battleType: 1
+    bigSprite: 3360
+    floorSprite: 3360
+    handSprite: 3360
+    reloadSound: 197
+    fireSound: 198
+    costBuy: 12000
+    costSell: 6000
+    accuracyAimed: 60
+    accuracySnap: 40
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 22
+    minRange: 0
+    aimRange: 12
+    snapRange: 10
+    autoRange: 7
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 50
+    tuSnap: 20
+    tuAuto: 50
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9MM_GYURZA_X20 ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 6810
+
+  - type: STR_STETCKIN
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #    requiresBuy:
+    size: 1
+    weight: 14
+    # battleType: 1
+    bigSprite: 3376
+    floorSprite: 3376
+    handSprite: 3376
+    reloadSound: 197
+    fireSound: 198
+    costBuy: 12500
+    costSell: 6250
+    accuracyAimed: 35
+    accuracySnap: 35
+    accuracyAuto: 20
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 18
+    minRange: 0
+    aimRange: 5
+    snapRange: 8
+    autoRange: 4
+    kneelBonus: 100
+    refNode: *STR_AUTO_PISTOL
+    tuAimed: 45
+    tuSnap: 15
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 2
+    ammo:
+
+      0:
+        compatibleAmmo: [ STR_9MM_MAKAROV_X20 ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 6920
+
+#   - type: STR_STETCKIN_STOCK
+#     categories: [STR_FIREARMS, STR_PISTOLS]
+# #    requiresBuy:
+#     size: 1
+#     weight: 16
+#     battleType: 1
+#     bigSprite: 
+#     floorSprite:
+#     handSprite:
+#     reloadSound: 4
+#     fireSound: 4
+#     accuracyAimed: 42
+#     accuracySnap: 42
+#     accuracyAuto: 27
+#     blockBothHands: false
+#     twoHanded: false
+#     oneHandedPenalty: 100
+#     maxRange: 20
+#     minRange: 0
+#     aimRange: 7
+#     snapRange: 10
+#     autoRange: 6
+#     kneelBonus: 100
+#     refNode: *STR_AUTO_PISTOL
+#     tuAimed: 50
+#     tuSnap: 20
+#     tuAuto: 40
+#     invWidth: 1
+#     invHeight: 3
+#     ammo:
+#         0:
+#          compatibleAmmo: [STR_9MM_MAKAROV_X20]
+#          tuLoad: 20
+#          tuUnload: 10
+
+
+
+  - type: STR_TEC_9
+    categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
+    size: 1
+    weight: 13
+    # battleType: 1
+    bigSprite: 712
+    floorSprite: 712
+    handSprite: 712
+    reloadSound: 229
+    fireSound: 230
+    costSell: 5000
+    accuracyAimed: 45
+    accuracySnap: 60
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 20
+    minRange: 0
+    aimRange: 7
+    snapRange: 10
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 30
+    tuSnap: 25
+    tuAuto: 35
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30,
+            STR_9MM_PARABELLUM_X40
+          ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 7090
+
+  - type: STR_MP5
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 20
+    # battleType: 1
+    bigSprite: 752
+    floorSprite: 752
+    handSprite: 752
+    reloadSound: 171
+    fireSound: 173
+    costBuy: 15000
+    costSell: 7500
+    accuracyAimed: 50
+    accuracySnap: 70
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 10
+    snapRange: 12
+    autoRange: 6
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 25
+    tuSnap: 20
+    tuAuto: 35
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30,
+            STR_9MM_PARABELLUM_X40
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7140
+
+  - type: STR_MPX
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    requiresBuy:
+      - STR_MPX_ACQUISITION
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 792
+    floorSprite: 792
+    handSprite: 792
+    reloadSound: 174
+    fireSound: 175
+    costBuy: 25000
+    costSell: 12500
+    accuracyAimed: 55
+    accuracySnap: 70
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 30
+    minRange: 0
+    aimRange: 6
+    snapRange: 8
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 20
+    tuSnap: 15
+    tuAuto: 30
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7190
+
+  - type: STR_MP7
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    # requiresBuy:
+    size: 1
+    weight: 21
+    # battleType: 1
+    bigSprite: 856
+    floorSprite: 856
+    handSprite: 856
+    reloadSound: 185
+    fireSound: 186
+    costBuy: 18000
+    costSell: 9000
+    accuracyAimed: 55
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 30
+    tuSnap: 25
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_FN_57_X50 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 21821
+
+  - type: STR_P90
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    requiresBuy:
+      - STR_P90_ACQUISITION
+    size: 1
+    weight: 21
+    # battleType: 1
+    bigSprite: 856
+    floorSprite: 856
+    handSprite: 856
+    reloadSound: 185
+    fireSound: 186
+    costBuy: 18000
+    costSell: 9000
+    accuracyAimed: 55
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 30
+    tuSnap: 25
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_FN_57_X50 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 7490
+
+  - type: STR_SKORPION
+    categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 14
+    # battleType: 1
+    bigSprite: 872
+    floorSprite: 872
+    handSprite: 872
+    reloadSound: 214
+    fireSound: 215
+    costSell: 7500
+    accuracyAimed: 50
+    accuracySnap: 60
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 20
+    minRange: 0
+    aimRange: 7
+    snapRange: 10
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 35
+    tuSnap: 30
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_MAKAROV_X10,
+            STR_9MM_MAKAROV_X20,
+            STR_9MM_MAKAROV_X30
+          ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 6880
+
+  - type: STR_UZI
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 28
+    # battleType: 1
+    bigSprite: 3896
+    floorSprite: 3896
+    handSprite: 3896
+    reloadSound: 177
+    fireSound: 178
+    costBuy: 14000
+    costSell: 7000
+    accuracyAimed: 45
+    accuracySnap: 55
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 20
+    minRange: 0
+    aimRange: 6
+    snapRange: 10
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 25
+    tuSnap: 20
+    tuAuto: 30
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30,
+            STR_9MM_PARABELLUM_X40
+          ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 7230
+
+  - type: STR_UMP
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 20
+    # battleType: 1
+    bigSprite: 3472
+    floorSprite: 3472
+    handSprite: 3472
+    reloadSound: 231
+    fireSound: 232
+    costBuy: 19000
+    costSell: 95000
+    accuracyAimed: 50
+    accuracySnap: 80
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 40
+    minRange: 0
+    aimRange: 12
+    snapRange: 14
+    autoRange: 8
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 25
+    tuSnap: 20
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_45_ACP_X25 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6060
+
+  - type: STR_VITYAZ
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 3488
+    floorSprite: 3488
+    handSprite: 3488
+    reloadSound: 237
+    fireSound: 238
+    costBuy: 17000
+    costSell: 8500
+    accuracyAimed: 55
+    accuracySnap: 75
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 9
+    snapRange: 11
+    autoRange: 6
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 25
+    tuSnap: 15
+    tuAuto: 35
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7270
+
+  - type: STR_VERSEK
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 15
+    # battleType: 1
+    bigSprite: 3504
+    floorSprite: 3504
+    handSprite: 3504
+    reloadSound: 197
+    fireSound: 198
+    costBuy: 23000
+    costSell: 11500
+    accuracyAimed: 50
+    accuracySnap: 65
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 25
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 5
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 30
+    tuSnap: 25
+    tuAuto: 35
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9MM_GYURZA_X20, STR_9MM_GYURZA_X30 ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 6830
+
+  - type: STR_TAVOR
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_TAVOR_ACQUISITION
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 936
+    floorSprite: 936
+    handSprite: 936
+    reloadSound: 227
+    fireSound: 228
+    costBuy: 30000
+    costSell: 15000
+    accuracyAimed: 50
+    accuracySnap: 60
+    accuracyAuto: 55
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 20
+    snapRange: 30
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 50
+    tuSnap: 45
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 6390
+
+  - type: STR_TAVOR_M203
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 31
+    battleType: 1
+    bigSprite: 952
+    floorSprite: 952
+    handSprite: 952
+    reloadSound: 227
+    fireSound: 228
+    accuracyAimed: 50
+    accuracySnap: 60
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 20
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 125
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    tuAimed: 50
+    tuSnap: 45
+    tuAuto: 75
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 40
+        tuUnload: 20
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5540
+
+  - type: STR_TAVOR_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 25
+    # battleType: 1
+    bigSprite: 968
+    floorSprite: 968
+    handSprite: 968
+    reloadSound: 227
+    fireSound: 228
+    accuracyAimed: 70
+    accuracySnap: 55
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 25
+    snapRange: 35
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 65
+    tuSnap: 45
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 6410
+
+  - type: STR_TAVOR_95X
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_TAVOR_95X_ACQUISITION
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 984
+    floorSprite: 984
+    handSprite: 984
+    reloadSound: 227
+    fireSound: 228
+    costBuy: 40000
+    costSell: 20000
+    accuracyAimed: 60
+    accuracySnap: 65
+    accuracyAuto: 60
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 22
+    snapRange: 32
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 50
+    tuSnap: 40
+    tuAuto: 52
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 6430
+
+  - type: STR_TAVOR_95X_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    # requiresBuy:
+    size: 1
+    weight: 26
+    # battleType: 1
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 1000
+    reloadSound: 227
+    fireSound: 228
+    accuracyAimed: 80
+    accuracySnap: 60
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 27
+    snapRange: 37
+    autoRange: 13
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 65
+    tuSnap: 40
+    tuAuto: 52
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 6450
+
+  - type: STR_M4
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_M4_ACQUISITION
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 1016
+    reloadSound: 152
+    fireSound: 153
+    costBuy: 32000
+    costSell: 16000
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 5
+    kneelBonus: 125
+    refNode: *STR_AR 
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21140
+
+
+  - type: STR_M4_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 26
+    # battleType: 1
+    bigSprite: 1032
+    floorSprite: 1032
+    handSprite: 1032
+    reloadSound: 152
+    fireSound: 154
+    accuracyAimed: 90
+    accuracySnap: 65
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 29
+    snapRange: 41
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR 
+    tuAimed: 80
+    tuSnap: 37
+    tuAuto: 62
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21160
+
+
+  - type: STR_M4_M320
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 36
+    # battleType: 1
+    bigSprite: 1048
+    floorSprite: 1048
+    handSprite: 1048
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 18
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+     ToStun: 1.0
+     ArmorEffectiveness: 0.0
+     ToArmor: 0.0
+     RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20500
+
+
+  - type: STR_M4_UBS
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    # battleType: 1
+    bigSprite: 1064
+    floorSprite: 1064
+    handSprite: 1064
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR_UBS
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 30
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 80
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20220
+
+
+  - type: STR_M4A1
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_M4A1_ACQUISITION
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 1096
+    floorSprite: 1096
+    handSprite: 1096
+    reloadSound: 152
+    fireSound: 153
+    costBuy: 32000
+    costSell: 16000
+    accuracyAimed: 75
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+      ToStun: 1.0
+      ArmorEffectiveness: 0.0
+      ToArmor: 0.0
+      RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6510
+
+  - type: STR_M4A1_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 26
+    # battleType: 1
+    bigSprite: 1112
+    floorSprite: 1112
+    handSprite: 1112
+    reloadSound: 152
+    fireSound: 154
+    accuracyAimed: 95
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 29
+    snapRange: 41
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 80
+    tuSnap: 37
+    tuAuto: 53
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6530
+
+  - type: STR_M4A1_M320
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 36
+    # battleType: 1
+    bigSprite: 1128
+    floorSprite: 1128
+    handSprite: 1128
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 75
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 18
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    accuracyMelee: 100
+    tuMelee: 30
+    meleePower: 15
+    damageAlter:
+      ToStun: 1.0
+      ArmorEffectiveness: 0.0
+      ToArmor: 0.0
+      RandomType: 6
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+
+    listOrder: 5640
+
+  - type: STR_M4A1_UBS
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    # battleType: 1
+    bigSprite: 1144
+    floorSprite: 1144
+    handSprite: 1144
+    reloadSound: 152
+    fireSound: 153
+    accuracyAimed: 75
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 31
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR_UBS
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 30
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 80
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5300
+
+  - type: STR_AK12
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_AK12_ACQUISITION
+    size: 1
+    weight: 20
+    # battleType: 1
+    bigSprite: 1176
+    floorSprite: 1176
+    handSprite: 1176
+    reloadSound: 245
+    fireSound: 246
+    costBuy: 28000
+    costSell: 14000
+    accuracyAimed: 60
+    accuracySnap: 70
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 25
+    snapRange: 35
+    autoRange: 11
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6130
+
+  - type: STR_AK12_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #requiresBuy:
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 1208
+    floorSprite: 1208
+    handSprite: 1208
+    reloadSound: 245
+    fireSound: 246
+    accuracyAimed: 80
+    accuracySnap: 65
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 30
+    snapRange: 40
+    autoRange: 11
+    kneelBonus: 126
+    refNode: *STR_AR
+    tuAimed: 70
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6170
+
+  - type: STR_AK15
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_AK15_ACQUISITION
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 1240
+    floorSprite: 1240
+    handSprite: 1240
+    reloadSound: 245
+    fireSound: 246
+    costBuy: 31000
+    costSell: 15500
+    accuracyAimed: 65
+    accuracySnap: 70
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 33
+    snapRange: 43
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_SOVIET_7_62_X30,
+            STR_SOVIET_7_62_X40,
+            STR_SOVIET_7_62_X75
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7960
+
+  - type: STR_AK15_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 1272
+    floorSprite: 1272
+    handSprite: 1272
+    reloadSound: 245
+    fireSound: 246
+    accuracyAimed: 85
+    accuracySnap: 65
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 38
+    snapRange: 48
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 70
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_SOVIET_7_62_X30,
+            STR_SOVIET_7_62_X40,
+            STR_SOVIET_7_62_X75
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 8000
+
+  - type: STR_FAMAS
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 28
+    # battleType: 1
+    bigSprite: 3528
+    floorSprite: 3528
+    handSprite: 3528
+    reloadSound: 125
+    fireSound: 126
+    costBuy: 28000
+    costSell: 14000
+    accuracyAimed: 55
+    accuracySnap: 45
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 18
+    snapRange: 28
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30, STR_APAV40_X1 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6550
+
+  - type: STR_FAMAS_SCOPED
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 30
+    # battleType: 1
+    bigSprite: 3552
+    floorSprite: 3552
+    handSprite: 3552
+    reloadSound: 125
+    fireSound: 126
+    accuracyAimed: 75
+    accuracySnap: 40
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 23
+    snapRange: 33
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 70
+    tuSnap: 45
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30, STR_APAV40_X1 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6580
+
+  - type: STR_G36
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 27
+    # battleType: 1
+    bigSprite: 3592
+    floorSprite: 3592
+    handSprite: 3592
+    reloadSound: 136
+    fireSound: 137
+    costBuy: 31000
+    costSell: 15500
+    accuracyAimed: 80
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 33
+    snapRange: 35
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 70
+    tuSnap: 50
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6610
+
+  - type: STR_G36_AG
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 37
+    # battleType: 1
+    bigSprite: 3576
+    floorSprite: 3576
+    handSprite: 3576
+    reloadSound: 136
+    fireSound: 137
+    accuracyAimed: 80
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 33
+    snapRange: 35
+    autoRange: 16
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 70
+    tuSnap: 50
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5690
+
+  - type: STR_HK416
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_HK416_ACQUISITION
+    size: 1
+    weight: 25
+    # battleType: 1
+    bigSprite: 1304
+    floorSprite: 1304
+    handSprite: 1304
+    reloadSound: 139
+    fireSound: 140
+    costBuy: 35000
+    costSell: 17500
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 30
+    snapRange: 35
+    autoRange: 13
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 35
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6630
+
+  - type: STR_HK416_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy: 
+    size: 1
+    weight: 27
+    # battleType: 1
+    bigSprite: 1320
+    floorSprite: 1320
+    handSprite: 1320
+    reloadSound: 139
+    fireSound: 138
+    accuracyAimed: 90
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 35
+    snapRange: 40
+    autoRange: 13
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 75
+    tuSnap: 32
+    tuAuto: 62
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6650
+
+  - type: STR_HK416_M320
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 37
+    # battleType: 1
+    bigSprite: 1336
+    floorSprite: 1336
+    handSprite: 1336
+    reloadSound: 139
+    fireSound: 140
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 30
+    snapRange: 35
+    autoRange: 18
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 75
+    tuSnap: 32
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5740
+
+  - type: STR_HK416_UBS
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 34
+    # battleType: 1
+    bigSprite: 1352
+    floorSprite: 1352
+    handSprite: 1352
+    reloadSound: 139
+    fireSound: 140
+    accuracyAimed: 70
+    accuracySnap: 65
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 30
+    snapRange: 35
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR_UBS
+    tuAimed: 75
+    tuSnap: 32
+    tuAuto: 30
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 80
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5330
+
+  - type: STR_HK417
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 31
+    # battleType: 1
+    bigSprite: 3608
+    floorSprite: 3608
+    handSprite: 3608
+    reloadSound: 139
+    fireSound: 140
+    costBuy: 39000
+    costSell: 19500
+    accuracyAimed: 80
+    accuracySnap: 65
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 37
+    snapRange: 40
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 65
+    tuSnap: 50
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X10, STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7510
+
+  - type: STR_HK417_SCOPED
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    # battleType: 1
+    bigSprite: 3640
+    floorSprite: 3640
+    handSprite: 3640
+    reloadSound: 139
+    fireSound: 138
+    accuracyAimed: 100
+    accuracySnap: 60
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 42
+    snapRange: 45
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 80
+    tuSnap: 50
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X10, STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7540
+
+  - type: STR_FX_05
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_FX_05_ACQUISITION
+    size: 1
+    weight: 19
+    # battleType: 1
+    bigSprite: 1384
+    floorSprite: 1384
+    handSprite: 1384
+    reloadSound: 136
+    fireSound: 137
+    costBuy: 17500
+    costSell: 8750
+    accuracyAimed: 55
+    accuracySnap: 60
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 22
+    snapRange: 32
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 50
+    tuSnap: 35
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6670
+
+  - type: STR_FX_05_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 21
+    # battleType: 1
+    bigSprite: 1400
+    floorSprite: 1400
+    handSprite: 1400
+    reloadSound: 136
+    fireSound: 137
+    accuracyAimed: 75
+    accuracySnap: 55
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 27
+    snapRange: 37
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 65
+    tuSnap: 35
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6690
+
+  - type: STR_SCAR_L
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_SCAR_L_ACQUISITION
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 1416
+    floorSprite: 1416
+    handSprite: 1416
+    reloadSound: 211
+    fireSound: 212
+    costBuy: 38000
+    costSell: 14000
+    accuracyAimed: 80
+    accuracySnap: 70
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 32
+    snapRange: 35
+    autoRange: 14
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 65
+    tuSnap: 45
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6710
+
+  - type: STR_SCAR_L_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 26
+    # battleType: 1
+    bigSprite: 1432
+    floorSprite: 1432
+    handSprite: 1432
+    reloadSound: 211
+    fireSound: 213
+    accuracyAimed: 100
+    accuracySnap: 70
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 37
+    snapRange: 40
+    autoRange: 14
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 80
+    tuSnap: 42
+    tuAuto: 67
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6730
+
+  - type: STR_SCAR_L_GL
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 34
+    # battleType: 1
+    bigSprite: 1448
+    floorSprite: 1448
+    handSprite: 1448
+    reloadSound: 211
+    fireSound: 212
+    accuracyAimed: 80
+    accuracySnap: 70
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 37
+    snapRange: 40
+    autoRange: 16
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 65
+    tuSnap: 45
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5790
+
+  - type: STR_SCAR_H
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_SCAR_H_ACQUISITION
+    size: 1
+    weight: 28
+    # battleType: 1
+    bigSprite: 2008
+    floorSprite: 2008
+    handSprite: 2008
+    reloadSound: 209
+    fireSound: 210
+    costBuy: 41000
+    costSell: 20500
+    accuracyAimed: 85
+    accuracySnap: 75
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 35
+    snapRange: 40
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 65
+    tuSnap: 45
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7730
+
+  - type: STR_SCAR_H_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 30
+    # battleType: 1
+    bigSprite: 2040
+    floorSprite: 2040
+    handSprite: 2040
+    reloadSound: 209
+    fireSound: 213
+    accuracyAimed: 105
+    accuracySnap: 75
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 35
+    snapRange: 40
+    autoRange: 12
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 80
+    tuSnap: 42
+    tuAuto: 67
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7750
+
+  - type: STR_SCAR_H_GL
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 38
+    # battleType: 1
+    bigSprite: 2072
+    floorSprite: 2072
+    handSprite: 2072
+    reloadSound: 209
+    fireSound: 210
+    accuracyAimed: 85
+    accuracySnap: 75
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 35
+    snapRange: 40
+    autoRange: 16
+    kneelBonus: 125
+    refNode: *STR_AR_GL
+    tuAimed: 65
+    tuSnap: 45
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5840
+
+  - type: STR_G11
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_G11_ACQUISITION
+    size: 1
+    weight: 30
+    # battleType: 1
+    bigSprite: 1512
+    floorSprite: 1512
+    handSprite: 1512
+    reloadSound: 121
+    fireSound: 122
+    costBuy: 85000
+    costSell: 42500
+    accuracyAimed: 90
+    accuracySnap: 85
+    accuracyAuto: 55
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 35
+    snapRange: 45
+    autoRange: 15
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 45
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_CASELESS_4_73_X50 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 7420
+
+  - type: STR_SR_3
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    requiresBuy:
+      - STR_SR3_ACQUISITION
+    size: 1
+    weight: 20
+    # battleType: 1
+    bigSprite: 1528
+    floorSprite: 1528
+    handSprite: 1528
+    reloadSound: 130
+    fireSound: 131
+    costBuy: 45000
+    costSell: 22500
+    accuracyAimed: 70
+    accuracySnap: 75
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 34
+    autoRange: 8
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9_39_X10, STR_9_39_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7290
+
+  - type: STR_SR_3_ONE_HANDED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 20
+    # battleType: 1
+    bigSprite: 1552
+    floorSprite: 1552
+    handSprite: 1552
+    reloadSound: 130
+    fireSound: 131
+    accuracyAimed: 30
+    accuracySnap: 60
+    accuracyAuto: 10
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 200
+    minRange: 10
+    aimRange: 5
+    snapRange: 15
+    autoRange: 2
+    kneelBonus: 100
+    refNode: *STR_AR
+    tuAimed: 50
+    tuSnap: 30
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9_39_X10, STR_9_39_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7320
+
+  - type: STR_M16A2
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 1464
+    floorSprite: 1464
+    handSprite: 1464
+    reloadSound: 113
+    fireSound: 114
+    costSell: 13000
+    accuracyAimed: 70
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 36
+    snapRange: 32
+    autoRange: 26
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 70
+    tuSnap: 40
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6750
+
+  - type: STR_AR_18
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 1480
+    floorSprite: 1480
+    handSprite: 1480
+    reloadSound: 113
+    fireSound: 114
+    costSell: 15000
+    accuracyAimed: 55
+    accuracySnap: 55
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 33
+    snapRange: 30
+    autoRange: 11
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 60
+    tuSnap: 35
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6770
+
+  - type: STR_AR_180
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 1480
+    floorSprite: 1480
+    handSprite: 1480
+    reloadSound: 113
+    fireSound: 114
+    costSell: 7500
+    accuracyAimed: 75
+    accuracySnap: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 34
+    snapRange: 25
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 70
+    tuSnap: 35
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6790
+
+  - type: STR_AKM
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 1576
+    floorSprite: 1576
+    handSprite: 1576
+    reloadSound: 242
+    fireSound: 244
+    costSell: 10000
+    accuracyAimed: 55
+    accuracySnap: 65
+    accuracyAuto: 25
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 28
+    snapRange: 38
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_SOVIET_7_62_X30,
+            STR_SOVIET_7_62_X40,
+            STR_SOVIET_7_62_X75
+          ]
+        tuLoad: 30
+        tuUnload: 35
+    listOrder: 8040
+
+  - type: STR_RK_62
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 16
+    # battleType: 1
+    bigSprite: 3801
+    floorSprite: 3803
+    handSprite: 3802
+    reloadSound: 242
+    fireSound: 244
+    costSell: 10000
+    accuracyAimed: 45
+    accuracySnap: 75
+    accuracyAuto: 25
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 28
+    snapRange: 38
+    autoRange: 7
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_SOVIET_7_62_X30,
+            STR_SOVIET_7_62_X40,
+            STR_SOVIET_7_62_X75
+          ]
+        tuLoad: 30
+        tuUnload: 35
+    listOrder: 22201
+
+  - type: STR_AK_74
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 1608
+    floorSprite: 1608
+    handSprite: 1608
+    reloadSound: 242
+    fireSound: 243
+    costSell: 12000
+    accuracyAimed: 50
+    accuracySnap: 60
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 34
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6210
+
+  - type: STR_FN_FAL_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 38
+    # battleType: 1
+    bigSprite: 2216
+    floorSprite: 2216
+    handSprite: 2216
+    reloadSound: 123
+    fireSound: 124
+    costSell: 12000
+    accuracyAimed: 95
+    accuracySnap: 50
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 50
+    snapRange: 30
+    autoRange: 6
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+    tuAimed: 80
+    tuSnap: 45
+    tuAuto: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 25
+    listOrder: 7770
+
+  - type: STR_G3
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    # battleType: 1
+    bigSprite: 3672
+    floorSprite: 3672
+    handSprite: 3672
+    reloadSound: 163
+    fireSound: 164
+    accuracyAimed: 75
+    accuracySnap: 55
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 33
+    snapRange: 36
+    autoRange: 11
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X20, STR_NATO_7_62_X10 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7570
+
+  - type: STR_HUNTING_RIFLE
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 40
+    battleType: 1
+    bigSprite: 1672
+    floorSprite: 1672
+    handSprite: 1672
+    fireSound: 4
+    costSell: 6000
+    accuracyAimed: 80
+    accuracySnap: 40
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 0
+    aimRange: 200
+    snapRange: 25
+    kneelBonus: 145
+    tuAimed: 90
+    tuSnap: 75
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_22_LONG_RIFLE_X6 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5460
+  - type: STR_SKS_SCOPED
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 31
+    battleType: 1
+    bigSprite: 1680
+    floorSprite: 1680
+    handSprite: 1680
+    reloadSound: 242
+    fireSound: 244
+    costSell: 10000
+    accuracyAimed: 100
+    accuracySnap: 60
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 200
+    minRange: 0
+    aimRange: 200
+    snapRange: 25
+    kneelBonus: 130
+    tuAimed: 85
+    tuSnap: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_SOVIET_7_62_X10 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 7940
+  - type: STR_PSG_1
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    requiresBuy:
+      - STR_PSG1_ACQUISITION
+    size: 1
+    weight: 50
+    battleType: 1
+    bigSprite: 1640
+    floorSprite: 1640
+    handSprite: 1640
+    reloadSound: 204
+    fireSound: 205
+    costBuy: 42000
+    costSell: 21000
+    accuracyAimed: 125
+    accuracySnap: 85
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    aimRange: 200
+    snapRange: 35
+    kneelBonus: 145
+    tuAimed: 90
+    tuSnap: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X10, STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7610
+
+  - type: STR_MSG_90
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    requiresBuy:
+      - STR_MSG_90_ACQUISITION
+    size: 1
+    weight: 43
+    battleType: 1
+    bigSprite: 2104
+    floorSprite: 2104
+    handSprite: 2104
+    reloadSound: 204
+    fireSound: 205
+    costBuy: 46000
+    costSell: 23000
+    accuracyAimed: 130
+    accuracySnap: 90
+    accuracyAuto: 50
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 3
+    aimRange: 200
+    snapRange: 35
+    autoRange: 15
+    kneelBonus: 130
+    tuAimed: 85
+    tuSnap: 55
+    tuAuto: 70
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7790
+
+  - type: STR_VSS
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    requiresBuy:
+      - STR_VSS_ACQUISITION
+    size: 1
+    weight: 16
+    battleType: 1
+    bigSprite: 1696
+    floorSprite: 1696
+    handSprite: 1696
+    reloadSound: 197
+    fireSound: 199
+    costBuy: 57000
+    costSell: 28500
+    accuracyAimed: 115
+    accuracySnap: 75
+    accuracyAuto: 55
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 2
+    aimRange: 200
+    snapRange: 35
+    autoRange: 18
+    kneelBonus: 130
+    tuAimed: 80
+    tuSnap: 50
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9_39_X10, STR_9_39_X20 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7350
+
+  - type: STR_DRAGUNOV
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 35
+    battleType: 1
+    bigSprite: 3704
+    floorSprite: 3704
+    handSprite: 3704
+    reloadSound: 118
+    fireSound: 119
+    costBuy: 43000
+    costSell: 21500
+    accuracyAimed: 120
+    accuracySnap: 90
+    accuracyAuto: 45
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    aimRange: 200
+    snapRange: 35
+    autoRange: 20
+    kneelBonus: 130
+    tuAimed: 85
+    tuSnap: 55
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_SOVIET_7_62_MMR_X10 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 7890
+
+  - type: STR_OSV_96
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 65
+    battleType: 1
+    bigSprite: 3720
+    floorSprite: 3720
+    handSprite: 3720
+    reloadSound: 107
+    fireSound: 108
+    costBuy: 62000
+    costSell: 31000
+    accuracyAimed: 115
+    accuracySnap: 70
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    aimRange: 200
+    snapRange: 50
+    kneelBonus: 150
+    tuAimed: 80
+    tuSnap: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_127_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5000
+
+  - type: STR_SAKO_TRG
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    requiresBuy:
+      - STR_TRG_ACQUISITION
+    size: 1
+    weight: 40
+    battleType: 1
+    bigSprite: 1992
+    floorSprite: 1992
+    handSprite: 1992
+    reloadSound: 149
+    fireSound: 151
+    costBuy: 52000
+    costSell: 26000
+    accuracyAimed: 150
+    accuracySnap: 100
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 10
+    aimRange: 200
+    snapRange: 50
+    kneelBonus: 145
+    tuAimed: 90
+    tuSnap: 65
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_338_LAPUA_X5 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 5480
+
+  - type: STR_AWP
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    requiresBuy:
+      - STR_AWP_ACQUISITION
+    size: 1
+    weight: 47
+    battleType: 1
+    bigSprite: 2136
+    floorSprite: 2136
+    handSprite: 2136
+    reloadSound: 149
+    fireSound: 150
+    costBuy: 47500
+    costSell: 23750
+    accuracyAimed: 115
+    accuracySnap: 80
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    aimRange: 200
+    snapRange: 33
+    kneelBonus: 145
+    tuAimed: 80
+    tuSnap: 55
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X10 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7650
+
+  - type: STR_AW
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    requiresBuy:
+      - STR_AW_ACQUISITION
+    size: 1
+    weight: 47
+    battleType: 1
+    bigSprite: 1736
+    floorSprite: 1736
+    handSprite: 1736
+    reloadSound: 149
+    fireSound: 150
+    costBuy: 51000
+    costSell: 25500
+    accuracyAimed: 135
+    accuracySnap: 85
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 10
+    aimRange: 200
+    snapRange: 45
+    kneelBonus: 145
+    tuAimed: 85
+    tuSnap: 65
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_338_LAPUA_X5 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 5500
+
+  - type: STR_M24_SWS
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 44
+    battleType: 1
+    bigSprite: 3736
+    floorSprite: 3736
+    handSprite: 3736
+    reloadSound: 149
+    fireSound: 150
+    costBuy: 44000
+    costSell: 22000
+    accuracyAimed: 110
+    accuracySnap: 85
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    aimRange: 200
+    snapRange: 35
+    kneelBonus: 145
+    tuAimed: 80
+    tuSnap: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X5 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 7820
+
+  - type: STR_M82
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    requiresBuy:
+      - STR_M82_ACQUISITION
+    size: 1
+    weight: 70
+    battleType: 1
+    bigSprite: 1752
+    floorSprite: 1752
+    handSprite: 1752
+    reloadSound: 110
+    fireSound: 111
+    costBuy: 60000
+    costSell: 30000
+    accuracyAimed: 130
+    accuracySnap: 75
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 12
+    aimRange: 200
+    snapRange: 50
+    kneelBonus: 150
+    tuAimed: 90
+    tuSnap: 70
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_50_BMG_X5, STR_50_BMG_X10 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 6100
+
+  - type: STR_DOUBLE_BARREL
+    categories: [ STR_FIREARMS, STR_SHOTGUNS, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 32
+    battleType: 1
+    bigSprite: 2208
+    floorSprite: 2208
+    handSprite: 2208
+    fireSound: 144
+    costSell: 8000
+    accuracyAimed: 80
+    accuracySnap: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 14
+    snapRange: 7
+    kneelBonus: 115
+    tuAimed: 65
+    tuSnap: 35
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 90
+    ammo:
+      0:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X2 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5020
+
+  - type: STR_SERBU
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_SERBU_ACQUISITION
+    size: 1
+    weight: 12
+    battleType: 1
+    bigSprite: 1776
+    floorSprite: 1776
+    handSprite: 1776
+    reloadSound: 224
+    fireSound: 225
+    costBuy: 30000
+    costSell: 15000
+    accuracyAimed: 75
+    accuracySnap: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 12
+    snapRange: 5
+    kneelBonus: 10
+    tuAimed: 60
+    tuSnap: 30
+    invWidth: 1
+    invHeight: 2
+    shotgunBehavior: 1
+    shotgunChoke: 80
+    ammo:
+      0:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5360
+  - type: STR_REMINGTON
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_REMINGTON_ACQUISITION
+    size: 1
+    weight: 25
+    battleType: 1
+    bigSprite: 1792
+    floorSprite: 1792
+    handSprite: 1792
+    reloadSound: 200
+    fireSound: 201
+    costBuy: 21000
+    costSell: 10500
+    accuracyAimed: 95
+    accuracySnap: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 15
+    snapRange: 7
+    kneelBonus: 115
+    tuAimed: 50
+    tuSnap: 30
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 85
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5380
+
+  - type: STR_SPAS_12
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    battleType: 1
+    bigSprite: 3744
+    floorSprite: 3744
+    handSprite: 3744
+    reloadSound: 219
+    fireSound: 220
+    costBuy: 28000
+    costSell: 14000
+    accuracyAimed: 110
+    accuracySnap: 55
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 18
+    snapRange: 10
+    kneelBonus: 115
+    tuAimed: 55
+    tuSnap: 35
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5420
+
+  - type: STR_KS_23
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_KS_23_ACQUISITION
+    size: 1
+    weight: 30
+    battleType: 1
+    bigSprite: 1800
+    floorSprite: 1800
+    handSprite: 1800
+    reloadSound: 143
+    fireSound: 144
+    costBuy: 30000
+    costSell: 15000
+    accuracyAimed: 100
+    accuracySnap: 60
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 20
+    snapRange: 10
+    kneelBonus: 115
+    tuAimed: 55
+    tuSnap: 25
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 95
+    ammo:
+      0:
+        compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 7380
+
+  - type: STR_ORIGIN_12
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_ORIGIN_12_ACQUISITION
+    size: 1
+    weight: 37
+    battleType: 1
+    bigSprite: 1808
+    floorSprite: 1808
+    handSprite: 1808
+    reloadSound: 234
+    fireSound: 236
+    costBuy: 51000
+    costSell: 25500
+    accuracyAimed: 80
+    accuracySnap: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 15
+    snapRange: 7
+    kneelBonus: 115
+    tuAimed: 40
+    tuSnap: 15
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 90
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_BUCKSHOT_X30,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5040
+
+  - type: STR_AA_12
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_AA_12_ACQUISITION
+    size: 1
+    weight: 46
+    # battleType: 1
+    bigSprite: 1840
+    floorSprite: 1840
+    handSprite: 1840
+    reloadSound: 102
+    fireSound: 103
+    costBuy: 40000
+    costSell: 20000
+    accuracyAimed: 80
+    accuracySnap: 100
+    accuracyAuto: 65
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 12
+    snapRange: 18
+    autoRange: 7
+    kneelBonus: 115
+    refNode: *STR_AR
+    tuAimed: 40
+    tuSnap: 75
+    tuAuto: 50
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 85
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_BUCKSHOT_X30,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5100
+
+  - type: STR_USAS_12
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_USAS_12_ACQUISITION
+    size: 1
+    weight: 42
+    # battleType: 1
+    bigSprite: 1872
+    floorSprite: 1872
+    handSprite: 1872
+    reloadSound: 234
+    fireSound: 235
+    costBuy: 42000
+    costSell: 21000
+    accuracyAimed: 60
+    accuracySnap: 80
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 10
+    snapRange: 14
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_AR
+    tuAimed: 30
+    tuSnap: 65
+    tuAuto: 50
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 90
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5160
+
+  - type: STR_SAIGA_12
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    #    requiresBuy:
+    size: 1
+    weight: 28
+    # battleType: 1
+    bigSprite: 3752
+    floorSprite: 3752
+    handSprite: 3752
+    reloadSound: 207
+    fireSound: 208
+    costBuy: 43000
+    costSell: 21500
+    accuracyAimed: 70
+    accuracySnap: 90
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 9
+    snapRange: 13
+    autoRange: 6
+    kneelBonus: 115
+    refNode: *STR_AR
+    tuAimed: 25
+    tuSnap: 65
+    tuAuto: 45
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_BUCKSHOT_X30,
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_SLUG_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5210
+
+  - type: STR_M60
+    categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 65
+    # battleType: 1
+    bigSprite: 2248
+    floorSprite: 2248
+    handSprite: 2248
+    reloadSound: 155
+    fireSound: 156
+    costSell: 20000
+    accuracySnap: 45
+    accuracyAuto: 20
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 28
+    autoRange: 14
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 50
+    tuAuto: 75
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X50, STR_NATO_7_62_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 7670
+
+  - type: STR_M249
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_M249_ACQUISITION
+    size: 1
+    weight: 52
+    # battleType: 1
+    bigSprite: 1896
+    floorSprite: 1896
+    handSprite: 1896
+    reloadSound: 160
+    fireSound: 161
+    costBuy: 53000
+    costSell: 26500
+    accuracySnap: 60
+    accuracyAuto: 30
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 45
+    tuAuto: 70
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X50, STR_5_56_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 6280
+    sprayWaypoints: 2
+
+  - type: STR_FN_MINIMI
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 49
+    # battleType: 1
+    bigSprite: 3784
+    floorSprite: 3784
+    handSprite: 3784
+    reloadSound: 160
+    fireSound: 161
+    costBuy: 50000
+    costSell: 25000
+    accuracySnap: 50
+    accuracyAuto: 30
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 40
+    tuAuto: 60
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100, STR_5_56_X30 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 6320
+
+
+  #   - type: STR_FN_MAG
+  #     categories: [STR_FIREARMS,STR_LMGS]
+  # #    requiresBuy:
+  #     size: 1
+  #     weight: 68
+  #     battleType: 1
+  #     bigSprite: 
+  #     floorSprite:
+  #     handSprite:
+  #     fireSound: 4
+  #     costBuy: 48000
+  #     costSell: 24000
+  #     accuracySnap: 45
+  #     accuracyAuto: 25
+  #     blockBothHands: true
+  #     twoHanded: true
+  #     maxRange: 200
+  #     minRange: 5
+  #     snapRange: 35
+  #     autoRange: 18
+  #     kneelBonus: 145
+  #     refNode: *STR_LMG
+  #     tuSnap: 45
+  #     tuAuto: 65
+  #     invWidth: 2
+  #     invHeight: 3
+  #     ammo:
+  #         0:
+  #          compatibleAmmo: [STR_NATO_7_62_X50,STR_NATO_7_62_X100]
+  #          tuLoad: 45
+  #          tuUnload: 22
+  - type: STR_MK_48
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_MK_48_ACQUISITION
+    size: 1
+    weight: 60
+    # battleType: 1
+    bigSprite: 1920
+    floorSprite: 1920
+    handSprite: 1920
+    reloadSound: 166
+    fireSound: 167
+    costBuy: 65000
+    costSell: 32500
+    accuracySnap: 55
+    accuracyAuto: 25
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 35
+    autoRange: 18
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 50
+    tuAuto: 70
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X50, STR_NATO_7_62_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 7700
+    sprayWaypoints: 2
+
+  - type: STR_RPK_74
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 38
+    # battleType: 1
+    bigSprite: 3824
+    floorSprite: 3824
+    handSprite: 3824
+    reloadSound: 242
+    fireSound: 244
+    costBuy: 49000
+    costSell: 24500
+    accuracySnap: 65
+    accuracyAuto: 35
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 55
+    tuAuto: 75
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 6250
+
+  - type: STR_PECHENEG
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_PECHENEG_ACQUISITION
+    size: 1
+    weight: 59
+    # battleType: 1
+    bigSprite: 1936
+    floorSprite: 1936
+    handSprite: 1936
+    reloadSound: 191
+    fireSound: 192
+    costBuy: 56500
+    costSell: 28250
+    accuracySnap: 50
+    accuracyAuto: 20
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 40
+    autoRange: 20
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 55
+    tuAuto: 80
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_SOVIET_7_62_MMR_X50, STR_SOVIET_7_62_MMR_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 7910
+    sprayWaypoints: 2
+
+  - type: STR_NEGEV
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 48
+    # battleType: 1
+    bigSprite: 3848
+    floorSprite: 3848
+    handSprite: 3848
+    reloadSound: 146
+    fireSound: 192
+    costBuy: 54000
+    costSell: 27000
+    accuracySnap: 60
+    accuracyAuto: 35
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 40
+    autoRange: 20
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 6360
+
+  - type: STR_M320
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    requiresBuy:
+      - STR_M320_ACQUISITION
+    size: 1
+    weight: 12
+    battleType: 1
+    bigSprite: 1952
+    floorSprite: 1952
+    handSprite: 1952
+    reloadSound: 158
+    fireSound: 159
+    costBuy: 19500
+    costSell: 9750
+    accuracyAimed: 70
+    accuracySnap: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 25
+    snapRange: 18
+    kneelBonus: 100
+    tuAimed: 70
+    tuSnap: 50
+    invWidth: 2
+    invHeight: 2
+    arcingShot: true
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5890
+
+  - type: STR_MGL
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    requiresBuy:
+      - STR_MGL_ACQUISITION
+    size: 1
+    weight: 52
+    battleType: 1
+    bigSprite: 1960
+    floorSprite: 1960
+    handSprite: 1960
+    reloadSound: 224
+    fireSound: 159
+    costBuy: 61500
+    costSell: 307500
+    accuracyAimed: 75
+    accuracySnap: 40
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 45
+    minRange: 0
+    aimRange: 30
+    snapRange: 10
+    kneelBonus: 115
+    tuAimed: 65
+    tuSnap: 30
+    invWidth: 2
+    invHeight: 3
+    arcingShot: true
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_FRAG_X6,
+            STR_40MM_FRAG_X3,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 5930
+
+  - type: STR_GM_94
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    #    requiresBuy:
+    size: 1
+    weight: 36
+    battleType: 1
+    bigSprite: 3872
+    floorSprite: 3872
+    handSprite: 3872
+    reloadSound: 158
+    fireSound: 159
+    costBuy: 38000
+    costSell: 19000
+    accuracyAimed: 60
+    accuracySnap: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 25
+    snapRange: 10
+    kneelBonus: 100
+    tuAimed: 79
+    tuSnap: 25
+    invWidth: 1
+    invHeight: 2
+    arcingShot: true
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_FRAG_X3,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 5990
+
+  - type: STR_GUSTAF
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    requiresBuy:
+      - STR_AT_ACQUISITION
+    size: 1
+    weight: 65
+    battleType: 1
+    bigSprite: 1968
+    floorSprite: 1968
+    handSprite: 1968
+    reloadSound: 217
+    fireSound: 218
+    costBuy: 87000
+    costSell: 43500
+    accuracyAimed: 120
+    accuracySnap: 60
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 15
+    snapRange: 10
+    kneelBonus: 150
+    tuAimed: 80
+    tuSnap: 60
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_CG_HEAT_X1, STR_CG_HE_X1 ]
+        tuLoad: 50
+        tuUnload: 25
+    listOrder: 7440
+
+  - type: STR_RPG
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 58
+    battleType: 1
+    bigSprite: 1976
+    floorSprite: 1976
+    handSprite: 1976
+    reloadSound: 202
+    fireSound: 203
+    costSell: 35000
+    accuracyAimed: 100
+    accuracySnap: 50
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 12
+    snapRange: 8
+    kneelBonus: 150
+    tuAimed: 85
+    tuSnap: 65
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_RPG_HEAT_X1 ]
+        tuLoad: 50
+        tuUnload: 25
+    listOrder: 7870
+
+  - type: STR_RPG-29
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_ARTILLERY, STR_FIREARMS ]
+    #    requiresBuy:
+    size: 1
+    weight: 70
+    battleType: 1
+    bigSprite: 3880
+    floorSprite: 3880
+    handSprite: 3880
+    reloadSound: 141
+    fireSound: 142
+    costBuy: 72000
+    costSell: 36000
+    accuracyAimed: 110
+    accuracySnap: 55
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 14
+    snapRange: 8
+    kneelBonus: 150
+    tuAimed: 75
+    tuSnap: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_RPG_29_HEAT_X1, STR_RPG_29_THERMO_X1 ]
+        tuLoad: 50
+        tuUnload: 25
+    listOrder: 7840

@@ -1,0 +1,192 @@
+items:
+
+  ###Grenades###
+  - type: STR_IMPACT_GRENADE
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_GRENADES
+    size: 0.3
+    costBuy: 500
+    costSell: 250
+    weight: 3
+    bigSprite: 2556
+    floorSprite: 19
+    power: 50
+    tuPrime: 25
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+      FixRadius: 3
+    damageType: 3
+    battleType: 4
+    blastRadius: 3
+    fuseType: -2
+    listOrder: 2810
+
+  - type: STR_GRENADE
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_GRENADES
+    size: 0.3
+    costBuy: 400
+    costSell: 200
+    weight: 4
+    bigSprite: 19
+    floorSprite: 19
+    power: 70
+    tuPrime: 25
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+      FixRadius: 4
+    damageType: 3
+    battleType: 4
+    blastRadius: 4
+    listOrder: 2810
+
+  - type: STR_MOLOTOV
+    categories: [ STR_EXPLOSIVES ]
+    size: 0.3
+    costSell: 200
+    weight: 4
+    invHeight: 2
+    bigSprite: 2540
+    floorSprite: 2540
+    handSprite: 2540
+    power: 50
+    tuPrime: 35
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+      FixRadius: 3
+      RadiusReduction: 0
+    damageType: 2
+    battleType: 4
+    blastRadius: 3
+    fuseType: -2
+    isExplodingInHands: true
+    listOrder: 2811
+
+  - type: STR_SMOKE_GRENADE
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_UTILITY_GRENADES
+    size: 0.3
+    costBuy: 300
+    costSell: 150
+    weight: 3
+    bigSprite: 2532
+    floorSprite: 2532
+    handSprite: 2532
+    power: 50
+    damageType: 9
+    tuPrime: 25
+    battleType: 4
+    blastRadius: 6
+    fuseType: -2
+    listOrder: 2812
+
+  - type: STR_FLASHBANG_GRENADE
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_UTILITY_GRENADES
+    size: 0.3
+    costBuy: 300
+    costSell: 150
+    weight: 3
+    bigSprite: 2524
+    floorSprite: 2524
+    handSprite: 2524
+    hitAnimation: 0
+    power: 10
+    damageType: 6
+    damageAlter:
+      RandomType: 1
+      FixRadius: 5
+      RadiusReduction: 0
+    tuPrime: 25
+    battleType: 4
+    blastRadius: 5
+    attraction: 6
+    fuseType: -2
+    listOrder: 2813
+
+  - type: STR_HIGH_EXPLOSIVE
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_HIGH_EXPLOSIVES
+    size: 0.3
+    costBuy: 4000
+    costSell: 2000
+    weight: 20
+    invWidth: 2
+    bigSprite: 22
+    floorSprite: 22
+    power: 100
+    tuPrime: 40
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.4
+      FixRadius: 7
+    damageType: 3
+    battleType: 4
+    blastRadius: 7
+    listOrder: 2814
+
+  - type: STR_FIELD_DRESSING
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
+    size: 0.3
+    costBuy: 300
+    costSell: 150
+    weight: 5
+    bigSprite: 2516
+    floorSprite: 2516
+    handSprite: 2516
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    heal: 1
+    woundRecovery: 6
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1
+    tuUse: 40
+    medikitActionName: STR_USE_FIELD_DRESSING
+    listOrder: 2820
+
+  - type: STR_RIOT_SHIELD
+    requiresBuy:
+      - STR_BALLISTIC_SHIELD_ACQUISITION
+    size: 0.5
+    weight: 10
+    costBuy: 5000
+    costSell: 3000
+    bigSprite: 2500
+    handSprite: 2500
+    floorSprite: 2500
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 2800
+
+  - type: STR_ELECTRO_FLARE
+    size: 0.1
+    costBuy: 60
+    costSell: 40
+    weight: 3
+    bigSprite: 2564
+    floorSprite: 2564
+    handSprite: 2564
+    power: 15
+    tuPrime: 15
+    battleType: 10
+    primeActionName: STR_PRIME_FLARE
+    fuseType: -2
+    armor: 8
