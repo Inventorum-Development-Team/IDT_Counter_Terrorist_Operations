@@ -778,6 +778,8 @@ extended:
          code: |
           var int x;
           var int y;
+          var int z;
+          var int a;
           var ptr BattleItem ammoptr;
           var ptr BattleItem UBSammoptr;
           var ptr RuleInventory invptr;
@@ -785,89 +787,165 @@ extended:
           var int right;
           var int ammono;
           var int UBSammono;
-          var int z;
-          var int a;
+
           BattleItem.getTag item x Tag.AmmoReSprite;
+
           if eq x 1;
-           item.getAmmoItem ammoptr;
-           BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
-           BattleItem.getTag item y Tag.FoldStock;
-           if eq y 1;
-            item.getSlot invptr;
-            RuleInventory.isLeftHand invptr left;
-            RuleInventory.isRightHand invptr right;
-            if and eq left 0 eq right 0;
-             set z 1;
-             end;
-            end;
-           if eq z 1;
-            add sprite_index 32;
-            if eq ammono 1;
-             add sprite_index 8;
-             end;
-            if eq ammono 2;
-             add sprite_index 16;
-             end;
-            if eq ammono 3;
-             add sprite_index 24;
-             end;
-            if eq ammono 4;
-             add sprite_index 32;
-            end;
-           end;
-           if neq z 1;
-            if eq ammono 1;
-             add sprite_index 8;
-             end;
-            if eq ammono 2;
-             add sprite_index 16;
-             end;
-            if eq ammono 3;
-             add sprite_index 24;
-             end;
-            if eq ammono 4;
-             add sprite_index 32;
-             end;
-            end;
-           BattleItem.getTag item a Tag.UBS;
-           if eq a 1;
-             item.getAmmoForSlot UBSammoptr 1;
-             BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
-             if eq UBSammono 1;
-              add sprite_index 16;
+
+            item.getAmmoItem ammoptr;
+            BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+            BattleItem.getTag item y Tag.FoldStock;
+
+            if eq y 1;
+              item.getSlot invptr;
+              RuleInventory.isLeftHand invptr left;
+              RuleInventory.isRightHand invptr right;
+              if and eq left 0 eq right 0;
+                set z 1;
               end;
             end;
-           end;
+
+            if eq z 1;
+              add sprite_index 32;
+
+              if eq ammono 1;
+                add sprite_index 8;
+              end;
+              if eq ammono 2;
+                add sprite_index 16;
+              end;
+              if eq ammono 3;
+                add sprite_index 24;
+              end;
+              if eq ammono 4;
+                add sprite_index 32;
+              end;
+            end;
+
+            if neq z 1;
+              if eq ammono 1;
+                add sprite_index 8;
+              end;
+              if eq ammono 2;
+                add sprite_index 16;
+              end;
+              if eq ammono 3;
+                add sprite_index 24;
+              end;
+              if eq ammono 4;
+                add sprite_index 32;
+              end;
+            end;
+
+            BattleItem.getTag item a Tag.UBS;
+
+            if eq a 1;
+              item.getAmmoForSlot UBSammoptr 1;
+              BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
+              if eq UBSammono 1;
+                add sprite_index 16;
+              end;
+            end;
+          end;
 
 
           if and eq x 2 eq blit_part blit_item_big;
-           item.getAmmoItem ammoptr;
-           BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
-           BattleItem.getTag item y Tag.FoldStock;
-           if eq y 1;
-            item.getSlot invptr;
-            RuleInventory.isLeftHand invptr left;
-            RuleInventory.isRightHand invptr right;
-            if and eq left 0 eq right 0;
-             set z 1;
-             end;
-            end;
-           if eq z 1;
-            add sprite_index 4;
-            add sprite_index ammono;
-           end;
-           if neq z 1;
-            add sprite_index ammono;
-            end;
-           BattleItem.getTag item a Tag.UBS;
-           if eq a 1;
-             item.getAmmoForSlot UBSammoptr 1;
-             BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
-             if eq UBSammono 1;
-              add sprite_index 2;
+
+            item.getAmmoItem ammoptr;
+            BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+            BattleItem.getTag item y Tag.FoldStock;
+
+            if eq y 1;
+              item.getSlot invptr;
+              RuleInventory.isLeftHand invptr left;
+              RuleInventory.isRightHand invptr right;
+              if and eq left 0 eq right 0;
+                set z 1;
               end;
             end;
-           end;
+
+            if eq z 1;
+              add sprite_index 4;
+              add sprite_index ammono;
+            end;
+
+            if neq z 1;
+              add sprite_index ammono;
+            end;
+
+            BattleItem.getTag item a Tag.UBS;
+            if eq a 1;
+              item.getAmmoForSlot UBSammoptr 1;
+              BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
+              if eq UBSammono 1;
+                add sprite_index 2;
+              end;
+            end;
+          end;
+
+
+          if eq x 3;
+
+            item.getAmmoItem ammoptr;
+            BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+            BattleItem.getTag item y Tag.FoldStock;
+
+            if eq y 1;
+              item.getSlot invptr;
+              RuleInventory.isLeftHand invptr left;
+              RuleInventory.isRightHand invptr right;
+              if and eq left 0 eq right 0;
+                set z 1;
+              end;
+            end;
+
+            if eq z 1;
+              add sprite_index 32;
+              if eq ammono null;
+                sub sprite_index 8;
+              end;
+              if eq ammono 1;
+                add sprite_index 0;
+              end;
+              if eq ammono 2;
+                add sprite_index 8;
+              end;
+              if eq ammono 3;
+                add sprite_index 16;
+              end;
+              if eq ammono 4;
+                add sprite_index 24;
+              end;
+            end;
+
+            if neq z 1;
+              if eq ammono null;
+                sub sprite_index 8;
+              end;
+              if eq ammono 1;
+                add sprite_index 0;
+              end;
+              if eq ammono 2;
+                add sprite_index 8;
+              end;
+              if eq ammono 3;
+                add sprite_index 16;
+              end;
+              if eq ammono 4;
+                add sprite_index 24;
+              end;
+            end;
+
+            BattleItem.getTag item a Tag.UBS;
+            if eq a 1;
+              item.getAmmoForSlot UBSammoptr 1;
+              BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
+              if eq UBSammono 1;
+                add sprite_index 16;
+              end;
+            end;
+          end;
+
           return sprite_index; 
 
        - offset: 1 # Air Strike Smoke sprite Script
