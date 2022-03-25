@@ -15,14 +15,11 @@ alienMissions:
   - delete: STR_ALIEN_RETALIATION
   - delete: STR_ALIEN_SUPPLY
 
-  - type: TERRORIST_ATTACK_EAST_EU
+  - type: TERRORIST_ATTACK
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: TERRORIST_ATTACK_EAST_EU
+    siteType: STR_TERRORIST_ATTACK
     spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -30,14 +27,33 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: TERRORIST_ATTACK_USA
+  - type: PLANE_HIJACK
+    objective: 3
+    siteType: STR_PLANE_HIJACK
+    spawnZone: 0
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: DIRECT
+        timer: 100
+        objective: true
+
+  - type: HOUSE_RAID
+    objective: 3
+    siteType: STR_HOUSE_RAID
+    spawnZone: 0
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: DIRECT
+        timer: 100
+        objective: true
+
+  - type: MAJOR_ATTACK
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: TERRORIST_ATTACK_USA
+    siteType: STR_MAJOR_ATTACK
     spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -45,14 +61,11 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: TERRORIST_ATTACK_WEST_EU
+  - type: HOSTAGE_SITUATION
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: TERRORIST_ATTACK_WEST_EU
+    siteType: STR_HOSTAGE_SITUATION
     spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -60,13 +73,10 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: PLANE_HIJACK_EAST_EU
+  - type: HIDEOUT_RAID
     objective: 3
-    siteType: PLANE_HIJACK_EAST_EU
+    siteType: STR_HIDEOUT_RAID
     spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -74,13 +84,12 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: PLANE_HIJACK_USA
+
+
+  - type: OFFICE_RAID
     objective: 3
-    siteType: PLANE_HIJACK_USA
+    siteType: STR_OFFICE_RAID
     spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
     waves:
       - ufo: dummy
         count: 1
@@ -88,271 +97,10 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: PLANE_HIJACK_WEST_EU
+  - type: SKY_SCRAPER
     objective: 3
-    siteType: PLANE_HIJACK_WEST_EU
+    siteType: STR_SKY_SCRAPER
     spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOUSE_RAID_EAST_EU
-    objective: 3
-    siteType: HOUSE_RAID_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOUSE_RAID_USA
-    objective: 3
-    siteType: HOUSE_RAID_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOUSE_RAID_WEST_EU
-    objective: 3
-    siteType: HOUSE_RAID_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: MAJOR_ATTACK_EAST_EU
-    objective: 3
-    despawnEvenIfTargeted: true
-    siteType: MAJOR_ATTACK_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: MAJOR_ATTACK_USA
-    objective: 3
-    despawnEvenIfTargeted: true
-    siteType: MAJOR_ATTACK_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: MAJOR_ATTACK_WEST_EU
-    objective: 3
-    despawnEvenIfTargeted: true
-    siteType: MAJOR_ATTACK_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOSTAGE_SITUATION_EAST_EU
-    objective: 3
-    despawnEvenIfTargeted: true
-    siteType: HOSTAGE_SITUATION_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOSTAGE_SITUATION_USA
-    objective: 3
-    despawnEvenIfTargeted: true
-    siteType: HOSTAGE_SITUATION_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOSTAGE_SITUATION_WEST_EU
-    objective: 3
-    despawnEvenIfTargeted: true
-    siteType: HOSTAGE_SITUATION_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HIDEOUT_RAID_EAST_EU
-    objective: 3
-    siteType: HIDEOUT_RAID_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HIDEOUT_RAID_USA
-    objective: 3
-    siteType: HIDEOUT_RAID_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HIDEOUT_RAID_WEST_EU
-    objective: 3
-    siteType: HIDEOUT_RAID_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: OFFICE_RAID_EAST_EU
-    objective: 3
-    siteType: OFFICE_RAID_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: OFFICE_RAID_USA
-    objective: 3
-    siteType: OFFICE_RAID_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: OFFICE_RAID_WEST_EU
-    objective: 3
-    siteType: OFFICE_RAID_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: SKY_SCRAPER_EAST_EU
-    objective: 3
-    siteType: SKY_SCRAPER_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: SKY_SCRAPER_USA
-    objective: 3
-    siteType: SKY_SCRAPER_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: SKY_SCRAPER_WEST_EU
-    objective: 3
-    siteType: SKY_SCRAPER_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
     waves:
       - ufo: dummy
         count: 1
