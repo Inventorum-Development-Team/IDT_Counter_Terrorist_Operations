@@ -70,7 +70,7 @@ Changes made:
 New Content:
 *Pistols and Rifles now have a melee attack
 *New ammo and flare sprites, by efrenespartano and Filip H
-*Glock 17 and Taser available in campaign
+*Glock 17 and Taser available in campaign, taser sprite by PERLHA
 *Added pistol stocks
 *Added 23 new weapons for new battle mode
 Bugfixes and Adjustments:
