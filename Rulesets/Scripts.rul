@@ -901,7 +901,7 @@ extended:
 
             if eq z 1;
               add sprite_index 32;
-              if eq ammono null;
+              if eq ammono 0;
                 sub sprite_index 8;
               end;
               if eq ammono 1;
@@ -919,7 +919,7 @@ extended:
             end;
 
             if neq z 1;
-              if eq ammono null;
+              if eq ammono 0;
                 sub sprite_index 8;
               end;
               if eq ammono 1;
@@ -948,7 +948,7 @@ extended:
 
           return sprite_index; 
 
-       - offset: 1 # Air Strike Smoke sprite Script
+       - offset: 2 # Air Strike Smoke sprite Script
          code: |
           var int x;
           var int y;
