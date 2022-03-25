@@ -1,0 +1,77 @@
+extraSprites:
+  - type: MALE_CIVILIAN.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/NPC/MALE_CIVILIAN.PNG
+  - type: FEMALE_CIVILIAN.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/NPC/FEMALE_CIVILIAN.PNG
+  - type: INV_MALE_CIVILIAN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/NPC/INV_MALE_CIVILIAN.PNG
+  - type: INV_FEMALE_CIVILIAN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/NPC/INV_FEMALE_CIVILIAN.PNG
+
+armors:
+  - type: CIVM_ARMOR
+    spriteInv: INV_MALE_CIVILIAN
+    spriteSheet: MALE_CIVILIAN.PCK
+    spriteHairGroup: 10
+    spriteHairColor: [160, 160, 160, 84, 84, 244, 228, 192]
+    corpseBattle:
+      - CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: CIVF_ARMOR
+    spriteInv: INV_FEMALE_CIVILIAN
+    spriteSheet: FEMALE_CIVILIAN.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 96, 96, 97, 160, 162, 163]
+    corpseBattle:
+      - CIVF_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]

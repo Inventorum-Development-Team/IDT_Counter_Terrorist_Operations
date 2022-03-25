@@ -42,6 +42,7 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - RURAL
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -461,6 +462,7 @@ alienDeployments:
   - type: STR_SKY_SCRAPER
     width: 30
     length: 30
+
     height: 15
     civilians: 12
     despawnPenalty: 0

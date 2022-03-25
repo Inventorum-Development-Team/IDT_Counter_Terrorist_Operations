@@ -564,6 +564,12 @@ research:
      - STR_ARMORED_VEST_ACQUISITION
      - STR_SAFE_HOUSE_RAIDS
 
+  - name: STR_RIOT_GEAR
+    cost: 50
+    dependencies:
+     - STR_ARMORED_VEST_ACQUISITION
+     - STR_SAFE_HOUSE_RAIDS
+
   - name: STR_ADV_NIGHTVISION
     cost: 70
     dependencies:
@@ -973,6 +979,7 @@ extraStrings:
       STR_ARMORED_VEST_ACQUISITION: "Armored Vests"
       STR_BACKPACK_ACQUISITION: "Backpacks"
       STR_NIGHT_VISION: "Night-Vision Equipment"
+      STR_RIOT_GEAR: "Riot Gear"
       STR_ADV_NIGHTVISION: "Advanced Night-Vision"
       STR_HEAVY_VEST_ACQUISITION: "Heavy Vests"
       STR_SHOTGUN_ACQUISITION: "Shotgun Acquisition"
@@ -988,13 +995,13 @@ extraStrings:
       STR_TASER_ACQUISITION: "Pistol Acquistion: Taser"
       STR_RIFLE_AQUISTION: "Rifle Acquisition"
       STR_TAVOR_ACQUISITION: "Rifle Acquisition: IWI Tavor"
-      STR_M4_ACQUISITION: "Rifle Acquisition: M4 Carbine"
+      STR_M4_ACQUISITION: "Rifle Acquisition: M4A1 Carbine"
       STR_FX_05_ACQUISITION: "Rifle Acquisition: FX-05 Xiuhcoatl"
       STR_AK12_ACQUISITION: "Rifle Acquisition: AK12"
       STR_HK416_ACQUISITION: "Rifle Acquisition: HK416"
       STR_SCAR_L_ACQUISITION: "Rifle Acquisition: SCAR-L"
       STR_TAVOR_95X_ACQUISITION: "Rifle Acquisition: IWI Tavor 95X"
-      STR_M4A1_ACQUISITION: "Rifle Acquisition: M4A1 Carbine"
+      STR_M4A1_ACQUISITION: "Rifle Acquisition: Mk 18 Mod 0"
       STR_AK15_ACQUISITION: "Rifle Acquisition: AK-15"
       STR_SCAR_H_ACQUISITION: "Rifle Acquisition: SCAR-H"
       STR_SNIPER_ACQUISITION: "Sniper Acquisition"
