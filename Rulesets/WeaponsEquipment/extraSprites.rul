@@ -301,15 +301,15 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
       3376: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
       3384: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408: 
-      # 3416: 
-      # 3424: 
-      # 3432: 
-      # 3440: 
-      # 3448: 
-      # 3456: 
+      3392: Resources/BallisticWeapons/Snipers/BigTRGfoldednomag.png
+      3400: Resources/BallisticWeapons/Snipers/BigTRGfolded.png
+      3408: Resources/BallisticWeapons/Snipers/BigTRGfolded.png
+      3416: Resources/BallisticWeapons/Snipers/BigTRGfolded.png
+      3424: Resources/BallisticWeapons/Snipers/BigTRGnomag.png
+      3432: Resources/BallisticWeapons/Snipers/BigTRG.png
+      3440: Resources/BallisticWeapons/Snipers/BigTRG.png
+      3448: Resources/BallisticWeapons/Snipers/BigTRG.png
+      3456: Resources/BallisticWeapons/Snipers/BigTRG.png
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/BigUMP45nomag.png
       3480: Resources/BallisticWeapons/SMGs/BigUMP45.png
@@ -669,14 +669,14 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
       3376: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
       3384: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408:
-      # 3416: 
-      # 3424: 
-      # 3432: 
-      # 3440: 
-      # 3448: 
+      3392: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      3400: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      3408: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      3416: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      3424: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      3432: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      3440: Resources/BallisticWeapons/Snipers/FloorTRG.png
+      3448: Resources/BallisticWeapons/Snipers/FloorTRG.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/FloorUMP45.png
@@ -1040,14 +1040,14 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
       3376: Resources/BallisticWeapons/Pistols/HandStetchkin.png
       3384: Resources/BallisticWeapons/Pistols/HandStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408:
-      # 3416: 
-      # 3424: 
-      # 3432: 
-      # 3440: 
-      # 3448: 
+      3392: Resources/BallisticWeapons/Snipers/HandTRG.png
+      3400: Resources/BallisticWeapons/Snipers/HandTRG.png
+      3408: Resources/BallisticWeapons/Snipers/HandTRG.png
+      3416: Resources/BallisticWeapons/Snipers/HandTRG.png
+      3424: Resources/BallisticWeapons/Snipers/HandTRG.png 
+      3432: Resources/BallisticWeapons/Snipers/HandTRG.png 
+      3440: Resources/BallisticWeapons/Snipers/HandTRG.png 
+      3448: Resources/BallisticWeapons/Snipers/HandTRG.png 
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png

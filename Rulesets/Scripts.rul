@@ -415,6 +415,7 @@ items:
   - type: STR_SAKO_TRG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     Bipod: 1
   - type: STR_AWP #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -495,6 +496,7 @@ extended:
       AmmoReSprite: int
       AmmoNo: int
       FoldStock: int
+      Bipod: int
       UBS: int
       Shield: int
       FlashBang: int
@@ -783,13 +785,17 @@ extended:
           var int y;
           var int z;
           var int a;
+          var int b;
+          var int c;
           var ptr BattleItem ammoptr;
           var ptr BattleItem UBSammoptr;
           var ptr RuleInventory invptr;
+          var ptr BattleUnit owner;
           var int left;
           var int right;
           var int ammono;
           var int UBSammono;
+          var int kneeling;
 
           BattleItem.getTag item x Tag.AmmoReSprite;
 
@@ -798,17 +804,44 @@ extended:
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
             BattleItem.getTag item y Tag.FoldStock;
+            BattleItem.getTag item b Tag.Bipod;
+            
 
-            if eq y 1;
+            if or eq y 1 eq b 1;
               item.getSlot invptr;
               RuleInventory.isLeftHand invptr left;
               RuleInventory.isRightHand invptr right;
+              set z 0;
               if and eq left 0 eq right 0;
                 set z 1;
               end;
+              if or eq left 1 eq right 1;
+                set z 2;
+              end;
             end;
 
-            if eq z 1;
+            if and eq b 1 eq z 2;
+              item.getOwner owner;
+              owner.isKneeled kneeling;
+              if eq kneeling 1;
+                add sprite_index 32;
+              end;
+
+              if eq ammono 1;
+                add sprite_index 8;
+              end;
+              if eq ammono 2;
+                add sprite_index 16;
+              end;
+              if eq ammono 3;
+                add sprite_index 24;
+              end;
+              if eq ammono 4;
+                add sprite_index 32;
+              end;
+            end;
+
+            if and eq y 1  eq z 1;
               add sprite_index 32;
 
               if eq ammono 1;
@@ -825,7 +858,7 @@ extended:
               end;
             end;
 
-            if neq z 1;
+            if eq z 0;
               if eq ammono 1;
                 add sprite_index 8;
               end;
@@ -857,22 +890,36 @@ extended:
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
             BattleItem.getTag item y Tag.FoldStock;
+            BattleItem.getTag item b Tag.Bipod;
+            
 
-            if eq y 1;
+            if or eq y 1 eq b 1;
               item.getSlot invptr;
               RuleInventory.isLeftHand invptr left;
               RuleInventory.isRightHand invptr right;
+              set z 0;
               if and eq left 0 eq right 0;
                 set z 1;
               end;
+              if or eq left 1 eq right 1;
+                set z 2;
+              end;
+            end;
+            if and eq b 1 eq z 2;
+              item.getOwner owner;
+              owner.isKneeled kneeling;
+              if eq kneeling 1;
+                add sprite_index 4;
+              end;
+              add sprite_index ammono;
             end;
 
-            if eq z 1;
+            if and eq y 1  eq z 1;
               add sprite_index 4;
               add sprite_index ammono;
             end;
 
-            if neq z 1;
+            if eq z 0;
               add sprite_index ammono;
             end;
 
@@ -892,17 +939,47 @@ extended:
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
             BattleItem.getTag item y Tag.FoldStock;
+            BattleItem.getTag item b Tag.Bipod;
+            
 
-            if eq y 1;
+            if or eq y 1 eq b 1;
               item.getSlot invptr;
               RuleInventory.isLeftHand invptr left;
               RuleInventory.isRightHand invptr right;
+              set z 0;
               if and eq left 0 eq right 0;
                 set z 1;
               end;
+              if or eq left 1 eq right 1;
+                set z 2;
+              end;
             end;
 
-            if eq z 1;
+            if and eq b 1 eq z 2;
+              item.getOwner owner;
+              owner.isKneeled kneeling;
+              if eq kneeling 1;
+                add sprite_index 32;
+              end;
+
+              if eq ammono 0;
+                sub sprite_index 8;
+              end;
+              if eq ammono 1;
+                add sprite_index 0;
+              end;
+              if eq ammono 2;
+                add sprite_index 8;
+              end;
+              if eq ammono 3;
+                add sprite_index 16;
+              end;
+              if eq ammono 4;
+                add sprite_index 24;
+              end;
+            end;
+
+            if and eq y 1  eq z 1;
               add sprite_index 32;
               if eq ammono 0;
                 sub sprite_index 8;
@@ -921,7 +998,7 @@ extended:
               end;
             end;
 
-            if neq z 1;
+            if eq z 0;
               if eq ammono 0;
                 sub sprite_index 8;
               end;

@@ -3232,9 +3232,9 @@ items:
     size: 1
     weight: 40
     battleType: 1
-    bigSprite: 1992
-    floorSprite: 1992
-    handSprite: 1992
+    bigSprite: 3392
+    floorSprite: 3392
+    handSprite: 3392
     reloadSound: 149
     fireSound: 151
     costBuy: 52000
