@@ -1,0 +1,298 @@
+items:
+
+  - &STR_LMG
+    type: STR_LMG
+    battleType: 1
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+      
+  - type: STR_M60
+    categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 65
+    # battleType: 1
+    bigSprite: 2248
+    floorSprite: 2248
+    handSprite: 2248
+    reloadSound: 155
+    fireSound: 156
+    costSell: 20000
+    accuracySnap: 45
+    accuracyAuto: 20
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 28
+    autoRange: 14
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 50
+    tuAuto: 75
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X50, STR_NATO_7_62_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 7670
+
+  - type: STR_M249
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_M249_ACQUISITION
+    size: 1
+    weight: 52
+    # battleType: 1
+    bigSprite: 1896
+    floorSprite: 1896
+    handSprite: 1896
+    reloadSound: 160
+    fireSound: 161
+    costBuy: 53000
+    costSell: 26500
+    accuracySnap: 60
+    accuracyAuto: 30
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 45
+    tuAuto: 70
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X50, STR_5_56_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 6280
+    sprayWaypoints: 2
+
+  - type: STR_FN_MINIMI
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 49
+    # battleType: 1
+    bigSprite: 3784
+    floorSprite: 3784
+    handSprite: 3784
+    reloadSound: 160
+    fireSound: 161
+    costBuy: 50000
+    costSell: 25000
+    accuracySnap: 50
+    accuracyAuto: 30
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 40
+    tuAuto: 60
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100, STR_5_56_X30 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 6320
+
+
+  #   - type: STR_FN_MAG
+  #     categories: [STR_FIREARMS,STR_LMGS]
+  # #    requiresBuy:
+  #     size: 1
+  #     weight: 68
+  #     battleType: 1
+  #     bigSprite: 
+  #     floorSprite:
+  #     handSprite:
+  #     fireSound: 4
+  #     costBuy: 48000
+  #     costSell: 24000
+  #     accuracySnap: 45
+  #     accuracyAuto: 25
+  #     blockBothHands: true
+  #     twoHanded: true
+  #     maxRange: 200
+  #     minRange: 5
+  #     snapRange: 35
+  #     autoRange: 18
+  #     kneelBonus: 145
+  #     refNode: *STR_LMG
+  #     tuSnap: 45
+  #     tuAuto: 65
+  #     invWidth: 2
+  #     invHeight: 3
+  #     ammo:
+  #         0:
+  #          compatibleAmmo: [STR_NATO_7_62_X50,STR_NATO_7_62_X100]
+  #          tuLoad: 45
+  #          tuUnload: 22
+  - type: STR_MK_48
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_MK_48_ACQUISITION
+    size: 1
+    weight: 60
+    # battleType: 1
+    bigSprite: 1920
+    floorSprite: 1920
+    handSprite: 1920
+    reloadSound: 166
+    fireSound: 167
+    costBuy: 65000
+    costSell: 32500
+    accuracySnap: 55
+    accuracyAuto: 25
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 35
+    autoRange: 18
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 50
+    tuAuto: 70
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X50, STR_NATO_7_62_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 7700
+    sprayWaypoints: 2
+
+  - type: STR_RPK_74
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 38
+    # battleType: 1
+    bigSprite: 3824
+    floorSprite: 3824
+    handSprite: 3824
+    reloadSound: 242
+    fireSound: 244
+    costBuy: 49000
+    costSell: 24500
+    accuracySnap: 65
+    accuracyAuto: 35
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 55
+    tuAuto: 75
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 6250
+
+  - type: STR_PECHENEG
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_PECHENEG_ACQUISITION
+    size: 1
+    weight: 59
+    # battleType: 1
+    bigSprite: 1936
+    floorSprite: 1936
+    handSprite: 1936
+    reloadSound: 191
+    fireSound: 192
+    costBuy: 56500
+    costSell: 28250
+    accuracySnap: 50
+    accuracyAuto: 20
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 40
+    autoRange: 20
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 55
+    tuAuto: 80
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_SOVIET_7_62_MMR_X50, STR_SOVIET_7_62_MMR_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 7910
+    sprayWaypoints: 2
+
+  - type: STR_NEGEV
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 48
+    # battleType: 1
+    bigSprite: 3848
+    floorSprite: 3848
+    handSprite: 3848
+    reloadSound: 146
+    fireSound: 192
+    costBuy: 54000
+    costSell: 27000
+    accuracySnap: 60
+    accuracyAuto: 35
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 40
+    autoRange: 20
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 45
+    tuAuto: 60
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 6360

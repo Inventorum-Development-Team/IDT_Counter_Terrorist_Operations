@@ -1,0 +1,228 @@
+items:
+
+  - type: STR_M320
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    requiresBuy:
+      - STR_M320_ACQUISITION
+    size: 1
+    weight: 12
+    battleType: 1
+    bigSprite: 1952
+    floorSprite: 1952
+    handSprite: 1952
+    reloadSound: 158
+    fireSound: 159
+    costBuy: 19500
+    costSell: 9750
+    accuracyAimed: 70
+    accuracySnap: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 25
+    snapRange: 18
+    kneelBonus: 100
+    tuAimed: 70
+    tuSnap: 50
+    invWidth: 2
+    invHeight: 2
+    arcingShot: true
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5890
+
+  - type: STR_MGL
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    requiresBuy:
+      - STR_MGL_ACQUISITION
+    size: 1
+    weight: 52
+    battleType: 1
+    bigSprite: 1960
+    floorSprite: 1960
+    handSprite: 1960
+    reloadSound: 224
+    fireSound: 159
+    costBuy: 61500
+    costSell: 307500
+    accuracyAimed: 75
+    accuracySnap: 40
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 45
+    minRange: 0
+    aimRange: 30
+    snapRange: 10
+    kneelBonus: 115
+    tuAimed: 65
+    tuSnap: 30
+    invWidth: 2
+    invHeight: 3
+    arcingShot: true
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_FRAG_X6,
+            STR_40MM_FRAG_X3,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 5930
+
+  - type: STR_GM_94
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    #    requiresBuy:
+    size: 1
+    weight: 36
+    battleType: 1
+    bigSprite: 3872
+    floorSprite: 3872
+    handSprite: 3872
+    reloadSound: 158
+    fireSound: 159
+    costBuy: 38000
+    costSell: 19000
+    accuracyAimed: 60
+    accuracySnap: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 25
+    snapRange: 10
+    kneelBonus: 100
+    tuAimed: 79
+    tuSnap: 25
+    invWidth: 1
+    invHeight: 2
+    arcingShot: true
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_FRAG_X3,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 5990
+
+  - type: STR_GUSTAF
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    requiresBuy:
+      - STR_AT_ACQUISITION
+    size: 1
+    weight: 65
+    battleType: 1
+    bigSprite: 1968
+    floorSprite: 1968
+    handSprite: 1968
+    reloadSound: 217
+    fireSound: 218
+    costBuy: 87000
+    costSell: 43500
+    accuracyAimed: 120
+    accuracySnap: 60
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 15
+    snapRange: 10
+    kneelBonus: 150
+    tuAimed: 80
+    tuSnap: 60
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_CG_HEAT_X1, STR_CG_HE_X1 ]
+        tuLoad: 50
+        tuUnload: 25
+    listOrder: 7440
+
+  - type: STR_RPG
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 58
+    battleType: 1
+    bigSprite: 1976
+    floorSprite: 1976
+    handSprite: 1976
+    reloadSound: 202
+    fireSound: 203
+    costSell: 35000
+    accuracyAimed: 100
+    accuracySnap: 50
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 12
+    snapRange: 8
+    kneelBonus: 150
+    tuAimed: 85
+    tuSnap: 65
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_RPG_HEAT_X1 ]
+        tuLoad: 50
+        tuUnload: 25
+    listOrder: 7870
+
+  - type: STR_RPG-29
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_ARTILLERY, STR_FIREARMS ]
+    #    requiresBuy:
+    size: 1
+    weight: 70
+    battleType: 1
+    bigSprite: 3880
+    floorSprite: 3880
+    handSprite: 3880
+    reloadSound: 141
+    fireSound: 142
+    costBuy: 72000
+    costSell: 36000
+    accuracyAimed: 110
+    accuracySnap: 55
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 14
+    snapRange: 8
+    kneelBonus: 150
+    tuAimed: 75
+    tuSnap: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_RPG_29_HEAT_X1, STR_RPG_29_THERMO_X1 ]
+        tuLoad: 50
+        tuUnload: 25
+    listOrder: 7840

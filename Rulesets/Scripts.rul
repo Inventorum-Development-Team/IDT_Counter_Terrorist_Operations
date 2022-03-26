@@ -501,6 +501,7 @@ extended:
       Shield: int
       FlashBang: int
       STRIKE: int
+      Mod: int
 #      FlashAmmo: int
 #      JammChance: int
     BattleGame:
@@ -1105,6 +1106,25 @@ extended:
 
           return new_pixel;
 
+     accuracyMultiplierBonusStats: #Weapon mod script
+          - offset: 1
+            code: |
+              var int mod;
+              var ptr BattleItem secondaryAmmo;
+
+              weapon.getAmmoForSlot secondaryAmmo 1;
+              BattleItem.getTag secondaryAmmo mod Tag.Mod;
+              if and eq mod 1 eq battle_action BA_AIMEDSHOT;
+                add bonus 15;
+              end;
+              if and eq mod 2 eq battle_action BA_SNAPSHOT;
+                add bonus 15;
+              end;
+              if and eq mod 3 eq battle_action BA_AUTOSHOT;
+                add bonus 15;
+              end;
+
+              return bonus;
 
 
 extraStrings:

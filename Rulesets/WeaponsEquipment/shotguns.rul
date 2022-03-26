@@ -1,0 +1,388 @@
+items:
+
+  - &STR_AUTO_SHOTGUN
+    type: STR_AUTO_SHOTGUN
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+
+  - type: STR_DOUBLE_BARREL
+    categories: [ STR_FIREARMS, STR_SHOTGUNS, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 32
+    battleType: 1
+    bigSprite: 2208
+    floorSprite: 2208
+    handSprite: 2208
+    fireSound: 144
+    costSell: 8000
+    accuracyAimed: 80
+    accuracySnap: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 14
+    snapRange: 7
+    kneelBonus: 115
+    tuAimed: 65
+    tuSnap: 35
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 90
+    ammo:
+      0:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X2 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5020
+
+  - type: STR_SERBU
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_SERBU_ACQUISITION
+    size: 1
+    weight: 12
+    battleType: 1
+    bigSprite: 1776
+    floorSprite: 1776
+    handSprite: 1776
+    reloadSound: 224
+    fireSound: 225
+    costBuy: 30000
+    costSell: 15000
+    accuracyAimed: 75
+    accuracySnap: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 12
+    snapRange: 5
+    kneelBonus: 10
+    tuAimed: 60
+    tuSnap: 30
+    invWidth: 1
+    invHeight: 2
+    shotgunBehavior: 1
+    shotgunChoke: 80
+    ammo:
+      0:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5360
+  - type: STR_REMINGTON
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_REMINGTON_ACQUISITION
+    size: 1
+    weight: 25
+    battleType: 1
+    bigSprite: 1792
+    floorSprite: 1792
+    handSprite: 1792
+    reloadSound: 200
+    fireSound: 201
+    costBuy: 21000
+    costSell: 10500
+    accuracyAimed: 95
+    accuracySnap: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 15
+    snapRange: 7
+    kneelBonus: 115
+    tuAimed: 50
+    tuSnap: 30
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 85
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5380
+
+  - type: STR_SPAS_12
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    #    requiresBuy:
+    size: 1
+    weight: 33
+    battleType: 1
+    bigSprite: 3744
+    floorSprite: 3744
+    handSprite: 3744
+    reloadSound: 219
+    fireSound: 220
+    costBuy: 28000
+    costSell: 14000
+    accuracyAimed: 110
+    accuracySnap: 55
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 18
+    snapRange: 10
+    kneelBonus: 115
+    tuAimed: 55
+    tuSnap: 35
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 5420
+
+  - type: STR_KS_23
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_KS_23_ACQUISITION
+    size: 1
+    weight: 30
+    battleType: 1
+    bigSprite: 1800
+    floorSprite: 1800
+    handSprite: 1800
+    reloadSound: 143
+    fireSound: 144
+    costBuy: 30000
+    costSell: 15000
+    accuracyAimed: 100
+    accuracySnap: 60
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 20
+    snapRange: 10
+    kneelBonus: 115
+    tuAimed: 55
+    tuSnap: 25
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 95
+    ammo:
+      0:
+        compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 7380
+
+  - type: STR_ORIGIN_12
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_ORIGIN_12_ACQUISITION
+    size: 1
+    weight: 37
+    battleType: 1
+    bigSprite: 1808
+    floorSprite: 1808
+    handSprite: 1808
+    reloadSound: 234
+    fireSound: 236
+    costBuy: 51000
+    costSell: 25500
+    accuracyAimed: 80
+    accuracySnap: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 15
+    snapRange: 7
+    kneelBonus: 115
+    tuAimed: 40
+    tuSnap: 15
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 90
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_BUCKSHOT_X30,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5040
+
+  - type: STR_AA_12
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_AA_12_ACQUISITION
+    size: 1
+    weight: 46
+    # battleType: 1
+    bigSprite: 1840
+    floorSprite: 1840
+    handSprite: 1840
+    reloadSound: 102
+    fireSound: 103
+    costBuy: 40000
+    costSell: 20000
+    accuracyAimed: 80
+    accuracySnap: 100
+    accuracyAuto: 65
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 12
+    snapRange: 18
+    autoRange: 7
+    kneelBonus: 115
+    refNode: *STR_AUTO_SHOTGUN
+    tuAimed: 40
+    tuSnap: 75
+    tuAuto: 50
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 85
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_BUCKSHOT_X30,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5100
+
+  - type: STR_USAS_12
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_USAS_12_ACQUISITION
+    size: 1
+    weight: 42
+    # battleType: 1
+    bigSprite: 1872
+    floorSprite: 1872
+    handSprite: 1872
+    reloadSound: 234
+    fireSound: 235
+    costBuy: 42000
+    costSell: 21000
+    accuracyAimed: 60
+    accuracySnap: 80
+    accuracyAuto: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 10
+    snapRange: 14
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_AUTO_SHOTGUN
+    tuAimed: 30
+    tuSnap: 65
+    tuAuto: 50
+    invWidth: 1
+    invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 90
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5160
+
+  - type: STR_SAIGA_12
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    #    requiresBuy:
+    size: 1
+    weight: 28
+    # battleType: 1
+    bigSprite: 3752
+    floorSprite: 3752
+    handSprite: 3752
+    reloadSound: 207
+    fireSound: 208
+    costBuy: 43000
+    costSell: 21500
+    accuracyAimed: 70
+    accuracySnap: 90
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 9
+    snapRange: 13
+    autoRange: 6
+    kneelBonus: 115
+    refNode: *STR_AUTO_SHOTGUN
+    tuAimed: 25
+    tuSnap: 65
+    tuAuto: 45
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_BUCKSHOT_X20,
+            STR_12G_BUCKSHOT_X30,
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_SLUG_X8
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 5210
