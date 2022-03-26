@@ -469,6 +469,9 @@ items:
   - type: STR_ELECTRO_FLARE #ignoreDuplicate
     tags:
       STRIKE: 1
+  - type: STR_MOLOTOV #ignoreDuplicate
+    tags:
+      STRIKE: 1
 
 extended:
   tags:

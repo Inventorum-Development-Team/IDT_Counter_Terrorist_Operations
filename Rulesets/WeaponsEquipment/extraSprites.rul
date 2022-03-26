@@ -267,7 +267,7 @@ extraSprites:
       2524: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
       2532: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
       2540: Resources/BallisticWeapons/Explosives/BigMolotov.png
-      #      2548: Resources/BallisticWeapons/Explosives/BigMolotovprimed.png
+      2548: Resources/BallisticWeapons/Explosives/BigMolotovprimed.png
       2556: Resources/BallisticWeapons/Explosives/BigImpactGrenade.png
       2564: Resources/BallisticWeapons/Equipment/BigFlare.png
       2572: Resources/BallisticWeapons/Equipment/BigFlarelit.png
