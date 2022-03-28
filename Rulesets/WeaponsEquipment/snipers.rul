@@ -209,40 +209,40 @@ items:
         tuUnload: 17
     listOrder: 7890
 
-  - type: STR_OSV_96
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 65
-    battleType: 1
-    bigSprite: 3720
-    floorSprite: 3720
-    handSprite: 3720
-    reloadSound: 107
-    fireSound: 108
-    costBuy: 62000
-    costSell: 31000
-    accuracyAimed: 115
-    accuracySnap: 70
-    blockBothHands: true
-    twoHanded: true
-    maxRange: 200
-    minRange: 5
-    aimRange: 200
-    snapRange: 50
-    kneelBonus: 150
-    tuAimed: 80
-    tuSnap: 65
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_127_X5 ]
-        tuLoad: 40
-        tuUnload: 20
-    listOrder: 5000
+  # - type: STR_OSV_96
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+  #   #    requiresBuy:
+  #   size: 1
+  #   weight: 65
+  #   battleType: 1
+  #   bigSprite: 3720
+  #   floorSprite: 3720
+  #   handSprite: 3720
+  #   reloadSound: 107
+  #   fireSound: 108
+  #   costBuy: 62000
+  #   costSell: 31000
+  #   accuracyAimed: 115
+  #   accuracySnap: 70
+  #   blockBothHands: true
+  #   twoHanded: true
+  #   maxRange: 200
+  #   minRange: 5
+  #   aimRange: 200
+  #   snapRange: 50
+  #   kneelBonus: 150
+  #   tuAimed: 80
+  #   tuSnap: 65
+  #   invWidth: 1
+  #   invHeight: 3
+  #   ammo:
+  #     0:
+  #       compatibleAmmo: [ STR_127_X5 ]
+  #       tuLoad: 40
+  #       tuUnload: 20
+  #   listOrder: 5000
 
   - type: STR_SAKO_TRG
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
@@ -346,40 +346,40 @@ items:
         tuUnload: 17
     listOrder: 5500
 
-  - type: STR_M24_SWS
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 44
-    battleType: 1
-    bigSprite: 3736
-    floorSprite: 3736
-    handSprite: 3736
-    reloadSound: 149
-    fireSound: 150
-    costBuy: 44000
-    costSell: 22000
-    accuracyAimed: 110
-    accuracySnap: 85
-    blockBothHands: true
-    twoHanded: true
-    maxRange: 200
-    minRange: 5
-    aimRange: 200
-    snapRange: 35
-    kneelBonus: 145
-    tuAimed: 80
-    tuSnap: 55
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_NATO_7_62_X5 ]
-        tuLoad: 35
-        tuUnload: 17
-    listOrder: 7820
+  # - type: STR_M24_SWS
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+  #   #    requiresBuy:
+  #   size: 1
+  #   weight: 44
+  #   battleType: 1
+  #   bigSprite: 3736
+  #   floorSprite: 3736
+  #   handSprite: 3736
+  #   reloadSound: 149
+  #   fireSound: 150
+  #   costBuy: 44000
+  #   costSell: 22000
+  #   accuracyAimed: 110
+  #   accuracySnap: 85
+  #   blockBothHands: true
+  #   twoHanded: true
+  #   maxRange: 200
+  #   minRange: 5
+  #   aimRange: 200
+  #   snapRange: 35
+  #   kneelBonus: 145
+  #   tuAimed: 80
+  #   tuSnap: 55
+  #   invWidth: 1
+  #   invHeight: 3
+  #   ammo:
+  #     0:
+  #       compatibleAmmo: [ STR_NATO_7_62_X5 ]
+  #       tuLoad: 35
+  #       tuUnload: 17
+  #   listOrder: 7820
 
   - type: STR_M82
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]

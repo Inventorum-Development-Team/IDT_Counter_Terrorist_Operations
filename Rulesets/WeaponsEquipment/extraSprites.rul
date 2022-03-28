@@ -1,4 +1,3 @@
-
 extraSprites:
 
   - type: BIGOBS.PCK
@@ -276,7 +275,7 @@ extraSprites:
       2816: Resources/BallisticWeapons/WeaponMods/BigM203Accessory.png
       2824: Resources/BallisticWeapons/WeaponMods/MASS.png
       2832: Resources/BallisticWeapons/WeaponMods/SOPMOD.png
-      2840: Resources/BallisticWeapons/WeaponMods/Stock.png 
+      2840: Resources/BallisticWeapons/WeaponMods/Stock.png
       3200: Resources/BallisticWeapons/Ammo/BigTaserClip.png
       3208: Resources/BallisticWeapons/Ammo/BigRevolverClip.png
       3216: Resources/BallisticWeapons/Ammo/BigGyurza20.png
@@ -364,7 +363,7 @@ extraSprites:
       3864: Resources/BallisticWeapons/LMGs/BigNegev.png
       3872: Resources/BallisticWeapons/Artillery/BigGM-94.png
       3880: Resources/BallisticWeapons/Artillery/BigRPG-29.png
-      3888: Resources/BallisticWeapons/Ammo/Big762SovietSniperAmmo_x10.png   
+      3888: Resources/BallisticWeapons/Ammo/Big762SovietSniperAmmo_x10.png
       3896: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
       3904: Resources/BallisticWeapons/SMGs/BigUziunfoldednomag.png
       3912: Resources/BallisticWeapons/SMGs/BigUziunfolded20.png
@@ -1044,10 +1043,10 @@ extraSprites:
       3400: Resources/BallisticWeapons/Snipers/HandTRG.png
       3408: Resources/BallisticWeapons/Snipers/HandTRG.png
       3416: Resources/BallisticWeapons/Snipers/HandTRG.png
-      3424: Resources/BallisticWeapons/Snipers/HandTRG.png 
-      3432: Resources/BallisticWeapons/Snipers/HandTRG.png 
-      3440: Resources/BallisticWeapons/Snipers/HandTRG.png 
-      3448: Resources/BallisticWeapons/Snipers/HandTRG.png 
+      3424: Resources/BallisticWeapons/Snipers/HandTRG.png
+      3432: Resources/BallisticWeapons/Snipers/HandTRG.png
+      3440: Resources/BallisticWeapons/Snipers/HandTRG.png
+      3448: Resources/BallisticWeapons/Snipers/HandTRG.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png
@@ -1092,7 +1091,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
-      
+
       3802: Resources/BallisticWeapons/Rifles/HandRK62.png
 
       # 3808: Resources/BallisticWeapons/LMGs/Hand
@@ -1142,7 +1141,6 @@ extraSprites:
       665: Resources/BallisticWeapons/BulletSprites/40mmGrenadeBullet.png #19
       700: Resources/BallisticWeapons/BulletSprites/CarlGustavRound.png #20
       735: Resources/BallisticWeapons/BulletSprites/RussianRocket.png #21
- 
   # - type: MEDIKIT_BACKGROUND
   #   singleImage: true
   #   width: 320

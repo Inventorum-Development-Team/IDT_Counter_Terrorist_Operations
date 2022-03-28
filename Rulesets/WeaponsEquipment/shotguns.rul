@@ -45,42 +45,42 @@ items:
         tuUnload: 20
     listOrder: 5020
 
-  - type: STR_SERBU
-    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
-    requiresBuy:
-      - STR_SERBU_ACQUISITION
-    size: 1
-    weight: 12
-    battleType: 1
-    bigSprite: 1776
-    floorSprite: 1776
-    handSprite: 1776
-    reloadSound: 224
-    fireSound: 225
-    costBuy: 30000
-    costSell: 15000
-    accuracyAimed: 75
-    accuracySnap: 45
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 80
-    maxRange: 30
-    minRange: 0
-    aimRange: 12
-    snapRange: 5
-    kneelBonus: 10
-    tuAimed: 60
-    tuSnap: 30
-    invWidth: 1
-    invHeight: 2
-    shotgunBehavior: 1
-    shotgunChoke: 80
-    ammo:
-      0:
-        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
-        tuLoad: 40
-        tuUnload: 20
-    listOrder: 5360
+  # - type: STR_SERBU
+  #   categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+  #   requiresBuy:
+  #     - STR_SERBU_ACQUISITION
+  #   size: 1
+  #   weight: 12
+  #   battleType: 1
+  #   bigSprite: 1776
+  #   floorSprite: 1776
+  #   handSprite: 1776
+  #   reloadSound: 224
+  #   fireSound: 225
+  #   costBuy: 30000
+  #   costSell: 15000
+  #   accuracyAimed: 75
+  #   accuracySnap: 45
+  #   blockBothHands: false
+  #   twoHanded: true
+  #   oneHandedPenalty: 80
+  #   maxRange: 30
+  #   minRange: 0
+  #   aimRange: 12
+  #   snapRange: 5
+  #   kneelBonus: 10
+  #   tuAimed: 60
+  #   tuSnap: 30
+  #   invWidth: 1
+  #   invHeight: 2
+  #   shotgunBehavior: 1
+  #   shotgunChoke: 80
+  #   ammo:
+  #     0:
+  #       compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+  #       tuLoad: 40
+  #       tuUnload: 20
+  #   listOrder: 5360
   - type: STR_REMINGTON
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     requiresBuy:
@@ -245,100 +245,100 @@ items:
         tuUnload: 15
     listOrder: 5040
 
-  - type: STR_AA_12
-    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
-    requiresBuy:
-      - STR_AA_12_ACQUISITION
-    size: 1
-    weight: 46
-    # battleType: 1
-    bigSprite: 1840
-    floorSprite: 1840
-    handSprite: 1840
-    reloadSound: 102
-    fireSound: 103
-    costBuy: 40000
-    costSell: 20000
-    accuracyAimed: 80
-    accuracySnap: 100
-    accuracyAuto: 65
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 35
-    maxRange: 30
-    minRange: 0
-    aimRange: 12
-    snapRange: 18
-    autoRange: 7
-    kneelBonus: 115
-    refNode: *STR_AUTO_SHOTGUN
-    tuAimed: 40
-    tuSnap: 75
-    tuAuto: 50
-    invWidth: 1
-    invHeight: 3
-    shotgunBehavior: 1
-    shotgunChoke: 85
-    ammo:
-      0:
-        compatibleAmmo:
-          [
-            STR_12G_BUCKSHOT_X8,
-            STR_12G_BUCKSHOT_X20,
-            STR_12G_BUCKSHOT_X30,
-            STR_12G_SLUG_X8,
-            STR_12G_NON_LETHAL_X8
-          ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 5100
+  # - type: STR_AA_12
+  #   categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+  #   requiresBuy:
+  #     - STR_AA_12_ACQUISITION
+  #   size: 1
+  #   weight: 46
+  #   # battleType: 1
+  #   bigSprite: 1840
+  #   floorSprite: 1840
+  #   handSprite: 1840
+  #   reloadSound: 102
+  #   fireSound: 103
+  #   costBuy: 40000
+  #   costSell: 20000
+  #   accuracyAimed: 80
+  #   accuracySnap: 100
+  #   accuracyAuto: 65
+  #   blockBothHands: false
+  #   twoHanded: true
+  #   oneHandedPenalty: 35
+  #   maxRange: 30
+  #   minRange: 0
+  #   aimRange: 12
+  #   snapRange: 18
+  #   autoRange: 7
+  #   kneelBonus: 115
+  #   refNode: *STR_AUTO_SHOTGUN
+  #   tuAimed: 40
+  #   tuSnap: 75
+  #   tuAuto: 50
+  #   invWidth: 1
+  #   invHeight: 3
+  #   shotgunBehavior: 1
+  #   shotgunChoke: 85
+  #   ammo:
+  #     0:
+  #       compatibleAmmo:
+  #         [
+  #           STR_12G_BUCKSHOT_X8,
+  #           STR_12G_BUCKSHOT_X20,
+  #           STR_12G_BUCKSHOT_X30,
+  #           STR_12G_SLUG_X8,
+  #           STR_12G_NON_LETHAL_X8
+  #         ]
+  #       tuLoad: 30
+  #       tuUnload: 15
+  #   listOrder: 5100
 
-  - type: STR_USAS_12
-    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
-    requiresBuy:
-      - STR_USAS_12_ACQUISITION
-    size: 1
-    weight: 42
-    # battleType: 1
-    bigSprite: 1872
-    floorSprite: 1872
-    handSprite: 1872
-    reloadSound: 234
-    fireSound: 235
-    costBuy: 42000
-    costSell: 21000
-    accuracyAimed: 60
-    accuracySnap: 80
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 35
-    maxRange: 30
-    minRange: 0
-    aimRange: 10
-    snapRange: 14
-    autoRange: 4
-    kneelBonus: 115
-    refNode: *STR_AUTO_SHOTGUN
-    tuAimed: 30
-    tuSnap: 65
-    tuAuto: 50
-    invWidth: 1
-    invHeight: 3
-    shotgunBehavior: 1
-    shotgunChoke: 90
-    ammo:
-      0:
-        compatibleAmmo:
-          [
-            STR_12G_BUCKSHOT_X8,
-            STR_12G_BUCKSHOT_X20,
-            STR_12G_SLUG_X8,
-            STR_12G_NON_LETHAL_X8
-          ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 5160
+  # - type: STR_USAS_12
+  #   categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+  #   requiresBuy:
+  #     - STR_USAS_12_ACQUISITION
+  #   size: 1
+  #   weight: 42
+  #   # battleType: 1
+  #   bigSprite: 1872
+  #   floorSprite: 1872
+  #   handSprite: 1872
+  #   reloadSound: 234
+  #   fireSound: 235
+  #   costBuy: 42000
+  #   costSell: 21000
+  #   accuracyAimed: 60
+  #   accuracySnap: 80
+  #   accuracyAuto: 50
+  #   blockBothHands: false
+  #   twoHanded: true
+  #   oneHandedPenalty: 35
+  #   maxRange: 30
+  #   minRange: 0
+  #   aimRange: 10
+  #   snapRange: 14
+  #   autoRange: 4
+  #   kneelBonus: 115
+  #   refNode: *STR_AUTO_SHOTGUN
+  #   tuAimed: 30
+  #   tuSnap: 65
+  #   tuAuto: 50
+  #   invWidth: 1
+  #   invHeight: 3
+  #   shotgunBehavior: 1
+  #   shotgunChoke: 90
+  #   ammo:
+  #     0:
+  #       compatibleAmmo:
+  #         [
+  #           STR_12G_BUCKSHOT_X8,
+  #           STR_12G_BUCKSHOT_X20,
+  #           STR_12G_SLUG_X8,
+  #           STR_12G_NON_LETHAL_X8
+  #         ]
+  #       tuLoad: 30
+  #       tuUnload: 15
+  #   listOrder: 5160
 
   - type: STR_SAIGA_12
     requiresBuy:

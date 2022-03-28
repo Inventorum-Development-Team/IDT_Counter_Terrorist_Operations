@@ -6,6 +6,8 @@ items:
      - STR_SCOPE_ACQUISITION
     size: 0.1
     bigSprite: 2800
+    battleType: 2
+    weight: 2
   - type: STR_SOPMOD_KIT
     costBuy: 6000
     costSell: 3000

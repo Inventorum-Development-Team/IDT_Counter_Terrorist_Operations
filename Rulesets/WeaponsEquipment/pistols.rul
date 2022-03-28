@@ -253,83 +253,83 @@ items:
         tuLoad: 20
         tuUnload: 10
 
-  - type: STR_M1911
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
-    requiresBuy:
-      - STR_M1911_ACQUISITION
-    size: 1
-    weight: 12
-    # battleType: 1
-    bigSprite: 664
-    floorSprite: 664
-    handSprite: 664
-    reloadSound: 237
-    fireSound: 238
-    costBuy: 3700
-    costSell: 1850
-    accuracyAimed: 70
-    accuracySnap: 40
-    accuracyAuto: 30
-    blockBothHands: false
-    twoHanded: false
-    oneHandedPenalty: 100
-    maxRange: 25
-    minRange: 0
-    aimRange: 12
-    snapRange: 8
-    autoRange: 4
-    kneelBonus: 100
-    refNode: *STR_PISTOL
-    tuAimed: 60
-    tuSnap: 30
-    tuAuto: 70
-    invWidth: 1
-    invHeight: 2
-    ammo:
-      0:
-        compatibleAmmo: [ STR_45_ACP_X7 ]
-        tuLoad: 25
-        tuUnload: 12
-    listOrder: 6080
+  # - type: STR_M1911
+  #   categories: [ STR_FIREARMS, STR_PISTOLS ]
+  #   requiresBuy:
+  #     - STR_M1911_ACQUISITION
+  #   size: 1
+  #   weight: 12
+  #   # battleType: 1
+  #   bigSprite: 664
+  #   floorSprite: 664
+  #   handSprite: 664
+  #   reloadSound: 237
+  #   fireSound: 238
+  #   costBuy: 3700
+  #   costSell: 1850
+  #   accuracyAimed: 70
+  #   accuracySnap: 40
+  #   accuracyAuto: 30
+  #   blockBothHands: false
+  #   twoHanded: false
+  #   oneHandedPenalty: 100
+  #   maxRange: 25
+  #   minRange: 0
+  #   aimRange: 12
+  #   snapRange: 8
+  #   autoRange: 4
+  #   kneelBonus: 100
+  #   refNode: *STR_PISTOL
+  #   tuAimed: 60
+  #   tuSnap: 30
+  #   tuAuto: 70
+  #   invWidth: 1
+  #   invHeight: 2
+  #   ammo:
+  #     0:
+  #       compatibleAmmo: [ STR_45_ACP_X7 ]
+  #       tuLoad: 25
+  #       tuUnload: 12
+  #   listOrder: 6080
 
-  - type: STR_MK_23
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
-    requiresBuy:
-      - STR_MK_23_ACQUISITION
-    size: 1
-    weight: 14
-    # battleType: 1
-    bigSprite: 680
-    floorSprite: 680
-    handSprite: 680
-    reloadSound: 116
-    fireSound: 117
-    costBuy: 13000
-    costSell: 6500
-    accuracyAimed: 80
-    accuracySnap: 50
-    accuracyAuto: 35
-    blockBothHands: false
-    twoHanded: false
-    oneHandedPenalty: 100
-    maxRange: 25
-    minRange: 0
-    aimRange: 15
-    snapRange: 10
-    autoRange: 6
-    kneelBonus: 100
-    refNode: *STR_PISTOL
-    tuAimed: 50
-    tuSnap: 25
-    tuAuto: 65
-    invWidth: 1
-    invHeight: 2
-    ammo:
-      0:
-        compatibleAmmo: [ STR_45_ACP_X12 ]
-        tuLoad: 25
-        tuUnload: 12
-    listOrder: 6040
+  # - type: STR_MK_23
+  #   categories: [ STR_FIREARMS, STR_PISTOLS ]
+  #   requiresBuy:
+  #     - STR_MK_23_ACQUISITION
+  #   size: 1
+  #   weight: 14
+  #   # battleType: 1
+  #   bigSprite: 680
+  #   floorSprite: 680
+  #   handSprite: 680
+  #   reloadSound: 116
+  #   fireSound: 117
+  #   costBuy: 13000
+  #   costSell: 6500
+  #   accuracyAimed: 80
+  #   accuracySnap: 50
+  #   accuracyAuto: 35
+  #   blockBothHands: false
+  #   twoHanded: false
+  #   oneHandedPenalty: 100
+  #   maxRange: 25
+  #   minRange: 0
+  #   aimRange: 15
+  #   snapRange: 10
+  #   autoRange: 6
+  #   kneelBonus: 100
+  #   refNode: *STR_PISTOL
+  #   tuAimed: 50
+  #   tuSnap: 25
+  #   tuAuto: 65
+  #   invWidth: 1
+  #   invHeight: 2
+  #   ammo:
+  #     0:
+  #       compatibleAmmo: [ STR_45_ACP_X12 ]
+  #       tuLoad: 25
+  #       tuUnload: 12
+  #   listOrder: 6040
 
   - type: STR_MAKAROV
     categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]

@@ -789,6 +789,7 @@ extended:
           var int b;
           var int c;
           var ptr BattleItem ammoptr;
+          var ptr BattleItem secondaryammoptr;
           var ptr BattleItem UBSammoptr;
           var ptr RuleInventory invptr;
           var ptr BattleUnit owner;
@@ -796,103 +797,24 @@ extended:
           var int right;
           var int ammono;
           var int UBSammono;
+          var int mod;
           var int kneeling;
 
           BattleItem.getTag item x Tag.AmmoReSprite;
 
-          if eq x 1;
+          if and eq x 1 eq blit_part blit_item_big;
 
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
             BattleItem.getTag item y Tag.FoldStock;
             BattleItem.getTag item b Tag.Bipod;
-            
+            item.getAmmoForSlot secondaryammoptr 1;
+            BattleItem.getTag secondaryammoptr mod Tag.Mod;
 
-            if or eq y 1 eq b 1;
-              item.getSlot invptr;
-              RuleInventory.isLeftHand invptr left;
-              RuleInventory.isRightHand invptr right;
-              set z 0;
-              if and eq left 0 eq right 0;
-                set z 1;
-              end;
-              if or eq left 1 eq right 1;
-                set z 2;
-              end;
+            if gt mod 0;
+              mul mod 5;
+              add sprite_index mod;
             end;
-
-            if and eq b 1 eq z 2;
-              item.getOwner owner;
-              owner.isKneeled kneeling;
-              if eq kneeling 1;
-                add sprite_index 32;
-              end;
-
-              if eq ammono 1;
-                add sprite_index 8;
-              end;
-              if eq ammono 2;
-                add sprite_index 16;
-              end;
-              if eq ammono 3;
-                add sprite_index 24;
-              end;
-              if eq ammono 4;
-                add sprite_index 32;
-              end;
-            end;
-
-            if and eq y 1  eq z 1;
-              add sprite_index 32;
-
-              if eq ammono 1;
-                add sprite_index 8;
-              end;
-              if eq ammono 2;
-                add sprite_index 16;
-              end;
-              if eq ammono 3;
-                add sprite_index 24;
-              end;
-              if eq ammono 4;
-                add sprite_index 32;
-              end;
-            end;
-
-            if eq z 0;
-              if eq ammono 1;
-                add sprite_index 8;
-              end;
-              if eq ammono 2;
-                add sprite_index 16;
-              end;
-              if eq ammono 3;
-                add sprite_index 24;
-              end;
-              if eq ammono 4;
-                add sprite_index 32;
-              end;
-            end;
-
-            BattleItem.getTag item a Tag.UBS;
-
-            if eq a 1;
-              item.getAmmoForSlot UBSammoptr 1;
-              BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
-              if eq UBSammono 1;
-                add sprite_index 16;
-              end;
-            end;
-          end;
-
-
-          if and eq x 2 eq blit_part blit_item_big;
-
-            item.getAmmoItem ammoptr;
-            BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
-            BattleItem.getTag item y Tag.FoldStock;
-            BattleItem.getTag item b Tag.Bipod;
-            
 
             if or eq y 1 eq b 1;
               item.getSlot invptr;
@@ -930,99 +852,6 @@ extended:
               BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
               if eq UBSammono 1;
                 add sprite_index 2;
-              end;
-            end;
-          end;
-
-
-          if eq x 3;
-
-            item.getAmmoItem ammoptr;
-            BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
-            BattleItem.getTag item y Tag.FoldStock;
-            BattleItem.getTag item b Tag.Bipod;
-            
-
-            if or eq y 1 eq b 1;
-              item.getSlot invptr;
-              RuleInventory.isLeftHand invptr left;
-              RuleInventory.isRightHand invptr right;
-              set z 0;
-              if and eq left 0 eq right 0;
-                set z 1;
-              end;
-              if or eq left 1 eq right 1;
-                set z 2;
-              end;
-            end;
-
-            if and eq b 1 eq z 2;
-              item.getOwner owner;
-              owner.isKneeled kneeling;
-              if eq kneeling 1;
-                add sprite_index 32;
-              end;
-
-              if eq ammono 0;
-                sub sprite_index 8;
-              end;
-              if eq ammono 1;
-                add sprite_index 0;
-              end;
-              if eq ammono 2;
-                add sprite_index 8;
-              end;
-              if eq ammono 3;
-                add sprite_index 16;
-              end;
-              if eq ammono 4;
-                add sprite_index 24;
-              end;
-            end;
-
-            if and eq y 1  eq z 1;
-              add sprite_index 32;
-              if eq ammono 0;
-                sub sprite_index 8;
-              end;
-              if eq ammono 1;
-                add sprite_index 0;
-              end;
-              if eq ammono 2;
-                add sprite_index 8;
-              end;
-              if eq ammono 3;
-                add sprite_index 16;
-              end;
-              if eq ammono 4;
-                add sprite_index 24;
-              end;
-            end;
-
-            if eq z 0;
-              if eq ammono 0;
-                sub sprite_index 8;
-              end;
-              if eq ammono 1;
-                add sprite_index 0;
-              end;
-              if eq ammono 2;
-                add sprite_index 8;
-              end;
-              if eq ammono 3;
-                add sprite_index 16;
-              end;
-              if eq ammono 4;
-                add sprite_index 24;
-              end;
-            end;
-
-            BattleItem.getTag item a Tag.UBS;
-            if eq a 1;
-              item.getAmmoForSlot UBSammoptr 1;
-              BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
-              if eq UBSammono 1;
-                add sprite_index 16;
               end;
             end;
           end;
@@ -1114,14 +943,26 @@ extended:
 
               weapon.getAmmoForSlot secondaryAmmo 1;
               BattleItem.getTag secondaryAmmo mod Tag.Mod;
-              if and eq mod 1 eq battle_action BA_AIMEDSHOT;
-                add bonus 15;
+              if eq mod 1; 
+                  if eq battle_action BA_AIMEDSHOT;
+                    add bonus 15;
+                  else;
+                    sub bonus 10;
+                  end;
               end;
-              if and eq mod 2 eq battle_action BA_SNAPSHOT;
-                add bonus 15;
+              if eq mod 2; 
+                  if eq battle_action BA_SNAPSHOT;
+                    add bonus 15;
+                  else;
+                    sub bonus 10;
+                  end;
               end;
-              if and eq mod 3 eq battle_action BA_AUTOSHOT;
-                add bonus 15;
+              if eq mod 3; 
+                  if eq battle_action BA_AUTOSHOT;
+                    add bonus 15;
+                  else;
+                    sub bonus 10;
+                  end;
               end;
 
               return bonus;
