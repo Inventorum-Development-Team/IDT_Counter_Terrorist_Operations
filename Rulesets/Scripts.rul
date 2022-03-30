@@ -33,9 +33,9 @@ items:
     medikitTargetImmune: true
     invWidth: 1
     invHeight: 1
-    bigSprite: 2508
-    floorSprite: 2508
-    handSprite: 2508
+    bigSprite: 510
+    floorSprite: 510
+    handSprite: 510
     tuUse: 60
     weight: 2
     costBuy: 300
@@ -46,6 +46,15 @@ items:
     tags:
       Cuffs: 1
 
+  - type: STR_SCOPE
+    tags:
+     Mod: 1
+  - type: STR_LASER_SIGHT
+    tags:
+     Mod: 2
+  - type: STR_SUPPRESSOR
+    tags:
+     Mod: 3
     
   - type: STR_9MM_MAKAROV_X10 #ignoreDuplicate
     tags:

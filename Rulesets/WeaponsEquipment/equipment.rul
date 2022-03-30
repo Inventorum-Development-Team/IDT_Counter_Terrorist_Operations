@@ -9,7 +9,7 @@ items:
     costBuy: 500
     costSell: 250
     weight: 3
-    bigSprite: 2556
+    bigSprite: 570
     floorSprite: 19
     power: 50
     tuPrime: 25
@@ -52,9 +52,9 @@ items:
     costSell: 200
     weight: 4
     invHeight: 2
-    bigSprite: 2540
-    floorSprite: 2540
-    handSprite: 2540
+    bigSprite: 550
+    floorSprite: 550
+    handSprite: 550
     power: 50
     tuPrime: 35
     damageAlter:
@@ -78,9 +78,9 @@ items:
     costBuy: 300
     costSell: 150
     weight: 3
-    bigSprite: 2532
-    floorSprite: 2532
-    handSprite: 2532
+    bigSprite: 540
+    floorSprite: 540
+    handSprite: 540
     power: 50
     damageType: 9
     tuPrime: 25
@@ -97,9 +97,9 @@ items:
     costBuy: 300
     costSell: 150
     weight: 3
-    bigSprite: 2524
-    floorSprite: 2524
-    handSprite: 2524
+    bigSprite: 530
+    floorSprite: 530
+    handSprite: 530
     hitAnimation: 0
     power: 10
     damageType: 6
@@ -143,9 +143,9 @@ items:
     costBuy: 300
     costSell: 150
     weight: 5
-    bigSprite: 2516
-    floorSprite: 2516
-    handSprite: 2516
+    bigSprite: 520
+    floorSprite: 520
+    handSprite: 520
     battleType: 6
     invWidth: 1
     invHeight: 1
@@ -166,9 +166,9 @@ items:
     weight: 10
     costBuy: 5000
     costSell: 3000
-    bigSprite: 2500
-    handSprite: 2500
-    floorSprite: 2500
+    bigSprite: 500
+    handSprite: 500
+    floorSprite: 500
     flatRate: true
     battleType: 3
     clipSize: -1
@@ -181,9 +181,9 @@ items:
     costBuy: 60
     costSell: 40
     weight: 3
-    bigSprite: 2564
-    floorSprite: 2564
-    handSprite: 2564
+    bigSprite: 580
+    floorSprite: 580
+    handSprite: 580
     power: 15
     tuPrime: 15
     battleType: 10

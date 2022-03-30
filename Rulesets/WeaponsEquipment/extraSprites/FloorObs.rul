@@ -28,8 +28,8 @@ extraSprites:
       1080: Resources/BallisticWeapons/Pistols/floorGlock18.png
       1100: Resources/BallisticWeapons/Pistols/floorGlock18Stock.png
       1120: Resources/BallisticWeapons/Pistols/floorFiveSeven.png
-      1140: Resources/BallisticWeapons/Pistols/floorSR-1Vektor.png
-      1165: Resources/BallisticWeapons/Pistols/floorStetchkin.png
+      1140: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
+      1160: Resources/BallisticWeapons/Pistols/floorStetchkin.png
       # 664: Resources/BallisticWeapons/Pistols/floorM1911Colt45.png
       # 672: Resources/BallisticWeapons/Pistols/floorM1911Colt45.png
       # 680: Resources/BallisticWeapons/Pistols/floorMK23SOCOM.png
@@ -73,16 +73,14 @@ extraSprites:
       3030: Resources/BallisticWeapons/Rifles/floorM16A2.png
       3040: Resources/BallisticWeapons/Rifles/floorG11.png
       3050: Resources/BallisticWeapons/Rifles/floorAK12.png
-      3070: Resources/BallisticWeapons/Rifles/floorAK15.png
+      3070: Resources/BallisticWeapons/Rifles/FloorAK12.png
       3090: Resources/BallisticWeapons/Rifles/floorHK416.png
       3110: Resources/BallisticWeapons/Rifles/floorHK416M320.png
-      3111: Resources/BallisticWeapons/Rifles/floorHK416M320.png
       3120: Resources/BallisticWeapons/Rifles/floorHK416MASS.png
       3130: Resources/BallisticWeapons/Rifles/floorHK417.png
       3150: Resources/BallisticWeapons/Rifles/floorFamas.png
       3170: Resources/BallisticWeapons/Rifles/floorG36.png
       3190: Resources/BallisticWeapons/Rifles/floorG36AG36.png
-      3191: Resources/BallisticWeapons/Rifles/floorG36AG36.png
       3200: Resources/BallisticWeapons/Rifles/floorG3.png
       3220: Resources/BallisticWeapons/Rifles/floorFNFAL.png
       # 936: Resources/BallisticWeapons/Rifles/floorTAVOR.png
@@ -149,7 +147,6 @@ extraSprites:
       5020: Resources/BallisticWeapons/Snipers/floorSKS.png
       5030: Resources/BallisticWeapons/Snipers/floorVSSVintorez.png
       5040: Resources/BallisticWeapons/Snipers/floorAIAW.png
-      5041: Resources/BallisticWeapons/Snipers/floorAIAW.png
       5050: Resources/BallisticWeapons/Snipers/floorM82.png
       5070: Resources/BallisticWeapons/Snipers/floorMSG90.png
       5080: Resources/BallisticWeapons/Snipers/floorAWP.png

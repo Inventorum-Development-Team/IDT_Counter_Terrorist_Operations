@@ -411,21 +411,12 @@ extraSprites:
       3092: Resources/BallisticWeapons/Rifles/BigHK416.png
       3093: Resources/BallisticWeapons/Rifles/BigHK416.png
       3094: Resources/BallisticWeapons/Rifles/BigHK416.png
-      3095: Resources/BallisticWeapons/Rifles/BigHK416SOPMODnomag.png
-      3096: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3097: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3098: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3099: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3100: Resources/BallisticWeapons/Rifles/BigHK416SOPMODnomag.png
-      3101: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3102: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3103: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3104: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3105: Resources/BallisticWeapons/Rifles/BigHK416SOPMODnomag.png
-      3106: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3107: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3108: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
-      3109: Resources/BallisticWeapons/Rifles/BigHK416SOPMOD.png
+      3095: Resources/BallisticWeapons/Rifles/BigHK416Scopednomag.png
+      3096: Resources/BallisticWeapons/Rifles/BigHK416Scoped.png
+      3100: Resources/BallisticWeapons/Rifles/BigHK416lasernomag.png
+      3101: Resources/BallisticWeapons/Rifles/BigHK416laser.png
+      3105: Resources/BallisticWeapons/Rifles/BigHK416Suppressednomag.png
+      3106: Resources/BallisticWeapons/Rifles/BigHK416Suppressed.png
       3110: Resources/BallisticWeapons/Rifles/BigHK416M320nomag.png
       3111: Resources/BallisticWeapons/Rifles/BigHK416M320.png
       3120: Resources/BallisticWeapons/Rifles/BigHK416MASSnomag3.png

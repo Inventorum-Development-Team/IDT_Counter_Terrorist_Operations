@@ -7,7 +7,7 @@ extraSprites:
     subY: 40
     files:
       ###AMMO###
-      200: Resources/BallisticWeapons/Ammo/hand.png
+      200: Resources/BallisticWeapons/Ammo/HandAmmo.png
       # 632: 
 
       ###MISC###
@@ -31,8 +31,8 @@ extraSprites:
       1080: Resources/BallisticWeapons/Pistols/handGlock18.png
       1100: Resources/BallisticWeapons/Pistols/handGlock18Stock.png
       1120: Resources/BallisticWeapons/Pistols/handFiveSeven.png
-      1140: Resources/BallisticWeapons/Pistols/handSR-1Vektor.png
-      1165: Resources/BallisticWeapons/Pistols/handStetchkin.png
+      1140: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
+      1160: Resources/BallisticWeapons/Pistols/handStetchkin.png
       # 664: Resources/BallisticWeapons/Pistols/handM1911Colt45.png
       # 672: Resources/BallisticWeapons/Pistols/handM1911Colt45.png
       # 680: Resources/BallisticWeapons/Pistols/handMK23SOCOM.png
@@ -41,7 +41,7 @@ extraSprites:
 
       2000: Resources/BallisticWeapons/SMGs/handTec9.png
       2010: Resources/BallisticWeapons/SMGs/handSkorpion.png
-      2020: Resources/BallisticWeapons/SMGs/handMP7.png
+      2020: Resources/BallisticWeapons/SMGs/HandMP7_onehanded.png
       2030: Resources/BallisticWeapons/SMGs/handMP5SD.png
       2050: Resources/BallisticWeapons/SMGs/handP90.png
       2070: Resources/BallisticWeapons/SMGs/handVityaz.png
@@ -76,7 +76,7 @@ extraSprites:
       3030: Resources/BallisticWeapons/Rifles/handM16A2.png
       3040: Resources/BallisticWeapons/Rifles/handG11.png
       3050: Resources/BallisticWeapons/Rifles/handAK12.png
-      3070: Resources/BallisticWeapons/Rifles/handAK15.png
+      3070: Resources/BallisticWeapons/Rifles/handAK12.png
       3090: Resources/BallisticWeapons/Rifles/handHK416.png
       3110: Resources/BallisticWeapons/Rifles/handHK416M320.png
       3111: Resources/BallisticWeapons/Rifles/handHK416M320.png
@@ -163,7 +163,7 @@ extraSprites:
       # 3736: Resources/BallisticWeapons/Snipers/handM24SWS.png
 
 
-      6000: Resources/BallisticWeapons/Shotguns/handSuperShorty.png
+      6000: Resources/BallisticWeapons/Shotguns/HandSuperShorty1Hand.png
       6010: Resources/BallisticWeapons/Shotguns/handRemington.png
       6020: Resources/BallisticWeapons/Shotguns/handKS23Shotgun.png
       6030: Resources/BallisticWeapons/Shotguns/handOrigin12.png

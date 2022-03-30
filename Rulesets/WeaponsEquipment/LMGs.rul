@@ -21,9 +21,9 @@ items:
     size: 1
     weight: 65
     # battleType: 1
-    bigSprite: 2248
-    floorSprite: 2248
-    handSprite: 2248
+    bigSprite: 7000
+    floorSprite: 7000
+    handSprite: 7000
     reloadSound: 155
     fireSound: 156
     costSell: 20000
@@ -93,9 +93,9 @@ items:
     size: 1
     weight: 49
     # battleType: 1
-    bigSprite: 3784
-    floorSprite: 3784
-    handSprite: 3784
+    bigSprite: 7010
+    floorSprite: 7010
+    handSprite: 7010
     reloadSound: 160
     fireSound: 161
     costBuy: 50000
@@ -122,37 +122,37 @@ items:
     listOrder: 6320
 
 
-  #   - type: STR_FN_MAG
-  #     categories: [STR_FIREARMS,STR_LMGS]
-  # #    requiresBuy:
-  #     size: 1
-  #     weight: 68
-  #     battleType: 1
-  #     bigSprite: 
-  #     floorSprite:
-  #     handSprite:
-  #     fireSound: 4
-  #     costBuy: 48000
-  #     costSell: 24000
-  #     accuracySnap: 45
-  #     accuracyAuto: 25
-  #     blockBothHands: true
-  #     twoHanded: true
-  #     maxRange: 200
-  #     minRange: 5
-  #     snapRange: 35
-  #     autoRange: 18
-  #     kneelBonus: 145
-  #     refNode: *STR_LMG
-  #     tuSnap: 45
-  #     tuAuto: 65
-  #     invWidth: 2
-  #     invHeight: 3
-  #     ammo:
-  #         0:
-  #          compatibleAmmo: [STR_NATO_7_62_X50,STR_NATO_7_62_X100]
-  #          tuLoad: 45
-  #          tuUnload: 22
+  - type: STR_FN_MAG
+    categories: [STR_FIREARMS,STR_LMGS]
+#    requiresBuy:
+    size: 1
+    weight: 68
+    battleType: 1
+    bigSprite: 7020
+    floorSprite: 7020
+    handSprite: 7020
+    fireSound: 4
+    costBuy: 48000
+    costSell: 24000
+    accuracySnap: 45
+    accuracyAuto: 25
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 35
+    autoRange: 18
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 45
+    tuAuto: 65
+    invWidth: 2
+    invHeight: 3
+    ammo:
+        0:
+          compatibleAmmo: [STR_NATO_7_62_X50,STR_NATO_7_62_X100]
+          tuLoad: 45
+          tuUnload: 22
   # - type: STR_MK_48
   #   categories: [ STR_FIREARMS, STR_LMGS ]
   #   requiresBuy:
@@ -197,9 +197,9 @@ items:
     size: 1
     weight: 38
     # battleType: 1
-    bigSprite: 3824
-    floorSprite: 3824
-    handSprite: 3824
+    bigSprite: 7030
+    floorSprite: 7030
+    handSprite: 7030
     reloadSound: 242
     fireSound: 244
     costBuy: 49000

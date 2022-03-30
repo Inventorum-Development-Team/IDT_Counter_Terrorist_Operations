@@ -23,9 +23,9 @@ items:
     size: 1
     weight: 13
     # battleType: 1
-    bigSprite: 712
-    floorSprite: 712
-    handSprite: 712
+    bigSprite: 2000
+    floorSprite: 2000
+    handSprite: 2000
     reloadSound: 229
     fireSound: 230
     costSell: 5000
@@ -66,9 +66,9 @@ items:
     size: 1
     weight: 20
     # battleType: 1
-    bigSprite: 752
-    floorSprite: 752
-    handSprite: 752
+    bigSprite: 2030
+    floorSprite: 2030
+    handSprite: 2030
     reloadSound: 171
     fireSound: 173
     costBuy: 15000
@@ -154,9 +154,9 @@ items:
     size: 1
     weight: 21
     # battleType: 1
-    bigSprite: 856
-    floorSprite: 856
-    handSprite: 856
+    bigSprite: 2020
+    floorSprite: 2020
+    handSprite: 2020
     reloadSound: 185
     fireSound: 186
     costBuy: 18000
@@ -193,9 +193,9 @@ items:
     size: 1
     weight: 21
     # battleType: 1
-    bigSprite: 856
-    floorSprite: 856
-    handSprite: 856
+    bigSprite: 2050
+    floorSprite: 2050
+    handSprite: 2050
     reloadSound: 185
     fireSound: 186
     costBuy: 18000
@@ -231,9 +231,9 @@ items:
     size: 1
     weight: 14
     # battleType: 1
-    bigSprite: 872
-    floorSprite: 872
-    handSprite: 872
+    bigSprite: 2010
+    floorSprite: 2010
+    handSprite: 2010
     reloadSound: 214
     fireSound: 215
     costSell: 7500
@@ -360,9 +360,9 @@ items:
     size: 1
     weight: 23
     # battleType: 1
-    bigSprite: 3488
-    floorSprite: 3488
-    handSprite: 3488
+    bigSprite: 2070
+    floorSprite: 2070
+    handSprite: 2070
     reloadSound: 237
     fireSound: 238
     costBuy: 17000

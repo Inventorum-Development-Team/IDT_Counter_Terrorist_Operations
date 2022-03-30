@@ -640,9 +640,9 @@ items:
     size: 1
     weight: 20
     # battleType: 1
-    bigSprite: 1176
-    floorSprite: 1176
-    handSprite: 1176
+    bigSprite: 3050
+    floorSprite: 3050
+    handSprite: 3050
     reloadSound: 245
     fireSound: 246
     costBuy: 28000
@@ -672,42 +672,6 @@ items:
         tuUnload: 15
     listOrder: 6130
 
-  - type: STR_AK12_SCOPED
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #requiresBuy:
-    size: 1
-    weight: 22
-    # battleType: 1
-    bigSprite: 1208
-    floorSprite: 1208
-    handSprite: 1208
-    reloadSound: 245
-    fireSound: 246
-    accuracyAimed: 80
-    accuracySnap: 65
-    accuracyAuto: 35
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 30
-    snapRange: 40
-    autoRange: 11
-    kneelBonus: 126
-    refNode: *STR_AR
-    tuAimed: 70
-    tuSnap: 45
-    tuAuto: 60
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 6170
-
   - type: STR_AK15
     categories: [ STR_FIREARMS, STR_RIFLES ]
     requiresBuy:
@@ -715,9 +679,9 @@ items:
     size: 1
     weight: 22
     # battleType: 1
-    bigSprite: 1240
-    floorSprite: 1240
-    handSprite: 1240
+    bigSprite: 3070
+    floorSprite: 3070
+    handSprite: 3070
     reloadSound: 245
     fireSound: 246
     costBuy: 31000
@@ -752,47 +716,6 @@ items:
         tuUnload: 15
     listOrder: 7960
 
-  - type: STR_AK15_SCOPED
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 24
-    # battleType: 1
-    bigSprite: 1272
-    floorSprite: 1272
-    handSprite: 1272
-    reloadSound: 245
-    fireSound: 246
-    accuracyAimed: 85
-    accuracySnap: 65
-    accuracyAuto: 30
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 38
-    snapRange: 48
-    autoRange: 10
-    kneelBonus: 125
-    refNode: *STR_AR
-    tuAimed: 70
-    tuSnap: 45
-    tuAuto: 60
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo:
-          [
-            STR_SOVIET_7_62_X30,
-            STR_SOVIET_7_62_X40,
-            STR_SOVIET_7_62_X75
-          ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 8000
-
   - type: STR_FAMAS
     requiresBuy:
       - STR_UNOBTAINABLE
@@ -801,9 +724,9 @@ items:
     size: 1
     weight: 28
     # battleType: 1
-    bigSprite: 3528
-    floorSprite: 3528
-    handSprite: 3528
+    bigSprite: 3150
+    floorSprite: 3150
+    handSprite: 3150
     reloadSound: 125
     fireSound: 126
     costBuy: 28000
@@ -833,43 +756,6 @@ items:
         tuUnload: 15
     listOrder: 6550
 
-  - type: STR_FAMAS_SCOPED
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 30
-    # battleType: 1
-    bigSprite: 3552
-    floorSprite: 3552
-    handSprite: 3552
-    reloadSound: 125
-    fireSound: 126
-    accuracyAimed: 75
-    accuracySnap: 40
-    accuracyAuto: 35
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 23
-    snapRange: 33
-    autoRange: 12
-    kneelBonus: 125
-    refNode: *STR_AR
-    tuAimed: 70
-    tuSnap: 45
-    tuAuto: 40
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30, STR_APAV40_X1 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 6580
 
   - type: STR_G36
     requiresBuy:
@@ -879,9 +765,9 @@ items:
     size: 1
     weight: 27
     # battleType: 1
-    bigSprite: 3592
-    floorSprite: 3592
-    handSprite: 3592
+    bigSprite: 3170
+    floorSprite: 3170
+    handSprite: 3170
     reloadSound: 136
     fireSound: 137
     costBuy: 31000
@@ -919,9 +805,9 @@ items:
     size: 1
     weight: 37
     # battleType: 1
-    bigSprite: 3576
-    floorSprite: 3576
-    handSprite: 3576
+    bigSprite: 3190
+    floorSprite: 3190
+    handSprite: 3190
     reloadSound: 136
     fireSound: 137
     accuracyAimed: 80
@@ -965,9 +851,9 @@ items:
     size: 1
     weight: 25
     # battleType: 1
-    bigSprite: 1304
-    floorSprite: 1304
-    handSprite: 1304
+    bigSprite: 3090
+    floorSprite: 3090
+    handSprite: 3090
     reloadSound: 139
     fireSound: 140
     costBuy: 35000
@@ -995,43 +881,12 @@ items:
         compatibleAmmo: [ STR_5_56_X30 ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 6630
 
-  - type: STR_HK416_SOPMOD
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy: 
-    size: 1
-    weight: 27
-    # battleType: 1
-    bigSprite: 1320
-    floorSprite: 1320
-    handSprite: 1320
-    reloadSound: 139
-    fireSound: 138
-    accuracyAimed: 90
-    accuracySnap: 65
-    accuracyAuto: 50
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 35
-    snapRange: 40
-    autoRange: 13
-    kneelBonus: 125
-    refNode: *STR_AR
-    tuAimed: 75
-    tuSnap: 32
-    tuAuto: 62
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_5_56_X30 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 6650
 
   - type: STR_HK416_M320
     categories: [ STR_FIREARMS, STR_RIFLES ]
@@ -1039,9 +894,9 @@ items:
     size: 1
     weight: 37
     # battleType: 1
-    bigSprite: 1336
-    floorSprite: 1336
-    handSprite: 1336
+    bigSprite: 3110
+    floorSprite: 3110
+    handSprite: 3110
     reloadSound: 139
     fireSound: 140
     accuracyAimed: 70
@@ -1084,9 +939,9 @@ items:
     size: 1
     weight: 34
     # battleType: 1
-    bigSprite: 1352
-    floorSprite: 1352
-    handSprite: 1352
+    bigSprite: 3120
+    floorSprite: 3120
+    handSprite: 3120
     reloadSound: 139
     fireSound: 140
     accuracyAimed: 70
@@ -1128,9 +983,9 @@ items:
     size: 1
     weight: 31
     # battleType: 1
-    bigSprite: 3608
-    floorSprite: 3608
-    handSprite: 3608
+    bigSprite: 3130
+    floorSprite: 3130
+    handSprite: 3130
     reloadSound: 139
     fireSound: 140
     costBuy: 39000
@@ -1159,44 +1014,6 @@ items:
         tuLoad: 30
         tuUnload: 15
     listOrder: 7510
-
-  - type: STR_HK417_SCOPED
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
-    size: 1
-    weight: 33
-    # battleType: 1
-    bigSprite: 3640
-    floorSprite: 3640
-    handSprite: 3640
-    reloadSound: 139
-    fireSound: 138
-    accuracyAimed: 100
-    accuracySnap: 60
-    accuracyAuto: 30
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 42
-    snapRange: 45
-    autoRange: 12
-    kneelBonus: 125
-    refNode: *STR_AR
-    tuAimed: 80
-    tuSnap: 50
-    tuAuto: 65
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_NATO_7_62_X10, STR_NATO_7_62_X20 ]
-        tuLoad: 30
-        tuUnload: 15
-    listOrder: 7540
 
   # - type: STR_FX_05
   #   categories: [ STR_FIREARMS, STR_RIFLES ]
@@ -1520,9 +1337,9 @@ items:
     size: 1
     weight: 30
     # battleType: 1
-    bigSprite: 1512
-    floorSprite: 1512
-    handSprite: 1512
+    bigSprite: 3040
+    floorSprite: 3040
+    handSprite: 3040
     reloadSound: 121
     fireSound: 122
     costBuy: 85000
@@ -1670,9 +1487,9 @@ items:
     size: 1
     weight: 22
     # battleType: 1
-    bigSprite: 1480
-    floorSprite: 1480
-    handSprite: 1480
+    bigSprite: 3020
+    floorSprite: 3020
+    handSprite: 3020
     reloadSound: 113
     fireSound: 114
     costSell: 15000
@@ -1740,9 +1557,9 @@ items:
     size: 1
     weight: 24
     # battleType: 1
-    bigSprite: 1576
-    floorSprite: 1576
-    handSprite: 1576
+    bigSprite: 3000
+    floorSprite: 3000
+    handSprite: 3000
     reloadSound: 242
     fireSound: 244
     costSell: 10000
@@ -1776,55 +1593,55 @@ items:
         tuUnload: 35
     listOrder: 8040
 
-  - type: STR_RK_62
-    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
-    size: 1
-    weight: 16
-    # battleType: 1
-    bigSprite: 3801
-    floorSprite: 3803
-    handSprite: 3802
-    reloadSound: 242
-    fireSound: 244
-    costSell: 10000
-    accuracyAimed: 45
-    accuracySnap: 75
-    accuracyAuto: 25
-    blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 50
-    maxRange: 200
-    minRange: 0
-    aimRange: 28
-    snapRange: 38
-    autoRange: 7
-    kneelBonus: 125
-    refNode: *STR_AR
-    tuAimed: 55
-    tuSnap: 45
-    tuAuto: 60
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo:
-          [
-            STR_SOVIET_7_62_X30,
-            STR_SOVIET_7_62_X40,
-            STR_SOVIET_7_62_X75
-          ]
-        tuLoad: 30
-        tuUnload: 35
-    listOrder: 22201
+  # - type: STR_RK_62
+  #   categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+  #   size: 1
+  #   weight: 16
+  #   # battleType: 1
+  #   bigSprite: 3801
+  #   floorSprite: 3803
+  #   handSprite: 3802
+  #   reloadSound: 242
+  #   fireSound: 244
+  #   costSell: 10000
+  #   accuracyAimed: 45
+  #   accuracySnap: 75
+  #   accuracyAuto: 25
+  #   blockBothHands: false
+  #   twoHanded: true
+  #   oneHandedPenalty: 50
+  #   maxRange: 200
+  #   minRange: 0
+  #   aimRange: 28
+  #   snapRange: 38
+  #   autoRange: 7
+  #   kneelBonus: 125
+  #   refNode: *STR_AR
+  #   tuAimed: 55
+  #   tuSnap: 45
+  #   tuAuto: 60
+  #   invWidth: 1
+  #   invHeight: 3
+  #   ammo:
+  #     0:
+  #       compatibleAmmo:
+  #         [
+  #           STR_SOVIET_7_62_X30,
+  #           STR_SOVIET_7_62_X40,
+  #           STR_SOVIET_7_62_X75
+  #         ]
+  #       tuLoad: 30
+  #       tuUnload: 35
+  #   listOrder: 22201
 
   - type: STR_AK_74
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     size: 1
     weight: 23
     # battleType: 1
-    bigSprite: 1608
-    floorSprite: 1608
-    handSprite: 1608
+    bigSprite: 3010
+    floorSprite: 3010
+    handSprite: 3010
     reloadSound: 242
     fireSound: 243
     costSell: 12000
@@ -1859,9 +1676,9 @@ items:
     size: 1
     weight: 38
     # battleType: 1
-    bigSprite: 2216
-    floorSprite: 2216
-    handSprite: 2216
+    bigSprite: 3220
+    floorSprite: 3220
+    handSprite: 3220
     reloadSound: 123
     fireSound: 124
     costSell: 12000
@@ -1903,9 +1720,9 @@ items:
     size: 1
     weight: 33
     # battleType: 1
-    bigSprite: 3672
-    floorSprite: 3672
-    handSprite: 3672
+    bigSprite: 3200
+    floorSprite: 3200
+    handSprite: 3200
     reloadSound: 163
     fireSound: 164
     accuracyAimed: 75

@@ -6,9 +6,9 @@ items:
     size: 1
     weight: 40
     battleType: 1
-    bigSprite: 1672
-    floorSprite: 1672
-    handSprite: 1672
+    bigSprite: 5010
+    floorSprite: 5010
+    handSprite: 5010
     fireSound: 4
     costSell: 6000
     accuracyAimed: 80
@@ -36,9 +36,9 @@ items:
     size: 1
     weight: 31
     battleType: 1
-    bigSprite: 1680
-    floorSprite: 1680
-    handSprite: 1680
+    bigSprite: 5020
+    floorSprite: 5020
+    handSprite: 5020
     reloadSound: 242
     fireSound: 244
     costSell: 10000
@@ -69,9 +69,9 @@ items:
     size: 1
     weight: 50
     battleType: 1
-    bigSprite: 1640
-    floorSprite: 1640
-    handSprite: 1640
+    bigSprite: 5000
+    floorSprite: 5000
+    handSprite: 5000
     reloadSound: 204
     fireSound: 205
     costBuy: 42000
@@ -103,9 +103,9 @@ items:
     size: 1
     weight: 43
     battleType: 1
-    bigSprite: 2104
-    floorSprite: 2104
-    handSprite: 2104
+    bigSprite: 5070
+    floorSprite: 5070
+    handSprite: 5070
     reloadSound: 204
     fireSound: 205
     costBuy: 46000
@@ -140,9 +140,9 @@ items:
     size: 1
     weight: 16
     battleType: 1
-    bigSprite: 1696
-    floorSprite: 1696
-    handSprite: 1696
+    bigSprite: 5030
+    floorSprite: 5030
+    handSprite: 5030
     reloadSound: 197
     fireSound: 199
     costBuy: 57000
@@ -179,9 +179,9 @@ items:
     size: 1
     weight: 35
     battleType: 1
-    bigSprite: 3704
-    floorSprite: 3704
-    handSprite: 3704
+    bigSprite: 5100
+    floorSprite: 5100
+    handSprite: 5100
     reloadSound: 118
     fireSound: 119
     costBuy: 43000
@@ -251,9 +251,9 @@ items:
     size: 1
     weight: 40
     battleType: 1
-    bigSprite: 3392
-    floorSprite: 3392
-    handSprite: 3392
+    bigSprite: 5090
+    floorSprite: 5090
+    handSprite: 5090
     reloadSound: 149
     fireSound: 151
     costBuy: 52000
@@ -285,9 +285,9 @@ items:
     size: 1
     weight: 47
     battleType: 1
-    bigSprite: 2136
-    floorSprite: 2136
-    handSprite: 2136
+    bigSprite: 5080
+    floorSprite: 5080
+    handSprite: 5080
     reloadSound: 149
     fireSound: 150
     costBuy: 47500
@@ -319,9 +319,9 @@ items:
     size: 1
     weight: 47
     battleType: 1
-    bigSprite: 1736
-    floorSprite: 1736
-    handSprite: 1736
+    bigSprite: 5040
+    floorSprite: 5040
+    handSprite: 5040
     reloadSound: 149
     fireSound: 150
     costBuy: 51000
@@ -388,9 +388,9 @@ items:
     size: 1
     weight: 70
     battleType: 1
-    bigSprite: 1752
-    floorSprite: 1752
-    handSprite: 1752
+    bigSprite: 5050
+    floorSprite: 5050
+    handSprite: 5050
     reloadSound: 110
     fireSound: 111
     costBuy: 60000

@@ -1,30 +1,33 @@
 items:
-
-  - &STR_PISTOL 
+  - &STR_PISTOL
     type: STR_PISTOL
     battleType: 1
     ammo: # required by battleType
-        0:
-         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+      0:
+        compatibleAmmo:
+          [STR_TASER_X1]
+          # ammo is defined later
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
     meleeType: 7
-    meleeHitSound: [350,351,352]
+    meleeHitSound: [350, 351, 352]
     meleeAlter:
-     ToStun: 1.0
-     ArmorEffectiveness: 0.0
-     ToArmor: 0.0
-     ToWound: 0.5
-     ToMorale: 0.5
-     RandomType: 6
+      ToStun: 1.0
+      ArmorEffectiveness: 0.0
+      ToArmor: 0.0
+      ToWound: 0.5
+      ToMorale: 0.5
+      RandomType: 6
 
-  - &STR_AUTO_PISTOL 
+  - &STR_AUTO_PISTOL
     type: STR_AUTO_PISTOL
     battleType: 1
     ammo: # required by battleType
-        0:
-         compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+      0:
+        compatibleAmmo:
+          [STR_TASER_X1]
+          # ammo is defined later
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -37,28 +40,26 @@ items:
     tuMelee: 30
     meleePower: 10
     meleeType: 7
-    meleeHitSound: [350,351,352]
+    meleeHitSound: [350, 351, 352]
     meleeAlter:
-     ToStun: 1.0
-     ArmorEffectiveness: 0.0
-     ToArmor: 0.0
-     ToWound: 0.5
-     ToMorale: 0.5
-     RandomType: 6
-    
-
+      ToStun: 1.0
+      ArmorEffectiveness: 0.0
+      ToArmor: 0.0
+      ToWound: 0.5
+      ToMorale: 0.5
+      RandomType: 6
 
   - type: STR_TASER
     requiresBuy:
       - STR_TASER_ACQUISITION
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     #    requiresBuy:
     size: 1
     weight: 12
     # battleType: 1
-    bigSprite: 3280
-    floorSprite: 3280
-    handSprite: 3280
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 1000
     fireSound: 4
     costBuy: 10000
     costSell: 5000
@@ -80,20 +81,20 @@ items:
     listOrder: 8080
     ammo:
       0:
-        compatibleAmmo: [ STR_TASER_X1 ]
+        compatibleAmmo: [STR_TASER_X1]
         tuLoad: 30
         tuUnload: 15
 
   - type: STR_P226
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     requiresBuy:
       - STR_P226_ACQUISITION
     size: 1
     weight: 10
     # battleType: 1
-    bigSprite: 640
-    floorSprite: 640
-    handSprite: 640
+    bigSprite: 1060
+    floorSprite: 1060
+    handSprite: 1060
     reloadSound: 189
     fireSound: 190
     costBuy: 10000
@@ -118,20 +119,20 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20 ]
+        compatibleAmmo: [STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20]
         tuLoad: 20
         tuUnload: 10
     listOrder: 6940
 
   - type: STR_GLOCK_17
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     #    requiresBuy:
     size: 1
     weight: 11
     # battleType: 1
-    bigSprite: 3288
-    floorSprite: 3288
-    handSprite: 3288
+    bigSprite: 1040
+    floorSprite: 1040
+    handSprite: 1040
     reloadSound: 133
     fireSound: 134
     costBuy: 8000
@@ -161,21 +162,21 @@ items:
           [
             STR_9MM_PARABELLUM_X10,
             STR_9MM_PARABELLUM_X20,
-            STR_9MM_PARABELLUM_X30
+            STR_9MM_PARABELLUM_X30,
           ]
         tuLoad: 20
         tuUnload: 10
 
   - type: STR_GLOCK_18
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     requiresBuy:
       - STR_GLOCK_18_ACQUISITION
     size: 1
     weight: 11
     # battleType: 1
-    bigSprite: 2160
-    floorSprite: 2160
-    handSprite: 2160
+    bigSprite: 1080
+    floorSprite: 1080
+    handSprite: 1080
     reloadSound: 133
     fireSound: 134
     costBuy: 12000
@@ -204,7 +205,7 @@ items:
           [
             STR_9MM_PARABELLUM_X10,
             STR_9MM_PARABELLUM_X20,
-            STR_9MM_PARABELLUM_X30
+            STR_9MM_PARABELLUM_X30,
           ]
         tuLoad: 20
         tuUnload: 10
@@ -213,14 +214,14 @@ items:
   - type: STR_GLOCK_18_STOCK
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     #    requiresBuy:
     size: 1
     weight: 12
     # battleType: 1
-    bigSprite: 3320
-    floorSprite: 3320
-    handSprite: 3320
+    bigSprite: 1100
+    floorSprite: 1100
+    handSprite: 1100
     reloadSound: 133
     fireSound: 134
     accuracyAimed: 45
@@ -248,7 +249,7 @@ items:
           [
             STR_9MM_PARABELLUM_X10,
             STR_9MM_PARABELLUM_X20,
-            STR_9MM_PARABELLUM_X30
+            STR_9MM_PARABELLUM_X30,
           ]
         tuLoad: 20
         tuUnload: 10
@@ -291,7 +292,6 @@ items:
   #       tuLoad: 25
   #       tuUnload: 12
   #   listOrder: 6080
-
   # - type: STR_MK_23
   #   categories: [ STR_FIREARMS, STR_PISTOLS ]
   #   requiresBuy:
@@ -330,15 +330,14 @@ items:
   #       tuLoad: 25
   #       tuUnload: 12
   #   listOrder: 6040
-
   - type: STR_MAKAROV
-    categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_SEIZED]
     size: 1
     weight: 7
     # battleType: 1
-    bigSprite: 696
-    floorSprite: 696
-    handSprite: 696
+    bigSprite: 1010
+    floorSprite: 1010
+    handSprite: 1010
     reloadSound: 194
     fireSound: 195
     costSell: 2500
@@ -362,21 +361,21 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_MAKAROV_X10 ]
+        compatibleAmmo: [STR_9MM_MAKAROV_X10]
         tuLoad: 20
         tuUnload: 10
     listOrder: 6860
 
   - type: STR_FIVE_SEVEN
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     requiresBuy:
       - STR_FIVE_SEVEN_ACQUISITION
     size: 1
     weight: 6
     # battleType: 1
-    bigSprite: 2192
-    floorSprite: 2192
-    handSprite: 2192
+    bigSprite: 1120
+    floorSprite: 1120
+    handSprite: 1120
     reloadSound: 127
     fireSound: 128
     costBuy: 12500
@@ -401,7 +400,7 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_FN_57_X20 ]
+        compatibleAmmo: [STR_FN_57_X20]
         tuLoad: 20
         tuUnload: 10
     listOrder: 7470
@@ -409,14 +408,14 @@ items:
   - type: STR_MANHURIN
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     #    requiresBuy:
     size: 1
     weight: 7
     # battleType: 1
-    bigSprite: 3352
-    floorSprite: 3352
-    handSprite: 3352
+    bigSprite: 1020
+    floorSprite: 1020
+    handSprite: 1020
     reloadSound: 180
     fireSound: 181
     costBuy: 6000
@@ -441,7 +440,7 @@ items:
     invHeight: 1
     ammo:
       0:
-        compatibleAmmo: [ STR_38_SPECIAL_X6 ]
+        compatibleAmmo: [STR_38_SPECIAL_X6]
         tuLoad: 40
         tuUnload: 20
     listOrder: 5520
@@ -449,14 +448,14 @@ items:
   - type: STR_VEKTOR
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     #    requiresBuy:
     size: 1
     weight: 11
     # battleType: 1
-    bigSprite: 3360
-    floorSprite: 3360
-    handSprite: 3360
+    bigSprite: 1140
+    floorSprite: 1140
+    handSprite: 1140
     reloadSound: 197
     fireSound: 198
     costBuy: 12000
@@ -481,7 +480,7 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_GYURZA_X20 ]
+        compatibleAmmo: [STR_9MM_GYURZA_X20]
         tuLoad: 20
         tuUnload: 10
     listOrder: 6810
@@ -489,14 +488,14 @@ items:
   - type: STR_STETCKIN
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    categories: [STR_FIREARMS, STR_PISTOLS]
     #    requiresBuy:
     size: 1
     weight: 14
     # battleType: 1
-    bigSprite: 3376
-    floorSprite: 3376
-    handSprite: 3376
+    bigSprite: 1160
+    floorSprite: 1160
+    handSprite: 1160
     reloadSound: 197
     fireSound: 198
     costBuy: 12500
@@ -520,20 +519,18 @@ items:
     invWidth: 1
     invHeight: 2
     ammo:
-
       0:
-        compatibleAmmo: [ STR_9MM_MAKAROV_X20 ]
+        compatibleAmmo: [STR_9MM_MAKAROV_X20]
         tuLoad: 20
         tuUnload: 10
     listOrder: 6920
-
 #   - type: STR_STETCKIN_STOCK
 #     categories: [STR_FIREARMS, STR_PISTOLS]
 # #    requiresBuy:
 #     size: 1
 #     weight: 16
 #     battleType: 1
-#     bigSprite: 
+#     bigSprite:
 #     floorSprite:
 #     handSprite:
 #     reloadSound: 4
