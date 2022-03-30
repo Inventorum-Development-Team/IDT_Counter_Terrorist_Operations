@@ -77,12 +77,12 @@ extraSprites:
       3090: Resources/BallisticWeapons/Rifles/floorHK416.png
       3110: Resources/BallisticWeapons/Rifles/floorHK416M320.png
       3120: Resources/BallisticWeapons/Rifles/floorHK416MASS.png
-      3130: Resources/BallisticWeapons/Rifles/floorHK417.png
       3150: Resources/BallisticWeapons/Rifles/floorFamas.png
       3170: Resources/BallisticWeapons/Rifles/floorG36.png
       3190: Resources/BallisticWeapons/Rifles/floorG36AG36.png
       3200: Resources/BallisticWeapons/Rifles/floorG3.png
-      3220: Resources/BallisticWeapons/Rifles/floorFNFAL.png
+      3210: Resources/BallisticWeapons/Rifles/floorFNFAL.png
+      3220: Resources/BallisticWeapons/Rifles/floorHK417.png
       # 936: Resources/BallisticWeapons/Rifles/floorTAVOR.png
       # 944: Resources/BallisticWeapons/Rifles/floorTAVOR.png
       # 968: Resources/BallisticWeapons/Rifles/floorTAVORSCOPE.png

@@ -670,6 +670,10 @@ items:
         compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 6130
 
   - type: STR_AK15
@@ -714,6 +718,10 @@ items:
           ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7960
 
   - type: STR_FAMAS
@@ -754,6 +762,10 @@ items:
         compatibleAmmo: [ STR_5_56_X30, STR_APAV40_X1 ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 6550
 
 
@@ -795,6 +807,10 @@ items:
         compatibleAmmo: [ STR_5_56_X30 ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 6610
 
   - type: STR_G36_AG
@@ -983,9 +999,9 @@ items:
     size: 1
     weight: 31
     # battleType: 1
-    bigSprite: 3130
-    floorSprite: 3130
-    handSprite: 3130
+    bigSprite: 3220
+    floorSprite: 3220
+    handSprite: 3220
     reloadSound: 139
     fireSound: 140
     costBuy: 39000
@@ -1013,6 +1029,10 @@ items:
         compatibleAmmo: [ STR_NATO_7_62_X10, STR_NATO_7_62_X20 ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7510
 
   # - type: STR_FX_05
@@ -1676,9 +1696,9 @@ items:
     size: 1
     weight: 38
     # battleType: 1
-    bigSprite: 3220
-    floorSprite: 3220
-    handSprite: 3220
+    bigSprite: 3210
+    floorSprite: 3210
+    handSprite: 3210
     reloadSound: 123
     fireSound: 124
     costSell: 12000
@@ -1710,6 +1730,10 @@ items:
         compatibleAmmo: [ STR_NATO_7_62_X20 ]
         tuLoad: 30
         tuUnload: 25
+      1:
+        compatibleAmmo: [ STR_SCOPE ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7770
 
   - type: STR_G3
@@ -1748,4 +1772,8 @@ items:
         compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X20, STR_NATO_7_62_X10 ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7570

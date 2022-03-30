@@ -81,13 +81,13 @@ extraSprites:
       3110: Resources/BallisticWeapons/Rifles/handHK416M320.png
       3111: Resources/BallisticWeapons/Rifles/handHK416M320.png
       3120: Resources/BallisticWeapons/Rifles/handHK416MASS.png
-      3130: Resources/BallisticWeapons/Rifles/handHK417.png
       3150: Resources/BallisticWeapons/Rifles/handFamas.png
       3170: Resources/BallisticWeapons/Rifles/handG36.png
       3190: Resources/BallisticWeapons/Rifles/handG36AG36.png
       3191: Resources/BallisticWeapons/Rifles/handG36AG36.png
       3200: Resources/BallisticWeapons/Rifles/handG3.png
-      3220: Resources/BallisticWeapons/Rifles/handFNFAL.png
+      3210: Resources/BallisticWeapons/Rifles/handFNFAL.png
+      3220: Resources/BallisticWeapons/Rifles/handHK417.png
       # 936: Resources/BallisticWeapons/Rifles/handTAVOR.png
       # 944: Resources/BallisticWeapons/Rifles/handTAVOR.png
       # 968: Resources/BallisticWeapons/Rifles/handTAVORSCOPE.png

@@ -370,47 +370,36 @@ extraSprites:
       3051: Resources/BallisticWeapons/Rifles/BigAK1230.png
       3052: Resources/BallisticWeapons/Rifles/BigAK1245.png
       3053: Resources/BallisticWeapons/Rifles/BigAK1260.png
-      3054: Resources/BallisticWeapons/Rifles/BigAK1260.png
       3055: Resources/BallisticWeapons/Rifles/BigAK12SCOPEDnomag.png
       3056: Resources/BallisticWeapons/Rifles/BigAK12SCOPED30.png
       3057: Resources/BallisticWeapons/Rifles/BigAK12SCOPED45.png
       3058: Resources/BallisticWeapons/Rifles/BigAK12SCOPED60.png
-      3059: Resources/BallisticWeapons/Rifles/BigAK12SCOPED60.png
-      3060: Resources/BallisticWeapons/Rifles/BigAK12SCOPEDnomag.png
-      3061: Resources/BallisticWeapons/Rifles/BigAK12SCOPED30.png
-      3062: Resources/BallisticWeapons/Rifles/BigAK12SCOPED45.png
-      3063: Resources/BallisticWeapons/Rifles/BigAK12SCOPED60.png
-      3064: Resources/BallisticWeapons/Rifles/BigAK12SCOPED60.png
-      3065: Resources/BallisticWeapons/Rifles/BigAK12SCOPEDnomag.png
-      3066: Resources/BallisticWeapons/Rifles/BigAK12SCOPED30.png
-      3067: Resources/BallisticWeapons/Rifles/BigAK12SCOPED45.png
-      3068: Resources/BallisticWeapons/Rifles/BigAK12SCOPED60.png
-      3069: Resources/BallisticWeapons/Rifles/BigAK12SCOPED60.png
+      3060: Resources/BallisticWeapons/Rifles/BigAK12lasernomag.png
+      3061: Resources/BallisticWeapons/Rifles/BigAK12laser30.png
+      3062: Resources/BallisticWeapons/Rifles/BigAK12laser45.png
+      3063: Resources/BallisticWeapons/Rifles/BigAK12laser60.png
+      3065: Resources/BallisticWeapons/Rifles/BigAK12Suppressednomag.png
+      3066: Resources/BallisticWeapons/Rifles/BigAK12Suppressed30.png
+      3067: Resources/BallisticWeapons/Rifles/BigAK12Suppressed45.png
+      3068: Resources/BallisticWeapons/Rifles/BigAK12Suppressed60.png
       3070: Resources/BallisticWeapons/Rifles/BigAK15nomag.png
       3071: Resources/BallisticWeapons/Rifles/BigAK1530.png
       3072: Resources/BallisticWeapons/Rifles/BigAK15.png
       3073: Resources/BallisticWeapons/Rifles/BigAK1575.png
-      3074: Resources/BallisticWeapons/Rifles/BigAK1575.png
       3075: Resources/BallisticWeapons/Rifles/BigAK15SCOPEDnomag.png
       3076: Resources/BallisticWeapons/Rifles/BigAK15SCOPED30.png
       3077: Resources/BallisticWeapons/Rifles/BigAK15SCOPED.png
       3078: Resources/BallisticWeapons/Rifles/BigAK15SCOPED75.png
-      3079: Resources/BallisticWeapons/Rifles/BigAK15SCOPED75.png
-      3080: Resources/BallisticWeapons/Rifles/BigAK15SCOPEDnomag.png
-      3081: Resources/BallisticWeapons/Rifles/BigAK15SCOPED30.png
-      3082: Resources/BallisticWeapons/Rifles/BigAK15SCOPED.png
-      3083: Resources/BallisticWeapons/Rifles/BigAK15SCOPED75.png
-      3084: Resources/BallisticWeapons/Rifles/BigAK15SCOPED75.png
-      3085: Resources/BallisticWeapons/Rifles/BigAK15SCOPEDnomag.png
-      3086: Resources/BallisticWeapons/Rifles/BigAK15SCOPED30.png
-      3087: Resources/BallisticWeapons/Rifles/BigAK15SCOPED.png
-      3088: Resources/BallisticWeapons/Rifles/BigAK15SCOPED75.png
-      3089: Resources/BallisticWeapons/Rifles/BigAK15SCOPED75.png
+      3080: Resources/BallisticWeapons/Rifles/BigAK15lasernomag.png
+      3081: Resources/BallisticWeapons/Rifles/BigAK15laser30.png
+      3082: Resources/BallisticWeapons/Rifles/BigAK15laser.png
+      3083: Resources/BallisticWeapons/Rifles/BigAK15laser75.png
+      3085: Resources/BallisticWeapons/Rifles/BigAK15Suppressednomag.png
+      3086: Resources/BallisticWeapons/Rifles/BigAK15Suppressed30.png
+      3087: Resources/BallisticWeapons/Rifles/BigAK15Suppressed.png
+      3088: Resources/BallisticWeapons/Rifles/BigAK15Suppressed75.png
       3090: Resources/BallisticWeapons/Rifles/BigHK416nomag.png
       3091: Resources/BallisticWeapons/Rifles/BigHK416.png
-      3092: Resources/BallisticWeapons/Rifles/BigHK416.png
-      3093: Resources/BallisticWeapons/Rifles/BigHK416.png
-      3094: Resources/BallisticWeapons/Rifles/BigHK416.png
       3095: Resources/BallisticWeapons/Rifles/BigHK416Scopednomag.png
       3096: Resources/BallisticWeapons/Rifles/BigHK416Scoped.png
       3100: Resources/BallisticWeapons/Rifles/BigHK416lasernomag.png
@@ -423,108 +412,76 @@ extraSprites:
       3121: Resources/BallisticWeapons/Rifles/BigHK416MASSnomag2.png
       3122: Resources/BallisticWeapons/Rifles/BigHK416MASSnomag.png
       3123: Resources/BallisticWeapons/Rifles/BigHK416MASS.png
-      3130: Resources/BallisticWeapons/Rifles/BigHK417nomag.png
-      3131: Resources/BallisticWeapons/Rifles/BigHK417.png
-      3132: Resources/BallisticWeapons/Rifles/BigHK417.png
-      3133: Resources/BallisticWeapons/Rifles/BigHK417.png
-      3134: Resources/BallisticWeapons/Rifles/BigHK417.png
-      3135: Resources/BallisticWeapons/Rifles/BigHK417Scopednomag.png
-      3136: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3137: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3138: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3139: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3140: Resources/BallisticWeapons/Rifles/BigHK417Scopednomag.png
-      3141: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3142: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3143: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3144: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3145: Resources/BallisticWeapons/Rifles/BigHK417Scopednomag.png
-      3146: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3147: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3148: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
-      3149: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
       3150: Resources/BallisticWeapons/Rifles/BigFamasnomag.png
       3151: Resources/BallisticWeapons/Rifles/BigFamas.png
       3152: Resources/BallisticWeapons/Rifles/BigFamasGrenade.png
-      3153: Resources/BallisticWeapons/Rifles/BigFamasGrenade.png
-      3154: Resources/BallisticWeapons/Rifles/BigFamasGrenade.png
       3155: Resources/BallisticWeapons/Rifles/BigFamasScopednomag.png
       3156: Resources/BallisticWeapons/Rifles/BigFamasScoped.png
       3157: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3158: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3159: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3160: Resources/BallisticWeapons/Rifles/BigFamasScopednomag.png
-      3161: Resources/BallisticWeapons/Rifles/BigFamasScoped.png
-      3162: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3163: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3164: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3165: Resources/BallisticWeapons/Rifles/BigFamasScopednomag.png
-      3166: Resources/BallisticWeapons/Rifles/BigFamasScoped.png
-      3167: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3168: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
-      3169: Resources/BallisticWeapons/Rifles/BigFamasScopedGrenade.png
+      3160: Resources/BallisticWeapons/Rifles/BigFamaslasernomag.png
+      3161: Resources/BallisticWeapons/Rifles/BigFamaslaser.png
+      3162: Resources/BallisticWeapons/Rifles/BigFamaslaserGrenade.png
+      3165: Resources/BallisticWeapons/Rifles/BigFamasnomagsuppressed.png
+      3166: Resources/BallisticWeapons/Rifles/BigFamassuppressed.png
+      3167: Resources/BallisticWeapons/Rifles/BigFamassuppressedGrenade.png
       3170: Resources/BallisticWeapons/Rifles/BigG36nomag.png
       3171: Resources/BallisticWeapons/Rifles/BigG36.png
-      3172: Resources/BallisticWeapons/Rifles/BigG36.png
-      3173: Resources/BallisticWeapons/Rifles/BigG36.png
-      3174: Resources/BallisticWeapons/Rifles/BigG36.png
-      3175: Resources/BallisticWeapons/Rifles/BigG36nomag.png
-      3176: Resources/BallisticWeapons/Rifles/BigG36.png
-      3177: Resources/BallisticWeapons/Rifles/BigG36.png
-      3178: Resources/BallisticWeapons/Rifles/BigG36.png
-      3179: Resources/BallisticWeapons/Rifles/BigG36.png
-      3180: Resources/BallisticWeapons/Rifles/BigG36nomag.png
-      3181: Resources/BallisticWeapons/Rifles/BigG36.png
-      3182: Resources/BallisticWeapons/Rifles/BigG36.png
-      3183: Resources/BallisticWeapons/Rifles/BigG36.png
-      3184: Resources/BallisticWeapons/Rifles/BigG36.png
-      3185: Resources/BallisticWeapons/Rifles/BigG36nomag.png
-      3186: Resources/BallisticWeapons/Rifles/BigG36.png
-      3187: Resources/BallisticWeapons/Rifles/BigG36.png
-      3188: Resources/BallisticWeapons/Rifles/BigG36.png
-      3189: Resources/BallisticWeapons/Rifles/BigG36.png
+      3175: Resources/BallisticWeapons/Rifles/BigG36Scopednomag.png
+      3176: Resources/BallisticWeapons/Rifles/BigG36Scoped.png
+      3180: Resources/BallisticWeapons/Rifles/BigG36lasernomag.png
+      3181: Resources/BallisticWeapons/Rifles/BigG36laser.png
+      3185: Resources/BallisticWeapons/Rifles/BigG36suppressednomag.png
+      3186: Resources/BallisticWeapons/Rifles/BigG36suppressed.png
       3190: Resources/BallisticWeapons/Rifles/BigG36AG36nomag.png
       3191: Resources/BallisticWeapons/Rifles/BigG36AG36.png
       3200: Resources/BallisticWeapons/Rifles/BigG3nomag.png
       3201: Resources/BallisticWeapons/Rifles/BigG35.png
       3202: Resources/BallisticWeapons/Rifles/BigG310.png
       3203: Resources/BallisticWeapons/Rifles/BigG3.png
-      3204: Resources/BallisticWeapons/Rifles/BigG3.png
-      3205: Resources/BallisticWeapons/Rifles/BigG3nomag.png
-      3206: Resources/BallisticWeapons/Rifles/BigG35.png
-      3207: Resources/BallisticWeapons/Rifles/BigG310.png
-      3208: Resources/BallisticWeapons/Rifles/BigG3.png
-      3209: Resources/BallisticWeapons/Rifles/BigG3.png
-      3210: Resources/BallisticWeapons/Rifles/BigG3nomag.png
-      3211: Resources/BallisticWeapons/Rifles/BigG35.png
-      3212: Resources/BallisticWeapons/Rifles/BigG310.png
-      3213: Resources/BallisticWeapons/Rifles/BigG3.png
-      3214: Resources/BallisticWeapons/Rifles/BigG3.png
-      3215: Resources/BallisticWeapons/Rifles/BigG3nomag.png
-      3216: Resources/BallisticWeapons/Rifles/BigG35.png
-      3217: Resources/BallisticWeapons/Rifles/BigG310.png
-      3218: Resources/BallisticWeapons/Rifles/BigG3.png
-      3219: Resources/BallisticWeapons/Rifles/BigG3.png
-      3220: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3221: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3222: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3223: Resources/BallisticWeapons/Rifles/BigFNFAL.png
-      3224: Resources/BallisticWeapons/Rifles/BigFNFAL.png
-      3225: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3226: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3227: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3228: Resources/BallisticWeapons/Rifles/BigFNFAL.png
-      3229: Resources/BallisticWeapons/Rifles/BigFNFAL.png
-      3230: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3231: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3232: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3233: Resources/BallisticWeapons/Rifles/BigFNFAL.png
-      3234: Resources/BallisticWeapons/Rifles/BigFNFAL.png
-      3235: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3236: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3237: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
-      3238: Resources/BallisticWeapons/Rifles/BigFNFAL.png
-      3239: Resources/BallisticWeapons/Rifles/BigFNFAL.png
+      3205: Resources/BallisticWeapons/Rifles/BigG3Scopednomag.png
+      3206: Resources/BallisticWeapons/Rifles/BigG3Scoped5.png
+      3207: Resources/BallisticWeapons/Rifles/BigG3Scoped10.png
+      3208: Resources/BallisticWeapons/Rifles/BigG3Scoped.png
+      3210: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
+      3211: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
+      3212: Resources/BallisticWeapons/Rifles/BigFNFALnomag.png
+      3213: Resources/BallisticWeapons/Rifles/BigFNFAL.png
+      3215: Resources/BallisticWeapons/Rifles/BigFNFALScopednomag.png
+      3216: Resources/BallisticWeapons/Rifles/BigFNFALScopednomag.png
+      3217: Resources/BallisticWeapons/Rifles/BigFNFALScopednomag.png
+      3218: Resources/BallisticWeapons/Rifles/BigFNFALScoped.png
+      3220: Resources/BallisticWeapons/Rifles/BigHK417nomag.png
+      3221: Resources/BallisticWeapons/Rifles/BigHK41710.png
+      3222: Resources/BallisticWeapons/Rifles/BigHK417.png
+      3223: Resources/BallisticWeapons/Rifles/BigHK417.png
+      3224: Resources/BallisticWeapons/Rifles/BigHK417deployednomag.png
+      3225: Resources/BallisticWeapons/Rifles/BigHK417deployed10.png
+      3226: Resources/BallisticWeapons/Rifles/BigHK417deployed.png
+      3227: Resources/BallisticWeapons/Rifles/BigHK417deployed.png
+      3230: Resources/BallisticWeapons/Rifles/BigHK417Scopednomag.png
+      3231: Resources/BallisticWeapons/Rifles/BigHK417Scoped10.png
+      3232: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
+      3233: Resources/BallisticWeapons/Rifles/BigHK417Scoped.png
+      3234: Resources/BallisticWeapons/Rifles/BigHK417Scopeddeployednomag.png
+      3235: Resources/BallisticWeapons/Rifles/BigHK417Scopeddeployed10.png
+      3236: Resources/BallisticWeapons/Rifles/BigHK417Scopeddeployed.png
+      3237: Resources/BallisticWeapons/Rifles/BigHK417Scopeddeployed.png
+      3240: Resources/BallisticWeapons/Rifles/BigHK417lasernomag.png
+      3241: Resources/BallisticWeapons/Rifles/BigHK417laser10.png
+      3242: Resources/BallisticWeapons/Rifles/BigHK417laser.png
+      3243: Resources/BallisticWeapons/Rifles/BigHK417laser.png
+      3244: Resources/BallisticWeapons/Rifles/BigHK417lasernomag.png
+      3245: Resources/BallisticWeapons/Rifles/BigHK417laser10.png
+      3246: Resources/BallisticWeapons/Rifles/BigHK417laser.png
+      3247: Resources/BallisticWeapons/Rifles/BigHK417laser.png
+      3250: Resources/BallisticWeapons/Rifles/BigHK417Suppressednomag.png
+      3251: Resources/BallisticWeapons/Rifles/BigHK417Suppressed10.png
+      3252: Resources/BallisticWeapons/Rifles/BigHK417Suppressed.png
+      3253: Resources/BallisticWeapons/Rifles/BigHK417Suppressed.png
+      3254: Resources/BallisticWeapons/Rifles/BigHK417Suppressednomag.png
+      3255: Resources/BallisticWeapons/Rifles/BigHK417Suppressed10.png
+      3256: Resources/BallisticWeapons/Rifles/BigHK417Suppressed.png
+      3257: Resources/BallisticWeapons/Rifles/BigHK417Suppressed.png
       # 936: Resources/BallisticWeapons/Rifles/BigTAVORnomag.png
       # 944: Resources/BallisticWeapons/Rifles/BigTAVOR.png
       # 968: Resources/BallisticWeapons/Rifles/BigTAVORSCOPEnomag.png

@@ -349,9 +349,7 @@ items:
   - type: STR_HK417 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_HK417_SCOPED #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+     Bipod: 1
   - type: STR_FX_05 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -822,6 +820,9 @@ extended:
 
             if gt mod 0;
               mul mod 5;
+              if eq b 1;
+                mul mod 2;
+              end;
               add sprite_index mod;
             end;
 
@@ -864,7 +865,6 @@ extended:
               end;
             end;
           end;
-
           return sprite_index; 
 
        - offset: 2 # Air Strike Smoke sprite Script
