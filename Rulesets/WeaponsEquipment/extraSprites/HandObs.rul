@@ -1,0 +1,201 @@
+extraSprites:
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      ###AMMO###
+      200: Resources/BallisticWeapons/Ammo/hand.png
+      # 632: 
+
+      ###MISC###
+      500: Resources/SoldiersAndArmors/RiotArmor/handRiotShield.png
+      510: Resources/BallisticWeapons/Equipment/handHandcuffs.png
+      520: Resources/BallisticWeapons/Equipment/handFieldDressing.png
+      530: Resources/BallisticWeapons/Explosives/handFlashbangGrenade.png
+      540: Resources/BallisticWeapons/Explosives/handSmokeGrenade.png
+      550: Resources/BallisticWeapons/Explosives/handMolotov.png
+      580: Resources/BallisticWeapons/Equipment/handFlare.png
+      588: Resources/BallisticWeapons/Equipment/handFlare.png
+
+
+      1000: Resources/BallisticWeapons/Pistols/handTaser.png
+      1010: Resources/BallisticWeapons/Pistols/handMakarov.png
+      1011: Resources/BallisticWeapons/Pistols/handMakarov.png
+      1020: Resources/BallisticWeapons/Pistols/handManhurin.png
+
+      1040: Resources/BallisticWeapons/Pistols/handGlock17.png
+      1060: Resources/BallisticWeapons/Pistols/handP226.png
+      1080: Resources/BallisticWeapons/Pistols/handGlock18.png
+      1100: Resources/BallisticWeapons/Pistols/handGlock18Stock.png
+      1120: Resources/BallisticWeapons/Pistols/handFiveSeven.png
+      1140: Resources/BallisticWeapons/Pistols/handSR-1Vektor.png
+      1165: Resources/BallisticWeapons/Pistols/handStetchkin.png
+      # 664: Resources/BallisticWeapons/Pistols/handM1911Colt45.png
+      # 672: Resources/BallisticWeapons/Pistols/handM1911Colt45.png
+      # 680: Resources/BallisticWeapons/Pistols/handMK23SOCOM.png
+      # 688: Resources/BallisticWeapons/Pistols/handMK23SOCOM.png
+
+
+      2000: Resources/BallisticWeapons/SMGs/handTec9.png
+      2010: Resources/BallisticWeapons/SMGs/handSkorpion.png
+      2020: Resources/BallisticWeapons/SMGs/handMP7.png
+      2030: Resources/BallisticWeapons/SMGs/handMP5SD.png
+      2050: Resources/BallisticWeapons/SMGs/handP90.png
+      2070: Resources/BallisticWeapons/SMGs/handVityaz.png
+      # 3896: Resources/BallisticWeapons/SMGs/handUziunfolded.png
+      # 3904: Resources/BallisticWeapons/SMGs/handUziunfolded.png
+      # 3912: Resources/BallisticWeapons/SMGs/handUziunfolded20.png
+      # 3920: Resources/BallisticWeapons/SMGs/handUziunfolded.png
+      # 3928: Resources/BallisticWeapons/SMGs/handUziunfolded40.png
+      # 3936: Resources/BallisticWeapons/SMGs/handUzi.png
+      # 3944: Resources/BallisticWeapons/SMGs/handUzi.png
+      # 3952: Resources/BallisticWeapons/SMGs/handUzi20.png
+      # 3960: Resources/BallisticWeapons/SMGs/handUzi.png
+      # 3968: Resources/BallisticWeapons/SMGs/handUzi40.png
+      # 792: Resources/BallisticWeapons/SMGs/handMPX.png
+      # 800: Resources/BallisticWeapons/SMGs/handMPX10.png
+      # 808: Resources/BallisticWeapons/SMGs/handMPX20.png
+      # 816: Resources/BallisticWeapons/SMGs/handMPX.png
+      # 824: Resources/BallisticWeapons/SMGs/handMPXFolded.png
+      # 832: Resources/BallisticWeapons/SMGs/handMPXFolded10.png
+      # 840: Resources/BallisticWeapons/SMGs/handMPXFolded20.png
+      # 848: Resources/BallisticWeapons/SMGs/handMPXFolded.png
+      # 3504: Resources/BallisticWeapons/SMGs/handSR-2Versek.png
+      # 3512: Resources/BallisticWeapons/SMGs/handSR-2Versek20.png
+      # 3520: Resources/BallisticWeapons/SMGs/handSR-2Versek.png
+      # 3472: Resources/BallisticWeapons/SMGs/handUMP45.png
+      # 3480: Resources/BallisticWeapons/SMGs/handUMP45.png
+
+
+      3000: Resources/BallisticWeapons/Rifles/handAKM.png
+      3010: Resources/BallisticWeapons/Rifles/handAK74.png
+      3020: Resources/BallisticWeapons/Rifles/handAR18.png
+      3030: Resources/BallisticWeapons/Rifles/handM16A2.png
+      3040: Resources/BallisticWeapons/Rifles/handG11.png
+      3050: Resources/BallisticWeapons/Rifles/handAK12.png
+      3070: Resources/BallisticWeapons/Rifles/handAK15.png
+      3090: Resources/BallisticWeapons/Rifles/handHK416.png
+      3110: Resources/BallisticWeapons/Rifles/handHK416M320.png
+      3111: Resources/BallisticWeapons/Rifles/handHK416M320.png
+      3120: Resources/BallisticWeapons/Rifles/handHK416MASS.png
+      3130: Resources/BallisticWeapons/Rifles/handHK417.png
+      3150: Resources/BallisticWeapons/Rifles/handFamas.png
+      3170: Resources/BallisticWeapons/Rifles/handG36.png
+      3190: Resources/BallisticWeapons/Rifles/handG36AG36.png
+      3191: Resources/BallisticWeapons/Rifles/handG36AG36.png
+      3200: Resources/BallisticWeapons/Rifles/handG3.png
+      3220: Resources/BallisticWeapons/Rifles/handFNFAL.png
+      # 936: Resources/BallisticWeapons/Rifles/handTAVOR.png
+      # 944: Resources/BallisticWeapons/Rifles/handTAVOR.png
+      # 968: Resources/BallisticWeapons/Rifles/handTAVORSCOPE.png
+      # 976: Resources/BallisticWeapons/Rifles/handTAVORSCOPE.png
+      # 952: Resources/BallisticWeapons/Rifles/handTAVORM203.png
+      # 960: Resources/BallisticWeapons/Rifles/handTAVORM203.png
+      # 984: Resources/BallisticWeapons/Rifles/handTAVOR95X.png
+      # 992: Resources/BallisticWeapons/Rifles/handTAVOR95X.png
+      # 1000: Resources/BallisticWeapons/Rifles/handTAVOR95XSCOPED.png
+      # 1008: Resources/BallisticWeapons/Rifles/handTAVOR95XSCOPED.png
+      # 1016: Resources/BallisticWeapons/Rifles/handM4.png
+      # 1024: Resources/BallisticWeapons/Rifles/handM4.png
+      # 1032: Resources/BallisticWeapons/Rifles/handM4SOPMOD.png
+      # 1040: Resources/BallisticWeapons/Rifles/handM4SOPMOD.png
+      # 1048: Resources/BallisticWeapons/Rifles/handM4M320.png
+      # 1056: Resources/BallisticWeapons/Rifles/handM4M320.png
+      # 1064: Resources/BallisticWeapons/Rifles/handM4MASS3.png
+      # 1072: Resources/BallisticWeapons/Rifles/handM4MASS2.png
+      # 1080: Resources/BallisticWeapons/Rifles/handM4MASS.png
+      # 1088: Resources/BallisticWeapons/Rifles/handM4MASS.png
+      # 1096: Resources/BallisticWeapons/Rifles/handM4A1.png
+      # 1104: Resources/BallisticWeapons/Rifles/handM4A1.png
+      # 1112: Resources/BallisticWeapons/Rifles/handM4A1SOPMOD.png
+      # 1120: Resources/BallisticWeapons/Rifles/handM4A1SOPMOD.png
+      # 1128: Resources/BallisticWeapons/Rifles/handM4A1M320.png
+      # 1136: Resources/BallisticWeapons/Rifles/handM4A1M320.png
+      # 1144: Resources/BallisticWeapons/Rifles/handM4A1MASS3.png
+      # 1152: Resources/BallisticWeapons/Rifles/handM4A1MASS2.png
+      # 1160: Resources/BallisticWeapons/Rifles/handM4A1MASS.png
+      # 1168: Resources/BallisticWeapons/Rifles/handM4A1MASS.png
+      # 1384: Resources/BallisticWeapons/Rifles/handFX05.png
+      # 1392: Resources/BallisticWeapons/Rifles/handFX05_30.png
+      # 1400: Resources/BallisticWeapons/Rifles/handFX05Scoped.png
+      # 1408: Resources/BallisticWeapons/Rifles/handFX05Scoped_30.png
+      # 1416: Resources/BallisticWeapons/Rifles/handSCAR-L.png
+      # 1424: Resources/BallisticWeapons/Rifles/handSCAR-L.png
+      # 1432: Resources/BallisticWeapons/Rifles/handSCAR-LSOPMOD.png
+      # 1440: Resources/BallisticWeapons/Rifles/handSCAR-LSOPMOD.png
+      # 1448: Resources/BallisticWeapons/Rifles/handSCAR-LGL.png
+      # 1456: Resources/BallisticWeapons/Rifles/handSCAR-LGL.png
+      # 2008: Resources/BallisticWeapons/Rifles/handSCAR-H.png
+      # 2016: Resources/BallisticWeapons/Rifles/handSCAR-H.png
+      # 2024: Resources/BallisticWeapons/Rifles/handSCAR-H.png
+      # 2032: Resources/BallisticWeapons/Rifles/handSCAR-H.png
+      # 2040: Resources/BallisticWeapons/Rifles/handSCAR-HSOPMOD.png
+      # 2048: Resources/BallisticWeapons/Rifles/handSCAR-HSOPMOD.png
+      # 2056: Resources/BallisticWeapons/Rifles/handSCAR-HSOPMOD.png
+      # 2064: Resources/BallisticWeapons/Rifles/handSCAR-HSOPMOD.png
+      # 2072: Resources/BallisticWeapons/Rifles/handSCAR-HGL.png
+      # 2080: Resources/BallisticWeapons/Rifles/handSCAR-HGL.png
+      # 2088: Resources/BallisticWeapons/Rifles/handSCAR-HGL.png
+      # 2096: Resources/BallisticWeapons/Rifles/handSCAR-HGL.png
+      # 1528: Resources/BallisticWeapons/Rifles/handSR3VikhrDeployed.png
+      # 1536: Resources/BallisticWeapons/Rifles/handSR3VikhrDeployed10.png
+      # 1544: Resources/BallisticWeapons/Rifles/handSR3VikhrDeployed20.png
+      # 1552: Resources/BallisticWeapons/Rifles/handSR3VikhrCollapsed.png
+      # 1560: Resources/BallisticWeapons/Rifles/handSR3VikhrCollapsed10.png
+      # 1568: Resources/BallisticWeapons/Rifles/handSR3VikhrCollapsed20.png
+
+      5000: Resources/BallisticWeapons/Snipers/handPSG1.png
+      5010: Resources/BallisticWeapons/Snipers/handHuntingRifle.png
+      5020: Resources/BallisticWeapons/Snipers/handSKS.png
+      5030: Resources/BallisticWeapons/Snipers/handVSSVintorez.png
+      5040: Resources/BallisticWeapons/Snipers/handAIAW.png
+      5041: Resources/BallisticWeapons/Snipers/handAIAW.png
+      5050: Resources/BallisticWeapons/Snipers/handM82.png
+      5070: Resources/BallisticWeapons/Snipers/handMSG90.png
+      5080: Resources/BallisticWeapons/Snipers/handAWP.png
+      5090: Resources/BallisticWeapons/Snipers/handTRG.png
+      5100: Resources/BallisticWeapons/Snipers/handDragunov.png
+      # 3720: Resources/BallisticWeapons/Snipers/handOSV-96.png
+      # 3728: Resources/BallisticWeapons/Snipers/handOSV-96.png
+      # 3736: Resources/BallisticWeapons/Snipers/handM24SWS.png
+
+
+      6000: Resources/BallisticWeapons/Shotguns/handSuperShorty.png
+      6010: Resources/BallisticWeapons/Shotguns/handRemington.png
+      6020: Resources/BallisticWeapons/Shotguns/handKS23Shotgun.png
+      6030: Resources/BallisticWeapons/Shotguns/handOrigin12.png
+      6040: Resources/BallisticWeapons/Shotguns/handModel1900.png      
+      6050: Resources/BallisticWeapons/Shotguns/handSPAS12.png
+      6060: Resources/BallisticWeapons/Shotguns/handSaiga12.png
+      # 1840: Resources/BallisticWeapons/Shotguns/handAtchissonAA12.png
+      # 1848: Resources/BallisticWeapons/Shotguns/handAtchissonAA12_8.png
+      # 1856: Resources/BallisticWeapons/Shotguns/handAtchissonAA12_20.png
+      # 1864: Resources/BallisticWeapons/Shotguns/handAtchissonAA12_30.png
+      # 1872: Resources/BallisticWeapons/Shotguns/handUSAS12.png
+      # 1880: Resources/BallisticWeapons/Shotguns/handUSAS128.png
+      # 1888: Resources/BallisticWeapons/Shotguns/handUSAS1220.png
+     
+      7000: Resources/BallisticWeapons/LMGs/handM60.png
+      7010: Resources/BallisticWeapons/LMGs/handFNMinimi.png
+      7020: Resources/BallisticWeapons/LMGs/handFNMAG.png
+      7030: Resources/BallisticWeapons/LMGs/handRPK-74M.png
+      # 3848: Resources/BallisticWeapons/LMGs/handNegev.png
+      # 3856: Resources/BallisticWeapons/LMGs/handNegev.png
+      # 3864: Resources/BallisticWeapons/LMGs/handNegev.png
+      # 7000: Resources/BallisticWeapons/LMGs/handM249SAW.png
+      # 7001: Resources/BallisticWeapons/LMGs/handM249SAW30.png
+      # 7002: Resources/BallisticWeapons/LMGs/handM249SAWDrum.png
+      # 7010: Resources/BallisticWeapons/LMGs/handMk48LMG.png
+      # 7011: Resources/BallisticWeapons/LMGs/handMk48LMGDrum.png
+      # 7020: Resources/BallisticWeapons/LMGs/hand6P41PechenegBullpup.png
+      # 1944: Resources/BallisticWeapons/LMGs/hand6P41PechenegBullpupDrum.png 
+
+      8000: Resources/BallisticWeapons/Artillery/handM320.png
+      8010: Resources/BallisticWeapons/Artillery/handRPG.png
+      # 3872: Resources/BallisticWeapons/Artillery/handGM-94.png
+      # 3880: Resources/BallisticWeapons/Artillery/handRPG-29.png
+      # 1960: Resources/BallisticWeapons/Artillery/handMGL.png
+      # 1968: Resources/BallisticWeapons/Artillery/handCarlGustafM4.png

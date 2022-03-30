@@ -1,0 +1,34 @@
+extraSprites:
+
+  # - type: SMOKE.PCK
+  #   height: 80
+  #   width: 160
+  #   subX: 32
+  #   subY: 40
+  #   files:
+  #     70: Resources/BallisticWeapons/Smoke/GrenadeLauncherHitAnimation.gif
+  #     80: Resources/BallisticWeapons/Smoke/StunHitAnimation.gif
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      350: Resources/BallisticWeapons/BulletSprites/TaserBullet.png #10
+      385: Resources/BallisticWeapons/BulletSprites/9mmPistolBullet.png #11
+      420: Resources/BallisticWeapons/BulletSprites/57mmPistolBullet.png #12
+      455: Resources/BallisticWeapons/BulletSprites/RussianIntermediateRifleBullet.png #13
+      490: Resources/BallisticWeapons/BulletSprites/NATOIntermediateRifleBullet.png #14
+      525: Resources/BallisticWeapons/BulletSprites/NATOFullRifleBullet.png #15
+      560: Resources/BallisticWeapons/BulletSprites/SubsonicBullet.png #16
+      595: Resources/BallisticWeapons/BulletSprites/LapuaMagnumBullet.png #17
+      630: Resources/BallisticWeapons/BulletSprites/HighCaliberBullet.png #18
+      665: Resources/BallisticWeapons/BulletSprites/40mmGrenadeBullet.png #19
+      700: Resources/BallisticWeapons/BulletSprites/CarlGustavRound.png #20
+      735: Resources/BallisticWeapons/BulletSprites/RussianRocket.png #21
+  # - type: MEDIKIT_BACKGROUND
+  #   singleImage: true
+  #   width: 320
+  #   height: 200
+  #   files:
+  #     0: Resources/BallisticWeapons/Medical&Food/MEDIKIT_BACKGROUND.png

@@ -1,8 +1,7 @@
 items:
-
   # - &
-  #   type: 
-  #   power: 
+  #   type:
+  #   power:
   #   hitAnimation: 26
   #   hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
   #   bulletSprite: 2
@@ -11,12 +10,33 @@ items:
   #   damageAlter:
   #     RandomType: 6
   #     IgnoreOverKill: true
-  #     ToArmorPre: 
+  #     ToArmorPre:
   - &STR_TASER_AMMO
     type: STR_TASER_AMMO
     power: 40
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     bulletSprite: 10
     battleType: 2
     damageType: 6
@@ -30,7 +50,28 @@ items:
     type: STR_38_SPECIAL
     power: 26
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     bulletSprite: 1
     battleType: 2
     damageType: 1
@@ -41,8 +82,29 @@ items:
     type: STR_MAKAROV_AMMO
     power: 29
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 11 
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
+    bulletSprite: 11
     battleType: 2
     damageType: 1
     damageAlter:
@@ -52,8 +114,29 @@ items:
     type: STR_9MM_PISTOL_AMMO
     power: 31
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 11 
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
+    bulletSprite: 11
     battleType: 2
     damageType: 1
     damageAlter:
@@ -63,8 +146,29 @@ items:
     type: STR_9MM_GYURZA_AMMO
     power: 34
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 11 
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
+    bulletSprite: 11
     battleType: 2
     damageType: 1
     damageAlter:
@@ -75,8 +179,29 @@ items:
     type: STR_FN57_AMMO
     power: 33
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 12 
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
+    bulletSprite: 12
     battleType: 2
     damageType: 1
     damageAlter:
@@ -87,8 +212,29 @@ items:
     type: STR_HK_4_6_30mm
     power: 32
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 12 
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
+    bulletSprite: 12
     battleType: 2
     damageType: 1
     damageAlter:
@@ -99,8 +245,29 @@ items:
     type: STR_45_PISTOL_AMMO
     power: 35
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 2 
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
+    bulletSprite: 2
     battleType: 2
     damageType: 1
     damageAlter:
@@ -112,10 +279,31 @@ items:
     type: STR_CASELESS_4_73_AMMO
     power: 35
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 12 
+    bulletSprite: 12
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -124,10 +312,31 @@ items:
     type: STR_5_45_AMMO
     power: 36
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 13 
+    bulletSprite: 13
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -136,10 +345,31 @@ items:
     type: STR_5_56MM_NATO_RIFLE_AMMO
     power: 37
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 14 
+    bulletSprite: 14
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -148,7 +378,28 @@ items:
     type: STR_22_LONG_RIFLE_AMMO
     power: 33
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
     bulletSprite: 2
@@ -160,10 +411,31 @@ items:
     type: STR_7_62MM_SOVIET_RIFLE_AMMO
     power: 43
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 13 
+    bulletSprite: 13
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -172,10 +444,31 @@ items:
     type: STR_7_62MM_NATO_RIFLE_AMMO
     power: 45
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 15 
+    bulletSprite: 15
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -184,10 +477,31 @@ items:
     type: STR_SOVIET_7_62_MMR_AMMO
     power: 49
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 13 
+    bulletSprite: 13
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -196,10 +510,31 @@ items:
     type: STR_9_39_AMMO
     power: 51
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 16 
+    bulletSprite: 16
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -208,10 +543,31 @@ items:
     type: STR_338_LAPUA_AMMO
     power: 61
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 17 
+    bulletSprite: 17
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -220,10 +576,31 @@ items:
     type: STR_50_BMG_AMMO
     power: 70
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     battleType: 2
     damageType: 1
-    bulletSprite: 18 
+    bulletSprite: 18
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -232,8 +609,29 @@ items:
     type: STR_127_AMMO
     power: 75
     hitAnimation: 26
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 18 
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
+    bulletSprite: 18
     battleType: 2
     damageType: 1
     damageAlter:
@@ -246,7 +644,28 @@ items:
     power: 25
     shotgunPellets: 10
     shotgunSpread: 100
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
@@ -257,7 +676,28 @@ items:
   - &STR_12G_SLUG
     type: STR_12G_SLUG
     power: 45
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
@@ -272,7 +712,28 @@ items:
     power: 10
     shotgunPellets: 10
     shotgunSpread: 100
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
@@ -290,7 +751,28 @@ items:
     power: 25
     shotgunPellets: 20
     shotgunSpread: 100
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
@@ -301,7 +783,28 @@ items:
   - &STR_BARRICADE
     type: STR_BARRICADE
     power: 55
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
@@ -316,7 +819,28 @@ items:
     power: 10
     shotgunPellets: 20
     shotgunSpread: 100
-    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitSound:
+      [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+      ]
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
@@ -463,11 +987,11 @@ items:
   - type: STR_TASER_X1
     requiresBuy:
       - STR_TASER_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_TASER_AMMO
-    bigSprite: 3200
-    handSprite: 3200
-    floorSprite: 3200
+    bigSprite: 254
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -478,11 +1002,11 @@ items:
   - type: STR_38_SPECIAL_X6
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_38_SPECIAL_AMMO
-    bigSprite: 3208
-    handSprite: 3208
-    floorSprite: 3208
+    bigSprite: 255
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 100
@@ -491,7 +1015,7 @@ items:
     clipSize: 6
     listOrder: 5530
   - type: STR_9MM_MAKAROV_X10
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_MAKAROV_AMMO
     bigSprite: 200
     handSprite: 200
@@ -503,11 +1027,11 @@ items:
     clipSize: 10
     listOrder: 6890
   - type: STR_9MM_MAKAROV_X20
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_MAKAROV_AMMO
-    bigSprite: 208
-    handSprite: 208
-    floorSprite: 208
+    bigSprite: 201
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costSell: 100
@@ -515,11 +1039,11 @@ items:
     clipSize: 20
     listOrder: 6930
   - type: STR_9MM_MAKAROV_X30
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_MAKAROV_AMMO
-    bigSprite: 216
-    handSprite: 216
-    floorSprite: 216
+    bigSprite: 202
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costSell: 200
@@ -527,11 +1051,11 @@ items:
     clipSize: 30
     listOrder: 6910
   - type: STR_9MM_PARABELLUM_X10
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
-    bigSprite: 224
-    handSprite: 224
-    floorSprite: 224
+    bigSprite: 203
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 150
@@ -540,11 +1064,11 @@ items:
     clipSize: 10
     listOrder: 7200
   - type: STR_9MM_PARABELLUM_X20
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
-    bigSprite: 232
-    handSprite: 232
-    floorSprite: 232
+    bigSprite: 204
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -553,11 +1077,11 @@ items:
     clipSize: 20
     listOrder: 7240
   - type: STR_9MM_PARABELLUM_X30
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
-    bigSprite: 240
-    handSprite: 240
-    floorSprite: 240
+    bigSprite: 205
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 450
@@ -566,11 +1090,11 @@ items:
     clipSize: 30
     listOrder: 7280
   - type: STR_9MM_PARABELLUM_X40
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_9MM_PISTOL_AMMO
-    bigSprite: 248
-    handSprite: 248
-    floorSprite: 248
+    bigSprite: 206
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 700
@@ -581,11 +1105,11 @@ items:
   - type: STR_9MM_GYURZA_X20
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_9MM_GYURZA_AMMO
-    bigSprite: 3216
-    handSprite: 3216
-    floorSprite: 3216
+    bigSprite: 256
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 350
@@ -596,11 +1120,11 @@ items:
   - type: STR_9MM_GYURZA_X30
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_9MM_GYURZA_AMMO
-    bigSprite: 3224
-    handSprite: 3224
-    floorSprite: 3224
+    bigSprite: 257
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 450
@@ -609,13 +1133,13 @@ items:
     clipSize: 30
     listOrder: 6850
   - type: STR_FN_57_X20
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_FIVE_SEVEN_ACQUISITION
     refNode: *STR_FN57_AMMO
-    bigSprite: 600
-    handSprite: 600
-    floorSprite: 600
+    bigSprite: 250
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 400
@@ -623,13 +1147,29 @@ items:
     weight: 1
     clipSize: 20
     listOrder: 21810
+  - type: STR_FN_57_X50
+    requiresBuy:
+      - STR_P90_ACQUISITION
+    categories: [STR_CLIPS]
+    refNode: *STR_FN57_AMMO
+    bigSprite: 207
+    handSprite: 200
+    floorSprite: 200
+    size: 0.1
+    armor: 30
+    costBuy: 800
+    costSell: 400
+    invWidth: 2
+    weight: 4
+    clipSize: 50
+    listOrder: 7500
   - type: STR_HK_4_6_30mmX20
     #requiresBuy:
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 265
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 800
@@ -640,11 +1180,11 @@ items:
     listOrder: 21831
   - type: STR_HK_4_6_30mmX30
     #requiresBuy:
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 266
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1000
@@ -655,11 +1195,11 @@ items:
     listOrder: 21832
   - type: STR_HK_4_6_30mmX40
     #requiresBuy:
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 267
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1200
@@ -668,30 +1208,14 @@ items:
     weight: 3
     clipSize: 40
     listOrder: 21833
-  - type: STR_FN_57_X50
-    requiresBuy:
-      - STR_P90_ACQUISITION
-    categories: [ STR_CLIPS ]
-    refNode: *STR_FN57_AMMO
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
-    size: 0.1
-    armor: 30
-    costBuy: 800
-    costSell: 400
-    invWidth: 2
-    weight: 4
-    clipSize: 50
-    listOrder: 7500
   - type: STR_45_ACP_X7
     requiresBuy:
       - STR_M1911_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
-    bigSprite: 264
-    handSprite: 264
-    floorSprite: 264
+    bigSprite: 208
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 100
@@ -702,11 +1226,11 @@ items:
   - type: STR_45_ACP_X12
     requiresBuy:
       - STR_MK_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
-    bigSprite: 272
-    handSprite: 272
-    floorSprite: 272
+    bigSprite: 209
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 150
@@ -717,11 +1241,11 @@ items:
   - type: STR_45_ACP_X25
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
-    bigSprite: 3232
-    handSprite: 3232
-    floorSprite: 3232
+    bigSprite: 258
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -730,13 +1254,13 @@ items:
     clipSize: 25
     listOrder: 6070
   - type: STR_CASELESS_4_73_X50
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_G11_ACQUISITION
     refNode: *STR_CASELESS_4_73_AMMO
-    bigSprite: 280
-    handSprite: 280
-    floorSprite: 280
+    bigSprite: 210
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1200
@@ -748,11 +1272,11 @@ items:
   - type: STR_5_45_X30
     requiresBuy:
       - STR_AK12_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
-    bigSprite: 288
-    handSprite: 288
-    floorSprite: 288
+    bigSprite: 211
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 500
@@ -763,11 +1287,11 @@ items:
   - type: STR_5_45_X45
     requiresBuy:
       - STR_AK12_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
-    bigSprite: 296
-    handSprite: 296
-    floorSprite: 296
+    bigSprite: 212
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 800
@@ -778,11 +1302,11 @@ items:
   - type: STR_5_45_X60
     requiresBuy:
       - STR_AK12_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
-    bigSprite: 304
-    handSprite: 304
-    floorSprite: 304
+    bigSprite: 213
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1100
@@ -793,11 +1317,11 @@ items:
   - type: STR_5_56_X30
     requiresBuy:
       - STR_5_56_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
-    bigSprite: 312
-    handSprite: 312
-    floorSprite: 312
+    bigSprite: 214
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 400
@@ -808,11 +1332,11 @@ items:
   - type: STR_5_56_X50
     requiresBuy:
       - STR_M249_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
-    bigSprite: 320
-    handSprite: 320
-    floorSprite: 320
+    bigSprite: 215
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 700
@@ -824,11 +1348,11 @@ items:
   - type: STR_5_56_X100
     requiresBuy:
       - STR_M249_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
-    bigSprite: 328
-    handSprite: 328
-    floorSprite: 328
+    bigSprite: 216
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1400
@@ -839,11 +1363,11 @@ items:
     clipSize: 100
     listOrder: 6370
   - type: STR_22_LONG_RIFLE_X6
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
-    bigSprite: 624
-    handSprite: 624
-    floorSprite: 624
+    bigSprite: 253
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costSell: 150
@@ -853,11 +1377,11 @@ items:
     clipSize: 6
     listOrder: 5470
   - type: STR_SOVIET_7_62_X10
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
-    bigSprite: 608
-    handSprite: 608
-    floorSprite: 608
+    bigSprite: 251
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costSell: 150
@@ -867,11 +1391,11 @@ items:
   - type: STR_SOVIET_7_62_X30
     requiresBuy:
       - STR_AK15_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
-    bigSprite: 336
-    handSprite: 336
-    floorSprite: 336
+    bigSprite: 217
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 500
@@ -882,11 +1406,11 @@ items:
   - type: STR_SOVIET_7_62_X40
     requiresBuy:
       - STR_AK15_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
-    bigSprite: 344
-    handSprite: 344
-    floorSprite: 344
+    bigSprite: 218
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 600
@@ -897,11 +1421,11 @@ items:
   - type: STR_SOVIET_7_62_X75
     requiresBuy:
       - STR_AK15_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
-    bigSprite: 352
-    handSprite: 352
-    floorSprite: 352
+    bigSprite: 219
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1000
@@ -910,13 +1434,13 @@ items:
     clipSize: 75
     listOrder: 8070
   - type: STR_NATO_7_62_X5
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
-    bigSprite: 360
-    handSprite: 360
-    floorSprite: 360
+    bigSprite: 220
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 100
@@ -925,13 +1449,13 @@ items:
     clipSize: 5
     listOrder: 7830
   - type: STR_NATO_7_62_X10
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
-    bigSprite: 368
-    handSprite: 368
-    floorSprite: 368
+    bigSprite: 221
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 200
@@ -940,13 +1464,13 @@ items:
     clipSize: 10
     listOrder: 7660
   - type: STR_NATO_7_62_X20
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
-    bigSprite: 376
-    handSprite: 376
-    floorSprite: 376
+    bigSprite: 222
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 400
@@ -970,11 +1494,11 @@ items:
   - type: STR_NATO_7_62_X50
     requiresBuy:
       - STR_MK_48_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
-    bigSprite: 392
-    handSprite: 392
-    floorSprite: 392
+    bigSprite: 224
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1000
@@ -986,11 +1510,11 @@ items:
   - type: STR_NATO_7_62_X100
     requiresBuy:
       - STR_MK_48_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
-    bigSprite: 400
-    handSprite: 400
-    floorSprite: 400
+    bigSprite: 225
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 2000
@@ -1003,11 +1527,11 @@ items:
   - type: STR_SOVIET_7_62_MMR_X10
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
-    bigSprite: 3888
-    handSprite: 3888
-    floorSprite: 3888
+    bigSprite: 264
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -1018,11 +1542,11 @@ items:
   - type: STR_SOVIET_7_62_MMR_X50
     requiresBuy:
       - STR_PECHENEG_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
-    bigSprite: 408
-    handSprite: 408
-    floorSprite: 408
+    bigSprite: 226
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1100
@@ -1032,13 +1556,13 @@ items:
     clipSize: 50
     listOrder: 7930
   - type: STR_SOVIET_7_62_MMR_X100
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_PECHENEG_ACQUISITION
     refNode: *STR_SOVIET_7_62_MMR_AMMO
-    bigSprite: 416
-    handSprite: 416
-    floorSprite: 416
+    bigSprite: 227
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 2200
@@ -1049,13 +1573,13 @@ items:
     clipSize: 100
     listOrder: 7920
   - type: STR_9_39_X10
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_9_39_AMMO
     refNode: *STR_9_39_AMMO
-    bigSprite: 424
-    handSprite: 424
-    floorSprite: 424
+    bigSprite: 228
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 500
@@ -1064,13 +1588,13 @@ items:
     clipSize: 10
     listOrder: 7360
   - type: STR_9_39_X20
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_9_39_AMMO
     refNode: *STR_9_39_AMMO
-    bigSprite: 432
-    handSprite: 432
-    floorSprite: 432
+    bigSprite: 229
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1000
@@ -1079,13 +1603,13 @@ items:
     clipSize: 20
     listOrder: 7370
   - type: STR_338_LAPUA_X5
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_LAPUA_AMMO
     refNode: *STR_338_LAPUA_AMMO
-    bigSprite: 440
-    handSprite: 440
-    floorSprite: 440
+    bigSprite: 230
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 400
@@ -1096,11 +1620,11 @@ items:
   - type: STR_50_BMG_X5
     requiresBuy:
       - STR_M82_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
-    bigSprite: 448
-    handSprite: 448
-    floorSprite: 448
+    bigSprite: 231
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 450
@@ -1111,11 +1635,11 @@ items:
   - type: STR_50_BMG_X10
     requiresBuy:
       - STR_M82_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
-    bigSprite: 456
-    handSprite: 456
-    floorSprite: 456
+    bigSprite: 232
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 900
@@ -1128,11 +1652,11 @@ items:
   - type: STR_127_X5
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_127_AMMO
-    bigSprite: 3248
-    handSprite: 3248
-    floorSprite: 3248
+    bigSprite: 259
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 500
@@ -1141,11 +1665,11 @@ items:
     clipSize: 5
     listOrder: 5010
   - type: STR_12G_BUCKSHOT_X2
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
-    bigSprite: 616
-    handSprite: 616
-    floorSprite: 616
+    bigSprite: 252
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costSell: 50
@@ -1155,11 +1679,11 @@ items:
   - type: STR_12G_BUCKSHOT_X5
     requiresBuy:
       - STR_12G_X5_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
-    bigSprite: 464
-    handSprite: 464
-    floorSprite: 464
+    bigSprite: 233
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -1170,11 +1694,11 @@ items:
   - type: STR_12G_BUCKSHOT_X8
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
-    bigSprite: 472
-    handSprite: 472
-    floorSprite: 472
+    bigSprite: 234
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -1185,11 +1709,11 @@ items:
   - type: STR_12G_BUCKSHOT_X20
     requiresBuy:
       - STR_12G_DRUM_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
-    bigSprite: 480
-    handSprite: 480
-    floorSprite: 480
+    bigSprite: 235
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 650
@@ -1198,13 +1722,13 @@ items:
     clipSize: 20
     listOrder: 5220
   - type: STR_12G_BUCKSHOT_X30
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_12G_DRUM_AMMO
     refNode: *STR_12G_BUCKSHOT
-    bigSprite: 488
-    handSprite: 488
-    floorSprite: 488
+    bigSprite: 236
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 1000
@@ -1216,11 +1740,11 @@ items:
   - type: STR_12G_SLUG_X8
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_12G_SLUG
-    bigSprite: 496
-    handSprite: 496
-    floorSprite: 496
+    bigSprite: 237
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 500
@@ -1231,11 +1755,11 @@ items:
   - type: STR_12G_NON_LETHAL_X8
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_12G_NON_LETHAL
-    bigSprite: 504
-    handSprite: 504
-    floorSprite: 504
+    bigSprite: 238
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -1246,11 +1770,11 @@ items:
   - type: STR_SHRAPNEL_25_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_SHRAPNEL_25
-    bigSprite: 512
-    handSprite: 512
-    floorSprite: 512
+    bigSprite: 239
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 400
@@ -1261,11 +1785,11 @@ items:
   - type: STR_BARRICADE_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_BARRICADE
-    bigSprite: 520
-    handSprite: 520
-    floorSprite: 520
+    bigSprite: 240
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 500
@@ -1276,11 +1800,11 @@ items:
   - type: STR_VOLNA_R_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_VOLNA_R
-    bigSprite: 528
-    handSprite: 528
-    floorSprite: 528
+    bigSprite: 241
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 400
@@ -1304,13 +1828,13 @@ items:
   #   clipSize: 3
   #   listOrder: 2210
   - type: STR_40MM_FRAG_X1
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_40MM_AMMO
     refNode: *STR_40MM_FRAG
-    bigSprite: 544
-    handSprite: 544
-    floorSprite: 544
+    bigSprite: 243
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 300
@@ -1321,11 +1845,11 @@ items:
   - type: STR_40MM_FRAG_X3
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_40MM_FRAG
-    bigSprite: 3240
-    handSprite: 3240
-    floorSprite: 3240
+    bigSprite: 260
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 900
@@ -1336,14 +1860,14 @@ items:
     invWidth: 2
     invHeight: 1
   - type: STR_40MM_FRAG_X6
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_40MM_AMMO
       - STR_MGL_ACQUISITION
     refNode: *STR_40MM_FRAG
-    bigSprite: 552
-    handSprite: 552
-    floorSprite: 552
+    bigSprite: 244
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 2000
@@ -1354,13 +1878,13 @@ items:
     clipSize: 6
     listOrder: 5960
   - type: STR_40MM_SMOKE_X1
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_40MM_AMMO
     refNode: *STR_40MM_SMOKE
-    bigSprite: 560
-    handSprite: 560
-    floorSprite: 560
+    bigSprite: 245
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 250
@@ -1369,13 +1893,13 @@ items:
     clipSize: 1
     listOrder: 6030
   - type: STR_40MM_NON_LETHAL_X1
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     requiresBuy:
       - STR_40MM_AMMO
     refNode: *STR_40MM_NON_LETHAL
-    bigSprite: 568
-    handSprite: 568
-    floorSprite: 568
+    bigSprite: 246
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 250
@@ -1386,11 +1910,11 @@ items:
   - type: STR_APAV40_X1
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_APAV40
-    bigSprite: 3256
-    handSprite: 3256
-    floorSprite: 3256
+    bigSprite: 261
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 400
@@ -1401,11 +1925,11 @@ items:
   - type: STR_CG_HEAT_X1
     requiresBuy:
       - STR_AT_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_CG_HEAT
-    bigSprite: 576
-    handSprite: 576
-    floorSprite: 576
+    bigSprite: 247
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 5000
@@ -1417,11 +1941,11 @@ items:
   - type: STR_CG_HE_X1
     requiresBuy:
       - STR_AT_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_CG_HE
-    bigSprite: 584
-    handSprite: 584
-    floorSprite: 584
+    bigSprite: 248
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 5000
@@ -1431,11 +1955,11 @@ items:
     clipSize: 1
     listOrder: 7460
   - type: STR_RPG_HEAT_X1
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_RPG_HEAT
-    bigSprite: 592
-    handSprite: 592
-    floorSprite: 592
+    bigSprite: 249
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costSell: 2000
@@ -1446,11 +1970,11 @@ items:
   - type: STR_RPG_29_HEAT_X1
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_RPG_29_HEAT
-    bigSprite: 3264
-    handSprite: 3264
-    floorSprite: 3264
+    bigSprite: 262
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 4500
@@ -1461,11 +1985,11 @@ items:
   - type: STR_RPG_29_THERMO_X1
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [STR_CLIPS]
     refNode: *STR_RPG_29_THERMO
-    bigSprite: 3272
-    handSprite: 3272
-    floorSprite: 3272
+    bigSprite: 263
+    handSprite: 200
+    floorSprite: 200
     size: 0.1
     armor: 30
     costBuy: 5000

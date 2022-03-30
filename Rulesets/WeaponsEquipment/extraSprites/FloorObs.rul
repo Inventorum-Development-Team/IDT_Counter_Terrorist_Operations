@@ -1,0 +1,198 @@
+extraSprites:
+
+
+  - type: FLOOROB.PCK
+    files:
+      ###AMMO###
+      200: Resources/BallisticWeapons/Ammo/Floor.png
+      # 632: 
+
+      ###MISC###
+      500: Resources/SoldiersAndArmors/RiotArmor/floorRiotShield.png
+      510: Resources/BallisticWeapons/Equipment/floorHandcuffs.png
+      520: Resources/BallisticWeapons/Equipment/floorFieldDressing.png
+      530: Resources/BallisticWeapons/Explosives/floorFlashbangGrenade.png
+      540: Resources/BallisticWeapons/Explosives/floorSmokeGrenade.png
+      550: Resources/BallisticWeapons/Explosives/floorMolotov.png
+      580: Resources/BallisticWeapons/Equipment/floorFlare.png
+      588: Resources/BallisticWeapons/Equipment/floorFlarelit.png
+
+
+      1000: Resources/BallisticWeapons/Pistols/floorTaser.png
+      1010: Resources/BallisticWeapons/Pistols/floorMakarov.png
+      1011: Resources/BallisticWeapons/Pistols/floorMakarov.png
+      1020: Resources/BallisticWeapons/Pistols/floorManhurin.png
+
+      1040: Resources/BallisticWeapons/Pistols/floorGlock17.png
+      1060: Resources/BallisticWeapons/Pistols/floorP226.png
+      1080: Resources/BallisticWeapons/Pistols/floorGlock18.png
+      1100: Resources/BallisticWeapons/Pistols/floorGlock18Stock.png
+      1120: Resources/BallisticWeapons/Pistols/floorFiveSeven.png
+      1140: Resources/BallisticWeapons/Pistols/floorSR-1Vektor.png
+      1165: Resources/BallisticWeapons/Pistols/floorStetchkin.png
+      # 664: Resources/BallisticWeapons/Pistols/floorM1911Colt45.png
+      # 672: Resources/BallisticWeapons/Pistols/floorM1911Colt45.png
+      # 680: Resources/BallisticWeapons/Pistols/floorMK23SOCOM.png
+      # 688: Resources/BallisticWeapons/Pistols/floorMK23SOCOM.png
+
+
+      2000: Resources/BallisticWeapons/SMGs/floorTec9.png
+      2010: Resources/BallisticWeapons/SMGs/floorSkorpion.png
+      2020: Resources/BallisticWeapons/SMGs/floorMP7.png
+      2030: Resources/BallisticWeapons/SMGs/floorMP5SD.png
+      2050: Resources/BallisticWeapons/SMGs/floorP90.png
+      2070: Resources/BallisticWeapons/SMGs/floorVityaz.png
+      # 3896: Resources/BallisticWeapons/SMGs/floorUziunfolded.png
+      # 3904: Resources/BallisticWeapons/SMGs/floorUziunfolded.png
+      # 3912: Resources/BallisticWeapons/SMGs/floorUziunfolded20.png
+      # 3920: Resources/BallisticWeapons/SMGs/floorUziunfolded.png
+      # 3928: Resources/BallisticWeapons/SMGs/floorUziunfolded40.png
+      # 3936: Resources/BallisticWeapons/SMGs/floorUzi.png
+      # 3944: Resources/BallisticWeapons/SMGs/floorUzi.png
+      # 3952: Resources/BallisticWeapons/SMGs/floorUzi20.png
+      # 3960: Resources/BallisticWeapons/SMGs/floorUzi.png
+      # 3968: Resources/BallisticWeapons/SMGs/floorUzi40.png
+      # 792: Resources/BallisticWeapons/SMGs/floorMPX.png
+      # 800: Resources/BallisticWeapons/SMGs/floorMPX10.png
+      # 808: Resources/BallisticWeapons/SMGs/floorMPX20.png
+      # 816: Resources/BallisticWeapons/SMGs/floorMPX.png
+      # 824: Resources/BallisticWeapons/SMGs/floorMPXFolded.png
+      # 832: Resources/BallisticWeapons/SMGs/floorMPXFolded10.png
+      # 840: Resources/BallisticWeapons/SMGs/floorMPXFolded20.png
+      # 848: Resources/BallisticWeapons/SMGs/floorMPXFolded.png
+      # 3504: Resources/BallisticWeapons/SMGs/floorSR-2Versek.png
+      # 3512: Resources/BallisticWeapons/SMGs/floorSR-2Versek20.png
+      # 3520: Resources/BallisticWeapons/SMGs/floorSR-2Versek.png
+      # 3472: Resources/BallisticWeapons/SMGs/floorUMP45.png
+      # 3480: Resources/BallisticWeapons/SMGs/floorUMP45.png
+
+
+      3000: Resources/BallisticWeapons/Rifles/floorAKM.png
+      3010: Resources/BallisticWeapons/Rifles/floorAK74.png
+      3020: Resources/BallisticWeapons/Rifles/floorAR18.png
+      3030: Resources/BallisticWeapons/Rifles/floorM16A2.png
+      3040: Resources/BallisticWeapons/Rifles/floorG11.png
+      3050: Resources/BallisticWeapons/Rifles/floorAK12.png
+      3070: Resources/BallisticWeapons/Rifles/floorAK15.png
+      3090: Resources/BallisticWeapons/Rifles/floorHK416.png
+      3110: Resources/BallisticWeapons/Rifles/floorHK416M320.png
+      3111: Resources/BallisticWeapons/Rifles/floorHK416M320.png
+      3120: Resources/BallisticWeapons/Rifles/floorHK416MASS.png
+      3130: Resources/BallisticWeapons/Rifles/floorHK417.png
+      3150: Resources/BallisticWeapons/Rifles/floorFamas.png
+      3170: Resources/BallisticWeapons/Rifles/floorG36.png
+      3190: Resources/BallisticWeapons/Rifles/floorG36AG36.png
+      3191: Resources/BallisticWeapons/Rifles/floorG36AG36.png
+      3200: Resources/BallisticWeapons/Rifles/floorG3.png
+      3220: Resources/BallisticWeapons/Rifles/floorFNFAL.png
+      # 936: Resources/BallisticWeapons/Rifles/floorTAVOR.png
+      # 944: Resources/BallisticWeapons/Rifles/floorTAVOR.png
+      # 968: Resources/BallisticWeapons/Rifles/floorTAVORSCOPE.png
+      # 976: Resources/BallisticWeapons/Rifles/floorTAVORSCOPE.png
+      # 952: Resources/BallisticWeapons/Rifles/floorTAVORM203.png
+      # 960: Resources/BallisticWeapons/Rifles/floorTAVORM203.png
+      # 984: Resources/BallisticWeapons/Rifles/floorTAVOR95X.png
+      # 992: Resources/BallisticWeapons/Rifles/floorTAVOR95X.png
+      # 1000: Resources/BallisticWeapons/Rifles/floorTAVOR95XSCOPED.png
+      # 1008: Resources/BallisticWeapons/Rifles/floorTAVOR95XSCOPED.png
+      # 1016: Resources/BallisticWeapons/Rifles/floorM4.png
+      # 1024: Resources/BallisticWeapons/Rifles/floorM4.png
+      # 1032: Resources/BallisticWeapons/Rifles/floorM4SOPMOD.png
+      # 1040: Resources/BallisticWeapons/Rifles/floorM4SOPMOD.png
+      # 1048: Resources/BallisticWeapons/Rifles/floorM4M320.png
+      # 1056: Resources/BallisticWeapons/Rifles/floorM4M320.png
+      # 1064: Resources/BallisticWeapons/Rifles/floorM4MASS3.png
+      # 1072: Resources/BallisticWeapons/Rifles/floorM4MASS2.png
+      # 1080: Resources/BallisticWeapons/Rifles/floorM4MASS.png
+      # 1088: Resources/BallisticWeapons/Rifles/floorM4MASS.png
+      # 1096: Resources/BallisticWeapons/Rifles/floorM4A1.png
+      # 1104: Resources/BallisticWeapons/Rifles/floorM4A1.png
+      # 1112: Resources/BallisticWeapons/Rifles/floorM4A1SOPMOD.png
+      # 1120: Resources/BallisticWeapons/Rifles/floorM4A1SOPMOD.png
+      # 1128: Resources/BallisticWeapons/Rifles/floorM4A1M320.png
+      # 1136: Resources/BallisticWeapons/Rifles/floorM4A1M320.png
+      # 1144: Resources/BallisticWeapons/Rifles/floorM4A1MASS3.png
+      # 1152: Resources/BallisticWeapons/Rifles/floorM4A1MASS2.png
+      # 1160: Resources/BallisticWeapons/Rifles/floorM4A1MASS.png
+      # 1168: Resources/BallisticWeapons/Rifles/floorM4A1MASS.png
+      # 1384: Resources/BallisticWeapons/Rifles/floorFX05.png
+      # 1392: Resources/BallisticWeapons/Rifles/floorFX05_30.png
+      # 1400: Resources/BallisticWeapons/Rifles/floorFX05Scoped.png
+      # 1408: Resources/BallisticWeapons/Rifles/floorFX05Scoped_30.png
+      # 1416: Resources/BallisticWeapons/Rifles/floorSCAR-L.png
+      # 1424: Resources/BallisticWeapons/Rifles/floorSCAR-L.png
+      # 1432: Resources/BallisticWeapons/Rifles/floorSCAR-LSOPMOD.png
+      # 1440: Resources/BallisticWeapons/Rifles/floorSCAR-LSOPMOD.png
+      # 1448: Resources/BallisticWeapons/Rifles/floorSCAR-LGL.png
+      # 1456: Resources/BallisticWeapons/Rifles/floorSCAR-LGL.png
+      # 2008: Resources/BallisticWeapons/Rifles/floorSCAR-H.png
+      # 2016: Resources/BallisticWeapons/Rifles/floorSCAR-H.png
+      # 2024: Resources/BallisticWeapons/Rifles/floorSCAR-H.png
+      # 2032: Resources/BallisticWeapons/Rifles/floorSCAR-H.png
+      # 2040: Resources/BallisticWeapons/Rifles/floorSCAR-HSOPMOD.png
+      # 2048: Resources/BallisticWeapons/Rifles/floorSCAR-HSOPMOD.png
+      # 2056: Resources/BallisticWeapons/Rifles/floorSCAR-HSOPMOD.png
+      # 2064: Resources/BallisticWeapons/Rifles/floorSCAR-HSOPMOD.png
+      # 2072: Resources/BallisticWeapons/Rifles/floorSCAR-HGL.png
+      # 2080: Resources/BallisticWeapons/Rifles/floorSCAR-HGL.png
+      # 2088: Resources/BallisticWeapons/Rifles/floorSCAR-HGL.png
+      # 2096: Resources/BallisticWeapons/Rifles/floorSCAR-HGL.png
+      # 1528: Resources/BallisticWeapons/Rifles/floorSR3VikhrDeployed.png
+      # 1536: Resources/BallisticWeapons/Rifles/floorSR3VikhrDeployed10.png
+      # 1544: Resources/BallisticWeapons/Rifles/floorSR3VikhrDeployed20.png
+      # 1552: Resources/BallisticWeapons/Rifles/floorSR3VikhrCollapsed.png
+      # 1560: Resources/BallisticWeapons/Rifles/floorSR3VikhrCollapsed10.png
+      # 1568: Resources/BallisticWeapons/Rifles/floorSR3VikhrCollapsed20.png
+
+      5000: Resources/BallisticWeapons/Snipers/floorPSG1.png
+      5010: Resources/BallisticWeapons/Snipers/floorHuntingRifle.png
+      5020: Resources/BallisticWeapons/Snipers/floorSKS.png
+      5030: Resources/BallisticWeapons/Snipers/floorVSSVintorez.png
+      5040: Resources/BallisticWeapons/Snipers/floorAIAW.png
+      5041: Resources/BallisticWeapons/Snipers/floorAIAW.png
+      5050: Resources/BallisticWeapons/Snipers/floorM82.png
+      5070: Resources/BallisticWeapons/Snipers/floorMSG90.png
+      5080: Resources/BallisticWeapons/Snipers/floorAWP.png
+      5090: Resources/BallisticWeapons/Snipers/floorTRG.png
+      5100: Resources/BallisticWeapons/Snipers/floorDragunov.png
+      # 3720: Resources/BallisticWeapons/Snipers/floorOSV-96.png
+      # 3728: Resources/BallisticWeapons/Snipers/floorOSV-96.png
+      # 3736: Resources/BallisticWeapons/Snipers/floorM24SWS.png
+
+
+      6000: Resources/BallisticWeapons/Shotguns/floorSuperShorty.png
+      6010: Resources/BallisticWeapons/Shotguns/floorRemington.png
+      6020: Resources/BallisticWeapons/Shotguns/floorKS23Shotgun.png
+      6030: Resources/BallisticWeapons/Shotguns/floorOrigin12.png
+      6040: Resources/BallisticWeapons/Shotguns/floorModel1900.png      
+      6050: Resources/BallisticWeapons/Shotguns/floorSPAS12.png
+      6060: Resources/BallisticWeapons/Shotguns/floorSaiga12.png
+      # 1840: Resources/BallisticWeapons/Shotguns/floorAtchissonAA12.png
+      # 1848: Resources/BallisticWeapons/Shotguns/floorAtchissonAA12_8.png
+      # 1856: Resources/BallisticWeapons/Shotguns/floorAtchissonAA12_20.png
+      # 1864: Resources/BallisticWeapons/Shotguns/floorAtchissonAA12_30.png
+      # 1872: Resources/BallisticWeapons/Shotguns/floorUSAS12.png
+      # 1880: Resources/BallisticWeapons/Shotguns/floorUSAS128.png
+      # 1888: Resources/BallisticWeapons/Shotguns/floorUSAS1220.png
+     
+      7000: Resources/BallisticWeapons/LMGs/floorM60.png
+      7010: Resources/BallisticWeapons/LMGs/floorFNMinimi.png
+      7020: Resources/BallisticWeapons/LMGs/floorFNMAG.png
+      7030: Resources/BallisticWeapons/LMGs/floorRPK-74M.png
+      # 3848: Resources/BallisticWeapons/LMGs/floorNegev.png
+      # 3856: Resources/BallisticWeapons/LMGs/floorNegev.png
+      # 3864: Resources/BallisticWeapons/LMGs/floorNegev.png
+      # 7000: Resources/BallisticWeapons/LMGs/floorM249SAW.png
+      # 7001: Resources/BallisticWeapons/LMGs/floorM249SAW30.png
+      # 7002: Resources/BallisticWeapons/LMGs/floorM249SAWDrum.png
+      # 7010: Resources/BallisticWeapons/LMGs/floorMk48LMG.png
+      # 7011: Resources/BallisticWeapons/LMGs/floorMk48LMGDrum.png
+      # 7020: Resources/BallisticWeapons/LMGs/floor6P41PechenegBullpup.png
+      # 1944: Resources/BallisticWeapons/LMGs/floor6P41PechenegBullpupDrum.png 
+
+      8000: Resources/BallisticWeapons/Artillery/floorM320.png
+      8010: Resources/BallisticWeapons/Artillery/floorRPG.png
+      # 3872: Resources/BallisticWeapons/Artillery/floorGM-94.png
+      # 3880: Resources/BallisticWeapons/Artillery/floorRPG-29.png
+      # 1960: Resources/BallisticWeapons/Artillery/floorMGL.png
+      # 1968: Resources/BallisticWeapons/Artillery/floorCarlGustafM4.png
