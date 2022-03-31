@@ -832,7 +832,9 @@ extended:
               RuleInventory.isRightHand invptr right;
               set z 0;
               if and eq left 0 eq right 0;
-                set z 1;
+                if neq b 1;
+                  set z 1;
+                end;
               end;
               if or eq left 1 eq right 1;
                 set z 2;
