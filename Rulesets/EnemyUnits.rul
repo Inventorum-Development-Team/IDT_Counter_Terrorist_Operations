@@ -859,9 +859,9 @@ units:
              - STR_5_45_X45
              - STR_5_45_X30
            - 
-             - STR_SR_3
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
 
   # - type: STR_TERRORIST_COMMANDER_USA
   #   refNode: *STR_TERRORIST_COMMANDER
@@ -885,15 +885,15 @@ units:
     race: STR_TERRORISTS_WEST_EU
     builtInWeaponSets:
            - 
-             - STR_HK416
+             - STR_G36
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_G36
              - STR_5_56_X30
              - STR_5_56_X30
            - 
              - STR_HK416
-             - STR_5_56_X30
-             - STR_5_56_X30
-           - 
-             - STR_SCAR_L
              - STR_5_56_X30
              - STR_5_56_X30
 
@@ -961,8 +961,9 @@ units:
              - STR_5_45_X60
              - STR_5_45_X60
            - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X50
+             - STR_RPK_74
+             - STR_5_45_X45
+             - STR_5_45_X45
 
   # - type: STR_TERRORIST_SAW_USA
   #   refNode: *STR_TERRORIST_SAW
@@ -1273,10 +1274,10 @@ units:
     race: STR_PRIVATE_SECURITY_EAST_EU
     builtInWeaponSets:
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_VEKTOR
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
+             - STR_9MM_GYURZA_X20
+             - STR_9MM_GYURZA_X20
 
   # - type: STR_PR_SHIELD_USA
   #   refNode: *STR_PR_SHIELD
@@ -1385,8 +1386,9 @@ units:
     race: STR_PRIVATE_SECURITY_EAST_EU
     builtInWeaponSets:
            - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X100
+             - STR_RPK_74
+             - STR_5_45_X45
+             - STR_5_45_X45
 
   # - type: STR_PR_SAW_USA
   #   refNode: *STR_PR_SAW
@@ -1401,8 +1403,8 @@ units:
     race: STR_PRIVATE_SECURITY_WEST_EU
     builtInWeaponSets:
            - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
+             - STR_FN_MINIMI
+             - STR_5_56_X100
       
   - type: STR_PR_SNIPER_EAST_EU
     refNode: *STR_PR_SNIPER

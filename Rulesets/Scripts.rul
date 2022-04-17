@@ -220,12 +220,12 @@ items:
   - type: STR_GLOCK_18_STOCK #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_M1911 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_MK_23 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_M1911 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_MK_23 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_MAKAROV #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -244,10 +244,10 @@ items:
   - type: STR_MP5 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_MPX #ignoreDuplicate
-    tags:
-     FoldStock: 1
-     AmmoReSprite: 1
+  # - type: STR_MPX #ignoreDuplicate
+  #   tags:
+  #    FoldStock: 1
+  #    AmmoReSprite: 1
   - type: STR_P90 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -255,76 +255,55 @@ items:
     tags:
      FoldStock: 1
      AmmoReSprite: 1
-  - type: STR_UZI  #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-     FoldStock: 1
-  - type: STR_UMP #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_UZI  #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  #    FoldStock: 1
+  # - type: STR_UMP #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_VITYAZ #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_VERSEK #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_TAVOR #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_TAVOR_M203 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_TAVOR_SCOPED #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_TAVOR_95X #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_TAVOR_95X_SCOPED #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_M4 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_M4_SOPMOD #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_M4_M320 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_M4_UBS #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-     UBS: 1
-  - type: STR_M4A1 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_M4A1_SOPMOD #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_M4A1_M320 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_M4A1_UBS #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-     UBS: 1
+  # - type: STR_VERSEK #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_TAVOR #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_TAVOR_M203 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_TAVOR_95X #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_M4 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_M4_M320 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_M4_UBS #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  #    UBS: 1
+  # - type: STR_M4A1 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_M4A1_M320 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_M4A1_UBS #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  #    UBS: 1
   - type: STR_AK12 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_AK12_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_AK15 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_AK15_SCOPED #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
   - type: STR_FAMAS #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_FAMAS_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_G36 #ignoreDuplicate
@@ -334,9 +313,6 @@ items:
     tags:
      AmmoReSprite: 1
   - type: STR_HK416 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_HK416_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_HK416_M320 #ignoreDuplicate
@@ -350,48 +326,39 @@ items:
     tags:
      AmmoReSprite: 1
      Bipod: 1
-  - type: STR_FX_05 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_FX_05_SCOPED #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_SCAR_L #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_SCAR_L_SOPMOD #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_SCAR_L_GL #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_SCAR_H #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_SCAR_H_SOPMOD #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_SCAR_H_GL #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_FX_05 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_SCAR_L #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_SCAR_L_GL #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_SCAR_H #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_SCAR_H_GL #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_G11 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_SR_3 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_SR_3_ONE_HANDED #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_SR_3 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_SR_3_ONE_HANDED #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_M16A2 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_AR_18 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_AR_180 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_AR_180 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_AKM #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -416,9 +383,9 @@ items:
   - type: STR_DRAGUNOV #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_OSV_96 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_OSV_96 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_SAKO_TRG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -435,33 +402,33 @@ items:
   - type: STR_ORIGIN_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_AA_12 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_USAS_12 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_AA_12 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  # - type: STR_USAS_12 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_SAIGA_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_M60 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_M249 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_M249 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_FN_MINIMI #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_MK_48 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_MK_48 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_RPK_74 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_PECHENEG #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_PECHENEG #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   - type: STR_RPG #ignoreDuplicate
     tags:
      AmmoReSprite: 1

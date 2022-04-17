@@ -113,118 +113,118 @@ manufacture:
   - delete: STR_AVENGER
 
 
-  - name: STR_M4_M320
-    time: 10
-    requires:
-     - STR_M4_ACQUISITION
-     - STR_M320_ACQUISITION
-    requiredItems:
-     STR_M4: 1
-     STR_M320: 1
-    refund: true
+  # - name: STR_M4_M320
+  #   time: 10
+  #   requires:
+  #    - STR_M4_ACQUISITION
+  #    - STR_M320_ACQUISITION
+  #   requiredItems:
+  #    STR_M4: 1
+  #    STR_M320: 1
+  #   refund: true
     
-  - name: STR_M4_M320_REMOVAL
-    time: 10
-    requires:
-     - STR_M4_ACQUISITION
-     - STR_M320_ACQUISITION
-    requiredItems:
-     STR_M4_M320: 1
-    producedItems:
-     STR_M4: 1
-     STR_M320: 1
-    refund: true
+  # - name: STR_M4_M320_REMOVAL
+  #   time: 10
+  #   requires:
+  #    - STR_M4_ACQUISITION
+  #    - STR_M320_ACQUISITION
+  #   requiredItems:
+  #    STR_M4_M320: 1
+  #   producedItems:
+  #    STR_M4: 1
+  #    STR_M320: 1
+  #   refund: true
 
-  - name: STR_M4_UBS
-    time: 10
-    requires:
-     - STR_M4_ACQUISITION
-     - STR_UBS_ACQUISITION
-    requiredItems:
-     STR_M4: 1
-     STR_UBS: 1
-    refund: true
+  # - name: STR_M4_UBS
+  #   time: 10
+  #   requires:
+  #    - STR_M4_ACQUISITION
+  #    - STR_UBS_ACQUISITION
+  #   requiredItems:
+  #    STR_M4: 1
+  #    STR_UBS: 1
+  #   refund: true
     
-  - name: STR_M4_UBS_REMOVAL
-    time: 10
-    requires:
-     - STR_M4_ACQUISITION
-     - STR_UBS_ACQUISITION
-    requiredItems:
-     STR_M4_UBS: 1
-    producedItems:
-     STR_M4: 1
-     STR_UBS: 1
-    refund: true
+  # - name: STR_M4_UBS_REMOVAL
+  #   time: 10
+  #   requires:
+  #    - STR_M4_ACQUISITION
+  #    - STR_UBS_ACQUISITION
+  #   requiredItems:
+  #    STR_M4_UBS: 1
+  #   producedItems:
+  #    STR_M4: 1
+  #    STR_UBS: 1
+  #   refund: true
 
 
 
-  - name: STR_M4A1_M320
-    time: 10
-    requires:
-     - STR_M4A1_ACQUISITION
-     - STR_M320_ACQUISITION
-    requiredItems:
-     STR_M4A1: 1
-     STR_M320: 1
-    refund: true
+  # - name: STR_M4A1_M320
+  #   time: 10
+  #   requires:
+  #    - STR_M4A1_ACQUISITION
+  #    - STR_M320_ACQUISITION
+  #   requiredItems:
+  #    STR_M4A1: 1
+  #    STR_M320: 1
+  #   refund: true
     
-  - name: STR_M4A1_M320_REMOVAL
-    time: 10
-    requires:
-     - STR_M4A1_ACQUISITION
-     - STR_M320_ACQUISITION
-    requiredItems:
-     STR_M4A1_M320: 1
-    producedItems:
-     STR_M4A1: 1
-     STR_M320: 1
-    refund: true
+  # - name: STR_M4A1_M320_REMOVAL
+  #   time: 10
+  #   requires:
+  #    - STR_M4A1_ACQUISITION
+  #    - STR_M320_ACQUISITION
+  #   requiredItems:
+  #    STR_M4A1_M320: 1
+  #   producedItems:
+  #    STR_M4A1: 1
+  #    STR_M320: 1
+  #   refund: true
 
-  - name: STR_M4A1_UBS
-    time: 10
-    requires:
-     - STR_M4A1_ACQUISITION
-     - STR_UBS_ACQUISITION
-    requiredItems:
-     STR_M4A1: 1
-     STR_UBS: 1
-    refund: true
+  # - name: STR_M4A1_UBS
+  #   time: 10
+  #   requires:
+  #    - STR_M4A1_ACQUISITION
+  #    - STR_UBS_ACQUISITION
+  #   requiredItems:
+  #    STR_M4A1: 1
+  #    STR_UBS: 1
+  #   refund: true
     
-  - name: STR_M4A1_UBS_REMOVAL
-    time: 10
-    requires:
-     - STR_M4A1_ACQUISITION
-     - STR_UBS_ACQUISITION
-    requiredItems:
-     STR_M4A1_UBS: 1
-    producedItems:
-     STR_M4A1: 1
-     STR_UBS: 1
-    refund: true
+  # - name: STR_M4A1_UBS_REMOVAL
+  #   time: 10
+  #   requires:
+  #    - STR_M4A1_ACQUISITION
+  #    - STR_UBS_ACQUISITION
+  #   requiredItems:
+  #    STR_M4A1_UBS: 1
+  #   producedItems:
+  #    STR_M4A1: 1
+  #    STR_UBS: 1
+  #   refund: true
 
 
-  - name: STR_TAVOR_M203
-    time: 10
-    requires:
-     - STR_TAVOR_ACQUISITION
-     - STR_M203_ACQUISITION
-    requiredItems:
-     STR_TAVOR: 1
-     STR_M203: 1
-    refund: true
+  # - name: STR_TAVOR_M203
+  #   time: 10
+  #   requires:
+  #    - STR_TAVOR_ACQUISITION
+  #    - STR_M203_ACQUISITION
+  #   requiredItems:
+  #    STR_TAVOR: 1
+  #    STR_M203: 1
+  #   refund: true
     
-  - name: STR_TAVOR_M203_REMOVAL
-    time: 10
-    requires:
-     - STR_TAVOR_ACQUISITION
-     - STR_M203_ACQUISITION
-    requiredItems:
-     STR_TAVOR_M203: 1
-    producedItems:
-     STR_TAVOR: 1
-     STR_M203: 1
-    refund: true
+  # - name: STR_TAVOR_M203_REMOVAL
+  #   time: 10
+  #   requires:
+  #    - STR_TAVOR_ACQUISITION
+  #    - STR_M203_ACQUISITION
+  #   requiredItems:
+  #    STR_TAVOR_M203: 1
+  #   producedItems:
+  #    STR_TAVOR: 1
+  #    STR_M203: 1
+  #   refund: true
 
 
   - name: STR_HK416_M320
@@ -272,66 +272,66 @@ manufacture:
     refund: true
     
 
-  - name: STR_SCAR_L_GL
-    time: 10
-    requires:
-     - STR_SCAR_L_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-    requiredItems:
-     STR_SCAR_L: 1
-     STR_FN40GL: 1
-    refund: true
+  # - name: STR_SCAR_L_GL
+  #   time: 10
+  #   requires:
+  #    - STR_SCAR_L_ACQUISITION
+  #    - STR_FN40GL_ACQUISITION
+  #   requiredItems:
+  #    STR_SCAR_L: 1
+  #    STR_FN40GL: 1
+  #   refund: true
     
-  - name: STR_SCAR_L_GL_REMOVAL
-    time: 10
-    requires:
-     - STR_SCAR_L_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-    requiredItems:
-     STR_SCAR_L_GL: 1
-    producedItems:
-     STR_SCAR_L: 1
-     STR_FN40GL: 1
-    refund: true
+  # - name: STR_SCAR_L_GL_REMOVAL
+  #   time: 10
+  #   requires:
+  #    - STR_SCAR_L_ACQUISITION
+  #    - STR_FN40GL_ACQUISITION
+  #   requiredItems:
+  #    STR_SCAR_L_GL: 1
+  #   producedItems:
+  #    STR_SCAR_L: 1
+  #    STR_FN40GL: 1
+  #   refund: true
     
 
-  - name: STR_SCAR_H_GL
-    time: 10
-    requires:
-     - STR_SCAR_H_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-    requiredItems:
-     STR_SCAR_H: 1
-     STR_FN40GL: 1
-    refund: true
+  # - name: STR_SCAR_H_GL
+  #   time: 10
+  #   requires:
+  #    - STR_SCAR_H_ACQUISITION
+  #    - STR_FN40GL_ACQUISITION
+  #   requiredItems:
+  #    STR_SCAR_H: 1
+  #    STR_FN40GL: 1
+  #   refund: true
     
-  - name: STR_SCAR_H_GL_REMOVAL
-    time: 10
-    requires:
-     - STR_SCAR_H_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-    requiredItems:
-     STR_SCAR_H_GL: 1
-    producedItems:
-     STR_SCAR_H: 1
-     STR_FN40GL: 1
-    refund: true
+  # - name: STR_SCAR_H_GL_REMOVAL
+  #   time: 10
+  #   requires:
+  #    - STR_SCAR_H_ACQUISITION
+  #    - STR_FN40GL_ACQUISITION
+  #   requiredItems:
+  #    STR_SCAR_H_GL: 1
+  #   producedItems:
+  #    STR_SCAR_H: 1
+  #    STR_FN40GL: 1
+  #   refund: true
 
-  - name: STR_SR_3_ONE_HANDED
-    time: 5
-    requires:
-     - STR_SR3_ACQUISITION
-    requiredItems:
-     STR_SR_3: 1
-    refund: true
+  # - name: STR_SR_3_ONE_HANDED
+  #   time: 5
+  #   requires:
+  #    - STR_SR3_ACQUISITION
+  #   requiredItems:
+  #    STR_SR_3: 1
+  #   refund: true
 
-  - name: STR_SR_3
-    time: 5
-    requires:
-     - STR_SR3_ACQUISITION
-    requiredItems:
-     STR_SR_3_ONE_HANDED: 1
-    refund: true
+  # - name: STR_SR_3
+  #   time: 5
+  #   requires:
+  #    - STR_SR3_ACQUISITION
+  #   requiredItems:
+  #    STR_SR_3_ONE_HANDED: 1
+  #   refund: true
 
   - name: STR_GLOCK_18_STOCK
     time: 10
