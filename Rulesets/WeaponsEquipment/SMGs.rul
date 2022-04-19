@@ -102,6 +102,10 @@ items:
           ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7140
 
   # - type: STR_MPX
@@ -223,6 +227,10 @@ items:
         compatibleAmmo: [ STR_FN_57_X50 ]
         tuLoad: 40
         tuUnload: 20
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7490
 
   - type: STR_SKORPION
@@ -390,6 +398,10 @@ items:
         compatibleAmmo: [ STR_9MM_PARABELLUM_X30 ]
         tuLoad: 30
         tuUnload: 15
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7270
 
   # - type: STR_VERSEK
