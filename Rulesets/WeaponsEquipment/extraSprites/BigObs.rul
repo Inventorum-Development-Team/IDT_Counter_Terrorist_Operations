@@ -104,142 +104,92 @@ extraSprites:
       1041: Resources/BallisticWeapons/Pistols/BigGlock17.png
       1042: Resources/BallisticWeapons/Pistols/BigGlock17.png
       1043: Resources/BallisticWeapons/Pistols/BigGlock1730.png
-      1044: Resources/BallisticWeapons/Pistols/BigGlock1730.png
-      1045: Resources/BallisticWeapons/Pistols/BigGlock17nomag.png
-      1046: Resources/BallisticWeapons/Pistols/BigGlock17.png
-      1047: Resources/BallisticWeapons/Pistols/BigGlock17.png
-      1048: Resources/BallisticWeapons/Pistols/BigGlock1730.png
-      1049: Resources/BallisticWeapons/Pistols/BigGlock1730.png
-      1050: Resources/BallisticWeapons/Pistols/BigGlock17nomag.png
-      1051: Resources/BallisticWeapons/Pistols/BigGlock17.png
-      1052: Resources/BallisticWeapons/Pistols/BigGlock17.png
-      1053: Resources/BallisticWeapons/Pistols/BigGlock1730.png
-      1054: Resources/BallisticWeapons/Pistols/BigGlock1730.png
-      1055: Resources/BallisticWeapons/Pistols/BigGlock17nomag.png
-      1056: Resources/BallisticWeapons/Pistols/BigGlock17.png
-      1057: Resources/BallisticWeapons/Pistols/BigGlock17.png
-      1058: Resources/BallisticWeapons/Pistols/BigGlock1730.png
-      1059: Resources/BallisticWeapons/Pistols/BigGlock1730.png
+      1045: Resources/BallisticWeapons/Pistols/BigGlock17scopednomag.png
+      1046: Resources/BallisticWeapons/Pistols/BigGlock17scoped.png
+      1047: Resources/BallisticWeapons/Pistols/BigGlock17scoped.png
+      1048: Resources/BallisticWeapons/Pistols/BigGlock17scoped30.png
+      1050: Resources/BallisticWeapons/Pistols/BigGlock17lasernomag.png
+      1051: Resources/BallisticWeapons/Pistols/BigGlock17laser.png
+      1052: Resources/BallisticWeapons/Pistols/BigGlock17laser.png
+      1053: Resources/BallisticWeapons/Pistols/BigGlock17laser30.png
+      1054: Resources/BallisticWeapons/Pistols/BigGlock17laser30.png
+      1055: Resources/BallisticWeapons/Pistols/BigGlock17suppressednomag.png
+      1056: Resources/BallisticWeapons/Pistols/BigGlock17suppressed.png
+      1057: Resources/BallisticWeapons/Pistols/BigGlock17suppressed.png
+      1058: Resources/BallisticWeapons/Pistols/BigGlock17suppressed30.png
+      1059: Resources/BallisticWeapons/Pistols/BigGlock17suppressed30.png
       1060: Resources/BallisticWeapons/Pistols/BigP226nomag.png
       1061: Resources/BallisticWeapons/Pistols/BigP226.png
       1062: Resources/BallisticWeapons/Pistols/BigP226.png
-      1063: Resources/BallisticWeapons/Pistols/BigP226.png
-      1064: Resources/BallisticWeapons/Pistols/BigP226.png
-      1065: Resources/BallisticWeapons/Pistols/BigP226nomag.png
-      1066: Resources/BallisticWeapons/Pistols/BigP226.png
-      1067: Resources/BallisticWeapons/Pistols/BigP226.png
-      1068: Resources/BallisticWeapons/Pistols/BigP226.png
-      1069: Resources/BallisticWeapons/Pistols/BigP226.png
-      1070: Resources/BallisticWeapons/Pistols/BigP226nomag.png
-      1071: Resources/BallisticWeapons/Pistols/BigP226.png
-      1072: Resources/BallisticWeapons/Pistols/BigP226.png
-      1073: Resources/BallisticWeapons/Pistols/BigP226.png
-      1074: Resources/BallisticWeapons/Pistols/BigP226.png
-      1075: Resources/BallisticWeapons/Pistols/BigP226nomag.png
-      1076: Resources/BallisticWeapons/Pistols/BigP226.png
-      1077: Resources/BallisticWeapons/Pistols/BigP226.png
-      1078: Resources/BallisticWeapons/Pistols/BigP226.png
-      1079: Resources/BallisticWeapons/Pistols/BigP226.png
+      1065: Resources/BallisticWeapons/Pistols/BigP226scopednomag.png
+      1066: Resources/BallisticWeapons/Pistols/BigP226scoped.png
+      1067: Resources/BallisticWeapons/Pistols/BigP226scoped.png
+      1070: Resources/BallisticWeapons/Pistols/BigP226lasernomag.png
+      1071: Resources/BallisticWeapons/Pistols/BigP226laser.png
+      1072: Resources/BallisticWeapons/Pistols/BigP226laser.png
+      1075: Resources/BallisticWeapons/Pistols/BigP226suppressednomag.png
+      1076: Resources/BallisticWeapons/Pistols/BigP226suppressed.png
+      1077: Resources/BallisticWeapons/Pistols/BigP226suppressed.png
       1080: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
       1081: Resources/BallisticWeapons/Pistols/BigGlock18.png
       1082: Resources/BallisticWeapons/Pistols/BigGlock18.png
       1083: Resources/BallisticWeapons/Pistols/BigGlock1830.png
-      1084: Resources/BallisticWeapons/Pistols/BigGlock1830.png
-      1085: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
-      1086: Resources/BallisticWeapons/Pistols/BigGlock18.png
-      1087: Resources/BallisticWeapons/Pistols/BigGlock18.png
-      1088: Resources/BallisticWeapons/Pistols/BigGlock1830.png
-      1089: Resources/BallisticWeapons/Pistols/BigGlock1830.png
-      1090: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
-      1091: Resources/BallisticWeapons/Pistols/BigGlock18.png
-      1092: Resources/BallisticWeapons/Pistols/BigGlock18.png
-      1093: Resources/BallisticWeapons/Pistols/BigGlock1830.png
-      1094: Resources/BallisticWeapons/Pistols/BigGlock1830.png
-      1095: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png
-      1096: Resources/BallisticWeapons/Pistols/BigGlock18.png
-      1097: Resources/BallisticWeapons/Pistols/BigGlock18.png
-      1098: Resources/BallisticWeapons/Pistols/BigGlock1830.png
-      1099: Resources/BallisticWeapons/Pistols/BigGlock1830.png
+      1085: Resources/BallisticWeapons/Pistols/BigGlock18scopednomag.png
+      1086: Resources/BallisticWeapons/Pistols/BigGlock18scoped.png
+      1087: Resources/BallisticWeapons/Pistols/BigGlock18scoped.png
+      1088: Resources/BallisticWeapons/Pistols/BigGlock18scoped30.png
+      1090: Resources/BallisticWeapons/Pistols/BigGlock18lasernomag.png
+      1091: Resources/BallisticWeapons/Pistols/BigGlock18laser.png
+      1092: Resources/BallisticWeapons/Pistols/BigGlock18laser.png
+      1093: Resources/BallisticWeapons/Pistols/BigGlock18laser30.png
+      1095: Resources/BallisticWeapons/Pistols/BigGlock18suppressednomag.png
+      1096: Resources/BallisticWeapons/Pistols/BigGlock18suppressed.png
+      1097: Resources/BallisticWeapons/Pistols/BigGlock18suppressed.png
+      1098: Resources/BallisticWeapons/Pistols/BigGlock18suppressed30.png
       1100: Resources/BallisticWeapons/Pistols/BigGlock18Stocknomag.png
       1101: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
       1102: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
       1103: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
-      1104: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
-      1105: Resources/BallisticWeapons/Pistols/BigGlock18Stocknomag.png
-      1106: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
-      1107: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
-      1108: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
-      1109: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
-      1110: Resources/BallisticWeapons/Pistols/BigGlock18Stocknomag.png
-      1111: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
-      1112: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
-      1113: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
-      1114: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
-      1115: Resources/BallisticWeapons/Pistols/BigGlock18Stocknomag.png
-      1116: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
-      1117: Resources/BallisticWeapons/Pistols/BigGlock18Stock.png
-      1118: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
-      1119: Resources/BallisticWeapons/Pistols/BigGlock18Stock30.png
+      1105: Resources/BallisticWeapons/Pistols/BigGlock18Stockscopednomag.png
+      1106: Resources/BallisticWeapons/Pistols/BigGlock18Stockscoped.png
+      1107: Resources/BallisticWeapons/Pistols/BigGlock18Stockscoped.png
+      1108: Resources/BallisticWeapons/Pistols/BigGlock18Stockscoped30.png
+      1110: Resources/BallisticWeapons/Pistols/BigGlock18Stocklasernomag.png
+      1111: Resources/BallisticWeapons/Pistols/BigGlock18Stocklaser.png
+      1112: Resources/BallisticWeapons/Pistols/BigGlock18Stocklaser.png
+      1113: Resources/BallisticWeapons/Pistols/BigGlock18Stocklaser30.png
+      1115: Resources/BallisticWeapons/Pistols/BigGlock18Stocksuppressednomag.png
+      1116: Resources/BallisticWeapons/Pistols/BigGlock18Stocksuppressed.png
+      1117: Resources/BallisticWeapons/Pistols/BigGlock18Stocksuppressed.png
+      1118: Resources/BallisticWeapons/Pistols/BigGlock18Stocksuppressed30.png
       1120: Resources/BallisticWeapons/Pistols/BigFiveSevennomag.png
       1121: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1122: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1123: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1124: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1125: Resources/BallisticWeapons/Pistols/BigFiveSevennomag.png
-      1126: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1127: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1128: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1129: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1130: Resources/BallisticWeapons/Pistols/BigFiveSevennomag.png
-      1131: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1132: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1133: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1134: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1135: Resources/BallisticWeapons/Pistols/BigFiveSevennomag.png
-      1136: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1137: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1138: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
-      1139: Resources/BallisticWeapons/Pistols/BigFiveSeven.png
+      1125: Resources/BallisticWeapons/Pistols/BigFiveSevenscopednomag.png
+      1126: Resources/BallisticWeapons/Pistols/BigFiveSevenscoped.png
+      1130: Resources/BallisticWeapons/Pistols/BigFiveSevenlasernomag.png
+      1131: Resources/BallisticWeapons/Pistols/BigFiveSevenlaser.png
+      1135: Resources/BallisticWeapons/Pistols/BigFiveSevensuppressednomag.png
+      1136: Resources/BallisticWeapons/Pistols/BigFiveSevensuppressed.png
       1140: Resources/BallisticWeapons/Pistols/BigSR-1Vektornomag.png
       1141: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1142: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1143: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1144: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1145: Resources/BallisticWeapons/Pistols/BigSR-1Vektornomag.png
-      1146: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1147: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1148: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1149: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1150: Resources/BallisticWeapons/Pistols/BigSR-1Vektornomag.png
-      1151: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1152: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1153: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1154: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1155: Resources/BallisticWeapons/Pistols/BigSR-1Vektornomag.png
-      1156: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1157: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1158: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      1159: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
+      1145: Resources/BallisticWeapons/Pistols/BigSR-1Vektorscopednomag.png
+      1146: Resources/BallisticWeapons/Pistols/BigSR-1Vektorscoped.png
+      1150: Resources/BallisticWeapons/Pistols/BigSR-1Vektorlasernomag.png
+      1151: Resources/BallisticWeapons/Pistols/BigSR-1Vektorlaser.png
+      1155: Resources/BallisticWeapons/Pistols/BigSR-1Vektorsuppressednomag.png
+      1156: Resources/BallisticWeapons/Pistols/BigSR-1Vektorsuppressed.png
       1160: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
       1161: Resources/BallisticWeapons/Pistols/BigStetchkin.png
       1162: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1163: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1164: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1165: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
-      1166: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1167: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1168: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1169: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1170: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
-      1171: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1172: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1173: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1174: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1175: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
-      1176: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1177: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1178: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      1179: Resources/BallisticWeapons/Pistols/BigStetchkin.png
+      1165: Resources/BallisticWeapons/Pistols/BigStetchkinscopednomag.png
+      1166: Resources/BallisticWeapons/Pistols/BigStetchkinscoped.png
+      1167: Resources/BallisticWeapons/Pistols/BigStetchkinscoped.png
+      1170: Resources/BallisticWeapons/Pistols/BigStetchkinlasernomag.png
+      1171: Resources/BallisticWeapons/Pistols/BigStetchkinlaser.png
+      1172: Resources/BallisticWeapons/Pistols/BigStetchkinlaser.png
+      1175: Resources/BallisticWeapons/Pistols/BigStetchkinsuppressednomag.png
+      1176: Resources/BallisticWeapons/Pistols/BigStetchkinsuppressed.png
+      1177: Resources/BallisticWeapons/Pistols/BigStetchkinsuppressed.png
       # 664: Resources/BallisticWeapons/Pistols/BigM1911Colt45nomag.png
       # 672: Resources/BallisticWeapons/Pistols/BigM1911Colt45.png
       # 680: Resources/BallisticWeapons/Pistols/BigMK23SOCOMnomag.png

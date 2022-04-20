@@ -122,6 +122,10 @@ items:
         compatibleAmmo: [STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20]
         tuLoad: 20
         tuUnload: 10
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 6940
 
   - type: STR_GLOCK_17
@@ -166,6 +170,10 @@ items:
           ]
         tuLoad: 20
         tuUnload: 10
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
 
   - type: STR_GLOCK_18
     categories: [STR_FIREARMS, STR_PISTOLS]
@@ -209,6 +217,10 @@ items:
           ]
         tuLoad: 20
         tuUnload: 10
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7010
 
   - type: STR_GLOCK_18_STOCK
@@ -253,6 +265,10 @@ items:
           ]
         tuLoad: 20
         tuUnload: 10
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
 
   # - type: STR_M1911
   #   categories: [ STR_FIREARMS, STR_PISTOLS ]
@@ -403,6 +419,10 @@ items:
         compatibleAmmo: [STR_FN_57_X20]
         tuLoad: 20
         tuUnload: 10
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 7470
 
   - type: STR_MANHURIN
@@ -483,6 +503,10 @@ items:
         compatibleAmmo: [STR_9MM_GYURZA_X20]
         tuLoad: 20
         tuUnload: 10
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 6810
 
   - type: STR_STETCKIN
@@ -523,6 +547,10 @@ items:
         compatibleAmmo: [STR_9MM_MAKAROV_X20]
         tuLoad: 20
         tuUnload: 10
+      1:
+        compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
+        tuLoad: 50
+        tuUnload: 50
     listOrder: 6920
 #   - type: STR_STETCKIN_STOCK
 #     categories: [STR_FIREARMS, STR_PISTOLS]
