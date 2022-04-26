@@ -1253,22 +1253,22 @@ items:
     weight: 4
     clipSize: 25
     listOrder: 6070
-  - type: STR_CASELESS_4_73_X50
-    categories: [STR_CLIPS]
-    requiresBuy:
-      - STR_G11_ACQUISITION
-    refNode: *STR_CASELESS_4_73_AMMO
-    bigSprite: 210
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 1200
-    costSell: 600
-    invHeight: 2
-    weight: 4
-    clipSize: 50
-    listOrder: 7430
+  # - type: STR_CASELESS_4_73_X50
+  #   categories: [STR_CLIPS]
+  #   requiresBuy:
+  #     - STR_G11_ACQUISITION
+  #   refNode: *STR_CASELESS_4_73_AMMO
+  #   bigSprite: 210
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 1200
+  #   costSell: 600
+  #   invHeight: 2
+  #   weight: 4
+  #   clipSize: 50
+  #   listOrder: 7430
   - type: STR_5_45_X30
     requiresBuy:
       - STR_AK12_ACQUISITION

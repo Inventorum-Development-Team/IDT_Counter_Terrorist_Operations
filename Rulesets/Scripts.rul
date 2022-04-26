@@ -341,9 +341,9 @@ items:
   # - type: STR_SCAR_H_GL #ignoreDuplicate
   #   tags:
   #    AmmoReSprite: 1
-  - type: STR_G11 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+  # - type: STR_G11 #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
   # - type: STR_SR_3 #ignoreDuplicate
   #   tags:
   #    AmmoReSprite: 1

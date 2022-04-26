@@ -425,45 +425,45 @@ items:
         tuUnload: 50
     listOrder: 7470
 
-  - type: STR_MANHURIN
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_FIREARMS, STR_PISTOLS]
-    #    requiresBuy:
-    size: 1
-    weight: 7
-    # battleType: 1
-    bigSprite: 1020
-    floorSprite: 1020
-    handSprite: 1020
-    reloadSound: 180
-    fireSound: 181
-    costBuy: 6000
-    costSell: 3000
-    accuracyAimed: 70
-    accuracySnap: 45
-    accuracyAuto: 30
-    blockBothHands: false
-    twoHanded: false
-    oneHandedPenalty: 100
-    maxRange: 16
-    minRange: 0
-    aimRange: 8
-    snapRange: 6
-    autoRange: 4
-    kneelBonus: 100
-    refNode: *STR_PISTOL
-    tuAimed: 50
-    tuSnap: 20
-    tuAuto: 50
-    invWidth: 1
-    invHeight: 1
-    ammo:
-      0:
-        compatibleAmmo: [STR_38_SPECIAL_X6]
-        tuLoad: 40
-        tuUnload: 20
-    listOrder: 5520
+  # - type: STR_MANHURIN
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_FIREARMS, STR_PISTOLS]
+  #   #    requiresBuy:
+  #   size: 1
+  #   weight: 7
+  #   # battleType: 1
+  #   bigSprite: 1020
+  #   floorSprite: 1020
+  #   handSprite: 1020
+  #   reloadSound: 180
+  #   fireSound: 181
+  #   costBuy: 6000
+  #   costSell: 3000
+  #   accuracyAimed: 70
+  #   accuracySnap: 45
+  #   accuracyAuto: 30
+  #   blockBothHands: false
+  #   twoHanded: false
+  #   oneHandedPenalty: 100
+  #   maxRange: 16
+  #   minRange: 0
+  #   aimRange: 8
+  #   snapRange: 6
+  #   autoRange: 4
+  #   kneelBonus: 100
+  #   refNode: *STR_PISTOL
+  #   tuAimed: 50
+  #   tuSnap: 20
+  #   tuAuto: 50
+  #   invWidth: 1
+  #   invHeight: 1
+  #   ammo:
+  #     0:
+  #       compatibleAmmo: [STR_38_SPECIAL_X6]
+  #       tuLoad: 40
+  #       tuUnload: 20
+  #   listOrder: 5520
 
   - type: STR_VEKTOR
     requiresBuy:

@@ -632,11 +632,11 @@ research:
      - STR_PRIVATE_CONTRACTORS
      - STR_RANDOM_2
      
-  - name: STR_G11_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
+  # - name: STR_G11_ACQUISITION
+  #   cost: 50
+  #   dependencies:
+  #    - STR_PRIVATE_CONTRACTORS
+  #    - STR_RANDOM_2
      
   - name: STR_TRG_ACQUISITION
     cost: 50
