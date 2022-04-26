@@ -126,39 +126,39 @@ items:
   #       tuUnload: 22
   #   listOrder: 5990
 
-  # - type: STR_GUSTAF
-  #   categories: [ STR_FIREARMS, STR_ARTILLERY ]
-  #   requiresBuy:
-  #     - STR_AT_ACQUISITION
-  #   size: 1
-  #   weight: 65
-  #   battleType: 1
-  #   bigSprite: 1968
-  #   floorSprite: 1968
-  #   handSprite: 1968
-  #   reloadSound: 217
-  #   fireSound: 218
-  #   costBuy: 87000
-  #   costSell: 43500
-  #   accuracyAimed: 120
-  #   accuracySnap: 60
-  #   blockBothHands: true
-  #   twoHanded: true
-  #   maxRange: 200
-  #   minRange: 7
-  #   aimRange: 15
-  #   snapRange: 10
-  #   kneelBonus: 150
-  #   tuAimed: 80
-  #   tuSnap: 60
-  #   invWidth: 2
-  #   invHeight: 3
-  #   ammo:
-  #     0:
-  #       compatibleAmmo: [ STR_CG_HEAT_X1, STR_CG_HE_X1 ]
-  #       tuLoad: 50
-  #       tuUnload: 25
-  #   listOrder: 7440
+  - type: STR_GUSTAF
+    categories: [ STR_FIREARMS, STR_ARTILLERY ]
+    requiresBuy:
+      - STR_AT_ACQUISITION
+    size: 1
+    weight: 65
+    battleType: 1
+    bigSprite: 8020
+    floorSprite: 8020
+    handSprite: 8020
+    reloadSound: 217
+    fireSound: 218
+    costBuy: 87000
+    costSell: 43500
+    accuracyAimed: 120
+    accuracySnap: 60
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 15
+    snapRange: 10
+    kneelBonus: 150
+    tuAimed: 80
+    tuSnap: 60
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_CG_HEAT_X1, STR_CG_HE_X1 ]
+        tuLoad: 50
+        tuUnload: 25
+    listOrder: 7440
 
   - type: STR_RPG
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_SEIZED ]

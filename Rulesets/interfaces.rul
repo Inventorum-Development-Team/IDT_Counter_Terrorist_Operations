@@ -1,0 +1,8 @@
+extraSprites:
+
+  - type: ExtendedPediaBackgroundPalBattlepedia-InfoButton
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/ufopedia/info-button-ufo.png

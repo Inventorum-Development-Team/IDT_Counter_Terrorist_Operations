@@ -467,7 +467,7 @@ extraSprites:
       # 1560: Resources/BallisticWeapons/Rifles/BigSR3VikhrCollapsed10.png
       # 1568: Resources/BallisticWeapons/Rifles/BigSR3VikhrCollapsed20.png
 
-      5000: Resources/BallisticWeapons/Snipers/BigPSG1.png
+      5000: Resources/BallisticWeapons/Snipers/BigPSG1nomag.png
       5001: Resources/BallisticWeapons/Snipers/BigPSG15.png
       5002: Resources/BallisticWeapons/Snipers/BigPSG110.png
       5003: Resources/BallisticWeapons/Snipers/BigPSG120.png
@@ -478,25 +478,29 @@ extraSprites:
       5032: Resources/BallisticWeapons/Snipers/BigVSSVintorez20.png
       5040: Resources/BallisticWeapons/Snipers/BigAIAWnomag.png
       5041: Resources/BallisticWeapons/Snipers/BigAIAW.png
+      5044: Resources/BallisticWeapons/Snipers/BigAIAWdeployednomag.png
+      5045: Resources/BallisticWeapons/Snipers/BigAIAWdeployed.png
       5050: Resources/BallisticWeapons/Snipers/BigM82nomag.png
       5051: Resources/BallisticWeapons/Snipers/BigM825.png
       5052: Resources/BallisticWeapons/Snipers/BigM82.png
+      5054: Resources/BallisticWeapons/Snipers/BigM82deployednomag.png
+      5055: Resources/BallisticWeapons/Snipers/BigM82deployed5.png
+      5056: Resources/BallisticWeapons/Snipers/BigM82deployed.png
       5070: Resources/BallisticWeapons/Snipers/BigMSG90nomag.png
       5071: Resources/BallisticWeapons/Snipers/BigMSG905.png
       5072: Resources/BallisticWeapons/Snipers/BigMSG90nomag.png
       5073: Resources/BallisticWeapons/Snipers/BigMSG90.png
+      5074: Resources/BallisticWeapons/Snipers/BigMSG90deployednomag.png
+      5075: Resources/BallisticWeapons/Snipers/BigMSG90deployed5.png
+      5076: Resources/BallisticWeapons/Snipers/BigMSG90deployednomag.png
+      5077: Resources/BallisticWeapons/Snipers/BigMSG90deployed.png
       5080: Resources/BallisticWeapons/Snipers/BigAWPnomag.png
       5081: Resources/BallisticWeapons/Snipers/BigAWPnomag.png
       5082: Resources/BallisticWeapons/Snipers/BigAWP.png
       5090: Resources/BallisticWeapons/Snipers/BigTRGfoldednomag.png
       5091: Resources/BallisticWeapons/Snipers/BigTRGfolded.png
-      5092: Resources/BallisticWeapons/Snipers/BigTRGfolded.png
-      5093: Resources/BallisticWeapons/Snipers/BigTRGfolded.png
       5094: Resources/BallisticWeapons/Snipers/BigTRGnomag.png
       5095: Resources/BallisticWeapons/Snipers/BigTRG.png
-      5096: Resources/BallisticWeapons/Snipers/BigTRG.png
-      5097: Resources/BallisticWeapons/Snipers/BigTRG.png
-      5098: Resources/BallisticWeapons/Snipers/BigTRG.png
       5100: Resources/BallisticWeapons/Snipers/BigDragunovnomag.png
       5101: Resources/BallisticWeapons/Snipers/BigDragunov.png
       # 3720: Resources/BallisticWeapons/Snipers/BigOSV-96nomag.png
@@ -528,14 +532,22 @@ extraSprites:
      
       7000: Resources/BallisticWeapons/LMGs/BigM60nomag.png
       7001: Resources/BallisticWeapons/LMGs/BigM60.png
+      7004: Resources/BallisticWeapons/LMGs/BigM60deployednomag.png
+      7005: Resources/BallisticWeapons/LMGs/BigM60deployed.png
       7010: Resources/BallisticWeapons/LMGs/BigFNMiniminomag.png
       7011: Resources/BallisticWeapons/LMGs/BigFNMinimi30.png
       7012: Resources/BallisticWeapons/LMGs/BigFNMinimi.png
+      7014: Resources/BallisticWeapons/LMGs/BigFNMinimideployednomag.png
+      7015: Resources/BallisticWeapons/LMGs/BigFNMinimideployed30.png
+      7016: Resources/BallisticWeapons/LMGs/BigFNMinimideployed.png
       7020: Resources/BallisticWeapons/LMGs/BigFNMAG.png
       7021: Resources/BallisticWeapons/LMGs/BigFNMAG100.png
       7030: Resources/BallisticWeapons/LMGs/BigRPK-74Mnomag.png
       7031: Resources/BallisticWeapons/LMGs/BigRPK-74M.png
       7032: Resources/BallisticWeapons/LMGs/BigRPK-74M45.png
+      7034: Resources/BallisticWeapons/LMGs/BigRPK-74Mdeployednomag.png
+      7035: Resources/BallisticWeapons/LMGs/BigRPK-74Mdeployed.png
+      7036: Resources/BallisticWeapons/LMGs/BigRPK-74Mdeployed45.png
       # 3848: Resources/BallisticWeapons/LMGs/BigNegevnomag.png
       # 3856: Resources/BallisticWeapons/LMGs/BigNegev.png
       # 3864: Resources/BallisticWeapons/LMGs/BigNegev.png
@@ -550,7 +562,7 @@ extraSprites:
       8000: Resources/BallisticWeapons/Artillery/BigM320.png
       8010: Resources/BallisticWeapons/Artillery/BigRPGnomag.png
       8011: Resources/BallisticWeapons/Artillery/BigRPG.png
+      8020: Resources/BallisticWeapons/Artillery/BigCarlGustafM4.png
       # 3872: Resources/BallisticWeapons/Artillery/BigGM-94.png
       # 3880: Resources/BallisticWeapons/Artillery/BigRPG-29.png
       # 1960: Resources/BallisticWeapons/Artillery/BigMGL.png
-      # 1968: Resources/BallisticWeapons/Artillery/BigCarlGustafM4.png

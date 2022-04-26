@@ -283,61 +283,69 @@ ufopaedia:
     listOrder: 28
 
   - id: STR_TASER
-    type_id: 4
+    type_id: 14
+    image_id: TASER.SPK
     text: STR_TASER_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 197
 
   - id: STR_P226
-    type_id: 4
+    type_id: 14
+    image_id: P226.SPK
     text: STR_P226_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 198
 
   - id: STR_GLOCK_17
-    type_id: 4
+    type_id: 14
+    image_id: GLOCK17.SPK
     text: STR_GLOCK_17_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 199
 
   - id: STR_GLOCK_18
-    type_id: 4
+    type_id: 14
+    image_id: GLOCK18.SPK
     text: STR_GLOCK_18_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 200
 
   - id: STR_GLOCK_18_STOCK
-    type_id: 4
+    type_id: 14
+    image_id: GLOCK18STOCK.SPK
     text: STR_GLOCK_18_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 201
 
-  - id: STR_M1911
-    type_id: 4
-    text: STR_M1911_UFOPAEDIA
-    section: STR_PISTOLS
-    listOrder: 202
+  # - id: STR_M1911
+  #   type_id: 4
+  #   text: STR_M1911_UFOPAEDIA
+  #   section: STR_PISTOLS
+  #   listOrder: 202
 
   - id: STR_FIVE_SEVEN
-    type_id: 4
+    type_id: 14
+    image_id: FIVESEVEN.SPK
     text: STR_FIVE_SEVEN_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 203
 
-  - id: STR_MK_23
-    type_id: 4
-    text: STR_MK_23_UFOPAEDIA
-    section: STR_PISTOLS
-    listOrder: 204
+  # - id: STR_MK_23
+  #   type_id: 4
+  #   text: STR_MK_23_UFOPAEDIA
+  #   section: STR_PISTOLS
+  #   listOrder: 204
 
   - id: STR_MAKAROV
-    type_id: 4
+    type_id: 14
+    image_id: MAKAROV.SPK
     text: STR_MAKAROV_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 205
 
   - id: STR_MANHURIN
-    type_id: 4
+    type_id: 14
+    image_id: MANHURIN.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_MANHURIN_UFOPAEDIA
@@ -345,7 +353,8 @@ ufopaedia:
     listOrder: 206
 
   - id: STR_VEKTOR
-    type_id: 4
+    type_id: 14
+    image_id: VEKTOR.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_VEKTOR_UFOPAEDIA
@@ -353,7 +362,8 @@ ufopaedia:
     listOrder: 207
 
   - id: STR_STETCKIN
-    type_id: 4
+    type_id: 14
+    image_id: STETCHKIN.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_STETCKIN_UFOPAEDIA
@@ -361,288 +371,203 @@ ufopaedia:
     listOrder: 208
 
   - id: STR_TEC_9
-    type_id: 4
+    type_id: 14
+    image_id: TEC9.SPK
     text: STR_TEC_9_UFOPAEDIA
     section: STR_SMGS
     listOrder: 300
 
   - id: STR_SKORPION
-    type_id: 4
+    type_id: 14
+    image_id: SKORPION.SPK
     text: STR_SKORPION_UFOPAEDIA
     section: STR_SMGS
     listOrder: 301
 
   - id: STR_MP5
-    type_id: 4
+    type_id: 14
+    image_id: MP5.SPK
     text: STR_MP5_UFOPAEDIA
     section: STR_SMGS
     listOrder: 302
 
-  - id: STR_MPX
-    type_id: 4
-    text: STR_MPX_UFOPAEDIA
-    section: STR_SMGS
-    listOrder: 303
+  # - id: STR_MPX
+  #   type_id: 4
+  #   text: STR_MPX_UFOPAEDIA
+  #   section: STR_SMGS
+  #   listOrder: 303
 
   - id: STR_P90
-    type_id: 4
+    type_id: 14
+    image_id: P90.SPK
     text: STR_P90_UFOPAEDIA
     section: STR_SMGS
     listOrder: 304
 
-  - id: STR_UZI
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_UZI_UFOPAEDIA
-    section: STR_SMGS
-    listOrder: 305
+  # - id: STR_UZI
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_UZI_UFOPAEDIA
+  #   section: STR_SMGS
+  #   listOrder: 305
 
-  - id: STR_UMP
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_UMP_UFOPAEDIA
-    section: STR_SMGS
-    listOrder: 306
+  # - id: STR_UMP
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_UMP_UFOPAEDIA
+  #   section: STR_SMGS
+  #   listOrder: 306
 
   - id: STR_VITYAZ
-    type_id: 4
+    type_id: 14
+    image_id: VITYAZ.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_VITYAZ_UFOPAEDIA
     section: STR_SMGS
     listOrder: 307
 
-  - id: STR_VERSEK
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_VERSEK_UFOPEDIA
-    section: STR_SMGS
-    listOrder: 308
+  # - id: STR_VERSEK
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_VERSEK_UFOPEDIA
+  #   section: STR_SMGS
+  #   listOrder: 308
 
-  - id: STR_TAVOR
-    type_id: 4
-    text: STR_TAVOR_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 400
+  # - id: STR_TAVOR
+  #   type_id: 4
+  #   text: STR_TAVOR_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 400
 
-  - id: STR_TAVOR_SCOPED
-    type_id: 4
-    text: STR_TAVOR_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 401
+  # - id: STR_TAVOR_M203
+  #   type_id: 4
+  #   text: STR_TAVOR_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 402
 
-  - id: STR_TAVOR_M203
-    type_id: 4
-    text: STR_TAVOR_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 402
+  # - id: STR_TAVOR_95X
+  #   type_id: 4
+  #   text: STR_TAVOR_95X_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 403
 
-  - id: STR_TAVOR_95X
-    type_id: 4
-    text: STR_TAVOR_95X_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 403
+  # - id: STR_M4
+  #   type_id: 4
+  #   text: STR_M4_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 405
 
-  - id: STR_TAVOR_95X_SCOPED
-    type_id: 4
-    text: STR_TAVOR_95X_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 404
+  # - id: STR_M4_M320
+  #   type_id: 4
+  #   text: STR_M4_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 407
 
-  - id: STR_M4
-    type_id: 4
-    text: STR_M4_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 405
+  # - id: STR_M4_UBS
+  #   type_id: 4
+  #   text: STR_M4_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 408
 
-  - id: STR_M4_SOPMOD
-    type_id: 4
-    text: STR_M4_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 406
+  # - id: STR_M4A1
+  #   type_id: 4
+  #   text: STR_M4A1_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 409
 
-  - id: STR_M4_M320
-    type_id: 4
-    text: STR_M4_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 407
+  # - id: STR_M4A1_M320
+  #   type_id: 4
+  #   text: STR_M4A1_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 411
 
-  - id: STR_M4_UBS
-    type_id: 4
-    text: STR_M4_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 408
-
-  - id: STR_M4A1
-    type_id: 4
-    text: STR_M4A1_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 409
-
-  - id: STR_M4A1_SOPMOD
-    type_id: 4
-    text: STR_M4A1_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 410
-
-  - id: STR_M4A1_M320
-    type_id: 4
-    text: STR_M4A1_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 411
-
-  - id: STR_M4A1_UBS
-    type_id: 4
-    text: STR_M4A1_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 412
+  # - id: STR_M4A1_UBS
+  #   type_id: 4
+  #   text: STR_M4A1_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 412
 
   - id: STR_AK12
-    type_id: 4
+    type_id: 14
+    image_id: AK12.SPK
     text: STR_AK12_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 413
 
-  - id: STR_AK12_SCOPED
-    type_id: 4
-    text: STR_AK12_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 414
-
   - id: STR_AK15
-    type_id: 4
+    type_id: 14
+    image_id: AK15.SPK
     text: STR_AK15_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 415
 
-  - id: STR_AK15_SCOPED
-    type_id: 4
-    text: STR_AK15_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 416
-
   - id: STR_FAMAS
-    type_id: 4
+    type_id: 14
+    image_id: FAMAS.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 417
 
-  - id: STR_FAMAS_SCOPED
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_FAMAS_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 418
-
   - id: STR_G36
-    type_id: 4
+    type_id: 14
+    image_id: G36.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 419
 
-  - id: STR_G36_AG
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_G36_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 420
-
   - id: STR_HK416
-    type_id: 4
+    type_id: 14
+    image_id: HK416.SPK
     text: STR_HK416_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 421
 
-  - id: STR_HK416_SOPMOD
-    type_id: 4
-    text: STR_HK416_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 422
-
-  - id: STR_HK416_M320
-    type_id: 4
-    text: STR_HK416_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 423
-
-  - id: STR_HK416_UBS
-    type_id: 4
-    text: STR_HK416_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 424
-
   - id: STR_HK417
-    type_id: 4
+    type_id: 14
+    image_id: HK417.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 425
 
-  - id: STR_HK417_SCOPED
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_HK417_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 426
+  # - id: STR_FX_05
+  #   type_id: 4
+  #   text: STR_FX_05_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 427
 
-  - id: STR_FX_05
-    type_id: 4
-    text: STR_FX_05_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 427
+  # - id: STR_SCAR_L
+  #   type_id: 4
+  #   text: STR_SCAR_L_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 429
 
-  - id: STR_FX_05_SCOPED
-    type_id: 4
-    text: STR_FX_05_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 428
+  # - id: STR_SCAR_L_GL
+  #   type_id: 4
+  #   text: STR_SCAR_L_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 431
 
-  - id: STR_SCAR_L
-    type_id: 4
-    text: STR_SCAR_L_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 429
+  # - id: STR_SCAR_H
+  #   type_id: 4
+  #   text: STR_SCAR_H_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 432
 
-  - id: STR_SCAR_L_SOPMOD
-    type_id: 4
-    text: STR_SCAR_L_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 430
-
-  - id: STR_SCAR_L_GL
-    type_id: 4
-    text: STR_SCAR_L_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 431
-
-  - id: STR_SCAR_H
-    type_id: 4
-    text: STR_SCAR_H_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 432
-
-  - id: STR_SCAR_H_SOPMOD
-    type_id: 4
-    text: STR_SCAR_H_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 433
-
-  - id: STR_SCAR_H_GL
-    type_id: 4
-    text: STR_SCAR_H_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 434
+  # - id: STR_SCAR_H_GL
+  #   type_id: 4
+  #   text: STR_SCAR_H_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 434
 
   - id: STR_G11
     type_id: 4
@@ -650,56 +575,61 @@ ufopaedia:
     section: STR_RIFLES
     listOrder: 435
 
-  - id: STR_SR_3
-    type_id: 4
-    text: STR_SR_3_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 436
+  # - id: STR_SR_3
+  #   type_id: 4
+  #   text: STR_SR_3_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 436
 
-  - id: STR_SR_3_ONE_HANDED
-    type_id: 4
-    text: STR_SR_3_ONE_HANDED_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 437
+  # - id: STR_SR_3_ONE_HANDED
+  #   type_id: 4
+  #   text: STR_SR_3_ONE_HANDED_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 437
 
-  - id: STR_M16A2
-    type_id: 4
-    text: STR_M16A2_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 438
+  # - id: STR_M16A2
+  #   type_id: 4
+  #   text: STR_M16A2_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 438
 
   - id: STR_AR_18
-    type_id: 4
+    type_id: 14
+    image_id: AR18.SPK
     text: STR_AR_18_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 439
 
-  - id: STR_AR_180
-    type_id: 4
-    text: STR_AR_180_UFOPAEDIA
-    section: STR_RIFLES
-    listOrder: 440
+  # - id: STR_AR_180
+  #   type_id: 4
+  #   text: STR_AR_180_UFOPAEDIA
+  #   section: STR_RIFLES
+  #   listOrder: 440
 
   - id: STR_AKM
-    type_id: 4
+    type_id: 14
+    image_id: AKM.SPK
     text: STR_AKM_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 441
 
   - id: STR_AK_74
-    type_id: 4
+    type_id: 14
+    image_id: AK74.SPK
     text: STR_AK_74_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 442
 
   - id: STR_FN_FAL_SCOPED
-    type_id: 4
+    type_id: 14
+    image_id: FNFAL.SPK
     text: STR_FN_FAL_SCOPED_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 443
 
   - id: STR_G3
-    type_id: 4
+    type_id: 14
+    image_id: G3.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_G3_UFOPAEDIA
@@ -707,97 +637,110 @@ ufopaedia:
     listOrder: 444
 
   - id: STR_HUNTING_RIFLE
-    type_id: 4
+    type_id: 14
+    image_id: HUNTINGRIFLE.SPK
     text: STR_HUNTING_RIFLE_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 500
 
   - id: STR_SKS_SCOPED
-    type_id: 4
+    type_id: 14
+    image_id: SKS.SPK
     text: STR_SKS_SCOPED_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 501
 
   - id: STR_PSG_1
-    type_id: 4
+    type_id: 14
+    image_id: PSG1.SPK
     text: STR_PSG_1_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 502
 
   - id: STR_MSG_90
-    type_id: 4
+    type_id: 14
+    image_id: MSG90.SPK
     text: STR_MSG_90_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 503
 
   - id: STR_VSS
-    type_id: 4
+    type_id: 14
+    image_id: VSS.SPK
     text: STR_VSS_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 504
 
   - id: STR_DRAGUNOV
-    type_id: 4
+    type_id: 14
+    image_id: DRAGUNOV.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_DRAGUNOV_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 505
 
-  - id: STR_OSV_96
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_OSV_96_UFOPAEDIA
-    section: STR_SNIPERS
-    listOrder: 506
+  # - id: STR_OSV_96
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_OSV_96_UFOPAEDIA
+  #   section: STR_SNIPERS
+  #   listOrder: 506
 
   - id: STR_SAKO_TRG
-    type_id: 4
+    type_id: 14
+    image_id: TRG.SPK
     text: STR_SAKO_TRG_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 507
 
   - id: STR_AWP
-    type_id: 4
+    type_id: 14
+    image_id: AWP.SPK
     text: STR_AWP_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 508
 
   - id: STR_AW
-    type_id: 4
+    type_id: 14
+    image_id: AIAW.SPK
     text: STR_AW_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 509
 
-  - id: STR_M24_SWS
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_M24_SWS_UFOPAEDIA
-    section: STR_SNIPERS
-    listOrder: 510
+  # - id: STR_M24_SWS
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_M24_SWS_UFOPAEDIA
+  #   section: STR_SNIPERS
+  #   listOrder: 510
 
   - id: STR_M82
-    type_id: 4
+    type_id: 14
+    image_id: M82.SPK
     text: STR_M82_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 511
 
   - id: STR_DOUBLE_BARREL
-    type_id: 4
+    type_id: 14
+    image_id: DOUBLEBARREL.SPK
     text: STR_DOUBLE_BARREL_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 600
 
   - id: STR_REMINGTON
-    type_id: 4
+    type_id: 14
+    image_id: REMINGTON.SPK
     text: STR_REMINGTON_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 601
 
   - id: STR_SPAS_12
-    type_id: 4
+    type_id: 14
+    image_id: SPAS12.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_SPAS_12_UFOPAEDIA
@@ -805,31 +748,34 @@ ufopaedia:
     listOrder: 602
 
   - id: STR_KS_23
-    type_id: 4
+    type_id: 14
+    image_id: KS23.SPK
     text: STR_KS_23_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 603
 
-  - id: STR_AA_12
-    type_id: 4
-    text: STR_AA_12_UFOPAEDIA
-    section: STR_SHOTGUNS
-    listOrder: 604
+  # - id: STR_AA_12
+  #   type_id: 4
+  #   text: STR_AA_12_UFOPAEDIA
+  #   section: STR_SHOTGUNS
+  #   listOrder: 604
 
-  - id: STR_USAS_12
-    type_id: 4
-    text: STR_USAS_12_UFOPAEDIA
-    section: STR_SHOTGUNS
-    listOrder: 605
+  # - id: STR_USAS_12
+  #   type_id: 4
+  #   text: STR_USAS_12_UFOPAEDIA
+  #   section: STR_SHOTGUNS
+  #   listOrder: 605
 
   - id: STR_ORIGIN_12
-    type_id: 4
+    type_id: 14
+    image_id: ORIGIN12.SPK
     text: STR_ORIGIN_12_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 606
 
   - id: STR_SAIGA_12
-    type_id: 4
+    type_id: 14
+    image_id: SAIGA12.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_SAIGA_12_UFOPAEDIA
@@ -838,86 +784,99 @@ ufopaedia:
 
 
   - id: STR_M60
-    type_id: 4
+    type_id: 14
+    image_id: M60.SPK
     text: STR_M60_UFOPAEDIA
     section: STR_LMGS
     listOrder: 700
 
-  - id: STR_M249
-    type_id: 4
-    text: STR_M249_UFOPAEDIA
+  # - id: STR_M249
+  #   type_id: 4
+  #   text: STR_M249_UFOPAEDIA
+  #   section: STR_LMGS
+  #   listOrder: 701
+  - id: STR_FN_MAG
+    type_id: 14
+    image_id: FNMAG.SPK
+    requires:
+     - STR_UNOBTAINABLE
+    text: STR_FN_MAG_UFOPAEDIA
     section: STR_LMGS
     listOrder: 701
 
   - id: STR_FN_MINIMI
-    type_id: 4
+    type_id: 14
+    image_id: FNMINIMI.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_FN_MINIMI_UFOPAEDIA
     section: STR_LMGS
     listOrder: 702
 
-  - id: STR_MK_48
-    type_id: 4
-    text: STR_MK_48_UFOPAEDIA
-    section: STR_LMGS
-    listOrder: 703
+  # - id: STR_MK_48
+  #   type_id: 4
+  #   text: STR_MK_48_UFOPAEDIA
+  #   section: STR_LMGS
+  #   listOrder: 703
 
   - id: STR_RPK_74
-    type_id: 4
+    type_id: 14
+    image_id: RPK74M.SPK
     requires:
      - STR_UNOBTAINABLE
     text: STR_RPK_74_UFOPAEDIA
     section: STR_LMGS
     listOrder: 704
 
-  - id: STR_PECHENEG
-    type_id: 4
-    text: STR_PECHENEG_UFOPAEDIA
-    section: STR_LMGS
-    listOrder: 705
+  # - id: STR_PECHENEG
+  #   type_id: 4
+  #   text: STR_PECHENEG_UFOPAEDIA
+  #   section: STR_LMGS
+  #   listOrder: 705
 
-  - id: STR_NEGEV
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_NEGEV_UFOPAEDIA
-    section: STR_LMGS
-    listOrder: 706
+  # - id: STR_NEGEV
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_NEGEV_UFOPAEDIA
+  #   section: STR_LMGS
+  #   listOrder: 706
 
-  - id: STR_MGL
-    type_id: 4
-    text: STR_MGL_UFOPAEDIA
-    section: STR_ARTILLERY
-    listOrder: 801
+  # - id: STR_MGL
+  #   type_id: 4
+  #   text: STR_MGL_UFOPAEDIA
+  #   section: STR_ARTILLERY
+  #   listOrder: 801
 
-  - id: STR_GM_94
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_GM_94_UFOPAEDIA
-    section: STR_ARTILLERY
-    listOrder: 802
+  # - id: STR_GM_94
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_GM_94_UFOPAEDIA
+  #   section: STR_ARTILLERY
+  #   listOrder: 802
 
   - id: STR_GUSTAF
-    type_id: 4
+    type_id: 14
+    image_id: CARLGUSTAF.SPK
     text: STR_GUSTAF_UFOPAEDIA
     section: STR_ARTILLERY
     listOrder: 803
 
   - id: STR_RPG
-    type_id: 4
+    type_id: 14
+    image_id: RPG7.SPK
     text: STR_RPG_UFOPAEDIA
     section: STR_ARTILLERY
     listOrder: 804
 
-  - id: STR_RPG-29
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_RPG-29_UFOPAEDIA
-    section: STR_ARTILLERY
-    listOrder: 805
+  # - id: STR_RPG-29
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_RPG-29_UFOPAEDIA
+  #   section: STR_ARTILLERY
+  #   listOrder: 805
 
   - id: STR_TASER_X1
     type_id: 4
@@ -1387,7 +1346,8 @@ ufopaedia:
     listOrder: 1110
 
   - id: STR_M320
-    type_id: 4
+    type_id: 14
+    image_id: M320.SPK
     text: STR_M320_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1111
@@ -1506,6 +1466,358 @@ ufopaedia:
     text: STR_MELEE_ATTACKS_UFOPAEDIA
     section: STR_MANUAL
     listOrder: 1302
+
+extraSprites:
+
+  - type: GLOCK17.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/glock17.png
+
+  - type: GLOCK18.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/glock18.png
+      
+  - type: GLOCK18STOCK.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/glock18stock.png
+      
+  - type: TASER.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/TASER.png
+      
+  - type: P226.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/P226.png
+      
+  - type: FIVESEVEN.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/FiveSeven.png
+      
+  - type: MAKAROV.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/Makarov.png
+      
+  - type: MANHURIN.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/Manhurin.png
+      
+  - type: VEKTOR.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/VEKTOR.png
+      
+  - type: STETCHKIN.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/STETCHKIN.png
+      
+  - type: TEC9.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/TEC9.png
+
+  - type: SKORPION.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/SCORPION.png
+
+  - type: MP5.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/MP5.png
+      
+  - type: P90.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/P90.png
+      
+  - type: VITYAZ.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/VITYAZ.png
+      
+  - type: AK12.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AK12.png
+      
+  - type: AK15.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AK15.png
+      
+  - type: FAMAS.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/FAMAS.png
+      
+  - type: G36.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/G36.png
+      
+  - type: HK416.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/HK416.png
+      
+  - type: HK417.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/HK417.png
+      
+  - type: AR18.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AR18.png
+
+  - type: AKM.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AKM.png
+
+  - type: AK74.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AK74.png
+      
+  - type: FNFAL.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/FNFAL.png
+      
+  - type: G3.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/G3.png
+      
+  - type: HUNTINGRIFLE.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/HUNTINGRIFLE.png
+      
+  - type: SKS.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/SKS.png
+      
+  - type: PSG1.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/PSG1.png
+      
+  - type: MSG90.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/MSG90.png
+      
+  - type: VSS.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/VSS.png
+      
+  - type: DRAGUNOV.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/DRAGUNOV.png
+      
+  - type: TRG.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/TRG.png
+
+  - type: AWP.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AWP.png
+
+  - type: AIAW.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AIAW.png
+      
+  - type: M82.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/M82.png
+      
+  - type: DOUBLEBARREL.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/DOUBLEBARREL.png
+      
+  - type: REMINGTON.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/REMINGTON.png
+      
+  - type: SPAS12.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/SPAS12.png
+      
+  - type: KS23.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/KS23.png
+      
+  - type: ORIGIN12.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/ORIGIN12.png
+      
+  - type: SAIGA12.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/SAIGA12.png
+      
+  - type: M60.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/M60.png
+      
+  - type: FNMAG.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/FNMAG.png
+
+  - type: FNMINIMI.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/FNMINIMI.png
+
+  - type: RPK74M.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/RPK74M.png
+
+  - type: FNFAL.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/FNFAL.png
+      
+  - type: CARLGUSTAF.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/CARLGUSTAF.png
+      
+  - type: RPG7.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/RPG7.png
+      
+  - type: M320.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/M320.png
 
 
 extraStrings:

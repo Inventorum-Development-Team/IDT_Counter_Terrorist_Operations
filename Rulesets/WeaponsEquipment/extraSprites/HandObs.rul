@@ -195,7 +195,7 @@ extraSprites:
 
       8000: Resources/BallisticWeapons/Artillery/handM320.png
       8010: Resources/BallisticWeapons/Artillery/handRPG.png
+      8020: Resources/BallisticWeapons/Artillery/handCarlGustafM4.png
       # 3872: Resources/BallisticWeapons/Artillery/handGM-94.png
       # 3880: Resources/BallisticWeapons/Artillery/handRPG-29.png
       # 1960: Resources/BallisticWeapons/Artillery/handMGL.png
-      # 1968: Resources/BallisticWeapons/Artillery/handCarlGustafM4.png
