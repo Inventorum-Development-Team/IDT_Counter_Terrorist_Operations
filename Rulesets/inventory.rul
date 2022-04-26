@@ -75,9 +75,3 @@ extraSprites:
   - type: BIGOBS.PCK
     files:
        2990: Resources/Inv/No_Backpack.png
-
-extraStrings:
-  - type: en-US
-    strings:
-      STR_QD_SLOT: "Q-D"
-      STR_NO_BACKPACK: ""

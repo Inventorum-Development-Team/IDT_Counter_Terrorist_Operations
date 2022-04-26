@@ -1640,37 +1640,3 @@ extraSprites:
       3058: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
       3059: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
       3060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_FLOOROB.png
-
-
-
-extraStrings:
-  - type: en-US
-    strings:
-      STR_TERRORIST_CORPSE: "Rifleman Corpse"
-      STR_GRUNT_CORPSE: "Grunt Corpse"
-      STR_GASMASK_CORPSE: "Raider Corpse"
-      STR_GRENADIER_CORPSE: "Grenadier Corpse"
-      STR_TERRORIST_COMMANDER_CORPSE: "Commander Corpse"
-      STR_TERRORIST_LEADER_CORPSE: "Leader Corpse"
-      STR_PR_CORPSE: "Guard Corpse"
-      STR_BLUE_PR_CORPSE: "Guard Corpse"
-      STR_GRAY_PR_CORPSE: "Guard Corpse"
-      STR_PR_HEAVY_CORPSE: "Heavy Guard Corpse"
-
-      STR_TERRORIST_GRENADIER: "Terrorist Grenadier"
-      STR_TERRORIST_SNIPER: "Terrorist Sniper"
-      STR_TERRORIST_SAW: "Terrorist Gunner"
-      STR_TERRORIST_RIFLEMAN: "Terrorist Rifleman"
-      STR_TERRORIST_RAIDER: "Terrorist Raider"
-      STR_TERRORIST_GRUNT: "Terrorist Grunt"
-      STR_TERRORIST_COMMANDER: "Terrorist Commander"
-      STR_TERRORIST_LEADER: "Terrorist Leader"
-
-      STR_PR_GRUNT: "Guard Grunt"
-      STR_PR_HEAVY: "Guard Heavy"
-      STR_PR_SHIELD: "Guard Pointman"
-      STR_PR_SAW: "Guard Gunner"
-      STR_PR_SNIPER: "Guard Sniper"
-      STR_PR_LEADER: "Guard Leader"
-      STR_PR_RIFLEMAN: "Guard Rifleman"
-

@@ -520,31 +520,8 @@ alienDeployments:
          dQty: 1
          itemSets:
           - []
-extraStrings:
-  - type: en-US
-    strings:
 
-      STR_TERRORIST_ATTACK: "Terrorist Attack"
-      STR_PLANE_HIJACK: "Plane Hijacking"
-      STR_HOUSE_RAID: "Safe-House Raid"
-      STR_MAJOR_ATTACK: "Major Attack"
-      STR_HOSTAGE_SITUATION: "Hostage Situation"
-      STR_HIDEOUT_RAID: "Hideout Raid"
-      STR_OFFICE_RAID: "Office Raid"
-      STR_SKY_SCRAPER: "Skyscraper Raid"
 
-      STR_HOUSE_EVIDENCE: "Safehouse Evidence"
-      STR_HIDEOUT_EVIDENCE: "Hideout Evidence"
-      STR_OFFICE_EVIDENCE: "Office Evidence"
-
-      STR_TERROR_ATTACK_BRIEFING: "Local police have alerted us to an ongoing terror attack. The Area has been cordoned off and while local police has skirmished against the perpetrators, multiple hostiles still remain. Civilian evacuation efforts are ongoing, but some civilians might still remain in the area of operations."
-      STR_PLANE_HIJACKING_BRIEFING: "Government entities have called us to deal with a plane hijacking. While negotiations with the perpetrators are ongoing, a peaceful resolution has been judged unlikely to happen and an assault has been ordered. Our Assault team will be approaching along the runway, trying to utilize the planes blind spots to get as close as possible while undetected. There are civilians inside the plane, so extreme care must be taken to avoid them getting hit in the crossfire."
-      STR_HOUSE_RAID_BRIEFING: "Our Intelligence division has located a locale suspected to be used as a safehouse for a local terrorist cell and confirmed the presence of known suspects and their accomplishes. A raid of the building has been authorized. Weapons have been confirmed to be on the property so resistance is expected. The nearby area has been covertly cordoned of so no civilians will be in the area of operations."
-      STR_MAJOR_ATTACK_BRIEFING: "A major terrorist attack is ongoing and we've been called in to assist. Local police has been overwhelmed and efforts to contain the attack have mostly been unsuccessful. Multiple civilians are still in the area. It is integral that we stop the attack as failure would have disastrous consequences."
-      STR_HOSTAGE_SITUATION_BRIEFING: "We've been called to assist in a hostage situation. Multiple perpetrators have barricaded themselves into a building along with multiple hostages. After unsuccessful negotiations gunfire has been heard from inside the building and an assault has been ordered. Speed is of the essence as the lives of the hostages are in danger, rescue them or the operation will be considered a failure."
-      STR_HIDEOUT_RAID_BRIEFING: "Intelligence has discovered the main hideout of a terrorist cell. After careful preparation an assault has been authorized. The amount of suspects in the area is uncertain, but suspected to be large. The presence of heavy weaponry such as rocket launchers and machine guns has also been confirmed. The assault on the building will likely be perilous so precaution is advised."
-      STR_OFFICE_RAID_BRIEFING: "After Local police were fired upon by private security when they were trying to seize documents for evidence we've been called in to raid the premises. Be warned, the private security forces are well equipped and trained, they should not be underestimated. Excessive firepower should be avoided as there is both civilians still located in the offices and vital evidence that must not be destroyed."
-      STR_SKYSCRAPER_RAID_BRIEFING: "This is it, the headquarters of the shell company behind the funding of the terrorist cells. The skyscraper is filled to the brim with security forces and taking it will be a significant effort. Failure is not an option, the evidence required to find and convict those behind the attacks is in the building and we cannot afford to let it be destroyed."
 
 
     

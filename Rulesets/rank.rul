@@ -27,13 +27,3 @@ extraSprites:
       803: Resources/SoldiersAndArmors/RankSprites/Rank_3_C.png
       804: Resources/SoldiersAndArmors/RankSprites/Rank_4_C.png
       805: Resources/SoldiersAndArmors/RankSprites/Rank_5_C.png
-
-extraStrings:
-  - type: en-US
-    strings:
-       STR_RANK_0: "Private"
-       STR_RANK_1: "Corporal"
-       STR_RANK_2: "Sergeant"
-       STR_RANK_3: "Second Lieutenant"
-       STR_RANK_4: "First Lieutenant"
-       STR_RANK_5: "Captain"

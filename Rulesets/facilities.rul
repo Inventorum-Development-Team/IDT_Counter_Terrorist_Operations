@@ -66,12 +66,3 @@ facilities:
     mapName: XBASE_16
     spriteShape: 9
     spriteFacility: 9
-
-
-extraStrings:
-  - type: en-US
-    strings:
-     STR_HANGAR: "Garage"
-     STR_ALIEN_CONTAINMENT: "Prison Cells"
-     STR_LABORATORY: "Intelligence Center"
-     STR_WORKSHOP: "Armory"
