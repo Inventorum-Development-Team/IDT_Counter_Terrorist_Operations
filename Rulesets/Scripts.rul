@@ -730,29 +730,7 @@ extended:
           end;
           return;
 
-    #  reactionWeaponAction: #Jamming Script (doesn't work)
-    #     - offset: 1
-    #       code: |
-    #        var int chance;
-    #        var int random;
-    #        var int total;
-    #        BattleItem.getTag weapon chance Tag.JammChance;
-    #        if gt chance 0;
-    #         set total 1000;
-    #         sub total chance;
-    #         BattleGame.randomRange battle_game random 0 1000;
-    #         debug_log random;
-    #         if gt random total;
-    #          BattleItem.setAmmoQuantity weapon 0;
-    #          BattleGame.flashMessage battle_game "STR_JAMMED";
-    #          end;
-    #         end;
-    #         return reaction_chance;
 
-            
-           
-           
-            
      selectItemSprite: #Switches between weapon sprites depending on ammo
        - offset: 1
          code: |
