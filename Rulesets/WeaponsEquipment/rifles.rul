@@ -1690,7 +1690,7 @@ items:
         tuUnload: 15
     listOrder: 6210
 
-  - type: STR_FN_FAL_SCOPED
+  - type: STR_FN_FAL
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     #    requiresBuy:
     size: 1

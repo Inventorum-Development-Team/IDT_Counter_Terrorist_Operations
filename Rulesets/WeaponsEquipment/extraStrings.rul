@@ -147,7 +147,7 @@ extraStrings:
       STR_AR_180: "AR-180"
       STR_AKM: "AKM"
       STR_AK_74: "AK-74"
-      STR_FN_FAL_SCOPED: "FN FAL (Scoped)"
+      STR_FN_FAL: "FN FAL"
       STR_G3: "G3"
 
       ###SNIPERS###

@@ -365,7 +365,7 @@ items:
   - type: STR_AK_74 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_FN_FAL_SCOPED #ignoreDuplicate
+  - type: STR_FN_FAL #ignoreDuplicate
     tags:
      AmmoReSprite: 1
   - type: STR_G3 #ignoreDuplicate

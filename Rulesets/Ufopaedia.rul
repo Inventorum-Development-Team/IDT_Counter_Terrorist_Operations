@@ -620,10 +620,10 @@ ufopaedia:
     section: STR_RIFLES
     listOrder: 442
 
-  - id: STR_FN_FAL_SCOPED
+  - id: STR_FN_FAL
     type_id: 14
     image_id: FNFAL.SPK
-    text: STR_FN_FAL_SCOPED_UFOPAEDIA
+    text: STR_FN_FAL_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 443
 
@@ -1877,7 +1877,7 @@ extraStrings:
       STR_AR_180_UFOPAEDIA: "The AR-180 is the civilian variant of the AR-18. While it is easily obtainable by civilians it lacks the firepower of military assault rifles. Nevertheless it should not be underestimated, as it still fires 5.56 cartridges."
       STR_AKM_UFOPAEDIA: "The AKM is the modernized variant of the AK-47. Like its predecessor the rifle is extremely reliable and durable, and it has found excessive use in nation affiliated with the Soviet Union during the cold war."
       STR_AK_74_UFOPAEDIA: "The AK-74 was designed as a replacement for the AKM. Firing the smaller 5.45x39mm cartridge (replacing the Soviet 7.62x39mm) the rifle sacrificed some of its firepower in exchange of less recoil."
-      STR_FN_FAL_SCOPED_UFOPAEDIA: "The FN FAL is one of the most widely used assault rifles. Used during the early cold war by many countries within NATO and other nations friendly with the alliance, due to this the rifle has gained the nickname The right arm of the free world"
+      STR_FN_FAL_UFOPAEDIA: "The FN FAL is one of the most widely used assault rifles. Used during the early cold war by many countries within NATO and other nations friendly with the alliance, due to this the rifle has gained the nickname The right arm of the free world"
       STR_G3_UFOPAEDIA: "A battle rifle designed by Heckler & Koch and CETME. The G3 was the service rifle of the Bundeswehr during the cold war and saw use in numerous militaries and in some guerilla movements."
       STR_HUNTING_RIFLE_UFOPAEDIA: "Different models of hunting rifles are easily available to civilians that acquire hunting licenses. While intended to hunt animals they are still lethal against human targets, though they struggle against armored targets and are usually outperformed by most, if not all military rifles."
       STR_SKS_SCOPED_UFOPAEDIA: "The SKS is a semi-automatic carbine originally meant to be used by soviet armed forces, but it was quickly overshadowed by the AK-47. The SKS nevertheless found success among irregular forces thanks to its light weight, simple design and ease of use. The SKS also found popularity in North America as a hunting and sporting weapon."
