@@ -92,7 +92,7 @@ extraStrings:
       ###SMGS###
 
       STR_TEC_9: "TEC-9"
-      STR_MP5: "MP5SD"
+      STR_MP5: "MP5"
       STR_MPX: "SIG MPX"
       STR_P90: "FN P90"
       STR_MP7: "HK MP7"
