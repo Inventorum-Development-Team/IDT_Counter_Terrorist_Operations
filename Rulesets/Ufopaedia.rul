@@ -1785,13 +1785,6 @@ extraSprites:
     files:
       0: Resources/ufopedia/RPK74M.png
 
-  - type: FNFAL.SPK               
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/ufopedia/FNFAL.png
-      
   - type: CARLGUSTAF.SPK               
     singleImage: true
     width: 320

@@ -23,7 +23,6 @@ extraSprites:
 
       1000: Resources/BallisticWeapons/Pistols/handTaser.png
       1010: Resources/BallisticWeapons/Pistols/handMakarov.png
-      1011: Resources/BallisticWeapons/Pistols/handMakarov.png
       1020: Resources/BallisticWeapons/Pistols/handManhurin.png
 
       1040: Resources/BallisticWeapons/Pistols/handGlock17.png
@@ -79,12 +78,10 @@ extraSprites:
       3070: Resources/BallisticWeapons/Rifles/handAK12.png
       3090: Resources/BallisticWeapons/Rifles/handHK416.png
       3110: Resources/BallisticWeapons/Rifles/handHK416M320.png
-      3111: Resources/BallisticWeapons/Rifles/handHK416M320.png
       3120: Resources/BallisticWeapons/Rifles/handHK416MASS.png
       3150: Resources/BallisticWeapons/Rifles/handFamas.png
       3170: Resources/BallisticWeapons/Rifles/handG36.png
       3190: Resources/BallisticWeapons/Rifles/handG36AG36.png
-      3191: Resources/BallisticWeapons/Rifles/handG36AG36.png
       3200: Resources/BallisticWeapons/Rifles/handG3.png
       3210: Resources/BallisticWeapons/Rifles/handFNFAL.png
       3220: Resources/BallisticWeapons/Rifles/handHK417.png
@@ -152,7 +149,6 @@ extraSprites:
       5020: Resources/BallisticWeapons/Snipers/handSKS.png
       5030: Resources/BallisticWeapons/Snipers/handVSSVintorez.png
       5040: Resources/BallisticWeapons/Snipers/handAIAW.png
-      5041: Resources/BallisticWeapons/Snipers/handAIAW.png
       5050: Resources/BallisticWeapons/Snipers/handM82.png
       5070: Resources/BallisticWeapons/Snipers/handMSG90.png
       5080: Resources/BallisticWeapons/Snipers/handAWP.png
