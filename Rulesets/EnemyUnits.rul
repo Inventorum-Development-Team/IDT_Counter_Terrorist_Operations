@@ -2,8 +2,8 @@ items:
   - type: STR_TERRORIST_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3050
-    floorSprite: 3050
+    bigSprite: 9050
+    floorSprite: 9050
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -12,8 +12,8 @@ items:
   - type: STR_GRUNT_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3051
-    floorSprite: 3051
+    bigSprite: 9051
+    floorSprite: 9051
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -22,8 +22,8 @@ items:
   - type: STR_GASMASK_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3052
-    floorSprite: 3052
+    bigSprite: 9052
+    floorSprite: 9052
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -32,8 +32,8 @@ items:
   - type: STR_GRENADIER_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3053
-    floorSprite: 3053
+    bigSprite: 9053
+    floorSprite: 9053
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -42,8 +42,8 @@ items:
   - type: STR_TERRORIST_COMMANDER_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3054
-    floorSprite: 3054
+    bigSprite: 9054
+    floorSprite: 9054
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -52,8 +52,8 @@ items:
   - type: STR_TERRORIST_LEADER_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3055
-    floorSprite: 3055
+    bigSprite: 9055
+    floorSprite: 9055
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -62,8 +62,8 @@ items:
   - type: STR_GUNNER_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3060
-    floorSprite: 3060
+    bigSprite: 9060
+    floorSprite: 9060
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -74,8 +74,8 @@ items:
   - type: STR_BLUE_PR_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3058
-    floorSprite: 3058
+    bigSprite: 9058
+    floorSprite: 9058
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -84,8 +84,8 @@ items:
   - type: STR_GRAY_PR_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3059
-    floorSprite: 3059
+    bigSprite: 9059
+    floorSprite: 9059
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -94,8 +94,8 @@ items:
   - type: STR_PR_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3056
-    floorSprite: 3056
+    bigSprite: 9056
+    floorSprite: 9056
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -104,8 +104,8 @@ items:
   - type: STR_PR_HEAVY_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3057
-    floorSprite: 3057
+    bigSprite: 9057
+    floorSprite: 9057
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -1616,27 +1616,27 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_BIGOB.png
-      3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_BIGOB.png
-      3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_BIGOB.png
-      3053: Resources/TerroristFaction/INSURGENT_COROSE_BIGOB.png
-      3054: Resources/TerroristFaction/TERRORIST_COMMANDER_CORPSE_BIGOB.png
-      3055: Resources/TerroristFaction/TERRORIST_LEADER_CORPSE_BIGOB.png
-      3056: Resources/PMCFaction/BO_CORPSE_BIGOB.png
-      3057: Resources/PMCFaction/MASKA_CORPSE_BIGOB.png
-      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_BIGOB.png
-      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_BIGOB.png
-      3060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_BIGOB.png
+      9050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_BIGOB.png
+      9051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_BIGOB.png
+      9052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_BIGOB.png
+      9053: Resources/TerroristFaction/INSURGENT_COROSE_BIGOB.png
+      9054: Resources/TerroristFaction/TERRORIST_COMMANDER_CORPSE_BIGOB.png
+      9055: Resources/TerroristFaction/TERRORIST_LEADER_CORPSE_BIGOB.png
+      9056: Resources/PMCFaction/BO_CORPSE_BIGOB.png
+      9057: Resources/PMCFaction/MASKA_CORPSE_BIGOB.png
+      9058: Resources/PMCFaction/PMC_BLUE_CORPSE_BIGOB.png
+      9059: Resources/PMCFaction/PMC_GRAY_CORPSE_BIGOB.png
+      9060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
-      3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
-      3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
-      3053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
-      3054: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
-      3055: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
-      3056: Resources/PMCFaction/BO_CORPSE_FLOOROB.png
-      3057: Resources/PMCFaction/MASKA_CORPSE_FLOOROB.png
-      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
-      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
-      3060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_FLOOROB.png
+      9050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
+      9051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
+      9052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
+      9053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
+      9054: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
+      9055: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
+      9056: Resources/PMCFaction/BO_CORPSE_FLOOROB.png
+      9057: Resources/PMCFaction/MASKA_CORPSE_FLOOROB.png
+      9058: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
+      9059: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
+      9060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_FLOOROB.png

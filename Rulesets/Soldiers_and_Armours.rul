@@ -973,8 +973,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 3000
-    floorSprite: 3000
+    bigSprite: 9000
+    floorSprite: 9000
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -984,8 +984,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 3001
-    floorSprite: 3001
+    bigSprite: 9001
+    floorSprite: 9001
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -995,8 +995,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 3002
-    floorSprite: 3002
+    bigSprite: 9002
+    floorSprite: 9002
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1006,8 +1006,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 3003
-    floorSprite: 3003
+    bigSprite: 9003
+    floorSprite: 9003
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1017,8 +1017,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 3004
-    floorSprite: 3004
+    bigSprite: 9004
+    floorSprite: 9004
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1028,8 +1028,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 3005
-    floorSprite: 3005
+    bigSprite: 9005
+    floorSprite: 9005
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1064,10 +1064,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3000: Resources/SoldiersAndArmors/Uniform/CORPSE_BLACK_BIGOB.png
+      9000: Resources/SoldiersAndArmors/Uniform/CORPSE_BLACK_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3000: Resources/SoldiersAndArmors/Uniform/CORPSE_UNIFORM_FLOOROB.png
+      9000: Resources/SoldiersAndArmors/Uniform/CORPSE_UNIFORM_FLOOROB.png
 
   - type: UNIFORM_INVF0.SPK
     singleImage: true
@@ -1123,10 +1123,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3001: Resources/SoldiersAndArmors/Kevlar/CORPSE_BLACK_BIGOB.png
+      9001: Resources/SoldiersAndArmors/Kevlar/CORPSE_BLACK_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3001: Resources/SoldiersAndArmors/Kevlar/CORPSE_KEVLAR_FLOOROB.png
+      9001: Resources/SoldiersAndArmors/Kevlar/CORPSE_KEVLAR_FLOOROB.png
 
   - type: KEVLAR_INVF0.SPK
     singleImage: true
@@ -1182,10 +1182,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3002: Resources/SoldiersAndArmors/KevlarRiot/CORPSE_BLACK_BIGOB.png
+      9002: Resources/SoldiersAndArmors/KevlarRiot/CORPSE_BLACK_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3002: Resources/SoldiersAndArmors/KevlarRiot/CORPSE_RIOT_KEVLAR_FLOOROB.png
+      9002: Resources/SoldiersAndArmors/KevlarRiot/CORPSE_RIOT_KEVLAR_FLOOROB.png
 
   - type: KEVLAR_RIOT_INVF0.SPK
     singleImage: true
@@ -1241,10 +1241,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3003: Resources/SoldiersAndArmors/KevlarNV/CORPSE_BLACK_BIGOB.png
+      9003: Resources/SoldiersAndArmors/KevlarNV/CORPSE_BLACK_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3003: Resources/SoldiersAndArmors/KevlarNV/CORPSE_KEVLAR_NV_FLOOROB.png
+      9003: Resources/SoldiersAndArmors/KevlarNV/CORPSE_KEVLAR_NV_FLOOROB.png
 
   - type: KEVLAR_NV_INVF0.SPK
     singleImage: true
@@ -1300,10 +1300,10 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3004: Resources/SoldiersAndArmors/KevlarAdvNV/CORPSE_BLACK_BIGOB.png
+      9004: Resources/SoldiersAndArmors/KevlarAdvNV/CORPSE_BLACK_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3004: Resources/SoldiersAndArmors/KevlarAdvNV/CORPSE_KEVLAR_ADVNV_FLOOROB.png
+      9004: Resources/SoldiersAndArmors/KevlarAdvNV/CORPSE_KEVLAR_ADVNV_FLOOROB.png
 
   - type: KEVLAR_ADVNV_INVF0.SPK
     singleImage: true
@@ -1391,8 +1391,8 @@ extraSprites:
       0: Resources/SoldiersAndArmors/RiotArmor/RIOT_ARMOR_IMAGE.PNG
   - type: BIGOBS.PCK
     files:
-      3005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_BIGOB.png
+      9005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_FLOOROB.png
+      9005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_FLOOROB.png
 
