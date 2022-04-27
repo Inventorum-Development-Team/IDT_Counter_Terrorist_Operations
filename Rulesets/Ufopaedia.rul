@@ -1333,12 +1333,6 @@ ufopaedia:
     section: STR_EQUIPMENT
     listOrder: 1108
 
-  - id: STR_SOPMOD_KIT
-    type_id: 4
-    text: STR_SOPMOD_KIT_UFOPAEDIA
-    section: STR_EQUIPMENT
-    listOrder: 1109
-
   - id: STR_M203
     type_id: 4
     text: STR_M203_UFOPAEDIA
