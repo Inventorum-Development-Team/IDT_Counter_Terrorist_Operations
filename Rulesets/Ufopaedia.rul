@@ -978,11 +978,11 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1012
 
-  - id: STR_CASELESS_4_73_X50
-    type_id: 4
-    text: STR_CASELESS_4_73_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1013
+  # - id: STR_CASELESS_4_73_X50
+  #   type_id: 4
+  #   text: STR_CASELESS_4_73_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1013
 
   - id: STR_5_45_X30
     type_id: 4
