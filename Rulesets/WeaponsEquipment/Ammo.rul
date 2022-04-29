@@ -208,8 +208,8 @@ items:
       RandomType: 6
       IgnoreOverKill: true
       ToArmorPre: 0.4
-  - &STR_HK_4_6_30mm
-    type: STR_HK_4_6_30mm
+  - &STR_HK_4_6
+    type: STR_HK_4_6
     power: 32
     hitAnimation: 26
     hitSound:
@@ -1163,10 +1163,10 @@ items:
     weight: 4
     clipSize: 50
     listOrder: 7500
-  - type: STR_HK_4_6_30mmX20
+  - type: STR_HK_4_6X20
     #requiresBuy:
     categories: [STR_CLIPS]
-    refNode: *STR_HK_4_6_30mm
+    refNode: *STR_HK_4_6
     bigSprite: 265
     handSprite: 200
     floorSprite: 200
@@ -1178,10 +1178,10 @@ items:
     weight: 1
     clipSize: 20
     listOrder: 21831
-  - type: STR_HK_4_6_30mmX30
+  - type: STR_HK_4_6X30
     #requiresBuy:
     categories: [STR_CLIPS]
-    refNode: *STR_HK_4_6_30mm
+    refNode: *STR_HK_4_6
     bigSprite: 266
     handSprite: 200
     floorSprite: 200
@@ -1193,10 +1193,10 @@ items:
     weight: 2
     clipSize: 30
     listOrder: 21832
-  - type: STR_HK_4_6_30mmX40
+  - type: STR_HK_4_6X40
     #requiresBuy:
     categories: [STR_CLIPS]
-    refNode: *STR_HK_4_6_30mm
+    refNode: *STR_HK_4_6
     bigSprite: 267
     handSprite: 200
     floorSprite: 200

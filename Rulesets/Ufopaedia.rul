@@ -397,6 +397,13 @@ ufopaedia:
   #   section: STR_SMGS
   #   listOrder: 303
 
+  - id: STR_MP7
+    type_id: 14
+    image_id: MP7.SPK
+    text: STR_MP7_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 302
+
   - id: STR_P90
     type_id: 14
     image_id: P90.SPK
@@ -1546,6 +1553,13 @@ extraSprites:
     height: 200
     files:
       0: Resources/ufopedia/SCORPION.png
+
+  - type: MP7.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/MP7.png
 
   - type: MP5.SPK               
     singleImage: true

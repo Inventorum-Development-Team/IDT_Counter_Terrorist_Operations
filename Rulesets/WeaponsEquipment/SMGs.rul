@@ -163,29 +163,29 @@ items:
     handSprite: 2020
     reloadSound: 185
     fireSound: 186
-    costBuy: 18000
-    costSell: 9000
-    accuracyAimed: 55
-    accuracySnap: 60
-    accuracyAuto: 45
+    costBuy: 17500
+    costSell: 8750
+    accuracyAimed: 50
+    accuracySnap: 70
+    accuracyAuto: 55
     blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 80
-    maxRange: 35
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 30
     minRange: 0
-    aimRange: 8
-    snapRange: 10
-    autoRange: 4
+    aimRange: 7
+    snapRange: 11
+    autoRange: 6
     kneelBonus: 115
     refNode: *STR_SMG
-    tuAimed: 30
-    tuSnap: 25
-    tuAuto: 40
+    tuAimed: 35
+    tuSnap: 20
+    tuAuto: 35
     invWidth: 1
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_FN_57_X50 ]
+        compatibleAmmo: [ STR_HK_4_6X20, STR_HK_4_6X30, STR_HK_4_6X40 ]
         tuLoad: 40
         tuUnload: 20
     listOrder: 21821
