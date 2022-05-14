@@ -11,58 +11,81 @@ facilities:
   - delete: STR_GRAV_SHIELD
   - delete: STR_PSIONIC_LABORATORY
 
-
-  - type: STR_LIVING_QUARTERS
-    buildCost: 400000
-    buildTime: 16
-    monthlyCost: 10000
-    personnel: 30
-    mapName: XBASE_01
-    spriteShape: 1
-    spriteFacility: 18
-  - type: STR_LABORATORY
-    buildCost: 325000
-    buildTime: 13
-    monthlyCost: 30000
-    labs: 10
-    mapName: XBASE_02
-    spriteShape: 1
-    spriteFacility: 19
-  - type: STR_WORKSHOP
-    requires:
-     - STR_ARMORY
-    buildCost: 150000
-    buildTime: 16
-    monthlyCost: 35000
-    workshops: 5
-    mapName: XBASE_03
-    spriteShape: 1
-    spriteFacility: 20
-  - type: STR_GENERAL_STORES
-    buildCost: 150000
-    buildTime: 10
-    monthlyCost: 5000
-    storage: 50
-    mapName: XBASE_07
-    spriteShape: 1
-    spriteFacility: 24
-  - type: STR_ALIEN_CONTAINMENT
-    requires:
-     - STR_PRISON_CELLS
-    buildCost: 200000
-    buildTime: 18
-    monthlyCost: 15000
+  - type: STR_BASE
+    workshops: 10
+    storage: 300
+    labs: 20
     aliens: 10
-    mapName: XBASE_08
-    spriteShape: 1
-    spriteFacility: 25
-  - type: STR_HANGAR
-    size: 2
-    buildCost: 200000
-    buildTime: 25
-    monthlyCost: 25000
-    crafts: 1
-    storage: 0
-    mapName: XBASE_16
-    spriteShape: 9
-    spriteFacility: 9
+    personnel: 60
+    monthlyCost: 100000
+    crafts: 3
+    size: 6
+    lift: true
+    connectorsDisabled: true
+    spriteShape: 200
+    mapName: XBASE_100
+
+  # - type: STR_LIVING_QUARTERS
+  #   buildCost: 400000
+  #   buildTime: 16
+  #   monthlyCost: 10000
+  #   personnel: 30
+  #   mapName: XBASE_01
+  #   spriteShape: 1
+  #   spriteFacility: 18
+  # - type: STR_LABORATORY
+  #   buildCost: 325000
+  #   buildTime: 13
+  #   monthlyCost: 30000
+  #   labs: 10
+  #   mapName: XBASE_02
+  #   spriteShape: 1
+  #   spriteFacility: 19
+  # - type: STR_WORKSHOP
+  #   requires:
+  #    - STR_ARMORY
+  #   buildCost: 150000
+  #   buildTime: 16
+  #   monthlyCost: 35000
+  #   workshops: 5
+  #   mapName: XBASE_03
+  #   spriteShape: 1
+  #   spriteFacility: 20
+  # - type: STR_GENERAL_STORES
+  #   buildCost: 150000
+  #   buildTime: 10
+  #   monthlyCost: 5000
+  #   storage: 50
+  #   mapName: XBASE_07
+  #   spriteShape: 1
+  #   spriteFacility: 24
+  # - type: STR_ALIEN_CONTAINMENT
+  #   requires:
+  #    - STR_PRISON_CELLS
+  #   buildCost: 200000
+  #   buildTime: 18
+  #   monthlyCost: 15000
+  #   aliens: 10
+  #   mapName: XBASE_08
+  #   spriteShape: 1
+  #   spriteFacility: 25
+  # - type: STR_HANGAR
+  #   size: 2
+  #   buildCost: 200000
+  #   buildTime: 25
+  #   monthlyCost: 25000
+  #   crafts: 1
+  #   storage: 0
+  #   mapName: XBASE_16
+  #   spriteShape: 9
+  #   spriteFacility: 9
+
+extraSprites:
+  
+  - type: BASEBITS.PCK
+    width: 192
+    height: 192
+    subX: 32
+    subY: 32
+    files:
+     200: Resources/Facilities/Base.png

@@ -49,4 +49,5 @@ fixedUserOptions:
    battleUFOExtenderAccuracy: true
    noAlienPanicMessages: true
    alienBleeding: true
+   customInitialBase: false
 
