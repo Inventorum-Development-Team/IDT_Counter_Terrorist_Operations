@@ -167,7 +167,7 @@ items:
   - type: STR_KS_23
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     requiresBuy:
-      - STR_KS_23_ACQUISITION
+      - STR_UNOBTAINABLE
     size: 1
     weight: 30
     battleType: 1
@@ -204,7 +204,7 @@ items:
   - type: STR_ORIGIN_12
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     requiresBuy:
-      - STR_ORIGIN_12_ACQUISITION
+      - STR_UNOBTAINABLE
     size: 1
     weight: 37
     battleType: 1

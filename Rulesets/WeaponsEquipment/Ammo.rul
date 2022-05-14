@@ -1225,7 +1225,7 @@ items:
     listOrder: 6090
   - type: STR_45_ACP_X12
     requiresBuy:
-      - STR_MK_23_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 209
@@ -1619,7 +1619,7 @@ items:
     listOrder: 5510
   - type: STR_50_BMG_X5
     requiresBuy:
-      - STR_M82_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
     bigSprite: 231
@@ -1634,7 +1634,7 @@ items:
     listOrder: 6120
   - type: STR_50_BMG_X10
     requiresBuy:
-      - STR_M82_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_50_BMG_AMMO
     bigSprite: 232
@@ -1769,7 +1769,7 @@ items:
     listOrder: 5440
   - type: STR_SHRAPNEL_25_X3
     requiresBuy:
-      - STR_KS_23_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_SHRAPNEL_25
     bigSprite: 239
@@ -1784,7 +1784,7 @@ items:
     listOrder: 7400
   - type: STR_BARRICADE_X3
     requiresBuy:
-      - STR_KS_23_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_BARRICADE
     bigSprite: 240
@@ -1799,7 +1799,7 @@ items:
     listOrder: 7390
   - type: STR_VOLNA_R_X3
     requiresBuy:
-      - STR_KS_23_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_VOLNA_R
     bigSprite: 241
@@ -1863,7 +1863,7 @@ items:
     categories: [STR_CLIPS]
     requiresBuy:
       - STR_40MM_AMMO
-      - STR_MGL_ACQUISITION
+      - STR_UNOBTAINABLE
     refNode: *STR_40MM_FRAG
     bigSprite: 244
     handSprite: 200

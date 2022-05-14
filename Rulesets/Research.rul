@@ -137,12 +137,10 @@ research:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
-
   - name: STR_EUROPE
     needItem: true
   - name: STR_RUSSIA
     needItem: true
-
 
   - name: STR_RANDOM_1
     needItem: true
@@ -159,510 +157,433 @@ research:
   - name: STR_UTILITY_GRENADES
     cost: 50
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_BALLISTIC_SHIELD_ACQUISITION
     cost: 50
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_ARMORED_VEST_ACQUISITION
     cost: 100
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_BACKPACK_ACQUISITION
     cost: 30
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_SHOTGUN_ACQUISITION
     cost: 70
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_PISTOL_ACQUISITION
     cost: 60
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_RIFLE_AQUISTION
     cost: 100
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_SNIPER_ACQUISITION
     cost: 70
     dependencies:
-     - STR_EQUIPMENT_ACQUISITION
+      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_REMINGTON_ACQUISITION
     cost: 30
     dependencies:
-     - STR_SHOTGUN_ACQUISITION
+      - STR_SHOTGUN_ACQUISITION
 
   - name: STR_TASER_ACQUISITION
     cost: 30
     dependencies:
-     - STR_PISTOL_ACQUISITION
-     
+      - STR_PISTOL_ACQUISITION
+
   - name: STR_P226_ACQUISITION
     cost: 30
     dependencies:
-     - STR_PISTOL_ACQUISITION
+      - STR_PISTOL_ACQUISITION
     disables:
-     - STR_GLOCK_18_ACQUISITION
-     - STR_M1911_ACQUISITION
+      - STR_GLOCK_18_ACQUISITION
+      - STR_M1911_ACQUISITION
 
   - name: STR_GLOCK_18_ACQUISITION
     cost: 30
     dependencies:
-     - STR_PISTOL_ACQUISITION
+      - STR_PISTOL_ACQUISITION
     disables:
-     - STR_P226_ACQUISITION
-     - STR_M1911_ACQUISITION
+      - STR_P226_ACQUISITION
+      - STR_M1911_ACQUISITION
     unlocks:
-     - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_MODIFICATION
 
   - name: STR_M1911_ACQUISITION
     cost: 30
     dependencies:
-     - STR_PISTOL_ACQUISITION
+      - STR_PISTOL_ACQUISITION
     disables:
-     - STR_P226_ACQUISITION
-     - STR_GLOCK_18_ACQUISITION
+      - STR_P226_ACQUISITION
+      - STR_GLOCK_18_ACQUISITION
 
   - name: STR_TAVOR_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_AQUISTION
+      - STR_RIFLE_AQUISTION
     disables:
-     - STR_M4_ACQUISITION
-     - STR_AK12_ACQUISITION
-     - STR_HK416_ACQUISITION
-     - STR_FX_05_ACQUISITION
-     - STR_SCAR_L_ACQUISITION
-     - STR_UBS_ACQUISITION
-     - STR_M320_ACQUISITION
-     - STR_SOPMOD_ACQUISITION
-     - STR_FN40GL_ACQUISITION
+      - STR_M4_ACQUISITION
+      - STR_AK12_ACQUISITION
+      - STR_HK416_ACQUISITION
+      - STR_FX_05_ACQUISITION
+      - STR_SCAR_L_ACQUISITION
+      - STR_UBS_ACQUISITION
+      - STR_M320_ACQUISITION
+      - STR_SOPMOD_ACQUISITION
+      - STR_FN40GL_ACQUISITION
     unlocks:
-     - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_MODIFICATION
     getOneFree:
-     - STR_5_56_AMMO
+      - STR_5_56_AMMO
 
   - name: STR_M4_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_AQUISTION
+      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_ACQUISITION
-     - STR_AK12_ACQUISITION
-     - STR_HK416_ACQUISITION
-     - STR_FX_05_ACQUISITION
-     - STR_SCAR_L_ACQUISITION
-     - STR_SCOPE_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-     - STR_M203_ACQUISITION
+      - STR_TAVOR_ACQUISITION
+      - STR_AK12_ACQUISITION
+      - STR_HK416_ACQUISITION
+      - STR_FX_05_ACQUISITION
+      - STR_SCAR_L_ACQUISITION
+      - STR_SCOPE_ACQUISITION
+      - STR_FN40GL_ACQUISITION
+      - STR_M203_ACQUISITION
     unlocks:
-     - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_MODIFICATION
     getOneFree:
-     - STR_5_56_AMMO
+      - STR_5_56_AMMO
 
   - name: STR_AK12_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_AQUISTION
+      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_ACQUISITION
-     - STR_M4_ACQUISITION
-     - STR_HK416_ACQUISITION
-     - STR_FX_05_ACQUISITION
-     - STR_SCAR_L_ACQUISITION
-     - STR_UBS_ACQUISITION
-     - STR_M320_ACQUISITION
-     - STR_SOPMOD_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-     - STR_M203_ACQUISITION
+      - STR_TAVOR_ACQUISITION
+      - STR_M4_ACQUISITION
+      - STR_HK416_ACQUISITION
+      - STR_FX_05_ACQUISITION
+      - STR_SCAR_L_ACQUISITION
+      - STR_UBS_ACQUISITION
+      - STR_M320_ACQUISITION
+      - STR_SOPMOD_ACQUISITION
+      - STR_FN40GL_ACQUISITION
+      - STR_M203_ACQUISITION
     unlocks:
-     - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_MODIFICATION
 
   - name: STR_HK416_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_AQUISTION
+      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_ACQUISITION
-     - STR_M4_ACQUISITION
-     - STR_AK12_ACQUISITION
-     - STR_FX_05_ACQUISITION
-     - STR_SCAR_L_ACQUISITION
-     - STR_SCOPE_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-     - STR_M203_ACQUISITION
+      - STR_TAVOR_ACQUISITION
+      - STR_M4_ACQUISITION
+      - STR_AK12_ACQUISITION
+      - STR_FX_05_ACQUISITION
+      - STR_SCAR_L_ACQUISITION
+      - STR_SCOPE_ACQUISITION
+      - STR_FN40GL_ACQUISITION
+      - STR_M203_ACQUISITION
     unlocks:
-     - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_MODIFICATION
     getOneFree:
-     - STR_5_56_AMMO
+      - STR_5_56_AMMO
 
   - name: STR_FX_05_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_AQUISTION
+      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_ACQUISITION
-     - STR_M4_ACQUISITION
-     - STR_AK12_ACQUISITION
-     - STR_HK416_ACQUISITION
-     - STR_SCAR_L_ACQUISITION
-     - STR_UBS_ACQUISITION
-     - STR_M320_ACQUISITION
-     - STR_SOPMOD_ACQUISITION
-     - STR_FN40GL_ACQUISITION
-     - STR_M203_ACQUISITION
+      - STR_TAVOR_ACQUISITION
+      - STR_M4_ACQUISITION
+      - STR_AK12_ACQUISITION
+      - STR_HK416_ACQUISITION
+      - STR_SCAR_L_ACQUISITION
+      - STR_UBS_ACQUISITION
+      - STR_M320_ACQUISITION
+      - STR_SOPMOD_ACQUISITION
+      - STR_FN40GL_ACQUISITION
+      - STR_M203_ACQUISITION
     unlocks:
-     - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_MODIFICATION
     getOneFree:
-     - STR_5_56_AMMO
+      - STR_5_56_AMMO
 
   - name: STR_SCAR_L_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_AQUISTION
+      - STR_RIFLE_AQUISTION
     disables:
-     - STR_TAVOR_ACQUISITION
-     - STR_M4_ACQUISITION
-     - STR_AK12_ACQUISITION
-     - STR_HK416_ACQUISITION
-     - STR_FX_05_ACQUISITION
-     - STR_UBS_ACQUISITION
-     - STR_M320_ACQUISITION
-     - STR_SCOPE_ACQUISITION
-     - STR_M203_ACQUISITION
+      - STR_TAVOR_ACQUISITION
+      - STR_M4_ACQUISITION
+      - STR_AK12_ACQUISITION
+      - STR_HK416_ACQUISITION
+      - STR_FX_05_ACQUISITION
+      - STR_UBS_ACQUISITION
+      - STR_M320_ACQUISITION
+      - STR_SCOPE_ACQUISITION
+      - STR_M203_ACQUISITION
     unlocks:
-     - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_MODIFICATION
     getOneFree:
-     - STR_5_56_AMMO
+      - STR_5_56_AMMO
 
   - name: STR_AWP_ACQUISITION
     cost: 30
     dependencies:
-     - STR_SNIPER_ACQUISITION
+      - STR_SNIPER_ACQUISITION
     disables:
-     - STR_PSG1_ACQUISITION
+      - STR_PSG1_ACQUISITION
     getOneFree:
-     - STR_7_62_AMMO
+      - STR_7_62_AMMO
 
   - name: STR_PSG1_ACQUISITION
     cost: 30
     dependencies:
-     - STR_SNIPER_ACQUISITION
+      - STR_SNIPER_ACQUISITION
     disables:
-     - STR_AWP_ACQUISITION
+      - STR_AWP_ACQUISITION
     getOneFree:
-     - STR_7_62_AMMO
-  
+      - STR_7_62_AMMO
+
   - name: STR_RIFLE_MODIFICATION
     cost: 50
     dependencies:
-     - STR_GLOCK_18_ACQUISITION
-     - STR_TAVOR_ACQUISITION
-     - STR_M4_ACQUISITION
-     - STR_AK12_ACQUISITION
-     - STR_HK416_ACQUISITION
-     - STR_FX_05_ACQUISITION
-     - STR_SCAR_L_ACQUISITION
-  
+      - STR_GLOCK_18_ACQUISITION
+      - STR_TAVOR_ACQUISITION
+      - STR_M4_ACQUISITION
+      - STR_AK12_ACQUISITION
+      - STR_HK416_ACQUISITION
+      - STR_FX_05_ACQUISITION
+      - STR_SCAR_L_ACQUISITION
+
   - name: STR_SCOPE_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_MODIFICATION
-     - STR_RIFLE_AQUISTION
-  
+      - STR_RIFLE_MODIFICATION
+      - STR_RIFLE_AQUISTION
+
   - name: STR_SOPMOD_ACQUISITION
     cost: 30
     dependencies:
-     - STR_RIFLE_MODIFICATION
-
+      - STR_RIFLE_MODIFICATION
 
   - name: STR_MILITARY_EQUIPMENT_ACQUISITION
     cost: 200
     dependencies:
-     - STR_SHOTGUN_ACQUISITION
-     - STR_PISTOL_ACQUISITION
-     - STR_RIFLE_AQUISTION
-     - STR_SNIPER_ACQUISITION
-     - STR_HIDEOUT_RAIDS
-     - STR_ARMORED_VEST_ACQUISITION
-  
+      - STR_SHOTGUN_ACQUISITION
+      - STR_PISTOL_ACQUISITION
+      - STR_RIFLE_AQUISTION
+      - STR_SNIPER_ACQUISITION
+      - STR_HIDEOUT_RAIDS
+      - STR_ARMORED_VEST_ACQUISITION
+
   - name: STR_TAVOR_95X_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_TAVOR_ACQUISITION
-  
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_TAVOR_ACQUISITION
+
   - name: STR_M4A1_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_M4_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_M4_ACQUISITION
 
   - name: STR_AK15_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_AK12_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_AK12_ACQUISITION
 
   - name: STR_SCAR_H_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_SCAR_L_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_SCAR_L_ACQUISITION
     getOneFree:
-     - STR_7_62_AMMO
-  
+      - STR_7_62_AMMO
+
+  # - name: STR_SMG_ACQUISITION
+
+  # - name: STR_P90_ACQUISITION
+  #   cost: 50
+  #   dependencies:
+  #     - STR_SMG_ACQUISITION
+
+  # - name: STR_TRG_ACQUISITION
+  #   cost: 50
+  #   dependencies: 
+  #   getOneFree:
+  #    - STR_LAPUA_AMMO
+     
   - name: STR_AW_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_AWP_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_AWP_ACQUISITION
     getOneFree:
-     - STR_LAPUA_AMMO
+      - STR_LAPUA_AMMO
 
   - name: STR_MSG_90_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_PSG1_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_PSG1_ACQUISITION
     getOneFree:
-     - STR_7_62_AMMO
+      - STR_7_62_AMMO
 
   - name: STR_FIVE_SEVEN_ACQUISITION
     cost: 40
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
 
   - name: STR_AUTO_SHOTGUN_ACQUISITION
     cost: 100
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_SHOTGUN_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_SHOTGUN_ACQUISITION
 
   - name: STR_AA_12_ACQUISITION
     cost: 40
     dependencies:
-     - STR_AUTO_SHOTGUN_ACQUISITION
+      - STR_AUTO_SHOTGUN_ACQUISITION
     disables:
-     - STR_USAS_12_ACQUISITION
+      - STR_USAS_12_ACQUISITION
     getOneFree:
-     - STR_12G_DRUM_AMMO
-    
+      - STR_12G_DRUM_AMMO
+
   - name: STR_USAS_12_ACQUISITION
     cost: 40
     dependencies:
-     - STR_AUTO_SHOTGUN_ACQUISITION
+      - STR_AUTO_SHOTGUN_ACQUISITION
     disables:
-     - STR_AA_12_ACQUISITION
+      - STR_AA_12_ACQUISITION
     getOneFree:
-     - STR_12G_DRUM_AMMO
+      - STR_12G_DRUM_AMMO
 
   - name: STR_LMG_ACQUISITION
     cost: 100
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
 
   - name: STR_M249_ACQUISITION
-    cost: 40 
+    cost: 40
     dependencies:
-     - STR_LMG_ACQUISITION
+      - STR_LMG_ACQUISITION
     disables:
-     - STR_MK_48_ACQUISITION
-     - STR_PECHENEG_ACQUISITION
+      - STR_MK_48_ACQUISITION
+      - STR_PECHENEG_ACQUISITION
 
   - name: STR_MK_48_ACQUISITION
     cost: 40
     dependencies:
-     - STR_LMG_ACQUISITION
+      - STR_LMG_ACQUISITION
     disables:
-     - STR_M249_ACQUISITION
-     - STR_PECHENEG_ACQUISITION
+      - STR_M249_ACQUISITION
+      - STR_PECHENEG_ACQUISITION
 
   - name: STR_PECHENEG_ACQUISITION
     cost: 40
     dependencies:
-     - STR_LMG_ACQUISITION
+      - STR_LMG_ACQUISITION
     disables:
-     - STR_M249_ACQUISITION
-     - STR_MK_48_ACQUISITION
+      - STR_M249_ACQUISITION
+      - STR_MK_48_ACQUISITION
 
   - name: STR_AT_ACQUISITION
     cost: 150
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
 
   - name: STR_UBS_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_RIFLE_MODIFICATION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_RIFLE_MODIFICATION
     getOneFree:
-     - STR_12G_X5_AMMO
+      - STR_12G_X5_AMMO
 
   - name: STR_M203_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_RIFLE_MODIFICATION
-     - STR_TAVOR_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_RIFLE_MODIFICATION
+      - STR_TAVOR_ACQUISITION
     getOneFree:
-     - STR_40MM_AMMO
-  
+      - STR_40MM_AMMO
+
   - name: STR_M320_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_RIFLE_MODIFICATION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_RIFLE_MODIFICATION
     getOneFree:
-     - STR_40MM_AMMO
+      - STR_40MM_AMMO
 
   - name: STR_FN40GL_ACQUISITION
     cost: 60
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_RIFLE_MODIFICATION
-     - STR_SCAR_L_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_RIFLE_MODIFICATION
+      - STR_SCAR_L_ACQUISITION
     getOneFree:
-     - STR_40MM_AMMO
+      - STR_40MM_AMMO
 
   - name: STR_STOCK_ACQUISITION
     cost: 20
     dependencies:
-     - STR_GLOCK_18_ACQUISITION
-     - STR_RIFLE_MODIFICATION
-    
+      - STR_GLOCK_18_ACQUISITION
+      - STR_RIFLE_MODIFICATION
+
   - name: STR_HEAVY_VEST_ACQUISITION
     cost: 50
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_ARMORED_VEST_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_ARMORED_VEST_ACQUISITION
 
   - name: STR_NIGHT_VISION
     cost: 50
     dependencies:
-     - STR_ARMORED_VEST_ACQUISITION
-     - STR_SAFE_HOUSE_RAIDS
+      - STR_ARMORED_VEST_ACQUISITION
+      - STR_SAFE_HOUSE_RAIDS
 
   - name: STR_RIOT_GEAR
     cost: 50
     dependencies:
-     - STR_ARMORED_VEST_ACQUISITION
-     - STR_SAFE_HOUSE_RAIDS
+      - STR_ARMORED_VEST_ACQUISITION
+      - STR_SAFE_HOUSE_RAIDS
 
   - name: STR_ADV_NIGHTVISION
     cost: 70
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_NIGHT_VISION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_NIGHT_VISION
 
   - name: STR_GRENADES
     cost: 90
     dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
 
   - name: STR_HIGH_EXPLOSIVES
     cost: 150
     dependencies:
-     - STR_GRENADES
+      - STR_GRENADES
 
-  - name: STR_PRIVATE_CONTRACTORS
-    cost: 250
-    dependencies:
-     - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_OFFICE_RAIDS
-     
-  - name: STR_MK_23_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
-     
-  - name: STR_MPX_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
-     
-  - name: STR_ORIGIN_12_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1  
-    getOneFree:
-     - STR_12G_DRUM_AMMO
-     
-  - name: STR_M82_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
-     
-  - name: STR_SERBU_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2  
-    getOneFree:
-     - STR_12G_X5_AMMO
-     
-  - name: STR_P90_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
-     
-  # - name: STR_G11_ACQUISITION
-  #   cost: 50
-  #   dependencies:
-  #    - STR_PRIVATE_CONTRACTORS
-  #    - STR_RANDOM_2
-     
-  - name: STR_TRG_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2    
-    getOneFree:
-     - STR_LAPUA_AMMO
-
-  - name: STR_KS_23_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
-
-  - name: STR_SR3_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
-    getOneFree:
-     - STR_9_39_AMMO
-     
-  - name: STR_VSS_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
-    getOneFree:
-     - STR_9_39_AMMO
-     
-  - name: STR_MGL_ACQUISITION
-    cost: 50
-    dependencies:
-     - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
-    getOneFree:
-     - STR_40MM_AMMO
 
   - name: STR_5_56_AMMO
     needItem: true
@@ -679,19 +600,13 @@ research:
   - name: STR_9_39_AMMO
     needItem: true
 
-
-
-
-
-
   - name: STR_INTELLIGENCE_GATHERING
     cost: 30
-
 
   - name: STR_TERRORIST_GRUNT
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
@@ -702,7 +617,7 @@ research:
   - name: STR_TERRORIST_RAIDER
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
@@ -713,7 +628,7 @@ research:
   - name: STR_TERRORIST_RIFLEMAN
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
@@ -724,7 +639,7 @@ research:
   - name: STR_TERRORIST_SAW
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
@@ -735,7 +650,7 @@ research:
   - name: STR_TERRORIST_SNIPER
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
@@ -746,32 +661,32 @@ research:
   - name: STR_TERRORIST_GRENADIER
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
       - STR_HOUSE_LEAD_1
       - STR_HOUSE_LEAD_2
       - STR_HOUSE_LEAD_3
-    
+
   - name: STR_TERRORIST_LEADER
     cost: 40
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_HIDEOUT_LEAD_1
-     - STR_HIDEOUT_LEAD_2
+      - STR_HIDEOUT_LEAD_1
+      - STR_HIDEOUT_LEAD_2
 
   - name: STR_TERRORIST_COMMANDER
     cost: 50
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_OFFICE_LEAD_1
+      - STR_OFFICE_LEAD_1
 
   - name: STR_HOUSE_LEAD_1
     needItem: true
@@ -781,13 +696,13 @@ research:
 
   - name: STR_HOUSE_LEAD_3
     needItem: true
-  
+
   - name: STR_SAFE_HOUSE_RAIDS
     cost: 100
     dependencies:
-     - STR_HOUSE_LEAD_1
-     - STR_HOUSE_LEAD_2
-     - STR_HOUSE_LEAD_3
+      - STR_HOUSE_LEAD_1
+      - STR_HOUSE_LEAD_2
+      - STR_HOUSE_LEAD_3
 
   - name: STR_HOUSE_EVIDENCE
     cost: 50
@@ -808,35 +723,35 @@ research:
   - name: STR_HIDEOUT_RAIDS
     cost: 120
     dependencies:
-     - STR_HIDEOUT_LEAD_1
-     - STR_HIDEOUT_LEAD_2
-     - STR_HIDEOUT_LEAD_3
+      - STR_HIDEOUT_LEAD_1
+      - STR_HIDEOUT_LEAD_2
+      - STR_HIDEOUT_LEAD_3
 
   - name: STR_MEDIUM_TRANSPORT
     cost: 50
     dependencies:
-     - STR_SAFE_HOUSE_RAIDS
+      - STR_SAFE_HOUSE_RAIDS
 
   - name: STR_LARGE_TRANSPORT
     cost: 60
     dependencies:
-     - STR_MEDIUM_TRANSPORT
-     - STR_HIDEOUT_RAIDS
+      - STR_MEDIUM_TRANSPORT
+      - STR_HIDEOUT_RAIDS
 
   - name: STR_HIDEOUT_EVIDENCE
     cost: 50
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_OFFICE_LEAD_2
-     - STR_OFFICE_LEAD_3
-    
+      - STR_OFFICE_LEAD_2
+      - STR_OFFICE_LEAD_3
+
   - name: STR_OFFICE_LEAD_1
     needItem: true
-    
+
   - name: STR_OFFICE_LEAD_2
     needItem: true
-    
+
   - name: STR_OFFICE_LEAD_3
     needItem: true
 
@@ -846,88 +761,88 @@ research:
       - STR_OFFICE_LEAD_1
       - STR_OFFICE_LEAD_2
       - STR_OFFICE_LEAD_3
-    
+
   - name: STR_OFFICE_EVIDENCE
     cost: 50
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_SKYSCRAPER_LEAD_1
+      - STR_SKYSCRAPER_LEAD_1
 
   - name: STR_PR_GRUNT
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_PR_INTERROGATION_1
-     - STR_PR_INTERROGATION_2
-     - STR_PR_INTERROGATION_3
+      - STR_PR_INTERROGATION_1
+      - STR_PR_INTERROGATION_2
+      - STR_PR_INTERROGATION_3
 
   - name: STR_PR_HEAVY
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_PR_INTERROGATION_1
-     - STR_PR_INTERROGATION_2
-     - STR_PR_INTERROGATION_3
+      - STR_PR_INTERROGATION_1
+      - STR_PR_INTERROGATION_2
+      - STR_PR_INTERROGATION_3
 
   - name: STR_PR_RIFLEMAN
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_PR_INTERROGATION_1
-     - STR_PR_INTERROGATION_2
-     - STR_PR_INTERROGATION_3
+      - STR_PR_INTERROGATION_1
+      - STR_PR_INTERROGATION_2
+      - STR_PR_INTERROGATION_3
 
   - name: STR_PR_SAW
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_PR_INTERROGATION_1
-     - STR_PR_INTERROGATION_2
-     - STR_PR_INTERROGATION_3
+      - STR_PR_INTERROGATION_1
+      - STR_PR_INTERROGATION_2
+      - STR_PR_INTERROGATION_3
 
   - name: STR_PR_SHIELD
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_PR_INTERROGATION_1
-     - STR_PR_INTERROGATION_2
-     - STR_PR_INTERROGATION_3
+      - STR_PR_INTERROGATION_1
+      - STR_PR_INTERROGATION_2
+      - STR_PR_INTERROGATION_3
 
   - name: STR_PR_SNIPER
     cost: 30
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_PR_INTERROGATION_1
-     - STR_PR_INTERROGATION_2
-     - STR_PR_INTERROGATION_3
-     
+      - STR_PR_INTERROGATION_1
+      - STR_PR_INTERROGATION_2
+      - STR_PR_INTERROGATION_3
+
   - name: STR_PR_LEADER
     cost: 50
     dependencies:
-     - STR_INTELLIGENCE_GATHERING
+      - STR_INTELLIGENCE_GATHERING
     needItem: true
     destroyItem: true
     getOneFree:
-     - STR_SKYSCRAPER_LEAD_2
+      - STR_SKYSCRAPER_LEAD_2
 
   - name: STR_PR_INTERROGATION_1
     needItem: true
@@ -943,12 +858,248 @@ research:
 
   - name: STR_SKYSCRAPER_LEAD_2
     dependencies:
-     - STR_PR_INTERROGATION_1
-     - STR_PR_INTERROGATION_2
-     - STR_PR_INTERROGATION_3
+      - STR_PR_INTERROGATION_1
+      - STR_PR_INTERROGATION_2
+      - STR_PR_INTERROGATION_3
 
   - name: STR_SKYSCRAPER_RAID
     cost: 200
     dependencies:
-     - STR_SKYSCRAPER_LEAD_1
-     - STR_SKYSCRAPER_LEAD_2
+      - STR_SKYSCRAPER_LEAD_1
+      - STR_SKYSCRAPER_LEAD_2
+  - name: STR_TASER_UFOPAEDIA
+    needItem: true
+  - name: STR_P226_UFOPAEDIA
+    needItem: true
+
+  - name: STR_GLOCK_17_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_GLOCK_18_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_FIVE_SEVEN_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_MAKAROV_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_VEKTOR_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_STETCKIN_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_TEC_9_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SKORPION_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_MP5_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_MP7_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_P90_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_VITYAZ_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_AK12_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_AK15_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_FAMAS_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_G36_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_HK416_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_HK417_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_AR_18_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_AKM_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_AK_74_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_FN_FAL_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_G3_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_HUNTING_RIFLE_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SKS_SCOPED_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_PSG_1_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_MSG_90_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_VSS_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_DRAGUNOV_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SAKO_TRG_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_AWP_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_AW_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_M82_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_DOUBLE_BARREL_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_REMINGTON_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SPAS_12_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_KS_23_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_ORIGIN_12_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SAIGA_12_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_M60_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_FN_MAG_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_FN_MINIMI_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_RPK_74_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_GUSTAF_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_RPG_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_TASER_AMMO_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_38_SPECIAL_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_9MM_MAKAROV_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_9MM_PARABELLUM_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_9MM_GYURZA_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_FN_57_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_45_ACP_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_5_45_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_5_56_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_22_LONG_RIFLE_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SOVIET_7_62_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_NATO_7_62_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SOVIET_7_62_MMR_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_9_39_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_338_LAPUA_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_50_BMG_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_127_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_12G_BUCKSHOT_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_12G_SLUG_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_12G_NON_LETHAL_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_SHRAPNEL_25_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_BARRICADE_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_VOLNA_R_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_40MM_FRAG_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_40MM_SMOKE_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_40MM_NON_LETHAL_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_APAV40_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_CG_HEAT_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_CG_HE_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_RPG_HEAT_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_RPG_29_HEAT_UFOPAEDIA
+    needItem: true
+    cost: 0
+  - name: STR_RPG_29_THERMO_UFOPAEDIA
+    needItem: true
+    cost: 0

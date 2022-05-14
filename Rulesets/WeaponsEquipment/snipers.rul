@@ -136,7 +136,7 @@ items:
   - type: STR_VSS
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
     requiresBuy:
-      - STR_VSS_ACQUISITION
+      - STR_UNOBTAINABLE
     size: 1
     weight: 16
     battleType: 1
@@ -384,7 +384,7 @@ items:
   - type: STR_M82
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
     requiresBuy:
-      - STR_M82_ACQUISITION
+      - STR_UNOBTAINABLE
     size: 1
     weight: 70
     battleType: 1
