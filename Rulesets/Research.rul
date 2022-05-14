@@ -170,15 +170,11 @@ research:
     cost: 100
     dependencies:
      - STR_EQUIPMENT_ACQUISITION
-    unlocks:
-     - STR_ARMORY
 
   - name: STR_BACKPACK_ACQUISITION
     cost: 30
     dependencies:
      - STR_EQUIPMENT_ACQUISITION
-    unlocks:
-     - STR_ARMORY
 
   - name: STR_SHOTGUN_ACQUISITION
     cost: 70
@@ -376,8 +372,6 @@ research:
      - STR_HK416_ACQUISITION
      - STR_FX_05_ACQUISITION
      - STR_SCAR_L_ACQUISITION
-    unlocks:
-     - STR_ARMORY
   
   - name: STR_SCOPE_ACQUISITION
     cost: 30
@@ -390,12 +384,6 @@ research:
     dependencies:
      - STR_RIFLE_MODIFICATION
 
-  - name: STR_ARMORY
-    cost: 50
-    dependencies:
-      - STR_BACKPACK_ACQUISITION
-      - STR_ARMORED_VEST_ACQUISITION
-      - STR_RIFLE_MODIFICATION
 
   - name: STR_MILITARY_EQUIPMENT_ACQUISITION
     cost: 200
@@ -699,10 +687,6 @@ research:
   - name: STR_INTELLIGENCE_GATHERING
     cost: 30
 
-  - name: STR_PRISON_CELLS
-    cost: 30
-    dependencies:
-     - STR_INTELLIGENCE_GATHERING
 
   - name: STR_TERRORIST_GRUNT
     cost: 30
