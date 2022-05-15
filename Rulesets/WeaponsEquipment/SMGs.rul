@@ -154,7 +154,8 @@ items:
 
   - type: STR_MP7
     categories: [ STR_FIREARMS, STR_SMGS ]
-    # requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     size: 1
     weight: 21
     # battleType: 1

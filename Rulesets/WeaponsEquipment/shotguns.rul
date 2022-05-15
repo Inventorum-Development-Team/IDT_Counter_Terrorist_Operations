@@ -84,7 +84,7 @@ items:
   - type: STR_REMINGTON
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     requiresBuy:
-      - STR_REMINGTON_ACQUISITION
+      - STR_UNOBTAINABLE
     size: 1
     weight: 25
     battleType: 1
@@ -125,7 +125,7 @@ items:
 
   - type: STR_SPAS_12
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_SPAS_12_ACQUISITION
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     #    requiresBuy:
     size: 1

@@ -636,7 +636,7 @@ items:
   - type: STR_AK12
     categories: [ STR_FIREARMS, STR_RIFLES ]
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_UNOBTAINABLE
     size: 1
     weight: 20
     # battleType: 1
@@ -679,7 +679,7 @@ items:
   - type: STR_AK15
     categories: [ STR_FIREARMS, STR_RIFLES ]
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_UNOBTAINABLE
     size: 1
     weight: 22
     # battleType: 1
@@ -771,7 +771,7 @@ items:
 
   - type: STR_G36
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_G36_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -814,8 +814,6 @@ items:
     listOrder: 6610
 
   - type: STR_G36_AG
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -993,7 +991,7 @@ items:
 
   - type: STR_HK417
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_HK417_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1

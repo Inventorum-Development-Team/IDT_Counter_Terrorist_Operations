@@ -1,79 +1,3 @@
-items:
-  - type: STR_SCOPE
-    costBuy: 4000
-    costSell: 2000
-    requiresBuy:
-     - STR_SCOPE_ACQUISITION
-    size: 0.1
-    bigSprite: 600
-    battleType: 2
-    weight: 2
-  - type: STR_SUPPRESSOR
-    costBuy: 4000
-    costSell: 2000
-    requiresBuy:
-     - STR_SCOPE_ACQUISITION
-    size: 0.1
-    bigSprite: 670
-    battleType: 2
-    weight: 2
-  - type: STR_LASER_SIGHT
-    costBuy: 4000
-    costSell: 2000
-    requiresBuy:
-     - STR_SCOPE_ACQUISITION
-    size: 0.1
-    bigSprite: 660
-    battleType: 2
-    weight: 2
-  - type: STR_M203
-    costBuy: 15000
-    costSell: 7500
-    requiresBuy:
-     - STR_M203_ACQUISITION
-    size: 0.1
-    bigSprite: 620
-  - type: STR_FN40GL
-    costBuy: 20000
-    costSell: 10000
-    requiresBuy:
-     - STR_FN40GL_ACQUISITION
-    size: 0.1
-    bigSprite: 610
-  - type: STR_UBS
-    costBuy: 18000
-    costSell: 9000
-    requiresBuy:
-     - STR_UBS_ACQUISITION
-    size: 0.1
-    bigSprite: 630
-  - type: STR_STOCK
-    costBuy: 5000
-    costSell: 2500
-    requiresBuy:
-     - STR_STOCK_ACQUISITION
-    size: 0.1
-    invWidth: 2
-    bigSprite: 650
-  - type: STR_NV
-    costBuy: 15000
-    costSell: 7500
-    requiresBuy:
-     - STR_NIGHT_VISION
-    size: 0.1
-  - type: STR_ADVNV
-    costBuy: 25000
-    costSell: 12500
-    requiresBuy:
-     - STR_ADV_NIGHTVISION
-    size: 0.1
-  - type: STR_RIOT_ARMOR_PLATES
-    costBuy: 15000
-    costSell: 7500
-    requiresBuy:
-     - STR_RIOT_GEAR
-    size: 0.1
-
 
 manufacture:
   - delete: STR_FUSION_BALL_LAUNCHER
@@ -272,6 +196,28 @@ manufacture:
     refund: true
     
 
+  - name: STR_G36_AG
+    time: 10
+    requires:
+     - STR_G36_ACQUISITION
+     - STR_UBGL_ACQUISITION
+    requiredItems:
+     STR_G36: 1
+     STR_AG36: 1
+    refund: true
+    
+  - name: STR_G36_AG_REMOVAL
+    time: 10
+    requires:
+     - STR_G36_ACQUISITION
+     - STR_UBGL_ACQUISITION
+    requiredItems:
+     STR_G36_AG: 1
+    producedItems:
+     STR_G36: 1
+     STR_AG36: 1
+    refund: true
+
   # - name: STR_SCAR_L_GL
   #   time: 10
   #   requires:
@@ -337,7 +283,7 @@ manufacture:
     time: 10
     requires:
      - STR_GLOCK_18_ACQUISITION
-     - STR_STOCK_ACQUISITION
+     - STR_WEAPON_MODIFICATION
     requiredItems:
      STR_GLOCK_18: 1
      STR_STOCK: 1
@@ -347,7 +293,7 @@ manufacture:
     time: 10
     requires:
      - STR_GLOCK_18_ACQUISITION
-     - STR_STOCK_ACQUISITION
+     - STR_WEAPON_MODIFICATION
     requiredItems:
      STR_GLOCK_18_STOCK: 1
     producedItems:

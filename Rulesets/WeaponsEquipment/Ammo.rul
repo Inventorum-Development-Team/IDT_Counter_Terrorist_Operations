@@ -1210,7 +1210,7 @@ items:
     listOrder: 21833
   - type: STR_45_ACP_X7
     requiresBuy:
-      - STR_M1911_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 208
@@ -1271,7 +1271,7 @@ items:
   #   listOrder: 7430
   - type: STR_5_45_X30
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
     bigSprite: 211
@@ -1286,7 +1286,7 @@ items:
     listOrder: 6260
   - type: STR_5_45_X45
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
     bigSprite: 212
@@ -1301,7 +1301,7 @@ items:
     listOrder: 6270
   - type: STR_5_45_X60
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_5_45_AMMO
     bigSprite: 213
@@ -1331,7 +1331,7 @@ items:
     listOrder: 6800
   - type: STR_5_56_X50
     requiresBuy:
-      - STR_M249_ACQUISITION
+      - STR_FN_MINIMI_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 215
@@ -1347,7 +1347,7 @@ items:
     listOrder: 6380
   - type: STR_5_56_X100
     requiresBuy:
-      - STR_M249_ACQUISITION
+      - STR_FN_MINIMI_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 216
@@ -1390,7 +1390,7 @@ items:
     listOrder: 7950
   - type: STR_SOVIET_7_62_X30
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 217
@@ -1405,7 +1405,7 @@ items:
     listOrder: 8050
   - type: STR_SOVIET_7_62_X40
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 218
@@ -1420,7 +1420,7 @@ items:
     listOrder: 8060
   - type: STR_SOVIET_7_62_X75
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 219
@@ -1493,7 +1493,7 @@ items:
   #   listOrder: 2093
   - type: STR_NATO_7_62_X50
     requiresBuy:
-      - STR_MK_48_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 224
@@ -1509,7 +1509,7 @@ items:
     listOrder: 7720
   - type: STR_NATO_7_62_X100
     requiresBuy:
-      - STR_MK_48_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 225
@@ -1541,7 +1541,7 @@ items:
     listOrder: 7900
   - type: STR_SOVIET_7_62_MMR_X50
     requiresBuy:
-      - STR_PECHENEG_ACQUISITION
+      - STR_UNOBTAINABLE
     categories: [STR_CLIPS]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
     bigSprite: 226
@@ -1558,7 +1558,7 @@ items:
   - type: STR_SOVIET_7_62_MMR_X100
     categories: [STR_CLIPS]
     requiresBuy:
-      - STR_PECHENEG_ACQUISITION
+      - STR_UNOBTAINABLE
     refNode: *STR_SOVIET_7_62_MMR_AMMO
     bigSprite: 227
     handSprite: 200

@@ -130,6 +130,7 @@ items:
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
     requiresBuy:
       - STR_AT_ACQUISITION
+      - STR_EUROPE
     size: 1
     weight: 65
     battleType: 1

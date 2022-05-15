@@ -1,0 +1,83 @@
+items:
+
+  - type: STR_SCOPE
+    costBuy: 4000
+    costSell: 2000
+    requiresBuy:
+     - STR_WEAPON_MODIFICATION
+    size: 0.1
+    bigSprite: 600
+    battleType: 2
+    weight: 2
+  - type: STR_SUPPRESSOR
+    costBuy: 4000
+    costSell: 2000
+    requiresBuy:
+     - STR_WEAPON_MODIFICATION
+    size: 0.1
+    bigSprite: 670
+    battleType: 2
+    weight: 2
+  - type: STR_LASER_SIGHT
+    costBuy: 4000
+    costSell: 2000
+    requiresBuy:
+     - STR_WEAPON_MODIFICATION
+    size: 0.1
+    bigSprite: 660
+    battleType: 2
+    weight: 2
+  # - type: STR_M203
+  #   costBuy: 15000
+  #   costSell: 7500
+  #   requiresBuy:
+  #    - STR_M203_ACQUISITION
+  #   size: 0.1
+  #   bigSprite: 620
+  # - type: STR_FN40GL
+  #   costBuy: 20000
+  #   costSell: 10000
+  #   requiresBuy:
+  #    - STR_FN40GL_ACQUISITION
+  #   size: 0.1
+  #   bigSprite: 610
+  - type: STR_AG36
+    costBuy: 20000
+    costSell: 10000
+    requiresBuy:
+     - STR_UBGL_ACQUISITION
+    size: 0.1
+    bigSprite: 610
+  - type: STR_UBS
+    costBuy: 18000
+    costSell: 9000
+    requiresBuy:
+     - STR_UBS_ACQUISITION
+    size: 0.1
+    bigSprite: 630
+  - type: STR_STOCK
+    costBuy: 5000
+    costSell: 2500
+    requiresBuy:
+     - STR_WEAPON_MODIFICATION
+    size: 0.1
+    invWidth: 2
+    bigSprite: 650
+  - type: STR_NV
+    costBuy: 15000
+    costSell: 7500
+    requiresBuy:
+     - STR_NIGHT_VISION
+    size: 0.1
+  - type: STR_ADVNV
+    costBuy: 25000
+    costSell: 12500
+    requiresBuy:
+     - STR_ADV_NIGHTVISION
+    size: 0.1
+  - type: STR_RIOT_ARMOR_PLATES
+    costBuy: 15000
+    costSell: 7500
+    requiresBuy:
+     - STR_RIOT_GEAR
+    size: 0.1

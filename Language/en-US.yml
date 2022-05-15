@@ -623,7 +623,7 @@
       STR_AW_ACQUISITION: "Sniper Acquisition: AIAW"
       STR_MSG_90_ACQUISITION: "Sniper Acquisition: MSG90"
       STR_ARMORY: "Armory"
-      STR_RIFLE_MODIFICATION: "Weapon Modification"
+      STR_WEAPON_MODIFICATION: "Weapon Modification"
       STR_SCOPE_ACQUISITION: "Rifle Modification: Scopes"
       STR_SOPMOD_ACQUISITION: "Rifle Modification: SOPMOD Kits"
       STR_UBS_ACQUISITION: "Rifle Modification: MASS"
