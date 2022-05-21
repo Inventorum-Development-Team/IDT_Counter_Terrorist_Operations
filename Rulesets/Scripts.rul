@@ -77,6 +77,15 @@ items:
   - type: STR_9MM_PARABELLUM_X40 #ignoreDuplicate
     tags:
      AmmoNo: 4   
+  - type: STR_HK_4_6X20 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
+  - type: STR_HK_4_6X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 2
+  - type: STR_HK_4_6X40 #ignoreDuplicate
+    tags:
+     AmmoNo: 3   
   - type: STR_9MM_GYURZA_X20  #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -243,6 +252,10 @@ items:
      AmmoReSprite: 1
   - type: STR_MP5 #ignoreDuplicate
     tags:
+     AmmoReSprite: 1
+  - type: STR_MP7 #ignoreDuplicate
+    tags:
+     FoldStock: 1
      AmmoReSprite: 1
   # - type: STR_MPX #ignoreDuplicate
   #   tags:
