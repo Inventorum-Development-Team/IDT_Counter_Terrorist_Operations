@@ -75,3 +75,49 @@ armors:
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
+
+units:
+  - type: MALE_HOSTAGE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVM_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    ignoredByAI: true
+    deathSound: [41, 42, 43]
+  - type: FEMALE_HOSTAGE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVF_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    ignoredByAI: true
+    deathSound: [44, 45, 46]

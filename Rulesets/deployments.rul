@@ -99,7 +99,9 @@ alienDeployments:
     width: 70
     length: 20
     height: 10
-    civilians: 12
+    civiliansByType:
+      MALE_HOSTAGE: 6
+      FEMALE_HOSTAGE: 6
     terrains:
       - AIRPORT
     despawnPenalty: 400
@@ -280,7 +282,9 @@ alienDeployments:
     width: 50
     length: 30
     height: 10
-    civilians: 10
+    civiliansByType:
+      MALE_HOSTAGE: 6
+      FEMALE_HOSTAGE: 6
     despawnPenalty: 500
     abortPenalty: 500
     duration: [24,48]

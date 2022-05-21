@@ -339,7 +339,7 @@ items:
     #    requiresBuy:
     size: 1
     weight: 28
-    # battleType: 1
+    battleType: 1
     bigSprite: 6060
     floorSprite: 6060
     handSprite: 6060

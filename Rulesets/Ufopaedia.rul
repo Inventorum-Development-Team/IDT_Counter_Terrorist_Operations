@@ -695,12 +695,12 @@ ufopaedia:
   #   section: STR_SNIPERS
   #   listOrder: 506
 
-  - id: STR_SAKO_TRG
-    type_id: 14
-    image_id: TRG.SPK
-    text: STR_SAKO_TRG_UFOPAEDIA
-    section: STR_SNIPERS
-    listOrder: 507
+  # - id: STR_SAKO_TRG
+  #   type_id: 14
+  #   image_id: TRG.SPK
+  #   text: STR_SAKO_TRG_UFOPAEDIA
+  #   section: STR_SNIPERS
+  #   listOrder: 507
 
   - id: STR_AWP
     type_id: 14
@@ -1341,6 +1341,7 @@ ufopaedia:
     listOrder: 1107
 
   - id: STR_SCOPE_DUMMY
+    title: STR_SCOPE
     type_id: 14
     text: STR_SCOPE_UFOPAEDIA
     section: STR_EQUIPMENT
@@ -1348,6 +1349,7 @@ ufopaedia:
     image_id: SCOPE.SPK
 
   - id: STR_LASER_SIGHT_DUMMY
+    title: STR_LASER_SIGHT
     type_id: 14
     text: STR_LASER_SIGHT_UFOPAEDIA
     section: STR_EQUIPMENT
@@ -1355,6 +1357,7 @@ ufopaedia:
     image_id: LASER.SPK
 
   - id: STR_SUPPRESSOR_DUMMY
+    title: STR_SUPPRESSOR
     type_id: 14
     text: STR_SUPPRESSIR_UFOPAEDIA
     section: STR_EQUIPMENT
@@ -1368,6 +1371,7 @@ ufopaedia:
   #   listOrder: 1110
 
   - id: STR_M320_DUMMY
+    title: STR_M320
     type_id: 14
     image_id: M320.SPK
     text: STR_M320_UFOPAEDIA
@@ -1381,6 +1385,7 @@ ufopaedia:
   #   listOrder: 1112  
 
   - id: STR_AG36_DUMMY
+    title: STR_AG36
     type_id: 14
     image_id: AG36.SPK
     text: STR_AG36_UFOPAEDIA
@@ -1388,6 +1393,7 @@ ufopaedia:
     listOrder: 1112
 
   - id: STR_UBS_DUMMY
+    title: STR_UBS
     type_id: 14
     image_id: MASS.SPK
     text: STR_UBS_UFOPAEDIA
@@ -1395,6 +1401,7 @@ ufopaedia:
     listOrder: 1113
 
   - id: STR_STOCK_DUMMY
+    title: STR_STOCK
     type_id: 14
     image_id: STOCK.SPK
     text: STR_STOCK_UFOPAEDIA
