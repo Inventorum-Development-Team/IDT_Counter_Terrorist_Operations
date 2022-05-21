@@ -390,6 +390,7 @@ items:
   - type: STR_MSG_90 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     Bipod: 1
   - type: STR_VSS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -399,10 +400,10 @@ items:
   # - type: STR_OSV_96 #ignoreDuplicate
   #   tags:
   #    AmmoReSprite: 1
-  - type: STR_SAKO_TRG #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-     Bipod: 1
+  # - type: STR_SAKO_TRG #ignoreDuplicate
+  #   tags:
+  #    AmmoReSprite: 1
+  #    Bipod: 1
   - type: STR_AWP #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -412,6 +413,7 @@ items:
   - type: STR_M82 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     Bipod: 1
   - type: STR_ORIGIN_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -427,18 +429,21 @@ items:
   - type: STR_M60 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     Bipod: 1
   # - type: STR_M249 #ignoreDuplicate
   #   tags:
   #    AmmoReSprite: 1
   - type: STR_FN_MINIMI #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     Bipod: 1
   # - type: STR_MK_48 #ignoreDuplicate
   #   tags:
   #    AmmoReSprite: 1
   - type: STR_RPK_74 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     Bipod: 1
   # - type: STR_PECHENEG #ignoreDuplicate
   #   tags:
   #    AmmoReSprite: 1
