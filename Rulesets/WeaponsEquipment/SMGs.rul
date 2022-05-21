@@ -58,7 +58,6 @@ items:
           ]
         tuLoad: 25
         tuUnload: 12
-    listOrder: 7090
 
   - type: STR_MP5
     categories: [ STR_FIREARMS, STR_SMGS ]
@@ -106,7 +105,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 7140
 
   # - type: STR_MPX
   #   categories: [ STR_FIREARMS, STR_SMGS ]
@@ -150,7 +148,6 @@ items:
   #         ]
   #       tuLoad: 30
   #       tuUnload: 15
-  #   listOrder: 7190
 
   - type: STR_MP7
     categories: [ STR_FIREARMS, STR_SMGS ]
@@ -189,7 +186,6 @@ items:
         compatibleAmmo: [ STR_HK_4_6X20, STR_HK_4_6X30, STR_HK_4_6X40 ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 21821
 
   - type: STR_P90
     categories: [ STR_FIREARMS, STR_SMGS ]
@@ -232,7 +228,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 7490
 
   - type: STR_SKORPION
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
@@ -274,7 +269,6 @@ items:
           ]
         tuLoad: 25
         tuUnload: 12
-    listOrder: 6880
 
   # - type: STR_UZI
   #   requiresBuy:
@@ -319,7 +313,6 @@ items:
   #         ]
   #       tuLoad: 25
   #       tuUnload: 12
-  #   listOrder: 7230
 
   # - type: STR_UMP
   #   requiresBuy:
@@ -359,7 +352,6 @@ items:
   #       compatibleAmmo: [ STR_45_ACP_X25 ]
   #       tuLoad: 30
   #       tuUnload: 15
-  #   listOrder: 6060
 
   - type: STR_VITYAZ
     requiresBuy:
@@ -403,7 +395,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 7270
 
   # - type: STR_VERSEK
   #   requiresBuy:
@@ -443,4 +434,3 @@ items:
   #       compatibleAmmo: [ STR_9MM_GYURZA_X20, STR_9MM_GYURZA_X30 ]
   #       tuLoad: 25
   #       tuUnload: 12
-  #   listOrder: 6830

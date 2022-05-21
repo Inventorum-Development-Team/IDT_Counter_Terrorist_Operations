@@ -43,7 +43,6 @@ items:
         compatibleAmmo: [ STR_12G_BUCKSHOT_X2 ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 5020
 
   # - type: STR_SERBU
   #   categories: [ STR_FIREARMS, STR_SHOTGUNS ]
@@ -80,7 +79,6 @@ items:
   #       compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
   #       tuLoad: 40
   #       tuUnload: 20
-  #   listOrder: 5360
   - type: STR_REMINGTON
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     requiresBuy:
@@ -121,7 +119,6 @@ items:
           ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 5380
 
   - type: STR_SPAS_12
     requiresBuy:
@@ -162,7 +159,6 @@ items:
           ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 5420
 
   - type: STR_KS_23
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
@@ -199,7 +195,6 @@ items:
         compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3 ]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 7380
 
   - type: STR_ORIGIN_12
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
@@ -243,7 +238,6 @@ items:
           ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 5040
 
   # - type: STR_AA_12
   #   categories: [ STR_FIREARMS, STR_SHOTGUNS ]
@@ -291,7 +285,6 @@ items:
   #         ]
   #       tuLoad: 30
   #       tuUnload: 15
-  #   listOrder: 5100
 
   # - type: STR_USAS_12
   #   categories: [ STR_FIREARMS, STR_SHOTGUNS ]
@@ -338,7 +331,6 @@ items:
   #         ]
   #       tuLoad: 30
   #       tuUnload: 15
-  #   listOrder: 5160
 
   - type: STR_SAIGA_12
     requiresBuy:
@@ -386,4 +378,3 @@ items:
           ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 5210

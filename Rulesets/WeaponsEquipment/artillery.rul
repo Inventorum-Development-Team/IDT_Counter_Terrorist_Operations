@@ -39,7 +39,6 @@ items:
           ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 5890
 
   # - type: STR_MGL
   #   categories: [ STR_FIREARMS, STR_ARTILLERY ]
@@ -81,7 +80,6 @@ items:
   #         ]
   #       tuLoad: 45
   #       tuUnload: 22
-  #   listOrder: 5930
 
   # - type: STR_GM_94
   #   requiresBuy:
@@ -124,7 +122,6 @@ items:
   #         ]
   #       tuLoad: 45
   #       tuUnload: 22
-  #   listOrder: 5990
 
   - type: STR_GUSTAF
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
@@ -159,7 +156,6 @@ items:
         compatibleAmmo: [ STR_CG_HEAT_X1, STR_CG_HE_X1 ]
         tuLoad: 50
         tuUnload: 25
-    listOrder: 7440
 
   - type: STR_RPG
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_SEIZED ]
@@ -191,7 +187,6 @@ items:
         compatibleAmmo: [ STR_RPG_HEAT_X1 ]
         tuLoad: 50
         tuUnload: 25
-    listOrder: 7870
 
   # - type: STR_RPG-29
   #   requiresBuy:
@@ -226,4 +221,3 @@ items:
   #       compatibleAmmo: [ STR_RPG_29_HEAT_X1, STR_RPG_29_THERMO_X1 ]
   #       tuLoad: 50
   #       tuUnload: 25
-  #   listOrder: 7840

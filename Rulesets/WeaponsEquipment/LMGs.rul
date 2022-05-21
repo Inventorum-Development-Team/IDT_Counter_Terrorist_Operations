@@ -47,7 +47,6 @@ items:
         compatibleAmmo: [ STR_NATO_7_62_X50, STR_NATO_7_62_X100 ]
         tuLoad: 45
         tuUnload: 22
-    listOrder: 7670
 
   # - type: STR_M249
   #   categories: [ STR_FIREARMS, STR_LMGS ]
@@ -82,7 +81,6 @@ items:
   #       compatibleAmmo: [ STR_5_56_X30, STR_5_56_X50, STR_5_56_X100 ]
   #       tuLoad: 45
   #       tuUnload: 22
-  #   listOrder: 6280
   #   sprayWaypoints: 2
 
   - type: STR_FN_MINIMI
@@ -119,7 +117,6 @@ items:
         compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100, STR_5_56_X30 ]
         tuLoad: 45
         tuUnload: 22
-    listOrder: 6320
 
 
   - type: STR_FN_MAG
@@ -186,7 +183,6 @@ items:
   #       compatibleAmmo: [ STR_NATO_7_62_X50, STR_NATO_7_62_X100 ]
   #       tuLoad: 45
   #       tuUnload: 22
-  #   listOrder: 7700
   #   sprayWaypoints: 2
 
   - type: STR_RPK_74
@@ -223,7 +219,6 @@ items:
         compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45 ]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 6250
 
   # - type: STR_PECHENEG
   #   categories: [ STR_FIREARMS, STR_LMGS ]
@@ -258,7 +253,6 @@ items:
   #       compatibleAmmo: [ STR_SOVIET_7_62_MMR_X50, STR_SOVIET_7_62_MMR_X100 ]
   #       tuLoad: 45
   #       tuUnload: 22
-  #   listOrder: 7910
   #   sprayWaypoints: 2
 
   # - type: STR_NEGEV
@@ -295,4 +289,3 @@ items:
   #       compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100 ]
   #       tuLoad: 45
   #       tuUnload: 22
-  #   listOrder: 6360

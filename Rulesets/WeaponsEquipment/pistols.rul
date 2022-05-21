@@ -78,7 +78,6 @@ items:
     tuSnap: 25
     invWidth: 1
     invHeight: 2
-    listOrder: 8080
     ammo:
       0:
         compatibleAmmo: [STR_TASER_X1]
@@ -126,7 +125,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 6940
 
   - type: STR_GLOCK_17
     categories: [STR_FIREARMS, STR_PISTOLS]
@@ -159,7 +157,6 @@ items:
     tuAuto: 45
     invWidth: 1
     invHeight: 2
-    listOrder: 6970
     ammo:
       0:
         compatibleAmmo:
@@ -221,7 +218,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 7010
 
   - type: STR_GLOCK_18_STOCK
     requiresBuy:
@@ -254,7 +250,6 @@ items:
     tuAuto: 42
     invWidth: 1
     invHeight: 3
-    listOrder: 7050
     ammo:
       0:
         compatibleAmmo:
@@ -307,7 +302,6 @@ items:
   #       compatibleAmmo: [ STR_45_ACP_X7 ]
   #       tuLoad: 25
   #       tuUnload: 12
-  #   listOrder: 6080
   # - type: STR_MK_23
   #   categories: [ STR_FIREARMS, STR_PISTOLS ]
   #   requiresBuy:
@@ -345,7 +339,6 @@ items:
   #       compatibleAmmo: [ STR_45_ACP_X12 ]
   #       tuLoad: 25
   #       tuUnload: 12
-  #   listOrder: 6040
   - type: STR_MAKAROV
     categories: [STR_FIREARMS, STR_PISTOLS, STR_SEIZED]
     size: 1
@@ -380,7 +373,6 @@ items:
         compatibleAmmo: [STR_9MM_MAKAROV_X10]
         tuLoad: 20
         tuUnload: 10
-    listOrder: 6860
 
   - type: STR_FIVE_SEVEN
     categories: [STR_FIREARMS, STR_PISTOLS]
@@ -423,7 +415,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 7470
 
   # - type: STR_MANHURIN
   #   requiresBuy:
@@ -463,7 +454,6 @@ items:
   #       compatibleAmmo: [STR_38_SPECIAL_X6]
   #       tuLoad: 40
   #       tuUnload: 20
-  #   listOrder: 5520
 
   - type: STR_VEKTOR
     requiresBuy:
@@ -507,7 +497,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 6810
 
   - type: STR_STETCKIN
     requiresBuy:
@@ -551,7 +540,6 @@ items:
         compatibleAmmo: [ STR_SCOPE, STR_SUPPRESSOR, STR_LASER_SIGHT ]
         tuLoad: 50
         tuUnload: 50
-    listOrder: 6920
 
     ### REBALANCE FOR STOCK ###
     ### REBALANCE FOR STOCK ###

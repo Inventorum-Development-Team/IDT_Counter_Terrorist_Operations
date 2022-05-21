@@ -29,7 +29,6 @@ items:
         compatibleAmmo: [ STR_22_LONG_RIFLE_X6 ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 5460
   - type: STR_SKS_SCOPED
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
     #    requiresBuy:
@@ -61,7 +60,6 @@ items:
         compatibleAmmo: [ STR_SOVIET_7_62_X10 ]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 7940
   - type: STR_PSG_1
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
     requiresBuy:
@@ -94,7 +92,6 @@ items:
         compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X10, STR_NATO_7_62_X20 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 7610
 
   - type: STR_MSG_90
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
@@ -131,7 +128,6 @@ items:
         compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X20 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 7790
 
   - type: STR_VSS
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
@@ -169,7 +165,6 @@ items:
         compatibleAmmo: [ STR_9_39_X10, STR_9_39_X20 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 7350
 
   - type: STR_DRAGUNOV
     requiresBuy:
@@ -207,7 +202,6 @@ items:
         compatibleAmmo: [ STR_SOVIET_7_62_MMR_X10 ]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 7890
 
   # - type: STR_OSV_96
   #   requiresBuy:
@@ -242,7 +236,6 @@ items:
   #       compatibleAmmo: [ STR_127_X5 ]
   #       tuLoad: 40
   #       tuUnload: 20
-  #   listOrder: 5000
 
   # - type: STR_SAKO_TRG
   #   categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
@@ -276,7 +269,6 @@ items:
   #       compatibleAmmo: [ STR_338_LAPUA_X5 ]
   #       tuLoad: 35
   #       tuUnload: 17
-  #   listOrder: 5480
 
   - type: STR_AWP
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
@@ -310,7 +302,6 @@ items:
         compatibleAmmo: [ STR_NATO_7_62_X10 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 7650
 
   - type: STR_AW
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
@@ -344,7 +335,6 @@ items:
         compatibleAmmo: [ STR_338_LAPUA_X5 ]
         tuLoad: 35
         tuUnload: 17
-    listOrder: 5500
 
   # - type: STR_M24_SWS
   #   requiresBuy:
@@ -379,7 +369,6 @@ items:
   #       compatibleAmmo: [ STR_NATO_7_62_X5 ]
   #       tuLoad: 35
   #       tuUnload: 17
-  #   listOrder: 7820
 
   - type: STR_M82
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
@@ -413,4 +402,3 @@ items:
         compatibleAmmo: [ STR_50_BMG_X5, STR_50_BMG_X10 ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 6100

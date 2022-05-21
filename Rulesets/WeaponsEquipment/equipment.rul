@@ -22,7 +22,6 @@ items:
     battleType: 4
     blastRadius: 3
     fuseType: -2
-    listOrder: 2810
 
   - type: STR_GRENADE
     categories: [ STR_EXPLOSIVES ]
@@ -44,7 +43,6 @@ items:
     damageType: 3
     battleType: 4
     blastRadius: 4
-    listOrder: 2810
 
   - type: STR_MOLOTOV
     categories: [ STR_EXPLOSIVES ]
@@ -68,7 +66,6 @@ items:
     blastRadius: 3
     fuseType: -2
     isExplodingInHands: true
-    listOrder: 2811
 
   - type: STR_SMOKE_GRENADE
     categories: [ STR_EXPLOSIVES ]
@@ -87,7 +84,6 @@ items:
     battleType: 4
     blastRadius: 6
     fuseType: -2
-    listOrder: 2812
 
   - type: STR_FLASHBANG_GRENADE
     categories: [ STR_EXPLOSIVES ]
@@ -112,7 +108,6 @@ items:
     blastRadius: 5
     attraction: 6
     fuseType: -2
-    listOrder: 2813
 
   - type: STR_HIGH_EXPLOSIVE
     categories: [ STR_EXPLOSIVES ]
@@ -135,7 +130,6 @@ items:
     damageType: 3
     battleType: 4
     blastRadius: 7
-    listOrder: 2814
 
   - type: STR_FIELD_DRESSING
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
@@ -157,7 +151,6 @@ items:
     medikitType: 1
     tuUse: 40
     medikitActionName: STR_USE_FIELD_DRESSING
-    listOrder: 2820
 
   - type: STR_RIOT_SHIELD
     requiresBuy:
@@ -174,7 +167,6 @@ items:
     clipSize: -1
     invWidth: 2
     invHeight: 3
-    listOrder: 2800
 
   - type: STR_ELECTRO_FLARE
     size: 0.1

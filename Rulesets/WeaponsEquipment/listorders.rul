@@ -207,12 +207,6 @@ items:
     listOrder: 202 #ignoreDuplicate
   - type: STR_RPG_HEAT_X1 #ignoreDuplicate
     listOrder: 203 #ignoreDuplicate
-  - type: STR_SCOPE #ignoreDuplicate
-    listOrder: 204 #ignoreDuplicate
-  - type: STR_SUPPRESSOR #ignoreDuplicate
-    listOrder: 205 #ignoreDuplicate
-  - type: STR_LASER_SIGHT #ignoreDuplicate
-    listOrder: 206 #ignoreDuplicate
   - type: STR_IMPACT_GRENADE #ignoreDuplicate
     listOrder: 207 #ignoreDuplicate
   - type: STR_GRENADE #ignoreDuplicate
@@ -243,3 +237,9 @@ items:
     listOrder: 220 #ignoreDuplicate
   - type: STR_RIOT_ARMOR_PLATES #ignoreDuplicate
     listOrder: 221 #ignoreDuplicate
+  - type: STR_SCOPE #ignoreDuplicate
+    listOrder: 222 #ignoreDuplicate
+  - type: STR_SUPPRESSOR #ignoreDuplicate
+    listOrder: 223 #ignoreDuplicate
+  - type: STR_LASER_SIGHT #ignoreDuplicate
+    listOrder: 224 #ignoreDuplicate
