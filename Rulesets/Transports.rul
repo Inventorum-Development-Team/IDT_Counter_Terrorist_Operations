@@ -13,7 +13,7 @@ crafts:
     vehicles: 0
     costBuy: 100000
     costRent: 5000
-    costSell: 10000
+    costSell: -1000000
     refuelRate: 500
     repairRate: 4
     transferTime: 72
@@ -51,7 +51,7 @@ crafts:
     vehicles: 0
     costBuy: 200000
     costRent: 10000
-    costSell: 20000
+    costSell: -1000000
     refuelRate: 500
     repairRate: 4
     transferTime: 72
@@ -94,7 +94,7 @@ crafts:
     vehicles: 0
     costBuy: 300000
     costRent: 15000
-    costSell: 30000
+    costSell: -1000000
     refuelRate: 500
     repairRate: 4
     transferTime: 72
