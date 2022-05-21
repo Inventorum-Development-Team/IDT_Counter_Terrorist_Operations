@@ -1,0 +1,245 @@
+items:
+  - type: STR_TASER #ignoreDuplicate
+    listOrder: 100 #ignoreDuplicate
+  - type: STR_TASER_X1 #ignoreDuplicate
+    listOrder: 101 #ignoreDuplicate
+  - type: STR_MAKAROV #ignoreDuplicate
+    listOrder: 102 #ignoreDuplicate
+  - type: STR_STETCKIN #ignoreDuplicate
+    listOrder: 103 #ignoreDuplicate
+  - type: STR_SKORPION #ignoreDuplicate
+    listOrder: 104 #ignoreDuplicate
+  - type: STR_9MM_MAKAROV_X10 #ignoreDuplicate
+    listOrder: 105 #ignoreDuplicate
+  - type: STR_9MM_MAKAROV_X20 #ignoreDuplicate
+    listOrder: 106 #ignoreDuplicate
+  - type: STR_9MM_MAKAROV_X30 #ignoreDuplicate
+    listOrder: 107 #ignoreDuplicate
+  - type: STR_P226 #ignoreDuplicate
+    listOrder: 108 #ignoreDuplicate
+  - type: STR_GLOCK_17 #ignoreDuplicate
+    listOrder: 109 #ignoreDuplicate
+  - type: STR_GLOCK_18 #ignoreDuplicate
+    listOrder: 110 #ignoreDuplicate
+  - type: STR_GLOCK_18_STOCK #ignoreDuplicate
+    listOrder: 111 #ignoreDuplicate
+  - type: STR_TEC_9 #ignoreDuplicate
+    listOrder: 112 #ignoreDuplicate
+  - type: STR_MP5 #ignoreDuplicate
+    listOrder: 113 #ignoreDuplicate
+  - type: STR_VITYAZ #ignoreDuplicate
+    listOrder: 114 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X10 #ignoreDuplicate
+    listOrder: 115 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X20 #ignoreDuplicate
+    listOrder: 116 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X30 #ignoreDuplicate
+    listOrder: 117 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X40 #ignoreDuplicate
+    listOrder: 118 #ignoreDuplicate
+  - type: STR_VEKTOR #ignoreDuplicate
+    listOrder: 119 #ignoreDuplicate
+  - type: STR_9MM_GYURZA_X20 #ignoreDuplicate
+    listOrder: 120 #ignoreDuplicate
+  - type: STR_FIVE_SEVEN #ignoreDuplicate
+    listOrder: 121 #ignoreDuplicate
+  - type: STR_FN_57_X20 #ignoreDuplicate
+    listOrder: 122 #ignoreDuplicate
+  - type: STR_P90 #ignoreDuplicate
+    listOrder: 123 #ignoreDuplicate
+  - type: STR_FN_57_X50 #ignoreDuplicate
+    listOrder: 124 #ignoreDuplicate
+  - type: STR_MP7 #ignoreDuplicate
+    listOrder: 125 #ignoreDuplicate
+  - type: STR_HK_4_6X20 #ignoreDuplicate
+    listOrder: 126 #ignoreDuplicate
+  - type: STR_HK_4_6X30 #ignoreDuplicate
+    listOrder: 127 #ignoreDuplicate
+  - type: STR_HK_4_6X40 #ignoreDuplicate
+    listOrder: 128 #ignoreDuplicate
+  - type: STR_AK_74 #ignoreDuplicate
+    listOrder: 129 #ignoreDuplicate
+  - type: STR_AK12 #ignoreDuplicate
+    listOrder: 130 #ignoreDuplicate
+  - type: STR_RPK_74 #ignoreDuplicate
+    listOrder: 131 #ignoreDuplicate
+  - type: STR_5_45_X30 #ignoreDuplicate
+    listOrder: 132 #ignoreDuplicate
+  - type: STR_5_45_X45 #ignoreDuplicate
+    listOrder: 133 #ignoreDuplicate
+  - type: STR_5_45_X60 #ignoreDuplicate
+    listOrder: 134 #ignoreDuplicate
+  - type: STR_AR_18 #ignoreDuplicate
+    listOrder: 135 #ignoreDuplicate
+  - type: STR_FAMAS #ignoreDuplicate
+    listOrder: 136 #ignoreDuplicate
+  - type: STR_APAV40_X1 #ignoreDuplicate
+    listOrder: 137 #ignoreDuplicate
+  - type: STR_G36 #ignoreDuplicate
+    listOrder: 138 #ignoreDuplicate
+  - type: STR_G36_AG #ignoreDuplicate
+    listOrder: 139 #ignoreDuplicate
+  - type: STR_HK416 #ignoreDuplicate
+    listOrder: 140 #ignoreDuplicate
+  - type: STR_HK416_UBS #ignoreDuplicate
+    listOrder: 141 #ignoreDuplicate
+  - type: STR_12G_BUCKSHOT_X5 #ignoreDuplicate
+    listOrder: 142 #ignoreDuplicate
+  - type: STR_HK416_M320 #ignoreDuplicate
+    listOrder: 143 #ignoreDuplicate
+  - type: STR_5_56_X30 #ignoreDuplicate
+    listOrder: 144 #ignoreDuplicate
+  - type: STR_FN_MINIMI #ignoreDuplicate
+    listOrder: 145 #ignoreDuplicate
+  - type: STR_5_56_X50 #ignoreDuplicate
+    listOrder: 146 #ignoreDuplicate
+  - type: STR_5_56_X100 #ignoreDuplicate
+    listOrder: 147 #ignoreDuplicate
+  - type: STR_SKS_SCOPED #ignoreDuplicate
+    listOrder: 148 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_X10 #ignoreDuplicate
+    listOrder: 149 #ignoreDuplicate
+  - type: STR_AKM #ignoreDuplicate
+    listOrder: 150 #ignoreDuplicate
+  - type: STR_AK15 #ignoreDuplicate
+    listOrder: 151 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_X30 #ignoreDuplicate
+    listOrder: 152 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_X40 #ignoreDuplicate
+    listOrder: 153 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_X75 #ignoreDuplicate
+    listOrder: 154 #ignoreDuplicate
+  - type: STR_FN_FAL #ignoreDuplicate
+    listOrder: 155 #ignoreDuplicate
+  - type: STR_G3 #ignoreDuplicate
+    listOrder: 156 #ignoreDuplicate
+  - type: STR_HK417 #ignoreDuplicate
+    listOrder: 157 #ignoreDuplicate
+  - type: STR_PSG_1 #ignoreDuplicate
+    listOrder: 158 #ignoreDuplicate
+  - type: STR_MSG_90 #ignoreDuplicate
+    listOrder: 159 #ignoreDuplicate
+  - type: STR_AWP #ignoreDuplicate
+    listOrder: 160 #ignoreDuplicate
+  - type: STR_NATO_7_62_X5 #ignoreDuplicate
+    listOrder: 161 #ignoreDuplicate
+  - type: STR_NATO_7_62_X10 #ignoreDuplicate
+    listOrder: 162 #ignoreDuplicate
+  - type: STR_NATO_7_62_X20 #ignoreDuplicate
+    listOrder: 163 #ignoreDuplicate
+  - type: STR_M60 #ignoreDuplicate
+    listOrder: 164 #ignoreDuplicate
+  - type: STR_FN_MAG #ignoreDuplicate
+    listOrder: 165 #ignoreDuplicate
+  - type: STR_NATO_7_62_X50 #ignoreDuplicate
+    listOrder: 166 #ignoreDuplicate
+  - type: STR_NATO_7_62_X100 #ignoreDuplicate
+    listOrder: 167 #ignoreDuplicate
+  - type: STR_DRAGUNOV #ignoreDuplicate
+    listOrder: 168 #ignoreDuplicate
+  - type: STR_SOVIET_7_62_MMR_X10 #ignoreDuplicate
+    listOrder: 169 #ignoreDuplicate
+  - type: STR_HUNTING_RIFLE #ignoreDuplicate
+    listOrder: 170 #ignoreDuplicate
+  - type: STR_22_LONG_RIFLE_X6 #ignoreDuplicate
+    listOrder: 171 #ignoreDuplicate
+  - type: STR_VSS #ignoreDuplicate
+    listOrder: 172 #ignoreDuplicate
+  - type: STR_9_39_X10 #ignoreDuplicate
+    listOrder: 173 #ignoreDuplicate
+  - type: STR_9_39_X20 #ignoreDuplicate
+    listOrder: 174 #ignoreDuplicate
+  - type: STR_AW #ignoreDuplicate
+    listOrder: 175 #ignoreDuplicate
+  - type: STR_338_LAPUA_X5 #ignoreDuplicate
+    listOrder: 176 #ignoreDuplicate
+  - type: STR_M82 #ignoreDuplicate
+    listOrder: 177 #ignoreDuplicate
+  - type: STR_50_BMG_X5 #ignoreDuplicate
+    listOrder: 178 #ignoreDuplicate
+  - type: STR_50_BMG_X10 #ignoreDuplicate
+    listOrder: 179 #ignoreDuplicate
+  - type: STR_DOUBLE_BARREL #ignoreDuplicate
+    listOrder: 180 #ignoreDuplicate
+  - type: STR_12G_BUCKSHOT_X2 #ignoreDuplicate
+    listOrder: 181 #ignoreDuplicate
+  - type: STR_REMINGTON #ignoreDuplicate
+    listOrder: 182 #ignoreDuplicate
+  - type: STR_SPAS_12 #ignoreDuplicate
+    listOrder: 183 #ignoreDuplicate
+  - type: STR_ORIGIN_12 #ignoreDuplicate
+    listOrder: 184 #ignoreDuplicate
+  - type: STR_SAIGA_12 #ignoreDuplicate
+    listOrder: 185 #ignoreDuplicate
+  - type: STR_12G_BUCKSHOT_X8 #ignoreDuplicate
+    listOrder: 186 #ignoreDuplicate
+  - type: STR_12G_BUCKSHOT_X20 #ignoreDuplicate
+    listOrder: 187 #ignoreDuplicate
+  - type: STR_12G_BUCKSHOT_X30 #ignoreDuplicate
+    listOrder: 188 #ignoreDuplicate
+  - type: STR_12G_SLUG_X8 #ignoreDuplicate
+    listOrder: 189 #ignoreDuplicate
+  - type: STR_12G_NON_LETHAL_X8 #ignoreDuplicate
+    listOrder: 190 #ignoreDuplicate
+  - type: STR_KS_23 #ignoreDuplicate
+    listOrder: 191 #ignoreDuplicate
+  - type: STR_SHRAPNEL_25_X3 #ignoreDuplicate
+    listOrder: 192 #ignoreDuplicate
+  - type: STR_BARRICADE_X3 #ignoreDuplicate
+    listOrder: 193 #ignoreDuplicate
+  - type: STR_VOLNA_R_X3 #ignoreDuplicate
+    listOrder: 194 #ignoreDuplicate
+  - type: STR_M320 #ignoreDuplicate
+    listOrder: 195 #ignoreDuplicate
+  - type: STR_40MM_FRAG_X1 #ignoreDuplicate
+    listOrder: 196 #ignoreDuplicate
+  - type: STR_40MM_SMOKE_X1 #ignoreDuplicate
+    listOrder: 197 #ignoreDuplicate
+  - type: STR_40MM_NON_LETHAL_X1 #ignoreDuplicate
+    listOrder: 198 #ignoreDuplicate
+  - type: STR_GUSTAF #ignoreDuplicate
+    listOrder: 199 #ignoreDuplicate
+  - type: STR_CG_HEAT_X1 #ignoreDuplicate
+    listOrder: 200 #ignoreDuplicate
+  - type: STR_CG_HE_X1 #ignoreDuplicate
+    listOrder: 201 #ignoreDuplicate
+  - type: STR_RPG #ignoreDuplicate
+    listOrder: 202 #ignoreDuplicate
+  - type: STR_RPG_HEAT_X1 #ignoreDuplicate
+    listOrder: 203 #ignoreDuplicate
+  - type: STR_SCOPE #ignoreDuplicate
+    listOrder: 204 #ignoreDuplicate
+  - type: STR_SUPPRESSOR #ignoreDuplicate
+    listOrder: 205 #ignoreDuplicate
+  - type: STR_LASER_SIGHT #ignoreDuplicate
+    listOrder: 206 #ignoreDuplicate
+  - type: STR_IMPACT_GRENADE #ignoreDuplicate
+    listOrder: 207 #ignoreDuplicate
+  - type: STR_GRENADE #ignoreDuplicate
+    listOrder: 208 #ignoreDuplicate
+  - type: STR_MOLOTOV #ignoreDuplicate
+    listOrder: 209 #ignoreDuplicate
+  - type: STR_SMOKE_GRENADE #ignoreDuplicate
+    listOrder: 210 #ignoreDuplicate
+  - type: STR_FLASHBANG_GRENADE #ignoreDuplicate
+    listOrder: 211 #ignoreDuplicate
+  - type: STR_HIGH_EXPLOSIVE #ignoreDuplicate
+    listOrder: 212 #ignoreDuplicate
+  - type: STR_FIELD_DRESSING #ignoreDuplicate
+    listOrder: 213 #ignoreDuplicate
+  - type: STR_RIOT_SHIELD #ignoreDuplicate
+    listOrder: 214 #ignoreDuplicate
+  - type: STR_ELECTRO_FLARE #ignoreDuplicate
+    listOrder: 215 #ignoreDuplicate
+  - type: STR_AG36 #ignoreDuplicate
+    listOrder: 216 #ignoreDuplicate
+  - type: STR_UBS #ignoreDuplicate
+    listOrder: 217 #ignoreDuplicate
+  - type: STR_STOCK #ignoreDuplicate
+    listOrder: 218 #ignoreDuplicate
+  - type: STR_NV #ignoreDuplicate
+    listOrder: 219 #ignoreDuplicate
+  - type: STR_ADVNV #ignoreDuplicate
+    listOrder: 220 #ignoreDuplicate
+  - type: STR_RIOT_ARMOR_PLATES #ignoreDuplicate
+    listOrder: 221 #ignoreDuplicate

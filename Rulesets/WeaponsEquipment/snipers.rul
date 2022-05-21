@@ -244,39 +244,39 @@ items:
   #       tuUnload: 20
   #   listOrder: 5000
 
-  - type: STR_SAKO_TRG
-    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    size: 1
-    weight: 40
-    battleType: 1
-    bigSprite: 5090
-    floorSprite: 5090
-    handSprite: 5090
-    reloadSound: 149
-    fireSound: 151
-    costBuy: 52000
-    costSell: 26000
-    accuracyAimed: 150
-    accuracySnap: 100
-    blockBothHands: true
-    twoHanded: true
-    maxRange: 200
-    minRange: 10
-    aimRange: 200
-    snapRange: 50
-    kneelBonus: 145
-    tuAimed: 90
-    tuSnap: 65
-    invWidth: 1
-    invHeight: 3
-    ammo:
-      0:
-        compatibleAmmo: [ STR_338_LAPUA_X5 ]
-        tuLoad: 35
-        tuUnload: 17
-    listOrder: 5480
+  # - type: STR_SAKO_TRG
+  #   categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   size: 1
+  #   weight: 40
+  #   battleType: 1
+  #   bigSprite: 5090
+  #   floorSprite: 5090
+  #   handSprite: 5090
+  #   reloadSound: 149
+  #   fireSound: 151
+  #   costBuy: 52000
+  #   costSell: 26000
+  #   accuracyAimed: 150
+  #   accuracySnap: 100
+  #   blockBothHands: true
+  #   twoHanded: true
+  #   maxRange: 200
+  #   minRange: 10
+  #   aimRange: 200
+  #   snapRange: 50
+  #   kneelBonus: 145
+  #   tuAimed: 90
+  #   tuSnap: 65
+  #   invWidth: 1
+  #   invHeight: 3
+  #   ammo:
+  #     0:
+  #       compatibleAmmo: [ STR_338_LAPUA_X5 ]
+  #       tuLoad: 35
+  #       tuUnload: 17
+  #   listOrder: 5480
 
   - type: STR_AWP
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]

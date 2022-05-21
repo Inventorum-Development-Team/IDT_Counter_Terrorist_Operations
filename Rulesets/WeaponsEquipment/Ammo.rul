@@ -999,21 +999,21 @@ items:
     weight: 2
     clipSize: 1
     listOrder: 8090
-  - type: STR_38_SPECIAL_X6
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_38_SPECIAL_AMMO
-    bigSprite: 255
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 100
-    costSell: 50
-    weight: 1
-    clipSize: 6
-    listOrder: 5530
+  # - type: STR_38_SPECIAL_X6
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_38_SPECIAL_AMMO
+  #   bigSprite: 255
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 100
+  #   costSell: 50
+  #   weight: 1
+  #   clipSize: 6
+  #   listOrder: 5530
   - type: STR_9MM_MAKAROV_X10
     categories: [STR_CLIPS]
     refNode: *STR_MAKAROV_AMMO
@@ -1117,21 +1117,21 @@ items:
     weight: 2
     clipSize: 20
     listOrder: 6840
-  - type: STR_9MM_GYURZA_X30
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_9MM_GYURZA_AMMO
-    bigSprite: 257
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 450
-    costSell: 225
-    weight: 3
-    clipSize: 30
-    listOrder: 6850
+  # - type: STR_9MM_GYURZA_X30
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_9MM_GYURZA_AMMO
+  #   bigSprite: 257
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 450
+  #   costSell: 225
+  #   weight: 3
+  #   clipSize: 30
+  #   listOrder: 6850
   - type: STR_FN_57_X20
     categories: [STR_CLIPS]
     requiresBuy:
@@ -1208,51 +1208,51 @@ items:
     weight: 3
     clipSize: 40
     listOrder: 21833
-  - type: STR_45_ACP_X7
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_45_PISTOL_AMMO
-    bigSprite: 208
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 100
-    costSell: 50
-    weight: 2
-    clipSize: 7
-    listOrder: 6090
-  - type: STR_45_ACP_X12
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_45_PISTOL_AMMO
-    bigSprite: 209
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 150
-    costSell: 75
-    weight: 2
-    clipSize: 12
-    listOrder: 6050
-  - type: STR_45_ACP_X25
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_45_PISTOL_AMMO
-    bigSprite: 258
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 300
-    costSell: 150
-    weight: 4
-    clipSize: 25
-    listOrder: 6070
+  # - type: STR_45_ACP_X7
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_45_PISTOL_AMMO
+  #   bigSprite: 208
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 100
+  #   costSell: 50
+  #   weight: 2
+  #   clipSize: 7
+  #   listOrder: 6090
+  # - type: STR_45_ACP_X12
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_45_PISTOL_AMMO
+  #   bigSprite: 209
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 150
+  #   costSell: 75
+  #   weight: 2
+  #   clipSize: 12
+  #   listOrder: 6050
+  # - type: STR_45_ACP_X25
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_45_PISTOL_AMMO
+  #   bigSprite: 258
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 300
+  #   costSell: 150
+  #   weight: 4
+  #   clipSize: 25
+  #   listOrder: 6070
   # - type: STR_CASELESS_4_73_X50
   #   categories: [STR_CLIPS]
   #   requiresBuy:
@@ -1539,39 +1539,39 @@ items:
     weight: 2
     clipSize: 10
     listOrder: 7900
-  - type: STR_SOVIET_7_62_MMR_X50
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_SOVIET_7_62_MMR_AMMO
-    bigSprite: 226
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 1100
-    costSell: 550
-    invWidth: 2
-    weight: 11
-    clipSize: 50
-    listOrder: 7930
-  - type: STR_SOVIET_7_62_MMR_X100
-    categories: [STR_CLIPS]
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    refNode: *STR_SOVIET_7_62_MMR_AMMO
-    bigSprite: 227
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 2200
-    costSell: 1100
-    invWidth: 2
-    invHeight: 2
-    weight: 22
-    clipSize: 100
-    listOrder: 7920
+  # - type: STR_SOVIET_7_62_MMR_X50
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_SOVIET_7_62_MMR_AMMO
+  #   bigSprite: 226
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 1100
+  #   costSell: 550
+  #   invWidth: 2
+  #   weight: 11
+  #   clipSize: 50
+  #   listOrder: 7930
+  # - type: STR_SOVIET_7_62_MMR_X100
+  #   categories: [STR_CLIPS]
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   refNode: *STR_SOVIET_7_62_MMR_AMMO
+  #   bigSprite: 227
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 2200
+  #   costSell: 1100
+  #   invWidth: 2
+  #   invHeight: 2
+  #   weight: 22
+  #   clipSize: 100
+  #   listOrder: 7920
   - type: STR_9_39_X10
     categories: [STR_CLIPS]
     requiresBuy:
@@ -1649,21 +1649,21 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 20840
-  - type: STR_127_X5
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_127_AMMO
-    bigSprite: 259
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 500
-    costSell: 250
-    weight: 5
-    clipSize: 5
-    listOrder: 5010
+  # - type: STR_127_X5
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_127_AMMO
+  #   bigSprite: 259
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 500
+  #   costSell: 250
+  #   weight: 5
+  #   clipSize: 5
+  #   listOrder: 5010
   - type: STR_12G_BUCKSHOT_X2
     categories: [STR_CLIPS]
     refNode: *STR_12G_BUCKSHOT
@@ -1842,41 +1842,41 @@ items:
     weight: 2
     clipSize: 1
     listOrder: 6000
-  - type: STR_40MM_FRAG_X3
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_40MM_FRAG
-    bigSprite: 260
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 900
-    costSell: 450
-    weight: 6
-    clipSize: 3
-    listOrder: 6010
-    invWidth: 2
-    invHeight: 1
-  - type: STR_40MM_FRAG_X6
-    categories: [STR_CLIPS]
-    requiresBuy:
-      - STR_40MM_AMMO
-      - STR_UNOBTAINABLE
-    refNode: *STR_40MM_FRAG
-    bigSprite: 244
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 2000
-    costSell: 1000
-    invWidth: 2
-    invHeight: 2
-    weight: 12
-    clipSize: 6
-    listOrder: 5960
+  # - type: STR_40MM_FRAG_X3
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_40MM_FRAG
+  #   bigSprite: 260
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 900
+  #   costSell: 450
+  #   weight: 6
+  #   clipSize: 3
+  #   listOrder: 6010
+  #   invWidth: 2
+  #   invHeight: 1
+  # - type: STR_40MM_FRAG_X6
+  #   categories: [STR_CLIPS]
+  #   requiresBuy:
+  #     - STR_40MM_AMMO
+  #     - STR_UNOBTAINABLE
+  #   refNode: *STR_40MM_FRAG
+  #   bigSprite: 244
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 2000
+  #   costSell: 1000
+  #   invWidth: 2
+  #   invHeight: 2
+  #   weight: 12
+  #   clipSize: 6
+  #   listOrder: 5960
   - type: STR_40MM_SMOKE_X1
     categories: [STR_CLIPS]
     requiresBuy:
@@ -1967,33 +1967,33 @@ items:
     weight: 18
     clipSize: 1
     listOrder: 7880
-  - type: STR_RPG_29_HEAT_X1
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_RPG_29_HEAT
-    bigSprite: 262
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 4500
-    costSell: 2250
-    weight: 21
-    clipSize: 1
-    listOrder: 7850
-  - type: STR_RPG_29_THERMO_X1
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [STR_CLIPS]
-    refNode: *STR_RPG_29_THERMO
-    bigSprite: 263
-    handSprite: 200
-    floorSprite: 200
-    size: 0.1
-    armor: 30
-    costBuy: 5000
-    costSell: 2500
-    weight: 21
-    clipSize: 1
-    listOrder: 7860
+  # - type: STR_RPG_29_HEAT_X1
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_RPG_29_HEAT
+  #   bigSprite: 262
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 4500
+  #   costSell: 2250
+  #   weight: 21
+  #   clipSize: 1
+  #   listOrder: 7850
+  # - type: STR_RPG_29_THERMO_X1
+  #   requiresBuy:
+  #     - STR_UNOBTAINABLE
+  #   categories: [STR_CLIPS]
+  #   refNode: *STR_RPG_29_THERMO
+  #   bigSprite: 263
+  #   handSprite: 200
+  #   floorSprite: 200
+  #   size: 0.1
+  #   armor: 30
+  #   costBuy: 5000
+  #   costSell: 2500
+  #   weight: 21
+  #   clipSize: 1
+  #   listOrder: 7860

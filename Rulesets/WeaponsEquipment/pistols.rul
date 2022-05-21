@@ -229,20 +229,20 @@ items:
     categories: [STR_FIREARMS, STR_PISTOLS]
     #    requiresBuy:
     size: 1
-    weight: 12
+    weight: 13
     # battleType: 1
     bigSprite: 1100
     floorSprite: 1100
     handSprite: 1100
     reloadSound: 133
     fireSound: 134
-    accuracyAimed: 45
-    accuracySnap: 45
+    accuracyAimed: 53
+    accuracySnap: 53
     accuracyAuto: 40
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
-    maxRange: 22
+    maxRange: 20
     minRange: 0
     aimRange: 8
     snapRange: 10
@@ -251,7 +251,7 @@ items:
     refNode: *STR_AUTO_PISTOL
     tuAimed: 50
     tuSnap: 20
-    tuAuto: 40
+    tuAuto: 42
     invWidth: 1
     invHeight: 3
     listOrder: 7050
@@ -552,7 +552,12 @@ items:
         tuLoad: 50
         tuUnload: 50
     listOrder: 6920
-#   - type: STR_STETCKIN_STOCK
+
+    ### REBALANCE FOR STOCK ###
+    ### REBALANCE FOR STOCK ###
+    ### REBALANCE FOR STOCK ###
+
+#   - type: STR_STETCKIN_STOCK ### REBALANCE FOR STOCK ###
 #     categories: [STR_FIREARMS, STR_PISTOLS]
 # #    requiresBuy:
 #     size: 1

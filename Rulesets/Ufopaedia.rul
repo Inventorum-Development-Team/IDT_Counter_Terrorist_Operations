@@ -862,6 +862,12 @@ ufopaedia:
   #   text: STR_GM_94_UFOPAEDIA
   #   section: STR_ARTILLERY
   #   listOrder: 802
+  - id: STR_M320
+    type_id: 14
+    image_id: M320.SPK
+    text: STR_M320_UFOPAEDIA
+    section: STR_ARTILLERY
+    listOrder: 800
 
   - id: STR_GUSTAF
     type_id: 14
@@ -1334,39 +1340,63 @@ ufopaedia:
     section: STR_EQUIPMENT
     listOrder: 1107
 
-  - id: STR_SCOPE
-    type_id: 4
+  - id: STR_SCOPE_DUMMY
+    type_id: 14
     text: STR_SCOPE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1108
+    image_id: SCOPE.SPK
 
-  - id: STR_M203
-    type_id: 4
-    text: STR_M203_UFOPAEDIA
+  - id: STR_LASER_SIGHT_DUMMY
+    type_id: 14
+    text: STR_LASER_SIGHT_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1110
+    listOrder: 1109
+    image_id: LASER.SPK
 
-  - id: STR_M320
+  - id: STR_SUPPRESSOR_DUMMY
+    type_id: 14
+    text: STR_SUPPRESSIR_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1109
+    image_id: SUPPRESSOR.SPK
+
+  # - id: STR_M203
+  #   type_id: 4
+  #   text: STR_M203_UFOPAEDIA
+  #   section: STR_EQUIPMENT
+  #   listOrder: 1110
+
+  - id: STR_M320_DUMMY
     type_id: 14
     image_id: M320.SPK
     text: STR_M320_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1111
 
-  - id: STR_FN40GL
-    type_id: 4
-    text: STR_FN40GL_UFOPAEDIA
+  # - id: STR_FN40GL
+  #   type_id: 4
+  #   text: STR_FN40GL_UFOPAEDIA
+  #   section: STR_EQUIPMENT
+  #   listOrder: 1112  
+
+  - id: STR_AG36_DUMMY
+    type_id: 14
+    image_id: AG36.SPK
+    text: STR_AG36_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1112
 
-  - id: STR_UBS
-    type_id: 4
+  - id: STR_UBS_DUMMY
+    type_id: 14
+    image_id: MASS.SPK
     text: STR_UBS_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1113
 
-  - id: STR_STOCK
-    type_id: 4
+  - id: STR_STOCK_DUMMY
+    type_id: 14
+    image_id: STOCK.SPK
     text: STR_STOCK_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1114
@@ -1820,3 +1850,44 @@ extraSprites:
     files:
       0: Resources/ufopedia/M320.png
 
+  - type: LASER.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/LASER.png
+
+  - type: SCOPE.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/SCOPE.png
+
+  - type: SUPPRESSOR.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/SUPRESSOR.png
+
+  - type: AG36.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/AG36.png
+
+  - type: MASS.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/MASS.png
+
+  - type: STOCK.SPK               
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopedia/STOCK.png

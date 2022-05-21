@@ -81,3 +81,158 @@ items:
     requiresBuy:
      - STR_RIOT_GEAR
     size: 0.1
+
+  - type: STR_LASER_SIGHT_DUMMY
+    costBuy: 4000
+    costSell: 2000
+    requiresBuy:
+     - STR_UNOBTAINABLE
+    size: 0.1
+    bigSprite: 660
+    battleType: 1
+    clipSize: -1
+    weight: 2
+    accuracyAimed: -10
+    accuracySnap: 15
+    accuracyAuto: -10
+    tuAimed: 100
+    tuSnap: 100
+    tuAuto: 100
+
+  - type: STR_SUPPRESSOR_DUMMY
+    costBuy: 4000
+    costSell: 2000
+    requiresBuy:
+     - STR_UNOBTAINABLE
+    size: 0.1
+    bigSprite: 660
+    battleType: 1
+    clipSize: -1
+    weight: 2
+    accuracyAimed: -10
+    accuracySnap: -10
+    accuracyAuto: 15
+    tuAimed: 100
+    tuSnap: 100
+    tuAuto: 100
+
+  - type: STR_SCOPE_DUMMY
+    costBuy: 4000
+    costSell: 2000
+    requiresBuy:
+     - STR_UNOBTAINABLE
+    size: 0.1
+    bigSprite: 660
+    battleType: 1
+    clipSize: -1
+    weight: 2
+    accuracyAimed: 15
+    accuracySnap: -10
+    accuracyAuto: -10
+    tuAimed: 100
+    tuSnap: 100
+    tuAuto: 100
+
+  - type: STR_STOCK_DUMMY
+    costBuy: 5000
+    costSell: 2500
+    requiresBuy:
+     - STR_UNOBTAINABLE
+    size: 0.1
+    invWidth: 2
+    bigSprite: 650
+    battleType: 1
+    clipSize: -1
+    weight: 2
+    aimRange: 2
+    snapRange: 2
+    autoRange: 2
+    accuracyAimed: 15
+    accuracySnap: 15
+    accuracyAuto: 15
+    tuAimed: 5
+    tuSnap: 5
+    tuAuto: 2
+
+  - type: STR_UBS_DUMMY
+    costBuy: 18000
+    costSell: 9000
+    requiresBuy:
+     - STR_UNOBTAINABLE
+    size: 0.1
+    weight: 9
+    bigSprite: 630
+    battleType: 1
+    shotgunBehavior: 1
+    shotgunChoke: 20
+    autoRange: 7
+    accuracyAuto: 50
+    tuAuto: 30
+    clipSize: -1
+    confAuto:
+      shots: 1
+      name: STR_FIRE_SHOTGUN
+      ammoSlot: 1
+    ammo:
+      1:
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        tuLoad: 40
+        tuUnload: 20
+
+  - type: STR_AG36_DUMMY
+    costBuy: 20000
+    costSell: 10000
+    requiresBuy:
+     - STR_UNOBTAINABLE
+    size: 0.1
+    weight: 10
+    bigSprite: 610
+    battleType: 1
+    tuAuto: 70
+    autoRange: 16
+    accuracyAuto: 45
+    clipSize: -1
+    confAuto:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    ammo:
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+        
+  - type: STR_M320_DUMMY
+    costBuy: 20000
+    costSell: 10000
+    requiresBuy:
+     - STR_UNOBTAINABLE
+    size: 0.1
+    weight: 12
+    bigSprite: 8000
+    battleType: 1
+    tuAuto: 65
+    autoRange: 18
+    accuracyAuto: 50
+    clipSize: -1
+    confAuto:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    ammo:
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
