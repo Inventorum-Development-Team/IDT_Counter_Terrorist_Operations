@@ -225,6 +225,8 @@ items:
     listOrder: 214 #ignoreDuplicate
   - type: STR_ELECTRO_FLARE #ignoreDuplicate
     listOrder: 215 #ignoreDuplicate
+  - type: STR_HANDCUFFS #ignoreDuplicate
+    listOrder: 215 #ignoreDuplicate
   - type: STR_AG36 #ignoreDuplicate
     listOrder: 216 #ignoreDuplicate
   - type: STR_UBS #ignoreDuplicate

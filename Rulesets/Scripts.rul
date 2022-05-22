@@ -27,22 +27,8 @@ items:
     blastRadius: 0
     tags:
       Shout: 1
-  - type: STR_HANDCUFFS
-    battleType: 6
-    size: 0.1
-    medikitTargetImmune: true
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 510
-    floorSprite: 510
-    handSprite: 510
-    tuUse: 60
-    weight: 2
-    costBuy: 300
-    costSell: 200
-    medikitActionName: STR_USE_CUFFS
-    medikitTargetMatrix: 32
-    stimulant: 1
+
+  - type: STR_HANDCUFFS #ignoreDuplicate
     tags:
       Cuffs: 1
 
