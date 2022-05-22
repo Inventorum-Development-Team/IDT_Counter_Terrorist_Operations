@@ -800,7 +800,9 @@ extended:
                 end;
               end;
               if or eq left 1 eq right 1;
-                set z 2;
+                if eq b 1;
+                  set z 2;
+                end;
               end;
             end;
             if and eq b 1 eq z 2;
