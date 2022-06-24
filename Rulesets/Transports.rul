@@ -41,7 +41,7 @@ crafts:
       - [3, 6, 0, 6]
       - [5, 3, 0, 0]
       - [4, 3, 0, 0]
-    listOrder: 382
+    listOrder: 10
 
   - type: STR_GMC_VAN_MEDIUM
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
@@ -85,7 +85,7 @@ crafts:
       - [6, 4, 0, 6]
       - [8, 1, 0, 0]
       - [7, 1, 0, 0]
-    listOrder: 382
+    listOrder: 20
   - type: STR_GMC_VAN_LARGE
     sprite: 868 # this sprite is the number for minimized in INTICON.pck
     requires:
@@ -134,7 +134,7 @@ crafts:
       - [1, 10, 0, 6]
       - [3, 7, 0, 0]
       - [2, 7, 0, 0]
-    listOrder: 382
+    listOrder: 30
 manufacture:
   - delete: STR_LIGHTNING
   - delete: STR_FIRESTORM
