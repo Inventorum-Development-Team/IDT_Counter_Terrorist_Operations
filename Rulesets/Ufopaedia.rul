@@ -897,11 +897,11 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 998
 
-  - id: STR_38_SPECIAL_X6
-    type_id: 4
-    text: STR_38_SPECIAL_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 999
+  # - id: STR_38_SPECIAL_X6
+  #   type_id: 4
+  #   text: STR_38_SPECIAL_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 999
 
   - id: STR_9MM_MAKAROV_X10
     type_id: 4
@@ -951,15 +951,15 @@ ufopaedia:
      - STR_UNOBTAINABLE
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1008
-
-  - id: STR_9MM_GYURZA_X30
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_9MM_GYURZA_UFOPAEDIA
-    section: STR_AMMO
     listOrder: 1009
+
+  # - id: STR_9MM_GYURZA_X30
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_9MM_GYURZA_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1009
 
   - id: STR_FN_57_X20
     type_id: 4
@@ -973,23 +973,41 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1009
 
-  - id: STR_45_ACP_X7
+  - id: STR_HK_4_6X20
     type_id: 4
-    text: STR_45_ACP_UFOPAEDIA
+    text: STR_HK_4_6_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1010
+    listOrder: 1008
 
-  - id: STR_45_ACP_X12
+  - id: STR_HK_4_6X30
     type_id: 4
-    text: STR_45_ACP_UFOPAEDIA
+    text: STR_HK_4_6_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1011
+    listOrder: 1008
 
-  - id: STR_45_ACP_X25
+  - id: STR_HK_4_6X40
     type_id: 4
-    text: STR_45_ACP_UFOPAEDIA
+    text: STR_HK_4_6_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1012
+    listOrder: 1008
+
+  # - id: STR_45_ACP_X7
+  #   type_id: 4
+  #   text: STR_45_ACP_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1010
+
+  # - id: STR_45_ACP_X12
+  #   type_id: 4
+  #   text: STR_45_ACP_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1011
+
+  # - id: STR_45_ACP_X25
+  #   type_id: 4
+  #   text: STR_45_ACP_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1012
 
   # - id: STR_CASELESS_4_73_X50
   #   type_id: 4
@@ -1099,17 +1117,17 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1030
 
-  - id: STR_SOVIET_7_62_MMR_X50
-    type_id: 4
-    text: STR_SOVIET_7_62_MMR_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1031
+  # - id: STR_SOVIET_7_62_MMR_X50
+  #   type_id: 4
+  #   text: STR_SOVIET_7_62_MMR_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1031
 
-  - id: STR_SOVIET_7_62_MMR_X100
-    type_id: 4
-    text: STR_SOVIET_7_62_MMR_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1032
+  # - id: STR_SOVIET_7_62_MMR_X100
+  #   type_id: 4
+  #   text: STR_SOVIET_7_62_MMR_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1032
 
   - id: STR_9_39_X10
     type_id: 4
@@ -1141,13 +1159,13 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1037
 
-  - id: STR_127_X5
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_127_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1038
+  # - id: STR_127_X5
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_127_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1038
 
   - id: STR_12G_BUCKSHOT_X2
     type_id: 4
@@ -1221,17 +1239,17 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1049
 
-  - id: STR_40MM_FRAG_X3
-    type_id: 4
-    text: STR_40MM_FRAG_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1050
+  # - id: STR_40MM_FRAG_X3
+  #   type_id: 4
+  #   text: STR_40MM_FRAG_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1050
 
-  - id: STR_40MM_FRAG_X6
-    type_id: 4
-    text: STR_40MM_FRAG_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1051
+  # - id: STR_40MM_FRAG_X6
+  #   type_id: 4
+  #   text: STR_40MM_FRAG_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1051
 
   - id: STR_40MM_SMOKE_X1
     type_id: 4
@@ -1271,21 +1289,21 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1057
 
-  - id: STR_RPG_29_HEAT_X1
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_RPG_29_HEAT_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1058
+  # - id: STR_RPG_29_HEAT_X1
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_RPG_29_HEAT_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1058
 
-  - id: STR_RPG_29_THERMO_X1
-    type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
-    text: STR_RPG_29_THERMO_UFOPAEDIA
-    section: STR_AMMO
-    listOrder: 1059
+  # - id: STR_RPG_29_THERMO_X1
+  #   type_id: 4
+  #   requires:
+  #    - STR_UNOBTAINABLE
+  #   text: STR_RPG_29_THERMO_UFOPAEDIA
+  #   section: STR_AMMO
+  #   listOrder: 1059
 
   - id: STR_GRENADE
     type_id: 4
