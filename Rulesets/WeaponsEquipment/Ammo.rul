@@ -1161,7 +1161,6 @@ items:
     armor: 30
     costBuy: 800
     costSell: 400
-    invWidth: 2
     weight: 1
     clipSize: 20
   - type: STR_HK_4_6X30
@@ -1175,7 +1174,6 @@ items:
     armor: 30
     costBuy: 1000
     costSell: 400
-    invWidth: 2
     weight: 2
     clipSize: 30
   - type: STR_HK_4_6X40
@@ -1189,7 +1187,6 @@ items:
     armor: 30
     costBuy: 1200
     costSell: 400
-    invWidth: 2
     weight: 3
     clipSize: 40
   # - type: STR_45_ACP_X7
