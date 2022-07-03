@@ -546,12 +546,7 @@ en-US:
 
 ### Manufacture ###
 
-      STR_SCOPE: "Scope"
-      STR_SOPMOD_KIT: "SOPMOD kit"
-      STR_M203: "M203"
-      STR_FN40GL: "FN40GL"
-      STR_UBS: "Modular Accessory Shotgun System"
-      STR_STOCK: "Pistol Stock"
+
       STR_NV: "Night Vision Goggles"
       STR_ADVNV: "Advanced Night Vision Goggles"
       STR_RIOT_ARMOR_PLATES: "Riot Armor Plates"
@@ -837,12 +832,15 @@ en-US:
       STR_RPG_29_THERMO_UFOPAEDIA: "A Thermobaric anti-personnel round. The thermobaric warhead generates a high-temperature explosion using surrounding oxygen in the air."
 
 
-      STR_SCOPE_UFOPAEDIA: "A telescopic sight capable of being attached onto a rifle, improving long range accuracy while slightly inhibiting accuracy of automatic fire."
+      STR_SCOPE_UFOPAEDIA: "A telescopic sight capable of being attached onto a rifle, improving long range accuracy while slightly inhibiting the accuracy of automatic fire and snapshots."
+      STR_SUPPRESSOR_UFOPAEDIA: "A suppressor that reduces the recoil and sound when firing, and a vertical forward grip to help with handling that make automatic fire easier to control."
+      STR_LASER_SIGHT_UFOPAEDIA: "A sight emitting a laser beam to assist rapid targeting, though it is little help to aim long-range shots or automatic fire."
       STR_SOPMOD_KIT_UFOPAEDIA: "The Special Operations Peculiar Modification kit is a collection of accessories capable to e attached to the M4, SCAR, HK416 and other weapons used by US Special Forces Command. The kit contains scopes, suppressors, and several foregrips to improve accuracy and ease handling."
       STR_M203_UFOPAEDIA: "A single shot grenade launcher introduced into the american military during the late Vietnam war. Originally designed to attach under the barrel of the M16 rifle, it has been adapted to fit into a multitude of other rifles."
       STR_FN40GL_UFOPAEDIA: "The FN40GL is a 40mm grenade launcher that can be attached under the barrel of the FN SCAR rifle."
       STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
       STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster."
+      STR_AG36_UFOPAEDIA: "A single shot underbarrel 40mm grenade launcher for the G36 rifle. "
       
       STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
@@ -1119,3 +1117,22 @@ en-US:
       STR_MOLOTOV: "Molotov Cocktail"
       STR_ELECTRO_FLARE: "Flare"
       STR_PRIME_FLARE: "Light Flare"
+
+
+     ###WEAPON MODS###
+      STR_SCOPE: "Scope"
+      STR_LASER_SIGHT: "Laser Sight"
+      STR_SUPPRESSOR: "Suppressor"
+      STR_SOPMOD_KIT: "SOPMOD kit"
+      STR_M203: "M203"
+      STR_FN40GL: "FN40GL"
+      STR_AG36: "AG36"
+      STR_UBS: "Modular Accessory Shotgun System"
+      STR_STOCK: "Pistol Stock"
+      STR_SCOPE_DUMMY: "DUMMY ITEM"
+      STR_LASER_SIGHT_DUMMY: "DUMMY ITEM"
+      STR_SUPPRESSOR_DUMMY: "DUMMY ITEM"
+      STR_M320_DUMMY: "DUMMY ITEM"
+      STR_UBS_DUMMY: "DUMMY ITEM"
+      STR_STOCK_DUMMY: "DUMMY ITEM"
+      STR_AG36_DUMMY: "DUMMY ITEM"

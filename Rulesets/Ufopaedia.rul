@@ -1377,10 +1377,20 @@ ufopaedia:
   - id: STR_SUPPRESSOR_DUMMY
     title: STR_SUPPRESSOR
     type_id: 14
-    text: STR_SUPPRESSIR_UFOPAEDIA
+    text: STR_SUPPRESSOR_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1109
     image_id: SUPPRESSOR.SPK
+
+  - id: STR_SCOPE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LASER_SIGHT
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SUPPRESSOR
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
   # - id: STR_M203
   #   type_id: 4

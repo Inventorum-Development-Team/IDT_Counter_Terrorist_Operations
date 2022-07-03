@@ -172,9 +172,9 @@ items:
     confAuto:
       shots: 1
       name: STR_FIRE_SHOTGUN
-      ammoSlot: 1
+      ammoSlot: 0
     ammo:
-      1:
+      0:
         compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
         tuLoad: 40
         tuUnload: 20
@@ -195,10 +195,10 @@ items:
     confAuto:
       shots: 1
       name: STR_FIRE_GRENADE
-      ammoSlot: 1
+      ammoSlot: 0
       arcing: true
     ammo:
-      1:
+      0:
         compatibleAmmo:
           [
             STR_40MM_FRAG_X1,
@@ -222,12 +222,12 @@ items:
     accuracyAuto: 50
     clipSize: -1
     confAuto:
-      shots: 1
+      shots: 0
       name: STR_FIRE_GRENADE
-      ammoSlot: 1
+      ammoSlot: 0
       arcing: true
     ammo:
-      1:
+      0:
         compatibleAmmo:
           [
             STR_40MM_FRAG_X1,
