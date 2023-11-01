@@ -789,6 +789,11 @@ ufopaedia:
     section: STR_SHOTGUNS
     listOrder: 607
 
+  - id: STR_SERBU
+    type_id: 4
+    text: STR_SERBU_UFOPAEDIA
+    section: STR_SHOTGUNS
+    listOrder: 608
 
   - id: STR_M60
     type_id: 14
