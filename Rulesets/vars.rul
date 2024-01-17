@@ -7,6 +7,7 @@ startingTime:
   month: 3
   year: 2016
 initialFunding: 2000
+customTrainingFactor: 20
 allowCountriesToCancelAlienPact: true
 buildInfiltrationBaseCloseToTheCountry: true
 chanceToStopRetaliation: 100
@@ -19,9 +20,8 @@ oneHandedPenaltyGlobal: 50
 statisticalBulletConservation: true
 tuRecoveryWakeUpNewTurn: 50
 newBaseUnlockResearch: STR_UNOBTAINABLE
-
 difficultyDemigod: true
-  
+
 ai:
    useDelayGrenade: 0
 surrenderMode: 2

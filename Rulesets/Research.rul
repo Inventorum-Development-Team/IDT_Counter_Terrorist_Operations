@@ -1,3 +1,4 @@
+
 research:
   - delete: STR_LASER_WEAPONS
   - delete: STR_MOTION_SCANNER
@@ -136,11 +137,6 @@ research:
   - delete: STR_TERROR_SHIP
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
-
-  - name: STR_EUROPE
-    needItem: true
-  - name: STR_RUSSIA
-    needItem: true
 
   - name: STR_RANDOM_1
     needItem: true

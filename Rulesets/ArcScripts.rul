@@ -1,21 +1,6 @@
 arcScripts:
   - type: RANDOM_TECHS
     randomArcs:
-     STR_RANDOM_1: 50
-     STR_RANDOM_2: 50
+     STR_RANDOM_1: 33
+     STR_RANDOM_2: 33
     maxArcs: 1
-
-  - type: EU_START
-    sequentialArcs:
-      - STR_EUROPE
-    minDifficulty: 0
-    maxDifficulty: 0
-    maxArcs: 1
-
-  - type: RUSSIA_START
-    sequentialArcs:
-      - STR_RUSSIA
-    minDifficulty: 1
-    maxDifficulty: 1
-    maxArcs: 1
-    

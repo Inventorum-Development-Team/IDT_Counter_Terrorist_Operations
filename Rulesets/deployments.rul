@@ -34,7 +34,7 @@ alienDeployments:
   - delete: STR_MARS_CYDONIA_LANDING
   - delete: STR_MARS_THE_FINAL_ASSAULT
 
-  - type: STR_TERRORIST_ATTACK
+  - type: TERRORIST_ATTACK
     width: 30
     length: 30
     height: 10
@@ -64,20 +64,17 @@ alienDeployments:
           - []
        - alienRank: 5
          lowQty: 3
-         highQty: 3
-         dQty: 1
+         highQty: 4
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 3
-         highQty: 3
-         dQty: 1
+         lowQty: 2
+         highQty: 4
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 3
-         highQty: 3
-         dQty: 1
+         lowQty: 2
+         highQty: 4
          itemSets:
           - []
        - alienRank: 2
@@ -95,7 +92,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: STR_PLANE_HIJACK
+  - type: PLANE_HIJACK
     width: 70
     length: 20
     height: 10
@@ -109,7 +106,7 @@ alienDeployments:
     duration: [24,48]
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
-    alert: STR_PLANE_HIJACK
+    alert: STR_PLANE_HIJACKING
     briefing:
      desc: STR_PLANE_HIJACKING_BRIEFING
     data:
@@ -125,20 +122,17 @@ alienDeployments:
           - []
        - alienRank: 5
          lowQty: 3
-         highQty: 3
-         dQty: 1
+         highQty: 4
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 3
-         highQty: 3
-         dQty: 1
+         lowQty: 2
+         highQty: 4
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 3
-         highQty: 3
-         dQty: 1
+         lowQty: 2
+         highQty: 4
          itemSets:
           - []
        - alienRank: 2
@@ -156,7 +150,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: STR_HOUSE_RAID
+  - type: HOUSE_RAID
     width: 50
     length: 30
     height: 10
@@ -184,21 +178,18 @@ alienDeployments:
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 7
-         highQty: 7
-         dQty: 3
+         lowQty: 5
+         highQty: 10
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 4
-         highQty: 4
-         dQty: 1
+         lowQty: 3
+         highQty: 5
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 4
-         highQty: 4
-         dQty: 1
+         lowQty: 3
+         highQty: 5
          itemSets:
           - []
        - alienRank: 2
@@ -216,7 +207,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: STR_MAJOR_ATTACK
+  - type: MAJOR_ATTACK
     width: 60
     length: 60
     height: 10
@@ -234,38 +225,32 @@ alienDeployments:
     data:
        - alienRank: 7
          lowQty: 1
-         highQty: 1
-         dQty: 2
+         highQty: 3
          itemSets:
           - []
        - alienRank: 6
          lowQty: 1
-         highQty: 1
-         dQty: 1
+         highQty: 2
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 8
-         highQty: 8
-         dQty: 4
+         lowQty: 6
+         highQty: 12
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 5
-         highQty: 5
-         dQty: 2
+         lowQty: 4
+         highQty: 7
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 5
-         highQty: 5
-         dQty: 7
+         lowQty: 4
+         highQty: 7
          itemSets:
           - []
        - alienRank: 2
          lowQty: 2
-         highQty: 2
-         dQty: 1
+         highQty: 3
          itemSets:
           - []
        - alienRank: 1
@@ -278,7 +263,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: STR_HOSTAGE_SITUATION
+  - type: HOSTAGE_SITUATION
     width: 50
     length: 30
     height: 10
@@ -309,21 +294,18 @@ alienDeployments:
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 4
-         highQty: 4
-         dQty: 1
+         lowQty: 3
+         highQty: 5
          itemSets:
           - []
        - alienRank: 4
          lowQty: 3
-         highQty: 3
-         dQty: 2
+         highQty: 5
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 4
-         highQty: 4
-         dQty: 1
+         lowQty: 3
+         highQty: 5
          itemSets:
           - []
        - alienRank: 2
@@ -341,7 +323,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: STR_HIDEOUT_RAID
+  - type: HIDEOUT_RAID
     width: 50
     length: 50
     height: 10
@@ -363,39 +345,33 @@ alienDeployments:
      desc: STR_HIDEOUT_RAID_BRIEFING
     data:
        - alienRank: 7
-         lowQty: 2
-         highQty: 2
-         dQty: 2
+         lowQty: 1
+         highQty: 4
          itemSets:
           - []
        - alienRank: 6
          lowQty: 1
-         highQty: 1
-         dQty: 1
+         highQty: 2
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 10
-         highQty: 10
-         dQty: 4
+         lowQty: 8
+         highQty: 14
          itemSets:
           - []
        - alienRank: 4
          lowQty: 4
-         highQty: 4
-         dQty: 2
+         highQty: 6
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 6
-         highQty: 6
-         dQty: 2
+         lowQty: 4
+         highQty: 8
          itemSets:
           - []
        - alienRank: 2
-         lowQty: 2
-         highQty: 2
-         dQty: 2
+         lowQty: 4
+         highQty: 8
          itemSets:
           - []
        - alienRank: 1
@@ -408,7 +384,7 @@ alienDeployments:
          highQty: 1
          itemSets:
           - []
-  - type: STR_OFFICE_RAID
+  - type: OFFICE_RAID
     width: 30
     length: 30
     height: 10
@@ -436,21 +412,18 @@ alienDeployments:
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 5
-         highQty: 5
-         dQty: 2
+         lowQty: 3
+         highQty: 7
          itemSets:
           - []
        - alienRank: 4
          lowQty: 3
-         highQty: 3
-         dQty: 2
+         highQty: 5
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 4
-         highQty: 4
-         dQty: 1
+         lowQty: 3
+         highQty: 5
          itemSets:
           - []
        - alienRank: 2
@@ -463,7 +436,7 @@ alienDeployments:
          highQty: 1
          itemSets:
           - []
-  - type: STR_SKY_SCRAPER
+  - type: SKY_SCRAPER
     width: 30
     length: 30
 
@@ -475,7 +448,7 @@ alienDeployments:
     abortPenalty: 500
     duration: [99999,99999]
     keepCraftAfterFailedMission: true
-    alert: STR_SKY_SCRAPER
+    alert: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
     winCutscene: winGame
@@ -484,47 +457,39 @@ alienDeployments:
     data:
        - alienRank: 7
          lowQty: 1
-         highQty: 1
-         dQty: 2
+         highQty: 3
          itemSets:
           - []
        - alienRank: 6
          lowQty: 2
-         highQty: 2
-         dQty: 1
+         highQty: 3
          itemSets:
           - []
        - alienRank: 5
-         lowQty: 9
-         highQty: 9
-         dQty: 3
+         lowQty: 6
+         highQty: 12
          itemSets:
           - []
        - alienRank: 4
-         lowQty: 7
-         highQty: 7
-         dQty: 3
+         lowQty: 5
+         highQty: 10
          itemSets:
           - []
        - alienRank: 3
-         lowQty: 8
-         highQty: 8
-         dQty: 2
+         lowQty: 5
+         highQty: 10
          itemSets:
           - []
        - alienRank: 2
-         lowQty: 4
-         highQty: 4
-         dQty: 1
+         lowQty: 3
+         highQty: 5
          itemSets:
           - []
        - alienRank: 1
-         lowQty: 3
-         highQty: 3
-         dQty: 1
+         lowQty: 2
+         highQty: 4
          itemSets:
           - []
-
 
 
 
