@@ -41,8 +41,11 @@ alienDeployments:
     civilians: 3
     terrains:
       - EXPANDED_TERROR
-      - COMRCURBAN
       - RURAL
+      - RAILYARD
+      - DOWNTOWN
+      - DOWNTOWN
+      - POLIS
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -183,8 +186,10 @@ alienDeployments:
     civilians: 3
     terrains:
       - EXPANDED_TERROR
-      - COMRCURBAN
+      - SLUM_SLIM
       - INDUSTRIALSLUM
+      - ISLANDURBAN
+      - INDUSTRIAL
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -323,9 +328,11 @@ alienDeployments:
     height: 10
     civilians: 3
     terrains:
-      - EXPANDED_TERROR
       - COMRCURBAN
-      - ISLANDURBAN
+      - POLIS
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -1312,8 +1319,11 @@ alienDeployments:
     height: 10
     terrains:
       - EXPANDED_TERROR
-      - COMRCURBAN
       - RURAL
+      - RAILYARD
+      - DOWNTOWN
+      - DOWNTOWN
+      - POLIS
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -1453,8 +1463,18 @@ alienDeployments:
     height: 10
     terrains:
       - EXPANDED_TERROR
-      - COMRCURBAN
+      - SLUM
       - INDUSTRIALSLUM
+      - ISLANDURBAN
+      - INDUSTRIAL
+      - AIRFIELD1
+      - AIRFIELD2
+      - AIRFIELD3
+      - AIRFIELD4
+      - AIRFIELD5
+      - AIRFIELD6
+      - AIRFIELD7
+      - AIRFIELD8
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -1592,9 +1612,11 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - EXPANDED_TERROR
       - COMRCURBAN
-      - ISLANDURBAN
+      - POLIS
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -2159,11 +2181,12 @@ alienDeployments:
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
     terrains:
-      - PORTTFTD5
-      - PORTTFTD6
-      - PORTUFO
-      - CHEMTOWN
-      - INDUSTRIALSLUM
+      - EXPANDED_TERROR
+      - RURAL
+      - RAILYARD
+      - DOWNTOWN
+      - DOWNTOWN
+      - POLIS
       - REFINERY
     briefing:
      desc: STR_HIDEOUT_RAID_BRIEFING
@@ -2448,11 +2471,12 @@ alienDeployments:
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
     terrains:
-      - PORTTFTD5
-      - PORTTFTD6
-      - PORTUFO
+      - COMRCURBAN
+      - POLIS
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
       - CHEMTOWN
-      - INDUSTRIALSLUM
       - REFINERY
     briefing:
      desc: STR_HIDEOUT_RAID_BRIEFING
