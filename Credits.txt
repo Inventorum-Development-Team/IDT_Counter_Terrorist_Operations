@@ -1,12 +1,19 @@
 Credits:
-Alex_D: Covert Van (modified), Little Bird (modified)
-Andr: M16, 9mm 20x
-Badfella: Default Uniform (modified), (now unused)
-Hans Woofington: Heavy Armor inventory, original Uniform, Kevlar, PMC Blue/Gray, MASKA Heavy Enemy inventory sprites (modified)
-JustTheDude: Terrorist Raider
-PERLHA: Taser BigOB
-Tingcat: Terrorist inventories
-Wolverin: Terrorist safehouse maps
-XOps: Enemy NV Kevlar unit sprites (modified)
-Meridian: Stun, shock, bleed and burning icons
-Buscher: Bugfixes, Handcuff script adjustment, low morale flash script (based on a script by Ohartenstein and BulletDesigner)
+* Alex_D: Covert Van (modified), Little Bird (modified)
+* Andr: M16, 9mm 20x
+* Aim To Head: soundtrack
+* Badfella: Default Uniform (modified), (now unused)
+* Buscher: Bugfixes, Handcuff script adjustment, low morale flash script (based on a script by Ohartenstein and BulletDesigner)
+* efrenespartano: lead dev, lead sprite design 
+* Filip-H: lead dev, lead code
+* Hans Woofington: Heavy Armor inventory, original Uniform, Kevlar, PMC Blue/Gray, MASKA Heavy Enemy inventory sprites (modified)
+* Hobbes & collaborators: Terrain Pack
+* Meridian: Stun, shock, bleed and burning icons
+* JustTheDude: Terrorist Raider
+* PERLHA: Taser BigOB
+* Tingcat: Terrorist inventories
+* wethan2: lead dev, code & sprite
+* Wolverin: Terrorist safehouse maps
+* XOps: Enemy NV Kevlar unit sprites (modified)
+
+

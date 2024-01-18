@@ -1463,13 +1463,6 @@ alienDeployments:
       - ISLANDURBAN
       - INDUSTRIAL
       - AIRFIELD1
-      - AIRFIELD2
-      - AIRFIELD3
-      - AIRFIELD4
-      - AIRFIELD5
-      - AIRFIELD6
-      - AIRFIELD7
-      - AIRFIELD8
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -2468,7 +2461,6 @@ alienDeployments:
       - APARTMENT
       - DAWNCITY_URBANA
       - DAWNCITY_URBANB
-      - CHEMTOWN
       - AIRFIELD5
       - AIRFIELD6
     briefing:
