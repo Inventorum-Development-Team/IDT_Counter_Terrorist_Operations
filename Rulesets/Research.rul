@@ -137,21 +137,10 @@ research:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
-
-  - name: STR_EUROPE
-    needItem: true
-  - name: STR_RUSSIA
-    needItem: true
-
-
-  - name: STR_RANDOM_1
-    needItem: true
-
-  - name: STR_RANDOM_2
-    needItem: true
-
+ 
   - name: STR_UNOBTAINABLE
     needItem: true
+    cost: 50
 
   - name: STR_EQUIPMENT_ACQUISITION
     cost: 30
@@ -591,6 +580,15 @@ research:
     dependencies:
      - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_OFFICE_RAIDS
+
+  - name: STR_RANDOM_1
+    needItem: true
+
+  - name: STR_RANDOM_2
+    needItem: true
+
+  - name: STR_RANDOM_3
+    needItem: true
      
   - name: STR_MK_23_ACQUISITION
     cost: 50
@@ -650,13 +648,13 @@ research:
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
+     - STR_RANDOM_3
 
   - name: STR_SR3_ACQUISITION
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
+     - STR_RANDOM_3
     getOneFree:
      - STR_9_39_AMMO
      
@@ -664,7 +662,7 @@ research:
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_1
+     - STR_RANDOM_3
     getOneFree:
      - STR_9_39_AMMO
      
@@ -672,7 +670,7 @@ research:
     cost: 50
     dependencies:
      - STR_PRIVATE_CONTRACTORS
-     - STR_RANDOM_2
+     - STR_RANDOM_3
     getOneFree:
      - STR_40MM_AMMO
 

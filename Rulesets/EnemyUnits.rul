@@ -449,13 +449,9 @@ armors:
       firing: -5
       tu: -10
       bravery: 20
-
-
 units:
-
-  - &STR_TERRORIST_COMMANDER
-    type: STR_TERRORIST_COMMANDER
-    liveAlien: STR_TERRORIST_COMMANDER
+  - type: STR_TERRORIST_COMMANDER
+    race: STR_TERRORISTS
     stats:
       tu: 80
       stamina: 100
@@ -479,9 +475,8 @@ units:
     sniper: 1
     canSurrender: true
 
-  - &STR_TERRORIST_LEADER
-    type: STR_TERRORIST_LEADER
-    liveAlien: STR_TERRORIST_LEADER
+  - type: STR_TERRORIST_LEADER
+    race: STR_TERRORISTS
     stats:
       tu: 70
       stamina: 100
@@ -505,9 +500,8 @@ units:
     sniper: 1
     canSurrender: true
 
-  - &STR_TERRORIST_SAW
-    type: STR_TERRORIST_SAW
-    liveAlien: STR_TERRORIST_SAW
+  - type: STR_TERRORIST_SAW
+    race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -531,9 +525,8 @@ units:
     sniper: 2
     canSurrender: true
 
-  - &STR_TERRORIST_RIFLEMAN
-    type: STR_TERRORIST_RIFLEMAN
-    liveAlien: STR_TERRORIST_RIFLEMAN
+  - type: STR_TERRORIST_RIFLEMAN
+    race: STR_TERRORISTS
     stats:
       tu: 65
       stamina: 100
@@ -557,9 +550,8 @@ units:
     sniper: 1
     canSurrender: true
 
-  - &STR_TERRORIST_RAIDER
-    type: STR_TERRORIST_RAIDER
-    liveAlien: STR_TERRORIST_RAIDER
+  - type: STR_TERRORIST_RAIDER
+    race: STR_TERRORISTS
     stats:
       tu: 75
       stamina: 100
@@ -583,9 +575,8 @@ units:
     sniper: 0
     canSurrender: true
 
-  - &STR_TERRORIST_GRUNT
-    type: STR_TERRORIST_GRUNT
-    liveAlien: STR_TERRORIST_GRUNT
+  - type: STR_TERRORIST_GRUNT
+    race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -609,9 +600,8 @@ units:
     sniper: 0
     canSurrender: true
 
-  - &STR_TERRORIST_GRENADIER
-    type: STR_TERRORIST_GRENADIER
-    liveAlien: STR_TERRORIST_GRENADIER
+  - type: STR_TERRORIST_GRENADIER
+    race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -635,9 +625,8 @@ units:
     sniper: 0
     canSurrender: true
 
-  - &STR_TERRORIST_SNIPER
-    type: STR_TERRORIST_SNIPER
-    liveAlien: STR_TERRORIST_SNIPER
+  - type: STR_TERRORIST_SNIPER
+    race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -661,9 +650,8 @@ units:
     sniper: 3
     canSurrender: true
 
-  - &STR_PR_LEADER
-    type: STR_PR_LEADER
-    liveAlien: STR_PR_LEADER
+  - type: STR_PR_LEADER
+    race: STR_PRIVATE_SECURITY
     stats:
       tu: 90
       stamina: 100
@@ -687,9 +675,8 @@ units:
     sniper: 3
     canSurrender: true
 
-  - &STR_PR_SHIELD
-    type: STR_PR_SHIELD
-    liveAlien: STR_PR_SHIELD
+  - type: STR_PR_SHIELD
+    race: STR_PRIVATE_SECURITY
     stats:
       tu: 70
       stamina: 100
@@ -713,9 +700,8 @@ units:
     sniper: 0
     canSurrender: true
 
-  - &STR_PR_RIFLEMAN
-    type: STR_PR_RIFLEMAN
-    liveAlien: STR_PR_RIFLEMAN
+  - type: STR_PR_RIFLEMAN
+    race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
       stamina: 100
@@ -739,9 +725,8 @@ units:
     sniper: 1
     canSurrender: true
 
-  - &STR_PR_HEAVY
-    type: STR_PR_HEAVY
-    liveAlien: STR_PR_HEAVY
+  - type: STR_PR_HEAVY
+    race: STR_PRIVATE_SECURITY
     stats:
       tu: 85
       stamina: 100
@@ -765,9 +750,8 @@ units:
     sniper: 0
     canSurrender: true
 
-  - &STR_PR_GRUNT
-    type: STR_PR_GRUNT
-    liveAlien: STR_PR_GRUNT
+  - type: STR_PR_GRUNT
+    race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
       stamina: 100
@@ -791,9 +775,8 @@ units:
     sniper: 0
     canSurrender: true
 
-  - &STR_PR_SAW
-    type: STR_PR_SAW
-    liveAlien: STR_PR_SAW
+  - type: STR_PR_SAW
+    race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
       stamina: 100
@@ -817,9 +800,8 @@ units:
     sniper: 2
     canSurrender: true
 
-  - &STR_PR_SNIPER
-    type: STR_PR_SNIPER
-    liveAlien: STR_PR_SNIPER
+  - type: STR_PR_SNIPER
+    race: STR_PRIVATE_SECURITY
     stats:
       tu: 70
       stamina: 100
@@ -842,594 +824,6 @@ units:
     spotter: 3
     sniper: 5
     canSurrender: true
-
-
-#########################################
-
-  - type: STR_TERRORIST_COMMANDER_EAST_EU
-    refNode: *STR_TERRORIST_COMMANDER
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AK12
-             - STR_5_45_X45
-             - STR_5_45_X30
-           - 
-             - STR_AK12
-             - STR_5_45_X45
-             - STR_5_45_X30
-           - 
-             - STR_SR_3
-             - STR_9_39_X20
-             - STR_9_39_X20
-
-  - type: STR_TERRORIST_COMMANDER_USA
-    refNode: *STR_TERRORIST_COMMANDER
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_M4
-             - STR_5_56_X30
-             - STR_5_56_X30
-           - 
-             - STR_M4
-             - STR_5_56_X30
-             - STR_5_56_X30
-           - 
-             - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
-
-  - type: STR_TERRORIST_COMMANDER_WEST_EU
-    refNode: *STR_TERRORIST_COMMANDER
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_HK416
-             - STR_5_56_X30
-             - STR_5_56_X30
-           - 
-             - STR_HK416
-             - STR_5_56_X30
-             - STR_5_56_X30
-           - 
-             - STR_SCAR_L
-             - STR_5_56_X30
-             - STR_5_56_X30
-
-  - type: STR_TERRORIST_LEADER_EAST_EU
-    refNode: *STR_TERRORIST_LEADER
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_SKORPION
-             - STR_9MM_MAKAROV_X30
-             - STR_9MM_MAKAROV_X20
-           - 
-             - STR_AK_74
-             - STR_5_45_X45
-             - STR_5_45_X30
-           - 
-             - STR_AK_74
-             - STR_5_45_X45
-             - STR_5_45_X30
-
-  - type: STR_TERRORIST_LEADER_USA
-    refNode: *STR_TERRORIST_LEADER
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_REMINGTON
-             - STR_12G_BUCKSHOT_X8
-             - STR_12G_BUCKSHOT_X8
-           - 
-             - STR_M16A2
-             - STR_5_56_X30
-             - STR_5_56_X30
-           - 
-             - STR_M4
-             - STR_5_56_X30
-             - STR_5_56_X30
-
-  - type: STR_TERRORIST_LEADER_WEST_EU
-    refNode: *STR_TERRORIST_LEADER
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X30
-           - 
-             - STR_AK_74
-             - STR_5_45_X45
-             - STR_5_45_X30
-           - 
-             - STR_AK_74
-             - STR_5_45_X60
-             - STR_5_45_X30
-
-  - type: STR_TERRORIST_SAW_EAST_EU
-    refNode: *STR_TERRORIST_SAW
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AK_74
-             - STR_5_45_X60
-             - STR_5_45_X60
-           - 
-             - STR_AK_74
-             - STR_5_45_X60
-             - STR_5_45_X60
-           - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X50
-
-  - type: STR_TERRORIST_SAW_USA
-    refNode: *STR_TERRORIST_SAW
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_M16A2
-             - STR_5_56_X30
-             - STR_5_56_X30
-           - 
-             - STR_M60
-             - STR_NATO_7_62_X50
-           - 
-             - STR_M60
-             - STR_NATO_7_62_X100
-
-  - type: STR_TERRORIST_SAW_WEST_EU
-    refNode: *STR_TERRORIST_SAW
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AK_74
-             - STR_5_45_X60
-             - STR_5_45_X60
-           - 
-             - STR_M60
-             - STR_NATO_7_62_X50
-           - 
-             - STR_M60
-             - STR_NATO_7_62_X100
-      
-  - type: STR_TERRORIST_RIFLEMAN_EAST_EU
-    refNode: *STR_TERRORIST_RIFLEMAN
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AKM
-             - STR_SOVIET_7_62_X30
-           - 
-             - STR_AKM
-             - STR_SOVIET_7_62_X30
-           - 
-             - STR_AK_74
-             - STR_5_45_X30
-
-  - type: STR_TERRORIST_RIFLEMAN_USA
-    refNode: *STR_TERRORIST_RIFLEMAN
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_AR_180
-             - STR_5_56_X30
-           - 
-             - STR_M16A2
-             - STR_5_56_X30
-           - 
-             - STR_M4
-             - STR_5_56_X30
-
-  - type: STR_TERRORIST_RIFLEMAN_WEST_EU
-    refNode: *STR_TERRORIST_RIFLEMAN
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AKM
-             - STR_SOVIET_7_62_X30
-           - 
-             - STR_AK_74
-             - STR_5_45_X30
-           - 
-             - STR_AR_18
-             - STR_5_56_X30
-      
-  - type: STR_TERRORIST_RAIDER_EAST_EU
-    refNode: *STR_TERRORIST_RAIDER
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_DOUBLE_BARREL
-             - STR_12G_BUCKSHOT_X2
-             - STR_12G_BUCKSHOT_X2
-           - 
-             - STR_DOUBLE_BARREL
-             - STR_12G_BUCKSHOT_X2
-             - STR_12G_BUCKSHOT_X2
-           - 
-             - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_SHRAPNEL_25_X3
-
-  - type: STR_TERRORIST_RAIDER_USA
-    refNode: *STR_TERRORIST_RAIDER
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_DOUBLE_BARREL
-             - STR_12G_BUCKSHOT_X2
-             - STR_12G_BUCKSHOT_X2
-           - 
-             - STR_REMINGTON
-             - STR_12G_BUCKSHOT_X8
-             - STR_12G_BUCKSHOT_X8
-           - 
-             - STR_USAS_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
-
-  - type: STR_TERRORIST_RAIDER_WEST_EU
-    refNode: *STR_TERRORIST_RAIDER
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_SKORPION
-             - STR_9MM_MAKAROV_X30
-             - STR_9MM_MAKAROV_X20
-           - 
-             - STR_REMINGTON
-             - STR_12G_BUCKSHOT_X8
-             - STR_12G_BUCKSHOT_X8
-           - 
-             - STR_REMINGTON
-             - STR_12G_BUCKSHOT_X8
-             - STR_12G_BUCKSHOT_X8
-      
-  - type: STR_TERRORIST_GRUNT_EAST_EU
-    refNode: *STR_TERRORIST_GRUNT
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
-             - STR_9MM_MAKAROV_X10
-           - 
-             - STR_SKORPION
-             - STR_9MM_MAKAROV_X20
-             - STR_9MM_MAKAROV_X20
-           - 
-             - STR_SKORPION
-             - STR_9MM_MAKAROV_X20
-             - STR_9MM_MAKAROV_X20
-
-  - type: STR_TERRORIST_GRUNT_USA
-    refNode: *STR_TERRORIST_GRUNT
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_M1911
-             - STR_45_ACP_X7
-             - STR_45_ACP_X7
-           - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
-           - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
-
-  - type: STR_TERRORIST_GRUNT_WEST_EU
-    refNode: *STR_TERRORIST_GRUNT
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
-             - STR_9MM_MAKAROV_X10
-           - 
-             - STR_SKORPION
-             - STR_9MM_MAKAROV_X20
-             - STR_9MM_MAKAROV_X20
-           - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X20
-             - STR_9MM_PARABELLUM_X20
-      
-  - type: STR_TERRORIST_GRENADIER_EAST_EU
-    refNode: *STR_TERRORIST_GRENADIER
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
-             - STR_MOLOTOV
-             - STR_GRENADE
-           - 
-             - STR_RPG
-             - STR_RPG_HEAT_X1
-           - 
-             - STR_RPG
-             - STR_RPG_HEAT_X1
-             - STR_RPG_HEAT_X1
-
-  - type: STR_TERRORIST_GRENADIER_USA
-    refNode: *STR_TERRORIST_GRENADIER
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_M1911
-             - STR_45_ACP_X7
-             - STR_GRENADE
-             - STR_GRENADE
-           - 
-             - STR_M1911
-             - STR_45_ACP_X7
-             - STR_HIGH_EXPLOSIVE
-           - 
-             - STR_MGL
-             - STR_40MM_FRAG_X6
-
-  - type: STR_TERRORIST_GRENADIER_WEST_EU
-    refNode: *STR_TERRORIST_GRENADIER
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
-             - STR_MOLOTOV
-             - STR_MOLOTOV
-           - 
-             - STR_RPG
-             - STR_RPG_HEAT_X1
-           - 
-             - STR_RPG
-             - STR_RPG_HEAT_X1
-             - STR_RPG_HEAT_X1
-      
-  - type: STR_TERRORIST_SNIPER_EAST_EU
-    refNode: *STR_TERRORIST_SNIPER
-    race: STR_TERRORISTS_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_HUNTING_RIFLE
-             - STR_22_LONG_RIFLE_X6
-             - STR_22_LONG_RIFLE_X6
-           - 
-             - STR_SKS_SCOPED
-             - STR_SOVIET_7_62_X10
-             - STR_SOVIET_7_62_X10
-           - 
-             - STR_VSS
-             - STR_9_39_X10
-             - STR_9_39_X10
-
-  - type: STR_TERRORIST_SNIPER_USA
-    refNode: *STR_TERRORIST_SNIPER
-    race: STR_TERRORISTS_USA
-    builtInWeaponSets:
-           - 
-             - STR_HUNTING_RIFLE
-             - STR_22_LONG_RIFLE_X6
-             - STR_22_LONG_RIFLE_X6
-           - 
-             - STR_HUNTING_RIFLE
-             - STR_22_LONG_RIFLE_X6
-             - STR_22_LONG_RIFLE_X6
-           - 
-             - STR_SKS_SCOPED
-             - STR_SOVIET_7_62_X10
-             - STR_SOVIET_7_62_X10
-
-  - type: STR_TERRORIST_SNIPER_WEST_EU
-    refNode: *STR_TERRORIST_SNIPER
-    race: STR_TERRORISTS_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_HUNTING_RIFLE
-             - STR_22_LONG_RIFLE_X6
-             - STR_22_LONG_RIFLE_X6
-           - 
-             - STR_FN_FAL_SCOPED
-             - STR_NATO_7_62_X20
-           - 
-             - STR_M82
-             - STR_50_BMG_X5
-
-
-
-      
-  - type: STR_PR_LEADER_EAST_EU
-    refNode: *STR_PR_LEADER
-    race: STR_PRIVATE_SECURITY_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AK15
-             - STR_SOVIET_7_62_X40
-             - STR_SOVIET_7_62_X30
-
-  - type: STR_PR_LEADER_USA
-    refNode: *STR_PR_LEADER
-    race: STR_PRIVATE_SECURITY_USA
-    builtInWeaponSets:
-           - 
-             - STR_M4A1
-             - STR_5_56_X30
-             - STR_5_56_X30
-
-  - type: STR_PR_LEADER_WEST_EU
-    refNode: *STR_PR_LEADER
-    race: STR_PRIVATE_SECURITY_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_HK416
-             - STR_5_56_X30
-             - STR_5_56_X30
-      
-  - type: STR_PR_SHIELD_EAST_EU
-    refNode: *STR_PR_SHIELD
-    race: STR_PRIVATE_SECURITY_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_SR_3_ONE_HANDED
-             - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
-
-  - type: STR_PR_SHIELD_USA
-    refNode: *STR_PR_SHIELD
-    race: STR_PRIVATE_SECURITY_USA
-    builtInWeaponSets:
-           - 
-             - STR_MK_23
-             - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
-
-  - type: STR_PR_SHIELD_WEST_EU
-    refNode: *STR_PR_SHIELD
-    race: STR_PRIVATE_SECURITY_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_FIVE_SEVEN
-             - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
-      
-  - type: STR_PR_RIFLEMAN_EAST_EU
-    refNode: *STR_PR_RIFLEMAN
-    race: STR_PRIVATE_SECURITY_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AK15
-             - STR_SOVIET_7_62_X40
-             - STR_SOVIET_7_62_X30
-
-  - type: STR_PR_RIFLEMAN_USA
-    refNode: *STR_PR_RIFLEMAN
-    race: STR_PRIVATE_SECURITY_USA
-    builtInWeaponSets:
-           - 
-             - STR_M4A1
-             - STR_5_56_X30
-             - STR_5_56_X30
-
-  - type: STR_PR_RIFLEMAN_WEST_EU
-    refNode: *STR_PR_RIFLEMAN
-    race: STR_PRIVATE_SECURITY_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_HK416
-             - STR_5_56_X30
-             - STR_5_56_X30
-      
-  - type: STR_PR_HEAVY_EAST_EU
-    refNode: *STR_PR_HEAVY
-    race: STR_PRIVATE_SECURITY_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_BARRICADE_X3
-             - STR_SHRAPNEL_25_X3
-
-  - type: STR_PR_HEAVY_USA
-    refNode: *STR_PR_HEAVY
-    race: STR_PRIVATE_SECURITY_USA
-    builtInWeaponSets:
-           - 
-             - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
-
-  - type: STR_PR_HEAVY_WEST_EU
-    refNode: *STR_PR_HEAVY
-    race: STR_PRIVATE_SECURITY_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
-      
-  - type: STR_PR_GRUNT_EAST_EU
-    refNode: *STR_PR_GRUNT
-    race: STR_PRIVATE_SECURITY_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AK12
-             - STR_5_45_X45
-             - STR_5_45_X30
-
-  - type: STR_PR_GRUNT_USA
-    refNode: *STR_PR_GRUNT
-    race: STR_PRIVATE_SECURITY_USA
-    builtInWeaponSets:
-           - 
-             - STR_MPX
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
-
-  - type: STR_PR_GRUNT_WEST_EU
-    refNode: *STR_PR_GRUNT
-    race: STR_PRIVATE_SECURITY_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_P90
-             - STR_FN_57_X50
-             - STR_FN_57_X50
-      
-  - type: STR_PR_SAW_EAST_EU
-    refNode: *STR_PR_SAW
-    race: STR_PRIVATE_SECURITY_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X100
-
-  - type: STR_PR_SAW_USA
-    refNode: *STR_PR_SAW
-    race: STR_PRIVATE_SECURITY_USA
-    builtInWeaponSets:
-           - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
-
-  - type: STR_PR_SAW_WEST_EU
-    refNode: *STR_PR_SAW
-    race: STR_PRIVATE_SECURITY_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
-      
-  - type: STR_PR_SNIPER_EAST_EU
-    refNode: *STR_PR_SNIPER
-    race: STR_PRIVATE_SECURITY_EAST_EU
-    builtInWeaponSets:
-           - 
-             - STR_VSS
-             - STR_9_39_X20
-             - STR_9_39_X20
-
-  - type: STR_PR_SNIPER_USA
-    refNode: *STR_PR_SNIPER
-    race: STR_PRIVATE_SECURITY_USA
-    builtInWeaponSets:
-           - 
-             - STR_M82
-             - STR_50_BMG_X10
-
-  - type: STR_PR_SNIPER_WEST_EU
-    refNode: *STR_PR_SNIPER
-    race: STR_PRIVATE_SECURITY_WEST_EU
-    builtInWeaponSets:
-           - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
-
 
 extraSprites:
 ##################################
