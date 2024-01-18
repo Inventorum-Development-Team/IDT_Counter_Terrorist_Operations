@@ -44,8 +44,6 @@ alienDeployments:
       - RURAL
       - RAILYARD
       - DOWNTOWN
-      - DOWNTOWN
-      - POLIS
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -329,7 +327,6 @@ alienDeployments:
     civilians: 3
     terrains:
       - COMRCURBAN
-      - POLIS
       - APARTMENT
       - DAWNCITY_URBANA
       - DAWNCITY_URBANB
@@ -1322,8 +1319,6 @@ alienDeployments:
       - RURAL
       - RAILYARD
       - DOWNTOWN
-      - DOWNTOWN
-      - POLIS
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -1613,7 +1608,6 @@ alienDeployments:
     height: 10
     terrains:
       - COMRCURBAN
-      - POLIS
       - APARTMENT
       - DAWNCITY_URBANA
       - DAWNCITY_URBANB
@@ -2185,9 +2179,8 @@ alienDeployments:
       - RURAL
       - RAILYARD
       - DOWNTOWN
-      - DOWNTOWN
-      - POLIS
-      - REFINERY
+      - AIRFIELD1
+      - AIRFIELD2
     briefing:
      desc: STR_HIDEOUT_RAID_BRIEFING
     data:
@@ -2327,8 +2320,8 @@ alienDeployments:
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
     terrains:
-      - PORTTFTD5
-      - PORTTFTD6
+      - AIRFIELD3
+      - AIRFIELD4
       - PORTUFO
       - CHEMTOWN
       - INDUSTRIALSLUM
@@ -2472,12 +2465,12 @@ alienDeployments:
     alert: STR_HIDEOUT_RAID
     terrains:
       - COMRCURBAN
-      - POLIS
       - APARTMENT
       - DAWNCITY_URBANA
       - DAWNCITY_URBANB
       - CHEMTOWN
-      - REFINERY
+      - AIRFIELD5
+      - AIRFIELD6
     briefing:
      desc: STR_HIDEOUT_RAID_BRIEFING
     data:
