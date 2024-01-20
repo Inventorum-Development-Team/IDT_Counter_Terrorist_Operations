@@ -5,7 +5,7 @@ Changes made:
 * Reduced and reorganized European campaign missions, by Filip-H
 * Added Terrain Pack maps, created by Hobbes & Collaborators
 * Increased bulletSpeed and explosionSpeed to all weapons for faster rate of fire, by efrenespartano
-
+* Added dark industrial soundtrack by Aim to Head
 
 14-Oct-2021 v0.1.2 Who Dares Wins
 Changes made:
