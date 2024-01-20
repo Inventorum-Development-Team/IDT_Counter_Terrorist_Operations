@@ -2,6 +2,8 @@ X-Jan-2024 v1.0
 Changes made:
 * Added Terrain Pack, by Hobbes and collaborators
 * Tweaked terrain lists for Terrorist Attacks and Major Attacks, unique for each region (i.e each one has its own set of terrains, instead of just being the same all the time)
+* Increased bulletSpeed and explosionSpeed to all weapons for faster rate of fire, by efrenespartano
+* Added dark industrial soundtrack by Aim to Head
 
 14-Oct-2021 v0.1.2 Who Dares Wins
 Changes made:

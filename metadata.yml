@@ -1,5 +1,6 @@
 name: "Counter-Terrorist Operations"
 version: "1.0"
+versionDisplay: "1.0 Arsenal Edition"
 requiredExtendedVersion: "7.11"
 author: "Filip H, efrenespartano, wethan2 + IDT"
 description: "Lead a International Task Unit in a fight against terrorist forces."
