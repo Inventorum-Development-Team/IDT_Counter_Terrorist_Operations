@@ -43,6 +43,15 @@ alienDeployments:
       - EXPANDED_TERROR
       - COMRCURBAN
       - RURAL
+      - RAILYARD
+      - SLUM_SLIM
+      - INDUSTRIALSLUM
+      - ISLANDURBAN
+      - INDUSTRIAL
+      - COMRCURBAN
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
@@ -214,6 +223,12 @@ alienDeployments:
     terrains:
       - EXPANDED_TERROR
       - COMRCURBAN
+      - RAILYARD
+      - ISLANDURBAN
+      - COMRCURBAN
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
