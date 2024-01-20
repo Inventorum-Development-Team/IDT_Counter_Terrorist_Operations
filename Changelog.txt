@@ -1,3 +1,12 @@
+X-Jan-2024 v1.0 Compact
+Changes made:
+* Custom Pedia report entries, by Filip-H
+* Dynamic attachment system for European campaign weapons, by Filip-H
+* Reduced and reorganized European campaign missions, by Filip-H
+* Added Terrain Pack maps, created by Hobbes & Collaborators
+* Increased bulletSpeed and explosionSpeed to all weapons for faster rate of fire, by efrenespartano
+
+
 14-Oct-2021 v0.1.2 Who Dares Wins
 Changes made:
 New Content:
