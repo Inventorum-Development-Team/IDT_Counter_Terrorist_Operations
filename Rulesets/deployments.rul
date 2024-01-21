@@ -2601,6 +2601,7 @@ alienDeployments:
     alert: STR_OFFICE_RAID
     terrains:
      - OFFICE
+     - CTO_OFFICE_WEST_EUROPE
     briefing:
      desc: STR_OFFICE_RAID_BRIEFING
     data:
@@ -2675,6 +2676,7 @@ alienDeployments:
     alert: STR_OFFICE_RAID
     terrains:
      - OFFICE
+     - CTO_OFFICE_WEST_EUROPE
     briefing:
      desc: STR_OFFICE_RAID_BRIEFING
     data:
@@ -2747,6 +2749,7 @@ alienDeployments:
     alert: STR_OFFICE_RAID
     terrains:
      - OFFICE
+     - CTO_OFFICE_WEST_EUROPE
     briefing:
      desc: STR_OFFICE_RAID_BRIEFING
     data:
@@ -3064,6 +3067,10 @@ extraStrings:
       STR_HIDEOUT_RAID: "Hideout Raid"
       STR_OFFICE_RAID: "Office Raid"
       STR_SKYSCRAPER_RAID: "Skyscraper Raid"
+
+      MAP_OFFICE: "Office"
+      CTO_OFFICE: "Corporate Office"
+      MAP_CTO_OFFICE_WEST_EUROPE: "Corporate Office" #THE ONLY ONE THAT WORKS
 
       STR_HOUSE_EVIDENCE: "Safehouse Evidence"
       STR_HIDEOUT_EVIDENCE: "Hideout Evidence"
