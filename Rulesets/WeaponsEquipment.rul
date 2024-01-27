@@ -234,8 +234,6 @@ items:
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     bulletSprite: 1
-    explosionSpeed: 30
-    bulletSpeed: 20
     battleType: 2
     damageType: 1
     damageAlter:
@@ -247,8 +245,6 @@ items:
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     bulletSprite: 11
-    explosionSpeed: 30
-    bulletSpeed: 20 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -260,8 +256,6 @@ items:
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     bulletSprite: 11
-    explosionSpeed: 30
-    bulletSpeed: 20 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -273,8 +267,6 @@ items:
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     bulletSprite: 11
-    explosionSpeed: 30
-    bulletSpeed: 20 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -286,9 +278,7 @@ items:
     power: 33
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 12
-    explosionSpeed: 30
-    bulletSpeed: 20 
+    bulletSprite: 12 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -301,8 +291,6 @@ items:
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     bulletSprite: 12
-    explosionSpeed: 30
-    bulletSpeed: 20 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -315,8 +303,6 @@ items:
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     bulletSprite: 2
-    explosionSpeed: 30
-    bulletSpeed: 20 
     battleType: 2
     damageType: 1
     damageAlter:
@@ -332,8 +318,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 12
-    explosionSpeed: 30
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -346,8 +330,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 13
-    explosionSpeed: 30
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -360,8 +342,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 14
-    explosionSpeed: 30
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -374,8 +354,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 2
-    explosionSpeed: 30
-    bulletSpeed: 20
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -388,8 +366,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 13
-    explosionSpeed: 30
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -402,8 +378,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 15
-    explosionSpeed: 30
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -416,8 +390,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 13
-    explosionSpeed: 30
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -430,8 +402,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 16
-    explosionSpeed: 30
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -444,8 +414,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 17
-    explosionSpeed: 40
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -458,8 +426,6 @@ items:
     battleType: 2
     damageType: 1
     bulletSprite: 18
-    explosionSpeed: 40
-    bulletSpeed: 20 
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -472,8 +438,6 @@ items:
     bulletSprite: 18 
     battleType: 2
     damageType: 1
-    explosionSpeed: 40
-    bulletSpeed: 20
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -500,8 +464,6 @@ items:
     bulletSprite: 3
     battleType: 2
     damageType: 1
-    #explosionSpeed: 30
-    bulletSpeed: 20
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
