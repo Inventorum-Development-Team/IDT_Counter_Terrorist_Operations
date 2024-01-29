@@ -348,7 +348,7 @@ items:
       ToArmorPre: 0.4
   - &STR_22_LONG_RIFLE_AMMO
     type: STR_22_LONG_RIFLE_AMMO
-    power: 33
+    power: 28
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
@@ -5403,7 +5403,7 @@ items:
     invHeight: 3
     ammo:
       0:
-        compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100, STR_5_56_X30 ]
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X50, STR_5_56_X100 ]
         tuLoad: 45
         tuUnload: 22
     listOrder: 6320
