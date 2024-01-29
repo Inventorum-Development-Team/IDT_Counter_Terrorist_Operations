@@ -1044,6 +1044,7 @@ extraStrings:
       STR_GRENADIER_CORPSE: "Grenadier Corpse"
       STR_TERRORIST_COMMANDER_CORPSE: "Commander Corpse"
       STR_TERRORIST_LEADER_CORPSE: "Leader Corpse"
+      STR_GUNNER_CORPSE: "Gunner Corpse"
       STR_PR_CORPSE: "Guard Corpse"
       STR_BLUE_PR_CORPSE: "Guard Corpse"
       STR_GRAY_PR_CORPSE: "Guard Corpse"

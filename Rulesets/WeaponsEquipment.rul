@@ -1042,7 +1042,7 @@ items:
     listOrder: 6370
   - type: STR_22_LONG_RIFLE_X6
     categories: [ STR_CLIPS ]
-    refNode: *STR_5_56MM_NATO_RIFLE_AMMO  #??????? we have a 22 LR caliber
+    refNode: *STR_22_LONG_RIFLE_AMMO
     bigSprite: 624
     handSprite: 624
     floorSprite: 624
@@ -4979,7 +4979,7 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 5
-    kneelBonus: 10
+    kneelBonus: 100
     tuAimed: 60
     tuSnap: 30
     invWidth: 1
@@ -5063,6 +5063,8 @@ items:
     tuSnap: 35
     invWidth: 1
     invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 85
     ammo:
       0:
         compatibleAmmo:
@@ -5284,6 +5286,8 @@ items:
     tuAuto: 45
     invWidth: 1
     invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 85
     ammo:
       0:
         compatibleAmmo:

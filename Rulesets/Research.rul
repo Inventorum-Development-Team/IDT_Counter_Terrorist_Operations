@@ -1058,4 +1058,6 @@ extraStrings:
       STR_MEDIUM_TRANSPORT: "Medium Deployments"
       STR_LARGE_TRANSPORT: "Large Deployments"
 
+      STR_UNOBTAINABLE: "Not In Campaign"
+
 

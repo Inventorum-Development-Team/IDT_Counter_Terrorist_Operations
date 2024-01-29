@@ -110,7 +110,7 @@ items:
   - type: STR_5_56_X100 #ignoreDuplicate
     tags:
      AmmoNo: 2
-  - type: STR_22_LONG_RIFLE_6x #ignoreDuplicate
+  - type: STR_22_LONG_RIFLE_X6 #ignoreDuplicate
     tags:
      AmmoNo: 1
   - type: STR_SOVIET_7_62_X10 #ignoreDuplicate
@@ -1022,3 +1022,4 @@ extraStrings:
       STR_JAMMED: "Weapon Jammed"
       STR_HANDCUFFS: "Handcuffs"
       STR_SHOUT: "Shout"
+      STR_USE_CUFFS: "Use Handcuffs"

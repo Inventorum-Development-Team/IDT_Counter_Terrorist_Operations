@@ -418,6 +418,8 @@ extraStrings:
      STR_VOSTOKSTATION: "Vostok"
      STR_MCMURDOSTATION: "McMurdo"
      STR_AMUNDSENSCOTTSTATION: "Amundsen-Scott"
+     STR_BELLINGSHAUSENSTATION: "Bellingshausen"
+     
 
 # ATLANTIC/PACIFIC/INDIAN CITIES
 

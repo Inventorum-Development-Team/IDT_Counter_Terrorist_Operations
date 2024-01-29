@@ -85,6 +85,7 @@ extraStrings:
       STR_MISC: Misc Items
       STR_LIGHT_EQUIPMENT: Light Equipment
       STR_MEDICAL: Medical Equipment
+      STR_SEIZED: Seized Weapons
       STR_CUSTOM_WEAPON: Custom Weapons
       STR_AIRCRAFTS: Aircrafts
       STR_TRANSPORTS: Transports
