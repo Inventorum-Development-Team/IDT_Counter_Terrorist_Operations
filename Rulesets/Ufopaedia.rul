@@ -572,6 +572,14 @@ ufopaedia:
     section: STR_RIFLES
     listOrder: 420
 
+  - id: STR_G36C
+    type_id: 4
+    requires:
+     - STR_UNOBTAINABLE
+    text: STR_G36C_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 420
+
   - id: STR_HK416
     type_id: 4
     text: STR_HK416_UFOPAEDIA
@@ -1576,6 +1584,7 @@ extraStrings:
       STR_AK15_UFOPAEDIA: "The AK-15 is a variant of the AK-12 chambered in 7.62x39mm, granting it better effective range and stopping power at the cost of weight. It was designed at the request of the russian armed forces and is compatible with box magazines of preceding AK rifles."
       STR_FAMAS_UFOPAEDIA: "The FAMAS is the service rifle of the French military. Notable for its high fire rate, the FAMAS is known as le Clarion (the Bugle) by french troops due to its shape."
       STR_G36_UFOPAEDIA: "The Heckler & Koch G36 serves as the service rifle of the Bundeswehr. It has both an reflex sight and a telescopic sight with 3x magnification. The rifle saw controversy after reports claimed its accuracy degraded due to overheating in desert conditions after only firing two magazines."
+      STR_G36C_UFOPAEDIA: "The Heckler & Koch G36C is the compact version of the G36. The rifle is more manuverable and lighter then the G36, at the cost of slight accuracy and range."
       STR_HK416_UFOPAEDIA: "The Heckler & Koch HK416 is an assault rifle of german origin, being designed based on the M4 carbine while drawing some design features from the G36. The Rifle has seen extensive adoption by many special forces units and has been chosen as the standard issue rifle both by the French and Norwegian militaries."
       STR_HK417_UFOPAEDIA: "The Heckler & Koch HK417 is the battle rifle variant of the HK416, using the heavier 7.62x51mm cartridge. It is primarily meant to serve as a designated marksman rifle."
       STR_FX_05_UFOPAEDIA: "Named after a Aztec mythological fire serpent, the FX-05 was specifically designed as a cost-effective service rifle for the Mexican military. It features rare polygonal rifling meant to increase the barrels durability and reduce wear."

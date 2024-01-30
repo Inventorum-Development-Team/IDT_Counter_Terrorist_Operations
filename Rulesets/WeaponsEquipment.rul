@@ -3635,7 +3635,48 @@ items:
           ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 5690
+    listOrder: 6611
+
+  - type: STR_G36C
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [STR_FIREARMS, STR_RIFLES]
+#    requiresBuy:
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 3976
+    floorSprite: 3592
+    handSprite: 3592
+    reloadSound: 136
+    fireSound: 137
+    costBuy: 31000
+    costSell: 15500
+    accuracyAimed: 78
+    accuracySnap: 58
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 30
+    snapRange: 32
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 66
+    tuSnap: 46
+    tuAuto: 51
+    invWidth: 1
+    invHeight: 3
+    ammo:
+        0:
+         compatibleAmmo: [STR_5_56_X30]
+         tuLoad: 30
+         tuUnload: 15
+    listOrder: 6612
+
 
   - type: STR_HK416
     categories: [ STR_FIREARMS, STR_RIFLES ]
@@ -6462,7 +6503,6 @@ extraSprites:
       3792: Resources/BallisticWeapons/LMGs/BigFNMinimi30.png
       3800: Resources/BallisticWeapons/LMGs/BigFNMinimi.png
       3808: Resources/BallisticWeapons/Rifles/BigRK62.png
-      # 3808: Resources/BallisticWeapons/LMGs/Big
       # 3816: Resources/BallisticWeapons/LMGs/Big
       3824: Resources/BallisticWeapons/LMGs/BigRPK-74Mnomag.png
       3832: Resources/BallisticWeapons/LMGs/BigRPK-74M.png
@@ -6483,6 +6523,8 @@ extraSprites:
       3952: Resources/BallisticWeapons/SMGs/BigUzi20.png
       3960: Resources/BallisticWeapons/SMGs/BigUzi.png
       3968: Resources/BallisticWeapons/SMGs/BigUzi40.png
+      3976: Resources/BallisticWeapons/Rifles/BigG36Cnomag.png
+      3984: Resources/BallisticWeapons/Rifles/BigG36C.png
 
   - type: FLOOROB.PCK
     files:
@@ -6851,6 +6893,9 @@ extraSprites:
       3952: Resources/BallisticWeapons/SMGs/FloorUzi.png
       3960: Resources/BallisticWeapons/SMGs/FloorUzi.png
       3968: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      #3976: g36c
+      #3984: g36c
+
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -7222,6 +7267,8 @@ extraSprites:
       3952: Resources/BallisticWeapons/SMGs/HandUzi.png
       3960: Resources/BallisticWeapons/SMGs/HandUzi.png
       3968: Resources/BallisticWeapons/SMGs/HandUzi.png
+      #3976: g36c
+      #3984: g36c
   # - type: SMOKE.PCK
   #   height: 80
   #   width: 160
@@ -7376,6 +7423,7 @@ extraStrings:
       STR_FAMAS_SCOPED: "FAMAS (Scoped)"
       STR_G36: "G36"
       STR_G36_AG: "G36 (AG36)"
+      STR_G36C: "G36C"
       STR_HK416: "HK416"
       STR_HK416_SOPMOD: "HK416 (SOPMOD)"
       STR_HK416_M320: "HK416 (M320)"
