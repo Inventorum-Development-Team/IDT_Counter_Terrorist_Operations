@@ -89,6 +89,9 @@ items:
   - type: STR_45_ACP_X25 #ignoreDuplicate
     tags:
      AmmoNo: 1   
+  - type: STR_50_AE_X7 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
   - type: STR_CASELESS_4_73_X50 #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -229,6 +232,13 @@ items:
   - type: STR_STETCKIN #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_DEAGLE #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_GOLDDEAGLE #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+
   - type: STR_TEC_9 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -259,6 +269,7 @@ items:
   - type: STR_VERSEK #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+
   - type: STR_TAVOR #ignoreDuplicate
     tags:
      AmmoReSprite: 1

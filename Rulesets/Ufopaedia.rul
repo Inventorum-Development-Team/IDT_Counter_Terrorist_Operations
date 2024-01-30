@@ -360,6 +360,22 @@ ufopaedia:
     section: STR_PISTOLS
     listOrder: 208
 
+  - id: STR_DEAGLE
+    type_id: 4
+    requires:
+     - STR_UNOBTAINABLE
+    text: STR_DEAGLE_UFOPAEDIA
+    section: STR_PISTOLS
+    listOrder: 209
+
+  - id: STR_GOLDDEAGLE
+    type_id: 4
+    requires:
+     - STR_UNOBTAINABLE #STR_GOLDDEAGLE
+    text: STR_GOLDDEAGLE_UFOPAEDIA
+    section: STR_PISTOLS
+    listOrder: 209
+
   - id: STR_TEC_9
     type_id: 4
     text: STR_TEC_9_UFOPAEDIA
@@ -1315,6 +1331,12 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1059
 
+  - id: STR_50_AE_X7 #Custom!
+    type_id: 4
+    text: STR_50_AE_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1060
+
   - id: STR_GRENADE
     type_id: 4
     text: "..."
@@ -1535,6 +1557,8 @@ extraStrings:
       STR_MANHURIN_UFOPAEDIA: "A small revolver chambered in .38 Special. The Manhurin MR73 is carefully manufactured with many parts being hand-fitted. Despite its low capacity, it is favoured by the GIGN due to its reliability and accuracy."
       STR_VEKTOR_UFOPAEDIA: "A russian semi-automatic pistol based on the Beretta 92. It is also known as the Gyurza, based on the ammunition it fires."
       STR_STETCKIN_UFOPAEDIA: "An automatic pistol of soviet origin, the Stechkin automatic pistol was one of the first machine pistols that saw prolific use. It was phased out of active service due to its high cost, heavy weight and limited effective range, however it still found use from special forces."
+      STR_DEAGLE_UFOPAEDIA: "The Desert Eagle is a high caliber semi-automatic pistol. Originally designed by Magnum Research Inc., production was given to IMI who further refined the design. .50 AE hits hard, but will struggle against armored opponents."
+      STR_GOLDDEAGLE_UFOPAEDIA: "That was one rich terrorist! Personaly I would have went with the tiger stripes but still, We could probably make a ton of cash from selling this. Also it goes without saying but there is no way in hell we can convince the council to let us buy these"
       STR_TEC_9_UFOPAEDIA: "Originally developed for military use, the TEC-9 gained notoriety due to its use by criminal groups. Despite the negative reputation and gun control legislation limiting it's sale, the machine pistol became a commercial success on the civilian market."
       STR_MP5_UFOPAEDIA: "The MP5 is one of the most widely used submachine guns in the world. It is used by everything from military forces to private security organizations. It gained significant fame due to its use by the SAS during the Iranian embassy siege in 1980."
       STR_MPX_UFOPAEDIA: "The SIG MPX is a relatively modern submachine gun, designed in 2013. It features a closed, rotating bolt, which is rare for submachine guns. This design choice was chosen to increase user safety and reliability."
@@ -1610,6 +1634,7 @@ extraStrings:
       STR_9MM_GYURZA_UFOPAEDIA: "The 9x21mm Gyurza cartridge is a russian handgun round designed to defeat body armour. Its name means blunt-nosed viper in russian."
       STR_FN_57_UFOPAEDIA: "The FN 5.7x28mm cartridge was designed as a replacement to the 9mm parabellum cartridge, though it was never adopted as a NATO standard due to objections of some member nations. It has proven to be very effective against armor. The cartridge was designed alongside the FN P90 and FN Five-seveN, both of which use the round."
       STR_45_ACP_UFOPAEDIA: "The .45 ACP (Automatic Colt Pistol) cartridge was designed for use in prototype Colt semi automatic pistols, and was later chosen to be used in the M1911. While having more stopping power, .45 ACP has generally seen less adoption than the 9x19mm cartridge due to being heavier, larger and more expensive."
+      
       STR_CASELESS_4_73_UFOPAEDIA: "Used in the G11, the most notable quality of the 4-73x33mm cartridge is that it is caseless, consisting only of a propellant, booster and the bullet itself. The lack of a case leads to a lesser weight and the elimination of the need to extract the case from the firearm after firing."
       STR_5_45_UFOPAEDIA: "The 5.45x39mm served as the replacement for the 7.62x39mm cartridge in the soviet military. It followed the general trend of smaller light-weight cartridges being commonly adopted, due to to their better performance in automatic weapons."
       STR_5_56_UFOPAEDIA: "Due to the criticism of the 7.62 NATO cartridges performance in automatic fire of a hand-held service rifle, the 5.56x45 NATO was selected as the second standard service rifle cartridge of NATO in 1980. While less powerful than the 7.62 cartridge, the 5.56 NATO makes up for it by being lighter and having less recoil, making it easer to control when firing in a fully automatic mode."
@@ -1617,16 +1642,20 @@ extraStrings:
       STR_SOVIET_7_62_UFOPAEDIA: "7.62x39mm cartridges were developed during the second world war to be used in the new generation of soviet infantry weapons. Due to the widespread use of the AK-47, the 7.62 cartridge has been used by numerous armed forces worldwide."
       STR_NATO_7_62_UFOPAEDIA: "The 7.62x51mm NATO was chosen as the first standard NATO rifle cartridge. Though it has been mostly supplanted by the NATO 5.56 cartridge, it is still commonly used in marksman and sniper rifles, due to its power."
       STR_SOVIET_7_62_MMR_UFOPAEDIA: "One of the oldest, still-used military cartridges, The 7.62x54mmR was originally designed for the Mosin-Nagant rifle. While not commonly used in service rifles anymore, it is still used as a sniper rifle and machine gun cartridge."
+      STR_50_AE_UFOPAEDIA: "The .50 AE round was designed in 1988 for high caliber semi-automatic pistols. It has the largest possible legal diameter before being declared a destructive device under US law"
+
       STR_9_39_UFOPAEDIA: "The 9x39mm is a sub-sonic rifle cartridge developed for silenced weapons. It was designed with the intent to provide a more powerful alternative to pistol rounds that are more commonly used in silenced weapons."
       STR_338_LAPUA_UFOPAEDIA: "Developed as a joint venture between British and Finnish rifle manufacturers to be a high power cartridge for military snipers. It can penetrate body armor even over the range of one kilometer."
       STR_50_BMG_UFOPAEDIA: "The most powerful cartridge available for us. The .50 BMG was developed for the M2 Browning machine gun but has also been used in sniper and anti-materiel rifles. A single .50 BMG round is capable of penetrating brick walls or disable a vehicle if fired into the engine block."
       STR_127_UFOPAEDIA: "A russian heavy machine gun and anti-materiel rifle round that is analogous to the .50 BMG cartridge, to the point that the two cartridges are sometimes incorrectly claimed to be interchangeable."
+      
       STR_12G_BUCKSHOT_UFOPAEDIA: "Buckshot rounds consists of shells packed with small lead pellets approximately 8mm in diameter, creating a lethal hail when fired. Due to the pellets spreading out the further they travel, the effective range of buckshot shells is only around 30-40 meters."
       STR_12G_SLUG_UFOPAEDIA: "Shotgun slugs consist of a single solid projectile instead of multiple pellets like buckshot rounds, giving them more power and accuracy."
       STR_12G_NON_LETHAL_UFOPAEDIA: "Meant to be used as a way to subdue targets, non-lethal rounds consist of rubber instead of lead. While considerably less lethal than buckshot, they can still kill someone if fired against a close or wounded targets. They also lose power faster than conventional shells."
       STR_SHRAPNEL_25_UFOPAEDIA: "Buckshot round for the KS-23. It has an effective range of 25 meters."
       STR_BARRICADE_UFOPAEDIA: "Powerful solid steel slug for the KS-23 shotgun. Powerful enough to destroy an engine block at the range of a 100 meters."
       STR_VOLNA_R_UFOPAEDIA: "Non-Lethal rubber cartridge for the KS-23. "
+      
       STR_40MM_FRAG_UFOPAEDIA: "40mm fragmentation grenade designed to be fired from a grenade launcher."
       STR_40MM_SMOKE_UFOPAEDIA: "40mm smoke grenade designed to be fired from a grenade launcher."
       STR_40MM_NON_LETHAL_UFOPAEDIA: "40mm non-lethal bean bag round to be fired from a grenade launcher."

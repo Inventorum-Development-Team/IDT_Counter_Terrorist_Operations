@@ -309,6 +309,20 @@ items:
       RandomType: 6
       IgnoreOverKill: true
       ToArmorPre: 0.5
+  - &STR_50AE_PISTOL_AMMO
+    type: STR_50AE_PISTOL_AMMO
+    power: 40
+    hitAnimation: 26
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 2 
+    battleType: 2
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0
+      ToHealth: 1.25
+      ArmorEffectiveness: 1.5
   #RIFLE AMMO
   - &STR_CASELESS_4_73_AMMO
     type: STR_CASELESS_4_73_AMMO
@@ -931,6 +945,21 @@ items:
     weight: 4
     clipSize: 25
     listOrder: 6070
+  - type: STR_50_AE_X7
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_50AE_PISTOL_AMMO
+    bigSprite: 632
+    handSprite: 3240
+    floorSprite: 3240
+    size: 0.1
+    armor: 30
+    costBuy: 300
+    costSell: 150
+    weight: 3
+    clipSize: 7
+    listOrder: 20820
   - type: STR_CASELESS_4_73_X50
     categories: [ STR_CLIPS ]
     requiresBuy:
@@ -2226,7 +2255,83 @@ items:
 #          tuLoad: 20
 #          tuUnload: 10
 
-
+  - type: STR_DEAGLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION
+    size: 1
+    weight: 16
+    # battleType: 1
+    bigSprite: 3392
+    floorSprite: 3392
+    handSprite: 3392
+    reloadSound: 237
+    fireSound: 247
+    costBuy: 20000
+    costSell: 10000
+    accuracyAimed: 85
+    accuracySnap: 45
+    accuracyAuto: 15
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 25
+    minRange: 0
+    aimRange: 12
+    snapRange: 8
+    autoRange: 0
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 60
+    tuSnap: 30
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_50_AE_X7 ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 20810
+  
+  - type: STR_GOLDDEAGLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION #Cant buy
+    size: 1
+    weight: 16
+    # battleType: 1
+    bigSprite: 3408
+    floorSprite: 3408
+    handSprite: 3408
+    reloadSound: 237
+    fireSound: 247
+    costBuy: 0
+    costSell: 100000
+    accuracyAimed: 85
+    accuracySnap: 45
+    accuracyAuto: 15
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 25
+    minRange: 0
+    aimRange: 12
+    snapRange: 8
+    autoRange: 0
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 60
+    tuSnap: 30
+    tuAuto: 70
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_50_AE_X7 ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 20810
 
   - type: STR_TEC_9
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
@@ -4355,9 +4460,9 @@ items:
     size: 1
     weight: 16
     # battleType: 1
-    bigSprite: 3801
-    floorSprite: 3803
-    handSprite: 3802
+    bigSprite: 3808
+    floorSprite: 3808
+    handSprite: 3808
     reloadSound: 242
     fireSound: 244
     costSell: 10000
@@ -6060,7 +6165,7 @@ extraSprites:
       608: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x10.png
       616: Resources/BallisticWeapons/Ammo/Big12GaugeBuckshot_x2.png
       624: Resources/BallisticWeapons/Ammo/Big22LongRifleAmmo.png
-      # 632: 
+      632: Resources/BallisticWeapons/Ammo/Big50aePistolAmmo_x7.png 
       640: Resources/BallisticWeapons/Pistols/BigP226nomag.png
       648: Resources/BallisticWeapons/Pistols/BigP226.png
       656: Resources/BallisticWeapons/Pistols/BigP226.png
@@ -6304,10 +6409,10 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
       3376: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
       3384: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408: 
-      # 3416: 
+      3392: Resources/BallisticWeapons/Pistols/BigDeaglenomag.png
+      3400: Resources/BallisticWeapons/Pistols/BigDeagle.png
+      3408: Resources/BallisticWeapons/Pistols/BigGoldDeaglenomag.png
+      3416: Resources/BallisticWeapons/Pistols/BigGoldDeagle.png
       # 3424: 
       # 3432: 
       # 3440: 
@@ -6356,7 +6461,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/BigFNMiniminomag.png
       3792: Resources/BallisticWeapons/LMGs/BigFNMinimi30.png
       3800: Resources/BallisticWeapons/LMGs/BigFNMinimi.png
-      3801: Resources/BallisticWeapons/Rifles/BigRK62.png
+      3808: Resources/BallisticWeapons/Rifles/BigRK62.png
       # 3808: Resources/BallisticWeapons/LMGs/Big
       # 3816: Resources/BallisticWeapons/LMGs/Big
       3824: Resources/BallisticWeapons/LMGs/BigRPK-74Mnomag.png
@@ -6672,10 +6777,10 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
       3376: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
       3384: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408:
-      # 3416: 
+      3392: Resources/BallisticWeapons/Pistols/FloorDeagle.png
+      3400: Resources/BallisticWeapons/Pistols/FloorDeagle.png
+      3408: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
+      3416: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
       # 3424: 
       # 3432: 
       # 3440: 
@@ -6724,7 +6829,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
-      3803: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      3808: Resources/BallisticWeapons/Rifles/FloorRK62.png
       # 3808: Resources/BallisticWeapons/LMGs/Floor
       # 3816: Resources/BallisticWeapons/LMGs/Floor
       3824: Resources/BallisticWeapons/LMGs/FloorRPK-74M.png
@@ -7043,10 +7148,10 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
       3376: Resources/BallisticWeapons/Pistols/HandStetchkin.png
       3384: Resources/BallisticWeapons/Pistols/HandStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408:
-      # 3416: 
+      3392: Resources/BallisticWeapons/Pistols/HandDeagle.png
+      3400: Resources/BallisticWeapons/Pistols/HandDeagle.png
+      3408: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
+      3416: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
       # 3424: 
       # 3432: 
       # 3440: 
@@ -7095,10 +7200,8 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
-      
-      3802: Resources/BallisticWeapons/Rifles/HandRK62.png
+      3808: Resources/BallisticWeapons/Rifles/HandRK62.png
 
-      # 3808: Resources/BallisticWeapons/LMGs/Hand
       # 3816: Resources/BallisticWeapons/LMGs/Hand
       3824: Resources/BallisticWeapons/LMGs/HandRPK-74M.png
       3832: Resources/BallisticWeapons/LMGs/HandRPK-74M.png
@@ -7175,6 +7278,7 @@ extraStrings:
       STR_45_ACP_X7: ".45 ACP (7x)"
       STR_45_ACP_X12: ".45 ACP (12x)"
       STR_45_ACP_X25: ".45 ACP (25x)"
+      STR_50_AE_X7: ".50 AE (7x)"
       STR_CASELESS_4_73_X50: "4.73 Caseless (50x)"
       STR_5_45_X30: "5.45x39mm (30x)"
       STR_5_45_X45: "5.45x39mm (45x)"
@@ -7237,6 +7341,9 @@ extraStrings:
       STR_MANHURIN: "Manhurin MR73"
       STR_VEKTOR: "SR-1 Vektor"
       STR_STETCKIN: "Stechkin APS"
+      STR_DEAGLE: "Desert Eagle"
+      STR_GOLDDEAGLE: "Golden Desert Eagle"
+
       STR_TEC_9: "TEC-9"
       STR_MP5: "MP5SD"
       STR_MPX: "SIG MPX"
@@ -7247,6 +7354,7 @@ extraStrings:
       STR_UMP: "UMP45"
       STR_VITYAZ: "PP-19 Vityaz"
       STR_VERSEK: "SR-2 Veresk"
+
       STR_TAVOR: "IWI Tavor"
       STR_TAVOR_M203: "IWI Tavor (M203)"
       STR_TAVOR_SCOPED: "IWI Tavor (Scoped)"
@@ -7292,6 +7400,7 @@ extraStrings:
       STR_AK_74: "AK-74"
       STR_FN_FAL_SCOPED: "FN FAL (Scoped)"
       STR_G3: "G3"
+
       STR_HUNTING_RIFLE: "Hunting Rifle"
       STR_SKS_SCOPED: "SKS Carbine (Scoped)"
       STR_PSG_1: "PSG1"
@@ -7304,6 +7413,7 @@ extraStrings:
       STR_AW: "Arctic Warfare Magnum"
       STR_M24_SWS: "M24 SWS"
       STR_M82: "Barret M82"
+
       STR_DOUBLE_BARREL: "Double-Barreled Shotgun"
       STR_SERBU: "Serbu Super-Shorty"
       STR_SPAS_12: "Franchi SPAS-12"
@@ -7313,6 +7423,7 @@ extraStrings:
       STR_AA_12: "Atchisson AA-12"
       STR_SAIGA_12: "Saiga 12"
       STR_USAS_12: "USAS-12"
+
       STR_M60: "M60"
       STR_M249: "M249 SAW Para"
       STR_FN_MINIMI: "FN Minimi"
@@ -7320,6 +7431,7 @@ extraStrings:
       STR_RPK_74: "RPK-74M"
       STR_PECHENEG: "PKP Pecheneg"
       STR_NEGEV: "IWI Negev"
+
       STR_M320: "M320"
       STR_GM_94: "GM-94"
       STR_MGL: "Milkor MGL"
