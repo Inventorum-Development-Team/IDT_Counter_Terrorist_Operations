@@ -438,6 +438,12 @@ ufopaedia:
     section: STR_SMGS
     listOrder: 308
 
+  - id: STR_SKORPIONEVO
+    type_id: 4
+    text: STR_SKORPIONEVO_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 309
+
   - id: STR_TAVOR
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
@@ -1375,6 +1381,12 @@ ufopaedia:
     section: STR_EQUIPMENT
     listOrder: 1103
 
+  - id: STR_C4
+    type_id: 4
+    text: "Small explosion with high power, perfect for breaching through walls."
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
   - id: STR_MOLOTOV
     type_id: 4
     text: "..."
@@ -1397,6 +1409,12 @@ ufopaedia:
     type_id: 4
     section: STR_EQUIPMENT
     listOrder: 1107
+
+  - id: STR_MEDKIT
+    type_id: 4
+    text: STR_MEDKIT_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1115
 
   - id: STR_SCOPE
     type_id: 4
@@ -1572,6 +1590,7 @@ extraStrings:
       STR_MPX_UFOPAEDIA: "The SIG MPX is a relatively modern submachine gun, designed in 2013. It features a closed, rotating bolt, which is rare for submachine guns. This design choice was chosen to increase user safety and reliability."
       STR_P90_UFOPAEDIA: "The P90 is an unconventional design with a distinctive appearance. It is extremely compact and has an unique top-mounted magazine. Despite as a personal defence weapon being meant for use by military support personnel, the firearm has seen significant adoption among special forces and counter-terrorist units."
       STR_SKORPION_UFOPAEDIA: "A machine pistol designed in Czechoslovakia as a sidearm for vehicle drivers and army staff, designed to be compact to fit into the limited space of armored vehicles. It saw wide use by many armed groups, both terrorist and criminal. "
+      STR_SKORPIONEVO_UFOPAEDIA: "The Scorpion Evo is a fast fireing submachine gun manufactured by CZ. Its firerate of about 1200 rpm makes it hit hard in QCB, but causes it to burn through ammo quickly."
       STR_UZI_UFOPAEDIA: "The Uzi was one of the first weapons utilizing a telescopic bolt, making the short length of the weapon possible. Developed in Israel, it saw widespread use in over 90 countries and is one of the most produced sub-machine guns in the world."
       STR_UMP_UFOPAEDIA: "While designed as a successor to the MP5, the UMP never saw the same success as its predecessor, despite containing numerous improvements. Unlike the MP5, the UMP is available in the .45 ACP cartridge, giving it more stopping power but having a slightly slower fire rate to compensate for the increased recoil."
       STR_VITYAZ_UFOPAEDIA: "The PP-19 Vityaz, meaning knight in russian, is the standard submachine gun for the russian military and law enforcement. The design is based on the AK-74, with many parts being interchangeable between the weapons."
@@ -1686,6 +1705,7 @@ extraStrings:
       STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
       STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, or have dropped their weapons, using handcuffs will stun them."
+      STR_MEDKIT_UFOPAEDIA: "Large waterproof medical kit, Contains significantly more supplies then a field dressing, however is quite heavy and takes up quite a bit of space."
 
       STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
       STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."

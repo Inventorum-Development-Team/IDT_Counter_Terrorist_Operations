@@ -2747,6 +2747,63 @@ items:
         tuUnload: 12
     listOrder: 6830
 
+  - type: STR_SKORPIONEVO
+    requiresBuy:
+        - STR_UNOBTAINABLE #STR_SKORPIONEVO_ACQUISITION 
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 3992
+    floorSprite: 3992
+    handSprite: 3992
+    reloadSound: 171
+    fireSound: 175
+    costBuy: 25000
+    costSell: 12500
+    accuracyAimed: 30
+    accuracySnap: 50
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 3
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 20
+    tuSnap: 15
+    tuAuto: 25
+    invWidth: 1
+    invHeight: 3
+    bulletSpeed: 2
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            # STR_9MM_PARABELLUM_X10,
+            # STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30,
+            STR_9MM_PARABELLUM_X40
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    # listOrder: 21500
+
   - type: STR_TAVOR
     categories: [ STR_FIREARMS, STR_RIFLES ]
     requiresBuy:
@@ -6148,6 +6205,56 @@ items:
     fuseType: -2
     armor: 8
 
+  - type: STR_MEDKIT
+    categories: [ STR_MEDICAL ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_MEDKIT_ACQUISITION
+    size: 1
+    costBuy: 4000
+    costSell: 2000
+    weight: 15
+    bigSprite: 3424
+    floorSprite: 3424
+    handSprite: 3424
+    battleType: 6
+    invWidth: 2
+    invHeight: 2
+    heal: 10
+    woundRecovery: 6
+    healthRecovery: 10
+    isConsumable: false
+    medikitTargetSelf: true
+    medikitType: 1
+    tuUse: 60
+    medikitActionName: STR_ACTIVATE_MEDIKIT
+    listOrder: 2821
+
+  - type: STR_C4
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_C4_ACQUISITION
+    size: 0.3
+    costBuy: 4000
+    costSell: 2000
+    weight: 5
+    invWidth: 1
+    bigSprite: 3432
+    floorSprite: 3432
+    handSprite: 3432
+    power: 90
+    tuPrime: 40
+    tuUnprime: 25
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.4
+      FixRadius: 1
+    damageType: 3
+    battleType: 4
+    blastRadius: 1
+    throwRange: 5
+    listOrder: 2815
+
 extraSprites:
 
   - type: BIGOBS.PCK
@@ -6454,8 +6561,8 @@ extraSprites:
       3400: Resources/BallisticWeapons/Pistols/BigDeagle.png
       3408: Resources/BallisticWeapons/Pistols/BigGoldDeaglenomag.png
       3416: Resources/BallisticWeapons/Pistols/BigGoldDeagle.png
-      # 3424: 
-      # 3432: 
+      3424: Resources/BallisticWeapons/Equipment/BigMedkit.png
+      3432: Resources/BallisticWeapons/Explosives/BigC4.png
       # 3440: 
       # 3448: 
       # 3456: 
@@ -6525,6 +6632,9 @@ extraSprites:
       3968: Resources/BallisticWeapons/SMGs/BigUzi40.png
       3976: Resources/BallisticWeapons/Rifles/BigG36Cnomag.png
       3984: Resources/BallisticWeapons/Rifles/BigG36C.png
+      3992: Resources/BallisticWeapons/SMGs/BigSkorpionEvonomag.png
+      4016: Resources/BallisticWeapons/SMGs/BigSkorpionEvo30.png
+      4024: Resources/BallisticWeapons/SMGs/BigSkorpionEvo.png
 
   - type: FLOOROB.PCK
     files:
@@ -6823,8 +6933,8 @@ extraSprites:
       3400: Resources/BallisticWeapons/Pistols/FloorDeagle.png
       3408: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
       3416: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
-      # 3424: 
-      # 3432: 
+      3424: Resources/BallisticWeapons/Equipment/FloorMedkit.png
+      3432: Resources/BallisticWeapons/Explosives/FloorC4.png  
       # 3440: 
       # 3448: 
       # 3456: 
@@ -6895,6 +7005,9 @@ extraSprites:
       3968: Resources/BallisticWeapons/SMGs/FloorUzi.png
       #3976: g36c
       #3984: g36c
+      3992: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
+      4016: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
+      4024: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
 
   - type: HANDOB.PCK
     width: 256
@@ -7197,8 +7310,8 @@ extraSprites:
       3400: Resources/BallisticWeapons/Pistols/HandDeagle.png
       3408: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
       3416: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
-      # 3424: 
-      # 3432: 
+      3424: Resources/BallisticWeapons/Equipment/HandMedkit.png
+      3432: Resources/BallisticWeapons/Explosives/HandC4.png
       # 3440: 
       # 3448: 
       # 3456: 
@@ -7269,6 +7382,9 @@ extraSprites:
       3968: Resources/BallisticWeapons/SMGs/HandUzi.png
       #3976: g36c
       #3984: g36c
+      3992: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
+      4016: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
+      4024: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
   # - type: SMOKE.PCK
   #   height: 80
   #   width: 160
@@ -7401,6 +7517,7 @@ extraStrings:
       STR_UMP: "UMP45"
       STR_VITYAZ: "PP-19 Vityaz"
       STR_VERSEK: "SR-2 Veresk"
+      STR_SKORPIONEVO: "Scorpion Evo"
 
       STR_TAVOR: "IWI Tavor"
       STR_TAVOR_M203: "IWI Tavor (M203)"
@@ -7499,17 +7616,10 @@ extraStrings:
 
       STR_RIOT_SHIELD: "Ballistic shield"
 
-      STR_CANNED_FOOD: "Canned Food"
-      STR_CIGARETTES: "Cigarettes"
-      STR_FLASK: "Flask"
-      STR_MEDI_KIT: "Medikit"
-      STR_MEDICAL_BAG: "Medical Bag"
+      STR_MEDKIT: "Medkit"
       STR_FIELD_DRESSING: "Field Dressing"
-      STR_MEDICAL_POUCH: "Medical Pouch"
-      STR_ACTIVATE_MEDIKIT: "Activate Medikit"
-      STR_DEPLOY_MEDICAL_BAG: "Deploy Medical Bag"
+      STR_ACTIVATE_MEDIKIT: "Use Medikit"
       STR_USE_FIELD_DRESSING: "Use Field Dressing"
-      STR_USE_MEDICAL_POUCH: "Use Medical Pouch"
 
       STR_GRENADE: "Grenade"
       STR_IMPACT_GRENADE: "Impact Grenade"
@@ -7518,3 +7628,4 @@ extraStrings:
       STR_MOLOTOV: "Molotov Cocktail"
       STR_ELECTRO_FLARE: "Flare"
       STR_PRIME_FLARE: "Light Flare"
+      STR_C4: "C4"

@@ -269,6 +269,9 @@ items:
   - type: STR_VERSEK #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_SKORPIONEVO #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
 
   - type: STR_TAVOR #ignoreDuplicate
     tags:
