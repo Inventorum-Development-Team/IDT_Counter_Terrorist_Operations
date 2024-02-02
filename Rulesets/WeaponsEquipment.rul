@@ -6151,6 +6151,32 @@ items:
     blastRadius: 7
     listOrder: 2814
 
+  - type: STR_C4
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_C4_ACQUISITION
+    size: 0.3
+    costBuy: 4000
+    costSell: 2000
+    weight: 5
+    invWidth: 1
+    bigSprite: 3432
+    floorSprite: 3432
+    handSprite: 3432
+    power: 90
+    tuPrime: 40
+    tuUnprime: 25
+    damageAlter:
+      RandomType: 2
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.4
+      FixRadius: 1
+    damageType: 3
+    battleType: 4
+    blastRadius: 1
+    throwRange: 5
+    listOrder: 2815
+
   - type: STR_FIELD_DRESSING
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
     size: 0.3
@@ -6172,6 +6198,30 @@ items:
     tuUse: 40
     medikitActionName: STR_USE_FIELD_DRESSING
     listOrder: 2820
+
+  - type: STR_MEDKIT
+    categories: [ STR_MEDICAL ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_MEDKIT_ACQUISITION
+    size: 1
+    costBuy: 4000
+    costSell: 2000
+    weight: 15
+    bigSprite: 3424
+    floorSprite: 3424
+    handSprite: 3424
+    battleType: 6
+    invWidth: 2
+    invHeight: 2
+    heal: 10
+    woundRecovery: 6
+    healthRecovery: 10
+    isConsumable: false
+    medikitTargetSelf: true
+    medikitType: 1
+    tuUse: 60
+    medikitActionName: STR_ACTIVATE_MEDIKIT
+    listOrder: 2821
 
   - type: STR_RIOT_SHIELD
     requiresBuy:
@@ -6205,55 +6255,66 @@ items:
     fuseType: -2
     armor: 8
 
-  - type: STR_MEDKIT
-    categories: [ STR_MEDICAL ]
-    requiresBuy:
-      - STR_UNOBTAINABLE #STR_MEDKIT_ACQUISITION
+  - type: STR_KNIFE
+    #requiresBuy: #start the game with it
     size: 1
-    costBuy: 4000
-    costSell: 2000
-    weight: 15
-    bigSprite: 3424
-    floorSprite: 3424
-    handSprite: 3424
-    battleType: 6
-    invWidth: 2
-    invHeight: 2
-    heal: 10
-    woundRecovery: 6
-    healthRecovery: 10
-    isConsumable: false
-    medikitTargetSelf: true
-    medikitType: 1
-    tuUse: 60
-    medikitActionName: STR_ACTIVATE_MEDIKIT
-    listOrder: 2821
-
-  - type: STR_C4
-    categories: [ STR_EXPLOSIVES ]
-    requiresBuy:
-      - STR_UNOBTAINABLE #STR_C4_ACQUISITION
-    size: 0.3
-    costBuy: 4000
-    costSell: 2000
-    weight: 5
+    weight: 3
+    costBuy: 500
+    costSell: 250
+    bigSprite: 3440
+    handSprite: 3440
+    floorSprite: 3440
+    power: 50
+    hidePower: false
+    damageType: 7
+    costMelee:
+      time: 20
+      energy: 10
+    accuracyMelee: 110
+    meleeMultiplier:
+      melee: 1
+    battleType: 3
+    clipSize: -1
     invWidth: 1
-    bigSprite: 3432
-    floorSprite: 3432
-    handSprite: 3432
-    power: 90
-    tuPrime: 40
-    tuUnprime: 25
-    damageAlter:
-      RandomType: 1
-      IgnoreSelfDestruct: true
-      ToArmorPre: 0.4
-      FixRadius: 1
-    damageType: 3
-    battleType: 4
-    blastRadius: 1
-    throwRange: 5
-    listOrder: 2815
+    invHeight: 2
+    meleeAnimation: 1
+    meleeSound: -1
+    meleeMissSound: 39
+    meleeHitSound: 353
+    listOrder: 2801
+
+  - type: STR_HAMMER
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_HAMMER_ACQUISITION
+    size: 1
+    weight: 20
+    costBuy: 4000
+    costSell: 2000
+    bigSprite: 3448
+    handSprite: 3448
+    floorSprite: 3448
+    power: 500
+    hidePower: true
+    damageType: 7
+    costMelee:
+      time: 45
+      energy: 20
+    flatRate: true
+    flatMelee:
+      time: false
+      energy: true
+    accuracyMelee: 20
+    meleeMultiplier:
+      melee: 1
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    meleeAnimation: 1
+    meleeSound: 34
+    blockBothHands: true 
+    twoHanded: false
+    listOrder: 2802
 
 extraSprites:
 
@@ -6563,8 +6624,8 @@ extraSprites:
       3416: Resources/BallisticWeapons/Pistols/BigGoldDeagle.png
       3424: Resources/BallisticWeapons/Equipment/BigMedkit.png
       3432: Resources/BallisticWeapons/Explosives/BigC4.png
-      # 3440: 
-      # 3448: 
+      3440: Resources/BallisticWeapons/Equipment/BigKnife.png
+      3448: Resources/BallisticWeapons/Equipment/BigHammer.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/BigUMP45nomag.png
@@ -6935,8 +6996,8 @@ extraSprites:
       3416: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
       3424: Resources/BallisticWeapons/Equipment/FloorMedkit.png
       3432: Resources/BallisticWeapons/Explosives/FloorC4.png  
-      # 3440: 
-      # 3448: 
+      3440: Resources/BallisticWeapons/Equipment/FloorKnife.png   
+      3448: Resources/BallisticWeapons/Equipment/FloorHammer.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/FloorUMP45.png
@@ -7312,8 +7373,8 @@ extraSprites:
       3416: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
       3424: Resources/BallisticWeapons/Equipment/HandMedkit.png
       3432: Resources/BallisticWeapons/Explosives/HandC4.png
-      # 3440: 
-      # 3448: 
+      3440: Resources/BallisticWeapons/Equipment/HandKnife.png    
+      3448: Resources/BallisticWeapons/Equipment/HandHammer.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png
@@ -7614,7 +7675,9 @@ extraStrings:
       STR_UNPRIME_GRENADE: "Unprime Grenade"
       STR_AUTO_SHOT: "Burst"
 
-      STR_RIOT_SHIELD: "Ballistic shield"
+      STR_RIOT_SHIELD: "Ballistic Shield"
+      STR_KNIFE: "Knife"
+      STR_HAMMER: "Breaching Hammer"
 
       STR_MEDKIT: "Medkit"
       STR_FIELD_DRESSING: "Field Dressing"

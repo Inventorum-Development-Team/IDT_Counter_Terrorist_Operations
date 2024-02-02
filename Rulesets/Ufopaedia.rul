@@ -1399,6 +1399,18 @@ ufopaedia:
     section: STR_EQUIPMENT
     listOrder: 1105
 
+  - id: STR_KNIFE
+    type_id: 4
+    text: STR_KNIFE_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
+  - id: STR_HAMMER
+    type_id: 4
+    text: STR_HAMMER_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
   - id: STR_HANDCUFFS
     type_id: 4
     text: STR_HANDCUFFS_UFOPAEDIA
@@ -1706,6 +1718,8 @@ extraStrings:
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
       STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, or have dropped their weapons, using handcuffs will stun them."
       STR_MEDKIT_UFOPAEDIA: "Large waterproof medical kit, Contains significantly more supplies then a field dressing, however is quite heavy and takes up quite a bit of space."
+      STR_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  A Combat knife. Light and lethal, only problem is you have to get close to stab people with it, which is not great for your health."
+      STR_HAMMER_UFOPAEDIA: "Energy Cost: 20                                                                                                                                   Its a hammer, You can smash just about any obsticle in your way including wood, bricks, metal, concrete, and explosive barrels (not recommended), dosen't work for people, that usually ends up poorly."
 
       STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
       STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."
