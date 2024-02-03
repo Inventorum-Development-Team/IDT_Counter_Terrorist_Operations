@@ -396,6 +396,12 @@ items:
   - type: STR_M16A2 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_M16A2_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_M16A2_M203 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   - type: STR_AR_18 #ignoreDuplicate
     tags:
      AmmoReSprite: 1

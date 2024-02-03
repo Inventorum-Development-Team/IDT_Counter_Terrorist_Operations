@@ -4406,7 +4406,8 @@ items:
 
   - type: STR_M16A2
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
-    #    requiresBuy:
+    #requiresBuy:
+      #- STR_M16A2_ACQUISITION #Uncomment buy cost when adding acquisition
     size: 1
     weight: 22
     # battleType: 1
@@ -4415,7 +4416,9 @@ items:
     handSprite: 1464
     reloadSound: 113
     fireSound: 114
-    costSell: 13000
+    #costBuy: 12000
+    costSell: 6000
+    # costSell: 13000
     accuracyAimed: 70
     accuracySnap: 60
     accuracyAuto: 45
@@ -4439,7 +4442,95 @@ items:
         compatibleAmmo: [ STR_5_56_X30 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 6750
+    listOrder: 21300
+
+  - type: STR_M16A2_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 4032
+    floorSprite: 4032
+    handSprite: 4032
+    reloadSound: 113
+    fireSound: 114
+    # costSell: 10000
+    accuracyAimed: 90
+    accuracySnap: 50
+    accuracyAuto: 60
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 60
+    snapRange: 40
+    autoRange: 50
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21301
+
+  - type: STR_M16A2_M203 # Customised!
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    size: 1
+    weight: 30
+    battleType: 1
+    bigSprite: 4048
+    floorSprite: 4048
+    handSprite: 4048
+    reloadSound: 113
+    fireSound: 114
+    # costSell: 13500
+    # costSell: 13000
+    accuracyAimed: 40
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 16
+    snapRange: 32
+    autoRange: 26
+    kneelBonus: 125
+    #refNode: *STR_RIFLE_MELEE
+    confAimed:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    tuAimed: 70
+    tuSnap: 40
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 21302
 
   - type: STR_AR_18
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -6696,6 +6787,10 @@ extraSprites:
       3992: Resources/BallisticWeapons/SMGs/BigSkorpionEvonomag.png
       4016: Resources/BallisticWeapons/SMGs/BigSkorpionEvo30.png
       4024: Resources/BallisticWeapons/SMGs/BigSkorpionEvo.png
+      4032: Resources/BallisticWeapons/Rifles/BigM16A2SCOPEDnomag.png
+      4040: Resources/BallisticWeapons/Rifles/BigM16A2SCOPED.png
+      4048: Resources/BallisticWeapons/Rifles/BigM16A2M203nomag.png
+      4056: Resources/BallisticWeapons/Rifles/BigM16A2M203.png
 
   - type: FLOOROB.PCK
     files:
@@ -7069,6 +7164,10 @@ extraSprites:
       3992: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
       4016: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
       4024: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
+      4032: Resources/BallisticWeapons/Rifles/FloorM16A2SCOPED.png
+      4040: Resources/BallisticWeapons/Rifles/FloorM16A2SCOPED.png
+      4048: Resources/BallisticWeapons/Rifles/FloorM16A2M203.png
+      4056: Resources/BallisticWeapons/Rifles/FloorM16A2M203.png
 
   - type: HANDOB.PCK
     width: 256
@@ -7446,6 +7545,10 @@ extraSprites:
       3992: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
       4016: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
       4024: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
+      4032: Resources/BallisticWeapons/Rifles/HandM16A2SCOPED.png
+      4040: Resources/BallisticWeapons/Rifles/HandM16A2SCOPED.png
+      4048: Resources/BallisticWeapons/Rifles/HandM16A2M203.png
+      4056: Resources/BallisticWeapons/Rifles/HandM16A2M203.png
   # - type: SMOKE.PCK
   #   height: 80
   #   width: 160
@@ -7620,6 +7723,8 @@ extraStrings:
       STR_SR_3: "SR-3 Vikhr"
       STR_SR_3_ONE_HANDED: "SR-3 Vikhr (Collapsed)"
       STR_M16A2: "M16A2"
+      STR_M16A2_SCOPED: "M16A2 (Scoped)"
+      STR_M16A2_M203: "M16A2 (M203)"
       STR_AR_18: "AR-18"
       STR_AR_180: "AR-180"
       STR_AKM: "AKM"
