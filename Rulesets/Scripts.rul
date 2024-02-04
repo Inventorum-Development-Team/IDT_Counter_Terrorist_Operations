@@ -272,6 +272,10 @@ items:
   - type: STR_SKORPIONEVO #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_FMG9 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     FoldStock: 1
 
   - type: STR_TAVOR #ignoreDuplicate
     tags:
@@ -420,6 +424,15 @@ items:
   - type: STR_G3 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_M14_EBR #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     FoldStock: 1
+  - type: STR_M14_EBR_SCOPED #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     FoldStock: 1
+
   - type: STR_PSG_1 #ignoreDuplicate
     tags:
      AmmoReSprite: 1

@@ -444,6 +444,12 @@ ufopaedia:
     section: STR_SMGS
     listOrder: 309
 
+  - id: STR_FMG9
+    type_id: 4
+    text: STR_FMG9_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 310
+
   - id: STR_TAVOR
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
@@ -736,6 +742,19 @@ ufopaedia:
     section: STR_RIFLES
     listOrder: 444
 
+  - id: STR_M14_EBR
+    type_id: 4
+    text: STR_M14_EBR_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 445
+
+  - id: STR_M14_EBR_SCOPED
+    type_id: 4
+    text: STR_M14_EBR_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 445
+
+  #Snipers
   - id: STR_HUNTING_RIFLE
     type_id: 4
     text: STR_HUNTING_RIFLE_UFOPAEDIA
@@ -1597,6 +1616,7 @@ extraStrings:
       STR_STETCKIN_UFOPAEDIA: "An automatic pistol of soviet origin, the Stechkin automatic pistol was one of the first machine pistols that saw prolific use. It was phased out of active service due to its high cost, heavy weight and limited effective range, however it still found use from special forces."
       STR_DEAGLE_UFOPAEDIA: "The Desert Eagle is a high caliber semi-automatic pistol. Originally designed by Magnum Research Inc., production was given to IMI who further refined the design. .50 AE hits hard, but will struggle against armored opponents."
       STR_GOLDDEAGLE_UFOPAEDIA: "That was one rich terrorist! Personaly I would have went with the tiger stripes but still, We could probably make a ton of cash from selling this. Also it goes without saying but there is no way in hell we can convince the council to let us buy these"
+      
       STR_TEC_9_UFOPAEDIA: "Originally developed for military use, the TEC-9 gained notoriety due to its use by criminal groups. Despite the negative reputation and gun control legislation limiting it's sale, the machine pistol became a commercial success on the civilian market."
       STR_MP5_UFOPAEDIA: "The MP5 is one of the most widely used submachine guns in the world. It is used by everything from military forces to private security organizations. It gained significant fame due to its use by the SAS during the Iranian embassy siege in 1980."
       STR_MPX_UFOPAEDIA: "The SIG MPX is a relatively modern submachine gun, designed in 2013. It features a closed, rotating bolt, which is rare for submachine guns. This design choice was chosen to increase user safety and reliability."
@@ -1607,6 +1627,8 @@ extraStrings:
       STR_UMP_UFOPAEDIA: "While designed as a successor to the MP5, the UMP never saw the same success as its predecessor, despite containing numerous improvements. Unlike the MP5, the UMP is available in the .45 ACP cartridge, giving it more stopping power but having a slightly slower fire rate to compensate for the increased recoil."
       STR_VITYAZ_UFOPAEDIA: "The PP-19 Vityaz, meaning knight in russian, is the standard submachine gun for the russian military and law enforcement. The design is based on the AK-74, with many parts being interchangeable between the weapons."
       STR_VERSEK_UFOPEDIA: "While being developed at the behest of the russian Federal Security Service, the SR-2 gained the nickname Versek, meaning Heather. It has a gas-operated action with a rotating bolt, a feature more common in rifles than in submachine guns."
+      STR_FMG9_UFOPAEDIA: "Designed as a prototype in 2008 by Magpul, The FMG 9 is a compact folding submachine gun. While origianlly only demostrated as a proof of concept, we were able to track down a small company that has managed to copy and reproduce the design, selling them to SOF units at a shockingly affordable price all things considered."
+
       STR_TAVOR_UFOPAEDIA: "The IWI Tavor was designed for the IDF as a possible replacement to the M16. The weapons design prioritizes ease of maintenance, durability and reliability. Its bullpup design makes the rifle better suited to close quarters combat than rifles of conventional design."
       STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."
       STR_M4_UFOPAEDIA: "The M4A1 is a variant of the M4 that replaces the burst fire mode in favor of a fully automatic mode, as it was considered to be better for clearing rooms. The carbine variant was intended for special operations use and is used by most US special forces units."
@@ -1631,6 +1653,8 @@ extraStrings:
       STR_AK_74_UFOPAEDIA: "The AK-74 was designed as a replacement for the AKM. Firing the smaller 5.45x39mm cartridge (replacing the Soviet 7.62x39mm) the rifle sacrificed some of its firepower in exchange of less recoil."
       STR_FN_FAL_SCOPED_UFOPAEDIA: "The FN FAL is one of the most widely used assault rifles. Used during the early cold war by many countries within NATO and other nations friendly with the alliance, due to this the rifle has gained the nickname The right arm of the free world"
       STR_G3_UFOPAEDIA: "A battle rifle designed by Heckler & Koch and CETME. The G3 was the service rifle of the Bundeswehr during the cold war and saw use in numerous militaries and in some guerilla movements."
+      STR_M14_EBR_UFOPAEDIA: "A battle rifle designed in 2001 for the US Navy SEALs, The M14 EBR was made as a requrest for a more compact M14. The high recoil makes fireing the weapon full auto ill advised."
+      
       STR_HUNTING_RIFLE_UFOPAEDIA: "Different models of hunting rifles are easily available to civilians that acquire hunting licenses. While intended to hunt animals they are still lethal against human targets, though they struggle against armored targets and are usually outperformed by most, if not all military rifles."
       STR_SKS_SCOPED_UFOPAEDIA: "The SKS is a semi-automatic carbine originally meant to be used by soviet armed forces, but it was quickly overshadowed by the AK-47. The SKS nevertheless found success among irregular forces thanks to its light weight, simple design and ease of use. The SKS also found popularity in North America as a hunting and sporting weapon."
       STR_PSG_1_UFOPAEDIA: "After the Munich massacre at the 1972 Olympics the lack of precision shooting capability in the West German police became apparent. In response to this, the PSG1 was adopted. The PSG1 is an highly capable sniper rifle still in use today by both law enforcement and special forces."
@@ -1643,6 +1667,7 @@ extraStrings:
       STR_AW_UFOPAEDIA: "The Accuracy International Arctic Warfare Magnum is a British bolt-action sniper rifle. It was designed to perform well even in extremely cold environments like Scandinavia, this capability is what has given the rifle its name."
       STR_M24_SWS_UFOPAEDIA: "The M24 Sniper Weapon System is a american sniper rifle based on the Remington Model 700. It was adopted as the standard sniper rifle of the US Army in 1988."
       STR_M82_UFOPAEDIA: "The Barret M82 is an anti-materiel sniper rifle used by the US army during Desert Shield and Desert Storm. The Rifle is extremely powerful, capable of penetrating the armor of some armored vehicles. During the Troubles in Ireland some M82:s were smuggled in for the use of the IRA."
+      
       STR_DOUBLE_BARREL_UFOPAEDIA: "Double-barreled shotguns are commonly used to hunt birds, however with the right ammunition it can become an effective weapon even against human targets. They are popular among irregular forces due to their availability and effectiveness even by inexperienced users. Their main drawback is that they only hold two cartridges."
       STR_SERBU_UFOPAEDIA: "The Serbu Super-Shorty is an extremely compact pump-action shotgun. While not as accurate as many other shotguns its small size enables its use as a sidearm."
       STR_REMINGTON_UFOPAEDIA: "The Remington 870 is a shotgun widely used for sport shooting, hunting, law enforcement and military purposes. It is a reliable and inexpensive design and has held the record for being the best selling shotgun in the world."
@@ -1652,6 +1677,7 @@ extraStrings:
       STR_AA_12_UFOPAEDIA: "The Auto Assault-12 is one of the earliest automatic shotgun designs. While only capable of firing in fully automatic mode, semi-automatic fire is possible with brief trigger pulls. The weapon saw little success and extremely few models have been produced."
       STR_USAS_12_UFOPAEDIA: "The Daewoo Precision Industries USAS-12:s design is based on the AA-12. Though unlike the AA-12 the USAS-12 was a selective fire weapon, and it found commercial success especially in east Asian markets."
       STR_SAIGA_12_UFOPAEDIA: "The Saiga-12 is a russian automatic shotgun named after the Saiga antelope. It is based on the kalashnikov series of rifle and has seen use as a hunting weapon and as a combat shotgun used by militaries and law enforcement."
+      
       STR_M60_UFOPAEDIA: "A general-purpose machine gun that served as the primary machine gun on the US military during the first half of the cold war. While it saw extensive use, early versions were plagued by reliability issues. While newer designs are available the M60 is still widely used and some have even fallen into the hands of terrorist organizations."
       STR_M249_UFOPAEDIA: "An American adaption of the Belgian FN Minimi, the M249 is a light machine gun widely used by the US armed forces. Unlike many other machine guns, the M249 can be fed both from linked ammunition and STANAG magazines, though the use of the latter is advised to only be used in emergencies due to a higher rate of malfunctions."
       STR_FN_MINIMI_UFOPAEDIA: "A Squad automatic weapon of belgian origin chambered in 5.56 NATO. It has been adopted by numerous countries and served as a base for multiple variants, such as the american M249 and MK 48."
@@ -1659,6 +1685,7 @@ extraStrings:
       STR_RPK_74_UFOPAEDIA: "The RPK-74M is the modernized version of the RPK-74, which itself is a variant of the RPK chambered in 5.45x39mm. It is a light machine gun designed to be compatible with magazines developed for the AK-74."
       STR_PECHENEG_UFOPAEDIA: "A russian general-purpose machine gun that has a heavy non-removable barrel that is forced-air-cooled instead of relying on the barrel to be switched during heavy use. The PHP Pecheneg has seen extensive use by Spetsnaz units. Its name is derived from the pecheneg people, a tribe that lived in the steppes of Russia and Ukraine."
       STR_NEGEV_UFOPAEDIA: "The IWI Negev is an israeli light machine gun adopted by the IDF. It was designed to be reliable in adverse conditions."
+      
       STR_M320_UFOPAEDIA: "The M320 was designed as a replacement for the M203 underbarrel grenade launcher. Unlike its predecessor, the M320 can be used stand-alone weapon as well as being mounted on a rifle. It can fire a multitude of 40mm grenades, from frag grenades to non-lethal sponge grenades."
       STR_GM_94_UFOPAEDIA: "A russian pump-action grenade launcher designed for urban fighting and room-to-room combat. It has a simple design that allows it to operate in adverse environments and even after being submerged in water."
       STR_MGL_UFOPAEDIA: "The Milkor MGL is a grenade launcher with a revolving cylinder magazine that can contain 6 40mm grenades. Its design means it can quickly and accurately bring a lot of firepower to an enemy target. "

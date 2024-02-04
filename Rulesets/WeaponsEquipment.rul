@@ -2804,6 +2804,49 @@ items:
         tuUnload: 15
     # listOrder: 21500
 
+  - type: STR_FMG9
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_FMG9_ACQUISITION
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 4064
+    floorSprite: 4064
+    handSprite: 4064
+    reloadSound: 174
+    fireSound: 131
+    costBuy: 18000
+    costSell: 9000
+    accuracyAimed: 55
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 30
+    minRange: 0
+    aimRange: 6
+    snapRange: 8
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 30
+    tuSnap: 20
+    tuAuto: 35
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21550
+
   - type: STR_TAVOR
     categories: [ STR_FIREARMS, STR_RIFLES ]
     requiresBuy:
@@ -4801,6 +4844,82 @@ items:
         tuUnload: 15
     listOrder: 7570
 
+  - type: STR_M14_EBR
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_M14_EBR_ACQUISITION
+    categories: [STR_FIREARMS, STR_RIFLES]
+    size: 1
+    weight: 30
+    # battleType: 1
+    bigSprite: 4128
+    floorSprite: 4128
+    handSprite: 4128
+    reloadSound: 163
+    fireSound: 164
+    costBuy: 17500
+    costSell: 8750
+    accuracyAimed: 70
+    accuracySnap: 50
+    accuracyAuto: 20
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 36
+    snapRange: 20
+    autoRange: 11
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+        0:
+         compatibleAmmo: [STR_NATO_7_62_X20, STR_NATO_7_62_X10]
+         tuLoad: 30
+         tuUnload: 15
+
+  - type: STR_M14_EBR_SCOPED
+    #requiresBuy:
+    #  - STR_M14_EBR_ACQUISITION
+    categories: [STR_FIREARMS, STR_RIFLES]
+    size: 1
+    weight: 32
+    # battleType: 1
+    bigSprite: 4192
+    floorSprite: 4192
+    handSprite: 4192
+    reloadSound: 163
+    fireSound: 164
+    #costBuy: 17500
+    #costSell: 8750
+    accuracyAimed: 90
+    accuracySnap: 65
+    accuracyAuto: 15
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 50
+    snapRange: 40
+    autoRange: 11
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 70
+    tuSnap: 45
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+        0:
+         compatibleAmmo: [STR_NATO_7_62_X20, STR_NATO_7_62_X10]
+         tuLoad: 30
+         tuUnload: 15
+
   - type: STR_HUNTING_RIFLE
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
     #    requiresBuy:
@@ -6791,6 +6910,28 @@ extraSprites:
       4040: Resources/BallisticWeapons/Rifles/BigM16A2SCOPED.png
       4048: Resources/BallisticWeapons/Rifles/BigM16A2M203nomag.png
       4056: Resources/BallisticWeapons/Rifles/BigM16A2M203.png
+      4064: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png  
+      4080: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png        
+      4088: Resources/BallisticWeapons/SMGs/BigFMG9.png  
+      4096: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png          
+      4112: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png          
+      4120: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png   
+      4128: Resources/BallisticWeapons/Rifles/BigM14EBRnomag.png
+      #4136
+      4144: Resources/BallisticWeapons/Rifles/BigM14EBR10.png
+      4152: Resources/BallisticWeapons/Rifles/BigM14EBR.png  
+      4160: Resources/BallisticWeapons/Rifles/BigM14EBRFoldednomag.png
+      #4168:        
+      4176: Resources/BallisticWeapons/Rifles/BigM14EBRFolded10.png           
+      4184: Resources/BallisticWeapons/Rifles/BigM14EBRFolded.png   
+      4192: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDnomag.png
+      #4200:
+      4208: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPED10.png
+      4216: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPED.png
+      4224: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDFoldednomag.png
+      #4232:
+      4240: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDFolded10.png
+      4248: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDFolded.png
 
   - type: FLOOROB.PCK
     files:
@@ -7168,6 +7309,28 @@ extraSprites:
       4040: Resources/BallisticWeapons/Rifles/FloorM16A2SCOPED.png
       4048: Resources/BallisticWeapons/Rifles/FloorM16A2M203.png
       4056: Resources/BallisticWeapons/Rifles/FloorM16A2M203.png
+      4064: Resources/BallisticWeapons/SMGs/FloorFMG9.png  
+      4080: Resources/BallisticWeapons/SMGs/FloorFMG9.png        
+      4088: Resources/BallisticWeapons/SMGs/FloorFMG9.png  
+      4096: Resources/BallisticWeapons/SMGs/FloorFMG9.png
+      4112: Resources/BallisticWeapons/SMGs/FloorFMG9.png
+      4120: Resources/BallisticWeapons/SMGs/FloorFMG9.png
+      4128: Resources/BallisticWeapons/Rifles/FloorM14EBR.png
+      #4136
+      4144: Resources/BallisticWeapons/Rifles/FloorM14EBR.png
+      4152: Resources/BallisticWeapons/Rifles/FloorM14EBR.png  
+      4160: Resources/BallisticWeapons/Rifles/FloorM14EBR.png
+      #4168:        
+      4176: Resources/BallisticWeapons/Rifles/FloorM14EBR.png           
+      4184: Resources/BallisticWeapons/Rifles/FloorM14EBR.png   
+      4192: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      #4200:
+      4208: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      4216: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      4224: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      #4232:
+      4240: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      4248: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
 
   - type: HANDOB.PCK
     width: 256
@@ -7549,6 +7712,29 @@ extraSprites:
       4040: Resources/BallisticWeapons/Rifles/HandM16A2SCOPED.png
       4048: Resources/BallisticWeapons/Rifles/HandM16A2M203.png
       4056: Resources/BallisticWeapons/Rifles/HandM16A2M203.png
+      4064: Resources/BallisticWeapons/SMGs/HandFMG9.png  
+      4080: Resources/BallisticWeapons/SMGs/HandFMG9.png        
+      4088: Resources/BallisticWeapons/SMGs/HandFMG9.png  
+      4096: Resources/BallisticWeapons/SMGs/HandFMG9.png
+      4112: Resources/BallisticWeapons/SMGs/HandFMG9.png
+      4120: Resources/BallisticWeapons/SMGs/HandFMG9.png
+      4128: Resources/BallisticWeapons/Rifles/HandM14EBR.png
+      #4136
+      4144: Resources/BallisticWeapons/Rifles/HandM14EBR.png
+      4152: Resources/BallisticWeapons/Rifles/HandM14EBR.png  
+      4160: Resources/BallisticWeapons/Rifles/HandM14EBR.png
+      #4168:        
+      4176: Resources/BallisticWeapons/Rifles/HandM14EBR.png           
+      4184: Resources/BallisticWeapons/Rifles/HandM14EBR.png  
+      4192: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      #4200:
+      4208: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      4216: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      4224: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      #4232:
+      4240: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      4248: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+
   # - type: SMOKE.PCK
   #   height: 80
   #   width: 160
@@ -7682,6 +7868,7 @@ extraStrings:
       STR_VITYAZ: "PP-19 Vityaz"
       STR_VERSEK: "SR-2 Veresk"
       STR_SKORPIONEVO: "Scorpion Evo"
+      STR_FMG9: "FMG 9"
 
       STR_TAVOR: "IWI Tavor"
       STR_TAVOR_M203: "IWI Tavor (M203)"
@@ -7731,6 +7918,9 @@ extraStrings:
       STR_AK_74: "AK-74"
       STR_FN_FAL_SCOPED: "FN FAL (Scoped)"
       STR_G3: "G3"
+      STR_RK_62: "RK 62"
+      STR_M14_EBR: "M14 EBR"
+      STR_M14_EBR_SCOPED: "M14 EBR (Scoped)"
 
       STR_HUNTING_RIFLE: "Hunting Rifle"
       STR_SKS_SCOPED: "SKS Carbine (Scoped)"
@@ -7769,7 +7959,6 @@ extraStrings:
       STR_GUSTAF: "Carl Gustaf Recoilless Rifle"
       STR_RPG: "RPG-7"
       STR_RPG-29: "RPG-29"
-      STR_RK_62: "RK 62"
 
       STR_BURST: "Burst"
       STR_DOUBLE_TAP: "Double Tap"
