@@ -15,5 +15,7 @@ Credits:
 * wethan2: lead dev, code & sprite
 * Wolverin: Terrorist safehouse maps
 * XOps: Enemy NV Kevlar unit sprites (modified)
-
+* mrickey13: Sound effect used to make knife swing (https://freesound.org/people/mrickey13/sounds/515619/)
+* studiobonk: Sound effect used to make knife swing (https://freesound.org/people/studiobonk/sounds/649121/, https://creativecommons.org/licenses/by/4.0/)
+* morganpurkis: Sound effect used to make Deagle shoot sound (https://freesound.org/people/morganpurkis/sounds/392229/)
 

@@ -450,6 +450,13 @@ ufopaedia:
     section: STR_SMGS
     listOrder: 310
 
+  - id: STR_CBJMS
+    type_id: 4
+    text: STR_CBJMS_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 311
+
+  #Rifles
   - id: STR_TAVOR
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
@@ -833,6 +840,7 @@ ufopaedia:
     section: STR_SNIPERS
     listOrder: 511
 
+  #Shotguns
   - id: STR_DOUBLE_BARREL
     type_id: 4
     text: STR_DOUBLE_BARREL_UFOPAEDIA
@@ -886,6 +894,7 @@ ufopaedia:
     listOrder: 607
 
 
+  #LMGs
   - id: STR_M60
     type_id: 4
     text: STR_M60_UFOPAEDIA
@@ -934,6 +943,13 @@ ufopaedia:
     section: STR_LMGS
     listOrder: 706
 
+  - id: STR_CBJMS_SAW
+    type_id: 4
+    text: STR_CBJMS_UFOPAEDIA
+    section: STR_LMGS
+    listOrder: 707
+
+  #Heavy weapons
   - id: STR_MGL
     type_id: 4
     text: STR_MGL_UFOPAEDIA
@@ -968,6 +984,7 @@ ufopaedia:
     section: STR_ARTILLERY
     listOrder: 805
 
+  #Ammo
   - id: STR_TASER_X1
     type_id: 4
     text: STR_TASER_AMMO_UFOPAEDIA
@@ -1364,11 +1381,29 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1059
 
+  - id: STR_BALISTIC_KNIFE_X1
+    type_id: 4
+    text: STR_BALISTIC_KNIFE_AMMO_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1061
+
   - id: STR_50_AE_X7 #Custom!
     type_id: 4
     text: STR_50_AE_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1060
+
+  - id: STR_65CBJ_X30 #Custom!
+    type_id: 4
+    text: STR_65CBJ_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1010
+
+  - id: STR_65CBJ_X100 #Custom!
+    type_id: 4
+    text: STR_65CBJ_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1010
 
   - id: STR_GRENADE
     type_id: 4
@@ -1421,6 +1456,12 @@ ufopaedia:
   - id: STR_KNIFE
     type_id: 4
     text: STR_KNIFE_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
+  - id: STR_BALISTIC_KNIFE
+    type_id: 4
+    text: STR_BALISTIC_KNIFE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1105
 
@@ -1628,6 +1669,7 @@ extraStrings:
       STR_VITYAZ_UFOPAEDIA: "The PP-19 Vityaz, meaning knight in russian, is the standard submachine gun for the russian military and law enforcement. The design is based on the AK-74, with many parts being interchangeable between the weapons."
       STR_VERSEK_UFOPEDIA: "While being developed at the behest of the russian Federal Security Service, the SR-2 gained the nickname Versek, meaning Heather. It has a gas-operated action with a rotating bolt, a feature more common in rifles than in submachine guns."
       STR_FMG9_UFOPAEDIA: "Designed as a prototype in 2008 by Magpul, The FMG 9 is a compact folding submachine gun. While origianlly only demostrated as a proof of concept, we were able to track down a small company that has managed to copy and reproduce the design, selling them to SOF units at a shockingly affordable price all things considered."
+      STR_CBJMS_UFOPAEDIA: "The CBJMS is a Swedish PDW that fires the 6.5x25mm CBJ cartridge. It was designed to be able to fill the role of a PDW, Rifle, and SAW with slight modifications."
 
       STR_TAVOR_UFOPAEDIA: "The IWI Tavor was designed for the IDF as a possible replacement to the M16. The weapons design prioritizes ease of maintenance, durability and reliability. Its bullpup design makes the rifle better suited to close quarters combat than rifles of conventional design."
       STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."
@@ -1701,7 +1743,9 @@ extraStrings:
       STR_9MM_GYURZA_UFOPAEDIA: "The 9x21mm Gyurza cartridge is a russian handgun round designed to defeat body armour. Its name means blunt-nosed viper in russian."
       STR_FN_57_UFOPAEDIA: "The FN 5.7x28mm cartridge was designed as a replacement to the 9mm parabellum cartridge, though it was never adopted as a NATO standard due to objections of some member nations. It has proven to be very effective against armor. The cartridge was designed alongside the FN P90 and FN Five-seveN, both of which use the round."
       STR_45_ACP_UFOPAEDIA: "The .45 ACP (Automatic Colt Pistol) cartridge was designed for use in prototype Colt semi automatic pistols, and was later chosen to be used in the M1911. While having more stopping power, .45 ACP has generally seen less adoption than the 9x19mm cartridge due to being heavier, larger and more expensive."
-      
+      STR_50_AE_UFOPAEDIA: "The .50 AE round was designed in 1988 for high caliber semi-automatic pistols. It has the largest possible legal diameter before being declared a destructive device under US law"
+      STR_65CBJ_UFOPAEDIA: "The 6.5x25mm CBJ round was designed to be a armour piercing PDW cartridge that could replace 9mm. It shares the same dimensions as 9mm, allowing most 9mm weapons to be converted to use the round with just a barrel change."
+
       STR_CASELESS_4_73_UFOPAEDIA: "Used in the G11, the most notable quality of the 4-73x33mm cartridge is that it is caseless, consisting only of a propellant, booster and the bullet itself. The lack of a case leads to a lesser weight and the elimination of the need to extract the case from the firearm after firing."
       STR_5_45_UFOPAEDIA: "The 5.45x39mm served as the replacement for the 7.62x39mm cartridge in the soviet military. It followed the general trend of smaller light-weight cartridges being commonly adopted, due to to their better performance in automatic weapons."
       STR_5_56_UFOPAEDIA: "Due to the criticism of the 7.62 NATO cartridges performance in automatic fire of a hand-held service rifle, the 5.56x45 NATO was selected as the second standard service rifle cartridge of NATO in 1980. While less powerful than the 7.62 cartridge, the 5.56 NATO makes up for it by being lighter and having less recoil, making it easer to control when firing in a fully automatic mode."
@@ -1709,9 +1753,8 @@ extraStrings:
       STR_SOVIET_7_62_UFOPAEDIA: "7.62x39mm cartridges were developed during the second world war to be used in the new generation of soviet infantry weapons. Due to the widespread use of the AK-47, the 7.62 cartridge has been used by numerous armed forces worldwide."
       STR_NATO_7_62_UFOPAEDIA: "The 7.62x51mm NATO was chosen as the first standard NATO rifle cartridge. Though it has been mostly supplanted by the NATO 5.56 cartridge, it is still commonly used in marksman and sniper rifles, due to its power."
       STR_SOVIET_7_62_MMR_UFOPAEDIA: "One of the oldest, still-used military cartridges, The 7.62x54mmR was originally designed for the Mosin-Nagant rifle. While not commonly used in service rifles anymore, it is still used as a sniper rifle and machine gun cartridge."
-      STR_50_AE_UFOPAEDIA: "The .50 AE round was designed in 1988 for high caliber semi-automatic pistols. It has the largest possible legal diameter before being declared a destructive device under US law"
-
       STR_9_39_UFOPAEDIA: "The 9x39mm is a sub-sonic rifle cartridge developed for silenced weapons. It was designed with the intent to provide a more powerful alternative to pistol rounds that are more commonly used in silenced weapons."
+      
       STR_338_LAPUA_UFOPAEDIA: "Developed as a joint venture between British and Finnish rifle manufacturers to be a high power cartridge for military snipers. It can penetrate body armor even over the range of one kilometer."
       STR_50_BMG_UFOPAEDIA: "The most powerful cartridge available for us. The .50 BMG was developed for the M2 Browning machine gun but has also been used in sniper and anti-materiel rifles. A single .50 BMG round is capable of penetrating brick walls or disable a vehicle if fired into the engine block."
       STR_127_UFOPAEDIA: "A russian heavy machine gun and anti-materiel rifle round that is analogous to the .50 BMG cartridge, to the point that the two cartridges are sometimes incorrectly claimed to be interchangeable."
@@ -1733,6 +1776,7 @@ extraStrings:
       STR_RPG_29_HEAT_UFOPAEDIA: "A HEAT round for the RGP-29 with a tandem-charge meant to defeat explosive reactive armor."
       STR_RPG_29_THERMO_UFOPAEDIA: "A Thermobaric anti-personnel round. The thermobaric warhead generates a high-temperature explosion using surrounding oxygen in the air."
 
+      STR_BALISTIC_KNIFE_AMMO_UFOPAEDIA: "Blade launched as a projectile for the Ballistic Knife. You could probably still stab someone with this, although it might be a bit more cumbersome then just using it in the knife."
 
       STR_SCOPE_UFOPAEDIA: "A telescopic sight capable of being attached onto a rifle, improving long range accuracy while slightly inhibiting accuracy of automatic fire."
       STR_SOPMOD_KIT_UFOPAEDIA: "The Special Operations Peculiar Modification kit is a collection of accessories capable to e attached to the M4, SCAR, HK416 and other weapons used by US Special Forces Command. The kit contains scopes, suppressors, and several foregrips to improve accuracy and ease handling."
@@ -1747,6 +1791,7 @@ extraStrings:
       STR_MEDKIT_UFOPAEDIA: "Large waterproof medical kit, Contains significantly more supplies then a field dressing, however is quite heavy and takes up quite a bit of space."
       STR_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  A Combat knife. Light and lethal, only problem is you have to get close to stab people with it, which is not great for your health."
       STR_HAMMER_UFOPAEDIA: "Energy Cost: 20                                                                                                                                   Its a hammer, You can smash just about any obsticle in your way including wood, bricks, metal, concrete, and explosive barrels (not recommended), dosen't work for people, that usually ends up poorly."
+      STR_BALISTIC_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  Melee damage and accuracy are exactly the same as the knife.       A knife that can be launchd as a projectile as well as used to stab people, only problem is if you shoot the knife then you can't stab people with it."
 
       STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
       STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."

@@ -92,6 +92,12 @@ items:
   - type: STR_50_AE_X7 #ignoreDuplicate
     tags:
      AmmoNo: 1
+  - type: STR_65CBJ_X30 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
+  - type: STR_65CBJ_X100 #ignoreDuplicate
+    tags:
+     AmmoNo: 2
   - type: STR_CASELESS_4_73_X50 #ignoreDuplicate
     tags:
      AmmoNo: 1    
@@ -200,6 +206,9 @@ items:
   - type: STR_APAV40_X1 #ignoreDuplicate
     tags:
      AmmoNo: 2
+  - type: STR_BALISTIC_KNIFE_X1 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
 
 
   - type: STR_P226 #ignoreDuplicate
@@ -273,6 +282,10 @@ items:
     tags:
      AmmoReSprite: 1
   - type: STR_FMG9 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     FoldStock: 1
+  - type: STR_CBJMS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
@@ -460,6 +473,7 @@ items:
   - type: STR_M82 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  
   - type: STR_ORIGIN_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -472,6 +486,7 @@ items:
   - type: STR_SAIGA_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  
   - type: STR_M60 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -490,6 +505,11 @@ items:
   - type: STR_PECHENEG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_CBJMS_SAW #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     FoldStock: 1
+  
   - type: STR_RPG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -505,6 +525,11 @@ items:
   - type: STR_ELECTRO_FLARE #ignoreDuplicate
     tags:
       STRIKE: 1
+
+  - type: STR_BALISTIC_KNIFE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      BalKnife: 1
 
 extended:
   tags:
@@ -532,6 +557,7 @@ extended:
       Shield: int
       FlashBang: int
       STRIKE: int
+      BalKnife: int
 #      FlashAmmo: int
 #      JammChance: int
     BattleGame:
@@ -539,6 +565,26 @@ extended:
       Allies: int
       Turn: int
   scripts:
+     damageUnit: #Balistic knife cant attack with no blade, If anyone has any idea on how to make this a local script please let me know -wethan2
+        - offset: 1
+          code: |
+           var ptr BattleItem weapon;
+           var int tagres;
+           var int ammorem;
+           var ptr BattleItem ammoitem;
+           set weapon damaging_item;
+           weapon.getTag tagres Tag.BalKnife;
+           weapon.getAmmoItem ammoitem;
+           ammoitem.getAmmoQuantity ammorem;
+           if and eq tagres 1 eq battle_action battle_action_hit;
+             if eq ammorem 0; # Why cant I chain 2 and statements in a row
+               set to_health 0;
+               set to_armor 0;
+               set to_wound 0;
+             end;
+           end;
+           return;
+
      createUnit:
         - offset: 1 #Halves enemies Tu:s on the first turn
           code: |
