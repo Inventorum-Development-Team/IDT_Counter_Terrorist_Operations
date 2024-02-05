@@ -5844,6 +5844,49 @@ items:
         tuUnload: 15
     listOrder: 5210
 
+  - type: STR_M3
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_UNOBTAINABLE #STR_M3_ACQUISITION
+    size: 1
+    weight: 24
+    battleType: 1
+    bigSprite: 4408
+    floorSprite: 1792
+    handSprite: 1792
+    reloadSound: 200
+    fireSound: 201
+    costBuy: 21000
+    costSell: 10500
+    accuracyAimed: 110
+    accuracySnap: 80
+    blockBothHands: true
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 5
+    snapRange: 5
+    kneelBonus: 115
+    tuAimed: 80
+    tuSnap: 45
+    powerRangeThreshold: 12
+    powerRangeReduction: 2
+    invWidth: 1
+    invHeight: 3
+    shotgunChoke: 30
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20300
+
   - type: STR_M60
     categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
     #    requiresBuy:
@@ -7167,6 +7210,8 @@ extraSprites:
       4384: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFoldednomag.png   
       4392: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded.png  
       4400: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded100.png  
+      4408: Resources/BallisticWeapons/Shotguns/BigM3.png
+
   - type: FLOOROB.PCK
     files:
       200: Resources/BallisticWeapons/Ammo/Floor.png
@@ -7582,6 +7627,7 @@ extraSprites:
       4384: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
       4392: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
       4400: Resources/BallisticWeapons/SMGs/FloorCbjMs.png 
+      #4408: M3 shotgun
 
   - type: HANDOB.PCK
     width: 256
@@ -8002,6 +8048,7 @@ extraSprites:
       4384: Resources/BallisticWeapons/SMGs/HandCbjMs.png
       4392: Resources/BallisticWeapons/SMGs/HandCbjMs.png
       4400: Resources/BallisticWeapons/SMGs/HandCbjMs.png 
+      #4408: M3 shotgun
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8218,6 +8265,7 @@ extraStrings:
       STR_AA_12: "Atchisson AA-12"
       STR_SAIGA_12: "Saiga 12"
       STR_USAS_12: "USAS-12"
+      STR_M3: "Benelli M3"
 
       STR_M60: "M60"
       STR_M249: "M249 SAW Para"

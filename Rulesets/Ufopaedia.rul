@@ -893,6 +893,12 @@ ufopaedia:
     section: STR_SHOTGUNS
     listOrder: 607
 
+  - id: STR_M3
+    type_id: 4
+    text: STR_M3_UFOPAEDIA
+    section: STR_SHOTGUNS
+    listOrder: 608
+
 
   #LMGs
   - id: STR_M60
@@ -1719,7 +1725,8 @@ extraStrings:
       STR_AA_12_UFOPAEDIA: "The Auto Assault-12 is one of the earliest automatic shotgun designs. While only capable of firing in fully automatic mode, semi-automatic fire is possible with brief trigger pulls. The weapon saw little success and extremely few models have been produced."
       STR_USAS_12_UFOPAEDIA: "The Daewoo Precision Industries USAS-12:s design is based on the AA-12. Though unlike the AA-12 the USAS-12 was a selective fire weapon, and it found commercial success especially in east Asian markets."
       STR_SAIGA_12_UFOPAEDIA: "The Saiga-12 is a russian automatic shotgun named after the Saiga antelope. It is based on the kalashnikov series of rifle and has seen use as a hunting weapon and as a combat shotgun used by militaries and law enforcement."
-      
+      STR_M3_UFOPAEDIA: "The Benelli M3 is an italian pump action shotgun, The choke on it will provide significantly increased effectiveness at range compaired to other shotguns on offer. In theory it's able to swap to semi-automatic but that feature is inexplicably missing."
+
       STR_M60_UFOPAEDIA: "A general-purpose machine gun that served as the primary machine gun on the US military during the first half of the cold war. While it saw extensive use, early versions were plagued by reliability issues. While newer designs are available the M60 is still widely used and some have even fallen into the hands of terrorist organizations."
       STR_M249_UFOPAEDIA: "An American adaption of the Belgian FN Minimi, the M249 is a light machine gun widely used by the US armed forces. Unlike many other machine guns, the M249 can be fed both from linked ammunition and STANAG magazines, though the use of the latter is advised to only be used in emergencies due to a higher rate of malfunctions."
       STR_FN_MINIMI_UFOPAEDIA: "A Squad automatic weapon of belgian origin chambered in 5.56 NATO. It has been adopted by numerous countries and served as a base for multiple variants, such as the american M249 and MK 48."
