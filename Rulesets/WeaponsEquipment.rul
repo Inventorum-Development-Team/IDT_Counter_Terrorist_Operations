@@ -308,7 +308,7 @@ items:
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
-      ToArmorPre: 0.5
+      ToArmorPre: 0.1
   - &STR_50AE_PISTOL_AMMO
     type: STR_50AE_PISTOL_AMMO
     power: 40
@@ -461,7 +461,8 @@ items:
     type: STR_12G_BUCKSHOT
     power: 25
     shotgunPellets: 10
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -487,7 +488,8 @@ items:
     type: STR_12G_NON_LETHAL
     power: 10
     shotgunPellets: 10
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -505,7 +507,8 @@ items:
     type: STR_SHRAPNEL_25
     power: 25
     shotgunPellets: 20
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -531,7 +534,8 @@ items:
     type: STR_VOLNA_R
     power: 10
     shotgunPellets: 20
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -3345,7 +3349,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -3525,7 +3529,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -4053,7 +4057,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -5486,7 +5490,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 90
+    shotgunChoke: 10
     ammo:
       0:
         compatibleAmmo: [ STR_12G_BUCKSHOT_X2 ]
@@ -5523,7 +5527,7 @@ items:
     invWidth: 1
     invHeight: 2
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
@@ -5559,7 +5563,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 85
+    shotgunChoke: 5
     ammo:
       0:
         compatibleAmmo:
@@ -5602,7 +5606,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 85
+    shotgunChoke: 5
     ammo:
       0:
         compatibleAmmo:
@@ -5644,7 +5648,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 95
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3 ]
@@ -5681,7 +5685,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 90
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
@@ -5729,7 +5733,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 85
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
@@ -5777,7 +5781,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 90
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
@@ -5825,7 +5829,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 85
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
