@@ -308,22 +308,22 @@ manufacture:
     time: 10
     requires:
      - STR_G36_ACQUISITION
-     - STR_M203_ACQUISITION
+     - STR_M320_ACQUISITION
     requiredItems:
      STR_G36: 1
-     STR_M203: 1
+     STR_M320: 1
     refund: true
     
   - name: STR_G36_AG_REMOVAL 
     time: 10
     requires:
      - STR_G36_ACQUISITION
-     - STR_M203_ACQUISITION
+     - STR_M320_ACQUISITION
     requiredItems:
      STR_G36_AG: 1
     producedItems:
      STR_G36: 1
-     STR_M203: 1
+     STR_M320: 1
     refund: true
 
   - name: STR_TAVOR_95X_SCOPED
