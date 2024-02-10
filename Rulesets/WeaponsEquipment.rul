@@ -7211,6 +7211,7 @@ extraSprites:
       4392: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded.png  
       4400: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded100.png  
       4408: Resources/BallisticWeapons/Shotguns/BigM3.png
+      4416: Resources/BallisticWeapons/WeaponMods/BigCBJSAWKIT.png
 
   - type: FLOOROB.PCK
     files:
@@ -7628,6 +7629,7 @@ extraSprites:
       4392: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
       4400: Resources/BallisticWeapons/SMGs/FloorCbjMs.png 
       #4408: M3 shotgun
+      #4416: CBJMS Sawkit
 
   - type: HANDOB.PCK
     width: 256
@@ -8049,6 +8051,7 @@ extraSprites:
       4392: Resources/BallisticWeapons/SMGs/HandCbjMs.png
       4400: Resources/BallisticWeapons/SMGs/HandCbjMs.png 
       #4408: M3 shotgun
+      #4416: CBJMS Sawkit
 
   # - type: SMOKE.PCK
   #   height: 80
