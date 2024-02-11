@@ -289,6 +289,10 @@ items:
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+  - type: STR_MP7 #ignoreDuplicate
+    tags:
+     FoldStock: 1
+     AmmoReSprite: 1
 
   - type: STR_TAVOR #ignoreDuplicate
     tags:

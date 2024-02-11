@@ -2559,7 +2559,7 @@ items:
     size: 1
     weight: 21
     # battleType: 1
-    bigSprite: 856
+    bigSprite: 4424
     floorSprite: 856
     handSprite: 856
     reloadSound: 185
@@ -2583,7 +2583,7 @@ items:
     tuSnap: 25
     tuAuto: 40
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     ammo:
       0:
         compatibleAmmo: [ STR_FN_57_X50 ]
@@ -7212,6 +7212,8 @@ extraSprites:
       4400: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded100.png  
       4408: Resources/BallisticWeapons/Shotguns/BigM3.png
       4416: Resources/BallisticWeapons/WeaponMods/BigCBJSAWKIT.png
+      4424: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
+      4456: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
 
   - type: FLOOROB.PCK
     files:
