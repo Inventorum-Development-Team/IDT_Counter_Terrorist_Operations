@@ -2586,7 +2586,7 @@ items:
     invHeight: 3
     ammo:
       0:
-        compatibleAmmo: [ STR_FN_57_X50 ]
+        compatibleAmmo: [ STR_HK_4_6_30mmX20, STR_HK_4_6_30mmX30, STR_HK_4_6_30mmX40 ]
         tuLoad: 40
         tuUnload: 20
     listOrder: 21821
@@ -7213,7 +7213,13 @@ extraSprites:
       4408: Resources/BallisticWeapons/Shotguns/BigM3.png
       4416: Resources/BallisticWeapons/WeaponMods/BigCBJSAWKIT.png
       4424: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
+      4432: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
+      4440: Resources/BallisticWeapons/SMGs/BigMP730.png
+      4448: Resources/BallisticWeapons/SMGs/BigMP740.png
       4456: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
+      4464: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
+      4472: Resources/BallisticWeapons/SMGs/BigMP7Folded30.png
+      4480: Resources/BallisticWeapons/SMGs/BigMP7Folded40.png
 
   - type: FLOOROB.PCK
     files:
