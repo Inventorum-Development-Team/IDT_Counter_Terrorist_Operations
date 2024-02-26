@@ -98,13 +98,13 @@ items:
   - type: STR_65CBJ_X100 #ignoreDuplicate
     tags:
      AmmoNo: 2
-  - type: STR_HK_4_6_30mmX20
+  - type: STR_HK_4_6_30mmX20 #ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HK_4_6_30mmX30
+  - type: STR_HK_4_6_30mmX30 #ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_HK_4_6_30mmX40
+  - type: STR_HK_4_6_30mmX40 #ignoreDuplicate
     tags:
       AmmoNo: 3
   - type: STR_CASELESS_4_73_X50 #ignoreDuplicate

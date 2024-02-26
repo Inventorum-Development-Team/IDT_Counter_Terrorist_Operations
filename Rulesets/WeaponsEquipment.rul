@@ -872,14 +872,14 @@ items:
     #requiresBuy:
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 4488
+    handSprite: 4488
+    floorSprite: 4488
     size: 0.1
     armor: 30
     costBuy: 800
     costSell: 400
-    invWidth: 2
+    invWidth: 1
     weight: 1
     clipSize: 20
     listOrder: 21831
@@ -887,14 +887,14 @@ items:
     #requiresBuy:
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 4496
+    handSprite: 4496
+    floorSprite: 4496
     size: 0.1
     armor: 30
     costBuy: 1000
     costSell: 400
-    invWidth: 2
+    invWidth: 1
     weight: 2
     clipSize: 30
     listOrder: 21832
@@ -902,14 +902,14 @@ items:
     #requiresBuy:
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 4504
+    handSprite: 4504
+    floorSprite: 4504
     size: 0.1
     armor: 30
     costBuy: 1200
     costSell: 400
-    invWidth: 2
+    invWidth: 1
     weight: 3
     clipSize: 40
     listOrder: 21833
@@ -7220,6 +7220,9 @@ extraSprites:
       4464: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
       4472: Resources/BallisticWeapons/SMGs/BigMP7Folded30.png
       4480: Resources/BallisticWeapons/SMGs/BigMP7Folded40.png
+      4488: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x20.png
+      4496: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x30.png
+      4504: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x40.png
 
   - type: FLOOROB.PCK
     files:
@@ -7646,6 +7649,9 @@ extraSprites:
       4464: Resources/BallisticWeapons/SMGs/FloorMP7.png
       4472: Resources/BallisticWeapons/SMGs/FloorMP7.png
       4480: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4488: Resources/BallisticWeapons/Ammo/Floor.png
+      4496: Resources/BallisticWeapons/Ammo/Floor.png
+      4504: Resources/BallisticWeapons/Ammo/Floor.png
 
   - type: HANDOB.PCK
     width: 256
@@ -8076,6 +8082,9 @@ extraSprites:
       4464: Resources/BallisticWeapons/SMGs/HandMP7.png
       4472: Resources/BallisticWeapons/SMGs/HandMP7.png
       4480: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4488: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4496: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4504: Resources/BallisticWeapons/Ammo/HandAmmo.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8128,9 +8137,9 @@ extraStrings:
       STR_9MM_GYURZA_X30: "9mm Gyurza (30x)"
       STR_FN_57_X20: "FN 5.7x28mm (20x)"
       STR_FN_57_X50: "FN 5.7x28mm (50x)"
-      STR_HK_4_6_30X20: "HK 4.6x30mm (20x)"
-      STR_HK_4_6_30X30: "HK 4.6x30mm (30x)"
-      STR_HK_4_6_30X40: "HK 4.6x30mm (40x)"
+      STR_HK_4_6_30mmX20: "HK 4.6x30mm (20x)"
+      STR_HK_4_6_30mmX30: "HK 4.6x30mm (30x)"
+      STR_HK_4_6_30mmX40: "HK 4.6x30mm (40x)"
       STR_45_ACP_X7: ".45 ACP (7x)"
       STR_45_ACP_X12: ".45 ACP (12x)"
       STR_45_ACP_X25: ".45 ACP (25x)"
