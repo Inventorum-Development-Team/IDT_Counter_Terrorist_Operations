@@ -339,7 +339,7 @@ ufopaedia:
   - id: STR_MANHURIN
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_MANHURIN_ACQUISITION
     text: STR_MANHURIN_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 206
@@ -347,7 +347,7 @@ ufopaedia:
   - id: STR_VEKTOR
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_VEKTOR_ACQUISITION
     text: STR_VEKTOR_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 207
@@ -363,7 +363,7 @@ ufopaedia:
   - id: STR_DEAGLE
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_DEAGLE_ACQUISITION
     text: STR_DEAGLE_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 209
@@ -417,7 +417,7 @@ ufopaedia:
   - id: STR_UMP
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_UMP_ACQUISITION
     text: STR_UMP_UFOPAEDIA
     section: STR_SMGS
     listOrder: 306
@@ -425,7 +425,7 @@ ufopaedia:
   - id: STR_VITYAZ
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_VITYAZ_ACQUISITION
     text: STR_VITYAZ_UFOPAEDIA
     section: STR_SMGS
     listOrder: 307
@@ -433,7 +433,7 @@ ufopaedia:
   - id: STR_VERSEK
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_VERSEK_ACQUISITION
     text: STR_VERSEK_UFOPEDIA
     section: STR_SMGS
     listOrder: 308
@@ -455,6 +455,12 @@ ufopaedia:
     text: STR_CBJMS_UFOPAEDIA
     section: STR_SMGS
     listOrder: 311
+
+  - id: STR_MP7
+    type_id: 4
+    text: STR_MP7_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 312
 
   #Rifles
   - id: STR_TAVOR
@@ -562,7 +568,7 @@ ufopaedia:
   - id: STR_FAMAS
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_FAMAS_ACQUISITION
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 417
@@ -570,7 +576,7 @@ ufopaedia:
   - id: STR_FAMAS_SCOPED
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_FAMAS_ACQUISITION
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 418
@@ -578,7 +584,7 @@ ufopaedia:
   - id: STR_G36
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_G36_ACQUISITION
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 419
@@ -586,7 +592,7 @@ ufopaedia:
   - id: STR_G36_AG
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_G36_ACQUISITION
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 420
@@ -594,7 +600,7 @@ ufopaedia:
   - id: STR_G36C
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_G36C_ACQUISITION
     text: STR_G36C_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 420
@@ -626,7 +632,7 @@ ufopaedia:
   - id: STR_HK417
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_HK417_ACQUISITION
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 425
@@ -634,7 +640,7 @@ ufopaedia:
   - id: STR_HK417_SCOPED
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_HK417_ACQUISITION
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 426
@@ -744,7 +750,7 @@ ufopaedia:
   - id: STR_G3
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_G3_ACQUISITION
     text: STR_G3_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 444
@@ -856,7 +862,7 @@ ufopaedia:
   - id: STR_SPAS_12
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_SPAS_12_ACQUISITION
     text: STR_SPAS_12_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 602
@@ -930,7 +936,7 @@ ufopaedia:
   - id: STR_RPK_74
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_RPK_74_ACQUISITION
     text: STR_RPK_74_UFOPAEDIA
     section: STR_LMGS
     listOrder: 704
@@ -965,7 +971,7 @@ ufopaedia:
   - id: STR_GM_94
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_GM_94_ACQUISITION
     text: STR_GM_94_UFOPAEDIA
     section: STR_ARTILLERY
     listOrder: 802
@@ -1048,7 +1054,7 @@ ufopaedia:
   - id: STR_9MM_GYURZA_X20
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_VEKTOR_ACQUISITION
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1008
@@ -1056,7 +1062,7 @@ ufopaedia:
   - id: STR_9MM_GYURZA_X30
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_VERSEK_ACQUISITION
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1009
@@ -1291,6 +1297,12 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1045
 
+  - id: STR_12G_INCENDIARY_X8
+    type_id: 4
+    text: STR_12G_INCENDIARY_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1046
+
   - id: STR_SHRAPNEL_25_X3
     type_id: 4
     text: STR_SHRAPNEL_25_UFOPAEDIA
@@ -1308,6 +1320,24 @@ ufopaedia:
     text: STR_VOLNA_R_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1048
+
+  - id: STR_HK_4_6_30mmX20
+    type_id: 4
+    text: STR_HK_4_6_30MM_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1049
+
+  - id: STR_HK_4_6_30mmX30
+    type_id: 4
+    text: STR_HK_4_6_30MM_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1050
+  
+  - id: STR_HK_4_6_30mmX40
+    type_id: 4
+    text: STR_HK_4_6_30MM_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1050
 
   # - id: STR_ZEVADA_X3
   #   type_id: 4
@@ -1348,7 +1378,7 @@ ufopaedia:
   - id: STR_APAV40_X1
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE
+     - STR_FAMAS_ACQUISITION
     text: STR_APAV40_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1054
@@ -1393,19 +1423,19 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1061
 
-  - id: STR_50_AE_X7 #Custom!
+  - id: STR_50_AE_X7 
     type_id: 4
     text: STR_50_AE_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1060
 
-  - id: STR_65CBJ_X30 #Custom!
+  - id: STR_65CBJ_X30 
     type_id: 4
     text: STR_65CBJ_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1010
 
-  - id: STR_65CBJ_X100 #Custom!
+  - id: STR_65CBJ_X100 
     type_id: 4
     text: STR_65CBJ_UFOPAEDIA
     section: STR_AMMO
@@ -1676,6 +1706,7 @@ extraStrings:
       STR_VERSEK_UFOPEDIA: "While being developed at the behest of the russian Federal Security Service, the SR-2 gained the nickname Versek, meaning Heather. It has a gas-operated action with a rotating bolt, a feature more common in rifles than in submachine guns."
       STR_FMG9_UFOPAEDIA: "Designed as a prototype in 2008 by Magpul, The FMG 9 is a compact folding submachine gun. While origianlly only demostrated as a proof of concept, we were able to track down a small company that has managed to copy and reproduce the design, selling them to SOF units at a shockingly affordable price all things considered."
       STR_CBJMS_UFOPAEDIA: "The CBJMS is a Swedish PDW that fires the 6.5x25mm CBJ cartridge. It was designed to be able to fill the role of a PDW, Rifle, and SAW with slight modifications."
+      STR_MP7_UFOPAEDIA: "Created as an answer for a NATO request for a SMG-like weapon that could defeat body armor, the H&K MP7 became the direct rival to the FN P90. It is chambered in HK 4.6x30mm, a cartridge designed specifically for the weapon. Its small size makes it easy to conceal and makes it a viable choice for a sidearm."
 
       STR_TAVOR_UFOPAEDIA: "The IWI Tavor was designed for the IDF as a possible replacement to the M16. The weapons design prioritizes ease of maintenance, durability and reliability. Its bullpup design makes the rifle better suited to close quarters combat than rifles of conventional design."
       STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."
@@ -1752,6 +1783,7 @@ extraStrings:
       STR_45_ACP_UFOPAEDIA: "The .45 ACP (Automatic Colt Pistol) cartridge was designed for use in prototype Colt semi automatic pistols, and was later chosen to be used in the M1911. While having more stopping power, .45 ACP has generally seen less adoption than the 9x19mm cartridge due to being heavier, larger and more expensive."
       STR_50_AE_UFOPAEDIA: "The .50 AE round was designed in 1988 for high caliber semi-automatic pistols. It has the largest possible legal diameter before being declared a destructive device under US law"
       STR_65CBJ_UFOPAEDIA: "The 6.5x25mm CBJ round was designed to be a armour piercing PDW cartridge that could replace 9mm. It shares the same dimensions as 9mm, allowing most 9mm weapons to be converted to use the round with just a barrel change."
+      STR_HK_4_6_30MM_UFOPAEDIA: "Designed for the H&K MP7, the HK 4.6x30mm cartridge was designed to be light-weight and small while still rivaling the armor-piercing capabilities of larger cartridges."
 
       STR_CASELESS_4_73_UFOPAEDIA: "Used in the G11, the most notable quality of the 4-73x33mm cartridge is that it is caseless, consisting only of a propellant, booster and the bullet itself. The lack of a case leads to a lesser weight and the elimination of the need to extract the case from the firearm after firing."
       STR_5_45_UFOPAEDIA: "The 5.45x39mm served as the replacement for the 7.62x39mm cartridge in the soviet military. It followed the general trend of smaller light-weight cartridges being commonly adopted, due to to their better performance in automatic weapons."
@@ -1769,6 +1801,7 @@ extraStrings:
       STR_12G_BUCKSHOT_UFOPAEDIA: "Buckshot rounds consists of shells packed with small lead pellets approximately 8mm in diameter, creating a lethal hail when fired. Due to the pellets spreading out the further they travel, the effective range of buckshot shells is only around 30-40 meters."
       STR_12G_SLUG_UFOPAEDIA: "Shotgun slugs consist of a single solid projectile instead of multiple pellets like buckshot rounds, giving them more power and accuracy."
       STR_12G_NON_LETHAL_UFOPAEDIA: "Meant to be used as a way to subdue targets, non-lethal rounds consist of rubber instead of lead. While considerably less lethal than buckshot, they can still kill someone if fired against a close or wounded targets. They also lose power faster than conventional shells."
+      STR_12G_INCENDIARY_UFOPAEDIA: "Incendiary shotgun shells not typicaly used for military operations, they use magnesius pellets that cause cause a blast of fire when shot. These ones however have been modifed to lead as well as magnesium pellets. It dosen't hit nearly as hard as buckshot, however what it dose hit will be lit on fire."
       STR_SHRAPNEL_25_UFOPAEDIA: "Buckshot round for the KS-23. It has an effective range of 25 meters."
       STR_BARRICADE_UFOPAEDIA: "Powerful solid steel slug for the KS-23 shotgun. Powerful enough to destroy an engine block at the range of a 100 meters."
       STR_VOLNA_R_UFOPAEDIA: "Non-Lethal rubber cartridge for the KS-23. "

@@ -503,6 +503,33 @@ items:
       ToStun: 4.0
       ToWound: 0
 
+  - &STR_12G_INCENDIARY
+    type: STR_12G_INCENDIARY
+    power: 15
+    shotgunPellets: 10
+    shotgunSpread: 0
+    shotgunBehavior: 1
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitAnimation: 26
+    bulletSprite: 3
+    battleType: 2
+    damageType: 1
+    damageAlter:
+      RandomType: 1
+      FireThreshold: 0
+      SmokeThreshold: 1000
+      FireBlastCalc: false
+      IgnoreDirection: false
+      ArmorEffectiveness: 0.75
+      ToArmor: 0.1
+      ToWound: 1.0
+      ToTile: 0.5
+      ToStun: 0.25
+      ToMorale: 2
+      RandomMorale: true
+      TileDamageMethod: 1
+      IgnoreOverKill: true
+
   - &STR_SHRAPNEL_25
     type: STR_SHRAPNEL_25
     power: 25
@@ -1533,6 +1560,22 @@ items:
     weight: 3
     clipSize: 8
     listOrder: 5440
+  - type: STR_12G_INCENDIARY_X8
+    requiresBuy:
+      - STR_SHOTGUN_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_12G_INCENDIARY
+    bigSprite: 4512
+    handSprite: 4512
+    floorSprite: 4512
+    size: 0.1
+    armor: 30
+    costBuy: 500
+    costSell: 250
+    weight: 3
+    clipSize: 8
+    listOrder: 5460
   - type: STR_SHRAPNEL_25_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
@@ -2555,7 +2598,8 @@ items:
 
   - type: STR_MP7
     categories: [ STR_FIREARMS, STR_SMGS ]
-    # requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     size: 1
     weight: 21
     # battleType: 1
@@ -2564,26 +2608,26 @@ items:
     handSprite: 4424
     reloadSound: 185
     fireSound: 186
-    costBuy: 18000
-    costSell: 9000
-    accuracyAimed: 55
-    accuracySnap: 60
-    accuracyAuto: 45
+    costBuy: 17500
+    costSell: 8750
+    accuracyAimed: 50
+    accuracySnap: 70
+    accuracyAuto: 55
     blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 80
-    maxRange: 35
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 30
     minRange: 0
-    aimRange: 8
-    snapRange: 10
-    autoRange: 4
+    aimRange: 7
+    snapRange: 11
+    autoRange: 6
     kneelBonus: 115
     refNode: *STR_SMG
-    tuAimed: 30
-    tuSnap: 25
-    tuAuto: 40
+    tuAimed: 35
+    tuSnap: 20
+    tuAuto: 35
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     ammo:
       0:
         compatibleAmmo: [ STR_HK_4_6_30mmX20, STR_HK_4_6_30mmX30, STR_HK_4_6_30mmX40 ]
@@ -5570,7 +5614,8 @@ items:
           [
             STR_12G_BUCKSHOT_X8,
             STR_12G_SLUG_X8,
-            STR_12G_NON_LETHAL_X8
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_INCENDIARY_X8
           ]
         tuLoad: 40
         tuUnload: 20
@@ -5613,7 +5658,8 @@ items:
           [
             STR_12G_BUCKSHOT_X8,
             STR_12G_SLUG_X8,
-            STR_12G_NON_LETHAL_X8
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_INCENDIARY_X8
           ]
         tuLoad: 40
         tuUnload: 20
@@ -5881,7 +5927,8 @@ items:
           [
             STR_12G_BUCKSHOT_X8,
             STR_12G_SLUG_X8,
-            STR_12G_NON_LETHAL_X8
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_INCENDIARY_X8
           ]
         tuLoad: 40
         tuUnload: 20
@@ -7212,17 +7259,26 @@ extraSprites:
       4400: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded100.png  
       4408: Resources/BallisticWeapons/Shotguns/BigM3.png
       4416: Resources/BallisticWeapons/WeaponMods/BigCBJSAWKIT.png
-      4424: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
-      4432: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
-      4440: Resources/BallisticWeapons/SMGs/BigMP730.png
-      4448: Resources/BallisticWeapons/SMGs/BigMP740.png
-      4456: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
-      4464: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
-      4472: Resources/BallisticWeapons/SMGs/BigMP7Folded30.png
-      4480: Resources/BallisticWeapons/SMGs/BigMP7Folded40.png
+      #4424: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
+      #4432: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
+      #4440: Resources/BallisticWeapons/SMGs/BigMP730.png
+      #4448: Resources/BallisticWeapons/SMGs/BigMP740.png
+      #4456: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
+      #4464: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
+      #4472: Resources/BallisticWeapons/SMGs/BigMP7Folded30.png
+      #4480: Resources/BallisticWeapons/SMGs/BigMP7Folded40.png
       4488: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x20.png
       4496: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x30.png
       4504: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x40.png
+      4512: Resources/BallisticWeapons/Ammo/Big12GaugeIncendiaryAmmo_x8.png
+
+  - type: BIGOBS.PCK
+    width: 320
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      4424: Resources/BallisticWeapons/SMGs/BigMP7.png
 
   - type: FLOOROB.PCK
     files:
@@ -7652,6 +7708,7 @@ extraSprites:
       4488: Resources/BallisticWeapons/Ammo/Floor.png
       4496: Resources/BallisticWeapons/Ammo/Floor.png
       4504: Resources/BallisticWeapons/Ammo/Floor.png
+      4512: Resources/BallisticWeapons/Ammo/Floor.png
 
   - type: HANDOB.PCK
     width: 256
@@ -8085,6 +8142,7 @@ extraSprites:
       4488: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4496: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4504: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4512: Resources/BallisticWeapons/Ammo/HandAmmo.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8180,6 +8238,7 @@ extraStrings:
       STR_12G_BUCKSHOT_X20: "12 Gauge Buckshot (20x)"
       STR_12G_BUCKSHOT_X30: "12 Gauge Buckshot (30x)"
       STR_12G_SLUG_X8: "12 Gauge Slug (8x)"
+      STR_12G_INCENDIARY_X8: "12 Gauge Dragon's Breath (8x)"
       STR_12G_NON_LETHAL_X8: "12 Gauge Non-Lethal (8x)"
       STR_SHRAPNEL_25_X3: "Shrapnel-25 Buckshot (3x)"
       STR_BARRICADE_X3: "Barricade Slug (3x)"

@@ -877,6 +877,7 @@ research:
     disables:
      - STR_P90_ACQUISITION
      - STR_SKORPIONEVO_ACQUISITION
+     - STR_MP7_ACQUISITION
      
   - name: STR_ORIGIN_12_ACQUISITION
     cost: 50
@@ -912,6 +913,7 @@ research:
     disables:
      - STR_MPX_ACQUISITION
      - STR_SKORPIONEVO_ACQUISITION
+     - STR_MP7_ACQUISITION
 
   - name: STR_SKORPIONEVO_ACQUISITION 
     cost: 50
@@ -920,6 +922,16 @@ research:
     disables:
      - STR_MPX_ACQUISITION
      - STR_P90_ACQUISITION
+     - STR_MP7_ACQUISITION
+
+  - name: STR_MP7_ACQUISITION
+    cost: 50
+    dependencies:
+     - STR_ADV_SMG_ACQUISITION
+    disables:
+     - STR_P90_ACQUISITION
+     - STR_SKORPIONEVO_ACQUISITION
+     - STR_MPX_ACQUISITION
 
   - name: STR_FMG9_ACQUISITION
     cost: 30 
@@ -1415,6 +1427,7 @@ extraStrings:
       STR_MEDKIT_ACQUISITION: "Large Medkit" 
       STR_P90_ACQUISITION: "Private SMG Contract: FN P90" 
       STR_SKORPIONEVO_ACQUISITION: "Private Contract: Skorpion Evo" 
+      STR_MP7_ACQUISITION: "Private Contract: MP7"
       STR_DEAGLE_ACQUISITION: "Private Contract: Desert Eagle" 
       STR_FMG9_ACQUISITION: "SMG Acquisition: FMG 9" 
       STR_UMP_ACQUISITION: "SMG Acquisition: UMP45" 
