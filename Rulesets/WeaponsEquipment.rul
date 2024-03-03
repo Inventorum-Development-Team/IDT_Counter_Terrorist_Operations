@@ -530,6 +530,25 @@ items:
       TileDamageMethod: 1
       IgnoreOverKill: true
 
+  - &STR_12G_BREACHING
+    type: STR_12G_BREACHING
+    power: 10
+    shotgunPellets: 4
+    shotgunSpread: 25
+    shotgunBehavior: 1
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitAnimation: 26
+    bulletSprite: 3
+    battleType: 2
+    damageType: 1
+    #powerRangeThreshold: 3
+    #powerRangeReduction: 2
+    damageAlter:
+      RandomType: 1
+      IgnoreOverKill: true
+      TileDamageMethod: 1
+      ToTile: 3
+
   - &STR_SHRAPNEL_25
     type: STR_SHRAPNEL_25
     power: 25
@@ -1576,6 +1595,21 @@ items:
     weight: 3
     clipSize: 8
     listOrder: 5460
+  - type: STR_12G_BREACHING_X5
+    requiresBuy:
+      - STR_SERBU_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_12G_BREACHING
+    bigSprite: 4520
+    handSprite: 4520
+    floorSprite: 4520
+    size: 0.1
+    armor: 30
+    costBuy: 300
+    costSell: 150
+    weight: 2
+    clipSize: 5
+    listOrder: 5370
   - type: STR_SHRAPNEL_25_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
@@ -5574,7 +5608,7 @@ items:
     shotgunChoke: 0
     ammo:
       0:
-        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5, STR_12G_BREACHING_X5 ]
         tuLoad: 40
         tuUnload: 20
     listOrder: 5360
@@ -7271,6 +7305,7 @@ extraSprites:
       4496: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x30.png
       4504: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x40.png
       4512: Resources/BallisticWeapons/Ammo/Big12GaugeIncendiaryAmmo_x8.png
+      4520: Resources/BallisticWeapons/Ammo/Big12GaugeBreaching_x5.png
 
   - type: FLOOROB.PCK
     files:
@@ -7701,6 +7736,7 @@ extraSprites:
       4496: Resources/BallisticWeapons/Ammo/Floor.png
       4504: Resources/BallisticWeapons/Ammo/Floor.png
       4512: Resources/BallisticWeapons/Ammo/Floor.png
+      4520: Resources/BallisticWeapons/Ammo/Floor.png
 
   - type: HANDOB.PCK
     width: 256
@@ -8135,6 +8171,7 @@ extraSprites:
       4496: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4504: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4512: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4520: Resources/BallisticWeapons/Ammo/HandAmmo.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8229,6 +8266,7 @@ extraStrings:
       STR_12G_BUCKSHOT_X8: "12 Gauge Buckshot (8x)"
       STR_12G_BUCKSHOT_X20: "12 Gauge Buckshot (20x)"
       STR_12G_BUCKSHOT_X30: "12 Gauge Buckshot (30x)"
+      STR_12G_BREACHING_X5: "12 Gauge Breaching Rounds (5x)"
       STR_12G_SLUG_X8: "12 Gauge Slug (8x)"
       STR_12G_INCENDIARY_X8: "12 Gauge Dragon's Breath (8x)"
       STR_12G_NON_LETHAL_X8: "12 Gauge Non-Lethal (8x)"

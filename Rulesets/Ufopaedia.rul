@@ -1267,6 +1267,12 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1040
 
+  - id: STR_12G_BREACHING_X5
+    type_id: 4
+    text: STR_12G_BREACHING_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1040
+
   - id: STR_12G_BUCKSHOT_X8
     type_id: 4
     text: STR_12G_BUCKSHOT_UFOPAEDIA
@@ -1801,7 +1807,8 @@ extraStrings:
       STR_12G_BUCKSHOT_UFOPAEDIA: "Buckshot rounds consists of shells packed with small lead pellets approximately 8mm in diameter, creating a lethal hail when fired. Due to the pellets spreading out the further they travel, the effective range of buckshot shells is only around 30-40 meters."
       STR_12G_SLUG_UFOPAEDIA: "Shotgun slugs consist of a single solid projectile instead of multiple pellets like buckshot rounds, giving them more power and accuracy."
       STR_12G_NON_LETHAL_UFOPAEDIA: "Meant to be used as a way to subdue targets, non-lethal rounds consist of rubber instead of lead. While considerably less lethal than buckshot, they can still kill someone if fired against a close or wounded targets. They also lose power faster than conventional shells."
-      STR_12G_INCENDIARY_UFOPAEDIA: "Incendiary shotgun shells not typicaly used for military operations, they use magnesius pellets that cause cause a blast of fire when shot. These ones however have been modifed to lead as well as magnesium pellets. It dosen't hit nearly as hard as buckshot, however what it dose hit will be lit on fire."
+      STR_12G_INCENDIARY_UFOPAEDIA: "Incendiary shotgun shells not typicaly used for military operations, they use magnesius pellets that cause cause a blast of fire when shot. These ones however have been modifed to fire lead as well as magnesium pellets. It dosen't hit nearly as hard as buckshot, however what it dose hit will be lit on fire."
+      STR_12G_BREACHING_UFOPAEDIA: "High powered breaching shotgun shells designed to destroy doors, walls, or most other things that get in your way. While still lethal, it is significantly less effective then normal buckshot against people."
       STR_SHRAPNEL_25_UFOPAEDIA: "Buckshot round for the KS-23. It has an effective range of 25 meters."
       STR_BARRICADE_UFOPAEDIA: "Powerful solid steel slug for the KS-23 shotgun. Powerful enough to destroy an engine block at the range of a 100 meters."
       STR_VOLNA_R_UFOPAEDIA: "Non-Lethal rubber cartridge for the KS-23. "
