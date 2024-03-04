@@ -406,6 +406,12 @@ ufopaedia:
     section: STR_SMGS
     listOrder: 304
 
+  - id: STR_P90_SOPMOD
+    type_id: 4
+    text: STR_P90_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 304
+
   - id: STR_UZI
     type_id: 4
     requires:

@@ -914,6 +914,8 @@ research:
      - STR_MPX_ACQUISITION
      - STR_SKORPIONEVO_ACQUISITION
      - STR_MP7_ACQUISITION
+    reenables:
+      - STR_SOPMOD_ACQUISITION #Potential small softlock if you get a rifle w/o sopmod after the p90
 
   - name: STR_SKORPIONEVO_ACQUISITION 
     cost: 50

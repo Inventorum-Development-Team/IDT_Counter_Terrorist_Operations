@@ -1026,7 +1026,7 @@ items:
     listOrder: 6070
   - type: STR_50_AE_X7
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION
+      - STR_DEAGLE_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_50AE_PISTOL_AMMO
     bigSprite: 632
@@ -1041,7 +1041,7 @@ items:
     listOrder: 20820
   - type: STR_65CBJ_X30
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_CBJMS_ACQUISITION
+      - STR_CBJMS_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_65CBJ_AMMO
     bigSprite: 4280
@@ -1056,7 +1056,7 @@ items:
     listOrder: 21611
   - type: STR_65CBJ_X100
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_CBJ_SAWKIT_ACQUISITION
+      - STR_CBJ_SAWKIT_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_65CBJ_AMMO
     bigSprite: 4288
@@ -1848,7 +1848,7 @@ items:
 
   - type: STR_BALISTIC_KNIFE_X1
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_BALISTIC_KNIFE_ACQUISITION
+      - STR_BALISTIC_KNIFE_ACQUISITION 
     categories: [ STR_CLIPS ]
     refNode: *STR_LAUNCHED_BLADE
     bigSprite: 4272
@@ -2716,6 +2716,45 @@ items:
         tuUnload: 20
     listOrder: 7490
 
+  - type: STR_P90_SOPMOD
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    requiresBuy:
+      - STR_P90_ACQUISITION
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 4528
+    floorSprite: 4528
+    handSprite: 4528
+    reloadSound: 185
+    fireSound: 173
+    #costBuy: 18000
+    #costSell: 9000
+    accuracyAimed: 70 #55
+    accuracySnap: 60  #60
+    accuracyAuto: 45  #45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 13     #8
+    snapRange: 20    #10
+    autoRange: 9     #4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 40  #30
+    tuSnap: 22   #25
+    tuAuto: 37   #40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_FN_57_X50 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 7490
+
   - type: STR_SKORPION
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
     #    requiresBuy:
@@ -3025,7 +3064,7 @@ items:
 
   - type: STR_CBJMS
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_CBJMS_ACQUISITION
+      - STR_CBJMS_ACQUISITION
     categories: [STR_FIREARMS, STR_SMGS]
 #    requiresBuy:
     size: 1
@@ -6673,7 +6712,7 @@ items:
   - type: STR_C4
     categories: [ STR_EXPLOSIVES ]
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_C4_ACQUISITION
+      - STR_C4_ACQUISITION
     size: 0.3
     costBuy: 4000
     costSell: 2000
@@ -6721,7 +6760,7 @@ items:
   - type: STR_MEDKIT
     categories: [ STR_MEDICAL ]
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_MEDKIT_ACQUISITION
+      - STR_MEDKIT_ACQUISITION
     size: 1
     costBuy: 4000
     costSell: 2000
@@ -6804,7 +6843,7 @@ items:
 
   - type: STR_HAMMER
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_HAMMER_ACQUISITION
+      - STR_HAMMER_ACQUISITION
     size: 1
     weight: 20
     costBuy: 4000
@@ -6837,7 +6876,7 @@ items:
 
   - type: STR_BALISTIC_KNIFE
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_BALISTIC_KNIFE_ACQUISITION
+      - STR_BALISTIC_KNIFE_ACQUISITION
     size: 1
     weight: 2
     costBuy: 10000
@@ -7314,6 +7353,8 @@ extraSprites:
       4504: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x40.png
       4512: Resources/BallisticWeapons/Ammo/Big12GaugeIncendiaryAmmo_x8.png
       4520: Resources/BallisticWeapons/Ammo/Big12GaugeBreaching_x5.png
+      4528: Resources/BallisticWeapons/SMGs/BigP90_SOPMODnomag.png
+      4536: Resources/BallisticWeapons/SMGs/BigP90_SOPMOD.png
 
   - type: FLOOROB.PCK
     files:
@@ -7745,6 +7786,9 @@ extraSprites:
       4504: Resources/BallisticWeapons/Ammo/Floor.png
       4512: Resources/BallisticWeapons/Ammo/Floor.png
       4520: Resources/BallisticWeapons/Ammo/Floor.png
+      4528: Resources/BallisticWeapons/SMGs/FloorP90.png
+      4536: Resources/BallisticWeapons/SMGs/FloorP90.png
+
 
   - type: HANDOB.PCK
     width: 256
@@ -8180,6 +8224,8 @@ extraSprites:
       4504: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4512: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4520: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4528: Resources/BallisticWeapons/SMGs/HandP90.png
+      4536: Resources/BallisticWeapons/SMGs/HandP90.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8314,6 +8360,7 @@ extraStrings:
       STR_MP5: "MP5SD"
       STR_MPX: "SIG MPX"
       STR_P90: "FN P90"
+      STR_P90_SOPMOD: "FN P90 (SOPMOD)"
       STR_MP7: "HK MP7"
       STR_SKORPION: "Škorpion vz. 65"
       STR_UZI: "Uzi"

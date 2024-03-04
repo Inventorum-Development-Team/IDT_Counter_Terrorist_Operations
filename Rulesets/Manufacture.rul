@@ -194,6 +194,28 @@ manufacture:
      STR_CBJ_SAW_KIT: 1
     refund: true
 
+  - name: STR_P90_SOPMOD
+    time: 10
+    requires:
+     - STR_P90_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+     STR_P90: 1
+     STR_SOPMOD_KIT: 1
+    refund: true
+
+  - name: STR_P90_SOPMOD_REMOVAL
+    time: 10
+    requires:
+     - STR_P90_ACQUISITION
+     - STR_SOPMOD_ACQUISITION
+    requiredItems:
+     STR_P90_SOPMOD: 1
+    producedItems:
+     STR_P90: 1
+     STR_SOPMOD_KIT: 1
+    refund: true
+
   - name: STR_M4A1_SOPMOD
     time: 10
     requires:
@@ -920,9 +942,11 @@ extraStrings:
       STR_UBS: "Modular Accessory Shotgun System"
       STR_STOCK: "Pistol Stock"
       STR_CBJ_SAW_KIT: "CBJ-MS SAW Kit"
+
       STR_NV: "Night Vision Goggles"
       STR_ADVNV: "Advanced Night Vision Goggles"
       STR_RIOT_ARMOR_PLATES: "Riot Armor Plates"
+
       STR_M4_SOPMOD_REMOVAL: "M4A1: Remove SOPMOD"
       STR_M4_M320_REMOVAL: "M4A1: Remove M320"
       STR_M4_UBS_REMOVAL: "M4A1: Remove MASS"
@@ -950,6 +974,8 @@ extraStrings:
       STR_SCAR_H_SOPMOD_REMOVAL: "SCAR-H: Remove SOPMOD"
       STR_SCAR_H_GL_REMOVAL: "SCAR-H: Remove FN40GL"
       STR_GLOCK_18_STOCK_REMOVAL: "Glock 18: Remove Stock"
+      STR_P90_SOPMOD_REMOVAL: "FN P90: Remove SOPMOD"
+
       STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL: "(Kevlar, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Night Vision"
       STR_DEFAULT_KEVLAR_RIOT_REMOVAL: "(Kevlar, Face Shield): Remove Riot Armor Plates"
