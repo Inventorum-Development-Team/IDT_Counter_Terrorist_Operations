@@ -75,6 +75,10 @@ items:
     ammo: # required by battleType
         0:
          compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
@@ -913,7 +917,7 @@ items:
     costSell: 200
     weight: 1
     clipSize: 20
-    listOrder: 21810
+    listOrder: 7501
   - type: STR_HK_4_6_30mmX20
     #requiresBuy:
     categories: [ STR_CLIPS ]
@@ -1933,6 +1937,10 @@ items:
     snapRange: 6
     kneelBonus: 100
     refNode: *STR_PISTOL
+    confSnap:
+      shots: 1
+      name: "Snap Shot"
+      ammoSlot: 0
     tuAimed: 50
     tuSnap: 25
     invWidth: 1
