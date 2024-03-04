@@ -6059,7 +6059,7 @@ items:
     handSprite: 3784
     reloadSound: 160
     fireSound: 161
-    costBuy: 50000
+    #costBuy: 50000
     costSell: 25000
     accuracySnap: 50
     accuracyAuto: 30
