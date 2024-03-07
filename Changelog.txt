@@ -1,11 +1,15 @@
-X-Jan-2024 v1.0 Compact
+7-Mar-2024 v1.0 Compact
 Changes made:
-* Custom Pedia report entries, by Filip-H
-* Dynamic attachment system for European campaign weapons, by Filip-H
-* Reduced and reorganized European campaign missions, by Filip-H
-* Added Terrain Pack maps, created by Hobbes & Collaborators
-* Increased bulletSpeed and explosionSpeed to all weapons for faster rate of fire, by efrenespartano
-* Added dark industrial soundtrack by Aim to Head
+*Custom Pedia report entries
+*Dynamic attachment system for weapons
+*Reorganized campaign tech tree
+*Reduced available weapons in campaign and new battle mode
+*Added Terrain Pack maps, created by Hobbes & Collaborators
+*Increased bulletSpeed and explosionSpeed to all weapons for faster rate of fire, by efrenespartano
+*Reworked player base
+*Fixed Shotgun Spread having reversed values
+*Added MP7, FN MAG, Sprites by efrenespartano
+*New sprite for the Carl Gustaf, by efrenespartano
 
 14-Oct-2021 v0.1.2 Who Dares Wins
 Changes made:
