@@ -914,6 +914,7 @@ research:
      - STR_MPX_ACQUISITION
      - STR_SKORPIONEVO_ACQUISITION
      - STR_MP7_ACQUISITION
+     - STR_VERSEK_ACQUISITION
     reenables:
       - STR_SOPMOD_ACQUISITION #Potential small softlock if you get a rifle w/o sopmod after the p90
 
@@ -925,6 +926,7 @@ research:
      - STR_MPX_ACQUISITION
      - STR_P90_ACQUISITION
      - STR_MP7_ACQUISITION
+     - STR_VERSEK_ACQUISITION
 
   - name: STR_MP7_ACQUISITION
     cost: 50
@@ -934,13 +936,23 @@ research:
      - STR_P90_ACQUISITION
      - STR_SKORPIONEVO_ACQUISITION
      - STR_MPX_ACQUISITION
+     - STR_VERSEK_ACQUISITION
+
+  - name: STR_VERSEK_ACQUISITION
+    cost: 50
+    dependencies:
+     - STR_ADV_SMG_ACQUISITION
+    disables:
+     - STR_MPX_ACQUISITION
+     - STR_SKORPIONEVO_ACQUISITION
+     - STR_MP7_ACQUISITION
+     - STR_P90_ACQUISITION
 
   - name: STR_FMG9_ACQUISITION
     cost: 30 
     dependencies:
      - STR_SMG_ACQUISITION
     disables:
-     - STR_VERSEK_ACQUISITION
      - STR_VITYAZ_ACQUISITION
      - STR_UMP_ACQUISITION
      - STR_CBJMS_ACQUISITION
@@ -950,7 +962,6 @@ research:
     dependencies:
      - STR_SMG_ACQUISITION
     disables:
-     - STR_VERSEK_ACQUISITION
      - STR_VITYAZ_ACQUISITION
      - STR_FMG9_ACQUISITION
      - STR_CBJMS_ACQUISITION
@@ -960,20 +971,9 @@ research:
     dependencies:
      - STR_SMG_ACQUISITION
     disables:
-     - STR_VERSEK_ACQUISITION
      - STR_VITYAZ_ACQUISITION
      - STR_FMG9_ACQUISITION
      - STR_UMP_ACQUISITION
-
-  - name: STR_VERSEK_ACQUISITION
-    cost: 30
-    dependencies:
-     - STR_SMG_ACQUISITION
-    disables:
-     - STR_UMP_ACQUISITION
-     - STR_VITYAZ_ACQUISITION
-     - STR_FMG9_ACQUISITION
-     - STR_CBJMS_ACQUISITION
 
   - name: STR_VITYAZ_ACQUISITION
     cost: 30
@@ -981,7 +981,6 @@ research:
      - STR_SMG_ACQUISITION
     disables:
      - STR_UMP_ACQUISITION
-     - STR_VERSEK_ACQUISITION
      - STR_FMG9_ACQUISITION
      - STR_CBJMS_ACQUISITION
      
@@ -1428,14 +1427,14 @@ extraStrings:
       STR_C4_ACQUISITION: "Breaching tool: C4" 
       STR_MEDKIT_ACQUISITION: "Large Medkit" 
       STR_P90_ACQUISITION: "Private SMG Contract: FN P90" 
-      STR_SKORPIONEVO_ACQUISITION: "Private Contract: Skorpion Evo" 
-      STR_MP7_ACQUISITION: "Private Contract: MP7"
-      STR_DEAGLE_ACQUISITION: "Private Contract: Desert Eagle" 
+      STR_SKORPIONEVO_ACQUISITION: "Private SMG Contract: Skorpion Evo" 
+      STR_MP7_ACQUISITION: "Private SMG Contract: MP7"
+      STR_VERSEK_ACQUISITION: "Private SMG Contract: SR-2 Veresk" 
+      STR_DEAGLE_ACQUISITION: "Private Pistol Contract: Desert Eagle" 
       STR_FMG9_ACQUISITION: "SMG Acquisition: FMG 9" 
       STR_UMP_ACQUISITION: "SMG Acquisition: UMP45" 
       STR_CBJMS_ACQUISITION: "SMG Acquisition: CBJ-MS" 
       STR_CBJ_SAWKIT_ACQUISITION: "LMG Acquisition: CBJ-MS SAW Kit"
-      STR_VERSEK_ACQUISITION: "SMG Acquisition: SR-2 Veresk" 
       STR_VITYAZ_ACQUISITION: "SMG Acquisition: PP-19 Vityaz" 
       STR_G11_ACQUISITION: "Private AR Contract: HK G11"  
       STR_TRG_ACQUISITION: "Private Sniper Contract: Sako TRG" 

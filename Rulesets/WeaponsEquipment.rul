@@ -919,7 +919,8 @@ items:
     clipSize: 20
     listOrder: 7501
   - type: STR_HK_4_6_30mmX20
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
     bigSprite: 4488
@@ -934,7 +935,8 @@ items:
     clipSize: 20
     listOrder: 21831
   - type: STR_HK_4_6_30mmX30
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
     bigSprite: 4496
@@ -949,7 +951,8 @@ items:
     clipSize: 30
     listOrder: 21832
   - type: STR_HK_4_6_30mmX40
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
     bigSprite: 4504
@@ -1011,7 +1014,7 @@ items:
     listOrder: 6050
   - type: STR_45_ACP_X25
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_UMP_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 3232
@@ -2276,7 +2279,7 @@ items:
 
   - type: STR_MANHURIN
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_MANHURIN_ACQUISITION
     categories: [ STR_FIREARMS, STR_PISTOLS ]
     #    requiresBuy:
     size: 1
@@ -2316,9 +2319,8 @@ items:
 
   - type: STR_VEKTOR
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VEKTOR_ACQUISITION
     categories: [ STR_FIREARMS, STR_PISTOLS ]
-    #    requiresBuy:
     size: 1
     weight: 11
     # battleType: 1
@@ -2433,7 +2435,7 @@ items:
   - type: STR_DEAGLE
     categories: [ STR_FIREARMS, STR_PISTOLS ]
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION
+      - STR_DEAGLE_ACQUISITION
     size: 1
     weight: 16
     # battleType: 1
@@ -2471,8 +2473,8 @@ items:
   
   - type: STR_GOLDDEAGLE
     categories: [ STR_FIREARMS, STR_PISTOLS ]
-    requiresBuy:
-      - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION #Cant buy
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION #Cant buy
     size: 1
     weight: 16
     # battleType: 1
@@ -2481,7 +2483,7 @@ items:
     handSprite: 3408
     reloadSound: 237
     fireSound: 247
-    costBuy: 0
+    #costBuy: 0
     costSell: 100000
     accuracyAimed: 85
     accuracySnap: 45
@@ -2718,8 +2720,8 @@ items:
 
   - type: STR_P90_SOPMOD
     categories: [ STR_FIREARMS, STR_SMGS ]
-    requiresBuy:
-      - STR_P90_ACQUISITION
+    #requiresBuy:
+    #  - STR_P90_ACQUISITION
     size: 1
     weight: 23
     # battleType: 1
@@ -2844,7 +2846,7 @@ items:
 
   - type: STR_UMP
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_UMP_ACQUISITION
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
@@ -2884,15 +2886,15 @@ items:
 
   - type: STR_VITYAZ
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VITYAZ_ACQUISITION
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
     weight: 23
     # battleType: 1
-    bigSprite: 3488
-    floorSprite: 3488
-    handSprite: 3488
+    bigSprite: 4544
+    floorSprite: 4544
+    handSprite: 4544
     reloadSound: 237
     fireSound: 238
     costBuy: 17000
@@ -2924,7 +2926,7 @@ items:
 
   - type: STR_VERSEK
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VERSEK_ACQUISITION
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
@@ -2964,7 +2966,7 @@ items:
 
   - type: STR_SKORPIONEVO
     requiresBuy:
-        - STR_UNOBTAINABLE #STR_SKORPIONEVO_ACQUISITION 
+        - STR_SKORPIONEVO_ACQUISITION 
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
@@ -3906,7 +3908,7 @@ items:
 
   - type: STR_G36
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_G36_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3945,8 +3947,6 @@ items:
     listOrder: 6610
 
   - type: STR_G36_AG
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3993,7 +3993,7 @@ items:
 
   - type: STR_G36C
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_G36C_ACQUISITION
     categories: [STR_FIREARMS, STR_RIFLES]
 #    requiresBuy:
     size: 1
@@ -4196,7 +4196,7 @@ items:
 
   - type: STR_HK417
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_HK417_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -4235,8 +4235,6 @@ items:
     listOrder: 7510
 
   - type: STR_HK417_SCOPED
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -4703,8 +4701,8 @@ items:
 
   - type: STR_M16A2
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
-    #requiresBuy:
-      #- STR_M16A2_ACQUISITION #Uncomment buy cost when adding acquisition
+    requiresBuy:
+      - STR_M16A2_ACQUISITION
     size: 1
     weight: 22
     # battleType: 1
@@ -4713,7 +4711,7 @@ items:
     handSprite: 1464
     reloadSound: 113
     fireSound: 114
-    #costBuy: 12000
+    costBuy: 12000
     costSell: 6000
     # costSell: 13000
     accuracyAimed: 70
@@ -5062,7 +5060,7 @@ items:
 
   - type: STR_G3
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_G3_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -5100,7 +5098,7 @@ items:
 
   - type: STR_M14_EBR
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_M14_EBR_ACQUISITION
+      - STR_M14_EBR_ACQUISITION
     categories: [STR_FIREARMS, STR_RIFLES]
     size: 1
     weight: 30
@@ -5704,7 +5702,7 @@ items:
 
   - type: STR_SPAS_12
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_SPAS_12_ACQUISITION
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     #    requiresBuy:
     size: 1
@@ -5974,7 +5972,7 @@ items:
   - type: STR_M3
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_M3_ACQUISITION
+      - STR_M3_ACQUISITION #STR_M3_ACQUISITION
     size: 1
     weight: 24
     battleType: 1
@@ -5997,8 +5995,8 @@ items:
     kneelBonus: 115
     tuAimed: 80
     tuSnap: 45
-    powerRangeThreshold: 12
-    powerRangeReduction: 2
+    #powerRangeThreshold: 12
+    #powerRangeReduction: 2
     invWidth: 1
     invHeight: 3
     shotgunChoke: 30
@@ -6191,7 +6189,7 @@ items:
 
   - type: STR_RPK_74
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_RPK_74_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
     #    requiresBuy:
     size: 1
@@ -6430,7 +6428,7 @@ items:
 
   - type: STR_GM_94
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_GM_94_ACQUISITION
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
     #    requiresBuy:
     size: 1
@@ -7229,8 +7227,8 @@ extraSprites:
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/BigUMP45nomag.png
       3480: Resources/BallisticWeapons/SMGs/BigUMP45.png
-      3488: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
-      3496: Resources/BallisticWeapons/SMGs/BigVityaz.png
+      #3488: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
+      #3496: Resources/BallisticWeapons/SMGs/BigVityaz.png #Not enough room for vityaz w/ 30rn mags
       3504: Resources/BallisticWeapons/SMGs/BigSR-2Verseknomag.png
       3512: Resources/BallisticWeapons/SMGs/BigSR-2Versek20.png
       3520: Resources/BallisticWeapons/SMGs/BigSR-2Versek.png
@@ -7355,6 +7353,8 @@ extraSprites:
       4520: Resources/BallisticWeapons/Ammo/Big12GaugeBreaching_x5.png
       4528: Resources/BallisticWeapons/SMGs/BigP90_SOPMODnomag.png
       4536: Resources/BallisticWeapons/SMGs/BigP90_SOPMOD.png
+      4544: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
+      4568: Resources/BallisticWeapons/SMGs/BigVityaz.png
 
   - type: FLOOROB.PCK
     files:
@@ -7661,8 +7661,8 @@ extraSprites:
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/FloorUMP45.png
       3480: Resources/BallisticWeapons/SMGs/FloorUMP45.png
-      3488: Resources/BallisticWeapons/SMGs/FloorVityaz.png
-      3496: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      #3488: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      #3496: Resources/BallisticWeapons/SMGs/FloorVityaz.png
       3504: Resources/BallisticWeapons/SMGs/FloorSR2Versek.png
       3512: Resources/BallisticWeapons/SMGs/FloorSR2Versek.png
       3520: Resources/BallisticWeapons/SMGs/FloorSR2Versek.png
@@ -7788,6 +7788,8 @@ extraSprites:
       4520: Resources/BallisticWeapons/Ammo/Floor.png
       4528: Resources/BallisticWeapons/SMGs/FloorP90.png
       4536: Resources/BallisticWeapons/SMGs/FloorP90.png
+      4544: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      4560: Resources/BallisticWeapons/SMGs/FloorVityaz.png
 
 
   - type: HANDOB.PCK
@@ -8099,8 +8101,8 @@ extraSprites:
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png
       3480: Resources/BallisticWeapons/SMGs/HandUMP45.png
-      3488: Resources/BallisticWeapons/SMGs/HandVityaz.png
-      3496: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      #3488: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      #3496: Resources/BallisticWeapons/SMGs/HandVityaz.png
       3504: Resources/BallisticWeapons/SMGs/HandSR-2Versek.png
       3512: Resources/BallisticWeapons/SMGs/HandSR-2Versek.png
       3520: Resources/BallisticWeapons/SMGs/HandSR-2Versek.png
@@ -8226,6 +8228,8 @@ extraSprites:
       4520: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4528: Resources/BallisticWeapons/SMGs/HandP90.png
       4536: Resources/BallisticWeapons/SMGs/HandP90.png
+      4544: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      4560: Resources/BallisticWeapons/SMGs/HandVityaz.png
 
   # - type: SMOKE.PCK
   #   height: 80

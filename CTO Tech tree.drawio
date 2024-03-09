@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T00:43:00.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="BZ7sA_oo0JlNOq6ksLUN" version="23.1.8" type="device">
+<mxfile host="app.diagrams.net" modified="2024-03-09T07:08:35.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="wiNMnEmzTspLrQ6sGhe6" version="24.0.2" type="device">
   <diagram id="4cGTuTjY9rMHRPsiS7bT" name="Page-1">
-    <mxGraphModel dx="5320" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4390" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-375" value="" style="group;strokeWidth=3;fillColor=none;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-790" y="-60" width="5260" height="2870" as="geometry" />
+          <mxGeometry x="-790" y="-60" width="5260" height="2870.0027777777777" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-376" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-378" target="SDo0XhH3Z9KrYT_JZEGo-692" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -18,7 +18,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-378" target="SDo0XhH3Z9KrYT_JZEGo-693">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-378" target="SDo0XhH3Z9KrYT_JZEGo-693" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Rifle Aquisition" lucidchartObjectId=".nZdTzukBXGk" id="SDo0XhH3Z9KrYT_JZEGo-378">
@@ -556,16 +556,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="dQ5w3jO5yOiNRFuh5SQ7-20">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="dQ5w3jO5yOiNRFuh5SQ7-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="SDo0XhH3Z9KrYT_JZEGo-716">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="SDo0XhH3Z9KrYT_JZEGo-716" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="SDo0XhH3Z9KrYT_JZEGo-689">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="SDo0XhH3Z9KrYT_JZEGo-689" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="SDo0XhH3Z9KrYT_JZEGo-685">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-513" target="SDo0XhH3Z9KrYT_JZEGo-685" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-513" value="Military Equipment Acquisition" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;strokeWidth=0.8;fontSize=13;fontColor=#333333;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
@@ -767,7 +767,10 @@
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-629" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-630" target="SDo0XhH3Z9KrYT_JZEGo-683" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-630" target="dQ5w3jO5yOiNRFuh5SQ7-1">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-630" target="dQ5w3jO5yOiNRFuh5SQ7-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZlZ1vKmJzquajNngCHb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-630" target="SDo0XhH3Z9KrYT_JZEGo-708">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-630" value="Adv. SMG aquisition" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
@@ -1002,7 +1005,7 @@
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-682" value="SMG Aquisition: UMP 45" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="180.00410677618083" y="439.9961111111111" width="129.60985626283366" height="85.41666666666666" as="geometry" />
         </mxCell>
-        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-683" value="SMG Aquisition: Skorpion evo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
+        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-683" value="Private Contract: Skorpion evo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="1095.3141067761808" y="2778.8861111111114" width="129.60985626283366" height="85.41666666666666" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-684" value="SMG Aquisition: Vityaz" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
@@ -1043,7 +1046,7 @@
             <mxGeometry x="2538.193162217659" y="484.0277777777777" width="129.60985626283366" height="102.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-693" target="SDo0XhH3Z9KrYT_JZEGo-425">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-693" target="SDo0XhH3Z9KrYT_JZEGo-425" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2862" y="670" />
@@ -1051,7 +1054,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-693" target="SDo0XhH3Z9KrYT_JZEGo-607">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-693" target="SDo0XhH3Z9KrYT_JZEGo-607" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2862" y="920" />
@@ -1061,7 +1064,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-693" target="dQ5w3jO5yOiNRFuh5SQ7-20">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-693" target="dQ5w3jO5yOiNRFuh5SQ7-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-693" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Rifle Acquisition:&lt;/font&gt;&lt;/div&gt;G36" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#808080;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
@@ -1108,12 +1111,6 @@
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-707" value="Large medkit" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#808080;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="590" y="465.40999999999985" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-708" value="SMG Aquisition: Versek" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
-          <mxGeometry x="-79.2158932238192" y="439.99611111111113" width="129.60985626283366" height="85.41666666666666" as="geometry" />
-        </mxCell>
-        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-709" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-680" target="SDo0XhH3Z9KrYT_JZEGo-708" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Shotgun Acquisition: M3" lucidchartObjectId="aKZdjtdj7G8_" id="SDo0XhH3Z9KrYT_JZEGo-710">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;;whiteSpace=wrap;fontSize=13;align=center;spacing=9;strokeColor=#808080;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#FFFFFF;strokeWidth=0.8;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
@@ -1168,7 +1165,7 @@
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-752" value="Ballistic Knife " style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="1930.0041067761806" y="2619.4461111111113" width="129.60985626283366" height="85.41666666666666" as="geometry" />
         </mxCell>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-1" value="&lt;div&gt;Private Contract:&lt;/div&gt;&lt;div&gt;MP7&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="SDo0XhH3Z9KrYT_JZEGo-375">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-1" value="&lt;div&gt;Private Contract:&lt;/div&gt;&lt;div&gt;MP7&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="1359.9385215605748" y="2776.038888888889" width="129.60985626283366" height="91.11111111111111" as="geometry" />
         </mxCell>
         <UserObject label="Rifle Modification" lucidchartObjectId="a6ZdoMXelwi5" id="SDo0XhH3Z9KrYT_JZEGo-425">
@@ -1176,8 +1173,17 @@
             <mxGeometry x="1290.6981519507185" y="699.9977777777777" width="129.60985626283366" height="102.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-20" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Rifle Acquisition:&lt;/font&gt;&lt;/div&gt;G36C" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#808080;" vertex="1" parent="SDo0XhH3Z9KrYT_JZEGo-375">
+        <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-20" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Rifle Acquisition:&lt;/font&gt;&lt;/div&gt;G36C" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#808080;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="2908.833593429159" y="1765.2777777777776" width="129.60985626283366" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-744" value="SMG Aquisition: FMG 9" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
+          <mxGeometry x="-79.99589322381917" y="439.99611111111113" width="129.60985626283366" height="85.41666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-745" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-680" target="SDo0XhH3Z9KrYT_JZEGo-744" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-708" value="Private Contract: Versek" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
+          <mxGeometry x="830.3941067761808" y="2776.036111111111" width="129.60985626283366" height="85.41666666666666" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-724" value="&lt;div&gt;Connecting&lt;/div&gt;&lt;div&gt; Tech&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;strokeWidth=3;fontSize=13;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-1451.3963039014375" y="88.33333333333333" width="140.4106776180698" height="91.11111111111111" as="geometry" />
@@ -1240,22 +1246,16 @@
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-743" value="*Mostly consitant but i ran out of space in a lot of places" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1484" y="1640" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-744" value="SMG Aquisition: FMG 9" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="-999.9958932238192" y="379.99611111111113" width="129.60985626283366" height="85.41666666666666" as="geometry" />
-        </mxCell>
-        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-745" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SDo0XhH3Z9KrYT_JZEGo-680" target="SDo0XhH3Z9KrYT_JZEGo-744" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-746" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SDo0XhH3Z9KrYT_JZEGo-747" target="SDo0XhH3Z9KrYT_JZEGo-723" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1065" y="2110" />
+              <mxPoint x="-935" y="2110" />
               <mxPoint x="700" y="2110" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-747" value="SMG Aquisition: CBJ-MS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="-1129.6058932238193" y="379.99611111111113" width="129.60985626283366" height="85.41666666666666" as="geometry" />
+          <mxGeometry x="-999.9958932238193" y="379.99611111111113" width="129.60985626283366" height="85.41666666666666" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-748" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SDo0XhH3Z9KrYT_JZEGo-680" target="SDo0XhH3Z9KrYT_JZEGo-747" edge="1">
           <mxGeometry relative="1" as="geometry" />

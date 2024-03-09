@@ -338,16 +338,12 @@ ufopaedia:
 
   - id: STR_MANHURIN
     type_id: 4
-    requires:
-     - STR_MANHURIN_ACQUISITION
     text: STR_MANHURIN_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 206
 
   - id: STR_VEKTOR
     type_id: 4
-    requires:
-     - STR_VEKTOR_ACQUISITION
     text: STR_VEKTOR_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 207
@@ -362,8 +358,6 @@ ufopaedia:
 
   - id: STR_DEAGLE
     type_id: 4
-    requires:
-     - STR_DEAGLE_ACQUISITION
     text: STR_DEAGLE_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 209
@@ -371,7 +365,7 @@ ufopaedia:
   - id: STR_GOLDDEAGLE
     type_id: 4
     requires:
-     - STR_UNOBTAINABLE #STR_GOLDDEAGLE
+     - STR_GOLDDEAGLE #STR_GOLDDEAGLE
     text: STR_GOLDDEAGLE_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 209
@@ -422,24 +416,18 @@ ufopaedia:
 
   - id: STR_UMP
     type_id: 4
-    requires:
-     - STR_UMP_ACQUISITION
     text: STR_UMP_UFOPAEDIA
     section: STR_SMGS
     listOrder: 306
 
   - id: STR_VITYAZ
     type_id: 4
-    requires:
-     - STR_VITYAZ_ACQUISITION
     text: STR_VITYAZ_UFOPAEDIA
     section: STR_SMGS
     listOrder: 307
 
   - id: STR_VERSEK
     type_id: 4
-    requires:
-     - STR_VERSEK_ACQUISITION
     text: STR_VERSEK_UFOPEDIA
     section: STR_SMGS
     listOrder: 308
@@ -573,40 +561,30 @@ ufopaedia:
 
   - id: STR_FAMAS
     type_id: 4
-    requires:
-     - STR_FAMAS_ACQUISITION
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 417
 
   - id: STR_FAMAS_SCOPED
     type_id: 4
-    requires:
-     - STR_FAMAS_ACQUISITION
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 418
 
   - id: STR_G36
     type_id: 4
-    requires:
-     - STR_G36_ACQUISITION
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 419
 
   - id: STR_G36_AG
     type_id: 4
-    requires:
-     - STR_G36_ACQUISITION
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 420
 
   - id: STR_G36C
     type_id: 4
-    requires:
-     - STR_G36C_ACQUISITION
     text: STR_G36C_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 420
@@ -637,16 +615,12 @@ ufopaedia:
 
   - id: STR_HK417
     type_id: 4
-    requires:
-     - STR_HK417_ACQUISITION
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 425
 
   - id: STR_HK417_SCOPED
     type_id: 4
-    requires:
-     - STR_HK417_ACQUISITION
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 426
@@ -755,8 +729,6 @@ ufopaedia:
 
   - id: STR_G3
     type_id: 4
-    requires:
-     - STR_G3_ACQUISITION
     text: STR_G3_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 444
@@ -867,8 +839,6 @@ ufopaedia:
 
   - id: STR_SPAS_12
     type_id: 4
-    requires:
-     - STR_SPAS_12_ACQUISITION
     text: STR_SPAS_12_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 602
@@ -941,8 +911,6 @@ ufopaedia:
 
   - id: STR_RPK_74
     type_id: 4
-    requires:
-     - STR_RPK_74_ACQUISITION
     text: STR_RPK_74_UFOPAEDIA
     section: STR_LMGS
     listOrder: 704
@@ -1059,16 +1027,12 @@ ufopaedia:
 
   - id: STR_9MM_GYURZA_X20
     type_id: 4
-    requires:
-     - STR_VEKTOR_ACQUISITION
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1008
 
   - id: STR_9MM_GYURZA_X30
     type_id: 4
-    requires:
-     - STR_VERSEK_ACQUISITION
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1009
@@ -1389,8 +1353,6 @@ ufopaedia:
 
   - id: STR_APAV40_X1
     type_id: 4
-    requires:
-     - STR_FAMAS_ACQUISITION
     text: STR_APAV40_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1054
