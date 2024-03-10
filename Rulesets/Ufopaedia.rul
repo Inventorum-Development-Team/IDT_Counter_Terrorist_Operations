@@ -944,8 +944,6 @@ ufopaedia:
 
   - id: STR_GM_94
     type_id: 4
-    requires:
-     - STR_GM_94_ACQUISITION
     text: STR_GM_94_UFOPAEDIA
     section: STR_ARTILLERY
     listOrder: 802

@@ -49,6 +49,7 @@ alienDeployments:
     duration: [24,48]
     startingCondition: STR_SMALL_ONLY
     alert: STR_TERROR_ATTACK
+    markerName: STR_TERROR_ATTACK
     keepCraftAfterFailedMission: true
     briefing:
      desc: STR_TERROR_ATTACK_BRIEFING
@@ -194,6 +195,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     startingCondition: STR_SMALL_ONLY
     alert: STR_TERROR_ATTACK
+    markerName: STR_TERROR_ATTACK
     briefing:
      desc: STR_TERROR_ATTACK_BRIEFING
     data:
@@ -336,6 +338,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     startingCondition: STR_SMALL_ONLY
     alert: STR_TERROR_ATTACK
+    markerName: STR_TERROR_ATTACK
     briefing:
      desc: STR_TERROR_ATTACK_BRIEFING
     data:
@@ -488,6 +491,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
     alert: STR_PLANE_HIJACKING
+    markerName: STR_PLANE_HIJACKING
     briefing:
      desc: STR_PLANE_HIJACKING_BRIEFING
     data:
@@ -628,6 +632,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
     alert: STR_PLANE_HIJACKING
+    markerName: STR_PLANE_HIJACKING
     briefing:
      desc: STR_PLANE_HIJACKING_BRIEFING
     data:
@@ -767,6 +772,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
     alert: STR_PLANE_HIJACKING
+    markerName: STR_PLANE_HIJACKING
     briefing:
      desc: STR_PLANE_HIJACKING_BRIEFING
     data:
@@ -903,6 +909,7 @@ alienDeployments:
     missionBountyItem: STR_HOUSE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_HOUSE_RAID
+    markerName: STR_HOUSE_RAID
     terrains:
      - SAFEHOUSE
     briefing:
@@ -1044,6 +1051,7 @@ alienDeployments:
     missionBountyItem: STR_HOUSE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_HOUSE_RAID
+    markerName: STR_HOUSE_RAID
     terrains:
      - SAFEHOUSE
     briefing:
@@ -1184,6 +1192,7 @@ alienDeployments:
     missionBountyItem: STR_HOUSE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_HOUSE_RAID
+    markerName: STR_HOUSE_RAID
     terrains:
      - SAFEHOUSE
     briefing:
@@ -1325,6 +1334,7 @@ alienDeployments:
     duration: [24,48]
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
+    markerName: STR_MAJOR_ATTACK
     briefing:
      desc: STR_MAJOR_ATTACK_BRIEFING
     data:
@@ -1469,6 +1479,7 @@ alienDeployments:
     duration: [24,48]
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
+    markerName: STR_MAJOR_ATTACK
     briefing:
      desc: STR_MAJOR_ATTACK_BRIEFING
     data:
@@ -1610,6 +1621,7 @@ alienDeployments:
     duration: [24,48]
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
+    markerName: STR_MAJOR_ATTACK
     briefing:
      desc: STR_MAJOR_ATTACK_BRIEFING
     data:
@@ -1747,6 +1759,7 @@ alienDeployments:
     vipSurvivalPercentage: 4
     startingCondition: STR_NO_LARGE
     alert: STR_HOSTAGE_SITUATION
+    markerName: STR_HOSTAGE_SITUATION
     terrains:
       - SAFEHOUSE
     briefing:
@@ -1889,6 +1902,7 @@ alienDeployments:
     vipSurvivalPercentage: 4
     startingCondition: STR_NO_LARGE
     alert: STR_HOSTAGE_SITUATION
+    markerName: STR_HOSTAGE_SITUATION
     terrains:
       - SAFEHOUSE
     briefing:
@@ -2030,6 +2044,7 @@ alienDeployments:
     vipSurvivalPercentage: 4
     startingCondition: STR_NO_LARGE
     alert: STR_HOSTAGE_SITUATION
+    markerName: STR_HOSTAGE_SITUATION
     terrains:
       - SAFEHOUSE
     briefing:
@@ -2167,6 +2182,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
+    markerName: STR_HIDEOUT_RAID
     terrains:
       - EXPANDED_TERROR
       - RURAL
@@ -2312,6 +2328,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
+    markerName: STR_HIDEOUT_RAID
     terrains:
       - AIRFIELD3
       - AIRFIELD4
@@ -2456,6 +2473,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HIDEOUT_EVIDENCE
     alert: STR_HIDEOUT_RAID
+    markerName: STR_HIDEOUT_RAID
     terrains:
       - COMRCURBAN
       - APARTMENT
@@ -2599,6 +2617,7 @@ alienDeployments:
     missionBountyItem: STR_OFFICE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_OFFICE_RAID
+    markerName: STR_OFFICE_RAID
     terrains:
      - OFFICE
      - CTO_OFFICE_WEST_EUROPE
@@ -2674,6 +2693,7 @@ alienDeployments:
     missionBountyItem: STR_OFFICE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_OFFICE_RAID
+    markerName: STR_OFFICE_RAID
     terrains:
      - OFFICE
      - CTO_OFFICE_WEST_EUROPE
@@ -2747,6 +2767,7 @@ alienDeployments:
     missionBountyItem: STR_OFFICE_EVIDENCE
     startingCondition: STR_NO_LARGE
     alert: STR_OFFICE_RAID
+    markerName: STR_OFFICE_RAID
     terrains:
      - OFFICE
      - CTO_OFFICE_WEST_EUROPE
@@ -2821,6 +2842,7 @@ alienDeployments:
     duration: [99999,99999]
     keepCraftAfterFailedMission: true
     alert: STR_SKYSCRAPER_RAID
+    markerName: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
     winCutscene: winGame
@@ -2896,6 +2918,7 @@ alienDeployments:
     duration: [99999,99999]
     keepCraftAfterFailedMission: true
     alert: STR_SKYSCRAPER_RAID
+    markerName: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
     winCutscene: winGame
@@ -2969,6 +2992,7 @@ alienDeployments:
     duration: [99999,99999]
     keepCraftAfterFailedMission: true
     alert: STR_SKYSCRAPER_RAID
+    markerName: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
     winCutscene: winGame

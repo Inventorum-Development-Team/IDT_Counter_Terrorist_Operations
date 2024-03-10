@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T07:08:35.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="wiNMnEmzTspLrQ6sGhe6" version="24.0.2" type="device">
+<mxfile host="app.diagrams.net" modified="2024-03-10T02:15:29.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="PaT6Ec3UqaQ6s2fkyoRz" version="24.0.3" type="device">
   <diagram id="4cGTuTjY9rMHRPsiS7bT" name="Page-1">
     <mxGraphModel dx="4390" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,9 +199,6 @@
               <mxPoint x="1274" y="420" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="SDo0XhH3Z9KrYT_JZEGo-410" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-412" target="SDo0XhH3Z9KrYT_JZEGo-687" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-411" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-412" target="SDo0XhH3Z9KrYT_JZEGo-688" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -770,7 +767,7 @@
         <mxCell id="dQ5w3jO5yOiNRFuh5SQ7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-630" target="dQ5w3jO5yOiNRFuh5SQ7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aZlZ1vKmJzquajNngCHb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-630" target="SDo0XhH3Z9KrYT_JZEGo-708">
+        <mxCell id="aZlZ1vKmJzquajNngCHb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-630" target="SDo0XhH3Z9KrYT_JZEGo-708" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-630" value="Adv. SMG aquisition" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
@@ -1019,7 +1016,7 @@
         </mxCell>
         <UserObject label="Pistol Aquisition: Vektor" lucidchartObjectId="aKZdjtdj7G8_" id="SDo0XhH3Z9KrYT_JZEGo-687">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;;whiteSpace=wrap;fontSize=13;align=center;spacing=9;strokeColor=#808080;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#FFFFFF;strokeWidth=0.8;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
-            <mxGeometry x="1630.9273511293634" y="301.80777777777786" width="129.60985626283366" height="102.5" as="geometry" />
+            <mxGeometry x="1541.18" y="2770.34" width="129.61" height="89.66" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Pistol Aquisition: Manhurin" lucidchartObjectId="aKZdjtdj7G8_" id="SDo0XhH3Z9KrYT_JZEGo-688">
@@ -1151,6 +1148,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-719" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-720" target="SDo0XhH3Z9KrYT_JZEGo-722" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKPys8DlfW4atzorZyt1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-720" target="SDo0XhH3Z9KrYT_JZEGo-687">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-720" value="Adv. Pistol Acquisition" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">

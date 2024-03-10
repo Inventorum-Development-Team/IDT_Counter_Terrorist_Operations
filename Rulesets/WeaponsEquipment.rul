@@ -772,7 +772,7 @@ items:
     listOrder: 8090
   - type: STR_38_SPECIAL_X6
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_MANHURIN_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_38_SPECIAL_AMMO
     bigSprite: 3208
@@ -859,7 +859,7 @@ items:
     costSell: 225
     weight: 3
     clipSize: 30
-    listOrder: 7280
+    listOrder: 7250
   - type: STR_9MM_PARABELLUM_X40
     categories: [ STR_CLIPS ]
     refNode: *STR_9MM_PISTOL_AMMO
@@ -875,7 +875,7 @@ items:
     listOrder: 7260
   - type: STR_9MM_GYURZA_X20
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VEKTOR_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_9MM_GYURZA_AMMO
     bigSprite: 3216
@@ -890,7 +890,7 @@ items:
     listOrder: 6840
   - type: STR_9MM_GYURZA_X30
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VERSEK_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_9MM_GYURZA_AMMO
     bigSprite: 3224
@@ -7789,7 +7789,7 @@ extraSprites:
       4528: Resources/BallisticWeapons/SMGs/FloorP90.png
       4536: Resources/BallisticWeapons/SMGs/FloorP90.png
       4544: Resources/BallisticWeapons/SMGs/FloorVityaz.png
-      4560: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      4568: Resources/BallisticWeapons/SMGs/FloorVityaz.png
 
 
   - type: HANDOB.PCK
@@ -8229,7 +8229,7 @@ extraSprites:
       4528: Resources/BallisticWeapons/SMGs/HandP90.png
       4536: Resources/BallisticWeapons/SMGs/HandP90.png
       4544: Resources/BallisticWeapons/SMGs/HandVityaz.png
-      4560: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      4568: Resources/BallisticWeapons/SMGs/HandVityaz.png
 
   # - type: SMOKE.PCK
   #   height: 80
