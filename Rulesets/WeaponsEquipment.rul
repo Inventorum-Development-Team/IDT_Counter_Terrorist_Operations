@@ -1090,7 +1090,7 @@ items:
     listOrder: 7430
   - type: STR_5_45_X30
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_5_45_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_5_45_AMMO
     bigSprite: 288
@@ -1105,7 +1105,7 @@ items:
     listOrder: 6260
   - type: STR_5_45_X45
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_5_45_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_5_45_AMMO
     bigSprite: 296
@@ -1694,7 +1694,8 @@ items:
     listOrder: 6000
   - type: STR_40MM_FRAG_X3
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_40MM_AMMO
+      - STR_GM_94_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_40MM_FRAG
     bigSprite: 3240
@@ -4131,7 +4132,7 @@ items:
     autoRange: 18
     kneelBonus: 125
     refNode: *STR_AR_GL
-    tuAimed: 75
+    tuAimed: 55
     tuSnap: 32
     tuAuto: 65
     invWidth: 1
@@ -4176,7 +4177,7 @@ items:
     autoRange: 7
     kneelBonus: 125
     refNode: *STR_AR_UBS
-    tuAimed: 75
+    tuAimed: 55
     tuSnap: 32
     tuAuto: 30
     invWidth: 1

@@ -473,6 +473,13 @@ ufopaedia:
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_TAVOR_M203
+      text: STR_TAVOR_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_TAVOR_M203
+      text: STR_TAVOR_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 402
 
   - id: STR_TAVOR_95X
@@ -503,12 +510,25 @@ ufopaedia:
     type_id: 4
     text: STR_M4_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4_M320
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4_M320
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 407
 
   - id: STR_M4_UBS
     type_id: 4
-    text: STR_M4_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4_UBS
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4_UBS
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 408
 
   - id: STR_M4A1
@@ -527,12 +547,26 @@ ufopaedia:
     type_id: 4
     text: STR_M4A1_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4A1_M320
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4A1_M320
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 411
 
   - id: STR_M4A1_UBS
     type_id: 4
     text: STR_M4A1_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4A1_UBS
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4A1_UBS
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 412
 
   - id: STR_AK12
@@ -605,12 +639,26 @@ ufopaedia:
     type_id: 4
     text: STR_HK416_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_HK416_M320
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_HK416_M320
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 423
 
   - id: STR_HK416_UBS
     type_id: 4
     text: STR_HK416_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_HK416_UBS
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_HK416_UBS
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 424
 
   - id: STR_HK417
@@ -653,6 +701,13 @@ ufopaedia:
     type_id: 4
     text: STR_SCAR_L_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_SCAR_L_GL
+      text: STR_SCAR_L_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_SCAR_L_GL
+      text: STR_SCAR_L_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 431
 
   - id: STR_SCAR_H
@@ -671,6 +726,13 @@ ufopaedia:
     type_id: 4
     text: STR_SCAR_H_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_SCAR_H_GL
+      text: STR_SCAR_H_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_SCAR_H_GL
+      text: STR_SCAR_H_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 434
 
   - id: STR_G11
@@ -692,6 +754,18 @@ ufopaedia:
     listOrder: 437
 
   - id: STR_M16A2
+    type_id: 4
+    text: STR_M16A2_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 438
+
+  - id: STR_M16A2_SCOPED
+    type_id: 4
+    text: STR_M16A2_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 438
+
+  - id: STR_M16A2_M203
     type_id: 4
     text: STR_M16A2_UFOPAEDIA
     section: STR_RIFLES
@@ -880,6 +954,12 @@ ufopaedia:
     text: STR_M3_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 608
+
+  - id: STR_SERBU
+    type_id: 4
+    text: STR_SERBU_UFOPAEDIA
+    section: STR_SHOTGUNS
+    listOrder: 609
 
 
   #LMGs

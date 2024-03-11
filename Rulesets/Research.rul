@@ -1418,7 +1418,7 @@ extraStrings:
       STR_ORIGIN_12_ACQUISITION: "Private Shotgun Contract: Origin-12" 
       STR_M82_ACQUISITION: "Private Sniper Contract: Barrett M82" 
       STR_SERBU_ACQUISITION: "Breaching Tool: Serbu Super-Shorty" 
-      STR_HAMMER_ACQUISITION: "Breaching Tool: Breaching hammer" 
+      STR_HAMMER_ACQUISITION: "Breaching Tool: Breaching Hammer" 
       STR_C4_ACQUISITION: "Breaching Tool: C4" 
       STR_MEDKIT_ACQUISITION: "Large Medkit" 
       STR_P90_ACQUISITION: "Private SMG Contract: FN P90" 
