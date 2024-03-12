@@ -2940,17 +2940,17 @@ items:
     fireSound: 198
     costBuy: 23000
     costSell: 11500
-    accuracyAimed: 50
-    accuracySnap: 65
+    accuracyAimed: 45
+    accuracySnap: 60
     accuracyAuto: 40
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
     maxRange: 25
     minRange: 0
-    aimRange: 8
-    snapRange: 10
-    autoRange: 5
+    aimRange: 4
+    snapRange: 6
+    autoRange: 0
     kneelBonus: 115
     refNode: *STR_SMG
     tuAimed: 30
@@ -6398,7 +6398,7 @@ items:
     reloadSound: 224
     fireSound: 159
     costBuy: 61500
-    costSell: 307500
+    costSell: 30750
     accuracyAimed: 75
     accuracySnap: 40
     blockBothHands: true

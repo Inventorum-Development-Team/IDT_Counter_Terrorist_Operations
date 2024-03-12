@@ -1463,4 +1463,8 @@ extraStrings:
 
       STR_UNOBTAINABLE: "Not In Campaign"
 
+      STR_PR_INTERROGATION_1: "Private Contractor Interrogation 1"
+      STR_PR_INTERROGATION_2: "Private Contractor Interrogation 2"
+      STR_PR_INTERROGATION_3: "Private Contractor Interrogation 3"
+
 
