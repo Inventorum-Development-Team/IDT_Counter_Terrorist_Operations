@@ -7581,7 +7581,7 @@ extraSprites:
       1952: Resources/BallisticWeapons/Artillery/FloorM320.png
       1960: Resources/BallisticWeapons/Artillery/FloorMGL.png
       1968: Resources/BallisticWeapons/Artillery/FloorCarlGustafM4.png
-      1976: Resources/BallisticWeapons/Artillery/FloorRPG.png
+      1976: Resources/BallisticWeapons/Artillery/FloorRPGnomag.png
       1984: Resources/BallisticWeapons/Artillery/FloorRPG.png
       1992: Resources/BallisticWeapons/Snipers/FloorTRG.png
       2000: Resources/BallisticWeapons/Snipers/FloorTRG.png
@@ -8021,7 +8021,7 @@ extraSprites:
       1952: Resources/BallisticWeapons/Artillery/HandM320.png
       1960: Resources/BallisticWeapons/Artillery/HandMGL.png
       1968: Resources/BallisticWeapons/Artillery/HandCarlGustafM4.png
-      1976: Resources/BallisticWeapons/Artillery/HandCarlGustafM4.png
+      1976: Resources/BallisticWeapons/Artillery/HandRPGnomag.png
       1984: Resources/BallisticWeapons/Artillery/HandRPG.png
       1992: Resources/BallisticWeapons/Snipers/HandTRG.png
       2000: Resources/BallisticWeapons/Snipers/HandTRG.png
