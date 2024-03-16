@@ -929,7 +929,3 @@ extended:
 
               return bonus;
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_USE_CUFFS: "Use Handcuffs"

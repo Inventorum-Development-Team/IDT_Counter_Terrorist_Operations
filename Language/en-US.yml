@@ -8,14 +8,14 @@ en-US:
 
 ### Deployments ###
 
-      STR_TERRORIST_ATTACK: "Terrorist Attack"
-      STR_PLANE_HIJACK: "Plane Hijacking"
-      STR_HOUSE_RAID: "Safe-House Raid"
-      STR_MAJOR_ATTACK: "Major Attack"
-      STR_HOSTAGE_SITUATION: "Hostage Situation"
-      STR_HIDEOUT_RAID: "Hideout Raid"
-      STR_OFFICE_RAID: "Office Raid"
-      STR_SKY_SCRAPER: "Skyscraper Raid"
+      TERRORIST_ATTACK: "Terrorist Attack"
+      PLANE_HIJACK: "Plane Hijacking"
+      HOUSE_RAID: "Safe-House Raid"
+      MAJOR_ATTACK: "Major Attack"
+      HOSTAGE_SITUATION: "Hostage Situation"
+      HIDEOUT_RAID: "Hideout Raid"
+      OFFICE_RAID: "Office Raid"
+      SKY_SCRAPER: "Skyscraper Raid"
 
       STR_HOUSE_EVIDENCE: "Safehouse Evidence"
       STR_HIDEOUT_EVIDENCE: "Hideout Evidence"
@@ -44,6 +44,7 @@ en-US:
 
       STR_TERRORIST_CORPSE: "Rifleman Corpse"
       STR_GRUNT_CORPSE: "Grunt Corpse"
+      STR_GUNNER_CORPSE: "Gunner Corpse"
       STR_GASMASK_CORPSE: "Raider Corpse"
       STR_GRENADIER_CORPSE: "Grenadier Corpse"
       STR_TERRORIST_COMMANDER_CORPSE: "Commander Corpse"
@@ -69,6 +70,7 @@ en-US:
       STR_PR_SNIPER: "Guard Sniper"
       STR_PR_LEADER: "Guard Leader"
       STR_PR_RIFLEMAN: "Guard Rifleman"
+
 
 ### CMP ###
       MAP_ACULTA: "Ghothic Grass"
@@ -1100,6 +1102,7 @@ en-US:
       STR_UNPRIME_GRENADE: "Unprime Grenade"
       STR_AUTO_SHOT: "Burst"
 
+      STR_USE_CUFFS: "Use Handcuffs"
       ###EQUIPMENT###
 
       STR_RIOT_SHIELD: "Ballistic shield"
