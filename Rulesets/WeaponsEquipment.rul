@@ -509,7 +509,7 @@ items:
 
   - &STR_12G_INCENDIARY
     type: STR_12G_INCENDIARY
-    power: 15
+    power: 25
     shotgunPellets: 10
     shotgunSpread: 0
     shotgunBehavior: 1
@@ -4600,16 +4600,16 @@ items:
     fireSound: 122
     costBuy: 85000
     costSell: 42500
-    accuracyAimed: 90
-    accuracySnap: 85
+    accuracyAimed: 100
+    accuracySnap: 80
     accuracyAuto: 55
     blockBothHands: false
     twoHanded: true
     oneHandedPenalty: 50
     maxRange: 200
     minRange: 0
-    aimRange: 35
-    snapRange: 45
+    aimRange: 45
+    snapRange: 35
     autoRange: 15
     kneelBonus: 125
     refNode: *STR_AR
@@ -4618,6 +4618,9 @@ items:
     tuAuto: 45
     invWidth: 1
     invHeight: 3
+    confSnap:
+      shots: 3
+      ammoSlot: 0
     ammo:
       0:
         compatibleAmmo: [ STR_CASELESS_4_73_X50 ]
