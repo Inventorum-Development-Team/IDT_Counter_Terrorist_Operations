@@ -85,7 +85,7 @@ items:
 
   - type: STR_FN_MINIMI
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_FN_MINIMI_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
     #    requiresBuy:
     size: 1
@@ -121,7 +121,8 @@ items:
 
   - type: STR_FN_MAG
     categories: [STR_FIREARMS,STR_LMGS]
-#    requiresBuy:
+    requiresBuy:
+      - STR_FN_MAG_ACQUISITION
     size: 1
     weight: 68
     battleType: 1

@@ -1201,7 +1201,8 @@ items:
     weight: 4
     clipSize: 50
   - type: STR_HK_4_6X20
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_HK_4_6
     bigSprite: 265
@@ -1214,7 +1215,8 @@ items:
     weight: 1
     clipSize: 20
   - type: STR_HK_4_6X30
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_HK_4_6
     bigSprite: 266
@@ -1227,7 +1229,8 @@ items:
     weight: 2
     clipSize: 30
   - type: STR_HK_4_6X40
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_HK_4_6
     bigSprite: 267
@@ -1505,7 +1508,7 @@ items:
   #   clipSize: 30
   - type: STR_NATO_7_62_X50
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_FN_MAG_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 224
@@ -1520,7 +1523,7 @@ items:
     clipSize: 50
   - type: STR_NATO_7_62_X100
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_FN_MAG_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 225
