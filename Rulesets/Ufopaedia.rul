@@ -515,8 +515,6 @@ ufopaedia:
   - id: STR_FAMAS
     type_id: 14
     image_id: FAMAS.SPK
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 417
@@ -524,8 +522,6 @@ ufopaedia:
   - id: STR_G36
     type_id: 14
     image_id: G36.SPK
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 419
@@ -748,8 +744,6 @@ ufopaedia:
   - id: STR_SPAS_12
     type_id: 14
     image_id: SPAS12.SPK
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_SPAS_12_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 602
@@ -1355,8 +1349,15 @@ ufopaedia:
 
   - id: STR_ELECTRO_FLARE
     type_id: 4
+    text: "..."
     section: STR_EQUIPMENT
     listOrder: 1107
+
+  - id: STR_FIELD_DRESSING
+    type_id: 4
+    text: "..."
+    section: STR_EQUIPMENT
+    listOrder: 1108
 
   - id: STR_SCOPE_DUMMY
     title: STR_SCOPE
