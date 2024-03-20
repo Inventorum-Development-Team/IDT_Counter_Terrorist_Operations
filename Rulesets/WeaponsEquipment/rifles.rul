@@ -711,7 +711,7 @@ items:
 
   - type: STR_FAMAS
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_FAMAS_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
