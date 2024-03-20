@@ -5,6 +5,8 @@ en-US:
       STR_LIGHT_EQUIPMENT: Light Equipment
       STR_MEDICAL: Medical Equipment
       STR_SEIZED: Seized
+      STR_FIREARMS: Firearms
+      STR_SNIPER_RIFLES: Sniper Rifles
 
 ### Deployments ###
 

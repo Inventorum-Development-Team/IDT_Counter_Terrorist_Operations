@@ -56,7 +56,7 @@ alienDeployments:
     abortPenalty: 300
     duration: [24,48]
     startingCondition: STR_SMALL_ONLY
-    alert: STR_TERROR_ATTACK
+    alert: TERRORIST_ATTACK
     keepCraftAfterFailedMission: true
     briefing:
      desc: STR_TERROR_ATTACK_BRIEFING
@@ -115,7 +115,7 @@ alienDeployments:
     duration: [24,48]
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
-    alert: STR_PLANE_HIJACKING
+    alert: PLANE_HIJACK
     briefing:
      desc: STR_PLANE_HIJACKING_BRIEFING
     data:
@@ -170,7 +170,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HOUSE_EVIDENCE
     startingCondition: STR_NO_LARGE
-    alert: STR_HOUSE_RAID
+    alert: HOUSE_RAID
     terrains:
      - SAFEHOUSE
     briefing:
@@ -234,7 +234,7 @@ alienDeployments:
     abortPenalty: 400
     duration: [24,48]
     keepCraftAfterFailedMission: true
-    alert: STR_MAJOR_ATTACK
+    alert: MAJOR_ATTACK
     briefing:
      desc: STR_MAJOR_ATTACK_BRIEFING
     data:
@@ -292,7 +292,7 @@ alienDeployments:
     markCiviliansAsVIP: true
     vipSurvivalPercentage: 4
     startingCondition: STR_NO_LARGE
-    alert: STR_HOSTAGE_SITUATION
+    alert: HOSTAGE_SITUATION
     terrains:
       - SAFEHOUSE
     briefing:
@@ -348,7 +348,7 @@ alienDeployments:
     duration: [600,1200]
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_HIDEOUT_EVIDENCE
-    alert: STR_HIDEOUT_RAID
+    alert: HIDEOUT_RAID
     terrains:
       - PORTTFTD5
       - PORTTFTD6
@@ -410,7 +410,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     missionBountyItem: STR_OFFICE_EVIDENCE
     startingCondition: STR_NO_LARGE
-    alert: STR_OFFICE_RAID
+    alert: OFFICE_RAID
     terrains:
      - OFFICE
     briefing:
