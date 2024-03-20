@@ -16,7 +16,7 @@ missionScripts:
     missionWeights:
      0:
        TERRORIST_ATTACK: 100
-    executionOdds: 80
+    executionOdds: 95
     startDelay: 100
     randomDelay: 43200
     raceWeights:
@@ -31,7 +31,7 @@ missionScripts:
     missionWeights:
      0:
        TERRORIST_ATTACK: 100
-    executionOdds: 80
+    executionOdds: 95
     startDelay: 100
     randomDelay: 43200
     raceWeights:
@@ -46,7 +46,7 @@ missionScripts:
     missionWeights:
       0:
         MAJOR_ATTACK: 100
-    executionOdds: 33
+    executionOdds: 66
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
@@ -62,7 +62,7 @@ missionScripts:
     missionWeights:
       0:
         MAJOR_ATTACK: 100
-    executionOdds: 33
+    executionOdds: 66
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
@@ -78,7 +78,7 @@ missionScripts:
     missionWeights:
      0:
        HOUSE_RAID: 100
-    executionOdds: 33
+    executionOdds: 80
     startDelay: 100
     randomDelay: 43200
     raceWeights:
@@ -96,7 +96,7 @@ missionScripts:
     missionWeights:
      0:
        HOUSE_RAID: 100
-    executionOdds: 33
+    executionOdds: 80
     startDelay: 100
     randomDelay: 43200
     raceWeights:
@@ -115,7 +115,7 @@ missionScripts:
       0:
         PLANE_HIJACK: 50
         HOSTAGE_SITUATION: 50
-    executionOdds: 10
+    executionOdds: 30
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
@@ -132,7 +132,7 @@ missionScripts:
       0:
         PLANE_HIJACK: 50
         HOSTAGE_SITUATION: 50
-    executionOdds: 10
+    executionOdds: 30
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
@@ -148,7 +148,7 @@ missionScripts:
     missionWeights:
      0:
        HIDEOUT_RAID: 100
-    executionOdds: 33
+    executionOdds: 66
     startDelay: 100
     randomDelay: 43200
     regionWeights:
@@ -166,7 +166,7 @@ missionScripts:
     missionWeights:
      0:
        HIDEOUT_RAID: 100
-    executionOdds: 33
+    executionOdds: 66
     startDelay: 100
     randomDelay: 43200
     raceWeights:
@@ -184,7 +184,7 @@ missionScripts:
     missionWeights:
      0:
        OFFICE_RAID: 100
-    executionOdds: 33
+    executionOdds: 80
     startDelay: 100
     randomDelay: 43200
     raceWeights:
@@ -202,7 +202,7 @@ missionScripts:
     missionWeights:
      0:
        OFFICE_RAID: 100
-    executionOdds: 33
+    executionOdds: 80
     startDelay: 100
     randomDelay: 43200
     raceWeights:
