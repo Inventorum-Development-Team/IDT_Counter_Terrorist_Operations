@@ -536,8 +536,6 @@ ufopaedia:
   - id: STR_HK417
     type_id: 14
     image_id: HK417.SPK
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 425
