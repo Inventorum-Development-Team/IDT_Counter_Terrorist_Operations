@@ -1,4 +1,8 @@
 en-US:
+      STR_SHOT_TYPE_AUTO: "Auto (x{0})/{1}"
+      STR_SHOT_TYPE_SNAP: "Snap (x{0})/{1}"
+      STR_SHOT_TYPE_AIMED: "Aimed (x{0})/{1}"
+
 ### CATEGORIES ###
       STR_CLIPS: Ammo
       STR_EXPLOSIVES: Explosives
