@@ -44,17 +44,31 @@ en-US:
 
 ### Enemy Units ###
 
-      STR_TERRORIST_CORPSE: "Rifleman Corpse"
-      STR_GRUNT_CORPSE: "Grunt Corpse"
-      STR_GUNNER_CORPSE: "Gunner Corpse"
-      STR_GASMASK_CORPSE: "Raider Corpse"
-      STR_GRENADIER_CORPSE: "Grenadier Corpse"
-      STR_TERRORIST_COMMANDER_CORPSE: "Commander Corpse"
-      STR_TERRORIST_LEADER_CORPSE: "Leader Corpse"
-      STR_PR_CORPSE: "Guard Corpse"
-      STR_BLUE_PR_CORPSE: "Guard Corpse"
-      STR_GRAY_PR_CORPSE: "Guard Corpse"
-      STR_PR_HEAVY_CORPSE: "Heavy Guard Corpse"
+      STR_TERRORIST_CORPSE_EAST_EU: "Rifleman Corpse"
+      STR_GRUNT_CORPSE_EAST_EU: "Grunt Corpse"
+      STR_GUNNER_CORPSE_EAST_EU: "Gunner Corpse"
+      STR_GASMASK_CORPSE_EAST_EU: "Raider Corpse"
+      STR_GRENADIER_CORPSE_EAST_EU: "Grenadier Corpse"
+      STR_TERRORIST_COMMANDER_CORPSE_EAST_EU: "Commander Corpse"
+      STR_TERRORIST_LEADER_CORPSE_EAST_EU: "Leader Corpse"
+
+      STR_TERRORIST_CORPSE_WEST_EU: "Rifleman Corpse"
+      STR_GRUNT_CORPSE_WEST_EU: "Grunt Corpse"
+      STR_GUNNER_CORPSE_WEST_EU: "Gunner Corpse"
+      STR_GASMASK_CORPSE_WEST_EU: "Raider Corpse"
+      STR_GRENADIER_CORPSE_WEST_EU: "Grenadier Corpse"
+      STR_TERRORIST_COMMANDER_CORPSE_WEST_EU: "Commander Corpse"
+      STR_TERRORIST_LEADER_CORPS_WEST_EU: "Leader Corpse"
+
+      STR_PR_CORPSE_EAST_EU: "Guard Corpse"
+      STR_BLUE_PR_CORPSE_EAST_EU: "Guard Corpse"
+      STR_GRAY_PR_CORPSE_EAST_EU: "Guard Corpse"
+      STR_PR_HEAVY_CORPSE_EAST_EU: "Heavy Guard Corpse"
+
+      STR_PR_CORPSE_WEST_EU: "Guard Corpse"
+      STR_BLUE_PR_CORPSE_WEST_EU: "Guard Corpse"
+      STR_GRAY_PR_CORPSE_WEST_EU: "Guard Corpse"
+      STR_PR_HEAVY_CORPSE_WEST_EU: "Heavy Guard Corpse"
 
       STR_TERRORIST_GRENADIER: "Terrorist Grenadier"
       STR_TERRORIST_SNIPER: "Terrorist Sniper"
@@ -65,6 +79,24 @@ en-US:
       STR_TERRORIST_COMMANDER: "Terrorist Commander"
       STR_TERRORIST_LEADER: "Terrorist Leader"
 
+      STR_TERRORIST_GRENADIER_EAST_EU: "Terrorist Grenadier"
+      STR_TERRORIST_SNIPER_EAST_EU: "Terrorist Sniper"
+      STR_TERRORIST_SAW_EAST_EU: "Terrorist Gunner"
+      STR_TERRORIST_RIFLEMAN_EAST_EU: "Terrorist Rifleman"
+      STR_TERRORIST_RAIDER_EAST_EU: "Terrorist Raider"
+      STR_TERRORIST_GRUNT_EAST_EU: "Terrorist Grunt"
+      STR_TERRORIST_COMMANDER_EAST_EU: "Terrorist Commander"
+      STR_TERRORIST_LEADER_EAST_EU: "Terrorist Leader"
+
+      STR_TERRORIST_GRENADIER_WEST_EU: "Terrorist Grenadier"
+      STR_TERRORIST_SNIPER_WEST_EU: "Terrorist Sniper"
+      STR_TERRORIST_SAW_WEST_EU: "Terrorist Gunner"
+      STR_TERRORIST_RIFLEMAN_WEST_EU: "Terrorist Rifleman"
+      STR_TERRORIST_RAIDER_WEST_EU: "Terrorist Raider"
+      STR_TERRORIST_GRUNT_WEST_EU: "Terrorist Grunt"
+      STR_TERRORIST_COMMANDER_WEST_EU: "Terrorist Commander"
+      STR_TERRORIST_LEADER_WEST_EU: "Terrorist Leader"
+
       STR_PR_GRUNT: "Guard Grunt"
       STR_PR_HEAVY: "Guard Heavy"
       STR_PR_SHIELD: "Guard Pointman"
@@ -72,6 +104,22 @@ en-US:
       STR_PR_SNIPER: "Guard Sniper"
       STR_PR_LEADER: "Guard Leader"
       STR_PR_RIFLEMAN: "Guard Rifleman"
+
+      STR_PR_GRUNT_EAST_EU: "Guard Grunt"
+      STR_PR_HEAVY_EAST_EU: "Guard Heavy"
+      STR_PR_SHIELD_EAST_EU: "Guard Pointman"
+      STR_PR_SAW_EAST_EU: "Guard Gunner"
+      STR_PR_SNIPER_EAST_EU: "Guard Sniper"
+      STR_PR_LEADER_EAST_EU: "Guard Leader"
+      STR_PR_RIFLEMAN_EAST_EU: "Guard Rifleman"
+
+      STR_PR_GRUNT_WEST_EU: "Guard Grunt"
+      STR_PR_HEAVY_WEST_EU: "Guard Heavy"
+      STR_PR_SHIELD_WEST_EU: "Guard Pointman"
+      STR_PR_SAW_WEST_EU: "Guard Gunner"
+      STR_PR_SNIPER_WEST_EU: "Guard Sniper"
+      STR_PR_LEADER_WEST_EU: "Guard Leader"
+      STR_PR_RIFLEMAN_WEST_EU: "Guard Rifleman"
 
 
 ### CMP ###

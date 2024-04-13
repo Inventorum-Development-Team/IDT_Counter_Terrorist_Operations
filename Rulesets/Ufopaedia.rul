@@ -536,8 +536,8 @@ ufopaedia:
   - id: STR_HK417
     type_id: 14
     image_id: HK417.SPK
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 425
@@ -799,8 +799,8 @@ ufopaedia:
   - id: STR_FN_MAG
     type_id: 14
     image_id: FNMAG.SPK
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_FN_MAG_UFOPAEDIA
     section: STR_LMGS
     listOrder: 701
@@ -808,8 +808,8 @@ ufopaedia:
   - id: STR_FN_MINIMI
     type_id: 14
     image_id: FNMINIMI.SPK
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_FN_MINIMI_UFOPAEDIA
     section: STR_LMGS
     listOrder: 702
@@ -823,8 +823,8 @@ ufopaedia:
   - id: STR_RPK_74
     type_id: 14
     image_id: RPK74M.SPK
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_RPK_74_UFOPAEDIA
     section: STR_LMGS
     listOrder: 704
