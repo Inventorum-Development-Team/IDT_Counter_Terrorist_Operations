@@ -2083,8 +2083,7 @@ items:
     listOrder: 7010
 
   - type: STR_GLOCK_18_STOCK
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
     categories: [ STR_FIREARMS, STR_PISTOLS ]
     #    requiresBuy:
     size: 1
@@ -3025,7 +3024,7 @@ items:
   - type: STR_FMG9
     categories: [ STR_FIREARMS, STR_SMGS ]
     requiresBuy:
-      - STR_UNOBTAINABLE #STR_FMG9_ACQUISITION
+      - STR_FMG9_ACQUISITION #STR_FMG9_ACQUISITION
     size: 1
     weight: 22
     # battleType: 1
@@ -3831,7 +3830,7 @@ items:
 
   - type: STR_FAMAS
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_FAMAS_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3870,8 +3869,7 @@ items:
     listOrder: 6550
 
   - type: STR_FAMAS_SCOPED
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
