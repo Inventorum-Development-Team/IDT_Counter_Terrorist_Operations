@@ -145,6 +145,7 @@ items:
 
   - &STR_AR
     type: STR_AR
+    battleType: 1 #Redundent here, however needed for wiki
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -157,6 +158,7 @@ items:
 
   - &STR_AR_UBS
     type: STR_AR_UBS
+    battleType: 1 #Redundent here, however needed for wiki
     confAimed:
       shots: 3
       name: STR_BURST
@@ -174,6 +176,7 @@ items:
 
   - &STR_AR_GL
     type: STR_AR_GL
+    battleType: 1 #Redundent here, however needed for wiki
     confAimed:
       shots: 3
       name: STR_BURST
@@ -1972,7 +1975,7 @@ items:
     costSell: 5000
     accuracyAimed: 60
     accuracySnap: 40
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -1980,12 +1983,12 @@ items:
     minRange: 0
     aimRange: 10
     snapRange: 7
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 45
     tuSnap: 21 #20 before double tap was added
-    tuAuto: 50
+    #tuAuto: 50
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2010,7 +2013,7 @@ items:
     costSell: 4000
     accuracyAimed: 55
     accuracySnap: 35
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2018,12 +2021,12 @@ items:
     minRange: 0
     aimRange: 10
     snapRange: 7
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 40
     tuSnap: 20 #15 before double tap was added
-    tuAuto: 45
+    #tuAuto: 45
     invWidth: 1
     invHeight: 2
     listOrder: 6970
@@ -2140,7 +2143,7 @@ items:
     costSell: 1850
     accuracyAimed: 70
     accuracySnap: 40
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2148,12 +2151,12 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 8
-    autoRange: 4
+    #autoRange: 4
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 60
     tuSnap: 30
-    tuAuto: 70
+    #tuAuto: 70
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2179,7 +2182,7 @@ items:
     costSell: 6500
     accuracyAimed: 80
     accuracySnap: 50
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2187,12 +2190,12 @@ items:
     minRange: 0
     aimRange: 15
     snapRange: 10
-    autoRange: 6
+    #autoRange: 6
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 20 #25 before double tap was added
-    tuAuto: 65
+    #tuAuto: 65
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2215,7 +2218,7 @@ items:
     costSell: 2500
     accuracyAimed: 55
     accuracySnap: 45
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2223,12 +2226,12 @@ items:
     minRange: 0
     aimRange: 10
     snapRange: 7
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 20
-    tuAuto: 60
+    #tuAuto: 60
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2254,7 +2257,7 @@ items:
     costSell: 6250
     accuracyAimed: 65
     accuracySnap: 42
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2262,12 +2265,12 @@ items:
     minRange: 0
     aimRange: 11
     snapRange: 8
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 21 #20 before double tap was added
-    tuAuto: 60
+    #tuAuto: 60
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2294,7 +2297,7 @@ items:
     costSell: 3000
     accuracyAimed: 70
     accuracySnap: 45
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2302,12 +2305,12 @@ items:
     minRange: 0
     aimRange: 8
     snapRange: 6
-    autoRange: 4
+    #autoRange: 4
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 20
-    tuAuto: 50
+    #tuAuto: 50
     invWidth: 1
     invHeight: 1
     ammo:
@@ -2333,7 +2336,7 @@ items:
     costSell: 6000
     accuracyAimed: 60
     accuracySnap: 40
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2341,12 +2344,12 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 10
-    autoRange: 7
+    #autoRange: 7
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 21 #20 before double tap was added
-    tuAuto: 50
+    #tuAuto: 50
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2448,7 +2451,7 @@ items:
     costSell: 10000
     accuracyAimed: 85
     accuracySnap: 45
-    accuracyAuto: 15
+    #accuracyAuto: 15
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2456,12 +2459,12 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 8
-    autoRange: 0
+    #autoRange: 0
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 60
     tuSnap: 30
-    tuAuto: 70
+    #tuAuto: 70
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2487,7 +2490,7 @@ items:
     costSell: 100000
     accuracyAimed: 85
     accuracySnap: 45
-    accuracyAuto: 15
+    #accuracyAuto: 15
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2495,12 +2498,12 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 8
-    autoRange: 0
+    #autoRange: 0
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 60
     tuSnap: 30
-    tuAuto: 70
+    #tuAuto: 70
     invWidth: 1
     invHeight: 2
     ammo:
@@ -4942,32 +4945,33 @@ items:
     listOrder: 8040
 
   - type: STR_RK_62
-    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    categories: [ STR_FIREARMS, STR_RIFLES ]
     size: 1
-    weight: 16
+    weight: 19
     # battleType: 1
-    bigSprite: 3808
-    floorSprite: 3808
-    handSprite: 3808
+    bigSprite: 4576
+    floorSprite: 4576
+    handSprite: 4576
     reloadSound: 242
     fireSound: 244
-    costSell: 10000
-    accuracyAimed: 45
+    costBuy: 31000
+    costSell: 15500
+    accuracyAimed: 70
     accuracySnap: 75
-    accuracyAuto: 25
+    accuracyAuto: 45
     blockBothHands: false
     twoHanded: true
     oneHandedPenalty: 50
     maxRange: 200
     minRange: 0
-    aimRange: 28
-    snapRange: 38
-    autoRange: 7
+    aimRange: 29
+    snapRange: 39
+    autoRange: 8
     kneelBonus: 125
     refNode: *STR_AR
-    tuAimed: 55
+    tuAimed: 60
     tuSnap: 45
-    tuAuto: 60
+    tuAuto: 65
     invWidth: 1
     invHeight: 3
     ammo:
@@ -5072,6 +5076,8 @@ items:
     floorSprite: 3672
     handSprite: 3672
     reloadSound: 163
+    costBuy: 36000
+    costSell: 18000
     fireSound: 164
     accuracyAimed: 75
     accuracySnap: 55
@@ -7269,7 +7275,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/BigFNMiniminomag.png
       3792: Resources/BallisticWeapons/LMGs/BigFNMinimi30.png
       3800: Resources/BallisticWeapons/LMGs/BigFNMinimi.png
-      3808: Resources/BallisticWeapons/Rifles/BigRK62.png
+      # 3808: Resources/BallisticWeapons/Rifles/BigRK62.png
       # 3816: Resources/BallisticWeapons/LMGs/Big
       3824: Resources/BallisticWeapons/LMGs/BigRPK-74Mnomag.png
       3832: Resources/BallisticWeapons/LMGs/BigRPK-74M.png
@@ -7357,6 +7363,10 @@ extraSprites:
       4536: Resources/BallisticWeapons/SMGs/BigP90_SOPMOD.png
       4544: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
       4568: Resources/BallisticWeapons/SMGs/BigVityaz.png
+      4576: Resources/BallisticWeapons/Rifles/BigRK62.png
+      4584: Resources/BallisticWeapons/Rifles/BigRK62.png
+      4592: Resources/BallisticWeapons/Rifles/BigRK62.png
+      4600: Resources/BallisticWeapons/Rifles/BigRK62.png
 
   - type: FLOOROB.PCK
     files:
@@ -7703,8 +7713,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
-      3808: Resources/BallisticWeapons/Rifles/FloorRK62.png
-      # 3808: Resources/BallisticWeapons/LMGs/Floor
+      # 3808: Resources/BallisticWeapons/Rifles/FloorRK62.png
       # 3816: Resources/BallisticWeapons/LMGs/Floor
       3824: Resources/BallisticWeapons/LMGs/FloorRPK-74M.png
       3832: Resources/BallisticWeapons/LMGs/FloorRPK-74M.png
@@ -7792,6 +7801,10 @@ extraSprites:
       4536: Resources/BallisticWeapons/SMGs/FloorP90.png
       4544: Resources/BallisticWeapons/SMGs/FloorVityaz.png
       4568: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      4576: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      4584: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      4592: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      4600: Resources/BallisticWeapons/Rifles/FloorRK62.png
 
 
   - type: HANDOB.PCK
@@ -8143,8 +8156,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
-      3808: Resources/BallisticWeapons/Rifles/HandRK62.png
-
+      # 3808: Resources/BallisticWeapons/Rifles/HandRK62.png
       # 3816: Resources/BallisticWeapons/LMGs/Hand
       3824: Resources/BallisticWeapons/LMGs/HandRPK-74M.png
       3832: Resources/BallisticWeapons/LMGs/HandRPK-74M.png
@@ -8232,6 +8244,10 @@ extraSprites:
       4536: Resources/BallisticWeapons/SMGs/HandP90.png
       4544: Resources/BallisticWeapons/SMGs/HandVityaz.png
       4568: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      4576: Resources/BallisticWeapons/Rifles/HandRK62.png
+      4584: Resources/BallisticWeapons/Rifles/HandRK62.png
+      4592: Resources/BallisticWeapons/Rifles/HandRK62.png
+      4600: Resources/BallisticWeapons/Rifles/HandRK62.png
 
   # - type: SMOKE.PCK
   #   height: 80

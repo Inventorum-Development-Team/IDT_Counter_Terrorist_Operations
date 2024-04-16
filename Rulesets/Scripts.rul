@@ -461,6 +461,9 @@ items:
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+  - type: STR_RK_62 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
 
   - type: STR_PSG_1 #ignoreDuplicate
     tags:
