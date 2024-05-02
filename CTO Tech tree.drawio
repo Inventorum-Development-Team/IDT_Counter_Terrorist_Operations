@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T02:15:29.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="PaT6Ec3UqaQ6s2fkyoRz" version="24.0.3" type="device">
+<mxfile host="app.diagrams.net" modified="2024-05-02T03:58:09.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="AfFdHoSs35-nehzewk1S" version="24.2.5" type="device">
   <diagram id="4cGTuTjY9rMHRPsiS7bT" name="Page-1">
-    <mxGraphModel dx="4390" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2816" dy="1221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,6 +49,9 @@
             <mxGeometry x="2149.3634496919917" y="484.02777777777777" width="129.60985626283366" height="102.5" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="04-yegm6V3c7vrdkDLmV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-385" target="04-yegm6V3c7vrdkDLmV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;color:#333333;&quot;&gt;Rifle Aquisition: FX-05 &lt;/span&gt;&lt;span style=&quot;font-size:12.8px;color:#000000;&quot;&gt;Xiuhcoatl&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="KpZdOzohRT-l" id="SDo0XhH3Z9KrYT_JZEGo-385">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;;whiteSpace=wrap;fontSize=13;spacing=9;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#ffffff;strokeWidth=0.8;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
             <mxGeometry x="2278.9733059548253" y="484.02777777777777" width="129.60985626283366" height="102.5" as="geometry" />
@@ -1009,7 +1012,7 @@
           <mxGeometry x="50.39410677618082" y="439.9961111111111" width="129.60985626283366" height="85.41666666666666" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-685" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Rifle Acquisition:&lt;/font&gt;&lt;/div&gt;HK417" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#808080;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
-          <mxGeometry x="2270.0035934291577" y="1765.2777777777776" width="129.60985626283366" height="102.5" as="geometry" />
+          <mxGeometry x="2260.783593429158" y="1765.2777777777776" width="129.60985626283366" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-686" value="&lt;div&gt;LMG Acquisition:&lt;/div&gt;&lt;div&gt;RPK 74&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#808080;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="1555.3181314168378" y="2232.222222222222" width="129.60985626283366" height="91.11111111111111" as="geometry" />
@@ -1150,7 +1153,7 @@
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-719" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-720" target="SDo0XhH3Z9KrYT_JZEGo-722" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TKPys8DlfW4atzorZyt1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-720" target="SDo0XhH3Z9KrYT_JZEGo-687">
+        <mxCell id="TKPys8DlfW4atzorZyt1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="SDo0XhH3Z9KrYT_JZEGo-375" source="SDo0XhH3Z9KrYT_JZEGo-720" target="SDo0XhH3Z9KrYT_JZEGo-687" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-720" value="Adv. Pistol Acquisition" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
@@ -1184,6 +1187,9 @@
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-708" value="Private Contract: Versek" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;strokeWidth=3;fontSize=13;fillColor=#FFFFFF;" parent="SDo0XhH3Z9KrYT_JZEGo-375" vertex="1">
           <mxGeometry x="830.3941067761808" y="2776.036111111111" width="129.60985626283366" height="85.41666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="04-yegm6V3c7vrdkDLmV-1" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Rifle Acquisition:&lt;/font&gt;&lt;/div&gt;RK 62" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="SDo0XhH3Z9KrYT_JZEGo-375">
+          <mxGeometry x="2390.393593429158" y="1765.2777777777776" width="129.60985626283366" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="SDo0XhH3Z9KrYT_JZEGo-724" value="&lt;div&gt;Connecting&lt;/div&gt;&lt;div&gt; Tech&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;strokeWidth=3;fontSize=13;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-1451.3963039014375" y="88.33333333333333" width="140.4106776180698" height="91.11111111111111" as="geometry" />

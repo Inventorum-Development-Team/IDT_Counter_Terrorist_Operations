@@ -571,6 +571,8 @@ research:
     dependencies:
      - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_AK12_ACQUISITION
+    getOneFree:
+      - STR_SOVIET_7_62_AMMO
 
   - name: STR_SCAR_H_ACQUISITION
     cost: 40
@@ -587,6 +589,14 @@ research:
      - STR_HK416_ACQUISITION
     getOneFree:
      - STR_7_62_AMMO
+
+  - name: STR_RK_62_ACQUISITION
+    cost: 40
+    dependencies:
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_FX_05_ACQUISITION
+    getOneFree:
+      - STR_SOVIET_7_62_AMMO
   
   - name: STR_AW_ACQUISITION
     cost: 40
@@ -1057,6 +1067,8 @@ research:
     needItem: true
   - name: STR_5_45_AMMO
     needItem: true
+  - name: STR_SOVIET_7_62_AMMO
+    needItem: true
 
 
 
@@ -1387,7 +1399,8 @@ extraStrings:
       STR_AK15_ACQUISITION: "Rifle Acquisition: AK-15"
       STR_SCAR_H_ACQUISITION: "Rifle Acquisition: SCAR-H"
       STR_G3_ACQUISITION: "Rifle Acquisition: G3" 
-      STR_M14_EBR_ACQUISITION: "Rifle Acquisition: M14 EBR" 
+      STR_M14_EBR_ACQUISITION: "Rifle Acquisition: M14 EBR"
+      STR_RK_62_ACQUISITION: "Rifle Acquisition: RK 62" 
       STR_SNIPER_ACQUISITION: "Sniper Acquisition"
       STR_PSG1_ACQUISITION: "Sniper Acquisition: PSG1"
       STR_AWP_ACQUISITION: "Sniper Acquisition: AWP"

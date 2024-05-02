@@ -1212,7 +1212,7 @@ items:
     listOrder: 7950
   - type: STR_SOVIET_7_62_X30
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_SOVIET_7_62_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 336
@@ -1227,7 +1227,7 @@ items:
     listOrder: 8050
   - type: STR_SOVIET_7_62_X40
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_SOVIET_7_62_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 344
@@ -1242,7 +1242,7 @@ items:
     listOrder: 8060
   - type: STR_SOVIET_7_62_X75
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_SOVIET_7_62_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 352
@@ -7363,10 +7363,10 @@ extraSprites:
       4536: Resources/BallisticWeapons/SMGs/BigP90_SOPMOD.png
       4544: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
       4568: Resources/BallisticWeapons/SMGs/BigVityaz.png
-      4576: Resources/BallisticWeapons/Rifles/BigRK62.png
+      4576: Resources/BallisticWeapons/Rifles/BigRK62nomag.png
       4584: Resources/BallisticWeapons/Rifles/BigRK62.png
-      4592: Resources/BallisticWeapons/Rifles/BigRK62.png
-      4600: Resources/BallisticWeapons/Rifles/BigRK62.png
+      4592: Resources/BallisticWeapons/Rifles/BigRK6240.png
+      4600: Resources/BallisticWeapons/Rifles/BigRK6275.png
 
   - type: FLOOROB.PCK
     files:
