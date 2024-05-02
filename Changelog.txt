@@ -1,9 +1,52 @@
-X-Jan-2024 v1.0
+X-May-2024 v1.0 Arsenal
 Changes made:
 * Added Terrain Pack, by Hobbes and collaborators
 * Tweaked terrain lists for Terrorist Attacks and Major Attacks, unique for each region (i.e each one has its own set of terrains, instead of just being the same all the time)
-* Increased bulletSpeed and explosionSpeed to all weapons for faster rate of fire, by efrenespartano
+* Submod added for increased bulletSpeed and explosionSpeed to all weapons for faster rate of fire, by efrenespartano
 * Added dark industrial soundtrack by Aim to Head
+* Instant nades forced off
+* Weapon spreadsheet added to files
+* Plane hjacking map has a lot of movement and LOS fixes
+* Fixed one way on staircase in skyscraper
+* Enemy deployments now have more varied weapons
+* Amount of shots for snap and aimed shots now displayed in ufopeadia
+* Underbarrel weapons now display stats in ufopeadia
+* Sprite fixes to P226, M24 SWS, RPG7, M60, Carl gustaf
+* Shotguns now use more realistic spread
+* Incendiary shells for shotguns
+* Breaching ammo for Serbu shorty
+* Pistols reworked to have double tap snap shot
+* G11 buffed, .45 ACP nerfed
+* Reworked private contracts
+* Added SMG Aquisition and GL Aquisition
+* Added Breaching tool Aquisition
+* More weapons added to campaign: Vityaz, UMP45, Spas 12, Manhurin, Famas, G36, HK417, GM94, RPK 74, Vektor, Versek, G3
+* New weapons and equipment added, which are also in the campaign
+> Pistols
+        - Deagle
+> Rifles
+        - RK 62
+        - G36C
+        - Scoped M16 & M16 w/ M203 variants
+        - M14 EBR
+> SMGs
+        - Skorpion Evo
+        - FMG 9
+        - CBJ-MS
+        - MP7
+        - P90 SOPMOD variant
+> LMGs
+        - CBJ-MS w/ SAW kit
+> Shotguns
+        - M3
+> Other
+        - C4 Breaching charge
+        - Large Medkit
+        - Breaching Hammer
+        - Knife
+        - Ballistic knife
+* A lot of other minor bugfixes and changes
+
 
 14-Oct-2021 v0.1.2 Who Dares Wins
 Changes made:
