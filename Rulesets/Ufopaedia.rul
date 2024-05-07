@@ -1501,19 +1501,19 @@ ufopaedia:
 
   - id: STR_GRENADE
     type_id: 4
-    text: "..."
+    text: STR_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1099
 
   - id: STR_IMPACT_GRENADE
     type_id: 4
-    text: "..."
+    text: STR_IMPACT_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1100
 
   - id: STR_SMOKE_GRENADE
     type_id: 4
-    text: "..."
+    text: STR_SMOKE_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1101
 
@@ -1525,7 +1525,7 @@ ufopaedia:
 
   - id: STR_HIGH_EXPLOSIVE
     type_id: 4
-    text: "..."
+    text: STR_HIGH_EXPLOSIVE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1103
 
@@ -1537,7 +1537,7 @@ ufopaedia:
 
   - id: STR_MOLOTOV
     type_id: 4
-    text: "..."
+    text: STR_MOLOTOV_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1104
 
@@ -1885,6 +1885,11 @@ extraStrings:
       STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
       STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster."
       
+      STR_MOLOTOV_UFOPAEDIA: "A glass bottle filled with a flammable liquid, such as gasoline. The cloth on the top of the bottle is ignited before being thrown, causing the liquid to ignite when the bottle hits its target and shatters."
+      STR_HIGH_EXPLOSIVE_UFOPAEDIA: "A large explosive, capable of completely demolishing a small building."
+      STR_SMOKE_GRENADE_UFOPAEDIA: "On impact expands into a ball of smoke that conceals units, however it does not provide any thermal protection so units with thermal gear can still see through."
+      STR_IMPACT_GRENADE_UFOPAEDIA: "An explosive grenade that detonates on impact, less powerfull then our normal frag grenades."
+      STR_GRENADE_UFOPAEDIA: "Frag grenades cause an explosion that launches metal fragmenent, dealing damage to everything around them."
       STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
       STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, or have dropped their weapons, using handcuffs will stun them."
