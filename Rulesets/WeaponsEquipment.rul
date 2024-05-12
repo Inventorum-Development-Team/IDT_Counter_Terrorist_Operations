@@ -1059,7 +1059,7 @@ items:
     costSell: 250
     weight: 3
     clipSize: 30
-    listOrder: 21611
+    listOrder: 7506
   - type: STR_65CBJ_X100
     requiresBuy:
       - STR_CBJ_SAWKIT_ACQUISITION
@@ -1074,7 +1074,7 @@ items:
     costSell: 500
     weight: 6
     clipSize: 100
-    listOrder: 21611
+    listOrder: 7507
   - type: STR_CASELESS_4_73_X50
     categories: [ STR_CLIPS ]
     requiresBuy:
@@ -1470,7 +1470,7 @@ items:
     clipSize: 10
     invWidth: 1
     invHeight: 2
-    listOrder: 20840
+    listOrder: 6121
   - type: STR_127_X5
     requiresBuy:
       - STR_UNOBTAINABLE
@@ -1880,6 +1880,7 @@ items:
     meleeSound: -1
     meleeMissSound: 39
     meleeHitSound: 353
+    listOrder: 2804
 
 
 
@@ -3022,7 +3023,7 @@ items:
           ]
         tuLoad: 30
         tuUnload: 15
-    # listOrder: 21500
+    listOrder: 7509
 
   - type: STR_FMG9
     categories: [ STR_FIREARMS, STR_SMGS ]
@@ -3105,6 +3106,7 @@ items:
          compatibleAmmo: [STR_65CBJ_X30, STR_65CBJ_X100]
          tuLoad: 30
          tuUnload: 15
+    listOrder: 7505
 
   - type: STR_TAVOR
     categories: [ STR_FIREARMS, STR_RIFLES ]
@@ -4949,6 +4951,8 @@ items:
     size: 1
     weight: 19
     # battleType: 1
+    requiresBuy: 
+      - STR_RK_62_ACQUISITION
     bigSprite: 4576
     floorSprite: 4576
     handSprite: 4576
@@ -4984,7 +4988,7 @@ items:
           ]
         tuLoad: 30
         tuUnload: 35
-    listOrder: 22201
+    listOrder: 21310
 
   - type: STR_AK_74
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -5141,6 +5145,7 @@ items:
          compatibleAmmo: [STR_NATO_7_62_X20, STR_NATO_7_62_X10]
          tuLoad: 30
          tuUnload: 15
+    listOrder: 7575
 
   - type: STR_M14_EBR_SCOPED
     #requiresBuy:
@@ -5179,6 +5184,7 @@ items:
          compatibleAmmo: [STR_NATO_7_62_X20, STR_NATO_7_62_X10]
          tuLoad: 30
          tuUnload: 15
+    listOrder: 7576
 
   - type: STR_HUNTING_RIFLE
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
@@ -6349,7 +6355,7 @@ items:
          compatibleAmmo: [STR_65CBJ_X30, STR_65CBJ_X100]
          tuLoad: 30
          tuUnload: 15
-    listOrder: 6361
+    listOrder: 6385
 
   - type: STR_M320
     categories: [ STR_FIREARMS, STR_ARTILLERY ]

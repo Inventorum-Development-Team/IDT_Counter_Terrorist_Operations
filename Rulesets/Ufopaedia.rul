@@ -769,6 +769,13 @@ ufopaedia:
     type_id: 4
     text: STR_M16A2_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M16A2_M203
+      text: STR_M16A2_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M16A2_M203
+      text: STR_M16A2_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 438
 
   - id: STR_AR_18
