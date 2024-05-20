@@ -1580,6 +1580,7 @@ ufopaedia:
 
   - id: STR_ELECTRO_FLARE
     type_id: 4
+    text: STR_FLARE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1107
 
@@ -1900,6 +1901,7 @@ extraStrings:
       STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
       STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, or have dropped their weapons, using handcuffs will stun them."
+      STR_FLARE_UFOPAEDIA: "A bright hand-held flare, Can be lit and tossed to illuminate dark areas."
       STR_MEDKIT_UFOPAEDIA: "Large waterproof medical kit, Contains significantly more supplies then a field dressing, however is quite heavy and takes up quite a bit of space."
       STR_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  A Combat knife. Light and lethal, only problem is you have to get close to stab people with it, which is not great for your health."
       STR_HAMMER_UFOPAEDIA: "Energy Cost: 20                                                                                                                                   Its a hammer, You can smash just about any obsticle in your way including wood, bricks, metal, concrete, and explosive barrels (not recommended), dosen't work for people, that usually ends up poorly."
