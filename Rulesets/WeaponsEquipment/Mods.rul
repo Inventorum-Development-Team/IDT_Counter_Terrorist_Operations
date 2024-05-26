@@ -46,6 +46,7 @@ items:
     costSell: 10000
     requiresBuy:
      - STR_UBGL_ACQUISITION
+     - STR_G36_ACQUISITION
     size: 0.1
     bigSprite: 610
   - type: STR_UBS
