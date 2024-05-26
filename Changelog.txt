@@ -1,4 +1,4 @@
-26-May-2024 v1.0 Compact
+26-May-2024 v1.1 Compact
 Changes made:
 *Several Bugfixes, By Filip H, Buscher and Wethan2
 
