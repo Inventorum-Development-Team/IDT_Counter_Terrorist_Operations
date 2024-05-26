@@ -1,3 +1,8 @@
+26-May-2024 v1.0 Compact
+Changes made:
+*Several Bugfixes, By Filip H, Buscher and Wethan2
+
+
 7-Mar-2024 v1.0 Compact
 Changes made:
 *Custom Pedia report entries
