@@ -18,7 +18,9 @@ terrains:
         groups: 1
         revealedFloors: 1
 
-
+##########################
+# FILIP'S OFFICE
+#########################
 
    - name: OFFICE
      script: OFFICE
@@ -43,6 +45,112 @@ terrains:
         width: 10
         length: 20
         height: 4
+
+   - name: OFFICE_EAST_EU
+     script: OFFICE_EAST_EU
+     mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECORREDUCED
+      - ENTRY  
+     mapBlocks:
+      - name: OFFICE00
+        width: 20
+        length: 10
+        height: 4
+      - name: OFFICE01
+        width: 20
+        length: 20
+        height: 4
+      - name: OFFICE02
+        width: 10
+        length: 20
+        height: 4
+
+   - name: OFFICE_USA
+     script: OFFICE_USA
+     mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECORREDUCED
+      - ENTRY  
+     mapBlocks:
+      - name: OFFICE00
+        width: 20
+        length: 10
+        height: 4
+      - name: OFFICE01
+        width: 20
+        length: 20
+        height: 4
+      - name: OFFICE02
+        width: 10
+        length: 20
+        height: 4
+
+##########################
+# EFREN'S OFFICE
+#########################
+
+   - name: CTO_OFFICE
+     script: CTO_OFFICE
+     mapDataSets:
+      - BLANKS
+      - IDT_OFFICE
+      - BD_CIV_CARS 
+     mapBlocks:
+      - name: CTO_OFFICE01
+        width: 20
+        length: 20
+        height: 6
+        groups: 6
+
+   - name: CTO_OFFICE_WEST_EUROPE
+     script: CTO_OFFICE_WEST_EUROPE
+     mapDataSets:
+      - BLANKS
+      - IDT_OFFICE
+      - BD_CIV_CARS 
+     mapBlocks:
+      - name: CTO_OFFICE01
+        width: 20
+        length: 20
+        height: 6
+        groups: 6
+
+   - name: CTO_OFFICE_EAST_EUROPE
+     script: CTO_OFFICE_EAST_EUROPE
+     mapDataSets:
+      - BLANKS
+      - IDT_OFFICE
+      - BD_CIV_CARS 
+     mapBlocks:
+      - name: CTO_OFFICE01
+        width: 20
+        length: 20
+        height: 6
+        groups: 6
+
+   - name: CTO_OFFICE_USA
+     script: CTO_OFFICE_USA
+     mapDataSets:
+      - BLANKS
+      - IDT_OFFICE
+      - BD_CIV_CARS 
+     mapBlocks:
+      - name: CTO_OFFICE01
+        width: 20
+        length: 20
+        height: 6
+        groups: 6
+
+##################
 
    - name: AIRPORT
      script: AIRPORT_HIJACKED_PLANE_SCRIPT

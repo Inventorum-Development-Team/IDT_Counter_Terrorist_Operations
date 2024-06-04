@@ -82,6 +82,9 @@ mapScripts:
          groups: 6
          size: [3,3,5]
 
+##########################
+# FILIP'S OFFICE
+#########################
 
   - type: OFFICE
     commands:
@@ -103,7 +106,76 @@ mapScripts:
        terrain: COMRCURBAN
        groups: [0,5]
 
+  - type: OFFICE_EAST_EU
+    commands:
+     - type: addBlock
+       executionChances: 100
+     - type: addCraft
+       terrain: DAWNCITY_URBANA
+     - type: fillArea
+       terrain: DOWNTOWN
+       #groups: [0,5]
 
+  - type: OFFICE_USA
+    commands:
+     - type: addBlock
+       executionChances: 100
+     - type: addCraft
+       terrain: DAWNCITY_URBANA
+     - type: fillArea
+       terrain: INDUSTRIALSLUM
+       #groups: [0,5]
+
+#####################
+# EFREN'S OFFICE
+#####################
+
+  - type: CTO_OFFICE
+    commands:
+     - type: addBlock
+       executionChances: 100
+       terrain: CTO_OFFICE
+       groups: 6
+     - type: addCraft
+       terrain: EXPANDED_TERROR
+     - type: fillArea
+       terrain: EXPANDED_TERROR
+       #groups: [0,5]
+
+  - type: CTO_OFFICE_WEST_EUROPE
+    commands:
+     - type: addBlock
+       size: [2,2]
+       executionChances: 100
+       groups: 6
+       terrain: CTO_OFFICE_WEST_EUROPE
+     - type: addCraft
+       terrain: DAWNCITY_URBANA
+     - type: fillArea
+       terrain: DAWNCITY_URBANA
+       #groups: [0,5]
+
+  - type: CTO_OFFICE_EAST_EUROPE
+    commands:
+     - type: addBlock
+       executionChances: 100
+       groups: 6
+     - type: addCraft
+       terrain: EXPANDED_TERROR
+     - type: fillArea
+       terrain: DOWNTOWN
+       #groups: [0,5]
+
+  - type: CTO_OFFICE_USA
+    commands:
+     - type: addBlock
+       executionChances: 100
+       groups: 6
+     - type: addCraft
+       terrain: EXPANDED_TERROR
+     - type: fillArea
+       terrain: INDUSTRIAL
+       groups: [0,5]
 
   - type: SAFEHOUSESCRIPT
     commands:

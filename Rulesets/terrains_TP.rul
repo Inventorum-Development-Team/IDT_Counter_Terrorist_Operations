@@ -1,0 +1,1129 @@
+terrains:
+#XCOM
+
+#TERRAIN PACK
+#Original terrains (XCOM, TFTD, UFO2000, etc.) set as &YAML anchors. Through use of refNode, other mods can easily use and adapt the pack's terrains. 
+  - &AIRFIELD1 #DONE
+    name: AIRFIELD1
+    mapDataSets:
+      - BLANKS
+      - AIRFIELDA
+      - AIRFIELDB
+      - AIRFIELDC
+      - AIRFIELDD
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: AIRFIELD1
+    mapBlocks:
+      - name: AIRFIELD00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD01
+        width: 20
+        length: 20
+        groups: 2
+      - name: AIRFIELD02
+        width: 20
+        length: 20
+        groups: 3
+      - name: AIRFIELD03
+        width: 10
+        length: 10
+      - name: AIRFIELD04
+        width: 10
+        length: 10
+      - name: AIRFIELD05
+        width: 20
+        length: 20
+      - name: AIRFIELD06
+        width: 10
+        length: 10
+      - name: AIRFIELD07
+        width: 20
+        length: 20
+      - name: AIRFIELD08
+        width: 10
+        length: 10
+      - name: AIRFIELD09
+        width: 10
+        length: 10
+      - name: AIRFIELD10
+        width: 20
+        length: 20
+      - name: AIRFIELD11
+        width: 20
+        length: 20
+        groups: 4
+      - name: AIRFIELD12
+        width: 20
+        length: 20
+      - name: AIRFIELD13
+        width: 10
+        length: 10
+      - name: AIRFIELD14
+        width: 20
+        length: 20
+      - name: AIRFIELD15
+        width: 20
+        length: 20
+      - name: AIRFIELD16
+        width: 20
+        length: 20
+      - name: AIRFIELD17
+        width: 20
+        length: 20
+      - name: AIRFIELD18
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD19
+        width: 10
+        length: 10
+        groups: [0, 1]
+  - name: AIRFIELD2
+    refNode: *AIRFIELD1
+    script: AIRFIELD2
+  - name: AIRFIELD3
+    refNode: *AIRFIELD1
+    script: AIRFIELD3
+  - name: AIRFIELD4
+    refNode: *AIRFIELD1
+    script: AIRFIELD4
+  - name: AIRFIELD5
+    refNode: *AIRFIELD1
+    script: AIRFIELD5
+  - name: AIRFIELD6
+    refNode: *AIRFIELD1
+    script: AIRFIELD6
+  - name: AIRFIELD7
+    refNode: *AIRFIELD1
+    script: AIRFIELD7
+  - name: AIRFIELD8
+    refNode: *AIRFIELD1
+    script: AIRFIELD8
+
+  - &APARTMENT #DONE
+    name: APARTMENT
+    mapDataSets:
+      - BLANKS
+      - APARTA
+      - APARTB
+      - APARTC
+      - APARTD
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: APARTMENT
+    mapBlocks:
+      - name: CITY00
+        width: 10
+        length: 10
+        groups: 2
+      - name: CITY01
+        width: 10
+        length: 10
+        groups: 3
+      - name: CITY02
+        width: 10
+        length: 10
+        groups: 4
+      - name: CITY03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: CITY04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: CITY05
+        width: 20
+        length: 20
+      - name: CITY06
+        width: 20
+        length: 20
+      - name: CITY07
+        width: 20
+        length: 20
+      - name: CITY08
+        width: 20
+        length: 20
+      - name: CITY09
+        width: 20
+        length: 20
+      - name: CITY14
+        width: 10
+        length: 10
+      - name: CITY15
+        width: 10
+        length: 10
+      - name: CITY16
+        width: 10
+        length: 10
+      - name: CITY17
+        width: 10
+        length: 10
+      - name: CITY18
+        width: 10
+        length: 10
+
+  - &DAWNCITY #DONE
+    name: DAWNCITY
+    mapDataSets:
+      - BLANKS
+      - DAWNUFO00
+      - DAWNUFO01
+      - DAWNUFO02
+      - DAWNUFO03
+    script: URBAN
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    mapBlocks:
+      - name: DAWN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DAWN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DAWN05
+        width: 20
+        length: 20
+      - name: DAWN06
+        width: 20
+        length: 20
+      - name: DAWN07
+        width: 20
+        length: 20
+      - name: DAWN08
+        width: 20
+        length: 20
+      - name: DAWN09
+        width: 20
+        length: 20
+      - name: DAWN14
+        width: 10
+        length: 10
+      - name: DAWN15
+        width: 10
+        length: 10
+      - name: DAWN16
+        width: 10
+        length: 10
+      - name: DAWN17
+        width: 10
+        length: 10
+      - name: DAWN18
+        width: 10
+        length: 10
+  - name: DAWNCITY_URBANA #DONE
+    refNode: *DAWNCITY
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    script: DAWNURBANA
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    mapBlocks:
+      - name: DAWNURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN07
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN09
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN10
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN11
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN12
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN14
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN16
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN17
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN18
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN19
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN20
+        width: 20
+        length: 20
+      - name: DAWNURBAN21
+        width: 20
+        length: 20
+      - name: DAWNURBAN22
+        width: 20
+        length: 20
+      - name: DAWNURBAN23
+        width: 20
+        length: 20
+      - name: DAWNURBAN24
+        width: 20
+        length: 20
+      - name: DAWNURBAN25
+        width: 20
+        length: 20
+      - name: DAWNURBAN26
+        width: 20
+        length: 20
+      - name: DAWNURBAN27
+        width: 20
+        length: 20
+      - name: DAWNURBAN28
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN29
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN30
+        width: 10
+        length: 10
+      - name: DAWNURBAN31
+        width: 10
+        length: 10
+      - name: DAWNURBAN32
+        width: 10
+        length: 10
+      - name: DAWNURBAN33
+        width: 10
+        length: 10
+      - name: DAWNURBAN34
+        width: 10
+        length: 10
+      - name: DAWNURBAN35
+        width: 10
+        length: 10
+      - name: DAWNURBAN36
+        width: 10
+        length: 10
+      - name: DAWNURBAN37
+        width: 10
+        length: 10
+      - name: DAWNURBAN38
+        width: 10
+        length: 10
+      - name: DAWNURBAN39
+        width: 10
+        length: 10
+  - name: DAWNCITY_URBANB #DONE
+    refNode: *DAWNCITY
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    script: DAWNURBANB
+    mapBlocks:
+      - name: DAWNURBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN41
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN42
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN43
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN44
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN45
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN46
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN47
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN48
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN49
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN50
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN51
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN52
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN53
+        width: 10
+        length: 10
+      - name: DAWNURBAN54
+        width: 10
+        length: 10
+      - name: DAWNURBAN55
+        width: 10
+        length: 10
+      - name: DAWNURBAN56
+        width: 10
+        length: 10
+      - name: DAWNURBAN57
+        width: 10
+        length: 10
+      - name: DAWNURBAN58
+        width: 10
+        length: 10
+      - name: DAWNURBAN59
+        width: 10
+        length: 10
+      - name: DAWNURBAN60
+        width: 20
+        length: 20
+      - name: DAWNURBAN61
+        width: 20
+        length: 20
+      - name: DAWNURBAN62
+        width: 20
+        length: 20
+      - name: DAWNURBAN63
+        width: 20
+        length: 20
+      - name: DAWNURBAN64
+        width: 20
+        length: 20
+      - name: DAWNURBAN65
+        width: 20
+        length: 20
+      - name: DAWNURBAN66
+        width: 20
+        length: 20
+      - name: DAWNURBAN67
+        width: 20
+        length: 20
+
+  - &DOWNTOWN #DONE
+    name: DOWNTOWN
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: DOWNTOWNURBAN
+    mapBlocks:
+      - name: DOWNTOWNURBAN00
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN01
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN02
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN03
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN05
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN06
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN07
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN08
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN09
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN10
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN11
+        width: 10
+        length: 10
+        groups: 4
+      - name: DOWNTOWNURBAN12
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN14
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN15
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN16
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN17
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN19
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN20
+        width: 10
+        length: 10
+        groups: 1
+      - name: DOWNTOWNURBAN21
+        width: 10
+        length: 10
+
+  - &INDUSTRIAL #DONE
+    name: INDUSTRIAL
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: INDUSTRIALURBAN
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+  - name: INDUSTRIAL_UFO #DONE
+    refNode: *INDUSTRIAL
+    script: INDUSTRIALUFO
+
+  - &MADCITY #DONE
+    name: MADCITY
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: MADURBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: MADURBAN10
+        width: 10
+        length: 10
+      - name: MADURBAN11
+        width: 20
+        length: 20
+      - name: MADURBAN12
+        width: 20
+        length: 20
+      - name: MADURBAN13
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: MADURBAN19
+        width: 10
+        length: 10
+      - name: MADURBAN20
+        width: 10
+        length: 10
+      - name: MADURBAN21
+        width: 10
+        length: 10
+      - name: MADURBAN22
+        width: 10
+        length: 10
+      - name: MADURBAN23
+        width: 10
+        length: 10
+      - name: MADURBAN24
+        width: 10
+        length: 10
+      - name: MADURBAN25
+        width: 10
+        length: 10
+      - name: MADURBAN26
+        width: 10
+        length: 10
+      - name: MADURBAN27
+        width: 20
+        length: 20
+      - name: MADURBAN28
+        width: 20
+        length: 20
+      - name: MADURBAN29
+        width: 20
+        length: 20
+      - name: MADURBAN30
+        width: 20
+        length: 20
+      - name: MADURBAN31
+        width: 20
+        length: 20
+      - name: MADURBAN32
+        width: 20
+        length: 20
+      - name: MADURBAN33
+        width: 20
+        length: 20
+      - name: MADURBAN34
+        width: 20
+        length: 20
+      - name: MADURBAN35
+        width: 20
+        length: 20
+      - name: MADURBAN36
+        width: 10
+        length: 10
+      - name: MADURBAN37
+        width: 10
+        length: 10
+      - name: MADURBAN38
+        width: 10
+        length: 10
+
+  - &POLIS #DONE
+    name: POLIS
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: POLISURBAN
+    mapBlocks:
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLISURBAN02
+        width: 60
+        length: 60
+      - name: POLISURBAN04
+        width: 60
+        length: 60
+      - name: POLISURBAN05
+        width: 60
+        length: 60
+      - name: POLISURBAN06
+        width: 60
+        length: 60
+  - &RAILYARD #DONE
+    name: RAILYARD
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - FRNITURE
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: RAILYARDURBAN
+    mapBlocks:
+      - name: RAILYARDURBAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: RAILYARDURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN02
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN03
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN05
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN06
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN07
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN08
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN09
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN11
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN12
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN13
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN14
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN15
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN16
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN17
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN18
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN19
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN20
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN21
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN22
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN23
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN24
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN25
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN26
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN27
+        width: 10
+        length: 10
+
+  - &SLUM #DONE
+    name: SLUM
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - DECKSHIPC
+      - LINERSHIPC
+      - PORTBITS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: SLUMURBAN
+    mapBlocks:
+      - name: SLUMURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN03
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN04
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN05
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN06
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN07
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN09
+        width: 10
+        length: 10
+        groups: 4
+      - name: SLUMURBAN10
+        width: 20
+        length: 20
+      - name: SLUMURBAN11
+        width: 20
+        length: 20
+      - name: SLUMURBAN12
+        width: 10
+        length: 20
+      - name: SLUMURBAN13
+        width: 10
+        length: 20
+      - name: SLUMURBAN14
+        width: 10
+        length: 20
+      - name: SLUMURBAN15
+        width: 10
+        length: 20
+      - name: SLUMURBAN16
+        width: 10
+        length: 20
+      - name: SLUMURBAN17
+        width: 10
+        length: 30
+      - name: SLUMURBAN18
+        width: 10
+        length: 30
+      - name: SLUMURBAN19
+        width: 10
+        length: 30
+      - name: SLUMURBAN20
+        width: 10
+        length: 30
+      - name: SLUMURBAN21
+        width: 10
+        length: 30
+      - name: SLUMURBAN22
+        width: 10
+        length: 30
+      - name: SLUMURBAN23
+        width: 10
+        length: 10
+      - name: SLUMURBAN24
+        width: 10
+        length: 10
+      - name: SLUMURBAN25
+        width: 10
+        length: 10
+      - name: SLUMURBAN26
+        width: 10
+        length: 10
+      - name: SLUMURBAN27
+        width: 10
+        length: 10 
+      - name: SLUMURBAN28
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN29
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN30
+        width: 10
+        length: 10
+        groups: 1
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN31
+        width: 10
+        length: 10
+        groups: 11
+
+  - name: SLUM_SLIM
+    refNode: *SLUM
+    script: SLUMURBAN_SLIM
+
+  - &URBAN
+    name: URBAN
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: URBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10

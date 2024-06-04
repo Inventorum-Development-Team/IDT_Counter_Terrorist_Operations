@@ -209,10 +209,10 @@ regions:
         - [0, 359.875, 87.5, 90]
       -
 #BEGIN NEW CITIES
-        - [299.474, 299.474, 73.638, 73.638, -4, STR_MCMURDO]
-        - [116.782, 116.782, 75.239, 75.239, -4, STR_VOSTOK]
-        - [0, 0, 90, 90, -4, STR_AMUNDSEN]
-        - [-58.96, -58.96, 62.2, 62.2, -4, STR_BELLINGSHAUSEN]
+        - [299.474, 299.474, 73.638, 73.638, -4, STR_MCMURDOSTATION]
+        - [116.782, 116.782, 75.239, 75.239, -4, STR_VOSTOKSTATION]
+        - [0, 0, 90, 90, -4, STR_AMUNDSENSCOTTSTATION]
+        - [-58.96, -58.96, 62.2, 62.2, -4, STR_BELLINGSHAUSENSTATION]
 #END NEW CITIES
       -
         - [291.125, 296.25, 68.25, 70.5]

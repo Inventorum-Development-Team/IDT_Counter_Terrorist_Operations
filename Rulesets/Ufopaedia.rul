@@ -338,16 +338,12 @@ ufopaedia:
 
   - id: STR_MANHURIN
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_MANHURIN_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 206
 
   - id: STR_VEKTOR
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_VEKTOR_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 207
@@ -359,6 +355,20 @@ ufopaedia:
     text: STR_STETCKIN_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 208
+
+  - id: STR_DEAGLE
+    type_id: 4
+    text: STR_DEAGLE_UFOPAEDIA
+    section: STR_PISTOLS
+    listOrder: 209
+
+  - id: STR_GOLDDEAGLE
+    type_id: 4
+    requires:
+     - STR_GOLDDEAGLE #STR_GOLDDEAGLE
+    text: STR_GOLDDEAGLE_UFOPAEDIA
+    section: STR_PISTOLS
+    listOrder: 209
 
   - id: STR_TEC_9
     type_id: 4
@@ -390,6 +400,12 @@ ufopaedia:
     section: STR_SMGS
     listOrder: 304
 
+  - id: STR_P90_SOPMOD
+    type_id: 4
+    text: STR_P90_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 304
+
   - id: STR_UZI
     type_id: 4
     requires:
@@ -400,28 +416,47 @@ ufopaedia:
 
   - id: STR_UMP
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_UMP_UFOPAEDIA
     section: STR_SMGS
     listOrder: 306
 
   - id: STR_VITYAZ
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_VITYAZ_UFOPAEDIA
     section: STR_SMGS
     listOrder: 307
 
   - id: STR_VERSEK
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_VERSEK_UFOPEDIA
     section: STR_SMGS
     listOrder: 308
 
+  - id: STR_SKORPIONEVO
+    type_id: 4
+    text: STR_SKORPIONEVO_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 309
+
+  - id: STR_FMG9
+    type_id: 4
+    text: STR_FMG9_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 310
+
+  - id: STR_CBJMS
+    type_id: 4
+    text: STR_CBJMS_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 311
+
+  - id: STR_MP7
+    type_id: 4
+    text: STR_MP7_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 312
+
+  #Rifles
   - id: STR_TAVOR
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
@@ -438,6 +473,13 @@ ufopaedia:
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_TAVOR_M203
+      text: STR_TAVOR_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_TAVOR_M203
+      text: STR_TAVOR_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 402
 
   - id: STR_TAVOR_95X
@@ -468,12 +510,25 @@ ufopaedia:
     type_id: 4
     text: STR_M4_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4_M320
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4_M320
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 407
 
   - id: STR_M4_UBS
     type_id: 4
-    text: STR_M4_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4_UBS
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4_UBS
+      text: STR_M4_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 408
 
   - id: STR_M4A1
@@ -492,12 +547,26 @@ ufopaedia:
     type_id: 4
     text: STR_M4A1_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4A1_M320
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4A1_M320
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 411
 
   - id: STR_M4A1_UBS
     type_id: 4
     text: STR_M4A1_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_M4A1_UBS
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M4A1_UBS
+      text: STR_M4A1_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 412
 
   - id: STR_AK12
@@ -526,33 +595,31 @@ ufopaedia:
 
   - id: STR_FAMAS
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 417
 
   - id: STR_FAMAS_SCOPED
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 418
 
   - id: STR_G36
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 419
 
   - id: STR_G36_AG
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_G36_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 420
+
+  - id: STR_G36C
+    type_id: 4
+    text: STR_G36C_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 420
 
@@ -572,26 +639,36 @@ ufopaedia:
     type_id: 4
     text: STR_HK416_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_HK416_M320
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_HK416_M320
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 423
 
   - id: STR_HK416_UBS
     type_id: 4
     text: STR_HK416_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_HK416_UBS
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_HK416_UBS
+      text: STR_HK416_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 424
 
   - id: STR_HK417
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 425
 
   - id: STR_HK417_SCOPED
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 426
@@ -624,6 +701,13 @@ ufopaedia:
     type_id: 4
     text: STR_SCAR_L_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_SCAR_L_GL
+      text: STR_SCAR_L_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_SCAR_L_GL
+      text: STR_SCAR_L_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 431
 
   - id: STR_SCAR_H
@@ -642,6 +726,13 @@ ufopaedia:
     type_id: 4
     text: STR_SCAR_H_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_SCAR_H_GL
+      text: STR_SCAR_H_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_SCAR_H_GL
+      text: STR_SCAR_H_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 434
 
   - id: STR_G11
@@ -666,6 +757,25 @@ ufopaedia:
     type_id: 4
     text: STR_M16A2_UFOPAEDIA
     section: STR_RIFLES
+    listOrder: 438
+
+  - id: STR_M16A2_SCOPED
+    type_id: 4
+    text: STR_M16A2_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 438
+
+  - id: STR_M16A2_M203
+    type_id: 4
+    text: STR_M16A2_UFOPAEDIA
+    section: STR_RIFLES
+    pages:
+    - title: STR_M16A2_M203
+      text: STR_M16A2_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M16A2_M203
+      text: STR_M16A2_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 438
 
   - id: STR_AR_18
@@ -700,12 +810,29 @@ ufopaedia:
 
   - id: STR_G3
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_G3_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 444
 
+  - id: STR_M14_EBR
+    type_id: 4
+    text: STR_M14_EBR_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 445
+
+  - id: STR_M14_EBR_SCOPED
+    type_id: 4
+    text: STR_M14_EBR_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 445
+
+  - id: STR_RK_62
+    type_id: 4
+    text: STR_RK_62_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 446
+
+  #Snipers
   - id: STR_HUNTING_RIFLE
     type_id: 4
     text: STR_HUNTING_RIFLE_UFOPAEDIA
@@ -784,6 +911,7 @@ ufopaedia:
     section: STR_SNIPERS
     listOrder: 511
 
+  #Shotguns
   - id: STR_DOUBLE_BARREL
     type_id: 4
     text: STR_DOUBLE_BARREL_UFOPAEDIA
@@ -798,8 +926,6 @@ ufopaedia:
 
   - id: STR_SPAS_12
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_SPAS_12_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 602
@@ -836,7 +962,20 @@ ufopaedia:
     section: STR_SHOTGUNS
     listOrder: 607
 
+  - id: STR_M3
+    type_id: 4
+    text: STR_M3_UFOPAEDIA
+    section: STR_SHOTGUNS
+    listOrder: 608
 
+  - id: STR_SERBU
+    type_id: 4
+    text: STR_SERBU_UFOPAEDIA
+    section: STR_SHOTGUNS
+    listOrder: 609
+
+
+  #LMGs
   - id: STR_M60
     type_id: 4
     text: STR_M60_UFOPAEDIA
@@ -865,8 +1004,6 @@ ufopaedia:
 
   - id: STR_RPK_74
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_RPK_74_UFOPAEDIA
     section: STR_LMGS
     listOrder: 704
@@ -885,6 +1022,13 @@ ufopaedia:
     section: STR_LMGS
     listOrder: 706
 
+  - id: STR_CBJMS_SAW
+    type_id: 4
+    text: STR_CBJMS_UFOPAEDIA
+    section: STR_LMGS
+    listOrder: 707
+
+  #Heavy weapons
   - id: STR_MGL
     type_id: 4
     text: STR_MGL_UFOPAEDIA
@@ -893,8 +1037,6 @@ ufopaedia:
 
   - id: STR_GM_94
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_GM_94_UFOPAEDIA
     section: STR_ARTILLERY
     listOrder: 802
@@ -919,6 +1061,7 @@ ufopaedia:
     section: STR_ARTILLERY
     listOrder: 805
 
+  #Ammo
   - id: STR_TASER_X1
     type_id: 4
     text: STR_TASER_AMMO_UFOPAEDIA
@@ -975,16 +1118,12 @@ ufopaedia:
 
   - id: STR_9MM_GYURZA_X20
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1008
 
   - id: STR_9MM_GYURZA_X30
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1009
@@ -1189,6 +1328,12 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1040
 
+  - id: STR_12G_BREACHING_X5
+    type_id: 4
+    text: STR_12G_BREACHING_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1040
+
   - id: STR_12G_BUCKSHOT_X8
     type_id: 4
     text: STR_12G_BUCKSHOT_UFOPAEDIA
@@ -1219,6 +1364,12 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1045
 
+  - id: STR_12G_INCENDIARY_X8
+    type_id: 4
+    text: STR_12G_INCENDIARY_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1046
+
   - id: STR_SHRAPNEL_25_X3
     type_id: 4
     text: STR_SHRAPNEL_25_UFOPAEDIA
@@ -1236,6 +1387,24 @@ ufopaedia:
     text: STR_VOLNA_R_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1048
+
+  - id: STR_HK_4_6_30mmX20
+    type_id: 4
+    text: STR_HK_4_6_30MM_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1049
+
+  - id: STR_HK_4_6_30mmX30
+    type_id: 4
+    text: STR_HK_4_6_30MM_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1050
+  
+  - id: STR_HK_4_6_30mmX40
+    type_id: 4
+    text: STR_HK_4_6_30MM_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1050
 
   # - id: STR_ZEVADA_X3
   #   type_id: 4
@@ -1275,8 +1444,6 @@ ufopaedia:
 
   - id: STR_APAV40_X1
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_APAV40_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1054
@@ -1315,21 +1482,45 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1059
 
+  - id: STR_BALISTIC_KNIFE_X1
+    type_id: 4
+    text: STR_BALISTIC_KNIFE_AMMO_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1061
+
+  - id: STR_50_AE_X7 
+    type_id: 4
+    text: STR_50_AE_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1060
+
+  - id: STR_65CBJ_X30 
+    type_id: 4
+    text: STR_65CBJ_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1010
+
+  - id: STR_65CBJ_X100 
+    type_id: 4
+    text: STR_65CBJ_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1010
+
   - id: STR_GRENADE
     type_id: 4
-    text: "..."
+    text: STR_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1099
 
   - id: STR_IMPACT_GRENADE
     type_id: 4
-    text: "..."
+    text: STR_IMPACT_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1100
 
   - id: STR_SMOKE_GRENADE
     type_id: 4
-    text: "..."
+    text: STR_SMOKE_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1101
 
@@ -1341,19 +1532,43 @@ ufopaedia:
 
   - id: STR_HIGH_EXPLOSIVE
     type_id: 4
-    text: "..."
+    text: STR_HIGH_EXPLOSIVE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1103
 
+  - id: STR_C4
+    type_id: 4
+    text: "Small explosion with high power, perfect for breaching through walls."
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
   - id: STR_MOLOTOV
     type_id: 4
-    text: "..."
+    text: STR_MOLOTOV_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1104
 
   - id: STR_RIOT_SHIELD
     type_id: 4
     text: STR_RIOT_SHIELD_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
+  - id: STR_KNIFE
+    type_id: 4
+    text: STR_KNIFE_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
+  - id: STR_BALISTIC_KNIFE
+    type_id: 4
+    text: STR_BALISTIC_KNIFE_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1105
+
+  - id: STR_HAMMER
+    type_id: 4
+    text: STR_HAMMER_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1105
 
@@ -1365,8 +1580,15 @@ ufopaedia:
 
   - id: STR_ELECTRO_FLARE
     type_id: 4
+    text: STR_FLARE_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1107
+
+  - id: STR_MEDKIT
+    type_id: 4
+    text: STR_MEDKIT_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1115
 
   - id: STR_SCOPE
     type_id: 4
@@ -1535,15 +1757,23 @@ extraStrings:
       STR_MANHURIN_UFOPAEDIA: "A small revolver chambered in .38 Special. The Manhurin MR73 is carefully manufactured with many parts being hand-fitted. Despite its low capacity, it is favoured by the GIGN due to its reliability and accuracy."
       STR_VEKTOR_UFOPAEDIA: "A russian semi-automatic pistol based on the Beretta 92. It is also known as the Gyurza, based on the ammunition it fires."
       STR_STETCKIN_UFOPAEDIA: "An automatic pistol of soviet origin, the Stechkin automatic pistol was one of the first machine pistols that saw prolific use. It was phased out of active service due to its high cost, heavy weight and limited effective range, however it still found use from special forces."
+      STR_DEAGLE_UFOPAEDIA: "The Desert Eagle is a high caliber semi-automatic pistol. Originally designed by Magnum Research Inc., production was given to IMI who further refined the design. .50 AE hits hard, but will struggle against armored opponents."
+      STR_GOLDDEAGLE_UFOPAEDIA: "That was one rich terrorist! Personally I would have gone with the tiger stripes but still, we could probably make a ton of cash from selling this. Also it goes without saying but there is no way in hell we can convince the council to let us buy these."
+      
       STR_TEC_9_UFOPAEDIA: "Originally developed for military use, the TEC-9 gained notoriety due to its use by criminal groups. Despite the negative reputation and gun control legislation limiting it's sale, the machine pistol became a commercial success on the civilian market."
       STR_MP5_UFOPAEDIA: "The MP5 is one of the most widely used submachine guns in the world. It is used by everything from military forces to private security organizations. It gained significant fame due to its use by the SAS during the Iranian embassy siege in 1980."
       STR_MPX_UFOPAEDIA: "The SIG MPX is a relatively modern submachine gun, designed in 2013. It features a closed, rotating bolt, which is rare for submachine guns. This design choice was chosen to increase user safety and reliability."
       STR_P90_UFOPAEDIA: "The P90 is an unconventional design with a distinctive appearance. It is extremely compact and has an unique top-mounted magazine. Despite as a personal defence weapon being meant for use by military support personnel, the firearm has seen significant adoption among special forces and counter-terrorist units."
       STR_SKORPION_UFOPAEDIA: "A machine pistol designed in Czechoslovakia as a sidearm for vehicle drivers and army staff, designed to be compact to fit into the limited space of armored vehicles. It saw wide use by many armed groups, both terrorist and criminal. "
+      STR_SKORPIONEVO_UFOPAEDIA: "The Scorpion Evo is a fast fireing submachine gun manufactured by CZ. Its firerate of about 1200 rpm makes it hit hard in QCB, but causes it to burn through ammo quickly."
       STR_UZI_UFOPAEDIA: "The Uzi was one of the first weapons utilizing a telescopic bolt, making the short length of the weapon possible. Developed in Israel, it saw widespread use in over 90 countries and is one of the most produced sub-machine guns in the world."
       STR_UMP_UFOPAEDIA: "While designed as a successor to the MP5, the UMP never saw the same success as its predecessor, despite containing numerous improvements. Unlike the MP5, the UMP is available in the .45 ACP cartridge, giving it more stopping power but having a slightly slower fire rate to compensate for the increased recoil."
       STR_VITYAZ_UFOPAEDIA: "The PP-19 Vityaz, meaning knight in russian, is the standard submachine gun for the russian military and law enforcement. The design is based on the AK-74, with many parts being interchangeable between the weapons."
       STR_VERSEK_UFOPEDIA: "While being developed at the behest of the russian Federal Security Service, the SR-2 gained the nickname Versek, meaning Heather. It has a gas-operated action with a rotating bolt, a feature more common in rifles than in submachine guns."
+      STR_FMG9_UFOPAEDIA: "Designed as a prototype in 2008 by Magpul, The FMG 9 is a compact folding submachine gun. While origianlly only demostrated as a proof of concept, we were able to track down a small company that has managed to copy and reproduce the design, selling them to SOF units at a shockingly affordable price all things considered."
+      STR_CBJMS_UFOPAEDIA: "The CBJMS is a Swedish PDW that fires the 6.5x25mm CBJ cartridge. It was designed to be able to fill the role of a PDW, Rifle, and SAW with slight modifications."
+      STR_MP7_UFOPAEDIA: "Created as an answer for a NATO request for a SMG-like weapon that could defeat body armor, the H&K MP7 became the direct rival to the FN P90. It is chambered in HK 4.6x30mm, a cartridge designed specifically for the weapon. Its small size makes it easy to conceal and makes it a viable choice for a sidearm."
+
       STR_TAVOR_UFOPAEDIA: "The IWI Tavor was designed for the IDF as a possible replacement to the M16. The weapons design prioritizes ease of maintenance, durability and reliability. Its bullpup design makes the rifle better suited to close quarters combat than rifles of conventional design."
       STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."
       STR_M4_UFOPAEDIA: "The M4A1 is a variant of the M4 that replaces the burst fire mode in favor of a fully automatic mode, as it was considered to be better for clearing rooms. The carbine variant was intended for special operations use and is used by most US special forces units."
@@ -1552,6 +1782,7 @@ extraStrings:
       STR_AK15_UFOPAEDIA: "The AK-15 is a variant of the AK-12 chambered in 7.62x39mm, granting it better effective range and stopping power at the cost of weight. It was designed at the request of the russian armed forces and is compatible with box magazines of preceding AK rifles."
       STR_FAMAS_UFOPAEDIA: "The FAMAS is the service rifle of the French military. Notable for its high fire rate, the FAMAS is known as le Clarion (the Bugle) by french troops due to its shape."
       STR_G36_UFOPAEDIA: "The Heckler & Koch G36 serves as the service rifle of the Bundeswehr. It has both an reflex sight and a telescopic sight with 3x magnification. The rifle saw controversy after reports claimed its accuracy degraded due to overheating in desert conditions after only firing two magazines."
+      STR_G36C_UFOPAEDIA: "The Heckler & Koch G36C is the compact version of the G36. The rifle is more manuverable and lighter then the G36, at the cost of slight accuracy and range."
       STR_HK416_UFOPAEDIA: "The Heckler & Koch HK416 is an assault rifle of german origin, being designed based on the M4 carbine while drawing some design features from the G36. The Rifle has seen extensive adoption by many special forces units and has been chosen as the standard issue rifle both by the French and Norwegian militaries."
       STR_HK417_UFOPAEDIA: "The Heckler & Koch HK417 is the battle rifle variant of the HK416, using the heavier 7.62x51mm cartridge. It is primarily meant to serve as a designated marksman rifle."
       STR_FX_05_UFOPAEDIA: "Named after a Aztec mythological fire serpent, the FX-05 was specifically designed as a cost-effective service rifle for the Mexican military. It features rare polygonal rifling meant to increase the barrels durability and reduce wear."
@@ -1567,6 +1798,9 @@ extraStrings:
       STR_AK_74_UFOPAEDIA: "The AK-74 was designed as a replacement for the AKM. Firing the smaller 5.45x39mm cartridge (replacing the Soviet 7.62x39mm) the rifle sacrificed some of its firepower in exchange of less recoil."
       STR_FN_FAL_SCOPED_UFOPAEDIA: "The FN FAL is one of the most widely used assault rifles. Used during the early cold war by many countries within NATO and other nations friendly with the alliance, due to this the rifle has gained the nickname The right arm of the free world"
       STR_G3_UFOPAEDIA: "A battle rifle designed by Heckler & Koch and CETME. The G3 was the service rifle of the Bundeswehr during the cold war and saw use in numerous militaries and in some guerilla movements."
+      STR_M14_EBR_UFOPAEDIA: "A battle rifle designed in 2001 for the US Navy SEALs, The M14 EBR was made as a requrest for a more compact M14. The high recoil makes fireing the weapon full auto ill advised."
+      STR_RK_62_UFOPAEDIA: "The RK 62 is a Finnish assault rifle based on the AK-47. It was designed for cold weather, and is quite accurate, with higher quality ironsights and a low MOA compaired to a normal AK."
+      
       STR_HUNTING_RIFLE_UFOPAEDIA: "Different models of hunting rifles are easily available to civilians that acquire hunting licenses. While intended to hunt animals they are still lethal against human targets, though they struggle against armored targets and are usually outperformed by most, if not all military rifles."
       STR_SKS_SCOPED_UFOPAEDIA: "The SKS is a semi-automatic carbine originally meant to be used by soviet armed forces, but it was quickly overshadowed by the AK-47. The SKS nevertheless found success among irregular forces thanks to its light weight, simple design and ease of use. The SKS also found popularity in North America as a hunting and sporting weapon."
       STR_PSG_1_UFOPAEDIA: "After the Munich massacre at the 1972 Olympics the lack of precision shooting capability in the West German police became apparent. In response to this, the PSG1 was adopted. The PSG1 is an highly capable sniper rifle still in use today by both law enforcement and special forces."
@@ -1579,6 +1813,7 @@ extraStrings:
       STR_AW_UFOPAEDIA: "The Accuracy International Arctic Warfare Magnum is a British bolt-action sniper rifle. It was designed to perform well even in extremely cold environments like Scandinavia, this capability is what has given the rifle its name."
       STR_M24_SWS_UFOPAEDIA: "The M24 Sniper Weapon System is a american sniper rifle based on the Remington Model 700. It was adopted as the standard sniper rifle of the US Army in 1988."
       STR_M82_UFOPAEDIA: "The Barret M82 is an anti-materiel sniper rifle used by the US army during Desert Shield and Desert Storm. The Rifle is extremely powerful, capable of penetrating the armor of some armored vehicles. During the Troubles in Ireland some M82:s were smuggled in for the use of the IRA."
+      
       STR_DOUBLE_BARREL_UFOPAEDIA: "Double-barreled shotguns are commonly used to hunt birds, however with the right ammunition it can become an effective weapon even against human targets. They are popular among irregular forces due to their availability and effectiveness even by inexperienced users. Their main drawback is that they only hold two cartridges."
       STR_SERBU_UFOPAEDIA: "The Serbu Super-Shorty is an extremely compact pump-action shotgun. While not as accurate as many other shotguns its small size enables its use as a sidearm."
       STR_REMINGTON_UFOPAEDIA: "The Remington 870 is a shotgun widely used for sport shooting, hunting, law enforcement and military purposes. It is a reliable and inexpensive design and has held the record for being the best selling shotgun in the world."
@@ -1588,6 +1823,8 @@ extraStrings:
       STR_AA_12_UFOPAEDIA: "The Auto Assault-12 is one of the earliest automatic shotgun designs. While only capable of firing in fully automatic mode, semi-automatic fire is possible with brief trigger pulls. The weapon saw little success and extremely few models have been produced."
       STR_USAS_12_UFOPAEDIA: "The Daewoo Precision Industries USAS-12:s design is based on the AA-12. Though unlike the AA-12 the USAS-12 was a selective fire weapon, and it found commercial success especially in east Asian markets."
       STR_SAIGA_12_UFOPAEDIA: "The Saiga-12 is a russian automatic shotgun named after the Saiga antelope. It is based on the kalashnikov series of rifle and has seen use as a hunting weapon and as a combat shotgun used by militaries and law enforcement."
+      STR_M3_UFOPAEDIA: "The Benelli M3 is an italian pump action shotgun, The choke on it will provide significantly increased effectiveness at range compaired to other shotguns on offer. In theory it's able to swap to semi-automatic but that feature is inexplicably missing."
+
       STR_M60_UFOPAEDIA: "A general-purpose machine gun that served as the primary machine gun on the US military during the first half of the cold war. While it saw extensive use, early versions were plagued by reliability issues. While newer designs are available the M60 is still widely used and some have even fallen into the hands of terrorist organizations."
       STR_M249_UFOPAEDIA: "An American adaption of the Belgian FN Minimi, the M249 is a light machine gun widely used by the US armed forces. Unlike many other machine guns, the M249 can be fed both from linked ammunition and STANAG magazines, though the use of the latter is advised to only be used in emergencies due to a higher rate of malfunctions."
       STR_FN_MINIMI_UFOPAEDIA: "A Squad automatic weapon of belgian origin chambered in 5.56 NATO. It has been adopted by numerous countries and served as a base for multiple variants, such as the american M249 and MK 48."
@@ -1595,6 +1832,7 @@ extraStrings:
       STR_RPK_74_UFOPAEDIA: "The RPK-74M is the modernized version of the RPK-74, which itself is a variant of the RPK chambered in 5.45x39mm. It is a light machine gun designed to be compatible with magazines developed for the AK-74."
       STR_PECHENEG_UFOPAEDIA: "A russian general-purpose machine gun that has a heavy non-removable barrel that is forced-air-cooled instead of relying on the barrel to be switched during heavy use. The PHP Pecheneg has seen extensive use by Spetsnaz units. Its name is derived from the pecheneg people, a tribe that lived in the steppes of Russia and Ukraine."
       STR_NEGEV_UFOPAEDIA: "The IWI Negev is an israeli light machine gun adopted by the IDF. It was designed to be reliable in adverse conditions."
+      
       STR_M320_UFOPAEDIA: "The M320 was designed as a replacement for the M203 underbarrel grenade launcher. Unlike its predecessor, the M320 can be used stand-alone weapon as well as being mounted on a rifle. It can fire a multitude of 40mm grenades, from frag grenades to non-lethal sponge grenades."
       STR_GM_94_UFOPAEDIA: "A russian pump-action grenade launcher designed for urban fighting and room-to-room combat. It has a simple design that allows it to operate in adverse environments and even after being submerged in water."
       STR_MGL_UFOPAEDIA: "The Milkor MGL is a grenade launcher with a revolving cylinder magazine that can contain 6 40mm grenades. Its design means it can quickly and accurately bring a lot of firepower to an enemy target. "
@@ -1610,6 +1848,10 @@ extraStrings:
       STR_9MM_GYURZA_UFOPAEDIA: "The 9x21mm Gyurza cartridge is a russian handgun round designed to defeat body armour. Its name means blunt-nosed viper in russian."
       STR_FN_57_UFOPAEDIA: "The FN 5.7x28mm cartridge was designed as a replacement to the 9mm parabellum cartridge, though it was never adopted as a NATO standard due to objections of some member nations. It has proven to be very effective against armor. The cartridge was designed alongside the FN P90 and FN Five-seveN, both of which use the round."
       STR_45_ACP_UFOPAEDIA: "The .45 ACP (Automatic Colt Pistol) cartridge was designed for use in prototype Colt semi automatic pistols, and was later chosen to be used in the M1911. While having more stopping power, .45 ACP has generally seen less adoption than the 9x19mm cartridge due to being heavier, larger and more expensive."
+      STR_50_AE_UFOPAEDIA: "The .50 AE round was designed in 1988 for high caliber semi-automatic pistols. It has the largest possible legal diameter before being declared a destructive device under US law"
+      STR_65CBJ_UFOPAEDIA: "The 6.5x25mm CBJ round was designed to be a armour piercing PDW cartridge that could replace 9mm. It shares the same dimensions as 9mm, allowing most 9mm weapons to be converted to use the round with just a barrel change."
+      STR_HK_4_6_30MM_UFOPAEDIA: "Designed for the H&K MP7, the HK 4.6x30mm cartridge was designed to be light-weight and small while still rivaling the armor-piercing capabilities of larger cartridges."
+
       STR_CASELESS_4_73_UFOPAEDIA: "Used in the G11, the most notable quality of the 4-73x33mm cartridge is that it is caseless, consisting only of a propellant, booster and the bullet itself. The lack of a case leads to a lesser weight and the elimination of the need to extract the case from the firearm after firing."
       STR_5_45_UFOPAEDIA: "The 5.45x39mm served as the replacement for the 7.62x39mm cartridge in the soviet military. It followed the general trend of smaller light-weight cartridges being commonly adopted, due to to their better performance in automatic weapons."
       STR_5_56_UFOPAEDIA: "Due to the criticism of the 7.62 NATO cartridges performance in automatic fire of a hand-held service rifle, the 5.56x45 NATO was selected as the second standard service rifle cartridge of NATO in 1980. While less powerful than the 7.62 cartridge, the 5.56 NATO makes up for it by being lighter and having less recoil, making it easer to control when firing in a fully automatic mode."
@@ -1618,15 +1860,20 @@ extraStrings:
       STR_NATO_7_62_UFOPAEDIA: "The 7.62x51mm NATO was chosen as the first standard NATO rifle cartridge. Though it has been mostly supplanted by the NATO 5.56 cartridge, it is still commonly used in marksman and sniper rifles, due to its power."
       STR_SOVIET_7_62_MMR_UFOPAEDIA: "One of the oldest, still-used military cartridges, The 7.62x54mmR was originally designed for the Mosin-Nagant rifle. While not commonly used in service rifles anymore, it is still used as a sniper rifle and machine gun cartridge."
       STR_9_39_UFOPAEDIA: "The 9x39mm is a sub-sonic rifle cartridge developed for silenced weapons. It was designed with the intent to provide a more powerful alternative to pistol rounds that are more commonly used in silenced weapons."
+      
       STR_338_LAPUA_UFOPAEDIA: "Developed as a joint venture between British and Finnish rifle manufacturers to be a high power cartridge for military snipers. It can penetrate body armor even over the range of one kilometer."
       STR_50_BMG_UFOPAEDIA: "The most powerful cartridge available for us. The .50 BMG was developed for the M2 Browning machine gun but has also been used in sniper and anti-materiel rifles. A single .50 BMG round is capable of penetrating brick walls or disable a vehicle if fired into the engine block."
       STR_127_UFOPAEDIA: "A russian heavy machine gun and anti-materiel rifle round that is analogous to the .50 BMG cartridge, to the point that the two cartridges are sometimes incorrectly claimed to be interchangeable."
+      
       STR_12G_BUCKSHOT_UFOPAEDIA: "Buckshot rounds consists of shells packed with small lead pellets approximately 8mm in diameter, creating a lethal hail when fired. Due to the pellets spreading out the further they travel, the effective range of buckshot shells is only around 30-40 meters."
       STR_12G_SLUG_UFOPAEDIA: "Shotgun slugs consist of a single solid projectile instead of multiple pellets like buckshot rounds, giving them more power and accuracy."
       STR_12G_NON_LETHAL_UFOPAEDIA: "Meant to be used as a way to subdue targets, non-lethal rounds consist of rubber instead of lead. While considerably less lethal than buckshot, they can still kill someone if fired against a close or wounded targets. They also lose power faster than conventional shells."
+      STR_12G_INCENDIARY_UFOPAEDIA: "Incendiary shotgun shells not typicaly used for military operations, they use magnesius pellets that cause cause a blast of fire when shot. These ones however have been modifed to fire lead as well as magnesium pellets. It dosen't hit nearly as hard as buckshot, however what it dose hit will be lit on fire."
+      STR_12G_BREACHING_UFOPAEDIA: "High powered breaching shotgun shells designed to destroy doors, walls, or most other things that get in your way. While still lethal, it is significantly less effective then normal buckshot against people."
       STR_SHRAPNEL_25_UFOPAEDIA: "Buckshot round for the KS-23. It has an effective range of 25 meters."
       STR_BARRICADE_UFOPAEDIA: "Powerful solid steel slug for the KS-23 shotgun. Powerful enough to destroy an engine block at the range of a 100 meters."
       STR_VOLNA_R_UFOPAEDIA: "Non-Lethal rubber cartridge for the KS-23. "
+      
       STR_40MM_FRAG_UFOPAEDIA: "40mm fragmentation grenade designed to be fired from a grenade launcher."
       STR_40MM_SMOKE_UFOPAEDIA: "40mm smoke grenade designed to be fired from a grenade launcher."
       STR_40MM_NON_LETHAL_UFOPAEDIA: "40mm non-lethal bean bag round to be fired from a grenade launcher."
@@ -1637,6 +1884,7 @@ extraStrings:
       STR_RPG_29_HEAT_UFOPAEDIA: "A HEAT round for the RGP-29 with a tandem-charge meant to defeat explosive reactive armor."
       STR_RPG_29_THERMO_UFOPAEDIA: "A Thermobaric anti-personnel round. The thermobaric warhead generates a high-temperature explosion using surrounding oxygen in the air."
 
+      STR_BALISTIC_KNIFE_AMMO_UFOPAEDIA: "Blade launched as a projectile for the Ballistic Knife. You could probably still stab someone with this, although it might be a bit more cumbersome then just using it in the knife."
 
       STR_SCOPE_UFOPAEDIA: "A telescopic sight capable of being attached onto a rifle, improving long range accuracy while slightly inhibiting accuracy of automatic fire."
       STR_SOPMOD_KIT_UFOPAEDIA: "The Special Operations Peculiar Modification kit is a collection of accessories capable to e attached to the M4, SCAR, HK416 and other weapons used by US Special Forces Command. The kit contains scopes, suppressors, and several foregrips to improve accuracy and ease handling."
@@ -1645,9 +1893,19 @@ extraStrings:
       STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
       STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster."
       
+      STR_MOLOTOV_UFOPAEDIA: "A glass bottle filled with a flammable liquid, such as gasoline. The cloth on the top of the bottle is ignited before being thrown, causing the liquid to ignite when the bottle hits its target and shatters."
+      STR_HIGH_EXPLOSIVE_UFOPAEDIA: "A large explosive, capable of completely demolishing a small building."
+      STR_SMOKE_GRENADE_UFOPAEDIA: "On impact expands into a ball of smoke that conceals units, however it does not provide any thermal protection so units with thermal gear can still see through."
+      STR_IMPACT_GRENADE_UFOPAEDIA: "An explosive grenade that detonates on impact, less powerfull then our normal frag grenades."
+      STR_GRENADE_UFOPAEDIA: "Frag grenades cause an explosion that launches metal fragmenent, dealing damage to everything around them."
       STR_FLASHBANG_UFOPAEDIA: "Flashbangs emit a loud bang and produce an extremely bright light on explosion, which blinds, deafens and disorients anyone nearby. Flashbangs significantly reduces target accuracy and reactions for a turn."
       STR_RIOT_SHIELD_UFOPAEDIA: "Ballistic shields are shields designed to stop or deflect bullets. When a soldier is carrying a ballistic shield, any bullets impacting  their front will have a 85% chance of inflicting no damage, this increases to 95% when the soldier is kneeling."
       STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, or have dropped their weapons, using handcuffs will stun them."
+      STR_FLARE_UFOPAEDIA: "A bright hand-held flare, Can be lit and tossed to illuminate dark areas."
+      STR_MEDKIT_UFOPAEDIA: "Large waterproof medical kit, Contains significantly more supplies then a field dressing, however is quite heavy and takes up quite a bit of space."
+      STR_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  A Combat knife. Light and lethal, only problem is you have to get close to stab people with it, which is not great for your health."
+      STR_HAMMER_UFOPAEDIA: "Energy Cost: 20                                                                                                                                   Its a hammer, You can smash just about any obsticle in your way including wood, bricks, metal, concrete, and explosive barrels (not recommended), dosen't work for people, that usually ends up poorly."
+      STR_BALISTIC_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  Melee damage and accuracy are exactly the same as the knife.       A knife that can be launchd as a projectile as well as used to stab people, only problem is if you shoot the knife then you can't stab people with it."
 
       STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
       STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."

@@ -75,6 +75,10 @@ items:
     ammo: # required by battleType
         0:
          compatibleAmmo: [STR_TASER_X1] # ammo is defined later
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
@@ -141,6 +145,7 @@ items:
 
   - &STR_AR
     type: STR_AR
+    battleType: 1 #Redundent here, however needed for wiki
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -153,6 +158,7 @@ items:
 
   - &STR_AR_UBS
     type: STR_AR_UBS
+    battleType: 1 #Redundent here, however needed for wiki
     confAimed:
       shots: 3
       name: STR_BURST
@@ -170,6 +176,7 @@ items:
 
   - &STR_AR_GL
     type: STR_AR_GL
+    battleType: 1 #Redundent here, however needed for wiki
     confAimed:
       shots: 3
       name: STR_BURST
@@ -244,7 +251,7 @@ items:
     power: 29
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 11 
+    bulletSprite: 11
     battleType: 2
     damageType: 1
     damageAlter:
@@ -255,7 +262,7 @@ items:
     power: 31
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 11 
+    bulletSprite: 11
     battleType: 2
     damageType: 1
     damageAlter:
@@ -266,7 +273,7 @@ items:
     power: 34
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 11 
+    bulletSprite: 11
     battleType: 2
     damageType: 1
     damageAlter:
@@ -290,7 +297,7 @@ items:
     power: 32
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    bulletSprite: 12 
+    bulletSprite: 12
     battleType: 2
     damageType: 1
     damageAlter:
@@ -302,13 +309,27 @@ items:
     power: 35
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 2
+    battleType: 2
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+  - &STR_50AE_PISTOL_AMMO
+    type: STR_50AE_PISTOL_AMMO
+    power: 40
+    hitAnimation: 26
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     bulletSprite: 2 
     battleType: 2
     damageType: 1
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
-      ToArmorPre: 0.5
+      ToArmorPre: 0
+      ToHealth: 1.25
+      ArmorEffectiveness: 1.5
   #RIFLE AMMO
   - &STR_CASELESS_4_73_AMMO
     type: STR_CASELESS_4_73_AMMO
@@ -317,7 +338,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 12 
+    bulletSprite: 12
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -329,7 +350,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 13 
+    bulletSprite: 13
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -341,14 +362,14 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 14 
+    bulletSprite: 14
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
       ToArmorPre: 0.4
   - &STR_22_LONG_RIFLE_AMMO
     type: STR_22_LONG_RIFLE_AMMO
-    power: 33
+    power: 28
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
@@ -365,7 +386,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 13 
+    bulletSprite: 13
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -377,7 +398,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 15 
+    bulletSprite: 15
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -389,7 +410,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 13 
+    bulletSprite: 13
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -401,7 +422,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 16 
+    bulletSprite: 16
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -413,7 +434,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 17 
+    bulletSprite: 17
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -425,7 +446,7 @@ items:
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     battleType: 2
     damageType: 1
-    bulletSprite: 18 
+    bulletSprite: 18
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
@@ -447,7 +468,8 @@ items:
     type: STR_12G_BUCKSHOT
     power: 25
     shotgunPellets: 10
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -473,7 +495,8 @@ items:
     type: STR_12G_NON_LETHAL
     power: 10
     shotgunPellets: 10
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -487,11 +510,58 @@ items:
       ToStun: 4.0
       ToWound: 0
 
+  - &STR_12G_INCENDIARY
+    type: STR_12G_INCENDIARY
+    power: 25
+    shotgunPellets: 10
+    shotgunSpread: 0
+    shotgunBehavior: 1
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitAnimation: 26
+    bulletSprite: 3
+    battleType: 2
+    damageType: 1
+    damageAlter:
+      RandomType: 1
+      FireThreshold: 0
+      SmokeThreshold: 1000
+      FireBlastCalc: false
+      IgnoreDirection: false
+      ArmorEffectiveness: 0.75
+      ToArmor: 0.1
+      ToWound: 1.0
+      ToTile: 0.5
+      ToStun: 0.25
+      ToMorale: 2
+      RandomMorale: true
+      TileDamageMethod: 1
+      IgnoreOverKill: true
+
+  - &STR_12G_BREACHING
+    type: STR_12G_BREACHING
+    power: 10
+    shotgunPellets: 4
+    shotgunSpread: 25
+    shotgunBehavior: 1
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitAnimation: 26
+    bulletSprite: 3
+    battleType: 2
+    damageType: 1
+    #powerRangeThreshold: 3
+    #powerRangeReduction: 2
+    damageAlter:
+      RandomType: 1
+      IgnoreOverKill: true
+      TileDamageMethod: 1
+      ToTile: 3
+
   - &STR_SHRAPNEL_25
     type: STR_SHRAPNEL_25
     power: 25
     shotgunPellets: 20
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -517,7 +587,8 @@ items:
     type: STR_VOLNA_R
     power: 10
     shotgunPellets: 20
-    shotgunSpread: 100
+    shotgunSpread: 0
+    shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
     bulletSprite: 3
@@ -662,6 +733,31 @@ items:
       ToArmorPre: 0.2
       FixRadius: 7
 
+  - &STR_LAUNCHED_BLADE
+    type: STR_LAUNCHED_BLADE
+    power: 40
+    bulletSprite: 22
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    hitAnimation: 26
+    battleType: 2
+    damageType: 7
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+
+  - &STR_65CBJ_AMMO 
+    type: STR_65CBJ_AMMO
+    power: 30
+    hitAnimation: 26
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    bulletSprite: 11 
+    battleType: 2
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.35
+      IgnoreOverKill: true
+
   - type: STR_TASER_X1
     requiresBuy:
       - STR_TASER_ACQUISITION
@@ -679,7 +775,7 @@ items:
     listOrder: 8090
   - type: STR_38_SPECIAL_X6
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_MANHURIN_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_38_SPECIAL_AMMO
     bigSprite: 3208
@@ -766,7 +862,7 @@ items:
     costSell: 225
     weight: 3
     clipSize: 30
-    listOrder: 7280
+    listOrder: 7250
   - type: STR_9MM_PARABELLUM_X40
     categories: [ STR_CLIPS ]
     refNode: *STR_9MM_PISTOL_AMMO
@@ -782,7 +878,7 @@ items:
     listOrder: 7260
   - type: STR_9MM_GYURZA_X20
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VEKTOR_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_9MM_GYURZA_AMMO
     bigSprite: 3216
@@ -797,7 +893,7 @@ items:
     listOrder: 6840
   - type: STR_9MM_GYURZA_X30
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VERSEK_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_9MM_GYURZA_AMMO
     bigSprite: 3224
@@ -824,49 +920,52 @@ items:
     costSell: 200
     weight: 1
     clipSize: 20
-    listOrder: 21810
+    listOrder: 7501
   - type: STR_HK_4_6_30mmX20
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 4488
+    handSprite: 4488
+    floorSprite: 4488
     size: 0.1
     armor: 30
     costBuy: 800
     costSell: 400
-    invWidth: 2
+    invWidth: 1
     weight: 1
     clipSize: 20
     listOrder: 21831
   - type: STR_HK_4_6_30mmX30
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 4496
+    handSprite: 4496
+    floorSprite: 4496
     size: 0.1
     armor: 30
     costBuy: 1000
     costSell: 400
-    invWidth: 2
+    invWidth: 1
     weight: 2
     clipSize: 30
     listOrder: 21832
   - type: STR_HK_4_6_30mmX40
-    #requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_HK_4_6_30mm
-    bigSprite: 256
-    handSprite: 256
-    floorSprite: 256
+    bigSprite: 4504
+    handSprite: 4504
+    floorSprite: 4504
     size: 0.1
     armor: 30
     costBuy: 1200
     costSell: 400
-    invWidth: 2
+    invWidth: 1
     weight: 3
     clipSize: 40
     listOrder: 21833
@@ -918,7 +1017,7 @@ items:
     listOrder: 6050
   - type: STR_45_ACP_X25
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_UMP_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 3232
@@ -931,6 +1030,51 @@ items:
     weight: 4
     clipSize: 25
     listOrder: 6070
+  - type: STR_50_AE_X7
+    requiresBuy:
+      - STR_DEAGLE_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_50AE_PISTOL_AMMO
+    bigSprite: 632
+    handSprite: 3240
+    floorSprite: 3240
+    size: 0.1
+    armor: 30
+    costBuy: 300
+    costSell: 150
+    weight: 3
+    clipSize: 7
+    listOrder: 20820
+  - type: STR_65CBJ_X30
+    requiresBuy:
+      - STR_CBJMS_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_65CBJ_AMMO
+    bigSprite: 4280
+    handSprite: 240
+    floorSprite: 240
+    size: 0.1
+    armor: 30
+    costBuy: 500
+    costSell: 250
+    weight: 3
+    clipSize: 30
+    listOrder: 7506
+  - type: STR_65CBJ_X100
+    requiresBuy:
+      - STR_CBJ_SAWKIT_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_65CBJ_AMMO
+    bigSprite: 4288
+    handSprite: 240
+    floorSprite: 240
+    size: 0.2
+    armor: 30
+    costBuy: 1000
+    costSell: 500
+    weight: 6
+    clipSize: 100
+    listOrder: 7507
   - type: STR_CASELESS_4_73_X50
     categories: [ STR_CLIPS ]
     requiresBuy:
@@ -949,7 +1093,7 @@ items:
     listOrder: 7430
   - type: STR_5_45_X30
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_5_45_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_5_45_AMMO
     bigSprite: 288
@@ -964,7 +1108,7 @@ items:
     listOrder: 6260
   - type: STR_5_45_X45
     requiresBuy:
-      - STR_AK12_ACQUISITION
+      - STR_5_45_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_5_45_AMMO
     bigSprite: 296
@@ -1042,7 +1186,7 @@ items:
     listOrder: 6370
   - type: STR_22_LONG_RIFLE_X6
     categories: [ STR_CLIPS ]
-    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+    refNode: *STR_22_LONG_RIFLE_AMMO
     bigSprite: 624
     handSprite: 624
     floorSprite: 624
@@ -1068,7 +1212,7 @@ items:
     listOrder: 7950
   - type: STR_SOVIET_7_62_X30
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_SOVIET_7_62_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 336
@@ -1083,7 +1227,7 @@ items:
     listOrder: 8050
   - type: STR_SOVIET_7_62_X40
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_SOVIET_7_62_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 344
@@ -1098,7 +1242,7 @@ items:
     listOrder: 8060
   - type: STR_SOVIET_7_62_X75
     requiresBuy:
-      - STR_AK15_ACQUISITION
+      - STR_SOVIET_7_62_AMMO
     categories: [ STR_CLIPS ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 352
@@ -1326,7 +1470,7 @@ items:
     clipSize: 10
     invWidth: 1
     invHeight: 2
-    listOrder: 20840
+    listOrder: 6121
   - type: STR_127_X5
     requiresBuy:
       - STR_UNOBTAINABLE
@@ -1445,6 +1589,37 @@ items:
     weight: 3
     clipSize: 8
     listOrder: 5440
+  - type: STR_12G_INCENDIARY_X8
+    requiresBuy:
+      - STR_SHOTGUN_ACQUISITION
+      - STR_MILITARY_EQUIPMENT_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_12G_INCENDIARY
+    bigSprite: 4512
+    handSprite: 4512
+    floorSprite: 4512
+    size: 0.1
+    armor: 30
+    costBuy: 500
+    costSell: 250
+    weight: 3
+    clipSize: 8
+    listOrder: 5460
+  - type: STR_12G_BREACHING_X5
+    requiresBuy:
+      - STR_SERBU_ACQUISITION
+    categories: [ STR_CLIPS ]
+    refNode: *STR_12G_BREACHING
+    bigSprite: 4520
+    handSprite: 4520
+    floorSprite: 4520
+    size: 0.1
+    armor: 30
+    costBuy: 300
+    costSell: 150
+    weight: 2
+    clipSize: 5
+    listOrder: 5370
   - type: STR_SHRAPNEL_25_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
@@ -1522,7 +1697,8 @@ items:
     listOrder: 6000
   - type: STR_40MM_FRAG_X3
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_40MM_AMMO
+      - STR_GM_94_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_40MM_FRAG
     bigSprite: 3240
@@ -1675,6 +1851,38 @@ items:
     weight: 21
     clipSize: 1
     listOrder: 7860
+    #fireSound: 4
+
+  - type: STR_BALISTIC_KNIFE_X1
+    requiresBuy:
+      - STR_BALISTIC_KNIFE_ACQUISITION 
+    categories: [ STR_CLIPS ]
+    refNode: *STR_LAUNCHED_BLADE
+    bigSprite: 4272
+    handSprite: 4272
+    floorSprite: 4272
+    size: 0.1
+    armor: 30
+    costBuy: 1000
+    costSell: 500
+    weight: 2
+    clipSize: 1 
+    invHeight: 2
+    meleeType: 7
+    meleePower: 40
+    costMelee:
+      time: 25
+      energy: 15
+    accuracyMelee: 80
+    meleeMultiplier:
+      melee: 1
+    meleeAnimation: 1
+    meleeSound: -1
+    meleeMissSound: 39
+    meleeHitSound: 353
+    listOrder: 2804
+
+
 
   #   - type: 
   #     categories:
@@ -1686,7 +1894,7 @@ items:
   #     floorSprite:
   #     handSprite:
   #     reloadSound: 4
-    fireSound: 4
+  #     fireSound: 4
   #     costBuy: 
   #     costSell: 
   #     accuracyAimed: 
@@ -1737,6 +1945,10 @@ items:
     snapRange: 6
     kneelBonus: 100
     refNode: *STR_PISTOL
+    confSnap:
+      shots: 1
+      name: "Snap Shot"
+      ammoSlot: 0
     tuAimed: 50
     tuSnap: 25
     invWidth: 1
@@ -1764,7 +1976,7 @@ items:
     costSell: 5000
     accuracyAimed: 60
     accuracySnap: 40
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -1772,12 +1984,12 @@ items:
     minRange: 0
     aimRange: 10
     snapRange: 7
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 45
-    tuSnap: 20
-    tuAuto: 50
+    tuSnap: 21 #20 before double tap was added
+    #tuAuto: 50
     invWidth: 1
     invHeight: 2
     ammo:
@@ -1802,7 +2014,7 @@ items:
     costSell: 4000
     accuracyAimed: 55
     accuracySnap: 35
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -1810,12 +2022,12 @@ items:
     minRange: 0
     aimRange: 10
     snapRange: 7
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 40
-    tuSnap: 15
-    tuAuto: 45
+    tuSnap: 20 #15 before double tap was added
+    #tuAuto: 45
     invWidth: 1
     invHeight: 2
     listOrder: 6970
@@ -1875,8 +2087,7 @@ items:
     listOrder: 7010
 
   - type: STR_GLOCK_18_STOCK
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
     categories: [ STR_FIREARMS, STR_PISTOLS ]
     #    requiresBuy:
     size: 1
@@ -1933,7 +2144,7 @@ items:
     costSell: 1850
     accuracyAimed: 70
     accuracySnap: 40
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -1941,12 +2152,12 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 8
-    autoRange: 4
+    #autoRange: 4
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 60
     tuSnap: 30
-    tuAuto: 70
+    #tuAuto: 70
     invWidth: 1
     invHeight: 2
     ammo:
@@ -1972,7 +2183,7 @@ items:
     costSell: 6500
     accuracyAimed: 80
     accuracySnap: 50
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -1980,12 +2191,12 @@ items:
     minRange: 0
     aimRange: 15
     snapRange: 10
-    autoRange: 6
+    #autoRange: 6
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
-    tuSnap: 25
-    tuAuto: 65
+    tuSnap: 20 #25 before double tap was added
+    #tuAuto: 65
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2008,7 +2219,7 @@ items:
     costSell: 2500
     accuracyAimed: 55
     accuracySnap: 45
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2016,12 +2227,12 @@ items:
     minRange: 0
     aimRange: 10
     snapRange: 7
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 20
-    tuAuto: 60
+    #tuAuto: 60
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2047,7 +2258,7 @@ items:
     costSell: 6250
     accuracyAimed: 65
     accuracySnap: 42
-    accuracyAuto: 35
+    #accuracyAuto: 35
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2055,12 +2266,12 @@ items:
     minRange: 0
     aimRange: 11
     snapRange: 8
-    autoRange: 5
+    #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
-    tuSnap: 20
-    tuAuto: 60
+    tuSnap: 21 #20 before double tap was added
+    #tuAuto: 60
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2072,7 +2283,7 @@ items:
 
   - type: STR_MANHURIN
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_MANHURIN_ACQUISITION
     categories: [ STR_FIREARMS, STR_PISTOLS ]
     #    requiresBuy:
     size: 1
@@ -2087,7 +2298,7 @@ items:
     costSell: 3000
     accuracyAimed: 70
     accuracySnap: 45
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2095,12 +2306,12 @@ items:
     minRange: 0
     aimRange: 8
     snapRange: 6
-    autoRange: 4
+    #autoRange: 4
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
     tuSnap: 20
-    tuAuto: 50
+    #tuAuto: 50
     invWidth: 1
     invHeight: 1
     ammo:
@@ -2112,9 +2323,8 @@ items:
 
   - type: STR_VEKTOR
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VEKTOR_ACQUISITION
     categories: [ STR_FIREARMS, STR_PISTOLS ]
-    #    requiresBuy:
     size: 1
     weight: 11
     # battleType: 1
@@ -2127,7 +2337,7 @@ items:
     costSell: 6000
     accuracyAimed: 60
     accuracySnap: 40
-    accuracyAuto: 30
+    #accuracyAuto: 30
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
@@ -2135,12 +2345,12 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 10
-    autoRange: 7
+    #autoRange: 7
     kneelBonus: 100
     refNode: *STR_PISTOL
     tuAimed: 50
-    tuSnap: 20
-    tuAuto: 50
+    tuSnap: 21 #20 before double tap was added
+    #tuAuto: 50
     invWidth: 1
     invHeight: 2
     ammo:
@@ -2226,7 +2436,83 @@ items:
 #          tuLoad: 20
 #          tuUnload: 10
 
-
+  - type: STR_DEAGLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    requiresBuy:
+      - STR_DEAGLE_ACQUISITION
+    size: 1
+    weight: 16
+    # battleType: 1
+    bigSprite: 3392
+    floorSprite: 3392
+    handSprite: 3392
+    reloadSound: 237
+    fireSound: 247
+    costBuy: 20000
+    costSell: 10000
+    accuracyAimed: 85
+    accuracySnap: 45
+    #accuracyAuto: 15
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 25
+    minRange: 0
+    aimRange: 12
+    snapRange: 8
+    #autoRange: 0
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 60
+    tuSnap: 30
+    #tuAuto: 70
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_50_AE_X7 ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 20810
+  
+  - type: STR_GOLDDEAGLE
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE #STR_DEAGLE_ACQUISITION #Cant buy
+    size: 1
+    weight: 16
+    # battleType: 1
+    bigSprite: 3408
+    floorSprite: 3408
+    handSprite: 3408
+    reloadSound: 237
+    fireSound: 247
+    #costBuy: 0
+    costSell: 100000
+    accuracyAimed: 85
+    accuracySnap: 45
+    #accuracyAuto: 15
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 25
+    minRange: 0
+    aimRange: 12
+    snapRange: 8
+    #autoRange: 0
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 60
+    tuSnap: 30
+    #tuAuto: 70
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_50_AE_X7 ]
+        tuLoad: 25
+        tuUnload: 12
+    listOrder: 20810
 
   - type: STR_TEC_9
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
@@ -2360,38 +2646,39 @@ items:
 
   - type: STR_MP7
     categories: [ STR_FIREARMS, STR_SMGS ]
-    # requiresBuy:
+    requiresBuy:
+      - STR_MP7_ACQUISITION
     size: 1
     weight: 21
     # battleType: 1
-    bigSprite: 856
-    floorSprite: 856
-    handSprite: 856
+    bigSprite: 4424
+    floorSprite: 4424
+    handSprite: 4424
     reloadSound: 185
     fireSound: 186
-    costBuy: 18000
-    costSell: 9000
-    accuracyAimed: 55
-    accuracySnap: 60
-    accuracyAuto: 45
+    costBuy: 17500
+    costSell: 8750
+    accuracyAimed: 50
+    accuracySnap: 70
+    accuracyAuto: 55
     blockBothHands: false
-    twoHanded: true
-    oneHandedPenalty: 80
-    maxRange: 35
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 30
     minRange: 0
-    aimRange: 8
-    snapRange: 10
-    autoRange: 4
+    aimRange: 7
+    snapRange: 11
+    autoRange: 6
     kneelBonus: 115
     refNode: *STR_SMG
-    tuAimed: 30
-    tuSnap: 25
-    tuAuto: 40
+    tuAimed: 35
+    tuSnap: 20
+    tuAuto: 35
     invWidth: 1
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_FN_57_X50 ]
+        compatibleAmmo: [ STR_HK_4_6_30mmX20, STR_HK_4_6_30mmX30, STR_HK_4_6_30mmX40 ]
         tuLoad: 40
         tuUnload: 20
     listOrder: 21821
@@ -2426,6 +2713,45 @@ items:
     tuAimed: 30
     tuSnap: 25
     tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_FN_57_X50 ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 7490
+
+  - type: STR_P90_SOPMOD
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #requiresBuy:
+    #  - STR_P90_ACQUISITION
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 4528
+    floorSprite: 4528
+    handSprite: 4528
+    reloadSound: 185
+    fireSound: 173
+    #costBuy: 18000
+    #costSell: 9000
+    accuracyAimed: 70 #55
+    accuracySnap: 60  #60
+    accuracyAuto: 45  #45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 13     #8
+    snapRange: 20    #10
+    autoRange: 9     #4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 40  #30
+    tuSnap: 22   #25
+    tuAuto: 37   #40
     invWidth: 1
     invHeight: 3
     ammo:
@@ -2524,7 +2850,7 @@ items:
 
   - type: STR_UMP
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_UMP_ACQUISITION
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
@@ -2564,15 +2890,15 @@ items:
 
   - type: STR_VITYAZ
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VITYAZ_ACQUISITION
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
     weight: 23
     # battleType: 1
-    bigSprite: 3488
-    floorSprite: 3488
-    handSprite: 3488
+    bigSprite: 4544
+    floorSprite: 4544
+    handSprite: 4544
     reloadSound: 237
     fireSound: 238
     costBuy: 17000
@@ -2604,7 +2930,7 @@ items:
 
   - type: STR_VERSEK
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_VERSEK_ACQUISITION
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
@@ -2617,17 +2943,17 @@ items:
     fireSound: 198
     costBuy: 23000
     costSell: 11500
-    accuracyAimed: 50
-    accuracySnap: 65
+    accuracyAimed: 45
+    accuracySnap: 60
     accuracyAuto: 40
     blockBothHands: false
     twoHanded: false
     oneHandedPenalty: 100
     maxRange: 25
     minRange: 0
-    aimRange: 8
-    snapRange: 10
-    autoRange: 5
+    aimRange: 4
+    snapRange: 6
+    autoRange: 0
     kneelBonus: 115
     refNode: *STR_SMG
     tuAimed: 30
@@ -2641,6 +2967,146 @@ items:
         tuLoad: 25
         tuUnload: 12
     listOrder: 6830
+
+  - type: STR_SKORPIONEVO
+    requiresBuy:
+        - STR_SKORPIONEVO_ACQUISITION 
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 3992
+    floorSprite: 3992
+    handSprite: 3992
+    reloadSound: 171
+    fireSound: 175
+    costBuy: 25000
+    costSell: 12500
+    accuracyAimed: 30
+    accuracySnap: 50
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 3
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 20
+    tuSnap: 15
+    tuAuto: 25
+    invWidth: 1
+    invHeight: 3
+    bulletSpeed: 2
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            # STR_9MM_PARABELLUM_X10,
+            # STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30,
+            STR_9MM_PARABELLUM_X40
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7509
+
+  - type: STR_FMG9
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    requiresBuy:
+      - STR_FMG9_ACQUISITION #STR_FMG9_ACQUISITION
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 4064
+    floorSprite: 4064
+    handSprite: 4064
+    reloadSound: 174
+    fireSound: 131
+    costBuy: 18000
+    costSell: 9000
+    accuracyAimed: 55
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 30
+    minRange: 0
+    aimRange: 6
+    snapRange: 8
+    autoRange: 4
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 30
+    tuSnap: 20
+    tuAuto: 35
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_9MM_PARABELLUM_X20,
+            STR_9MM_PARABELLUM_X30
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21550
+
+  - type: STR_CBJMS
+    requiresBuy:
+      - STR_CBJMS_ACQUISITION
+    categories: [STR_FIREARMS, STR_SMGS]
+#    requiresBuy:
+    size: 1
+    weight: 21
+    # battleType: 1
+    bigSprite: 4296
+    floorSprite: 4296
+    handSprite: 4296
+    reloadSound: 231
+    fireSound: 232
+    costBuy: 20000
+    costSell: 10000
+    accuracyAimed: 49
+    accuracySnap: 70
+    accuracyAuto: 40
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 11
+    snapRange: 13
+    autoRange: 8
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 25
+    tuSnap: 20
+    tuAuto: 45
+    invWidth: 1
+    invHeight: 2
+    ammo:
+        0:
+         compatibleAmmo: [STR_65CBJ_X30, STR_65CBJ_X100]
+         tuLoad: 30
+         tuUnload: 15
+    listOrder: 7505
 
   - type: STR_TAVOR
     categories: [ STR_FIREARMS, STR_RIFLES ]
@@ -3015,7 +3481,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -3195,7 +3661,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -3369,7 +3835,7 @@ items:
 
   - type: STR_FAMAS
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_FAMAS_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3408,8 +3874,7 @@ items:
     listOrder: 6550
 
   - type: STR_FAMAS_SCOPED
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3447,7 +3912,7 @@ items:
 
   - type: STR_G36
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_G36_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3486,8 +3951,6 @@ items:
     listOrder: 6610
 
   - type: STR_G36_AG
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3530,7 +3993,48 @@ items:
           ]
         tuLoad: 40
         tuUnload: 20
-    listOrder: 5690
+    listOrder: 6611
+
+  - type: STR_G36C
+    requiresBuy:
+      - STR_G36C_ACQUISITION
+    categories: [STR_FIREARMS, STR_RIFLES]
+#    requiresBuy:
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 3976
+    floorSprite: 3592
+    handSprite: 3592
+    reloadSound: 136
+    fireSound: 137
+    costBuy: 31000
+    costSell: 15500
+    accuracyAimed: 78
+    accuracySnap: 58
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 30
+    snapRange: 32
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 66
+    tuSnap: 46
+    tuAuto: 51
+    invWidth: 1
+    invHeight: 3
+    ammo:
+        0:
+         compatibleAmmo: [STR_5_56_X30]
+         tuLoad: 30
+         tuUnload: 15
+    listOrder: 6612
+
 
   - type: STR_HK416
     categories: [ STR_FIREARMS, STR_RIFLES ]
@@ -3631,7 +4135,7 @@ items:
     autoRange: 18
     kneelBonus: 125
     refNode: *STR_AR_GL
-    tuAimed: 75
+    tuAimed: 55
     tuSnap: 32
     tuAuto: 65
     invWidth: 1
@@ -3676,13 +4180,13 @@ items:
     autoRange: 7
     kneelBonus: 125
     refNode: *STR_AR_UBS
-    tuAimed: 75
+    tuAimed: 55
     tuSnap: 32
     tuAuto: 30
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
@@ -3696,7 +4200,7 @@ items:
 
   - type: STR_HK417
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_HK417_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -3735,8 +4239,6 @@ items:
     listOrder: 7510
 
   - type: STR_HK417_SCOPED
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -4101,16 +4603,16 @@ items:
     fireSound: 122
     costBuy: 85000
     costSell: 42500
-    accuracyAimed: 90
-    accuracySnap: 85
+    accuracyAimed: 100
+    accuracySnap: 80
     accuracyAuto: 55
     blockBothHands: false
     twoHanded: true
     oneHandedPenalty: 50
     maxRange: 200
     minRange: 0
-    aimRange: 35
-    snapRange: 45
+    aimRange: 45
+    snapRange: 35
     autoRange: 15
     kneelBonus: 125
     refNode: *STR_AR
@@ -4119,6 +4621,9 @@ items:
     tuAuto: 45
     invWidth: 1
     invHeight: 3
+    confSnap:
+      shots: 3
+      ammoSlot: 0
     ammo:
       0:
         compatibleAmmo: [ STR_CASELESS_4_73_X50 ]
@@ -4203,7 +4708,8 @@ items:
 
   - type: STR_M16A2
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
-    #    requiresBuy:
+    requiresBuy:
+      - STR_M16A2_ACQUISITION
     size: 1
     weight: 22
     # battleType: 1
@@ -4212,7 +4718,9 @@ items:
     handSprite: 1464
     reloadSound: 113
     fireSound: 114
-    costSell: 13000
+    costBuy: 12000
+    costSell: 6000
+    # costSell: 13000
     accuracyAimed: 70
     accuracySnap: 60
     accuracyAuto: 45
@@ -4236,7 +4744,95 @@ items:
         compatibleAmmo: [ STR_5_56_X30 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 6750
+    listOrder: 21300
+
+  - type: STR_M16A2_SCOPED
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    #    requiresBuy:
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 4032
+    floorSprite: 4032
+    handSprite: 4032
+    reloadSound: 113
+    fireSound: 114
+    # costSell: 10000
+    accuracyAimed: 90
+    accuracySnap: 50
+    accuracyAuto: 60
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 60
+    snapRange: 40
+    autoRange: 50
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 60
+    tuSnap: 40
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 21301
+
+  - type: STR_M16A2_M203 # Customised!
+    categories: [ STR_FIREARMS, STR_RIFLES ]
+    size: 1
+    weight: 30
+    battleType: 1
+    bigSprite: 4048
+    floorSprite: 4048
+    handSprite: 4048
+    reloadSound: 113
+    fireSound: 114
+    # costSell: 13500
+    # costSell: 13000
+    accuracyAimed: 40
+    accuracySnap: 60
+    accuracyAuto: 45
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 16
+    snapRange: 32
+    autoRange: 26
+    kneelBonus: 125
+    #refNode: *STR_RIFLE_MELEE
+    confAimed:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    tuAimed: 70
+    tuSnap: 40
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 21302
 
   - type: STR_AR_18
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -4351,32 +4947,35 @@ items:
     listOrder: 8040
 
   - type: STR_RK_62
-    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    categories: [ STR_FIREARMS, STR_RIFLES ]
     size: 1
-    weight: 16
+    weight: 19
     # battleType: 1
-    bigSprite: 3801
-    floorSprite: 3803
-    handSprite: 3802
+    requiresBuy: 
+      - STR_RK_62_ACQUISITION
+    bigSprite: 4576
+    floorSprite: 4576
+    handSprite: 4576
     reloadSound: 242
     fireSound: 244
-    costSell: 10000
-    accuracyAimed: 45
+    costBuy: 31000
+    costSell: 15500
+    accuracyAimed: 70
     accuracySnap: 75
-    accuracyAuto: 25
+    accuracyAuto: 45
     blockBothHands: false
     twoHanded: true
     oneHandedPenalty: 50
     maxRange: 200
     minRange: 0
-    aimRange: 28
-    snapRange: 38
-    autoRange: 7
+    aimRange: 29
+    snapRange: 39
+    autoRange: 8
     kneelBonus: 125
     refNode: *STR_AR
-    tuAimed: 55
+    tuAimed: 60
     tuSnap: 45
-    tuAuto: 60
+    tuAuto: 65
     invWidth: 1
     invHeight: 3
     ammo:
@@ -4384,12 +4983,12 @@ items:
         compatibleAmmo:
           [
             STR_SOVIET_7_62_X30,
-            STR_SOVIET_7_62_X40,
-            STR_SOVIET_7_62_X75
+            # STR_SOVIET_7_62_X40, RK62 commonly only uses 30x mags
+            # STR_SOVIET_7_62_X75 
           ]
         tuLoad: 30
         tuUnload: 35
-    listOrder: 22201
+    listOrder: 21310
 
   - type: STR_AK_74
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -4471,7 +5070,7 @@ items:
 
   - type: STR_G3
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_G3_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -4481,6 +5080,8 @@ items:
     floorSprite: 3672
     handSprite: 3672
     reloadSound: 163
+    costBuy: 36000
+    costSell: 18000
     fireSound: 164
     accuracyAimed: 75
     accuracySnap: 55
@@ -4506,6 +5107,84 @@ items:
         tuLoad: 30
         tuUnload: 15
     listOrder: 7570
+
+  - type: STR_M14_EBR
+    requiresBuy:
+      - STR_M14_EBR_ACQUISITION
+    categories: [STR_FIREARMS, STR_RIFLES]
+    size: 1
+    weight: 30
+    # battleType: 1
+    bigSprite: 4128
+    floorSprite: 4128
+    handSprite: 4128
+    reloadSound: 163
+    fireSound: 164
+    costBuy: 17500
+    costSell: 8750
+    accuracyAimed: 70
+    accuracySnap: 50
+    accuracyAuto: 20
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 36
+    snapRange: 20
+    autoRange: 11
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 55
+    tuSnap: 45
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+        0:
+         compatibleAmmo: [STR_NATO_7_62_X20, STR_NATO_7_62_X10]
+         tuLoad: 30
+         tuUnload: 15
+    listOrder: 7575
+
+  - type: STR_M14_EBR_SCOPED
+    #requiresBuy:
+    #  - STR_M14_EBR_ACQUISITION
+    categories: [STR_FIREARMS, STR_RIFLES]
+    size: 1
+    weight: 32
+    # battleType: 1
+    bigSprite: 4192
+    floorSprite: 4192
+    handSprite: 4192
+    reloadSound: 163
+    fireSound: 164
+    #costBuy: 17500
+    #costSell: 8750
+    accuracyAimed: 90
+    accuracySnap: 65
+    accuracyAuto: 15
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 50
+    snapRange: 40
+    autoRange: 11
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 70
+    tuSnap: 45
+    tuAuto: 40
+    invWidth: 1
+    invHeight: 3
+    ammo:
+        0:
+         compatibleAmmo: [STR_NATO_7_62_X20, STR_NATO_7_62_X10]
+         tuLoad: 30
+         tuUnload: 15
+    listOrder: 7576
 
   - type: STR_HUNTING_RIFLE
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
@@ -4948,7 +5627,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 90
+    shotgunChoke: 10
     ammo:
       0:
         compatibleAmmo: [ STR_12G_BUCKSHOT_X2 ]
@@ -4979,16 +5658,16 @@ items:
     minRange: 0
     aimRange: 12
     snapRange: 5
-    kneelBonus: 10
+    kneelBonus: 100
     tuAimed: 60
     tuSnap: 30
     invWidth: 1
     invHeight: 2
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 0
     ammo:
       0:
-        compatibleAmmo: [ STR_12G_BUCKSHOT_X5 ]
+        compatibleAmmo: [ STR_12G_BUCKSHOT_X5, STR_12G_BREACHING_X5 ]
         tuLoad: 40
         tuUnload: 20
     listOrder: 5360
@@ -5021,14 +5700,15 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 85
+    shotgunChoke: 5
     ammo:
       0:
         compatibleAmmo:
           [
             STR_12G_BUCKSHOT_X8,
             STR_12G_SLUG_X8,
-            STR_12G_NON_LETHAL_X8
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_INCENDIARY_X8
           ]
         tuLoad: 40
         tuUnload: 20
@@ -5036,7 +5716,7 @@ items:
 
   - type: STR_SPAS_12
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_SPAS_12_ACQUISITION
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     #    requiresBuy:
     size: 1
@@ -5063,13 +5743,16 @@ items:
     tuSnap: 35
     invWidth: 1
     invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 5
     ammo:
       0:
         compatibleAmmo:
           [
             STR_12G_BUCKSHOT_X8,
             STR_12G_SLUG_X8,
-            STR_12G_NON_LETHAL_X8
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_INCENDIARY_X8
           ]
         tuLoad: 40
         tuUnload: 20
@@ -5104,7 +5787,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 95
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3 ]
@@ -5141,7 +5824,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 90
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
@@ -5189,7 +5872,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 85
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
@@ -5237,7 +5920,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunBehavior: 1
-    shotgunChoke: 90
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
@@ -5284,6 +5967,8 @@ items:
     tuAuto: 45
     invWidth: 1
     invHeight: 3
+    shotgunBehavior: 1
+    shotgunChoke: 0
     ammo:
       0:
         compatibleAmmo:
@@ -5297,6 +5982,50 @@ items:
         tuLoad: 30
         tuUnload: 15
     listOrder: 5210
+
+  - type: STR_M3
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_M3_ACQUISITION #STR_M3_ACQUISITION
+    size: 1
+    weight: 24
+    battleType: 1
+    bigSprite: 4408
+    floorSprite: 1792
+    handSprite: 1792
+    reloadSound: 200
+    fireSound: 201
+    costBuy: 21000
+    costSell: 10500
+    accuracyAimed: 110
+    accuracySnap: 80
+    blockBothHands: true
+    twoHanded: true
+    oneHandedPenalty: 35
+    maxRange: 30
+    minRange: 0
+    aimRange: 5
+    snapRange: 5
+    kneelBonus: 115
+    tuAimed: 80
+    tuSnap: 45
+    #powerRangeThreshold: 12
+    #powerRangeReduction: 2
+    invWidth: 1
+    invHeight: 3
+    shotgunChoke: 30
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X8,
+            STR_12G_SLUG_X8,
+            STR_12G_NON_LETHAL_X8,
+            STR_12G_INCENDIARY_X8
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 20300
 
   - type: STR_M60
     categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
@@ -5381,7 +6110,7 @@ items:
     handSprite: 3784
     reloadSound: 160
     fireSound: 161
-    costBuy: 50000
+    #costBuy: 50000
     costSell: 25000
     accuracySnap: 50
     accuracyAuto: 30
@@ -5399,7 +6128,7 @@ items:
     invHeight: 3
     ammo:
       0:
-        compatibleAmmo: [ STR_5_56_X50, STR_5_56_X100, STR_5_56_X30 ]
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X50, STR_5_56_X100 ]
         tuLoad: 45
         tuUnload: 22
     listOrder: 6320
@@ -5474,7 +6203,7 @@ items:
 
   - type: STR_RPK_74
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_RPK_74_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
     #    requiresBuy:
     size: 1
@@ -5580,6 +6309,54 @@ items:
         tuUnload: 22
     listOrder: 6360
 
+  - type: STR_CBJMS_SAW
+    categories: [STR_FIREARMS, STR_LMGS]
+    size: 1.1
+    weight: 24
+    battleType: 1
+    bigSprite: 4352
+    floorSprite: 4352
+    handSprite: 4352
+    reloadSound: 231
+    fireSound: 232
+    #costBuy: 20000
+    costSell: 12500 #Change based on kit price
+    accuracyAimed: 60
+    accuracySnap: 45
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 40
+    minRange: 4
+    aimRange: 30
+    snapRange: 10
+    autoRange: 10
+    kneelBonus: 145
+    #refNode: *STR_SMG
+    tuAimed: 35
+    tuSnap: 40
+    tuAuto: 70
+    invWidth: 2
+    invHeight: 2
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+    confAimed:
+      shots: 2
+      ammoSlot: 0
+    ammo:
+        0:
+         compatibleAmmo: [STR_65CBJ_X30, STR_65CBJ_X100]
+         tuLoad: 30
+         tuUnload: 15
+    listOrder: 6385
+
   - type: STR_M320
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
     requiresBuy:
@@ -5634,7 +6411,7 @@ items:
     reloadSound: 224
     fireSound: 159
     costBuy: 61500
-    costSell: 307500
+    costSell: 30750
     accuracyAimed: 75
     accuracySnap: 40
     blockBothHands: true
@@ -5665,7 +6442,7 @@ items:
 
   - type: STR_GM_94
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_GM_94_ACQUISITION
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
     #    requiresBuy:
     size: 1
@@ -5944,6 +6721,32 @@ items:
     blastRadius: 7
     listOrder: 2814
 
+  - type: STR_C4
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_C4_ACQUISITION
+    size: 0.3
+    costBuy: 4000
+    costSell: 2000
+    weight: 5
+    invWidth: 1
+    bigSprite: 3432
+    floorSprite: 3432
+    handSprite: 3432
+    power: 90
+    tuPrime: 40
+    tuUnprime: 25
+    damageAlter:
+      RandomType: 2
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.4
+      FixRadius: 1
+    damageType: 3
+    battleType: 4
+    blastRadius: 1
+    throwRange: 5
+    listOrder: 2815
+
   - type: STR_FIELD_DRESSING
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
     size: 0.3
@@ -5965,6 +6768,30 @@ items:
     tuUse: 40
     medikitActionName: STR_USE_FIELD_DRESSING
     listOrder: 2820
+
+  - type: STR_MEDKIT
+    categories: [ STR_MEDICAL ]
+    requiresBuy:
+      - STR_MEDKIT_ACQUISITION
+    size: 1
+    costBuy: 4000
+    costSell: 2000
+    weight: 15
+    bigSprite: 3424
+    floorSprite: 3424
+    handSprite: 3424
+    battleType: 6
+    invWidth: 2
+    invHeight: 2
+    heal: 10
+    woundRecovery: 6
+    healthRecovery: 10
+    isConsumable: false
+    medikitTargetSelf: true
+    medikitType: 1
+    tuUse: 60
+    medikitActionName: STR_ACTIVATE_MEDIKIT
+    listOrder: 2821
 
   - type: STR_RIOT_SHIELD
     requiresBuy:
@@ -5997,6 +6824,108 @@ items:
     primeActionName: STR_PRIME_FLARE
     fuseType: -2
     armor: 8
+
+  - type: STR_KNIFE
+    #requiresBuy: #start the game with it
+    size: 1
+    weight: 3
+    costBuy: 500
+    costSell: 250
+    bigSprite: 3440
+    handSprite: 3440
+    floorSprite: 3440
+    power: 50
+    hidePower: false
+    damageType: 7
+    costMelee:
+      time: 20
+      energy: 10
+    accuracyMelee: 110
+    meleeMultiplier:
+      melee: 1
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 2
+    meleeAnimation: 1
+    meleeSound: -1
+    meleeMissSound: 39
+    meleeHitSound: 353
+    listOrder: 2802
+
+  - type: STR_HAMMER
+    requiresBuy:
+      - STR_HAMMER_ACQUISITION
+    size: 1
+    weight: 20
+    costBuy: 4000
+    costSell: 2000
+    bigSprite: 3448
+    handSprite: 3448
+    floorSprite: 3448
+    power: 500
+    hidePower: true
+    damageType: 7
+    costMelee:
+      time: 45
+      energy: 20
+    flatRate: true
+    flatMelee:
+      time: false
+      energy: true
+    accuracyMelee: 20
+    meleeMultiplier:
+      melee: 1
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    meleeAnimation: 1
+    meleeSound: 34
+    blockBothHands: true 
+    twoHanded: false
+    listOrder: 2801
+
+  - type: STR_BALISTIC_KNIFE
+    requiresBuy:
+      - STR_BALISTIC_KNIFE_ACQUISITION
+    size: 1
+    weight: 2
+    costBuy: 10000
+    costSell: 5000
+    bigSprite: 4256
+    handSprite: 4256
+    floorSprite: 4256
+    hidePower: false
+    invWidth: 1
+    invHeight: 2
+    battleType: 1
+    meleeType: 7
+    meleePower: 50
+    costMelee:
+      time: 20
+      energy: 10
+    accuracyMelee: 110
+    meleeMultiplier:
+      melee: 1
+    meleeAnimation: 1
+    meleeSound: -1
+    meleeMissSound: 39
+    meleeHitSound: 353
+    accuracyAimed: 70
+    accuracySnap: 40
+    tuAimed: 50
+    tuSnap: 10
+    maxRange: 10
+    aimRange: 5
+    snapRange: 2
+    kneelBonus: 100
+    ammo: # required by battleType
+        0:
+         compatibleAmmo: [ STR_BALISTIC_KNIFE_X1 ]
+         tuLoad: 20
+         tuUnload: 50
+    listOrder: 2803
 
 extraSprites:
 
@@ -6056,7 +6985,7 @@ extraSprites:
       608: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x10.png
       616: Resources/BallisticWeapons/Ammo/Big12GaugeBuckshot_x2.png
       624: Resources/BallisticWeapons/Ammo/Big22LongRifleAmmo.png
-      # 632: 
+      632: Resources/BallisticWeapons/Ammo/Big50aePistolAmmo_x7.png 
       640: Resources/BallisticWeapons/Pistols/BigP226nomag.png
       648: Resources/BallisticWeapons/Pistols/BigP226.png
       656: Resources/BallisticWeapons/Pistols/BigP226.png
@@ -6300,20 +7229,20 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
       3376: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
       3384: Resources/BallisticWeapons/Pistols/BigStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408: 
-      # 3416: 
-      # 3424: 
-      # 3432: 
-      # 3440: 
-      # 3448: 
+      3392: Resources/BallisticWeapons/Pistols/BigDeaglenomag.png
+      3400: Resources/BallisticWeapons/Pistols/BigDeagle.png
+      3408: Resources/BallisticWeapons/Pistols/BigGoldDeaglenomag.png
+      3416: Resources/BallisticWeapons/Pistols/BigGoldDeagle.png
+      3424: Resources/BallisticWeapons/Equipment/BigMedkit.png
+      3432: Resources/BallisticWeapons/Explosives/BigC4.png
+      3440: Resources/BallisticWeapons/Equipment/BigKnife.png
+      3448: Resources/BallisticWeapons/Equipment/BigHammer.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/BigUMP45nomag.png
       3480: Resources/BallisticWeapons/SMGs/BigUMP45.png
-      3488: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
-      3496: Resources/BallisticWeapons/SMGs/BigVityaz.png
+      #3488: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
+      #3496: Resources/BallisticWeapons/SMGs/BigVityaz.png #Not enough room for vityaz w/ 30rn mags
       3504: Resources/BallisticWeapons/SMGs/BigSR-2Verseknomag.png
       3512: Resources/BallisticWeapons/SMGs/BigSR-2Versek20.png
       3520: Resources/BallisticWeapons/SMGs/BigSR-2Versek.png
@@ -6352,8 +7281,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/BigFNMiniminomag.png
       3792: Resources/BallisticWeapons/LMGs/BigFNMinimi30.png
       3800: Resources/BallisticWeapons/LMGs/BigFNMinimi.png
-      3801: Resources/BallisticWeapons/Rifles/BigRK62.png
-      # 3808: Resources/BallisticWeapons/LMGs/Big
+      # 3808: Resources/BallisticWeapons/Rifles/BigRK62.png
       # 3816: Resources/BallisticWeapons/LMGs/Big
       3824: Resources/BallisticWeapons/LMGs/BigRPK-74Mnomag.png
       3832: Resources/BallisticWeapons/LMGs/BigRPK-74M.png
@@ -6374,6 +7302,77 @@ extraSprites:
       3952: Resources/BallisticWeapons/SMGs/BigUzi20.png
       3960: Resources/BallisticWeapons/SMGs/BigUzi.png
       3968: Resources/BallisticWeapons/SMGs/BigUzi40.png
+      3976: Resources/BallisticWeapons/Rifles/BigG36Cnomag.png
+      3984: Resources/BallisticWeapons/Rifles/BigG36C.png
+      3992: Resources/BallisticWeapons/SMGs/BigSkorpionEvonomag.png
+      4016: Resources/BallisticWeapons/SMGs/BigSkorpionEvo30.png
+      4024: Resources/BallisticWeapons/SMGs/BigSkorpionEvo.png
+      4032: Resources/BallisticWeapons/Rifles/BigM16A2SCOPEDnomag.png
+      4040: Resources/BallisticWeapons/Rifles/BigM16A2SCOPED.png
+      4048: Resources/BallisticWeapons/Rifles/BigM16A2M203nomag.png
+      4056: Resources/BallisticWeapons/Rifles/BigM16A2M203.png
+      4064: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png  
+      4080: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png        
+      4088: Resources/BallisticWeapons/SMGs/BigFMG9.png  
+      4096: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png          
+      4112: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png          
+      4120: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png   
+      4128: Resources/BallisticWeapons/Rifles/BigM14EBRnomag.png
+      #4136
+      4144: Resources/BallisticWeapons/Rifles/BigM14EBR10.png
+      4152: Resources/BallisticWeapons/Rifles/BigM14EBR.png  
+      4160: Resources/BallisticWeapons/Rifles/BigM14EBRFoldednomag.png
+      #4168:        
+      4176: Resources/BallisticWeapons/Rifles/BigM14EBRFolded10.png           
+      4184: Resources/BallisticWeapons/Rifles/BigM14EBRFolded.png   
+      4192: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDnomag.png
+      #4200:
+      4208: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPED10.png
+      4216: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPED.png
+      4224: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDFoldednomag.png
+      #4232:
+      4240: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDFolded10.png
+      4248: Resources/BallisticWeapons/Rifles/BigM14EBRSCOPEDFolded.png
+      4256: Resources/BallisticWeapons/Equipment/BigBalisticKnifenomag.png 
+      4264: Resources/BallisticWeapons/Equipment/BigBalisticKnife.png
+      4272: Resources/BallisticWeapons/Ammo/BigBalisticKnifeBlade.png
+      4280: Resources/BallisticWeapons/Ammo/Big65cbj_x30.png
+      4288: Resources/BallisticWeapons/Ammo/Big65cbj_x100.png
+      4296: Resources/BallisticWeapons/SMGs/BigCbjMsnomag.png
+      4304: Resources/BallisticWeapons/SMGs/BigCbjMs.png
+      4312: Resources/BallisticWeapons/SMGs/BigCbjMs100.png
+      4328: Resources/BallisticWeapons/SMGs/BigCbjMsFoldednomag.png
+      4336: Resources/BallisticWeapons/SMGs/BigCbjMsFolded.png
+      4344: Resources/BallisticWeapons/SMGs/BigCbjMsFolded100.png
+      4352: Resources/BallisticWeapons/LMGs/BigCbjMsSAWnomag.png 
+      4360: Resources/BallisticWeapons/LMGs/BigCbjMsSAW.png
+      4368: Resources/BallisticWeapons/LMGs/BigCbjMsSAW100.png
+      4384: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFoldednomag.png   
+      4392: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded.png  
+      4400: Resources/BallisticWeapons/LMGs/BigCbjMsSAWFolded100.png  
+      4408: Resources/BallisticWeapons/Shotguns/BigM3.png
+      4416: Resources/BallisticWeapons/WeaponMods/BigCBJSAWKIT.png
+      4424: Resources/BallisticWeapons/SMGs/BigMP7nomag.png
+      4432: Resources/BallisticWeapons/SMGs/BigMP720.png
+      4440: Resources/BallisticWeapons/SMGs/BigMP730.png
+      4448: Resources/BallisticWeapons/SMGs/BigMP740.png
+      4456: Resources/BallisticWeapons/SMGs/BigMP7Foldednomag.png
+      4464: Resources/BallisticWeapons/SMGs/BigMP7Folded20.png
+      4472: Resources/BallisticWeapons/SMGs/BigMP7Folded30.png
+      4480: Resources/BallisticWeapons/SMGs/BigMP7Folded40.png
+      4488: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x20.png
+      4496: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x30.png
+      4504: Resources/BallisticWeapons/Ammo/Big46mmPistolAmmo_x40.png
+      4512: Resources/BallisticWeapons/Ammo/Big12GaugeIncendiaryAmmo_x8.png
+      4520: Resources/BallisticWeapons/Ammo/Big12GaugeBreaching_x5.png
+      4528: Resources/BallisticWeapons/SMGs/BigP90_SOPMODnomag.png
+      4536: Resources/BallisticWeapons/SMGs/BigP90_SOPMOD.png
+      4544: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
+      4568: Resources/BallisticWeapons/SMGs/BigVityaz.png
+      4576: Resources/BallisticWeapons/Rifles/BigRK62nomag.png
+      4584: Resources/BallisticWeapons/Rifles/BigRK62.png
+      # 4592: Resources/BallisticWeapons/Rifles/BigRK6240.png
+      # 4600: Resources/BallisticWeapons/Rifles/BigRK6275.png
 
   - type: FLOOROB.PCK
     files:
@@ -6599,7 +7598,7 @@ extraSprites:
       1952: Resources/BallisticWeapons/Artillery/FloorM320.png
       1960: Resources/BallisticWeapons/Artillery/FloorMGL.png
       1968: Resources/BallisticWeapons/Artillery/FloorCarlGustafM4.png
-      1976: Resources/BallisticWeapons/Artillery/FloorRPG.png
+      1976: Resources/BallisticWeapons/Artillery/FloorRPGnomag.png
       1984: Resources/BallisticWeapons/Artillery/FloorRPG.png
       1992: Resources/BallisticWeapons/Snipers/FloorTRG.png
       2000: Resources/BallisticWeapons/Snipers/FloorTRG.png
@@ -6668,20 +7667,20 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
       3376: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
       3384: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408:
-      # 3416: 
-      # 3424: 
-      # 3432: 
-      # 3440: 
-      # 3448: 
+      3392: Resources/BallisticWeapons/Pistols/FloorDeagle.png
+      3400: Resources/BallisticWeapons/Pistols/FloorDeagle.png
+      3408: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
+      3416: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
+      3424: Resources/BallisticWeapons/Equipment/FloorMedkit.png
+      3432: Resources/BallisticWeapons/Explosives/FloorC4.png  
+      3440: Resources/BallisticWeapons/Equipment/FloorKnife.png   
+      3448: Resources/BallisticWeapons/Equipment/FloorHammer.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/FloorUMP45.png
       3480: Resources/BallisticWeapons/SMGs/FloorUMP45.png
-      3488: Resources/BallisticWeapons/SMGs/FloorVityaz.png
-      3496: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      #3488: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      #3496: Resources/BallisticWeapons/SMGs/FloorVityaz.png
       3504: Resources/BallisticWeapons/SMGs/FloorSR2Versek.png
       3512: Resources/BallisticWeapons/SMGs/FloorSR2Versek.png
       3520: Resources/BallisticWeapons/SMGs/FloorSR2Versek.png
@@ -6720,8 +7719,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
-      3803: Resources/BallisticWeapons/Rifles/FloorRK62.png
-      # 3808: Resources/BallisticWeapons/LMGs/Floor
+      # 3808: Resources/BallisticWeapons/Rifles/FloorRK62.png
       # 3816: Resources/BallisticWeapons/LMGs/Floor
       3824: Resources/BallisticWeapons/LMGs/FloorRPK-74M.png
       3832: Resources/BallisticWeapons/LMGs/FloorRPK-74M.png
@@ -6742,6 +7740,79 @@ extraSprites:
       3952: Resources/BallisticWeapons/SMGs/FloorUzi.png
       3960: Resources/BallisticWeapons/SMGs/FloorUzi.png
       3968: Resources/BallisticWeapons/SMGs/FloorUzi.png
+      #3976: g36c
+      #3984: g36c
+      3992: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
+      4016: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
+      4024: Resources/BallisticWeapons/SMGs/FloorSkorpionEvo.png
+      4032: Resources/BallisticWeapons/Rifles/FloorM16A2SCOPED.png
+      4040: Resources/BallisticWeapons/Rifles/FloorM16A2SCOPED.png
+      4048: Resources/BallisticWeapons/Rifles/FloorM16A2M203.png
+      4056: Resources/BallisticWeapons/Rifles/FloorM16A2M203.png
+      4064: Resources/BallisticWeapons/SMGs/FloorFMG9.png  
+      4080: Resources/BallisticWeapons/SMGs/FloorFMG9.png        
+      4088: Resources/BallisticWeapons/SMGs/FloorFMG9.png  
+      4096: Resources/BallisticWeapons/SMGs/FloorFMG9.png
+      4112: Resources/BallisticWeapons/SMGs/FloorFMG9.png
+      4120: Resources/BallisticWeapons/SMGs/FloorFMG9.png
+      4128: Resources/BallisticWeapons/Rifles/FloorM14EBR.png
+      #4136
+      4144: Resources/BallisticWeapons/Rifles/FloorM14EBR.png
+      4152: Resources/BallisticWeapons/Rifles/FloorM14EBR.png  
+      4160: Resources/BallisticWeapons/Rifles/FloorM14EBR.png
+      #4168:        
+      4176: Resources/BallisticWeapons/Rifles/FloorM14EBR.png           
+      4184: Resources/BallisticWeapons/Rifles/FloorM14EBR.png   
+      4192: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      #4200:
+      4208: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      4216: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      4224: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      #4232:
+      4240: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      4248: Resources/BallisticWeapons/Rifles/FloorM14EBRSCOPED.png
+      4256: Resources/BallisticWeapons/Equipment/FloorBalisticKnife.png 
+      4264: Resources/BallisticWeapons/Equipment/FloorBalisticKnife.png 
+      4272: Resources/BallisticWeapons/Equipment/FloorKnife.png
+      4280: Resources/BallisticWeapons/Ammo/Floor.png
+      4288: Resources/BallisticWeapons/Ammo/Floor.png
+      4296: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4304: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4312: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4328: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4336: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4344: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4352: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4360: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4368: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4384: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4392: Resources/BallisticWeapons/SMGs/FloorCbjMs.png
+      4400: Resources/BallisticWeapons/SMGs/FloorCbjMs.png 
+      #4408: M3 shotgun
+      #4416: CBJMS Sawkit
+      4424: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4432: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4440: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4448: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4456: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4464: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4472: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4480: Resources/BallisticWeapons/SMGs/FloorMP7.png
+      4488: Resources/BallisticWeapons/Ammo/Floor.png
+      4496: Resources/BallisticWeapons/Ammo/Floor.png
+      4504: Resources/BallisticWeapons/Ammo/Floor.png
+      4512: Resources/BallisticWeapons/Ammo/Floor.png
+      4520: Resources/BallisticWeapons/Ammo/Floor.png
+      4528: Resources/BallisticWeapons/SMGs/FloorP90.png
+      4536: Resources/BallisticWeapons/SMGs/FloorP90.png
+      4544: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      4568: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      4576: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      4584: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      # 4592: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      # 4600: Resources/BallisticWeapons/Rifles/FloorRK62.png
+
+
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -6970,7 +8041,7 @@ extraSprites:
       1952: Resources/BallisticWeapons/Artillery/HandM320.png
       1960: Resources/BallisticWeapons/Artillery/HandMGL.png
       1968: Resources/BallisticWeapons/Artillery/HandCarlGustafM4.png
-      1976: Resources/BallisticWeapons/Artillery/HandCarlGustafM4.png
+      1976: Resources/BallisticWeapons/Artillery/HandRPGnomag.png
       1984: Resources/BallisticWeapons/Artillery/HandRPG.png
       1992: Resources/BallisticWeapons/Snipers/HandTRG.png
       2000: Resources/BallisticWeapons/Snipers/HandTRG.png
@@ -7039,20 +8110,20 @@ extraSprites:
       3368: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
       3376: Resources/BallisticWeapons/Pistols/HandStetchkin.png
       3384: Resources/BallisticWeapons/Pistols/HandStetchkin.png
-      # 3392: Resources/BallisticWeapons
-      # 3400: Resources/BallisticWeapons
-      # 3408:
-      # 3416: 
-      # 3424: 
-      # 3432: 
-      # 3440: 
-      # 3448: 
+      3392: Resources/BallisticWeapons/Pistols/HandDeagle.png
+      3400: Resources/BallisticWeapons/Pistols/HandDeagle.png
+      3408: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
+      3416: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
+      3424: Resources/BallisticWeapons/Equipment/HandMedkit.png
+      3432: Resources/BallisticWeapons/Explosives/HandC4.png
+      3440: Resources/BallisticWeapons/Equipment/HandKnife.png    
+      3448: Resources/BallisticWeapons/Equipment/HandHammer.png
       # 3456: 
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png
       3480: Resources/BallisticWeapons/SMGs/HandUMP45.png
-      3488: Resources/BallisticWeapons/SMGs/HandVityaz.png
-      3496: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      #3488: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      #3496: Resources/BallisticWeapons/SMGs/HandVityaz.png
       3504: Resources/BallisticWeapons/SMGs/HandSR-2Versek.png
       3512: Resources/BallisticWeapons/SMGs/HandSR-2Versek.png
       3520: Resources/BallisticWeapons/SMGs/HandSR-2Versek.png
@@ -7091,10 +8162,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
-      
-      3802: Resources/BallisticWeapons/Rifles/HandRK62.png
-
-      # 3808: Resources/BallisticWeapons/LMGs/Hand
+      # 3808: Resources/BallisticWeapons/Rifles/HandRK62.png
       # 3816: Resources/BallisticWeapons/LMGs/Hand
       3824: Resources/BallisticWeapons/LMGs/HandRPK-74M.png
       3832: Resources/BallisticWeapons/LMGs/HandRPK-74M.png
@@ -7115,6 +8183,78 @@ extraSprites:
       3952: Resources/BallisticWeapons/SMGs/HandUzi.png
       3960: Resources/BallisticWeapons/SMGs/HandUzi.png
       3968: Resources/BallisticWeapons/SMGs/HandUzi.png
+      #3976: g36c
+      #3984: g36c
+      3992: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
+      4016: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
+      4024: Resources/BallisticWeapons/SMGs/HandSkorpionEvo.png
+      4032: Resources/BallisticWeapons/Rifles/HandM16A2SCOPED.png
+      4040: Resources/BallisticWeapons/Rifles/HandM16A2SCOPED.png
+      4048: Resources/BallisticWeapons/Rifles/HandM16A2M203.png
+      4056: Resources/BallisticWeapons/Rifles/HandM16A2M203.png
+      4064: Resources/BallisticWeapons/SMGs/HandFMG9.png  
+      4080: Resources/BallisticWeapons/SMGs/HandFMG9.png        
+      4088: Resources/BallisticWeapons/SMGs/HandFMG9.png  
+      4096: Resources/BallisticWeapons/SMGs/HandFMG9.png
+      4112: Resources/BallisticWeapons/SMGs/HandFMG9.png
+      4120: Resources/BallisticWeapons/SMGs/HandFMG9.png
+      4128: Resources/BallisticWeapons/Rifles/HandM14EBR.png
+      #4136
+      4144: Resources/BallisticWeapons/Rifles/HandM14EBR.png
+      4152: Resources/BallisticWeapons/Rifles/HandM14EBR.png  
+      4160: Resources/BallisticWeapons/Rifles/HandM14EBR.png
+      #4168:        
+      4176: Resources/BallisticWeapons/Rifles/HandM14EBR.png           
+      4184: Resources/BallisticWeapons/Rifles/HandM14EBR.png  
+      4192: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      #4200:
+      4208: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      4216: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      4224: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      #4232:
+      4240: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      4248: Resources/BallisticWeapons/Rifles/HandM14EBRSCOPED.png
+      4256: Resources/BallisticWeapons/Equipment/HandBalisticKnife.png 
+      4264: Resources/BallisticWeapons/Equipment/HandBalisticKnife.png 
+      4272: Resources/BallisticWeapons/Equipment/HandKnife.png
+      4280: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4288: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4296: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4304: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4312: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4328: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4336: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4344: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4352: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4360: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4368: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4384: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4392: Resources/BallisticWeapons/SMGs/HandCbjMs.png
+      4400: Resources/BallisticWeapons/SMGs/HandCbjMs.png 
+      #4408: M3 shotgun
+      #4416: CBJMS Sawkit
+      4424: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4432: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4440: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4448: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4456: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4464: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4472: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4480: Resources/BallisticWeapons/SMGs/HandMP7.png
+      4488: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4496: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4504: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4512: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4520: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4528: Resources/BallisticWeapons/SMGs/HandP90.png
+      4536: Resources/BallisticWeapons/SMGs/HandP90.png
+      4544: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      4568: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      4576: Resources/BallisticWeapons/Rifles/HandRK62.png
+      4584: Resources/BallisticWeapons/Rifles/HandRK62.png
+      # 4592: Resources/BallisticWeapons/Rifles/HandRK62.png
+      # 4600: Resources/BallisticWeapons/Rifles/HandRK62.png
+
   # - type: SMOKE.PCK
   #   height: 80
   #   width: 160
@@ -7141,6 +8281,7 @@ extraSprites:
       665: Resources/BallisticWeapons/BulletSprites/40mmGrenadeBullet.png #19
       700: Resources/BallisticWeapons/BulletSprites/CarlGustavRound.png #20
       735: Resources/BallisticWeapons/BulletSprites/RussianRocket.png #21
+      770: Resources/BallisticWeapons/BulletSprites/BalisticKnife.png #22
  
   # - type: MEDIKIT_BACKGROUND
   #   singleImage: true
@@ -7165,12 +8306,16 @@ extraStrings:
       STR_9MM_GYURZA_X30: "9mm Gyurza (30x)"
       STR_FN_57_X20: "FN 5.7x28mm (20x)"
       STR_FN_57_X50: "FN 5.7x28mm (50x)"
-      STR_HK_4_6_30X20: "HK 4.6x30mm (20x)"
-      STR_HK_4_6_30X30: "HK 4.6x30mm (30x)"
-      STR_HK_4_6_30X40: "HK 4.6x30mm (40x)"
+      STR_HK_4_6_30mmX20: "HK 4.6x30mm (20x)"
+      STR_HK_4_6_30mmX30: "HK 4.6x30mm (30x)"
+      STR_HK_4_6_30mmX40: "HK 4.6x30mm (40x)"
       STR_45_ACP_X7: ".45 ACP (7x)"
       STR_45_ACP_X12: ".45 ACP (12x)"
       STR_45_ACP_X25: ".45 ACP (25x)"
+      STR_50_AE_X7: ".50 AE (7x)"
+      STR_65CBJ_X30: "6.5x25mm CBJ (30x)"
+      STR_65CBJ_X100: "6.5x25mm CBJ (100x)"
+
       STR_CASELESS_4_73_X50: "4.73 Caseless (50x)"
       STR_5_45_X30: "5.45x39mm (30x)"
       STR_5_45_X45: "5.45x39mm (45x)"
@@ -7203,7 +8348,9 @@ extraStrings:
       STR_12G_BUCKSHOT_X8: "12 Gauge Buckshot (8x)"
       STR_12G_BUCKSHOT_X20: "12 Gauge Buckshot (20x)"
       STR_12G_BUCKSHOT_X30: "12 Gauge Buckshot (30x)"
+      STR_12G_BREACHING_X5: "12 Gauge Breaching Rounds (5x)"
       STR_12G_SLUG_X8: "12 Gauge Slug (8x)"
+      STR_12G_INCENDIARY_X8: "12 Gauge Dragon's Breath (8x)"
       STR_12G_NON_LETHAL_X8: "12 Gauge Non-Lethal (8x)"
       STR_SHRAPNEL_25_X3: "Shrapnel-25 Buckshot (3x)"
       STR_BARRICADE_X3: "Barricade Slug (3x)"
@@ -7220,6 +8367,7 @@ extraStrings:
       STR_RPG_HEAT_X1: "RPG-7 HEAT (1x)"
       STR_RPG_29_HEAT_X1: "RPG-29 HEAT (1x)"
       STR_RPG_29_THERMO_X1: "RPG-29 Thermobaric (1x)"
+      STR_BALISTIC_KNIFE_X1: "Ballistic Knife Blade (1x)"
 
       STR_TASER: "Taser"
       STR_P226: "SIG Sauer P226"
@@ -7233,16 +8381,24 @@ extraStrings:
       STR_MANHURIN: "Manhurin MR73"
       STR_VEKTOR: "SR-1 Vektor"
       STR_STETCKIN: "Stechkin APS"
+      STR_DEAGLE: "Desert Eagle"
+      STR_GOLDDEAGLE: "Golden Desert Eagle"
+
       STR_TEC_9: "TEC-9"
       STR_MP5: "MP5SD"
       STR_MPX: "SIG MPX"
       STR_P90: "FN P90"
+      STR_P90_SOPMOD: "FN P90 (SOPMOD)"
       STR_MP7: "HK MP7"
       STR_SKORPION: "Škorpion vz. 65"
       STR_UZI: "Uzi"
       STR_UMP: "UMP45"
       STR_VITYAZ: "PP-19 Vityaz"
       STR_VERSEK: "SR-2 Veresk"
+      STR_SKORPIONEVO: "Scorpion Evo"
+      STR_FMG9: "FMG 9"
+      STR_CBJMS: "CBJ-MS"
+
       STR_TAVOR: "IWI Tavor"
       STR_TAVOR_M203: "IWI Tavor (M203)"
       STR_TAVOR_SCOPED: "IWI Tavor (Scoped)"
@@ -7264,6 +8420,7 @@ extraStrings:
       STR_FAMAS_SCOPED: "FAMAS (Scoped)"
       STR_G36: "G36"
       STR_G36_AG: "G36 (AG36)"
+      STR_G36C: "G36C"
       STR_HK416: "HK416"
       STR_HK416_SOPMOD: "HK416 (SOPMOD)"
       STR_HK416_M320: "HK416 (M320)"
@@ -7282,12 +8439,18 @@ extraStrings:
       STR_SR_3: "SR-3 Vikhr"
       STR_SR_3_ONE_HANDED: "SR-3 Vikhr (Collapsed)"
       STR_M16A2: "M16A2"
+      STR_M16A2_SCOPED: "M16A2 (Scoped)"
+      STR_M16A2_M203: "M16A2 (M203)"
       STR_AR_18: "AR-18"
       STR_AR_180: "AR-180"
       STR_AKM: "AKM"
       STR_AK_74: "AK-74"
       STR_FN_FAL_SCOPED: "FN FAL (Scoped)"
       STR_G3: "G3"
+      STR_RK_62: "RK 62"
+      STR_M14_EBR: "M14 EBR"
+      STR_M14_EBR_SCOPED: "M14 EBR (Scoped)"
+
       STR_HUNTING_RIFLE: "Hunting Rifle"
       STR_SKS_SCOPED: "SKS Carbine (Scoped)"
       STR_PSG_1: "PSG1"
@@ -7300,6 +8463,7 @@ extraStrings:
       STR_AW: "Arctic Warfare Magnum"
       STR_M24_SWS: "M24 SWS"
       STR_M82: "Barret M82"
+
       STR_DOUBLE_BARREL: "Double-Barreled Shotgun"
       STR_SERBU: "Serbu Super-Shorty"
       STR_SPAS_12: "Franchi SPAS-12"
@@ -7309,6 +8473,8 @@ extraStrings:
       STR_AA_12: "Atchisson AA-12"
       STR_SAIGA_12: "Saiga 12"
       STR_USAS_12: "USAS-12"
+      STR_M3: "Benelli M3"
+
       STR_M60: "M60"
       STR_M249: "M249 SAW Para"
       STR_FN_MINIMI: "FN Minimi"
@@ -7316,13 +8482,14 @@ extraStrings:
       STR_RPK_74: "RPK-74M"
       STR_PECHENEG: "PKP Pecheneg"
       STR_NEGEV: "IWI Negev"
+      STR_CBJMS_SAW: "CBJ-MS (SAW)"
+
       STR_M320: "M320"
       STR_GM_94: "GM-94"
       STR_MGL: "Milkor MGL"
       STR_GUSTAF: "Carl Gustaf Recoilless Rifle"
       STR_RPG: "RPG-7"
       STR_RPG-29: "RPG-29"
-      STR_RK_62: "RK 62"
 
       STR_BURST: "Burst"
       STR_DOUBLE_TAP: "Double Tap"
@@ -7333,19 +8500,15 @@ extraStrings:
       STR_UNPRIME_GRENADE: "Unprime Grenade"
       STR_AUTO_SHOT: "Burst"
 
-      STR_RIOT_SHIELD: "Ballistic shield"
+      STR_RIOT_SHIELD: "Ballistic Shield"
+      STR_KNIFE: "Knife"
+      STR_BALISTIC_KNIFE: "Ballistic Knife"
+      STR_HAMMER: "Breaching Hammer"
 
-      STR_CANNED_FOOD: "Canned Food"
-      STR_CIGARETTES: "Cigarettes"
-      STR_FLASK: "Flask"
-      STR_MEDI_KIT: "Medikit"
-      STR_MEDICAL_BAG: "Medical Bag"
+      STR_MEDKIT: "Medkit"
       STR_FIELD_DRESSING: "Field Dressing"
-      STR_MEDICAL_POUCH: "Medical Pouch"
-      STR_ACTIVATE_MEDIKIT: "Activate Medikit"
-      STR_DEPLOY_MEDICAL_BAG: "Deploy Medical Bag"
+      STR_ACTIVATE_MEDIKIT: "Use Medikit"
       STR_USE_FIELD_DRESSING: "Use Field Dressing"
-      STR_USE_MEDICAL_POUCH: "Use Medical Pouch"
 
       STR_GRENADE: "Grenade"
       STR_IMPACT_GRENADE: "Impact Grenade"
@@ -7354,3 +8517,7 @@ extraStrings:
       STR_MOLOTOV: "Molotov Cocktail"
       STR_ELECTRO_FLARE: "Flare"
       STR_PRIME_FLARE: "Light Flare"
+      STR_C4: "C4"
+
+      STR_SHOT_TYPE_SNAP: "Snap (x{0})"
+      STR_SHOT_TYPE_AIMED: "Aimed (x{0})"
