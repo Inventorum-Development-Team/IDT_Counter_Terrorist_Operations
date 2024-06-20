@@ -1,4 +1,5 @@
 items:
+#Corpses
   - type: STR_TERRORIST_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -112,6 +113,7 @@ items:
     armor: 30
     recoverCorpse: false
 
+#Live enemies
   - type: STR_TERRORIST_COMMANDER
     liveAlien: true
     costSell: 100000
@@ -191,7 +193,7 @@ items:
 
 armors:
 #########################################
-############ TERRORISTS ################
+############ TERRORISTS ARMOR ################
 ######################################
   - type: STR_TERRORIST_COMMANDER_ARMOR
     spriteSheet: TERRORIST_COMMANDER_SPRITESHEET.PCK
@@ -372,7 +374,7 @@ armors:
 
 
 #########################################
-####### PRIVATE MILITARY COMPANY #######
+####### PRIVATE MILITARY COMPANY ARMOR #######
 ######################################
   - type: STR_ENEMY_BLUE_KEVLAR
     spriteSheet: PMC_BLUE_SPRITESHEET.PCK
@@ -509,8 +511,10 @@ armors:
       tu: -10
       bravery: 20
 units:
-  - type: STR_TERRORIST_COMMANDER
-    race: STR_TERRORISTS
+###### TERRORIST REF NODES ####
+  - &STR_TERRORIST_COMMANDER
+    type: STR_TERRORIST_COMMANDER
+    #race: STR_TERRORISTS
     stats:
       tu: 80
       stamina: 100
@@ -533,9 +537,11 @@ units:
     spotter: 3
     sniper: 1
     canSurrender: true
+    liveAlien: STR_TERRORIST_COMMANDER
 
-  - type: STR_TERRORIST_LEADER
-    race: STR_TERRORISTS
+  - &STR_TERRORIST_LEADER
+    type: STR_TERRORIST_LEADER
+    #race: STR_TERRORISTS
     stats:
       tu: 70
       stamina: 100
@@ -558,9 +564,11 @@ units:
     spotter: 3
     sniper: 1
     canSurrender: true
+    liveAlien: STR_TERRORIST_LEADER
 
-  - type: STR_TERRORIST_SAW
-    race: STR_TERRORISTS
+  - &STR_TERRORIST_SAW
+    type: STR_TERRORIST_SAW
+    #race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -583,9 +591,11 @@ units:
     spotter: 1
     sniper: 2
     canSurrender: true
+    liveAlien: STR_TERRORIST_SAW
 
-  - type: STR_TERRORIST_RIFLEMAN
-    race: STR_TERRORISTS
+  - &STR_TERRORIST_RIFLEMAN
+    type: STR_TERRORIST_RIFLEMAN
+    #race: STR_TERRORISTS
     stats:
       tu: 65
       stamina: 100
@@ -608,9 +618,11 @@ units:
     spotter: 1
     sniper: 1
     canSurrender: true
+    liveAlien: STR_TERRORIST_RIFLEMAN
 
-  - type: STR_TERRORIST_RAIDER
-    race: STR_TERRORISTS
+  - &STR_TERRORIST_RAIDER
+    type: STR_TERRORIST_RAIDER
+    #race: STR_TERRORISTS
     stats:
       tu: 75
       stamina: 100
@@ -633,9 +645,11 @@ units:
     spotter: 0
     sniper: 0
     canSurrender: true
+    liveAlien: STR_TERRORIST_RAIDER
 
-  - type: STR_TERRORIST_GRUNT
-    race: STR_TERRORISTS
+  - &STR_TERRORIST_GRUNT
+    type: STR_TERRORIST_GRUNT
+    #race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -658,9 +672,11 @@ units:
     spotter: 0
     sniper: 0
     canSurrender: true
+    liveAlien: STR_TERRORIST_GRUNT
 
-  - type: STR_TERRORIST_GRENADIER
-    race: STR_TERRORISTS
+  - &STR_TERRORIST_GRENADIER
+    type: STR_TERRORIST_GRENADIER
+    #race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -683,9 +699,11 @@ units:
     spotter: 0
     sniper: 0
     canSurrender: true
+    liveAlien: STR_TERRORIST_GRENADIER
 
-  - type: STR_TERRORIST_SNIPER
-    race: STR_TERRORISTS
+  - &STR_TERRORIST_SNIPER
+    type: STR_TERRORIST_SNIPER
+    #race: STR_TERRORISTS
     stats:
       tu: 60
       stamina: 100
@@ -708,9 +726,12 @@ units:
     spotter: 2
     sniper: 3
     canSurrender: true
+    liveAlien: STR_TERRORIST_SNIPER
 
-  - type: STR_PR_LEADER
-    race: STR_PRIVATE_SECURITY
+###### PMC REF NODES ####
+  - &STR_PR_LEADER
+    type: STR_PR_LEADER
+    #race: STR_PRIVATE_SECURITY
     stats:
       tu: 90
       stamina: 100
@@ -733,9 +754,11 @@ units:
     spotter: 5
     sniper: 3
     canSurrender: true
+    liveAlien: STR_PR_LEADER
 
-  - type: STR_PR_SHIELD
-    race: STR_PRIVATE_SECURITY
+  - &STR_PR_SHIELD
+    type: STR_PR_SHIELD
+    #race: STR_PRIVATE_SECURITY
     stats:
       tu: 70
       stamina: 100
@@ -758,9 +781,11 @@ units:
     spotter: 3
     sniper: 0
     canSurrender: true
+    liveAlien: STR_PR_SHIELD
 
-  - type: STR_PR_RIFLEMAN
-    race: STR_PRIVATE_SECURITY
+  - &STR_PR_RIFLEMAN
+    type: STR_PR_RIFLEMAN
+    #race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
       stamina: 100
@@ -783,9 +808,11 @@ units:
     spotter: 3
     sniper: 1
     canSurrender: true
+    liveAlien: STR_PR_RIFLEMAN
 
-  - type: STR_PR_HEAVY
-    race: STR_PRIVATE_SECURITY
+  - &STR_PR_HEAVY
+    type: STR_PR_HEAVY
+    #race: STR_PRIVATE_SECURITY
     stats:
       tu: 85
       stamina: 100
@@ -808,9 +835,11 @@ units:
     spotter: 3
     sniper: 0
     canSurrender: true
+    liveAlien: STR_PR_HEAVY
 
-  - type: STR_PR_GRUNT
-    race: STR_PRIVATE_SECURITY
+  - &STR_PR_GRUNT
+    type: STR_PR_GRUNT
+    #race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
       stamina: 100
@@ -833,9 +862,11 @@ units:
     spotter: 3
     sniper: 0
     canSurrender: true
+    liveAlien: STR_PR_GRUNT
 
-  - type: STR_PR_SAW
-    race: STR_PRIVATE_SECURITY
+  - &STR_PR_SAW
+    type: STR_PR_SAW
+    #race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
       stamina: 100
@@ -858,9 +889,11 @@ units:
     spotter: 3
     sniper: 2
     canSurrender: true
+    liveAlien: STR_PR_SAW
 
-  - type: STR_PR_SNIPER
-    race: STR_PRIVATE_SECURITY
+  - &STR_PR_SNIPER
+    type: STR_PR_SNIPER
+    #race: STR_PRIVATE_SECURITY
     stats:
       tu: 70
       stamina: 100
@@ -883,6 +916,1957 @@ units:
     spotter: 3
     sniper: 5
     canSurrender: true
+    liveAlien: STR_PR_SNIPER
+
+######################################
+######## TERRORISTS ITEM SETS ########
+######################################
+
+######## EAST EU ########
+  - type: STR_TERRORIST_COMMANDER_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_COMMANDER
+    builtInWeaponSets:
+           #Common
+           - #0 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - #1
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - #2
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+           #Uncommon
+           - #3
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - #4
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - #5
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+           #Rare
+           - #6
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - #7
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - #8
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+
+  - type: STR_TERRORIST_LEADER_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_LEADER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           #Uncommon
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           #Rare
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+
+  - type: STR_TERRORIST_SAW_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_SAW
+    builtInWeaponSets:
+           #Common
+           -
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+           #Uncommon
+           -
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+           #Rare
+           -
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+
+  - type: STR_TERRORIST_RIFLEMAN_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_RIFLEMAN
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           #Uncommon
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           #Rare
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+
+  - type: STR_TERRORIST_RAIDER_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_RAIDER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+           #Uncommon
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+           #Rare
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+
+  - type: STR_TERRORIST_GRUNT_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_GRUNT
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           #Uncommon
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           #Rare
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+
+  - type: STR_TERRORIST_GRENADIER_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_GRENADIER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+           #Uncommon
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+           #Rare
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+
+  - type: STR_TERRORIST_SNIPER_EAST_EU
+    race: STR_TERRORISTS_EAST_EU
+    refNode: *STR_TERRORIST_SNIPER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+           #Uncommon
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+           #Rare
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+
+######## WEST EU ########
+  - type: STR_TERRORIST_COMMANDER_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_COMMANDER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Uncommon
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Rare
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+
+  - type: STR_TERRORIST_LEADER_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_LEADER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+           #Uncommon
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+           #Rare
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+
+  - type: STR_TERRORIST_SAW_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_SAW
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+           #Uncommon
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+           #Rare
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+
+  - type: STR_TERRORIST_RIFLEMAN_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_RIFLEMAN
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+           #Uncommon
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+           #Rare
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+
+  - type: STR_TERRORIST_RAIDER_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_RAIDER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           #Uncommon
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           #Rare
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+
+  - type: STR_TERRORIST_GRUNT_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_GRUNT
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+           #Uncommon
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+           #Rare
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+
+  - type: STR_TERRORIST_GRENADIER_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_GRENADIER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+           #Uncommon
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+           #Rare
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+
+  - type: STR_TERRORIST_SNIPER_WEST_EU
+    race: STR_TERRORISTS_WEST_EU
+    refNode: *STR_TERRORIST_SNIPER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+           #Uncommon
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+           #Rare
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+
+######## USA ########
+  - type: STR_TERRORIST_COMMANDER_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_COMMANDER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           #Uncommon
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           #Rare
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+
+  - type: STR_TERRORIST_LEADER_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_LEADER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Uncommon
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Rare
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+
+  - type: STR_TERRORIST_SAW_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_SAW
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+           #Uncommon
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+           #Rare
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+
+  - type: STR_TERRORIST_RIFLEMAN_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_RIFLEMAN
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+           #Uncommon
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+           #Rare
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+
+  - type: STR_TERRORIST_RAIDER_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_RAIDER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           #Uncommon
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           #Rare
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+
+  - type: STR_TERRORIST_GRUNT_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_GRUNT
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           #Uncommon
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           #Rare
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+
+  - type: STR_TERRORIST_GRENADIER_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_GRENADIER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+           #Uncommon
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+           #Rare
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+
+  - type: STR_TERRORIST_SNIPER_USA
+    race: STR_TERRORISTS_USA
+    refNode: *STR_TERRORIST_SNIPER
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           #Uncommon
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           #Rare
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+
+###############################
+######## PMC ITEM SETS ########
+###############################
+
+######## EAST EU ########
+
+  - type: STR_PR_LEADER_EAST_EU
+    refNode: *STR_PR_LEADER
+    race: STR_PRIVATE_SECURITY_EAST_EU
+    builtInWeaponSets:
+          #Common
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          #Uncommon
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          #Rare
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+          
+
+  - type: STR_PR_SHIELD_EAST_EU
+    refNode: *STR_PR_SHIELD
+    race: STR_PRIVATE_SECURITY_EAST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           #Uncommon
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           #Rare
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+
+  - type: STR_PR_RIFLEMAN_EAST_EU
+    refNode: *STR_PR_RIFLEMAN
+    race: STR_PRIVATE_SECURITY_EAST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           #Uncommon
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           #Rare
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+            
+
+  - type: STR_PR_HEAVY_EAST_EU
+    refNode: *STR_PR_HEAVY
+    race: STR_PRIVATE_SECURITY_EAST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           #Uncommon
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           #Rare
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+
+
+  - type: STR_PR_GRUNT_EAST_EU
+    refNode: *STR_PR_GRUNT
+    race: STR_PRIVATE_SECURITY_EAST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           #Uncommon
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           #Rare
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+
+  - type: STR_PR_SAW_EAST_EU
+    refNode: *STR_PR_SAW
+    race: STR_PRIVATE_SECURITY_EAST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           #Uncommon
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           #Rare
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+
+  - type: STR_PR_SNIPER_EAST_EU
+    refNode: *STR_PR_SNIPER
+    race: STR_PRIVATE_SECURITY_EAST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           #Uncommon
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           #Rare
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+
+######## WEST EU ########
+
+  - type: STR_PR_LEADER_WEST_EU
+    refNode: *STR_PR_LEADER
+    race: STR_PRIVATE_SECURITY_WEST_EU
+    builtInWeaponSets:
+          #Common
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          #Uncommon
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          #Rare
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+          - 
+             - STR_HK417
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
+
+  - type: STR_PR_SHIELD_WEST_EU
+    refNode: *STR_PR_SHIELD
+    race: STR_PRIVATE_SECURITY_WEST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           #Uncommon
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           #Rare
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+
+  - type: STR_PR_RIFLEMAN_WEST_EU
+    refNode: *STR_PR_RIFLEMAN
+    race: STR_PRIVATE_SECURITY_WEST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Uncommon
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Rare
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+
+  - type: STR_PR_HEAVY_WEST_EU
+    refNode: *STR_PR_HEAVY
+    race: STR_PRIVATE_SECURITY_WEST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           #Uncommon
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           #Rare
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+
+  - type: STR_PR_GRUNT_WEST_EU
+    refNode: *STR_PR_GRUNT
+    race: STR_PRIVATE_SECURITY_WEST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           #Uncommon
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           #Rare
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+
+  - type: STR_PR_SAW_WEST_EU
+    refNode: *STR_PR_SAW
+    race: STR_PRIVATE_SECURITY_WEST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           #Uncommon
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           #Rare
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+
+  - type: STR_PR_SNIPER_WEST_EU
+    refNode: *STR_PR_SNIPER
+    race: STR_PRIVATE_SECURITY_WEST_EU
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           #Uncommon
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           #Rare
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+
+######## USA ########
+
+  - type: STR_PR_LEADER_USA
+    refNode: *STR_PR_LEADER
+    race: STR_PRIVATE_SECURITY_USA
+    builtInWeaponSets:
+          #Common
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          #Uncommon
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          #Rare
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+          - 
+             - STR_GOLDDEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
+
+  - type: STR_PR_SHIELD_USA
+    refNode: *STR_PR_SHIELD
+    race: STR_PRIVATE_SECURITY_USA
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           #Uncommon
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           #Rare
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+
+  - type: STR_PR_RIFLEMAN_USA
+    refNode: *STR_PR_RIFLEMAN
+    race: STR_PRIVATE_SECURITY_USA
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Uncommon
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           #Rare
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4A1_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
+
+  - type: STR_PR_HEAVY_USA
+    refNode: *STR_PR_HEAVY
+    race: STR_PRIVATE_SECURITY_USA
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           #Uncommon
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           #Rare
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_AA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+
+  - type: STR_PR_GRUNT_USA
+    refNode: *STR_PR_GRUNT
+    race: STR_PRIVATE_SECURITY_USA
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           #Uncommon
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           #Rare
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+
+  - type: STR_PR_SAW_USA
+    refNode: *STR_PR_SAW
+    race: STR_PRIVATE_SECURITY_USA
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           #Uncommon
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           #Rare
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+           - 
+             - STR_FN_MINIMI
+             - STR_5_56_X100
+
+  - type: STR_PR_SNIPER_USA
+    refNode: *STR_PR_SNIPER
+    race: STR_PRIVATE_SECURITY_USA
+    builtInWeaponSets:
+           #Common
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           #Uncommon
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           #Rare
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+    
 
 extraSprites:
 ##################################
@@ -1118,6 +3102,33 @@ extraStrings:
       STR_TERRORIST_COMMANDER: "Terrorist Commander"
       STR_TERRORIST_LEADER: "Terrorist Leader"
 
+      STR_TERRORIST_GRENADIER_EAST_EU: "Terrorist Grenadier"
+      STR_TERRORIST_SNIPER_EAST_EU: "Terrorist Sniper"
+      STR_TERRORIST_SAW_EAST_EU: "Terrorist Gunner"
+      STR_TERRORIST_RIFLEMAN_EAST_EU: "Terrorist Rifleman"
+      STR_TERRORIST_RAIDER_EAST_EU: "Terrorist Raider"
+      STR_TERRORIST_GRUNT_EAST_EU: "Terrorist Grunt"
+      STR_TERRORIST_COMMANDER_EAST_EU: "Terrorist Commander"
+      STR_TERRORIST_LEADER_EAST_EU: "Terrorist Leader"
+
+      STR_TERRORIST_GRENADIER_WEST_EU: "Terrorist Grenadier"
+      STR_TERRORIST_SNIPER_WEST_EU: "Terrorist Sniper"
+      STR_TERRORIST_SAW_WEST_EU: "Terrorist Gunner"
+      STR_TERRORIST_RIFLEMAN_WEST_EU: "Terrorist Rifleman"
+      STR_TERRORIST_RAIDER_WEST_EU: "Terrorist Raider"
+      STR_TERRORIST_GRUNT_WEST_EU: "Terrorist Grunt"
+      STR_TERRORIST_COMMANDER_WEST_EU: "Terrorist Commander"
+      STR_TERRORIST_LEADER_WEST_EU: "Terrorist Leader"
+
+      STR_TERRORIST_GRENADIER_USA: "Terrorist Grenadier"
+      STR_TERRORIST_SNIPER_USA: "Terrorist Sniper"
+      STR_TERRORIST_SAW_USA: "Terrorist Gunner"
+      STR_TERRORIST_RIFLEMAN_USA: "Terrorist Rifleman"
+      STR_TERRORIST_RAIDER_USA: "Terrorist Raider"
+      STR_TERRORIST_GRUNT_USA: "Terrorist Grunt"
+      STR_TERRORIST_COMMANDER_USA: "Terrorist Commander"
+      STR_TERRORIST_LEADER_USA: "Terrorist Leader"
+
       STR_PR_GRUNT: "Guard Grunt"
       STR_PR_HEAVY: "Guard Heavy"
       STR_PR_SHIELD: "Guard Pointman"
@@ -1125,4 +3136,28 @@ extraStrings:
       STR_PR_SNIPER: "Guard Sniper"
       STR_PR_LEADER: "Guard Leader"
       STR_PR_RIFLEMAN: "Guard Rifleman"
+
+      STR_PR_GRUNT_EAST_EU: "Guard Grunt"
+      STR_PR_HEAVY_EAST_EU: "Guard Heavy"
+      STR_PR_SHIELD_EAST_EU: "Guard Pointman"
+      STR_PR_SAW_EAST_EU: "Guard Gunner"
+      STR_PR_SNIPER_EAST_EU: "Guard Sniper"
+      STR_PR_LEADER_EAST_EU: "Guard Leader"
+      STR_PR_RIFLEMAN_EAST_EU: "Guard Rifleman"
+
+      STR_PR_GRUNT_WEST_EU: "Guard Grunt"
+      STR_PR_HEAVY_WEST_EU: "Guard Heavy"
+      STR_PR_SHIELD_WEST_EU: "Guard Pointman"
+      STR_PR_SAW_WEST_EU: "Guard Gunner"
+      STR_PR_SNIPER_WEST_EU: "Guard Sniper"
+      STR_PR_LEADER_WEST_EU: "Guard Leader"
+      STR_PR_RIFLEMAN_WEST_EU: "Guard Rifleman"
+
+      STR_PR_GRUNT_USA: "Guard Grunt"
+      STR_PR_HEAVY_USA: "Guard Heavy"
+      STR_PR_SHIELD_USA: "Guard Pointman"
+      STR_PR_SAW_USA: "Guard Gunner"
+      STR_PR_SNIPER_USA: "Guard Sniper"
+      STR_PR_LEADER_USA: "Guard Leader"
+      STR_PR_RIFLEMAN_USA: "Guard Rifleman"
 

@@ -1,5 +1,6 @@
 {
     "cmake.configureOnOpen": false,
     "csv-edit.readOption_hasHeader": "true",
-    "oxcYamlHelper.rulesetDocumentationSettings": 0
+    "oxcYamlHelper.rulesetDocumentationSettings": 0,
+    "oxcYamlHelper.showRulesetDocumentationOnStartup": false
 }
