@@ -2514,6 +2514,45 @@ items:
         tuUnload: 12
     listOrder: 20810
 
+  - type: STR_M9 #Note to self, put this in the spreadsheet and do some math on the numbers here!
+    categories: [ STR_FIREARMS, STR_PISTOLS ]
+    #requiresBuy:
+      #- STR_P226_ACQUISITION
+    size: 1
+    weight: 8
+    # battleType: 1
+    bigSprite: 640 #Change!
+    floorSprite: 640 #Change!
+    handSprite: 640 #Change!
+    reloadSound: 189
+    fireSound: 190 #Change?
+    #costBuy: 5000
+    costSell: 2500
+    accuracyAimed: 35
+    accuracySnap: 20
+    #accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 20
+    minRange: 0
+    aimRange: 10
+    snapRange: 7
+    #autoRange: 5
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 20
+    tuSnap: 10 #20 before double tap was added
+    #tuAuto: 50
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20 ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 20830
+
   - type: STR_TEC_9
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
     size: 1
@@ -5025,6 +5064,80 @@ items:
         tuLoad: 30
         tuUnload: 15
     listOrder: 6210
+
+  - type: STR_AKS_74U
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 21
+    # battleType: 1
+    bigSprite: 1608 #Change!
+    floorSprite: 1608 #Change!
+    handSprite: 1608
+    reloadSound: 242
+    fireSound: 243 #Change!
+    costSell: 12000 #Change!
+    accuracyAimed: 48
+    accuracySnap: 61
+    accuracyAuto: 37
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 34
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 50
+    tuSnap: 41
+    tuAuto: 57
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6211
+
+  - type: STR_AKS_74U_SOPMOD
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 19
+    # battleType: 1
+    bigSprite: 1608 #Change!
+    floorSprite: 1608 #Change!
+    handSprite: 1608
+    reloadSound: 242
+    fireSound: 243 #Change!
+    costSell: 12000 #Change!
+    accuracyAimed: 68
+    accuracySnap: 61
+    accuracyAuto: 37
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 29
+    snapRange: 44
+    autoRange: 15
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 70
+    tuSnap: 38
+    tuAuto: 55
+    invWidth: 1
+    invHeight: 3
+    inventoryMoveCost: 
+      basePercent: 50
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 6211
 
   - type: STR_FN_FAL_SCOPED
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -8383,6 +8496,7 @@ extraStrings:
       STR_STETCKIN: "Stechkin APS"
       STR_DEAGLE: "Desert Eagle"
       STR_GOLDDEAGLE: "Golden Desert Eagle"
+      STR_M9: "M9"
 
       STR_TEC_9: "TEC-9"
       STR_MP5: "MP5SD"
@@ -8450,6 +8564,8 @@ extraStrings:
       STR_RK_62: "RK 62"
       STR_M14_EBR: "M14 EBR"
       STR_M14_EBR_SCOPED: "M14 EBR (Scoped)"
+      STR_AKS_74U: "AKs-74u"
+      STR_AKS_74U_SOPMOD: "AKs-74u (SOPMOD)"
 
       STR_HUNTING_RIFLE: "Hunting Rifle"
       STR_SKS_SCOPED: "SKS Carbine (Scoped)"
