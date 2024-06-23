@@ -256,6 +256,9 @@ items:
   - type: STR_GOLDDEAGLE #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_M9 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
 
   - type: STR_TEC_9 #ignoreDuplicate
     tags:
@@ -462,6 +465,12 @@ items:
      AmmoReSprite: 1
      FoldStock: 1
   - type: STR_RK_62 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AKS_74U #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+  - type: STR_AKS_74U_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
 

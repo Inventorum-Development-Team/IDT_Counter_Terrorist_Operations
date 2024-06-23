@@ -2521,9 +2521,9 @@ items:
     size: 1
     weight: 8
     # battleType: 1
-    bigSprite: 640 #Change!
-    floorSprite: 640 #Change!
-    handSprite: 640 #Change!
+    bigSprite: 4608 
+    floorSprite: 4608 
+    handSprite: 4608 
     reloadSound: 189
     fireSound: 190 #Change?
     #costBuy: 5000
@@ -2536,8 +2536,8 @@ items:
     oneHandedPenalty: 100
     maxRange: 20
     minRange: 0
-    aimRange: 10
-    snapRange: 7
+    aimRange: 8
+    snapRange: 6
     #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
@@ -5070,9 +5070,9 @@ items:
     size: 1
     weight: 21
     # battleType: 1
-    bigSprite: 1608 #Change!
-    floorSprite: 1608 #Change!
-    handSprite: 1608
+    bigSprite: 4632 
+    floorSprite: 4632 
+    handSprite: 4632
     reloadSound: 242
     fireSound: 243 #Change!
     costSell: 12000 #Change!
@@ -5106,9 +5106,9 @@ items:
     size: 1
     weight: 19
     # battleType: 1
-    bigSprite: 1608 #Change!
-    floorSprite: 1608 #Change!
-    handSprite: 1608
+    bigSprite: 4664 
+    floorSprite: 4664 
+    handSprite: 4664
     reloadSound: 242
     fireSound: 243 #Change!
     costSell: 12000 #Change!
@@ -5121,7 +5121,7 @@ items:
     maxRange: 200
     minRange: 0
     aimRange: 29
-    snapRange: 44
+    snapRange: 36
     autoRange: 15
     kneelBonus: 125
     refNode: *STR_AR
@@ -6211,8 +6211,8 @@ items:
     sprayWaypoints: 2
 
   - type: STR_FN_MINIMI
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_LMGS ]
     #    requiresBuy:
     size: 1
@@ -7486,6 +7486,18 @@ extraSprites:
       4584: Resources/BallisticWeapons/Rifles/BigRK62.png
       # 4592: Resources/BallisticWeapons/Rifles/BigRK6240.png
       # 4600: Resources/BallisticWeapons/Rifles/BigRK6275.png
+      4608: Resources/BallisticWeapons/Pistols/BigM9nomag.png
+      4616: Resources/BallisticWeapons/Pistols/BigM9.png
+      4624: Resources/BallisticWeapons/Pistols/BigM9.png
+      4632: Resources/BallisticWeapons/Rifles/BigAKS74Unomag.png
+      4640: Resources/BallisticWeapons/Rifles/BigAKS74U.png
+      4648: Resources/BallisticWeapons/Rifles/BigAKS74U45.png
+      4656: Resources/BallisticWeapons/Rifles/BigAKS74U60.png
+      4664: Resources/BallisticWeapons/Rifles/BigAKS74USOPMODnomag.png
+      4672: Resources/BallisticWeapons/Rifles/BigAKS74USOPMOD.png
+      4680: Resources/BallisticWeapons/Rifles/BigAKS74USOPMOD45.png
+      4688: Resources/BallisticWeapons/Rifles/BigAKS74USOPMOD60.png
+
 
   - type: FLOOROB.PCK
     files:
@@ -7924,6 +7936,17 @@ extraSprites:
       4584: Resources/BallisticWeapons/Rifles/FloorRK62.png
       # 4592: Resources/BallisticWeapons/Rifles/FloorRK62.png
       # 4600: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      4608: Resources/BallisticWeapons/Pistols/FloorM9.png
+      4616: Resources/BallisticWeapons/Pistols/FloorM9.png
+      4624: Resources/BallisticWeapons/Pistols/FloorM9.png
+      4632: Resources/BallisticWeapons/Rifles/FloorAKS74U.png
+      4640: Resources/BallisticWeapons/Rifles/FloorAKS74U.png
+      4648: Resources/BallisticWeapons/Rifles/FloorAKS74U.png
+      4656: Resources/BallisticWeapons/Rifles/FloorAKS74U.png
+      4664: Resources/BallisticWeapons/Rifles/FloorAKS74USOPMOD.png
+      4672: Resources/BallisticWeapons/Rifles/FloorAKS74USOPMOD.png
+      4680: Resources/BallisticWeapons/Rifles/FloorAKS74USOPMOD.png
+      4688: Resources/BallisticWeapons/Rifles/FloorAKS74USOPMOD.png
 
 
   - type: HANDOB.PCK
@@ -8367,6 +8390,17 @@ extraSprites:
       4584: Resources/BallisticWeapons/Rifles/HandRK62.png
       # 4592: Resources/BallisticWeapons/Rifles/HandRK62.png
       # 4600: Resources/BallisticWeapons/Rifles/HandRK62.png
+      4608: Resources/BallisticWeapons/Pistols/HandM9.png
+      4616: Resources/BallisticWeapons/Pistols/HandM9.png
+      4624: Resources/BallisticWeapons/Pistols/HandM9.png
+      4632: Resources/BallisticWeapons/Rifles/HandAKS74U.png
+      4640: Resources/BallisticWeapons/Rifles/HandAKS74U.png
+      4648: Resources/BallisticWeapons/Rifles/HandAKS74U.png
+      4656: Resources/BallisticWeapons/Rifles/HandAKS74U.png
+      4664: Resources/BallisticWeapons/Rifles/HandAKS74USOPMOD.png
+      4672: Resources/BallisticWeapons/Rifles/HandAKS74USOPMOD.png
+      4680: Resources/BallisticWeapons/Rifles/HandAKS74USOPMOD.png
+      4688: Resources/BallisticWeapons/Rifles/HandAKS74USOPMOD.png
 
   # - type: SMOKE.PCK
   #   height: 80

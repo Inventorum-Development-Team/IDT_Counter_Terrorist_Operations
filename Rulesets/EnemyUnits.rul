@@ -1066,16 +1066,18 @@ units:
            - 
              - STR_AK_74
              - STR_5_45_X30
+             - STR_GRENADE
            #Uncommon
            - 
-             - STR_AKM
-             - STR_SOVIET_7_62_X30
+             - STR_AKS_74U
+             - STR_5_45_X30
            - 
-             - STR_AKM
-             - STR_SOVIET_7_62_X30
+             - STR_AKS_74U
+             - STR_5_45_X30
            - 
              - STR_AK_74
              - STR_5_45_X30
+             - STR_GRENADE
            #Rare
            - 
              - STR_AKM
@@ -1084,7 +1086,7 @@ units:
              - STR_AKM
              - STR_SOVIET_7_62_X30
            - 
-             - STR_AK_74
+             - STR_AKS_74U_SOPMOD
              - STR_5_45_X30
 
   - type: STR_TERRORIST_RAIDER_EAST_EU
@@ -1817,9 +1819,9 @@ units:
              - STR_9MM_PARABELLUM_X20
            #Uncommon
            - 
-             - STR_M1911
-             - STR_45_ACP_X7
-             - STR_45_ACP_X7
+             - STR_M9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
            - 
              - STR_TEC_9
              - STR_9MM_PARABELLUM_X30
@@ -1830,9 +1832,12 @@ units:
              - STR_9MM_PARABELLUM_X20
            #Rare
            - 
-             - STR_M1911
-             - STR_45_ACP_X7
-             - STR_45_ACP_X7
+             - STR_M9
+             - STR_M9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
            - 
              - STR_TEC_9
              - STR_9MM_PARABELLUM_X30
