@@ -745,6 +745,13 @@ research:
     getOneFree:
      - STR_40MM_AMMO
 
+  - name: STR_APAV40_ACQUISITION
+    cost: 60
+    dependencies:
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_RIFLE_MODIFICATION
+     - STR_FAMAS_ACQUISITION
+
   - name: STR_STOCK_ACQUISITION
     cost: 20
     dependencies:
@@ -1414,6 +1421,7 @@ extraStrings:
       STR_M203_ACQUISITION: "Rifle Modification: M203"
       STR_M320_ACQUISITION: "Rifle Modification: M320"
       STR_FN40GL_ACQUISITION: "Rifle Modification: FN40GL"
+      STR_APAV40_ACQUISITION: "Famas Rifle Grenade: APAV40"
       STR_STOCK_ACQUISITION: "Pistol Modification: Stock"
       STR_MILITARY_EQUIPMENT_ACQUISITION: "Military Equipment"
       STR_GRENADES: "Grenades"

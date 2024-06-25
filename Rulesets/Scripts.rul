@@ -537,6 +537,9 @@ items:
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+  - type: STR_NEGEV #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
   
   - type: STR_RPG #ignoreDuplicate
     tags:

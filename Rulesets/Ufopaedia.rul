@@ -350,8 +350,8 @@ ufopaedia:
 
   - id: STR_STETCKIN
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_STETCKIN_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 208
@@ -414,8 +414,8 @@ ufopaedia:
 
   - id: STR_UZI
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_UZI_UFOPAEDIA
     section: STR_SMGS
     listOrder: 305
@@ -883,16 +883,16 @@ ufopaedia:
 
   - id: STR_DRAGUNOV
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_DRAGUNOV_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 505
 
   - id: STR_OSV_96
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_OSV_96_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 506
@@ -917,8 +917,8 @@ ufopaedia:
 
   - id: STR_M24_SWS
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_M24_SWS_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 510
@@ -1008,8 +1008,8 @@ ufopaedia:
 
   - id: STR_FN_MINIMI
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_FN_MINIMI_UFOPAEDIA
     section: STR_LMGS
     listOrder: 702
@@ -1034,8 +1034,8 @@ ufopaedia:
 
   - id: STR_NEGEV
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_NEGEV_UFOPAEDIA
     section: STR_LMGS
     listOrder: 706
@@ -1328,8 +1328,8 @@ ufopaedia:
 
   - id: STR_127_X5
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
+    #requires:
+    # - STR_UNOBTAINABLE
     text: STR_127_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1038

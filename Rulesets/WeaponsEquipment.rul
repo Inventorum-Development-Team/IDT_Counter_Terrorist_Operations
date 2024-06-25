@@ -1347,8 +1347,8 @@ items:
     clipSize: 100
     listOrder: 7710
   - type: STR_SOVIET_7_62_MMR_X10
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_CLIPS ]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
     bigSprite: 3888
@@ -1356,7 +1356,7 @@ items:
     floorSprite: 3888
     size: 0.1
     armor: 30
-    costBuy: 300
+    #costBuy: 300
     costSell: 150
     weight: 2
     clipSize: 10
@@ -1763,7 +1763,7 @@ items:
     listOrder: 6020
   - type: STR_APAV40_X1
     requiresBuy:
-      - STR_UNOBTAINABLE
+      - STR_APAV40_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_APAV40
     bigSprite: 3256
@@ -2361,19 +2361,19 @@ items:
     listOrder: 6810
 
   - type: STR_STETCKIN
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_PISTOLS ]
     #    requiresBuy:
     size: 1
     weight: 14
     # battleType: 1
-    bigSprite: 3376
-    floorSprite: 3376
-    handSprite: 3376
+    bigSprite: 4696
+    floorSprite: 4696
+    handSprite: 4696
     reloadSound: 197
     fireSound: 198
-    costBuy: 12500
+    #costBuy: 12500
     costSell: 6250
     accuracyAimed: 35
     accuracySnap: 35
@@ -2843,8 +2843,8 @@ items:
     listOrder: 6880
 
   - type: STR_UZI
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_SMGS ]
     #    requiresBuy:
     size: 1
@@ -2855,7 +2855,7 @@ items:
     handSprite: 3896
     reloadSound: 177
     fireSound: 178
-    costBuy: 14000
+    #costBuy: 14000
     costSell: 7000
     accuracyAimed: 45
     accuracySnap: 55
@@ -5471,8 +5471,8 @@ items:
     listOrder: 7350
 
   - type: STR_DRAGUNOV
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -5483,7 +5483,7 @@ items:
     handSprite: 3704
     reloadSound: 118
     fireSound: 119
-    costBuy: 43000
+    #costBuy: 43000
     costSell: 21500
     accuracyAimed: 120
     accuracySnap: 90
@@ -5509,8 +5509,8 @@ items:
     listOrder: 7890
 
   - type: STR_OSV_96
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -5521,7 +5521,7 @@ items:
     handSprite: 3720
     reloadSound: 107
     fireSound: 108
-    costBuy: 62000
+    #costBuy: 62000
     costSell: 31000
     accuracyAimed: 115
     accuracySnap: 70
@@ -5646,8 +5646,8 @@ items:
     listOrder: 5500
 
   - type: STR_M24_SWS
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
     #    requiresBuy:
     size: 1
@@ -5658,7 +5658,7 @@ items:
     handSprite: 3736
     reloadSound: 149
     fireSound: 150
-    costBuy: 44000
+    #costBuy: 44000
     costSell: 22000
     accuracyAimed: 110
     accuracySnap: 85
@@ -6387,8 +6387,8 @@ items:
     sprayWaypoints: 2
 
   - type: STR_NEGEV
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_LMGS ]
     #    requiresBuy:
     size: 1
@@ -6399,7 +6399,7 @@ items:
     handSprite: 3848
     reloadSound: 146
     fireSound: 192
-    costBuy: 54000
+    #costBuy: 54000
     costSell: 27000
     accuracySnap: 60
     accuracyAuto: 35
@@ -7340,8 +7340,8 @@ extraSprites:
       3352: Resources/BallisticWeapons/Pistols/BigManhurin.png
       3360: Resources/BallisticWeapons/Pistols/BigSR-1Vektornomag.png
       3368: Resources/BallisticWeapons/Pistols/BigSR-1Vektor.png
-      3376: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
-      3384: Resources/BallisticWeapons/Pistols/BigStetchkin.png
+      #3376: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
+      #3384: Resources/BallisticWeapons/Pistols/BigStetchkin.png
       3392: Resources/BallisticWeapons/Pistols/BigDeaglenomag.png
       3400: Resources/BallisticWeapons/Pistols/BigDeagle.png
       3408: Resources/BallisticWeapons/Pistols/BigGoldDeaglenomag.png
@@ -7497,7 +7497,9 @@ extraSprites:
       4672: Resources/BallisticWeapons/Rifles/BigAKS74USOPMOD.png
       4680: Resources/BallisticWeapons/Rifles/BigAKS74USOPMOD45.png
       4688: Resources/BallisticWeapons/Rifles/BigAKS74USOPMOD60.png
-
+      4696: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
+      #4704:
+      4712: Resources/BallisticWeapons/Pistols/BigStetchkin.png
 
   - type: FLOOROB.PCK
     files:
@@ -7790,8 +7792,8 @@ extraSprites:
       3352: Resources/BallisticWeapons/Pistols/FloorManhurin.png
       3360: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
       3368: Resources/BallisticWeapons/Pistols/FloorSR1-Vektor.png
-      3376: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
-      3384: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
+      #3376: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
+      #3384: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
       3392: Resources/BallisticWeapons/Pistols/FloorDeagle.png
       3400: Resources/BallisticWeapons/Pistols/FloorDeagle.png
       3408: Resources/BallisticWeapons/Pistols/FloorGoldDeagle.png
@@ -7947,6 +7949,9 @@ extraSprites:
       4672: Resources/BallisticWeapons/Rifles/FloorAKS74USOPMOD.png
       4680: Resources/BallisticWeapons/Rifles/FloorAKS74USOPMOD.png
       4688: Resources/BallisticWeapons/Rifles/FloorAKS74USOPMOD.png
+      4696: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
+      #4704:
+      4712: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
 
 
   - type: HANDOB.PCK
@@ -8244,8 +8249,8 @@ extraSprites:
       3352: Resources/BallisticWeapons/Pistols/HandManhurin.png
       3360: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
       3368: Resources/BallisticWeapons/Pistols/HandSR1-Vektor.png
-      3376: Resources/BallisticWeapons/Pistols/HandStetchkin.png
-      3384: Resources/BallisticWeapons/Pistols/HandStetchkin.png
+      #3376: Resources/BallisticWeapons/Pistols/HandStetchkin.png
+      #3384: Resources/BallisticWeapons/Pistols/HandStetchkin.png
       3392: Resources/BallisticWeapons/Pistols/HandDeagle.png
       3400: Resources/BallisticWeapons/Pistols/HandDeagle.png
       3408: Resources/BallisticWeapons/Pistols/HandGoldDeagle.png
@@ -8401,6 +8406,9 @@ extraSprites:
       4672: Resources/BallisticWeapons/Rifles/HandAKS74USOPMOD.png
       4680: Resources/BallisticWeapons/Rifles/HandAKS74USOPMOD.png
       4688: Resources/BallisticWeapons/Rifles/HandAKS74USOPMOD.png
+      4696: Resources/BallisticWeapons/Pistols/HandStetchkin.png
+      #4704:
+      4712: Resources/BallisticWeapons/Pistols/HandStetchkin.png
 
   # - type: SMOKE.PCK
   #   height: 80
