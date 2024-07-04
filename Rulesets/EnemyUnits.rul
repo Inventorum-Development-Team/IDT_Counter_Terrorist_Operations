@@ -824,7 +824,7 @@ units:
       strength: 100
       psiStrength: 0
       psiSkill: 0
-      melee: 70
+      melee: 300 #70 previosly, increased for sledgehammer
     armor: STR_HEAVY_ENEMY
     standHeight: 21
     kneelHeight: 16

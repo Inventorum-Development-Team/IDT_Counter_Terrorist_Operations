@@ -1472,8 +1472,8 @@ items:
     invHeight: 2
     listOrder: 6121
   - type: STR_127_X5
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_CLIPS ]
     refNode: *STR_127_AMMO
     bigSprite: 3248
@@ -1481,7 +1481,7 @@ items:
     floorSprite: 3248
     size: 0.1
     armor: 30
-    costBuy: 500
+    #costBuy: 500
     costSell: 250
     weight: 5
     clipSize: 5
