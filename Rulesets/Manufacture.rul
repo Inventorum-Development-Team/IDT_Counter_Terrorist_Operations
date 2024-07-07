@@ -738,6 +738,50 @@ manufacture:
      STR_STOCK: 1
     refund: true
 
+  - name: STR_DEFAULT_BACKPACK_NV
+    time: 20
+    requires:
+     - STR_NIGHT_VISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_BACKPACK: 1
+     STR_NV: 1
+    refund: true
+  
+  - name: STR_DEFAULT_BACKPACK_NV_REMOVAL
+    time: 20
+    requires:
+     - STR_NIGHT_VISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_BACKPACK_NV: 1
+    producedItems:
+     STR_NV: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+
+  - name: STR_DEFAULT_BACKPACK_ADVNV
+    time: 20
+    requires:
+     - STR_ADV_NIGHTVISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_BACKPACK: 1
+     STR_ADVNV: 1
+    refund: true
+  
+  - name: STR_DEFAULT_BACKPACK_ADVNV_REMOVAL
+    time: 20
+    requires:
+     - STR_ADV_NIGHTVISION
+     - STR_BACKPACK_ACQUISITION
+    requiredItems:
+     STR_DEFAULT_BACKPACK_ADVNV: 1
+    producedItems:
+     STR_ADVNV: 1
+     STR_DEFAULT_BACKPACK: 1
+    refund: true
+
   - name: STR_DEFAULT_KEVLAR_BACKPACK
     time: 5
     requires:
@@ -821,6 +865,19 @@ manufacture:
      STR_DEFAULT_KEVLAR_NV: 1
     producedItems:
      STR_DEFAULT_KEVLAR: 1
+     STR_NV: 1
+    refund: true
+
+  - name: STR_DEFAULT_KEVLAR_NV_UPG
+    time: 20
+    requires:
+     - STR_NIGHT_VISION
+     - STR_ADV_NIGHTVISION
+    requiredItems:
+     STR_DEFAULT_KEVLAR_NV: 1
+     STR_ADVNV: 1
+    producedItems:
+     STR_DEFAULT_KEVLAR_ADVNV: 1
      STR_NV: 1
     refund: true
 
@@ -976,8 +1033,12 @@ extraStrings:
       STR_GLOCK_18_STOCK_REMOVAL: "Glock 18: Remove Stock"
       STR_P90_SOPMOD_REMOVAL: "FN P90: Remove SOPMOD"
 
+      
+      STR_DEFAULT_BACKPACK_NV_REMOVAL: "(NV, BP): Remove Backpack"
+      STR_DEFAULT_BACKPACK_ADVNV_REMOVAL: "(ADVNV, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_BACKPACK_REMOVAL: "(Kevlar, BP): Remove Backpack"
       STR_DEFAULT_KEVLAR_NV_REMOVAL: "(Kevlar, NV): Remove Night Vision"
+      STR_DEFAULT_KEVLAR_NV_UPG: "(Kevlar, NV): Swap to Adv. Night Vision"
       STR_DEFAULT_KEVLAR_RIOT_REMOVAL: "(Kevlar, Face Shield): Remove Riot Armor Plates"
       STR_DEFAULT_KEVLAR_RIOT_BACKPACK_REMOVAL: "(Kevlar, Face Shield, BP): Remove Backpack" 
       STR_DEFAULT_KEVLAR_BACKPACK_NV_REMOVAL: "(Kevlar, NV, BP): Remove Backpack"

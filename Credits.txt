@@ -1,7 +1,7 @@
 Credits:
 * Alex_D: Covert Van (modified), Little Bird (modified)
 * Andr: M16, 9mm 20x
-* Aim To Head: soundtrack
+* Aim To Head: soundtrack in Arsenal v1.0
 * Badfella: Default Uniform (modified), (now unused)
 * Buscher: Bugfixes, Handcuff script adjustment, low morale flash script (based on a script by Ohartenstein and BulletDesigner)
 * efrenespartano: lead dev, lead sprite design 

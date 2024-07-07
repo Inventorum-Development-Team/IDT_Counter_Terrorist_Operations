@@ -1,57 +1,41 @@
-musics:
-  - type: GMDEFEND
-    normalization: 1.0
-  - type: GMENBASE
-    normalization: 1.0
-  - type: GMGEO1
-    normalization: 1.7
-  - type: GMGEO2
-    normalization: 1.0
-  - type: GMGEO3
-    normalization: 1.0  
-  - type: GMINTER
-    normalization: 0.74
-  - type: GMINTRO1
-    catPos: 19
-    normalization: 0.8
-  - type: GMINTRO2
-    catPos: 20
-    normalization: 0.8
-  - type: GMINTRO3
-    catPos: 21
-    normalization: 0.8
-  - type: GMLOSE
-    normalization: 1.0
-  - type: GMMARS
-    normalization: 1.0
-  - type: GMNEWMAR
-    normalization: 0.81
-  - type: GMSTORY
-    normalization: 1.0
-  - type: GMTACTIC
-    normalization: 1.4
-  - type: GMTACTIC2
-    normalization: 1.4
-  - type: GMTACTIC3
-    normalization: 1.4  
-  - type: GMWIN
-    catPos: 11
-    normalization: 0.84
-  - type: GMENDGAME
-    normalization: 1.0
-
-
-extraStrings:
-  - type: en-US
-    strings:
-     GMSTORY: "Resonance"
-     GMTACTIC: "Poison"
-     GMTACTIC2: "Sink"
-     GMTACTIC3: "Passage"
-     GMMARS: "Blanka"
-     GMNEWMAR: "Mortem"
-     GMGEO1: "Gremory"
-     GMGEO2: "Fallen"
-     GMGEO3: "Nowhere"
-     GMENDGAME: "Slasher"    
-     GMWIN: "Helhest"
+#musics:
+#  - type: GMDEFEND
+#    normalization: 1.0
+#  - type: GMENBASE
+#    normalization: 1.0
+#  - type: GMGEO1
+#    normalization: 1.7
+#  - type: GMGEO2
+#    normalization: 1.0
+#  - type: GMGEO3
+#    normalization: 1.0  
+#  - type: GMINTER
+#    normalization: 0.74
+#  - type: GMINTRO1
+#    catPos: 19
+#    normalization: 0.8
+#  - type: GMINTRO2
+#    catPos: 20
+#    normalization: 0.8
+#  - type: GMINTRO3
+#    catPos: 21
+#    normalization: 0.8
+#  - type: GMLOSE
+#    normalization: 1.0
+#  - type: GMMARS
+#    normalization: 1.0
+#  - type: GMNEWMAR
+#    normalization: 0.81
+#  - type: GMSTORY
+#    normalization: 1.0
+#  - type: GMTACTIC
+#    normalization: 1.4
+#  - type: GMTACTIC2
+#    normalization: 1.4
+#  - type: GMTACTIC3
+#    normalization: 1.4  
+#  - type: GMWIN
+#    catPos: 11
+#    normalization: 0.84
+#  - type: GMENDGAME
+#    normalization: 1.0

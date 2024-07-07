@@ -6599,7 +6599,7 @@ items:
   - type: STR_GUSTAF
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
     requiresBuy:
-      - STR_AT_ACQUISITION
+      - STR_GUSTAF_ACQUISITION
     size: 1
     weight: 65
     battleType: 1
@@ -6695,6 +6695,51 @@ items:
         compatibleAmmo: [ STR_RPG_29_HEAT_X1, STR_RPG_29_THERMO_X1 ]
         tuLoad: 50
         tuUnload: 25
+    listOrder: 7840
+
+  - type: STR_M72_LAW
+    requiresBuy:
+      - STR_M72_LAW_ACQUISITION
+    categories: [ STR_ARTILLERY, STR_FIREARMS ]
+    #    requiresBuy:
+    size: 0.5
+    weight: 30
+    battleType: 1
+    bigSprite: 4720
+    floorSprite: 4720
+    handSprite: 4720
+    reloadSound: 141
+    fireSound: 142
+    costBuy: 15000
+    costSell: 7000
+    accuracyAimed: 110
+    accuracySnap: 55
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 7
+    aimRange: 14
+    snapRange: 8
+    kneelBonus: 150
+    tuAimed: 75
+    tuSnap: 60
+    invWidth: 1
+    invHeight: 3
+    power: 95
+    damageAlter:
+      RandomType: 1
+      ToArmorPre: 0.75
+      FixRadius: 6
+    clipSize: 1
+    damageType: 3
+    bulletSprite: 21
+    hitSound: 0
+    hitAnimation: 0
+    #ammo:
+    #  0:
+    #    compatibleAmmo: [ STR_RPG_29_HEAT_X1, STR_RPG_29_THERMO_X1 ]
+    #    tuLoad: 50
+    #    tuUnload: 25
     listOrder: 7840
 
   ###Grenades###
@@ -7500,6 +7545,11 @@ extraSprites:
       4696: Resources/BallisticWeapons/Pistols/BigStetchkinnomag.png
       #4704:
       4712: Resources/BallisticWeapons/Pistols/BigStetchkin.png
+      4720: Resources/BallisticWeapons/Artillery/BigM72LAW.png
+      #4728:
+      #4736:
+      #4744:
+      4752: Resources/BallisticWeapons/Artillery/BigM72LAWFolded.png
 
   - type: FLOOROB.PCK
     files:
@@ -7952,6 +8002,11 @@ extraSprites:
       4696: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
       #4704:
       4712: Resources/BallisticWeapons/Pistols/FloorStetchkin.png
+      4720: Resources/BallisticWeapons/Artillery/FloorM72LAW.png
+      #4728:
+      #4736:
+      #4744:
+      4752: Resources/BallisticWeapons/Artillery/FloorM72LAW.png
 
 
   - type: HANDOB.PCK
@@ -8409,6 +8464,11 @@ extraSprites:
       4696: Resources/BallisticWeapons/Pistols/HandStetchkin.png
       #4704:
       4712: Resources/BallisticWeapons/Pistols/HandStetchkin.png
+      4720: Resources/BallisticWeapons/Artillery/HandM72LAW.png
+      #4728:
+      #4736:
+      #4744:
+      4752: Resources/BallisticWeapons/Artillery/HandM72LAW.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8648,6 +8708,7 @@ extraStrings:
       STR_GUSTAF: "Carl Gustaf Recoilless Rifle"
       STR_RPG: "RPG-7"
       STR_RPG-29: "RPG-29"
+      STR_M72_LAW: "M72A7 LAW"
 
       STR_BURST: "Burst"
       STR_DOUBLE_TAP: "Double Tap"

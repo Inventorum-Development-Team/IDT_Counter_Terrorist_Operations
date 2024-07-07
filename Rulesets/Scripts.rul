@@ -544,6 +544,10 @@ items:
   - type: STR_RPG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_M72_LAW #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     FoldStock: 1
 
   - type: STR_RIOT_SHIELD #ignoreDuplicate
     tags:

@@ -702,12 +702,12 @@ research:
      - STR_5_45_AMMO
 
   - name: STR_AT_ACQUISITION 
-    cost: 150
+    cost: 100
     dependencies:
      - STR_MILITARY_EQUIPMENT_ACQUISITION
 
   - name: STR_GL_ACQUISITION 
-    cost: 150
+    cost: 100
     dependencies:
      - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_AT_ACQUISITION
@@ -1039,6 +1039,16 @@ research:
      - STR_M82_ACQUISITION
     getOneFree:
      - STR_9_39_AMMO
+
+  - name: STR_M72_LAW_ACQUISITION 
+    cost: 50
+    dependencies:
+     - STR_AT_ACQUISITION
+
+  - name: STR_GUSTAF_ACQUISITION 
+    cost: 50
+    dependencies:
+     - STR_AT_ACQUISITION
      
   - name: STR_MGL_ACQUISITION 
     cost: 50
@@ -1432,6 +1442,8 @@ extraStrings:
       STR_PECHENEG_ACQUISITION: "LMG Acquisition: PKP Pecheneg"
       STR_RPK_74_ACQUISITION: "LMG Acquisition: RPK 74" 
       STR_AT_ACQUISITION: "AT Weaponry Acquisition"
+      STR_M72_LAW_ACQUISITION: "AT Acquisition: M72A7 LAW"
+      STR_GUSTAF_ACQUISITION: "AT Acquisition: Carl Gustaf Recoilless Rifle"
       STR_GL_ACQUISITION: "Grenade Launcher Acquisition" 
       STR_PRIVATE_CONTRACTORS: "Private Contractors"
       STR_MK_23_ACQUISITION: "Private Pistol Contract: USSOCOM MK 23" 

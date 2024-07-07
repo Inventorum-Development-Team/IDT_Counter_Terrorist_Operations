@@ -1079,6 +1079,12 @@ ufopaedia:
     section: STR_ARTILLERY
     listOrder: 805
 
+  - id: STR_M72_LAW
+    type_id: 4
+    text: STR_M27_LAW_UFOPAEDIA
+    section: STR_ARTILLERY
+    listOrder: 806
+
   #Ammo
   - id: STR_TASER_X1
     type_id: 4
@@ -1856,11 +1862,11 @@ extraStrings:
       
       STR_M320_UFOPAEDIA: "The M320 was designed as a replacement for the M203 underbarrel grenade launcher. Unlike its predecessor, the M320 can be used stand-alone weapon as well as being mounted on a rifle. It can fire a multitude of 40mm grenades, from frag grenades to non-lethal sponge grenades."
       STR_GM_94_UFOPAEDIA: "A russian pump-action grenade launcher designed for urban fighting and room-to-room combat. It has a simple design that allows it to operate in adverse environments and even after being submerged in water."
-      STR_MGL_UFOPAEDIA: "The Milkor MGL is a grenade launcher with a revolving cylinder magazine that can contain 6 40mm grenades. Its design means it can quickly and accurately bring a lot of firepower to an enemy target. "
+      STR_MGL_UFOPAEDIA: "The Milkor MGL is a grenade launcher with a revolving cylinder magazine that can contain 6 40mm grenades. Its design means it can quickly and accurately bring a lot of firepower to an enemy target."
       STR_GUSTAF_UFOPAEDIA: "The Carl Gustaf is a reusable anti-tank recoilless rifle. Designed in 1946, it has gone trough multiple upgrades, and is the only weapon of its type from its era that is still in use. Due to its widespread use and long name, it has gained multiple nicknames like Charlie G or Kusti."
       STR_RPG_UFOPAEDIA: "Due to its simplicity, low cost and effectiveness, the RPG-7 has become the most used anti-armor weapon in the world. For this reason it has also proved commonplace among the arsenals of irregular and terrorist forces, and it is usually their only weapon capable of challenging armored vehicles."
-      STR_RPG-29_UFOPAEDIA: "The RPG-29 is a reusable rocket-propelled grenadde launcher that became the last adopted by the soviet union. It has seen action in several middle-eastern conflicts, where it has proved itself capable of challenging modern main battle tanks."
-
+      STR_RPG-29_UFOPAEDIA: "The RPG-29 is a reusable rocket-propelled grenade launcher that became the last adopted by the soviet union. It has seen action in several middle-eastern conflicts, where it has proved itself capable of challenging modern main battle tanks."
+      STR_M27_LAW_UFOPAEDIA: "A single use anti-tank rocket launcher, the A7 variant has lower armor penetration but a larger blast. It is significantly lighter than most other AT launchers and is easier to use as a secondary weapon."
 
       STR_TASER_AMMO_UFOPAEDIA: "A clip containing a charge for a single shot of a Taser."
       STR_38_SPECIAL_UFOPAEDIA: "The .38 Smith & Wesson Soecial was developed in 1898 when previous US military cartridges where found to have inadequate stopping power. It has since then become a popular revolver cartridge due to its manageable recoil and accuracy."

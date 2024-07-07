@@ -1,3 +1,17 @@
+X-SomeMonth-2024(hopefully) v1.1 Arsenal
+Changes made:
+* Added varried item sets to enemies, with diffrent rarieties for each weapon tier, overall balance should be the same but with more variety in enemy equipment.
+* APAV40 research added for famas
+* Implemented more weapons into campaign: Stechkin, Uzi, Dragunov, OSV-96, M24, and Negev
+* Removed Aim to Head tracks
+* new weapons, which are implemented in the campaign
+> Pistols
+	- M9
+> Rifles
+	- AKs-74u + SOPMOD
+> Launcher
+	- M72 LAW
+
 X-May-2024 v1.0 Arsenal
 Changes made:
 * Added Terrain Pack, by Hobbes and collaborators

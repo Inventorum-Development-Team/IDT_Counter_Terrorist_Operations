@@ -67,6 +67,7 @@ armors:
   - delete: STR_POWER_SUIT_UC
   - delete: STR_FLYING_SUIT_UC
 
+  # REF NODES #
   - &STR_NO_VEST
     type: STR_NO_VEST
     corpseBattle:
@@ -104,6 +105,7 @@ armors:
     underArmor: 4
     loftempsSet: [ 3 ]
 
+  # NO ARMOR #
   - type: STR_DEFAULT
     spriteSheet: UNIFORM_SPRITESHEET.PCK
     spriteInv: UNIFORM_INV
@@ -141,6 +143,85 @@ armors:
     units:
       - STR_OPERATOR
 
+  - type: STR_DEFAULT_NV
+    spriteSheet: UNIFORM_NV_SPRITESHEET.PCK
+    spriteInv: UNIFORM_NV_INV
+    storeItem: STR_NV
+    corpseBattle:
+      - STR_CORPSE_UNIFORM_NV
+    loftempsSet: [ 3 ]
+    refNode: *STR_NO_VEST
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    personalLight: 0
+    visibilityAtDark: 18
+    builtInWeapons:
+      - STR_NO_BACKPACK
+    units:
+      - STR_OPERATOR
+
+  - type: STR_DEFAULT_ADVNV
+    spriteSheet: UNIFORM_ADVNV_SPRITESHEET.PCK
+    spriteInv: UNIFORM_ADVNV_INV
+    storeItem: STR_ADVNV
+    corpseBattle:
+      - STR_CORPSE_UNIFORM_ADVNV
+    loftempsSet: [ 3 ]
+    refNode: *STR_NO_VEST
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    personalLight: 0
+    visibilityAtDark: 25
+    heatVision: 100
+    antiCamouflageAtDark: 25
+    antiCamouflageAtDay: 30
+    builtInWeapons:
+      - STR_NO_BACKPACK
+    units:
+      - STR_OPERATOR
+  
+  - type: STR_DEFAULT_BACKPACK_NV
+    spriteSheet: UNIFORM_NV_BACKPACK_SPRITESHEET.PCK
+    spriteInv: UNIFORM_NV_INV
+    storeItem: STR_DEFAULT_BACKPACK_NV
+    corpseBattle:
+      - STR_CORPSE_UNIFORM_NV
+    loftempsSet: [ 3 ]
+    refNode: *STR_NO_VEST
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    personalLight: 0
+    visibilityAtDark: 18
+    units:
+      - STR_OPERATOR
+
+  - type: STR_DEFAULT_BACKPACK_ADVNV
+    spriteSheet: UNIFORM_ADVNV_BACKPACK_SPRITESHEET.PCK
+    spriteInv: UNIFORM_ADVNV_INV
+    storeItem: STR_DEFAULT_BACKPACK_ADVNV
+    corpseBattle:
+      - STR_CORPSE_UNIFORM_ADVNV
+    loftempsSet: [ 3 ]
+    refNode: *STR_NO_VEST
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    personalLight: 0
+    visibilityAtDark: 25
+    heatVision: 100
+    antiCamouflageAtDark: 25
+    antiCamouflageAtDay: 30
+    units:
+      - STR_OPERATOR
+
+ # VEST #
   - type: STR_DEFAULT_KEVLAR
     spriteSheet: KEVLAR_SPRITESHEET.PCK
     spriteInv: KEVLAR_INV
@@ -182,52 +263,6 @@ armors:
       stamina: -20
       tu: -5
       bravery: 10
-    units:
-      - STR_OPERATOR
-
-  - type: STR_DEFAULT_KEVLAR_RIOT
-    spriteSheet: RIOT_KEVLAR_SPRITESHEET.PCK
-    spriteInv: KEVLAR_RIOT_INV
-    storeItem: STR_DEFAULT_KEVLAR_RIOT
-    corpseBattle:
-      - STR_CORPSE_DEFAULT_RIOT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST_RIOT
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    personalLight: 0
-    builtInWeapons:
-      - STR_NO_BACKPACK
-    stats:
-      strength: -14
-      stamina: -15
-      firing: -3
-      tu: -10
-      bravery: 15
-    units:
-      - STR_OPERATOR
-      
-  - type: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
-    spriteSheet: RIOT_KEVLAR_BACKPACK_SPRITESHEET.PCK
-    spriteInv: KEVLAR_RIOT_INV
-    storeItem: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
-    corpseBattle:
-      - STR_CORPSE_DEFAULT_RIOT
-    loftempsSet: [ 3 ]
-    refNode: *STR_VEST_RIOT
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    personalLight: 0
-    stats:
-      strength: -17
-      stamina: -20
-      firing: -3
-      tu: -14
-      bravery: 15
     units:
       - STR_OPERATOR
       
@@ -326,6 +361,53 @@ armors:
       stamina: -20
       tu: -5
       bravery: 10
+    units:
+      - STR_OPERATOR
+  
+  # VEST + RIOT #
+  - type: STR_DEFAULT_KEVLAR_RIOT
+    spriteSheet: RIOT_KEVLAR_SPRITESHEET.PCK
+    spriteInv: KEVLAR_RIOT_INV
+    storeItem: STR_DEFAULT_KEVLAR_RIOT
+    corpseBattle:
+      - STR_CORPSE_DEFAULT_RIOT
+    loftempsSet: [ 3 ]
+    refNode: *STR_VEST_RIOT
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    personalLight: 0
+    builtInWeapons:
+      - STR_NO_BACKPACK
+    stats:
+      strength: -14
+      stamina: -15
+      firing: -3
+      tu: -10
+      bravery: 15
+    units:
+      - STR_OPERATOR
+      
+  - type: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
+    spriteSheet: RIOT_KEVLAR_BACKPACK_SPRITESHEET.PCK
+    spriteInv: KEVLAR_RIOT_INV
+    storeItem: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
+    corpseBattle:
+      - STR_CORPSE_DEFAULT_RIOT
+    loftempsSet: [ 3 ]
+    refNode: *STR_VEST_RIOT
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    personalLight: 0
+    stats:
+      strength: -17
+      stamina: -20
+      firing: -3
+      tu: -14
+      bravery: 15
     units:
       - STR_OPERATOR
 
@@ -813,6 +895,7 @@ armors:
   #   units:
   #     - STR_OPERATOR
 
+ # HEAVY #
   - type: STR_HEAVY
     spriteSheet: HEAVY_ARMOR_SPRITESHEET.PCK
     spriteInv: HEAVY_INV
@@ -940,6 +1023,10 @@ items:
     costBuy: 3000
     requiresBuy:
       - STR_BACKPACK_ACQUISITION
+  - type: STR_DEFAULT_BACKPACK_NV
+    size: 1
+  - type: STR_DEFAULT_BACKPACK_ADVNV
+    size: 1
   - type: STR_DEFAULT_KEVLAR
     size: 1
     costBuy: 30000
@@ -1019,6 +1106,28 @@ items:
     weight: 24
     bigSprite: 3004
     floorSprite: 3004
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_UNIFORM_NV
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 3007
+    floorSprite: 3007
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_UNIFORM_ADVNV
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 3007
+    floorSprite: 3007
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1239,13 +1348,31 @@ extraSprites:
     files:
       0: Resources/SoldiersAndArmors/KevlarNV/KEVLAR_NV_BACKPACK_SPRITESHEET.png
 
+  - type: UNIFORM_NV_SPRITESHEET.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/UNIFORM_NV_SPRITESHEET.png
+  - type: UNIFORM_NV_BACKPACK_SPRITESHEET.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/UNIFORM_NV_BACKPACK_SPRITESHEET.png
+
   - type: BIGOBS.PCK
     files:
       3003: Resources/SoldiersAndArmors/KevlarNV/CORPSE_BLACK_BIGOB.png
+      3006: Resources/SoldiersAndArmors/UniformNV/CORPSE_BLACK_BIGOB.png
   - type: FLOOROB.PCK
     files:
       3003: Resources/SoldiersAndArmors/KevlarNV/CORPSE_KEVLAR_NV_FLOOROB.png
+      3006: Resources/SoldiersAndArmors/UniformNV/CORPSE_UNIFORM_NV_FLOOROB.png
 
+ #vest
   - type: KEVLAR_NV_INVF0.SPK
     singleImage: true
     files:
@@ -1279,6 +1406,40 @@ extraSprites:
     files:
       0: Resources/SoldiersAndArmors/KevlarNV/INV/MAN_M3.png
 
+ #uniform
+  - type: UNIFORM_NV_INVF0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_F0.png
+  - type: UNIFORM_NV_INVF1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_F1.png
+  - type: UNIFORM_NV_INVF2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_F2.png
+  - type: UNIFORM_NV_INVF3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_F3.png
+  - type: UNIFORM_NV_INVM0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_M0.png
+  - type: UNIFORM_NV_INVM1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_M1.png
+  - type: UNIFORM_NV_INVM2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_M2.png
+  - type: UNIFORM_NV_INVM3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/KevlarNV/INV/MAN_M3.png
+
 ########################################
 ######### ADV NIGHT VISION ############
 #####################################
@@ -1298,13 +1459,31 @@ extraSprites:
     files:
       0: Resources/SoldiersAndArmors/KevlarAdvNV/KEVLAR_ADVNV_BACKPACK_SPRITESHEET.png
 
+  - type: UNIFORM_ADVNV_SPRITESHEET.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/UNIFORM_ADVNV_SPRITESHEET.png
+  - type: UNIFORM_ADVNV_BACKPACK_SPRITESHEET.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/UNIFORM_ADVNV_BACKPACK_SPRITESHEET.png
+
   - type: BIGOBS.PCK
     files:
       3004: Resources/SoldiersAndArmors/KevlarAdvNV/CORPSE_BLACK_BIGOB.png
+      3007: Resources/SoldiersAndArmors/UniformAdvNV/CORPSE_BLACK_BIGOB.png
   - type: FLOOROB.PCK
     files:
       3004: Resources/SoldiersAndArmors/KevlarAdvNV/CORPSE_KEVLAR_ADVNV_FLOOROB.png
+      3007: Resources/SoldiersAndArmors/UniformAdvNV/CORPSE_UNIFORM_ADVNV_FLOOROB.png
 
+  # vest
   - type: KEVLAR_ADVNV_INVF0.SPK
     singleImage: true
     files:
@@ -1337,6 +1516,40 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersAndArmors/KevlarAdvNV/INV/MAN_M3.png
+
+ #uniform
+  - type: UNIFORM_ADVNV_INVF0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_F0.png
+  - type: UNIFORM_ADVNV_INVF1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_F1.png
+  - type: UNIFORM_ADVNV_INVF2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_F2.png
+  - type: UNIFORM_ADVNV_INVF3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_F3.png
+  - type: UNIFORM_ADVNV_INVM0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_M0.png
+  - type: UNIFORM_ADVNV_INVM1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_M1.png
+  - type: UNIFORM_ADVNV_INVM2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_M2.png
+  - type: UNIFORM_ADVNV_INVM3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/UniformAdvNV/INV/MAN_M3.png
 
 
 ########################################
@@ -1403,14 +1616,18 @@ extraStrings:
 
        STR_DEFAULT: "Uniform"
        STR_DEFAULT_BACKPACK: "Uniform (BP)"
-       STR_DEFAULT_KEVLAR: "Uniform (Kevlar)"
-       STR_DEFAULT_KEVLAR_BACKPACK: "Uniform (Kevlar, BP)"
-       STR_DEFAULT_KEVLAR_RIOT: "Uniform (Kevlar, Face Shield)"
-       STR_DEFAULT_KEVLAR_RIOT_BACKPACK: "Uniform (Kevlar, Face Shield, BP)"       
-       STR_DEFAULT_KEVLAR_NV: "Uniform (Kevlar, NV)"
-       STR_DEFAULT_KEVLAR_BACKPACK_NV: "Uniform (Kevlar, NV, BP)"
-       STR_DEFAULT_KEVLAR_ADVNV: "Uniform (Kevlar, Adv. NV)"
-       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV: "Uniform (Kevlar, Adv. NV, BP)"
+       STR_DEFAULT_NV: "Uniform (NV)"
+       STR_DEFAULT_ADVNV: "Uniform (Adv. NV)"
+       STR_DEFAULT_BACKPACK_NV: "Uniform (NV, BP)"
+       STR_DEFAULT_BACKPACK_ADVNV: "Uniform (Adv. NV, BP)"
+       STR_DEFAULT_KEVLAR: "Kevlar Vest"
+       STR_DEFAULT_KEVLAR_BACKPACK: "Kevlar Vest (BP)"
+       STR_DEFAULT_KEVLAR_RIOT: "Kevlar Vest (Face Shield)"
+       STR_DEFAULT_KEVLAR_RIOT_BACKPACK: "Kevlar Vest (Face Shield, BP)"       
+       STR_DEFAULT_KEVLAR_NV: "Kevlar Vest (NV)"
+       STR_DEFAULT_KEVLAR_BACKPACK_NV: "Kevlar Vest (NV, BP)"
+       STR_DEFAULT_KEVLAR_ADVNV: "Kevlar Vest (Adv. NV)"
+       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV: "Kevlar Vest (Adv. NV, BP)"
        STR_HEAVY: "Heavy Armor"
        STR_HEAVY_NV: "Heavy Armor (NV)"
        STR_HEAVY_ADVNV: "Heavy Armor (Adv. NV)"
