@@ -1780,9 +1780,9 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_DOUBLE_BARREL
-             - STR_12G_BUCKSHOT_X2
-             - STR_12G_BUCKSHOT_X2
+             - STR_M3_GREASEGUN
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
            - 
              - STR_REMINGTON
              - STR_12G_BUCKSHOT_X8
@@ -1806,9 +1806,9 @@ units:
              - STR_12G_SLUG_X8
            #Rare
            - 
-             - STR_DOUBLE_BARREL
-             - STR_12G_BUCKSHOT_X2
-             - STR_12G_BUCKSHOT_X2
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
            - 
              - STR_REMINGTON
              - STR_12G_SLUG_X8
@@ -1828,13 +1828,14 @@ units:
              - STR_45_ACP_X7
              - STR_45_ACP_X7
            - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_M3_GREASEGUN
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
            - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_M3_GREASEGUN
+             - STR_GRENADE
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
            #Uncommon
            - 
              - STR_M9
@@ -1846,6 +1847,7 @@ units:
              - STR_9MM_PARABELLUM_X20
            - 
              - STR_TEC_9
+             - STR_GRENADE
              - STR_9MM_PARABELLUM_X30
              - STR_9MM_PARABELLUM_X20
            #Rare
@@ -1857,13 +1859,14 @@ units:
              - STR_9MM_PARABELLUM_X20
              - STR_9MM_PARABELLUM_X20
            - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_M3_GREASEGUN
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
            - 
-             - STR_TEC_9
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_M3_GREASEGUN
+             - STR_GRENADE
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
 
   - type: STR_TERRORIST_GRENADIER_USA
     race: STR_TERRORISTS_USA
@@ -1965,22 +1968,22 @@ units:
     builtInWeaponSets:
           #Common
           - 
-             - STR_SR_3
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_GLOCK_17
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
           - 
-             - STR_SR_3
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_SAIGA_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X20
           - 
              - STR_SR_3
              - STR_9_39_X20
              - STR_9_39_X20
           #Uncommon
           - 
-             - STR_SR_3
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_AKS_74U_SOPMOD
+             - STR_5_45_X30
+             - STR_5_45_X30
           - 
              - STR_SR_3
              - STR_9_39_X20
@@ -1991,9 +1994,9 @@ units:
              - STR_9_39_X20
           #Rare
           - 
-             - STR_SR_3
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_AKS_74U_SOPMOD
+             - STR_5_45_X30
+             - STR_5_45_X30
           - 
              - STR_SR_3
              - STR_9_39_X20
@@ -2010,15 +2013,15 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_MAKAROV
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_VEKTOR
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
+             - STR_9MM_GYURZA_X20
+             - STR_9MM_GYURZA_X20
            - 
              - STR_SR_3_ONE_HANDED
              - STR_RIOT_SHIELD
@@ -2026,36 +2029,34 @@ units:
              - STR_9_39_X10
            #Uncommon
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_SKORPION
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X30
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_VERSEK
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
+             - STR_9MM_GYURZA_X30
+             - STR_9MM_GYURZA_X30
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_VERSEK
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
+             - STR_9MM_GYURZA_X30
+             - STR_9MM_GYURZA_X30
            #Rare
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_KNIFE
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
            - 
              - STR_SR_3_ONE_HANDED
              - STR_RIOT_SHIELD
              - STR_9_39_X10
              - STR_9_39_X10
            - 
-             - STR_SR_3_ONE_HANDED
+             - STR_VEKTOR
              - STR_RIOT_SHIELD
-             - STR_9_39_X10
-             - STR_9_39_X10
+             - STR_9MM_GYURZA_X20
+             - STR_9MM_GYURZA_X20
 
   - type: STR_PR_RIFLEMAN_EAST_EU
     refNode: *STR_PR_RIFLEMAN
@@ -2063,9 +2064,9 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_AK15
-             - STR_SOVIET_7_62_X40
-             - STR_SOVIET_7_62_X30
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
            - 
              - STR_AK15
              - STR_SOVIET_7_62_X40
@@ -2076,28 +2077,28 @@ units:
              - STR_SOVIET_7_62_X30
            #Uncommon
            - 
-             - STR_AK15
+             - STR_AK12_SCOPED
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_RK_62
              - STR_SOVIET_7_62_X40
              - STR_SOVIET_7_62_X30
            - 
-             - STR_AK15
-             - STR_SOVIET_7_62_X40
-             - STR_SOVIET_7_62_X30
-           - 
-             - STR_AK15
+             - STR_RK_62
              - STR_SOVIET_7_62_X40
              - STR_SOVIET_7_62_X30
            #Rare
            - 
-             - STR_AK15
+             - STR_AK12_SCOPED
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK15_SCOPED
              - STR_SOVIET_7_62_X40
              - STR_SOVIET_7_62_X30
            - 
-             - STR_AK15
-             - STR_SOVIET_7_62_X40
-             - STR_SOVIET_7_62_X30
-           - 
-             - STR_AK15
+             - STR_AK15_SCOPED
              - STR_SOVIET_7_62_X40
              - STR_SOVIET_7_62_X30
             
@@ -2109,9 +2110,9 @@ units:
            #Common
            - 
              - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_BARRICADE_X3
-             - STR_SHRAPNEL_25_X3
+             - STR_VOLNA_R_X3
+             - STR_VOLNA_R_X3
+             - STR_VOLNA_R_X3
            - 
              - STR_KS_23
              - STR_SHRAPNEL_25_X3
@@ -2124,15 +2125,14 @@ units:
              - STR_SHRAPNEL_25_X3
            #Uncommon
            - 
-             - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_BARRICADE_X3
-             - STR_SHRAPNEL_25_X3
+             - STR_SAIGA_12
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
            - 
-             - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_BARRICADE_X3
-             - STR_SHRAPNEL_25_X3
+             - STR_SAIGA_12
+             - STR_12G_BUCKSHOT_X30
+             - STR_12G_BUCKSHOT_X20
            - 
              - STR_KS_23
              - STR_SHRAPNEL_25_X3
@@ -2140,20 +2140,16 @@ units:
              - STR_SHRAPNEL_25_X3
            #Rare
            - 
-             - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_BARRICADE_X3
-             - STR_SHRAPNEL_25_X3
+             - STR_SAIGA_12
+             - STR_12G_BUCKSHOT_X30
+             - STR_12G_BUCKSHOT_X20
            - 
-             - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_BARRICADE_X3
-             - STR_SHRAPNEL_25_X3
+             - STR_HAMMER #Heavy has very high melee stat
            - 
-             - STR_KS_23
-             - STR_SHRAPNEL_25_X3
-             - STR_BARRICADE_X3
-             - STR_SHRAPNEL_25_X3
+             - STR_SAIGA_12
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
 
 
   - type: STR_PR_GRUNT_EAST_EU
@@ -2162,20 +2158,20 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_AK12
-             - STR_5_45_X45
-             - STR_5_45_X30
+             - STR_VITYAZ
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
            - 
-             - STR_AK12
-             - STR_5_45_X45
-             - STR_5_45_X30
+             - STR_VERSEK
+             - STR_9MM_GYURZA_X30
+             - STR_9MM_GYURZA_X30
            - 
-             - STR_AK12
-             - STR_5_45_X45
-             - STR_5_45_X30
+             - STR_VERSEK
+             - STR_9MM_GYURZA_X30
+             - STR_9MM_GYURZA_X30
            #Uncommon
            - 
-             - STR_AK12
+             - STR_AKS_74U_SOPMOD
              - STR_5_45_X45
              - STR_5_45_X30
            - 
@@ -2188,15 +2184,15 @@ units:
              - STR_5_45_X30
            #Rare
            - 
-             - STR_AK12
+             - STR_VEKTOR
+             - STR_9MM_GYURZA_X20
+             - STR_9MM_GYURZA_X20
+           - 
+             - STR_AKS_74U_SOPMOD
              - STR_5_45_X45
              - STR_5_45_X30
            - 
-             - STR_AK12
-             - STR_5_45_X45
-             - STR_5_45_X30
-           - 
-             - STR_AK12
+             - STR_AKS_74U_SOPMOD
              - STR_5_45_X45
              - STR_5_45_X30
 
@@ -2206,8 +2202,10 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X100
+             - STR_RPK_74
+             - STR_5_45_X45
+             - STR_5_45_X45
+             - STR_5_45_X45
            - 
              - STR_PECHENEG
              - STR_SOVIET_7_62_MMR_X100
@@ -2216,8 +2214,10 @@ units:
              - STR_SOVIET_7_62_MMR_X100
            #Uncommon
            - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X100
+             - STR_RPK_74
+             - STR_5_45_X45
+             - STR_5_45_X45
+             - STR_5_45_X45
            - 
              - STR_PECHENEG
              - STR_SOVIET_7_62_MMR_X100
@@ -2226,14 +2226,20 @@ units:
              - STR_SOVIET_7_62_MMR_X100
            #Rare
            - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X100
+             - STR_RPK_74
+             - STR_5_45_X45
+             - STR_5_45_X45
+             - STR_5_45_X45
            - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X100
+             - STR_RPK_74
+             - STR_5_45_X45
+             - STR_5_45_X45
+             - STR_5_45_X45
            - 
-             - STR_PECHENEG
-             - STR_SOVIET_7_62_MMR_X100
+             - STR_RPK_74
+             - STR_5_45_X45
+             - STR_5_45_X45
+             - STR_5_45_X45
 
   - type: STR_PR_SNIPER_EAST_EU
     refNode: *STR_PR_SNIPER
@@ -2241,43 +2247,43 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_VSS
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_DRAGUNOV
+             - STR_SOVIET_7_62_MMR_X10
+             - STR_SOVIET_7_62_MMR_X10
            - 
-             - STR_VSS
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_DRAGUNOV
+             - STR_SOVIET_7_62_MMR_X10
+             - STR_SOVIET_7_62_MMR_X10
            - 
              - STR_VSS
              - STR_9_39_X20
              - STR_9_39_X20
            #Uncommon
            - 
-             - STR_VSS
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_DRAGUNOV
+             - STR_SOVIET_7_62_MMR_X10
+             - STR_SOVIET_7_62_MMR_X10
            - 
              - STR_VSS
              - STR_9_39_X20
              - STR_9_39_X20
            - 
-             - STR_VSS
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_OSV_96
+             - STR_127_X5
+             - STR_127_X5
            #Rare
            - 
-             - STR_VSS
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_DRAGUNOV
+             - STR_SOVIET_7_62_MMR_X10
+             - STR_SOVIET_7_62_MMR_X10
            - 
              - STR_VSS
              - STR_9_39_X20
              - STR_9_39_X20
            - 
-             - STR_VSS
-             - STR_9_39_X20
-             - STR_9_39_X20
+             - STR_OSV_96
+             - STR_127_X5
+             - STR_127_X5
 
 ######## WEST EU ########
 
@@ -2287,9 +2293,9 @@ units:
     builtInWeaponSets:
           #Common
           - 
-             - STR_HK417
-             - STR_NATO_7_62_X20
-             - STR_NATO_7_62_X20
+             - STR_GLOCK_18
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X30
           - 
              - STR_HK417
              - STR_NATO_7_62_X20
@@ -2300,9 +2306,9 @@ units:
              - STR_NATO_7_62_X20
           #Uncommon
           - 
-             - STR_HK417
-             - STR_NATO_7_62_X20
-             - STR_NATO_7_62_X20
+             - STR_G36C
+             - STR_5_56_X30
+             - STR_5_56_X30
           - 
              - STR_HK417
              - STR_NATO_7_62_X20
@@ -2313,9 +2319,9 @@ units:
              - STR_NATO_7_62_X20
           #Rare
           - 
-             - STR_HK417
-             - STR_NATO_7_62_X20
-             - STR_NATO_7_62_X20
+             - STR_G36C
+             - STR_5_56_X30
+             - STR_5_56_X30
           - 
              - STR_HK417
              - STR_NATO_7_62_X20
@@ -2331,10 +2337,10 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_FIVE_SEVEN
+             - STR_GLOCK_17
              - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
            - 
              - STR_FIVE_SEVEN
              - STR_RIOT_SHIELD
@@ -2347,36 +2353,39 @@ units:
              - STR_FN_57_X20
            #Uncommon
            - 
-             - STR_FIVE_SEVEN
+             - STR_MANHURIN
              - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
+             - STR_38_SPECIAL_X6
+             - STR_38_SPECIAL_X6
+             - STR_38_SPECIAL_X6
            - 
-             - STR_FIVE_SEVEN
+             - STR_GLOCK_18
              - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
            - 
-             - STR_FIVE_SEVEN
+             - STR_GLOCK_18
              - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
            #Rare
            - 
-             - STR_FIVE_SEVEN
+             - STR_TASER
              - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
+             - STR_TASER_X1
+             - STR_TASER_X1
+             - STR_TASER_X1
+             - STR_TASER_X1
            - 
-             - STR_FIVE_SEVEN
+             - STR_GLOCK_18_STOCK
              - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
            - 
-             - STR_FIVE_SEVEN
+             - STR_GLOCK_18_STOCK
              - STR_RIOT_SHIELD
-             - STR_FN_57_X20
-             - STR_FN_57_X20
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
 
   - type: STR_PR_RIFLEMAN_WEST_EU
     refNode: *STR_PR_RIFLEMAN
@@ -2384,7 +2393,7 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_HK416_SOPMOD
+             - STR_FAMAS
              - STR_5_56_X30
              - STR_5_56_X30
            - 
@@ -2397,28 +2406,28 @@ units:
              - STR_5_56_X30
            #Uncommon
            - 
-             - STR_HK416_SOPMOD
+             - STR_G36
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_HK416_SOPMOD
+             - STR_TAVOR_95X
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_HK416_SOPMOD
+             - STR_TAVOR_95X
              - STR_5_56_X30
              - STR_5_56_X30
            #Rare
            - 
-             - STR_HK416_SOPMOD
+             - STR_G36
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_HK416_SOPMOD
+             - STR_HK416_UBS
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_HK416_SOPMOD
+             - STR_HK416_UBS
              - STR_5_56_X30
              - STR_5_56_X30
 
@@ -2429,8 +2438,9 @@ units:
            #Common
            - 
              - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
            - 
              - STR_ORIGIN_12
              - STR_12G_BUCKSHOT_X20
@@ -2441,30 +2451,31 @@ units:
              - STR_12G_BUCKSHOT_X8
            #Uncommon
            - 
-             - STR_ORIGIN_12
+             - STR_USAS_12
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
+           - 
+             - STR_USAS_12
              - STR_12G_BUCKSHOT_X20
              - STR_12G_BUCKSHOT_X8
            - 
-             - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
-           - 
-             - STR_ORIGIN_12
+             - STR_USAS_12
              - STR_12G_BUCKSHOT_X20
              - STR_12G_BUCKSHOT_X8
            #Rare
            - 
-             - STR_ORIGIN_12
+             - STR_USAS_12
              - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X20
            - 
              - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
            - 
              - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
 
   - type: STR_PR_GRUNT_WEST_EU
     refNode: *STR_PR_GRUNT
@@ -2472,9 +2483,9 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_P90
-             - STR_FN_57_X50
-             - STR_FN_57_X50
+             - STR_UMP
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
            - 
              - STR_P90
              - STR_FN_57_X50
@@ -2485,30 +2496,30 @@ units:
              - STR_FN_57_X50
            #Uncommon
            - 
-             - STR_P90
-             - STR_FN_57_X50
-             - STR_FN_57_X50
+             - STR_CBJMS
+             - STR_65CBJ_X30
+             - STR_65CBJ_X30
            - 
-             - STR_P90
-             - STR_FN_57_X50
-             - STR_FN_57_X50
+             - STR_G36C
+             - STR_5_56_X30
+             - STR_5_56_X30
            - 
-             - STR_P90
+             - STR_P90_SOPMOD
              - STR_FN_57_X50
              - STR_FN_57_X50
            #Rare
            - 
-             - STR_P90
-             - STR_FN_57_X50
-             - STR_FN_57_X50
+             - STR_FIVE_SEVEN
+             - STR_FN_57_X20
+             - STR_FN_57_X20
            - 
-             - STR_P90
-             - STR_FN_57_X50
-             - STR_FN_57_X50
+             - STR_SPAS_12
+             - STR_12G_INCENDIARY_X8
+             - STR_12G_INCENDIARY_X8
            - 
-             - STR_P90
-             - STR_FN_57_X50
-             - STR_FN_57_X50
+             - STR_SPAS_12
+             - STR_12G_INCENDIARY_X8
+             - STR_12G_INCENDIARY_X8
 
   - type: STR_PR_SAW_WEST_EU
     refNode: *STR_PR_SAW
@@ -2516,8 +2527,8 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
+             - STR_NEGEV
+             - STR_5_56_X100
            - 
              - STR_MK_48
              - STR_NATO_7_62_X100
@@ -2526,21 +2537,23 @@ units:
              - STR_NATO_7_62_X100
            #Uncommon
            - 
-             - STR_MK_48
+             - STR_M60
              - STR_NATO_7_62_X100
            - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
+             - STR_NEGEV
+             - STR_5_56_X100
            - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
+             - STR_NEGEV
+             - STR_5_56_X100
            #Rare
            - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
+             - STR_CBJMS_SAW
+             - STR_65CBJ_X100
+             - STR_65CBJ_X30
            - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
+             - STR_CBJMS_SAW
+             - STR_65CBJ_X100
+             - STR_65CBJ_X30
            - 
              - STR_MK_48
              - STR_NATO_7_62_X100
@@ -2551,43 +2564,43 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_AWP
+             - STR_NATO_7_62_X10
+             - STR_NATO_7_62_X10
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_AWP
+             - STR_NATO_7_62_X10
+             - STR_NATO_7_62_X10
            - 
-             - STR_AW
+             - STR_SAKO_TRG
              - STR_338_LAPUA_X5
              - STR_338_LAPUA_X5
            #Uncommon
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_PSG_1
+             - STR_NATO_7_62_X10
+             - STR_NATO_7_62_X10
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_PSG_1
+             - STR_NATO_7_62_X10
+             - STR_NATO_7_62_X10
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_MSG_90
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
            #Rare
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_PSG_1
+             - STR_NATO_7_62_X10
+             - STR_NATO_7_62_X10
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_MSG_90
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
            - 
-             - STR_AW
-             - STR_338_LAPUA_X5
-             - STR_338_LAPUA_X5
+             - STR_M82
+             - STR_50_BMG_X5
+             - STR_50_BMG_X5
 
 ######## USA ########
 
@@ -2597,39 +2610,39 @@ units:
     builtInWeaponSets:
           #Common
           - 
-             - STR_GOLDDEAGLE
+             - STR_MK_23
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+          - 
+             - STR_DEAGLE
              - STR_50_AE_X7
              - STR_50_AE_X7
           - 
-             - STR_GOLDDEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
-          - 
-             - STR_GOLDDEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
+             - STR_SKORPIONEVO
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
           #Uncommon
           - 
-             - STR_GOLDDEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
+             - STR_M4_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
           - 
-             - STR_GOLDDEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
+             - STR_SKORPIONEVO
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
           - 
-             - STR_GOLDDEAGLE
+             - STR_DEAGLE
              - STR_50_AE_X7
              - STR_50_AE_X7
           #Rare
           - 
-             - STR_GOLDDEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
+             - STR_M4_SOPMOD
+             - STR_5_56_X30
+             - STR_5_56_X30
           - 
-             - STR_GOLDDEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
+             - STR_SKORPIONEVO
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
           - 
              - STR_GOLDDEAGLE
              - STR_50_AE_X7
@@ -2641,10 +2654,10 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_MK_23
+             - STR_M1911
              - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
            - 
              - STR_MK_23
              - STR_RIOT_SHIELD
@@ -2657,36 +2670,36 @@ units:
              - STR_45_ACP_X12
            #Uncommon
            - 
-             - STR_MK_23
+             - STR_M9
              - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
            - 
-             - STR_MK_23
+             - STR_P226
              - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
            - 
-             - STR_MK_23
+             - STR_DEAGLE
              - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
+             - STR_50_AE_X7
+             - STR_50_AE_X7
            #Rare
            - 
-             - STR_MK_23
+             - STR_P226
              - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
            - 
-             - STR_MK_23
+             - STR_DEAGLE
              - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
+             - STR_50_AE_X7
+             - STR_50_AE_X7
            - 
-             - STR_MK_23
+             - STR_P226
              - STR_RIOT_SHIELD
-             - STR_45_ACP_X12
-             - STR_45_ACP_X12
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
 
   - type: STR_PR_RIFLEMAN_USA
     refNode: *STR_PR_RIFLEMAN
@@ -2694,7 +2707,7 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_M4A1_SOPMOD
+             - STR_M4
              - STR_5_56_X30
              - STR_5_56_X30
            - 
@@ -2707,30 +2720,30 @@ units:
              - STR_5_56_X30
            #Uncommon
            - 
-             - STR_M4A1_SOPMOD
+             - STR_SCAR_L
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_M4A1_SOPMOD
+             - STR_SCAR_L_SOPMOD
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_M4A1_SOPMOD
-             - STR_5_56_X30
-             - STR_5_56_X30
+             - STR_SCAR_H
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
            #Rare
            - 
              - STR_M4A1_SOPMOD
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_M4A1_SOPMOD
+             - STR_SCAR_L_SOPMOD
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_M4A1_SOPMOD
-             - STR_5_56_X30
-             - STR_5_56_X30
+             - STR_SCAR_H
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
 
   - type: STR_PR_HEAVY_USA
     refNode: *STR_PR_HEAVY
@@ -2739,8 +2752,9 @@ units:
            #Common
            - 
              - STR_AA_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
+             - STR_12G_NON_LETHAL_X8
            - 
              - STR_AA_12
              - STR_12G_BUCKSHOT_X20
@@ -2751,30 +2765,38 @@ units:
              - STR_12G_BUCKSHOT_X8
            #Uncommon
            - 
-             - STR_AA_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_SERBU
+             - STR_12G_BUCKSHOT_X5
+             - STR_12G_BUCKSHOT_X5
+             - STR_12G_BUCKSHOT_X5
            - 
-             - STR_AA_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_M4A1_UBS
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_12G_BUCKSHOT_X5
+             - STR_12G_BUCKSHOT_X5
            - 
-             - STR_AA_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_M4A1_UBS
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_12G_BUCKSHOT_X5
+             - STR_12G_BUCKSHOT_X5
            #Rare
            - 
-             - STR_AA_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_SERBU
+             - STR_12G_BREACHING_X5
+             - STR_12G_BREACHING_X5
+             - STR_12G_BREACHING_X5
            - 
              - STR_AA_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
            - 
              - STR_AA_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
+             - STR_12G_SLUG_X8
 
   - type: STR_PR_GRUNT_USA
     refNode: *STR_PR_GRUNT
@@ -2782,7 +2804,7 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_MPX
+             - STR_MP5
              - STR_9MM_PARABELLUM_X30
              - STR_9MM_PARABELLUM_X20
            - 
@@ -2795,30 +2817,32 @@ units:
              - STR_9MM_PARABELLUM_X20
            #Uncommon
            - 
-             - STR_MPX
+             - STR_GLOCK_18_STOCK
              - STR_9MM_PARABELLUM_X30
              - STR_9MM_PARABELLUM_X20
            - 
-             - STR_MPX
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_MP7
+             - STR_HK_4_6_30mmX30
+             - STR_HK_4_6_30mmX30
            - 
-             - STR_MPX
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_MP7
+             - STR_HK_4_6_30mmX30
+             - STR_HK_4_6_30mmX30
            #Rare
            - 
-             - STR_MPX
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_TASER
+             - STR_TASER_X1
+             - STR_TASER_X1
+             - STR_TASER_X1
+             - STR_TASER_X1
            - 
-             - STR_MPX
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_SKORPIONEVO
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
            - 
-             - STR_MPX
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X20
+             - STR_SKORPIONEVO
+             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X40
 
   - type: STR_PR_SAW_USA
     refNode: *STR_PR_SAW
@@ -2826,31 +2850,35 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_FN_MINIMI
+             - STR_M249
              - STR_5_56_X100
+             - STR_5_56_X30
            - 
              - STR_FN_MINIMI
              - STR_5_56_X100
            - 
-             - STR_FN_MINIMI
+             - STR_M249
              - STR_5_56_X100
+             - STR_5_56_X30
            #Uncommon
            - 
-             - STR_FN_MINIMI
-             - STR_5_56_X100
+             - STR_M60
+             - STR_NATO_7_62_X100
            - 
-             - STR_FN_MINIMI
-             - STR_5_56_X100
+             - STR_M60
+             - STR_NATO_7_62_X100
            - 
              - STR_FN_MINIMI
              - STR_5_56_X100
            #Rare
            - 
-             - STR_FN_MINIMI
+             - STR_M249
              - STR_5_56_X100
+             - STR_5_56_X30
            - 
-             - STR_FN_MINIMI
+             - STR_M249
              - STR_5_56_X100
+             - STR_5_56_X30
            - 
              - STR_FN_MINIMI
              - STR_5_56_X100
@@ -2861,34 +2889,42 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_M24_SWS
+             - STR_NATO_7_62_X5
+             - STR_NATO_7_62_X5
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_M24_SWS
+             - STR_NATO_7_62_X5
+             - STR_NATO_7_62_X5
            - 
              - STR_M82
              - STR_50_BMG_X10
            #Uncommon
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_M14_EBR_SCOPED
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_SCAR_H_SOPMOD
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_SCAR_H_SOPMOD
+             - STR_NATO_7_62_X20
+             - STR_NATO_7_62_X20
            #Rare
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_M24_SWS
+             - STR_NATO_7_62_X5
+             - STR_NATO_7_62_X5
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
            - 
-             - STR_M82
-             - STR_50_BMG_X10
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
     
 
 extraSprites:

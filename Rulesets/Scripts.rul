@@ -308,6 +308,10 @@ items:
     tags:
      FoldStock: 1
      AmmoReSprite: 1
+  - type: STR_M3_GREASEGUN #ignoreDuplicate
+    tags:
+     FoldStock: 1
+     AmmoReSprite: 1
 
   - type: STR_TAVOR #ignoreDuplicate
     tags:

@@ -2488,7 +2488,7 @@ items:
     reloadSound: 237
     fireSound: 247
     #costBuy: 0
-    costSell: 100000
+    costSell: 500000
     accuracyAimed: 85
     accuracySnap: 45
     #accuracyAuto: 15
@@ -3146,6 +3146,49 @@ items:
          tuLoad: 30
          tuUnload: 15
     listOrder: 7505
+
+  - type: STR_M3_GREASEGUN
+    categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 19
+    # battleType: 1
+    bigSprite: 4760
+    floorSprite: 4760
+    handSprite: 4760
+    reloadSound: 231
+    fireSound: 232
+    costSell: 7500
+    accuracyAimed: 55
+    accuracySnap: 65
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 30
+    minRange: 0
+    aimRange: 9
+    snapRange: 11
+    autoRange: 7
+    kneelBonus: 115
+    refNode: *STR_SMG
+    confAuto:
+      shots: 6
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+    tuAimed: 40
+    tuSnap: 35
+    tuAuto: 45
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [ STR_45_ACP_X25 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 7600
 
   - type: STR_TAVOR
     categories: [ STR_FIREARMS, STR_RIFLES ]
@@ -6048,8 +6091,8 @@ items:
     listOrder: 5160
 
   - type: STR_SAIGA_12
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     #    requiresBuy:
     size: 1
@@ -6060,7 +6103,7 @@ items:
     handSprite: 3752
     reloadSound: 207
     fireSound: 208
-    costBuy: 43000
+    #costBuy: 43000
     costSell: 21500
     accuracyAimed: 70
     accuracySnap: 90
@@ -7550,6 +7593,12 @@ extraSprites:
       #4736:
       #4744:
       4752: Resources/BallisticWeapons/Artillery/BigM72LAWFolded.png
+      4760: Resources/BallisticWeapons/SMGs/BigM3Greasegunnomag.png
+      4768: Resources/BallisticWeapons/SMGs/BigM3Greasegun.png
+      #4776:
+      #4784:
+      4792: Resources/BallisticWeapons/SMGs/BigM3GreasegunFoldednomag.png
+      4800: Resources/BallisticWeapons/SMGs/BigM3GreasegunFolded.png
 
   - type: FLOOROB.PCK
     files:
@@ -8007,6 +8056,12 @@ extraSprites:
       #4736:
       #4744:
       4752: Resources/BallisticWeapons/Artillery/FloorM72LAW.png
+      4760: Resources/BallisticWeapons/SMGs/FloorM3Greasegun.png
+      4768: Resources/BallisticWeapons/SMGs/FloorM3Greasegun.png
+      #4776:
+      #4784:
+      4792: Resources/BallisticWeapons/SMGs/FloorM3Greasegun.png
+      4800: Resources/BallisticWeapons/SMGs/FloorM3Greasegun.png
 
 
   - type: HANDOB.PCK
@@ -8469,6 +8524,12 @@ extraSprites:
       #4736:
       #4744:
       4752: Resources/BallisticWeapons/Artillery/HandM72LAW.png
+      4760: Resources/BallisticWeapons/SMGs/HandM3Greasegun.png
+      4768: Resources/BallisticWeapons/SMGs/HandM3Greasegun.png
+      #4776:
+      #4784:
+      4792: Resources/BallisticWeapons/SMGs/HandM3Greasegun.png
+      4800: Resources/BallisticWeapons/SMGs/HandM3Greasegun.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8614,6 +8675,7 @@ extraStrings:
       STR_SKORPIONEVO: "Scorpion Evo"
       STR_FMG9: "FMG 9"
       STR_CBJMS: "CBJ-MS"
+      STR_M3_GREASEGUN: "M3A1 Grease Gun"
 
       STR_TAVOR: "IWI Tavor"
       STR_TAVOR_M203: "IWI Tavor (M203)"

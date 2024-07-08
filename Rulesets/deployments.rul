@@ -1431,6 +1431,64 @@ alienDeployments:
          highQty: 4
          itemSets:
            - []
+
+  - type: BREACH_TEST
+    width: 30
+    length: 30
+    height: 10
+    civilians: 3
+    terrains:
+      - CTO_BREACH_TEST
+    despawnPenalty: 300
+    abortPenalty: 300
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    startingCondition: STR_SMALL_ONLY
+    alert: STR_TERROR_ATTACK
+    markerName: STR_TERROR_ATTACK
+    briefing:
+     desc: STR_BREACH_TEST_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
+       - alienRank: 6
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+           - []
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - []
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - []
+       - alienRank: 2
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
+       - alienRank: 0
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
 extraStrings:
   - type: en-US
     strings:
@@ -1468,6 +1526,8 @@ extraStrings:
       STR_OFFICE_RAID: "Office Raid"
       STR_SKYSCRAPER_RAID: "Skyscraper Raid"
 
+      BREACH_TEST: "Breaching Test"
+
       MAP_OFFICE: "Office"
       CTO_OFFICE: "Corporate Office"
       MAP_CTO_OFFICE_WEST_EUROPE: "Corporate Office" #THE ONLY ONE THAT WORKS
@@ -1484,6 +1544,8 @@ extraStrings:
       STR_HIDEOUT_RAID_BRIEFING: "Intelligence has discovered the main hideout of a terrorist cell. After careful preparation an assault has been authorized. The amount of suspects in the area is uncertain, but suspected to be large. The presence of heavy weaponry such as rocket launchers and machine guns has also been confirmed. The assault on the building will likely be perilous so precaution is advised."
       STR_OFFICE_RAID_BRIEFING: "After Local police were fired upon by private security when they were trying to seize documents for evidence we've been called in to raid the premises. Be warned, the private security forces are well equipped and trained, they should not be underestimated. Excessive firepower should be avoided as there is both civilians still located in the offices and vital evidence that must not be destroyed."
       STR_SKYSCRAPER_RAID_BRIEFING: "This is it, the headquarters of the shell company behind the funding of the terrorist cells. The skyscraper is filled to the brim with security forces and taking it will be a significant effort. Failure is not an option, the evidence required to find and convict those behind the attacks is in the building and we cannot afford to let it be destroyed."
+      
+      STR_BREACH_TEST_BRIEFING: "Small test map, Enemies are barricaded in a 2 story house. Breaching tools recommended."
 
 
     

@@ -414,8 +414,6 @@ ufopaedia:
 
   - id: STR_UZI
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_UZI_UFOPAEDIA
     section: STR_SMGS
     listOrder: 305
@@ -461,6 +459,13 @@ ufopaedia:
     text: STR_MP7_UFOPAEDIA
     section: STR_SMGS
     listOrder: 312
+
+  - id: STR_M3_GREASEGUN
+    type_id: 4
+    text: STR_M3_GREASEGUN_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 313
+
 
   #Rifles
   - id: STR_TAVOR
@@ -1798,6 +1803,7 @@ extraStrings:
       STR_FMG9_UFOPAEDIA: "Designed as a prototype in 2008 by Magpul, The FMG 9 is a compact folding submachine gun. While origianlly only demostrated as a proof of concept, we were able to track down a small company that has managed to copy and reproduce the design, selling them to SOF units at a shockingly affordable price all things considered."
       STR_CBJMS_UFOPAEDIA: "The CBJMS is a Swedish PDW that fires the 6.5x25mm CBJ cartridge. It was designed to be able to fill the role of a PDW, Rifle, and SAW with slight modifications."
       STR_MP7_UFOPAEDIA: "Created as an answer for a NATO request for a SMG-like weapon that could defeat body armor, the H&K MP7 became the direct rival to the FN P90. It is chambered in HK 4.6x30mm, a cartridge designed specifically for the weapon. Its small size makes it easy to conceal and makes it a viable choice for a sidearm."
+      STR_M3_GREASEGUN_UFOPAEDIA: "A WW2 SMG designed by the United States, notable for it's low rate of fire of 450 RPM. It was built to be lighter and cheaper to mass produce compaired the Thompson SMG that the US military had been using at that point. Modified versions of the M3 are still used today in some militaries and special forces units."
 
       STR_TAVOR_UFOPAEDIA: "The IWI Tavor was designed for the IDF as a possible replacement to the M16. The weapons design prioritizes ease of maintenance, durability and reliability. Its bullpup design makes the rifle better suited to close quarters combat than rifles of conventional design."
       STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."

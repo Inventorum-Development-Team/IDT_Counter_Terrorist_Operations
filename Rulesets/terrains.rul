@@ -229,3 +229,32 @@ terrains:
         height: 5
         groups: 6
         revealedFloors: [0,1,2,3,4]
+
+   - name: CTO_BREACH_TEST
+     mapDataSets:
+      - blanks
+      - VILBAN
+      - VILBITS
+      - CTO_TEST
+      - APARTD
+     civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+     script: CTO_TEST_MAP_SCRIPT
+     mapBlocks:
+      - name: CTO_TEST_BREACH_HOUSE
+        width: 10
+        length: 10
+        groups: 0
+        height: 4
+      - name: CTO_TEST_BREACH_LANDING
+        width: 10
+        length: 10
+        groups: 1
+      - name: CTO_TEST_BREACH_OUTSIDE_ADV
+        width: 10
+        length: 10
+      - name: CTO_TEST_BREACH_OUTSIDE_BASIC
+        width: 10
+        length: 10
+

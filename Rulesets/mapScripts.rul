@@ -209,4 +209,24 @@ mapScripts:
       - type: fillArea
         groups: 1
         terrain: EXPANDED_TERROR
+
+  - type: CTO_TEST_MAP_SCRIPT
+    commands:
+    - type: addBlock
+      blocks: 0
+      size: [1, 1]
+      executions: 1
+      executionChances: 100
+      rects:
+        - [1, 1, 1, 1]
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 1
+      executions: 2
+      blocks: 2
+      rects:
+        - [0, 0, 3, 3]
+    - type: fillArea
+      blocks: 3
        
