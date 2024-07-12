@@ -663,6 +663,35 @@ items:
       ToStun: 4.0
       ToWound: 0
 
+  - &STR_VOG25
+    type: STR_VOG25
+    power: 40
+    bulletSprite: 19
+    hitSound: 0
+    hitAnimation: 0
+    battleType: 2
+    damageType: 3
+    arcingShot: true
+    blastRadius: 4
+    damageAlter:
+      RandomType: 1
+      ToArmorPre: 0.4
+      FixRadius: 4
+
+  - &STR_GRD50
+    type: STR_GRD50
+    power: 40
+    bulletSprite: 19
+    hitSound: 0
+    hitAnimation: 0
+    battleType: 2
+    damageType: 9
+    arcingShot: true
+    blastRadius: 5
+    damageAlter:
+      RandomType: 1
+      FixRadius: 5
+
   - &STR_CG_HEAT
     type: STR_CG_HEAT
     power: 200
@@ -1852,6 +1881,36 @@ items:
     clipSize: 1
     listOrder: 7860
     #fireSound: 4
+  - type: STR_VOG25_X1
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_CLIPS ]
+    refNode: *STR_VOG25
+    bigSprite: 544
+    handSprite: 544
+    floorSprite: 544
+    size: 0.1
+    armor: 30
+    costBuy: 300
+    costSell: 150
+    weight: 2
+    clipSize: 1
+    listOrder: 6211
+  - type: STR_GRD50_X1
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_CLIPS ]
+    refNode: *STR_GRD50
+    bigSprite: 560
+    handSprite: 560
+    floorSprite: 560
+    size: 0.1
+    armor: 30
+    costBuy: 250
+    costSell: 125
+    weight: 2
+    clipSize: 1
+    listOrder: 6211
 
   - type: STR_BALISTIC_KNIFE_X1
     requiresBuy:
@@ -5108,6 +5167,55 @@ items:
         tuUnload: 15
     listOrder: 6210
 
+  - type: STR_AK_74_GP25
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 31
+    # battleType: 1
+    bigSprite: 4808
+    floorSprite: 4808
+    handSprite: 4808
+    reloadSound: 242
+    fireSound: 243
+    costSell: 12000
+    accuracyAimed: 50
+    accuracySnap: 35
+    accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 24
+    snapRange: 16
+    autoRange: 10
+    kneelBonus: 125
+    refNode: *STR_AR
+    tuAimed: 55
+    tuSnap: 70
+    tuAuto: 60
+    invWidth: 1
+    invHeight: 3
+    confSnap:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
+        tuLoad: 30
+        tuUnload: 15
+      1:
+        compatibleAmmo:
+          [
+            STR_VOG25_X1,
+            STR_GRD50_X1,
+          ]
+        tuLoad: 30
+        tuUnload: 20
+    listOrder: 6211
+
   - type: STR_AKS_74U
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
     size: 1
@@ -5142,7 +5250,7 @@ items:
         compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 6211
+    listOrder: 6212
 
   - type: STR_AKS_74U_SOPMOD
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -5180,7 +5288,7 @@ items:
         compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
         tuLoad: 30
         tuUnload: 15
-    listOrder: 6211
+    listOrder: 6212
 
   - type: STR_FN_FAL_SCOPED
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -7599,6 +7707,10 @@ extraSprites:
       #4784:
       4792: Resources/BallisticWeapons/SMGs/BigM3GreasegunFoldednomag.png
       4800: Resources/BallisticWeapons/SMGs/BigM3GreasegunFolded.png
+      4808: Resources/BallisticWeapons/Rifles/BigAK74GP25nomag.png
+      4816: Resources/BallisticWeapons/Rifles/BigAK74GP2530.png
+      4824: Resources/BallisticWeapons/Rifles/BigAK74GP2545.png
+      4832: Resources/BallisticWeapons/Rifles/BigAK74GP2560.png
 
   - type: FLOOROB.PCK
     files:
@@ -8062,6 +8174,10 @@ extraSprites:
       #4784:
       4792: Resources/BallisticWeapons/SMGs/FloorM3Greasegun.png
       4800: Resources/BallisticWeapons/SMGs/FloorM3Greasegun.png
+      4808: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
+      4816: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
+      4824: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
+      4832: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
 
 
   - type: HANDOB.PCK
@@ -8530,6 +8646,10 @@ extraSprites:
       #4784:
       4792: Resources/BallisticWeapons/SMGs/HandM3Greasegun.png
       4800: Resources/BallisticWeapons/SMGs/HandM3Greasegun.png
+      4808: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
+      4816: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
+      4824: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
+      4832: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8644,6 +8764,8 @@ extraStrings:
       STR_RPG_29_HEAT_X1: "RPG-29 HEAT (1x)"
       STR_RPG_29_THERMO_X1: "RPG-29 Thermobaric (1x)"
       STR_BALISTIC_KNIFE_X1: "Ballistic Knife Blade (1x)"
+      STR_VOG25_X1: "VOG-25 [Frag] (1x)"
+      STR_GRD50_X1: "GRD-50 [Smoke] (1x)"
 
       STR_TASER: "Taser"
       STR_P226: "SIG Sauer P226"
@@ -8730,6 +8852,7 @@ extraStrings:
       STR_M14_EBR_SCOPED: "M14 EBR (Scoped)"
       STR_AKS_74U: "AKs-74u"
       STR_AKS_74U_SOPMOD: "AKs-74u (SOPMOD)"
+      STR_AK_74_GP25: "AK-74 (GP-25)"
 
       STR_HUNTING_RIFLE: "Hunting Rifle"
       STR_SKS_SCOPED: "SKS Carbine (Scoped)"

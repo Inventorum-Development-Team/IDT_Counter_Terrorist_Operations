@@ -812,6 +812,19 @@ ufopaedia:
     text: STR_AK_74_UFOPAEDIA
     section: STR_RIFLES
     listOrder: 442
+  
+  - id: STR_AK_74_GP25
+    type_id: 4
+    text: STR_AK_74_UFOPAEDIA
+    section: STR_RIFLES
+    pages:
+    - title: STR_AK_74_GP25
+      text: STR_AK_74_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_AK_74_GP25
+      text: STR_AK_74_UFOPAEDIA
+      ammoSlot: 1
+    listOrder: 442
 
   - id: STR_FN_FAL_SCOPED
     type_id: 4
@@ -1511,17 +1524,29 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1059
 
+  - id: STR_VOG25_X1
+    type_id: 4
+    text: STR_40MM_FRAG_UFOPAEDIA #Change?
+    section: STR_AMMO
+    listOrder: 1060
+
+  - id: STR_GRD50_X1
+    type_id: 4
+    text: STR_40MM_SMOKE_UFOPAEDIA #Change?
+    section: STR_AMMO
+    listOrder: 1061
+
   - id: STR_BALISTIC_KNIFE_X1
     type_id: 4
     text: STR_BALISTIC_KNIFE_AMMO_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1061
+    listOrder: 1062
 
   - id: STR_50_AE_X7 
     type_id: 4
     text: STR_50_AE_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1060
+    listOrder: 1063
 
   - id: STR_65CBJ_X30 
     type_id: 4

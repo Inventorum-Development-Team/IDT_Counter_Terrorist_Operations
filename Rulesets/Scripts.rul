@@ -477,6 +477,9 @@ items:
   - type: STR_AKS_74U_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_AK_74_GP25 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
 
   - type: STR_PSG_1 #ignoreDuplicate
     tags:
