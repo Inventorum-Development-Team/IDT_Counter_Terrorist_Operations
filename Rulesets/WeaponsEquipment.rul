@@ -1886,9 +1886,9 @@ items:
       - STR_UNOBTAINABLE
     categories: [ STR_CLIPS ]
     refNode: *STR_VOG25
-    bigSprite: 544
-    handSprite: 544
-    floorSprite: 544
+    bigSprite: 4840
+    handSprite: 4840
+    floorSprite: 4840
     size: 0.1
     armor: 30
     costBuy: 300
@@ -1901,16 +1901,16 @@ items:
       - STR_UNOBTAINABLE
     categories: [ STR_CLIPS ]
     refNode: *STR_GRD50
-    bigSprite: 560
-    handSprite: 560
-    floorSprite: 560
+    bigSprite: 4848
+    handSprite: 4848
+    floorSprite: 4848
     size: 0.1
     armor: 30
     costBuy: 250
     costSell: 125
     weight: 2
     clipSize: 1
-    listOrder: 6211
+    listOrder: 6212
 
   - type: STR_BALISTIC_KNIFE_X1
     requiresBuy:
@@ -7711,6 +7711,8 @@ extraSprites:
       4816: Resources/BallisticWeapons/Rifles/BigAK74GP2530.png
       4824: Resources/BallisticWeapons/Rifles/BigAK74GP2545.png
       4832: Resources/BallisticWeapons/Rifles/BigAK74GP2560.png
+      4840: Resources/BallisticWeapons/Ammo/BigVOG25Ammo.png
+      4848: Resources/BallisticWeapons/Ammo/BigGRD50Ammo.png 
 
   - type: FLOOROB.PCK
     files:
@@ -8178,6 +8180,8 @@ extraSprites:
       4816: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
       4824: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
       4832: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
+      4840: Resources/BallisticWeapons/Ammo/Floor.png
+      4848: Resources/BallisticWeapons/Ammo/Floor.png 
 
 
   - type: HANDOB.PCK
@@ -8650,6 +8654,8 @@ extraSprites:
       4816: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
       4824: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
       4832: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
+      4840: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      4848: Resources/BallisticWeapons/Ammo/HandAmmo.png 
 
   # - type: SMOKE.PCK
   #   height: 80
