@@ -415,6 +415,18 @@ items:
       RandomType: 6
       IgnoreOverKill: true
       ToArmorPre: 0.7
+  - &STR_30_06_AMMO
+    type: STR_30_06_AMMO
+    power: 40
+    hitAnimation: 26
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    battleType: 2
+    damageType: 1
+    bulletSprite: 15
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.5
   - &STR_9_39_AMMO
     type: STR_9_39_AMMO
     power: 51
@@ -1375,6 +1387,21 @@ items:
     weight: 20
     clipSize: 100
     listOrder: 7710
+  - type: STR_30_06_X8
+    categories: [ STR_CLIPS ]
+    refNode: *STR_30_06_AMMO
+    bigSprite: 4856
+    handSprite: 4856
+    floorSprite: 4856
+    size: 0.1
+    armor: 30
+    #costBuy: 2000
+    costSell: 100
+    invWidth: 1
+    invHeight: 1
+    weight: 1
+    clipSize: 8
+    listOrder: 6211
   - type: STR_SOVIET_7_62_MMR_X10
     #requiresBuy:
     #  - STR_UNOBTAINABLE
@@ -2600,8 +2627,8 @@ items:
     #autoRange: 5
     kneelBonus: 100
     refNode: *STR_PISTOL
-    tuAimed: 20
-    tuSnap: 10 #20 before double tap was added
+    tuAimed: 30
+    tuSnap: 15
     #tuAuto: 50
     invWidth: 1
     invHeight: 2
@@ -5454,19 +5481,19 @@ items:
     categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
     #    requiresBuy:
     size: 1
-    weight: 40
+    weight: 15
     battleType: 1
     bigSprite: 1672
     floorSprite: 1672
     handSprite: 1672
     fireSound: 4
     costSell: 6000
-    accuracyAimed: 80
-    accuracySnap: 40
+    accuracyAimed: 105
+    accuracySnap: 80
     blockBothHands: true
     twoHanded: true
     maxRange: 200
-    minRange: 0
+    minRange: 2
     aimRange: 200
     snapRange: 25
     kneelBonus: 145
@@ -5865,6 +5892,72 @@ items:
         tuUnload: 20
     listOrder: 6100
 
+  - type: STR_M1_GARAND
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 35
+    battleType: 1
+    bigSprite: 4864
+    floorSprite: 4864
+    handSprite: 4864
+    fireSound: 4
+    costSell: 7000
+    accuracyAimed: 80
+    accuracySnap: 60
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 0
+    aimRange: 30
+    snapRange: 20
+    kneelBonus: 130
+    tuAimed: 80
+    tuSnap: 45
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_30_06_X8 ]
+        tuLoad: 10
+        tuUnload: 40
+    inventoryMoveCost: 
+      basePercent: 50
+    listOrder: 6200
+
+  - type: STR_M1D_GARAND
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 37
+    battleType: 1
+    bigSprite: 4872
+    floorSprite: 4872
+    handSprite: 4872
+    fireSound: 4
+    costSell: 7000
+    accuracyAimed: 100
+    accuracySnap: 55
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 0
+    aimRange: 200
+    snapRange: 25
+    kneelBonus: 130
+    tuAimed: 85
+    tuSnap: 45
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_30_06_X8 ]
+        tuLoad: 10
+        tuUnload: 40
+    inventoryMoveCost: 
+      basePercent: 50
+    listOrder: 6210
+###### SHOTGUNS ########
   - type: STR_DOUBLE_BARREL
     categories: [ STR_FIREARMS, STR_SHOTGUNS, STR_SEIZED ]
     #    requiresBuy:
@@ -7713,6 +7806,10 @@ extraSprites:
       4832: Resources/BallisticWeapons/Rifles/BigAK74GP2560.png
       4840: Resources/BallisticWeapons/Ammo/BigVOG25Ammo.png
       4848: Resources/BallisticWeapons/Ammo/BigGRD50Ammo.png 
+      4856: Resources/BallisticWeapons/Ammo/Big3006_x8.png
+      4864: Resources/BallisticWeapons/Snipers/BigM1GarandSLING.png
+      4872: Resources/BallisticWeapons/Snipers/BigM1DGarand.png
+
 
   - type: FLOOROB.PCK
     files:
@@ -8182,6 +8279,9 @@ extraSprites:
       4832: Resources/BallisticWeapons/Rifles/FloorAK74GP25.png
       4840: Resources/BallisticWeapons/Ammo/Floor.png
       4848: Resources/BallisticWeapons/Ammo/Floor.png 
+      4856: Resources/BallisticWeapons/Ammo/Floor.png 
+      4864: Resources/BallisticWeapons/Snipers/FloorM1Garand.png
+      4872: Resources/BallisticWeapons/Snipers/FloorM1DGarand.png
 
 
   - type: HANDOB.PCK
@@ -8656,6 +8756,9 @@ extraSprites:
       4832: Resources/BallisticWeapons/Rifles/HandAK74GP25.png
       4840: Resources/BallisticWeapons/Ammo/HandAmmo.png
       4848: Resources/BallisticWeapons/Ammo/HandAmmo.png 
+      4856: Resources/BallisticWeapons/Ammo/HandAmmo.png 
+      4864: Resources/BallisticWeapons/Snipers/HandM1Garand.png
+      4872: Resources/BallisticWeapons/Snipers/HandM1DGarand.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8772,6 +8875,7 @@ extraStrings:
       STR_BALISTIC_KNIFE_X1: "Ballistic Knife Blade (1x)"
       STR_VOG25_X1: "VOG-25 [Frag] (1x)"
       STR_GRD50_X1: "GRD-50 [Smoke] (1x)"
+      STR_30_06_X8: ".30-06 (8x)"
 
       STR_TASER: "Taser"
       STR_P226: "SIG Sauer P226"
@@ -8872,6 +8976,8 @@ extraStrings:
       STR_AW: "Arctic Warfare Magnum"
       STR_M24_SWS: "M24 SWS"
       STR_M82: "Barret M82"
+      STR_M1_GARAND: "M1 Garand"
+      STR_M1D_GARAND: "M1D Garand"
 
       STR_DOUBLE_BARREL: "Double-Barreled Shotgun"
       STR_SERBU: "Serbu Super-Shorty"

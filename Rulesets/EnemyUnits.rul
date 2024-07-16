@@ -1639,9 +1639,9 @@ units:
              - STR_50_BMG_X5
            #Rare
            - 
-             - STR_HUNTING_RIFLE
-             - STR_22_LONG_RIFLE_X6
-             - STR_22_LONG_RIFLE_X6
+             - STR_M1_GARAND
+             - STR_30_06_X8
+             - STR_30_06_X8
            - 
              - STR_FN_FAL_SCOPED
              - STR_NATO_7_62_X20
@@ -1966,9 +1966,9 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_HUNTING_RIFLE
-             - STR_22_LONG_RIFLE_X6
-             - STR_22_LONG_RIFLE_X6
+             - STR_M1_GARAND
+             - STR_30_06_X8
+             - STR_30_06_X8
            - 
              - STR_M16A2_SCOPED
              - STR_5_56_X30
@@ -1979,9 +1979,9 @@ units:
              - STR_50_BMG_X5
            #Uncommon
            - 
-             - STR_HUNTING_RIFLE
-             - STR_22_LONG_RIFLE_X6
-             - STR_22_LONG_RIFLE_X6
+             - STR_M1D_GARAND
+             - STR_30_06_X8
+             - STR_30_06_X8
            - 
              - STR_SKS_SCOPED
              - STR_SOVIET_7_62_X10

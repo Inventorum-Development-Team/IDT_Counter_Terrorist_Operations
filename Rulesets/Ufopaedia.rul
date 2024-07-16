@@ -947,6 +947,18 @@ ufopaedia:
     section: STR_SNIPERS
     listOrder: 511
 
+  - id: STR_M1_GARAND
+    type_id: 4
+    text: STR_M1_GARAND_UFOPAEDIA
+    section: STR_SNIPERS
+    listOrder: 512
+
+  - id: STR_M1D_GARAND
+    type_id: 4
+    text: STR_M1_GARAND_UFOPAEDIA
+    section: STR_SNIPERS
+    listOrder: 513
+
   #Shotguns
   - id: STR_DOUBLE_BARREL
     type_id: 4
@@ -1548,6 +1560,12 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1063
 
+  - id: STR_30_06_X8 
+    type_id: 4
+    text: STR_30_06_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1064
+
   - id: STR_65CBJ_X30 
     type_id: 4
     text: STR_65CBJ_UFOPAEDIA
@@ -1870,8 +1888,9 @@ extraStrings:
       STR_AWP_UFOPAEDIA: "The Arctic Warfare Police is a variant of the Accuracy International Arctic Warfare meant for law enforcement instead of military forces. The AWP has a shorter barrel than the rifle that it is based on and is chambered for NATO 7.62x51mm instead of the .338 Lapua cartridge."
       STR_AW_UFOPAEDIA: "The Accuracy International Arctic Warfare Magnum is a British bolt-action sniper rifle. It was designed to perform well even in extremely cold environments like Scandinavia, this capability is what has given the rifle its name."
       STR_M24_SWS_UFOPAEDIA: "The M24 Sniper Weapon System is a american sniper rifle based on the Remington Model 700. It was adopted as the standard sniper rifle of the US Army in 1988."
-      STR_M82_UFOPAEDIA: "The Barret M82 is an anti-materiel sniper rifle used by the US army during Desert Shield and Desert Storm. The Rifle is extremely powerful, capable of penetrating the armor of some armored vehicles. During the Troubles in Ireland some M82:s were smuggled in for the use of the IRA."
-      
+      STR_M82_UFOPAEDIA: "The Barret M82 is an anti-materiel sniper rifle used by the US army during Desert Shield and Desert Storm. The Rifle is extremely powerful, capable of penetrating the armor of some armored vehicles. During the Troubles in Ireland some M82's were smuggled in for the use of the IRA."
+      STR_M1_GARAND_UFOPAEDIA: "WIP: M1 Garand history blah blah blah, its got a sling on it that lets you move it between slots faster"
+
       STR_DOUBLE_BARREL_UFOPAEDIA: "Double-barreled shotguns are commonly used to hunt birds, however with the right ammunition it can become an effective weapon even against human targets. They are popular among irregular forces due to their availability and effectiveness even by inexperienced users. Their main drawback is that they only hold two cartridges."
       STR_SERBU_UFOPAEDIA: "The Serbu Super-Shorty is an extremely compact pump-action shotgun. While not as accurate as many other shotguns its small size enables its use as a sidearm."
       STR_REMINGTON_UFOPAEDIA: "The Remington 870 is a shotgun widely used for sport shooting, hunting, law enforcement and military purposes. It is a reliable and inexpensive design and has held the record for being the best selling shotgun in the world."
@@ -1918,7 +1937,8 @@ extraStrings:
       STR_NATO_7_62_UFOPAEDIA: "The 7.62x51mm NATO was chosen as the first standard NATO rifle cartridge. Though it has been mostly supplanted by the NATO 5.56 cartridge, it is still commonly used in marksman and sniper rifles, due to its power."
       STR_SOVIET_7_62_MMR_UFOPAEDIA: "One of the oldest, still-used military cartridges, The 7.62x54mmR was originally designed for the Mosin-Nagant rifle. While not commonly used in service rifles anymore, it is still used as a sniper rifle and machine gun cartridge."
       STR_9_39_UFOPAEDIA: "The 9x39mm is a sub-sonic rifle cartridge developed for silenced weapons. It was designed with the intent to provide a more powerful alternative to pistol rounds that are more commonly used in silenced weapons."
-      
+      STR_30_06_UFOPAEDIA: ".30-06 was designed for the US army in 1906 and was in use for almost 50 years before being replaced by more modern, NATO standardized, rounds. Despite it's age the cartridge is still commonly used for sporting purposes and remains resonably popular on the civilian market."
+
       STR_338_LAPUA_UFOPAEDIA: "Developed as a joint venture between British and Finnish rifle manufacturers to be a high power cartridge for military snipers. It can penetrate body armor even over the range of one kilometer."
       STR_50_BMG_UFOPAEDIA: "The most powerful cartridge available for us. The .50 BMG was developed for the M2 Browning machine gun but has also been used in sniper and anti-materiel rifles. A single .50 BMG round is capable of penetrating brick walls or disable a vehicle if fired into the engine block."
       STR_127_UFOPAEDIA: "A russian heavy machine gun and anti-materiel rifle round that is analogous to the .50 BMG cartridge, to the point that the two cartridges are sometimes incorrectly claimed to be interchangeable."
