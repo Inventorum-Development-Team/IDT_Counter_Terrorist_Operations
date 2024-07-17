@@ -50,6 +50,8 @@ fixedUserOptions:
    noAlienPanicMessages: true
    alienBleeding: true
    battleInstantGrenade: false
+recommendedUserOptions:
+   playIntro: false
 
 alienItemLevels:
   - [0, 0, 0, 0, 3, 3, 6, 1, 1, 2] # 7:c 2:u 1:r # - [0, 0, 0, 0, 0, 0, 0, 1, 1, 2] 7:0 2:1 1:2

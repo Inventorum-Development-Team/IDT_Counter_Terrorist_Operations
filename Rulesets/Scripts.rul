@@ -578,9 +578,9 @@ extended:
     BattleUnit:
       Rank: int
       Shouted: int
-      FlashBanged: int
-      OGfiring: int
-      OGreactions: int
+      FlashBanged: int #how many turns this unit is flashbanged for, -1 means not flashbanged
+      OGfiring: int #used to restore fireing accuarcy after flashbang
+      OGreactions: int #used to restore reactions after flashbang
       Handcuffed: int
 
       UNIT_RECOLOR_DESYNC: int
@@ -597,7 +597,7 @@ extended:
       FoldStock: int
       UBS: int
       Shield: int
-      FlashBang: int
+      FlashBang: int #Dose this item have a flashbang effect, and if so, for how many turns.
       STRIKE: int
       BalKnife: int
 #      FlashAmmo: int
@@ -643,9 +643,9 @@ extended:
             BattleUnit.setTimeUnits unit tu;
             end;
            return;
-        - offset: 2 #Makes Flashbang work early
+        - offset: 2 #Labels all units as not currently flashbanged
           code: |
-           BattleUnit.setTag unit Tag.FlashBanged -5;
+           BattleUnit.setTag unit Tag.FlashBanged -1;
            return;
 
 
@@ -678,20 +678,29 @@ extended:
            end;
            return;
         - offset: 3
-          code: | #flashbang effect removal
-           var int flashbanged;
+          code: | #flashbang update
+           var int flashbanged; #define variables
            var int accuracy;
            var int reactions;
            var int OGaccuracy;
            var int OGreactions;
-           BattleUnit.getTag unit flashbanged Tag.FlashBanged;
-           BattleUnit.getTag unit OGaccuracy Tag.OGfiring;
-           BattleUnit.getTag unit OGreactions Tag.OGreactions;
-           add flashbanged 4;
-           if and gt turn flashbanged gt OGaccuracy 0;
-            BattleUnit.Stats.setFiring unit OGaccuracy;
+           #Get tags
+           BattleUnit.getTag unit flashbanged Tag.FlashBanged; #unit flashbanged duration
+           BattleUnit.getTag unit OGaccuracy Tag.OGfiring; #original accuracy
+           BattleUnit.getTag unit OGreactions Tag.OGreactions; #original reactions
+           
+           #If the flashbang has timed out, and we are flashbanged
+           if and ge turn flashbanged gt flashbanged -1;
+            BattleUnit.Stats.setFiring unit OGaccuracy; #restore fireing and reaction stats
             BattleUnit.Stats.setReactions unit OGreactions;
-            end;
+            BattleUnit.setTag unit Tag.FlashBanged -1; #set us to not be flashbanged
+           end;
+
+           #if we are still flashbanged
+           if and lt turn flashbanged gt flashbanged -1;
+            BattleUnit.setEnergy unit 12; #set our energy to 12
+           end;
+
            return;
         - offset: 4
           code: | #handcuffs stay permanent
@@ -780,27 +789,38 @@ extended:
             end;
             return power part side;
 
-         - offset: 4 #FlashBang Script
+         - offset: 4 #Apply FlashBang Effect
            code: |
-             var int flashbang;
+             var int flashbang; #set up vars
              var int flashbanged;
              var int turn;
              var int accuracy;
              var int reactions;
+
+             #see if what hit us applys a flashbang effect
              damaging_item.getTag flashbang Tag.FlashBang;
-             if eq flashbang 1;
-              battle_game.getTurn turn;
-              unit.getTag flashbanged Tag.FlashBanged;
-              add flashbanged 4;
-              if gt turn flashbanged;
-               BattleUnit.Stats.getFiring unit accuracy;
+             if ge flashbang 1;
+              unit.getTag flashbanged Tag.FlashBanged; #get if this unit is flashbanged and for how long
+
+              #If we are already flashed
+              if neq flashbanged -1; 
+               add flashbanged flashbang;
+               BattleUnit.setTag unit Tag.FlashBanged flashbanged; #stack the new flash on top of our current flash duration
+               BattleUnit.setEnergy unit 0;
+              end;
+              
+              #if we are not flashed
+              if eq flashbanged -1; 
+               battle_game.getTurn turn;
+               add turn flashbang; #get the current turn + flashbang duration to get when the timer is suposed to end
+               BattleUnit.setTag unit Tag.FlashBanged turn; #set that as our flashbanged status
+               BattleUnit.Stats.getFiring unit accuracy; #save stats for later
                BattleUnit.Stats.getReactions unit reactions;
                BattleUnit.setTag unit Tag.OGfiring accuracy;
                BattleUnit.setTag unit Tag.OGreactions reactions;
-               sub reactions 50;
-               sub accuracy 50;
-               BattleUnit.Stats.setFiring unit accuracy;
-               BattleUnit.Stats.setReactions unit reactions;
+               BattleUnit.Stats.setFiring unit 0; #apply stat damage for now
+               BattleUnit.Stats.setReactions unit 0;
+               BattleUnit.setEnergy unit 12;
               end;
              end;
              return power part side;
@@ -1085,10 +1105,13 @@ extended:
           var int newShade;
           var int temp;
           var int morale;
+          var int flashbanged;
 
           # Check to make sure this unit isn't set to be recolored by a hit first
           unit.getTag frame Tag.UNIT_RECOLOR_START_FRAME;
           unit.getTag frameLength Tag.UNIT_RECOLOR_FRAME_LENGTH;
+          BattleUnit.getTag unit flashbanged Tag.FlashBanged;
+
 
           if neq frame 0;
 
@@ -1116,9 +1139,39 @@ extended:
 
           BattleUnit.getMorale unit morale;
 
+          #Morale loss
           if and lt morale 30 lt frame frameLength;
 
             set color COLOR_X1_GRAY;
+
+            set temp frameLength;
+            sub temp frame;
+            mul temp 2; # a parameter that creates a nice flash animation
+            get_shade newShade new_pixel;
+            sub newShade temp;
+
+            if and gt newShade 3 lt newShade 16;
+
+              set_shade new_pixel newShade;
+              set_color new_pixel color;
+
+            end;
+
+          end;
+
+          set frameLength 4;
+
+          set frame anim_frame;
+          add frame 8;
+          mod frame recolorPeriod;
+
+          sub frame frameLength;
+          sub frame 1;
+
+          #Flashbanged
+          if and gt flashbanged -1 lt frame frameLength;
+
+            set color COLOR_X1_PURPLE0;
 
             set temp frameLength;
             sub temp frame;
