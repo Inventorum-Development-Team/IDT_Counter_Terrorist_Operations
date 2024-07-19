@@ -205,10 +205,10 @@ items:
      AmmoNo: 1 
   - type: STR_12G_NON_LETHAL_X8 #ignoreDuplicate
     tags:
-     AmmoNo: 1    
-  # - type: STR_ZEVADA_X3 #ignoreDuplicate
-  #   tags:
-  #    FlashAmmo: 1
+     AmmoNo: 1   
+  - type: STR_ZEVADA_X3 #ignoreDuplicate
+    tags:
+     PartialFlashBang: 4
   - type: STR_RPG_HEAT_X1 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -563,6 +563,7 @@ items:
   - type: STR_FLASHBANG_GRENADE #ignoreDuplicate
     tags:
      FlashBang: 1
+     #PartialFlashBang: 50
   
   - type: STR_ELECTRO_FLARE #ignoreDuplicate
     tags:
@@ -579,6 +580,7 @@ extended:
       Rank: int
       Shouted: int
       FlashBanged: int #how many turns this unit is flashbanged for, -1 means not flashbanged
+      PartialFlashBanged: int #fraction of being flashbanged, ie 50 = 0.5 flashbanged
       OGfiring: int #used to restore fireing accuarcy after flashbang
       OGreactions: int #used to restore reactions after flashbang
       Handcuffed: int
@@ -598,6 +600,7 @@ extended:
       UBS: int
       Shield: int
       FlashBang: int #Dose this item have a flashbang effect, and if so, for how many turns.
+      PartialFlashBang: int #adds a fraction of a flashbang effect ie 50 = 0.5 flashbang
       STRIKE: int
       BalKnife: int
 #      FlashAmmo: int
@@ -677,6 +680,7 @@ extended:
              BattleGame.setTag battle_game Tag.Enemies enemies;
            end;
            return;
+
         - offset: 3
           code: | #flashbang update
            var int flashbanged; #define variables
@@ -684,20 +688,31 @@ extended:
            var int reactions;
            var int OGaccuracy;
            var int OGreactions;
+           var int partflashbanged;
            #Get tags
            BattleUnit.getTag unit flashbanged Tag.FlashBanged; #unit flashbanged duration
+           BattleUnit.getTag unit partflashbanged Tag.PartialFlashBanged; #unit flashbanged duration
            BattleUnit.getTag unit OGaccuracy Tag.OGfiring; #original accuracy
            BattleUnit.getTag unit OGreactions Tag.OGreactions; #original reactions
            
-           #If the flashbang has timed out, and we are flashbanged
-           if and ge turn flashbanged gt flashbanged -1;
-            BattleUnit.Stats.setFiring unit OGaccuracy; #restore fireing and reaction stats
-            BattleUnit.Stats.setReactions unit OGreactions;
-            BattleUnit.setTag unit Tag.FlashBanged -1; #set us to not be flashbanged
+           #if we were using partial flash, clear that and make ourselves no longer flashbanged.
+           if eq flashbanged -2;
+            set flashbanged -1;
+            BattleUnit.setTag unit Tag.FlashBanged flashbanged;
+            set partflashbanged 0;
+            BattleUnit.setTag unit Tag.PartialFlashBanged 0;
            end;
-
-           #if we are still flashbanged
-           if and lt turn flashbanged gt flashbanged -1;
+           
+           #If the flashbang has timed out
+           if and ge turn flashbanged neq flashbanged -1;
+            if gt partflashbanged 0;
+             BattleUnit.setTag unit Tag.FlashBanged -2;
+            else;
+             #BattleUnit.Stats.setFiring unit OGaccuracy; #restore fireing and reaction stats
+             BattleUnit.Stats.setReactions unit OGreactions;
+             BattleUnit.setTag unit Tag.FlashBanged -1; #set us to not be flashbanged
+            end;
+           else neq flashbanged -1;
             BattleUnit.setEnergy unit 12; #set our energy to 12
            end;
 
@@ -714,7 +729,23 @@ extended:
             end;
            return;
             
+     accuracyMultiplierBonusStats:
+         - offset: 10 #Flashbang accuracy reduction
+           code: |
+            var int flashbanged;
+            var int partflashbanged;
 
+            unit.getTag flashbanged Tag.FlashBanged;
+            unit.getTag partflashbanged Tag.PartialFlashBanged;
+            if gt flashbanged 0;
+             set bonus 0; #we are fully flashbanged, and cant aim
+            else eq flashbanged -2; #use partial flashbang
+             sub partflashbanged 100;
+             abs partflashbanged; #invert partial flashbang ie 10 -> 90% of total
+             mul bonus partflashbanged;
+             div bonus 100;
+            end;
+            return bonus;
      hitUnit: 
          - offset: 2 #Shield Script
            code: |
@@ -792,72 +823,67 @@ extended:
          - offset: 4 #Apply FlashBang Effect
            code: |
              var int flashbang; #set up vars
+             var int partflashbang;
              var int flashbanged;
+             var int partflashbanged;
              var int turn;
              var int accuracy;
              var int reactions;
+             var ptr BattleItem ammo;
+             
+             #Check if flashbang ammo
+             damaging_item.getAmmoItem ammo;
+             ammo.getTag flashbang Tag.FlashBang;
+             ammo.getTag partflashbang Tag.PartialFlashBang;
+             if and lt flashbang 1 lt partflashbang 1; #if not flashbang ammo, check if item is flashbang
+              damaging_item.getTag flashbang Tag.FlashBang;
+              damaging_item.getTag partflashbang Tag.PartialFlashBang;
+             end;
+             #order of checks is deliberate, ammo flashbang tag has priority over item flashbang tag
 
              #see if what hit us applys a flashbang effect
-             damaging_item.getTag flashbang Tag.FlashBang;
-             if ge flashbang 1;
+             if or ge flashbang 1 ge partflashbang 1;
               unit.getTag flashbanged Tag.FlashBanged; #get if this unit is flashbanged and for how long
+              unit.getTag partflashbanged Tag.PartialFlashBanged;
 
               #If we are already flashed
-              if neq flashbanged -1; 
+              if neq flashbanged -1;
+               var int partfbmod; #used for rounding partial flashbang
                add flashbanged flashbang;
+               #for every 100 PartialFlashBanged, add 1 to flashbang and remove 100 from PartialFlashBanged.
+               add partflashbanged partflashbang;
+               set partfbmod partflashbanged;
+               mod partfbmod 100;
+               sub partflashbanged partfbmod; 
+               div partflashbanged 100;
+               add flashbanged partflashbanged;
+               set partflashbanged partfbmod;
+
                BattleUnit.setTag unit Tag.FlashBanged flashbanged; #stack the new flash on top of our current flash duration
+               BattleUnit.setTag unit Tag.PartialFlashBanged partflashbanged;
                BattleUnit.setEnergy unit 0;
-              end;
-              
-              #if we are not flashed
-              if eq flashbanged -1; 
+              else; #if we are not flashed
+               var int partfbmod; #used for rounding partial flashbang
                battle_game.getTurn turn;
                add turn flashbang; #get the current turn + flashbang duration to get when the timer is suposed to end
+
+               add partflashbanged partflashbang;
+               set partfbmod partflashbanged;
+               mod partfbmod 100;
+               sub partflashbanged partfbmod; 
+               div partflashbanged 100;
+               add turn partflashbanged;
+               set partflashbanged partfbmod;
+
+               BattleUnit.setTag unit Tag.PartialFlashBanged partflashbanged;
                BattleUnit.setTag unit Tag.FlashBanged turn; #set that as our flashbanged status
-               BattleUnit.Stats.getFiring unit accuracy; #save stats for later
                BattleUnit.Stats.getReactions unit reactions;
-               BattleUnit.setTag unit Tag.OGfiring accuracy;
                BattleUnit.setTag unit Tag.OGreactions reactions;
-               BattleUnit.Stats.setFiring unit 0; #apply stat damage for now
                BattleUnit.Stats.setReactions unit 0;
                BattleUnit.setEnergy unit 12;
               end;
              end;
              return power part side;
-
-#         - offset: 5 #KS-23 Flashbang script
-#           code: |
-#             var int flashbang;
-#             var int flashbanged;
-#             var int turn;
-#             var int accuracy;
-#             var int reactions;
-#             var ptr BattleItem ammo;
-#             var int ammoQ;
-#
-#             damaging_item.getAmmoItem ammo; #Why no WORK??????????????????????????
-#             ammo.getTag flashbang Tag.FlashAmmo;
-#
-#             debug_log flashbang;
-#             BattleItem.getAmmoQuantity damaging_item ammoQ;
-#             debug_log ammoQ;
-#             if and eq flashbang 1 eq ammoQ 2;
-#              battle_game.getTurn turn;
-#              unit.getTag flashbanged Tag.FlashBanged;
-#              add flashbanged 4;
-#              if gt turn flashbanged;
-#               BattleUnit.Stats.getFiring unit accuracy;
-#               BattleUnit.Stats.getReactions unit reactions;
-#               BattleUnit.setTag unit Tag.OGfiring accuracy;
-#               BattleUnit.setTag unit Tag.OGreactions reactions;
-#               sub reactions 50;
-#               sub accuracy 50;
-#               BattleUnit.Stats.setFiring unit accuracy;
-#               BattleUnit.Stats.setReactions unit reactions;
-#               set power 0;
-#              end;
-#             end;
-#             return power part side;
 
      healUnit: #Handcuff script
        - offset: 1
@@ -1172,6 +1198,26 @@ extended:
           if and gt flashbanged -1 lt frame frameLength;
 
             set color COLOR_X1_PURPLE0;
+
+            set temp frameLength;
+            sub temp frame;
+            mul temp 2; # a parameter that creates a nice flash animation
+            get_shade newShade new_pixel;
+            sub newShade temp;
+
+            if and gt newShade 3 lt newShade 16;
+
+              set_shade new_pixel newShade;
+              set_color new_pixel color;
+
+            end;
+
+          end;
+
+          #PartalyFlashbanged
+          if and eq flashbanged -2 lt frame frameLength;
+
+            set color COLOR_X1_BLUE1;
 
             set temp frameLength;
             sub temp frame;
