@@ -209,6 +209,10 @@ items:
   - type: STR_ZEVADA_X3 #ignoreDuplicate
     tags:
      PartialFlashBang: 4
+#  - type: STR_ZEVADA_X1 #ignoreDuplicate
+#    tags:
+#     PartialFlashBang: 8
+#     ZevadaSwap: 1
   - type: STR_RPG_HEAT_X1 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -603,6 +607,7 @@ extended:
       PartialFlashBang: int #adds a fraction of a flashbang effect ie 50 = 0.5 flashbang
       STRIKE: int
       BalKnife: int
+#      ZevadaSwap: int
 #      FlashAmmo: int
 #      JammChance: int
     BattleGame:
@@ -734,16 +739,20 @@ extended:
            code: |
             var int flashbanged;
             var int partflashbanged;
+            #accuracyMultiplierBonusStats has battlegame functions exposed but no way to get battlegame, 
+            #uncomment relevant code if this is changed, fixes a minor bug. 
+            #var int turn;
 
+            #BattleGame.getTurn turn;
             unit.getTag flashbanged Tag.FlashBanged;
             unit.getTag partflashbanged Tag.PartialFlashBanged;
-            if gt flashbanged 0;
-             set bonus 0; #we are fully flashbanged, and cant aim
-            else eq flashbanged -2; #use partial flashbang
+            if eq flashbanged -2; #eq flashbanged turn; #use partial flashbang
              sub partflashbanged 100;
              abs partflashbanged; #invert partial flashbang ie 10 -> 90% of total
              mul bonus partflashbanged;
              div bonus 100;
+            else gt flashbanged 0;
+             set bonus 0; #we are fully flashbanged, and cant aim
             end;
             return bonus;
      hitUnit: 
@@ -820,6 +829,27 @@ extended:
             end;
             return power part side;
 
+         #- offset: 3.5 #swap between buck and flash ammo
+         #  code: |
+         #    var int tagcheck;
+         #    var int ammocount;
+         #    var ptr BattleItem ammo;
+         #
+         #    damaging_item.getAmmoItem ammo;
+         #    ammo.getTag tagcheck Tag.ZevadaSwap;
+         #    if eq tagcheck 1;
+         #     ammo.getAmmoQuantity ammocount;
+         #     if lt ammocount 5;
+         #      set power 0;
+         #      ammo.setTag ammo Tag.PartialFlashBang 8;
+         #      debug_log ammocount;
+         #     else;
+         #      ammo.setTag Tag.PartialFlashBang 0;
+         #     end;
+         #    end;
+         #   
+         #    return power part side;
+
          - offset: 4 #Apply FlashBang Effect
            code: |
              var int flashbang; #set up vars
@@ -829,6 +859,7 @@ extended:
              var int turn;
              var int accuracy;
              var int reactions;
+             var int turnside;
              var ptr BattleItem ammo;
              
              #Check if flashbang ammo
@@ -845,6 +876,11 @@ extended:
              if or ge flashbang 1 ge partflashbang 1;
               unit.getTag flashbanged Tag.FlashBanged; #get if this unit is flashbanged and for how long
               unit.getTag partflashbanged Tag.PartialFlashBanged;
+
+              battle_game.getTurnSide turnside;
+              if eq turnside 1; #enemy side
+               add flashbang 1; #add 1 to the flashbang so it dosent get cut short;
+              end;
 
               #If we are already flashed
               if neq flashbanged -1;
@@ -1195,43 +1231,50 @@ extended:
           sub frame 1;
 
           #Flashbanged
-          if and gt flashbanged -1 lt frame frameLength;
+          if lt frame frameLength;
+           var int turn;
+           battle_game.getTurn turn;
+           if and gt flashbanged -1 neq flashbanged turn;
 
-            set color COLOR_X1_PURPLE0;
+             set color COLOR_X1_PURPLE0;
 
-            set temp frameLength;
-            sub temp frame;
-            mul temp 2; # a parameter that creates a nice flash animation
-            get_shade newShade new_pixel;
-            sub newShade temp;
+             set temp frameLength;
+             sub temp frame;
+             mul temp 2; # a parameter that creates a nice flash animation
+             get_shade newShade new_pixel;
+             sub newShade temp;
 
-            if and gt newShade 3 lt newShade 16;
+             if and gt newShade 3 lt newShade 16;
 
-              set_shade new_pixel newShade;
-              set_color new_pixel color;
+               set_shade new_pixel newShade;
+               set_color new_pixel color;
 
-            end;
+             end;
 
+           end;
           end;
 
           #PartalyFlashbanged
-          if and eq flashbanged -2 lt frame frameLength;
+          if lt frame frameLength;
+           var int turn;
+           battle_game.getTurn turn;
+           if or eq flashbanged -2 eq flashbanged turn;
+             set color COLOR_X1_BLUE1;
 
-            set color COLOR_X1_BLUE1;
+             set temp frameLength;
+             sub temp frame;
+             mul temp 2; # a parameter that creates a nice flash animation
+             get_shade newShade new_pixel;
+             sub newShade temp;
 
-            set temp frameLength;
-            sub temp frame;
-            mul temp 2; # a parameter that creates a nice flash animation
-            get_shade newShade new_pixel;
-            sub newShade temp;
+             if and gt newShade 3 lt newShade 16;
 
-            if and gt newShade 3 lt newShade 16;
+               set_shade new_pixel newShade;
+               set_color new_pixel color;
 
-              set_shade new_pixel newShade;
-              set_color new_pixel color;
+             end;
 
-            end;
-
+           end;
           end;
 
           return new_pixel;

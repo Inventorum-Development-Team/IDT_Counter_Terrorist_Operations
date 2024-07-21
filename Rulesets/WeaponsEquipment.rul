@@ -1756,6 +1756,22 @@ items:
     weight: 2
     clipSize: 3
     listOrder: 2210
+#  - type: STR_ZEVADA_X1
+#    requiresBuy:
+#     #- STR_KS_23_ACQUISITION
+#     - STR_UNOBTAINABLE
+#    categories: [STR_CLIPS]
+#    refNode: *STR_SHRAPNEL_25
+#    bigSprite: 536
+#    handSprite: 536
+#    floorSprite: 536
+#    size: 0.1
+#    armor: 30
+#    costBuy: 700
+#    costSell: 250
+#    weight: 2
+#    clipSize: 3
+#    listOrder: 2210
   - type: STR_40MM_FRAG_X1
     categories: [ STR_CLIPS ]
     requiresBuy:

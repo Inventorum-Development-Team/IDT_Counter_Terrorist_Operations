@@ -344,7 +344,7 @@ armors:
     spriteInv: KEVLAR_ADVNV_INV
     storeItem: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
     corpseBattle:
-      - STR_CORPSE_DEFAULT
+      - STR_CORPSE_DEFAULT_ADVNV
     loftempsSet: [ 3 ]
     refNode: *STR_VEST
     spriteFaceGroup: 6
