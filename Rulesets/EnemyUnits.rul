@@ -2194,10 +2194,10 @@ units:
            - 
              - STR_HAMMER #Heavy has very high melee stat
            - 
-             - STR_SAIGA_12
-             - STR_12G_SLUG_X8
-             - STR_12G_SLUG_X8
-             - STR_12G_SLUG_X8
+             - STR_KS_23
+             - STR_ZEVADA_X3
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
 
 
   - type: STR_PR_GRUNT_EAST_EU

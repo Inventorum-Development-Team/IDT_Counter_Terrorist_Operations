@@ -43,6 +43,7 @@ items:
     medikitActionName: STR_USE_CUFFS
     medikitTargetMatrix: 32
     stimulant: 1
+    listOrder: 311020
     tags:
       Cuffs: 1
 

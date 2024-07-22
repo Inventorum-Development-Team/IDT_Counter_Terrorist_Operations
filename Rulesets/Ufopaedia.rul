@@ -1462,7 +1462,7 @@ ufopaedia:
 
   - id: STR_ZEVADA_X3
     type_id: 4
-    text: "..."
+    text: STR_ZEVADA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1045
 
@@ -1831,7 +1831,7 @@ extraStrings:
       STR_STETCKIN_UFOPAEDIA: "An automatic pistol of soviet origin, the Stechkin automatic pistol was one of the first machine pistols that saw prolific use. It was phased out of active service due to its high cost, heavy weight and limited effective range, however it still found use from special forces."
       STR_DEAGLE_UFOPAEDIA: "The Desert Eagle is a high caliber semi-automatic pistol. Originally designed by Magnum Research Inc., production was given to IMI who further refined the design. .50 AE hits hard, but will struggle against armored opponents."
       STR_GOLDDEAGLE_UFOPAEDIA: "That was one rich terrorist! Personally I would have gone with the tiger stripes but still, we could probably make a ton of cash from selling this. Also it goes without saying but there is no way in hell we can convince the council to let us buy these."
-      STR_M9_UFOPAEDIA: "WIP, M9 history blah blah blah, older model thats less reliable with age and little maintence"
+      STR_M9_UFOPAEDIA: "The M9 is a italian handgun used by the US military, It replaced the M1911 in 1985 and has been in service since then. This one appears to be an older model that has received very little maintnence."
 
       STR_TEC_9_UFOPAEDIA: "Originally developed for military use, the TEC-9 gained notoriety due to its use by criminal groups. Despite the negative reputation and gun control legislation limiting it's sale, the machine pistol became a commercial success on the civilian market."
       STR_MP5_UFOPAEDIA: "The MP5 is one of the most widely used submachine guns in the world. It is used by everything from military forces to private security organizations. It gained significant fame due to its use by the SAS during the Iranian embassy siege in 1980."
@@ -1874,8 +1874,8 @@ extraStrings:
       STR_G3_UFOPAEDIA: "A battle rifle designed by Heckler & Koch and CETME. The G3 was the service rifle of the Bundeswehr during the cold war and saw use in numerous militaries and in some guerilla movements."
       STR_M14_EBR_UFOPAEDIA: "A battle rifle designed in 2001 for the US Navy SEALs, The M14 EBR was made as a requrest for a more compact M14. The high recoil makes fireing the weapon full auto ill advised."
       STR_RK_62_UFOPAEDIA: "The RK 62 is a Finnish assault rifle based on the AK-47. It was designed for cold weather, and is quite accurate, with higher quality ironsights and a low MOA compaired to a normal AK."
-      STR_AKS_74U_UFOPAEDIA: "WIP, AKs-74u history blah blah blah"
-      STR_AKS_74U_SOPMOD_UFOPAEDIA: "WIP, AKs-74u history blah blah blah, Sling lets you transfer between slots faster"
+      STR_AKS_74U_UFOPAEDIA: "A carbine varient of the AK-74, it has a shortened barrel and a folding stock allowing for more maneuverability in close quarters."
+      STR_AKS_74U_SOPMOD_UFOPAEDIA: "A carbine varient of the AK-74, it has a shortened barrel and a folding stock allowing for more maneuverability in close quarters. \nThe attached sling provides a 50% reduced invenetory movement cost."
 
       STR_HUNTING_RIFLE_UFOPAEDIA: "Different models of hunting rifles are easily available to civilians that acquire hunting licenses. While intended to hunt animals they are still lethal against human targets, though they struggle against armored targets and are usually outperformed by most, if not all military rifles."
       STR_SKS_SCOPED_UFOPAEDIA: "The SKS is a semi-automatic carbine originally meant to be used by soviet armed forces, but it was quickly overshadowed by the AK-47. The SKS nevertheless found success among irregular forces thanks to its light weight, simple design and ease of use. The SKS also found popularity in North America as a hunting and sporting weapon."
@@ -1951,6 +1951,7 @@ extraStrings:
       STR_SHRAPNEL_25_UFOPAEDIA: "Buckshot round for the KS-23. It has an effective range of 25 meters."
       STR_BARRICADE_UFOPAEDIA: "Powerful solid steel slug for the KS-23 shotgun. Powerful enough to destroy an engine block at the range of a 100 meters."
       STR_VOLNA_R_UFOPAEDIA: "Non-Lethal rubber cartridge for the KS-23. "
+      STR_ZEVADA_UFOPAEDIA: "Flashbang round for the KS-23. It does not fire a ballistic projectile, instead creating an extremely bright muzzle flash and loud bang sound similar to a flashbang."
       
       STR_40MM_FRAG_UFOPAEDIA: "40mm fragmentation grenade designed to be fired from a grenade launcher."
       STR_40MM_SMOKE_UFOPAEDIA: "40mm smoke grenade designed to be fired from a grenade launcher."
