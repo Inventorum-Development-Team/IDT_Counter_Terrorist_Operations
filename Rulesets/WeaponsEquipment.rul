@@ -1806,22 +1806,22 @@ items:
     weight: 2
     clipSize: 3
     listOrder: 239030
-#  - type: STR_ZEVADA_X1
-#    requiresBuy:
-#     #- STR_KS_23_ACQUISITION
-#     - STR_UNOBTAINABLE
-#    categories: [STR_CLIPS]
-#    refNode: *STR_SHRAPNEL_25
-#    bigSprite: 536
-#    handSprite: 536
-#    floorSprite: 536
-#    size: 0.1
-#    armor: 30
-#    costBuy: 700
-#    costSell: 250
-#    weight: 2
-#    clipSize: 3
-#    listOrder: 2210
+  - type: STR_ZEVADA_X1
+    requiresBuy:
+     #- STR_KS_23_ACQUISITION
+     - STR_UNOBTAINABLE
+    categories: [STR_CLIPS]
+    refNode: *STR_SHRAPNEL_25
+    bigSprite: 4880
+    handSprite: 4880
+    floorSprite: 4880
+    size: 0.1
+    armor: 30
+    costBuy: 700
+    costSell: 250
+    weight: 2
+    clipSize: 3
+    listOrder: 2210
   - type: STR_40MM_FRAG_X1
     categories: [ STR_CLIPS ]
     requiresBuy:
@@ -6230,7 +6230,7 @@ items:
     shotgunChoke: 0
     ammo:
       0:
-        compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3, STR_ZEVADA_X3 ]
+        compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3, STR_ZEVADA_X3, STR_ZEVADA_X1 ]
         tuLoad: 35
         tuUnload: 17
     listOrder: 234000
@@ -7890,6 +7890,7 @@ extraSprites:
       4856: Resources/BallisticWeapons/Ammo/Big3006_x8.png
       4864: Resources/BallisticWeapons/Snipers/BigM1GarandSLING.png
       4872: Resources/BallisticWeapons/Snipers/BigM1DGarand.png
+      4880: Resources/BallisticWeapons/Ammo/BigKS23ZevadaAmmo_x1.png
 
 
   - type: FLOOROB.PCK
@@ -8363,6 +8364,7 @@ extraSprites:
       4856: Resources/BallisticWeapons/Ammo/Floor.png 
       4864: Resources/BallisticWeapons/Snipers/FloorM1Garand.png
       4872: Resources/BallisticWeapons/Snipers/FloorM1DGarand.png
+      4880: Resources/BallisticWeapons/Ammo/Floor.png 
 
 
   - type: HANDOB.PCK
@@ -8840,6 +8842,7 @@ extraSprites:
       4856: Resources/BallisticWeapons/Ammo/HandAmmo.png 
       4864: Resources/BallisticWeapons/Snipers/HandM1Garand.png
       4872: Resources/BallisticWeapons/Snipers/HandM1DGarand.png
+      4880: Resources/BallisticWeapons/Ammo/Floor.png 
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8942,6 +8945,7 @@ extraStrings:
       STR_BARRICADE_X3: "Barricade Slug (3x)"
       STR_VOLNA_R_X3: "Volna-R Non-Lethal Round(3x)"
       STR_ZEVADA_X3: "Zvezda Flashbang Round (3x)"
+      STR_ZEVADA_X1: "Zvezda/Shrapnel-25 (1x/2x)"
       STR_40MM_FRAG_X1: "40mm HE Grenade (1x)"
       STR_40MM_FRAG_X3: "40mm HE Grenade (3x)"
       STR_40MM_FRAG_X6: "40mm HE Grenade (6x)"

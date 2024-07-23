@@ -210,10 +210,10 @@ items:
   - type: STR_ZEVADA_X3 #ignoreDuplicate
     tags:
      PartialFlashBang: 4
-#  - type: STR_ZEVADA_X1 #ignoreDuplicate
-#    tags:
-#     PartialFlashBang: 8
-#     ZevadaSwap: 1
+  - type: STR_ZEVADA_X1 #ignoreDuplicate
+    tags:
+     ZevadaSwap: 1
+     PartialFlashBang: 10
   - type: STR_RPG_HEAT_X1 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -608,7 +608,7 @@ extended:
       PartialFlashBang: int #adds a fraction of a flashbang effect ie 50 = 0.5 flashbang
       STRIKE: int
       BalKnife: int
-#      ZevadaSwap: int
+      ZevadaSwap: int
 #      FlashAmmo: int
 #      JammChance: int
     BattleGame:
@@ -830,27 +830,6 @@ extended:
             end;
             return power part side;
 
-         #- offset: 3.5 #swap between buck and flash ammo
-         #  code: |
-         #    var int tagcheck;
-         #    var int ammocount;
-         #    var ptr BattleItem ammo;
-         #
-         #    damaging_item.getAmmoItem ammo;
-         #    ammo.getTag tagcheck Tag.ZevadaSwap;
-         #    if eq tagcheck 1;
-         #     ammo.getAmmoQuantity ammocount;
-         #     if lt ammocount 5;
-         #      set power 0;
-         #      ammo.setTag ammo Tag.PartialFlashBang 8;
-         #      debug_log ammocount;
-         #     else;
-         #      ammo.setTag Tag.PartialFlashBang 0;
-         #     end;
-         #    end;
-         #   
-         #    return power part side;
-
          - offset: 4 #Apply FlashBang Effect
            code: |
              var int flashbang; #set up vars
@@ -861,17 +840,23 @@ extended:
              var int accuracy;
              var int reactions;
              var int turnside;
-             var ptr BattleItem ammo;
+             var int tagcheck;  #used for Swaping ammo types
+             var int ammocount; #used for Swaping ammo types
              
-             #Check if flashbang ammo
-             damaging_item.getAmmoItem ammo;
-             ammo.getTag flashbang Tag.FlashBang;
-             ammo.getTag partflashbang Tag.PartialFlashBang;
-             if and lt flashbang 1 lt partflashbang 1; #if not flashbang ammo, check if item is flashbang
-              damaging_item.getTag flashbang Tag.FlashBang;
-              damaging_item.getTag partflashbang Tag.PartialFlashBang;
+             damaging_item.getTag flashbang Tag.FlashBang;
+             damaging_item.getTag partflashbang Tag.PartialFlashBang;
+
+             #Check if our ammo alternates between flash rounds or not
+             damaging_item.getTag tagcheck Tag.ZevadaSwap;
+             if eq tagcheck 1;
+              damaging_item.getAmmoQuantity ammocount;
+              if eq ammocount 2;
+               set power 1;
+               set partflashbang 10;
+              else;
+               set partflashbang 0;
+              end;
              end;
-             #order of checks is deliberate, ammo flashbang tag has priority over item flashbang tag
 
              #see if what hit us applys a flashbang effect
              if or ge flashbang 1 ge partflashbang 1;

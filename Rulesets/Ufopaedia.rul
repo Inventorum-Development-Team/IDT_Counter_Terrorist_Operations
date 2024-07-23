@@ -1465,6 +1465,12 @@ ufopaedia:
     text: STR_ZEVADA_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1045
+  
+  - id: STR_ZEVADA_X1
+    type_id: 4
+    text: STR_ZEVADA_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1045
 
   - id: STR_40MM_FRAG_X1
     type_id: 4
