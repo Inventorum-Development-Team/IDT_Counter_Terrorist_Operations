@@ -376,6 +376,12 @@ ufopaedia:
     section: STR_PISTOLS
     listOrder: 210
 
+  - id: STR_BROWNING_HP
+    type_id: 4
+    text: STR_BROWNING_HP_UFOPAEDIA
+    section: STR_PISTOLS
+    listOrder: 211
+
   - id: STR_TEC_9
     type_id: 4
     text: STR_TEC_9_UFOPAEDIA
@@ -1838,6 +1844,7 @@ extraStrings:
       STR_DEAGLE_UFOPAEDIA: "The Desert Eagle is a high caliber semi-automatic pistol. Originally designed by Magnum Research Inc., production was given to IMI who further refined the design. .50 AE hits hard, but will struggle against armored opponents."
       STR_GOLDDEAGLE_UFOPAEDIA: "That was one rich terrorist! Personally I would have gone with the tiger stripes but still, we could probably make a ton of cash from selling this. Also it goes without saying but there is no way in hell we can convince the council to let us buy these."
       STR_M9_UFOPAEDIA: "The M9 is a italian handgun used by the US military, It replaced the M1911 in 1985 and has been in service since then. This one appears to be an older model that has received very little maintnence."
+      STR_BROWNING_HP_UFOPAEDIA: "An american single-action handgun designed in 1935 for the French military. While the French did not end up adopting it, it saw wide spread adoption by other countries across the world and is still resonably popular today despite it's age."
 
       STR_TEC_9_UFOPAEDIA: "Originally developed for military use, the TEC-9 gained notoriety due to its use by criminal groups. Despite the negative reputation and gun control legislation limiting it's sale, the machine pistol became a commercial success on the civilian market."
       STR_MP5_UFOPAEDIA: "The MP5 is one of the most widely used submachine guns in the world. It is used by everything from military forces to private security organizations. It gained significant fame due to its use by the SAS during the Iranian embassy siege in 1980."

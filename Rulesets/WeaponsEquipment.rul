@@ -2414,7 +2414,7 @@ items:
         compatibleAmmo: [ STR_9MM_MAKAROV_X10 ]
         tuLoad: 20
         tuUnload: 10
-    listOrder: 20000
+    listOrder: 20000 #020000
 
   - type: STR_FIVE_SEVEN
     categories: [ STR_FIREARMS, STR_PISTOLS ]
@@ -2453,7 +2453,7 @@ items:
         compatibleAmmo: [ STR_FN_57_X20 ]
         tuLoad: 20
         tuUnload: 10
-    listOrder: 50000
+    listOrder: 50000 #050000
 
   - type: STR_MANHURIN
     requiresBuy:
@@ -2686,7 +2686,7 @@ items:
         tuUnload: 12
     listOrder: 80001
 
-  - type: STR_M9 #Note to self, put this in the spreadsheet and do some math on the numbers here!
+  - type: STR_M9
     categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
     #requiresBuy:
       #- STR_P226_ACQUISITION
@@ -2696,8 +2696,8 @@ items:
     bigSprite: 4608 
     floorSprite: 4608 
     handSprite: 4608 
-    reloadSound: 189
-    fireSound: 190 #Change?
+    reloadSound: 188
+    fireSound: 189 #Change?
     #costBuy: 5000
     costSell: 2500
     accuracyAimed: 35
@@ -2724,6 +2724,45 @@ items:
         tuLoad: 20
         tuUnload: 10
     listOrder: 30030
+
+  - type: STR_BROWNING_HP
+    categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
+    #requiresBuy:
+      #- STR_P226_ACQUISITION
+    size: 1
+    weight: 12
+    # battleType: 1
+    bigSprite: 4888
+    floorSprite: 4888
+    handSprite: 4888 
+    reloadSound: 188
+    fireSound: 190 #Change?
+    #costBuy: 6000
+    costSell: 3000
+    accuracyAimed: 60
+    accuracySnap: 45
+    #accuracyAuto: 35
+    blockBothHands: false
+    twoHanded: false
+    oneHandedPenalty: 100
+    maxRange: 19
+    minRange: 0
+    aimRange: 10
+    snapRange: 7
+    #autoRange: 5
+    kneelBonus: 100
+    refNode: *STR_PISTOL
+    tuAimed: 55
+    tuSnap: 25
+    #tuAuto: 50
+    invWidth: 1
+    invHeight: 2
+    ammo:
+      0:
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X10 ]
+        tuLoad: 20
+        tuUnload: 10
+    listOrder: 30040
 
 ###### SMGS ########
 
@@ -7891,6 +7930,8 @@ extraSprites:
       4864: Resources/BallisticWeapons/Snipers/BigM1GarandSLING.png
       4872: Resources/BallisticWeapons/Snipers/BigM1DGarand.png
       4880: Resources/BallisticWeapons/Ammo/BigKS23ZevadaAmmo_x1.png
+      4888: Resources/BallisticWeapons/Pistols/BigBrowningHPnomag.png
+      4896: Resources/BallisticWeapons/Pistols/BigBrowningHP.png
 
 
   - type: FLOOROB.PCK
@@ -8365,6 +8406,8 @@ extraSprites:
       4864: Resources/BallisticWeapons/Snipers/FloorM1Garand.png
       4872: Resources/BallisticWeapons/Snipers/FloorM1DGarand.png
       4880: Resources/BallisticWeapons/Ammo/Floor.png 
+      4888: Resources/BallisticWeapons/Pistols/FloorBrowningHP.png
+      4896: Resources/BallisticWeapons/Pistols/FloorBrowningHP.png
 
 
   - type: HANDOB.PCK
@@ -8843,6 +8886,8 @@ extraSprites:
       4864: Resources/BallisticWeapons/Snipers/HandM1Garand.png
       4872: Resources/BallisticWeapons/Snipers/HandM1DGarand.png
       4880: Resources/BallisticWeapons/Ammo/Floor.png 
+      4888: Resources/BallisticWeapons/Pistols/HandBrowningHP.png
+      4896: Resources/BallisticWeapons/Pistols/HandBrowningHP.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -8977,6 +9022,7 @@ extraStrings:
       STR_DEAGLE: "Desert Eagle"
       STR_GOLDDEAGLE: "Golden Desert Eagle"
       STR_M9: "M9"
+      STR_BROWNING_HP: "Browning Hi-Power"
 
       STR_TEC_9: "TEC-9"
       STR_MP5: "MP5SD"

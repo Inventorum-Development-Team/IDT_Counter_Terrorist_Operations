@@ -1520,9 +1520,9 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
-             - STR_9MM_MAKAROV_X10
+             - STR_BROWNING_HP
+             - STR_9MM_PARABELLUM_X10
+             - STR_9MM_PARABELLUM_X10
            - 
              - STR_SKORPION
              - STR_9MM_MAKAROV_X20
@@ -1533,9 +1533,9 @@ units:
              - STR_9MM_PARABELLUM_X20
            #Uncommon
            - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
-             - STR_9MM_MAKAROV_X10
+             - STR_BROWNING_HP
+             - STR_9MM_PARABELLUM_X10
+             - STR_9MM_PARABELLUM_X10
            - 
              - STR_SKORPION
              - STR_9MM_MAKAROV_X20
@@ -1546,9 +1546,9 @@ units:
              - STR_9MM_PARABELLUM_X20
            #Rare
            - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
-             - STR_9MM_MAKAROV_X10
+             - STR_BROWNING_HP
+             - STR_9MM_PARABELLUM_X10
+             - STR_9MM_PARABELLUM_X10
            - 
              - STR_SKORPION
              - STR_9MM_MAKAROV_X20
@@ -1564,8 +1564,8 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
+             - STR_BROWNING_HP
+             - STR_9MM_PARABELLUM_X10
              - STR_MOLOTOV
              - STR_MOLOTOV
            - 
@@ -1577,8 +1577,8 @@ units:
              - STR_RPG_HEAT_X1
            #Uncommon
            - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
+             - STR_BROWNING_HP
+             - STR_9MM_PARABELLUM_X10
              - STR_MOLOTOV
              - STR_MOLOTOV
            - 
@@ -1593,8 +1593,8 @@ units:
              - STR_RPG_HEAT_X1
            #Rare
            - 
-             - STR_MAKAROV
-             - STR_9MM_MAKAROV_X10
+             - STR_BROWNING_HP
+             - STR_9MM_PARABELLUM_X10
              - STR_MOLOTOV
              - STR_MOLOTOV
            - 

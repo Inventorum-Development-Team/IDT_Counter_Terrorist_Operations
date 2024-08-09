@@ -264,6 +264,9 @@ items:
   - type: STR_M9 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+  - type: STR_BROWNING_HP #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
 
   - type: STR_TEC_9 #ignoreDuplicate
     tags:
