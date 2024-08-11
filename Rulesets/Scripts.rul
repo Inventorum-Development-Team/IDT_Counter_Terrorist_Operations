@@ -228,337 +228,442 @@ items:
   - type: STR_P226 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_GLOCK_17  #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_GLOCK_18 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_GLOCK_18_STOCK #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_M1911 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_MK_23 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_MAKAROV #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_FIVE_SEVEN #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_VEKTOR #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_STETCKIN #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_DEAGLE #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_GOLDDEAGLE #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M9 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_BROWNING_HP #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
 
   - type: STR_TEC_9 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_MP5 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_MPX #ignoreDuplicate
     tags:
      FoldStock: 1
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_P90 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_P90_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SKORPION #ignoreDuplicate
     tags:
      FoldStock: 1
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 7
   - type: STR_UZI  #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+     UfopaediaAmmoNo: 7
   - type: STR_UMP #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_VITYAZ #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_VERSEK #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_SKORPIONEVO #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_FMG9 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+     UfopaediaAmmoNo: 2
   - type: STR_CBJMS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+     UfopaediaAmmoNo: 5
   - type: STR_MP7 #ignoreDuplicate
     tags:
      FoldStock: 1
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 6
   - type: STR_M3_GREASEGUN #ignoreDuplicate
     tags:
      FoldStock: 1
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
 
   - type: STR_TAVOR #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_TAVOR_M203 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_TAVOR_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_TAVOR_95X #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_TAVOR_95X_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M4 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M4_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M4_M320 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M4_UBS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
      UBS: 1
   - type: STR_M4A1 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M4A1_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M4A1_M320 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M4A1_UBS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
      UBS: 1
   - type: STR_AK12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AK12_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AK15 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AK15_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_FAMAS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_FAMAS_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_G36 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_G36_AG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_G36C #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_HK416 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_HK416_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_HK416_M320 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_HK416_UBS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
      UBS: 1
   - type: STR_HK417 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_HK417_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_FX_05 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_FX_05_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SCAR_L #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SCAR_L_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SCAR_L_GL #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SCAR_H #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_SCAR_H_SOPMOD #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_SCAR_H_GL #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_G11 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SR_3 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_SR_3_ONE_HANDED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_M16A2 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M16A2_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M16A2_M203 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AR_18 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AR_180 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AKM #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AK_74 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
+  - type: STR_AK_74_GP25 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
+  - type: STR_AKS_74U #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
+  - type: STR_AKS_74U_SOPMOD #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_FN_FAL_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_G3 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 3
   - type: STR_M14_EBR #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+     UfopaediaAmmoNo: 2
   - type: STR_M14_EBR_SCOPED #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+     UfopaediaAmmoNo: 2
   - type: STR_RK_62 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-  - type: STR_AKS_74U #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_AKS_74U_SOPMOD #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
-  - type: STR_AK_74_GP25 #ignoreDuplicate
-    tags:
-     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
 
   - type: STR_PSG_1 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_MSG_90 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_VSS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_DRAGUNOV #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_OSV_96 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SAKO_TRG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_AWP #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_AW #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M82 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   
   - type: STR_ORIGIN_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_AA_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_USAS_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_SAIGA_12 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   
   - type: STR_M60 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M249 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_FN_MINIMI #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_MK_48 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_RPK_74 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   - type: STR_PECHENEG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_CBJMS_SAW #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+     UfopaediaAmmoNo: 2
   - type: STR_NEGEV #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
   
   - type: STR_RPG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   - type: STR_M72_LAW #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -580,6 +685,7 @@ items:
   - type: STR_BALISTIC_KNIFE #ignoreDuplicate
     tags:
       AmmoReSprite: 1
+      UfopaediaAmmoNo: 1
       BalKnife: 1
 
 extended:
@@ -612,8 +718,7 @@ extended:
       STRIKE: int
       BalKnife: int
       ZevadaSwap: int
-#      FlashAmmo: int
-#      JammChance: int
+      UfopaediaAmmoNo: int #The AmmoNo thats shown for the sprite in the Ufopaedia article, make sure to set the sprite IDs to the correct sprite.
     BattleGame:
       Enemies: int
       Allies: int
@@ -631,7 +736,7 @@ extended:
            weapon.getAmmoItem ammoitem;
            ammoitem.getAmmoQuantity ammorem;
            if and eq tagres 1 eq battle_action battle_action_hit;
-             if eq ammorem 0; # Why cant I chain 2 and statements in a row
+             if eq ammorem 0;
                set to_health 0;
                set to_armor 0;
                set to_wound 0;
@@ -969,6 +1074,7 @@ extended:
           var int left;
           var int right;
           var int ammono;
+          var int UfopaediaAmmono;
           var int UBSammono;
 
           BattleItem.getTag item x Tag.AmmoReSprite;
@@ -978,6 +1084,7 @@ extended:
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
             BattleItem.getTag item y Tag.FoldStock;
+            BattleItem.getTag item UfopaediaAmmono Tag.UfopaediaAmmoNo;
 
             if eq y 1;
               item.getSlot invptr;
@@ -987,6 +1094,9 @@ extended:
                 set z 1;
               end;
             end;
+
+            mul UfopaediaAmmono 8;
+            sub sprite_index UfopaediaAmmono;
 
             if eq z 1;
               add sprite_index 32;

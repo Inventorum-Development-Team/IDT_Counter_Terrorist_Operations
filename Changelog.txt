@@ -4,11 +4,24 @@ Changes made:
 * APAV40 research added for famas
 * Implemented more weapons into campaign: Stechkin, Uzi, Dragunov, OSV-96, M24, and Negev
 * Removed Aim to Head tracks
+* Uniform w/ NVG & Adv. NVG
+* manufacturing option to swap from NV to Adv. NV
+* Flashbang ammo for KS-23
+* Sorted item IDs, should be much easier to find things.
+* Visual cue for flashbanged units & partially flashbanged units
 * new weapons, which are implemented in the campaign
+* Flashbangs can now stack duration
+* fixed ammo placement on M60 sprite
 > Pistols
 	- M9
+        - Browning Hi-Power
+> SMGs
+        - M3 Grease gun
 > Rifles
 	- AKs-74u + SOPMOD
+        - AK-74 w/ GP-25
+> Snipers
+        - M1 Garand + M1D
 > Launcher
 	- M72 LAW
 

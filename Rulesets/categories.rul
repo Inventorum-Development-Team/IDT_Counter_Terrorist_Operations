@@ -1,10 +1,4 @@
 itemCategories:
-  - type: STR_TIER_1
-    listOrder: 18
-  - type: STR_TIER_2
-    listOrder: 19
-  - type: STR_TIER_3
-    listOrder: 20
   - type: STR_FIREARMS
     listOrder: 25
   - type: STR_CLIPS
@@ -25,8 +19,6 @@ itemCategories:
     listOrder: 150
   - type: STR_MELEE
     listOrder: 170
-  - type: STR_LIGHT_EQUIPMENT
-    listOrder: 180
   - type: STR_MEDICAL
     listOrder: 190
   - type: STR_EXPLOSIVES
@@ -39,42 +31,10 @@ extraStrings:
 ###########################################
 ############## CATEGORIES ################
 #######################################
-      STR_BALLISTIC: Ballistic Weapons
-      STR_LASER: Laser Weapons
-      STR_PLASMA: Plasma Weapons
-      STR_ALLOY: "Alloy Weapons"
-      STR_SMART: Smart Weapons
-      STR_TANKS: Tanks
-      STR_ARMORED_CARS: Armored Cars
-      STR_LIGHT_TANKS: Light Tanks
-      STR_HEAVY_TANKS: Heavy Tanks
-      STR_TANK_AMMO: Tank Ammo
-      STR_AIRCRAFT_WEAPONS: Aircraft Weapons
-      STR_GATLING_CANNONS: Gatling Cannons
-      STR_REVOLVER_CANNONS: Revolver Cannons
-      STR_LIGHT_MISSILES: Light Missiles
-      STR_HEAVY_MISSILES: Heavy Missiles
-      STR_SUPER_HEAVY_MISSILES: Super Heavy Missiles
-      STR_AUX: AUX Units
-      STR_ROCKETS: Rocket Pods
-      STR_TIER_1: Tier 1
-      STR_TIER_2: Tier 2
-      STR_TIER_3: Tier 3
-      STR_TIER_4: Tier 4
       STR_FIREARMS: Firearms
       STR_CLIPS: Ammo
-      STR_UNEXCOM_TECH: UNEXCOM Tech
-      STR_US_TECH: US Tech
-      STR_NATO_TECH: NATO Tech
-      STR_SOVIET_TECH: Soviet Tech
-      STR_CIVILIAN_TECH: Civilian Tech
-      STR_SPECIAL_FORCES_TECH: Special Forces Tech
-      STR_MERCENARY_TECH: Mercenary Tech
-      STR_WEAPON_CONVERSION: "Weapon Conversion"
-      STR_ALIEN_TECH: Alien Tech
       STR_PISTOLS: Pistols
       STR_RIFLES: Rifles
-      STR_CARBINES: Carbines
       STR_SMGS: Submachine Guns
       STR_LMGS: Light Machine Guns
       STR_SNIPER_RIFLES: Sniper Rifles
@@ -83,18 +43,5 @@ extraStrings:
       STR_EXPLOSIVES: Explosives
       STR_MELEE: Melee
       STR_MISC: Misc Items
-      STR_LIGHT_EQUIPMENT: Light Equipment
       STR_MEDICAL: Medical Equipment
       STR_SEIZED: Seized Weapons
-      STR_CUSTOM_WEAPON: Custom Weapons
-      STR_AIRCRAFTS: Aircrafts
-      STR_TRANSPORTS: Transports
-      STR_FIGHTERS: Fighters
-      STR_BOMBERS: Bombers
-      STR_VTOL_TRANSPORTS: VTOL Transports
-      STR_PARATROOPER_TRANSPORTS: Paratrooper Transports
-      STR_RECON_SATELLITES: Recon Satellites
-      STR_CRAFT_WEAPONS: Craft Weapons
-
-
-      STR_HUMAN_RECON: Human Recon

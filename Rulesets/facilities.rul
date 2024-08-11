@@ -1,3 +1,10 @@
+extraSprites:
+  - type: BASEBITS.PCK
+    width: 32
+    height: 40
+    files:
+      55: Resources/BaseFacilities/Prison.png
+
 facilities:
 
   - delete: STR_SMALL_RADAR_SYSTEM
@@ -55,7 +62,7 @@ facilities:
     aliens: 10
     mapName: XBASE_08
     spriteShape: 1
-    spriteFacility: 25
+    spriteFacility: 55
   - type: STR_HANGAR
     size: 2
     buildCost: 200000
@@ -66,7 +73,6 @@ facilities:
     mapName: XBASE_16
     spriteShape: 9
     spriteFacility: 9
-
 
 extraStrings:
   - type: en-US
