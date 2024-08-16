@@ -1010,8 +1010,6 @@ ufopaedia:
 
   - id: STR_SAIGA_12
     type_id: 4
-    requires:
-     - STR_UNOBTAINABLE
     text: STR_SAIGA_12_UFOPAEDIA
     section: STR_SHOTGUNS
     listOrder: 607

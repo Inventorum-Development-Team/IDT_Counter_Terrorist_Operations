@@ -11,7 +11,13 @@ Changes made:
 * Visual cue for flashbanged units & partially flashbanged units
 * new weapons, which are implemented in the campaign
 * Flashbangs can now stack duration
-* fixed ammo placement on M60 sprite
+* Guns are now loaded in ufopaedia article pictures
+* Added custom battlepedia palette, fixing incorrect colors on some weapons ufopaedia sprite
+* Added new sprite for prison facility
+* Fixed ammo placement on M60 sprite
+* HK416 w/ m320 now uses correct sprite when loaded with ammo
+* Added sprite for MSG90 w/ 10rnd mags
+* Fixed minor errors in ufopaedia articles
 > Pistols
 	- M9
         - Browning Hi-Power

@@ -1,0 +1,5 @@
+These palettes replace the standard xcom battlepedia pallete, and have the light purple colors swaped out for the gray text color used for the ufopaedia text.
+CTO is the base palatte, SAFE has index 1 set to bright green, and TEST has the light purple colors that are swaped out set to bright green instead, so you can quickly see
+if you are using them. 
+To use the test pallet, go to Rulesets/UI.rul, find "type: PAL_UFOPAEDIA_CUSTOM" and under it should be a file path, change
+that to the path for the test palette.

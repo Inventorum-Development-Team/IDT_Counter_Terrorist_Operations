@@ -2688,8 +2688,6 @@ items:
 
   - type: STR_M9
     categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
-    #requiresBuy:
-      #- STR_P226_ACQUISITION
     size: 1
     weight: 8
     # battleType: 1
@@ -2727,8 +2725,6 @@ items:
 
   - type: STR_BROWNING_HP
     categories: [ STR_FIREARMS, STR_PISTOLS, STR_SEIZED ]
-    #requiresBuy:
-      #- STR_P226_ACQUISITION
     size: 1
     weight: 12
     # battleType: 1
@@ -7801,7 +7797,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/BigFNMiniminomag.png
       3792: Resources/BallisticWeapons/LMGs/BigFNMinimi30.png
       3800: Resources/BallisticWeapons/LMGs/BigFNMinimi.png
-      # 3808: Resources/BallisticWeapons/Rifles/BigRK62.png
+      #3808:
       # 3816: Resources/BallisticWeapons/LMGs/Big
       3824: Resources/BallisticWeapons/LMGs/BigRPK-74Mnomag.png
       3832: Resources/BallisticWeapons/LMGs/BigRPK-74M.png
@@ -8284,7 +8280,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/FloorFNMinimi.png
-      # 3808: Resources/BallisticWeapons/Rifles/FloorRK62.png
+      3808: Resources/BallisticWeapons/Shotguns/FloorSaiga12.png #ufopaedia
       # 3816: Resources/BallisticWeapons/LMGs/Floor
       3824: Resources/BallisticWeapons/LMGs/FloorRPK-74M.png
       3832: Resources/BallisticWeapons/LMGs/FloorRPK-74M.png
@@ -8764,7 +8760,7 @@ extraSprites:
       3784: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3792: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
       3800: Resources/BallisticWeapons/LMGs/HandFNMinimi.png
-      # 3808: Resources/BallisticWeapons/Rifles/HandRK62.png
+      3808: Resources/BallisticWeapons/Shotguns/HandSaiga12.png #ufopaedia
       # 3816: Resources/BallisticWeapons/LMGs/Hand
       3824: Resources/BallisticWeapons/LMGs/HandRPK-74M.png
       3832: Resources/BallisticWeapons/LMGs/HandRPK-74M.png

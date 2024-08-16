@@ -708,16 +708,16 @@ extended:
     RuleItem:
       Shout: int
       Cuffs: int
-      AmmoReSprite: int
+      AmmoReSprite: int #AmmoReSprite script behavior: 1 = default, 2 = only BigOb, 3 = AmmoNo 1 sprite id
       AmmoNo: int
-      FoldStock: int
-      UBS: int
-      Shield: int
+      FoldStock: int #does this weapon have folding stock sprites
+      UBS: int #dose this weapon have a underbarrel shotgun
+      Shield: int #is this weapon a shield
       FlashBang: int #Dose this item have a flashbang effect, and if so, for how many turns.
       PartialFlashBang: int #adds a fraction of a flashbang effect ie 50 = 0.5 flashbang
       STRIKE: int
-      BalKnife: int
-      ZevadaSwap: int
+      BalKnife: int #is this weapon a balistic knife
+      ZevadaSwap: int #dose this weapon have flashbang rounds for the first shot
       UfopaediaAmmoNo: int #The AmmoNo thats shown for the sprite in the Ufopaedia article, make sure to set the sprite IDs to the correct sprite.
     BattleGame:
       Enemies: int
@@ -1077,9 +1077,9 @@ extended:
           var int UfopaediaAmmono;
           var int UBSammono;
 
-          BattleItem.getTag item x Tag.AmmoReSprite;
+          BattleItem.getTag item x Tag.AmmoReSprite; #AmmoReSprite script behavior
 
-          if eq x 1;
+          if eq x 1; #Default behavior, sprite ID on weapon is empty w/ no mag
 
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
@@ -1142,7 +1142,7 @@ extended:
           end;
 
 
-          if and eq x 2 eq blit_part blit_item_big;
+          if and eq x 2 eq blit_part blit_item_big; #Only effects BigObs, 
 
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
@@ -1177,7 +1177,7 @@ extended:
           end;
 
 
-          if eq x 3;
+          if eq x 3; #
 
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;

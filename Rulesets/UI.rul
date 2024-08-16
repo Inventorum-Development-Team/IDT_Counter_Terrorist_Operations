@@ -109,3 +109,41 @@ interfaces:
         color2: 16 # 16
       - id: textSlots
         color: 112
+  - type: ufopaedia
+    backgroundImage: BACK01.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: list
+        color: 133
+        color2: 90
+        border: 239
+      - id: listExtended
+        color: 100
+        color2: 138
+        border: 239
+      - id: button1
+        color: 133   # minty green
+      - id: button2
+        color: 239   # bright green
+  - type: articleItem
+    elements:
+      - id: button
+        color: 144   # orange
+      - id: text
+        color: 191  # grey orig:239, 6
+        color2: 128  # light blue orig:244
+      - id: list
+        color: 191   # grey orig:239, 6
+        color2: 128  # light blue orig:244
+      - id: ammoColor
+        color: 32    # red
+
+customPalettes:
+  - type: PAL_UFOPAEDIA_CUSTOM
+    target: PAL_BATTLEPEDIA
+    file: Resources/Palettes/PAL_BATTLEPEDIA_CTO.pal
