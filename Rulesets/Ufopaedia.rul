@@ -941,8 +941,6 @@ ufopaedia:
 
   - id: STR_M24_SWS
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_M24_SWS_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 510
@@ -976,48 +974,104 @@ ufopaedia:
     type_id: 4
     text: STR_REMINGTON_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_REMINGTON
+      text: STR_REMINGTON_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_REMINGTON
+      text: STR_REMINGTON_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 601
 
   - id: STR_SPAS_12
     type_id: 4
     text: STR_SPAS_12_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_SPAS_12
+      text: STR_SPAS_12_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_SPAS_12
+      text: STR_SPAS_12_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 602
 
   - id: STR_KS_23
     type_id: 4
     text: STR_KS_23_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_KS_23
+      text: STR_KS_23_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_KS_23
+      text: STR_KS_23_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 603
 
   - id: STR_AA_12
     type_id: 4
     text: STR_AA_12_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_AA_12
+      text: STR_AA_12_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_AA_12
+      text: STR_AA_12_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 604
 
   - id: STR_USAS_12
     type_id: 4
     text: STR_USAS_12_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_USAS_12
+      text: STR_USAS_12_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_USAS_12
+      text: STR_USAS_12_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 605
 
   - id: STR_ORIGIN_12
     type_id: 4
     text: STR_ORIGIN_12_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_ORIGIN_12
+      text: STR_ORIGIN_12_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_ORIGIN_12
+      text: STR_ORIGIN_12_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 606
 
   - id: STR_SAIGA_12
     type_id: 4
     text: STR_SAIGA_12_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_SAIGA_12
+      text: STR_SAIGA_12_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_SAIGA_12
+      text: STR_SAIGA_12_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 607
 
   - id: STR_M3
     type_id: 4
     text: STR_M3_UFOPAEDIA
     section: STR_SHOTGUNS
+    pages:
+    - title: STR_M3
+      text: STR_M3_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_M3
+      text: STR_M3_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 608
 
   - id: STR_SERBU
@@ -1085,12 +1139,26 @@ ufopaedia:
     type_id: 4
     text: STR_MGL_UFOPAEDIA
     section: STR_ARTILLERY
+    pages:
+    - title: STR_MGL
+      text: STR_MGL_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_MGL
+      text: STR_MGL_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 801
 
   - id: STR_GM_94
     type_id: 4
     text: STR_GM_94_UFOPAEDIA
     section: STR_ARTILLERY
+    pages:
+    - title: STR_GM_94
+      text: STR_GM_94_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_GM_94
+      text: STR_GM_94_UFOPAEDIA
+      ammoSlot: 0
     listOrder: 802
 
   - id: STR_GUSTAF
@@ -1672,6 +1740,12 @@ ufopaedia:
     section: STR_EQUIPMENT
     listOrder: 1115
 
+  - type: STR_FIELD_DRESSING
+    type_id: 4
+    text: STR_FIELD_DRESSING_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1116
+
   - id: STR_SCOPE
     type_id: 4
     text: STR_SCOPE_UFOPAEDIA
@@ -1957,12 +2031,13 @@ extraStrings:
       STR_12G_BUCKSHOT_UFOPAEDIA: "Buckshot rounds consists of shells packed with small lead pellets approximately 8mm in diameter, creating a lethal hail when fired. Due to the pellets spreading out the further they travel, the effective range of buckshot shells is only around 30-40 meters."
       STR_12G_SLUG_UFOPAEDIA: "Shotgun slugs consist of a single solid projectile instead of multiple pellets like buckshot rounds, giving them more power and accuracy."
       STR_12G_NON_LETHAL_UFOPAEDIA: "Meant to be used as a way to subdue targets, non-lethal rounds consist of rubber instead of lead. While considerably less lethal than buckshot, they can still kill someone if fired against a close or wounded targets. They also lose power faster than conventional shells."
-      STR_12G_INCENDIARY_UFOPAEDIA: "Incendiary shotgun shells not typicaly used for military operations, they use magnesius pellets that cause cause a blast of fire when shot. These ones however have been modifed to fire lead as well as magnesium pellets. It dosen't hit nearly as hard as buckshot, however what it dose hit will be lit on fire."
+      STR_12G_INCENDIARY_UFOPAEDIA: "Incendiary shotgun shells not typicaly used for military operations, they use magnesius pellets that cause cause a blast of fire when shot. These ones however have been modifed to fire lead as well as magnesium pellets. It hits just as hard as buckshot, and whatever it hits will be lit on fire. Only problem is the low pressure, preventing it from being used in automatic shotguns."
       STR_12G_BREACHING_UFOPAEDIA: "High powered breaching shotgun shells designed to destroy doors, walls, or most other things that get in your way. While still lethal, it is significantly less effective then normal buckshot against people."
       STR_SHRAPNEL_25_UFOPAEDIA: "Buckshot round for the KS-23. It has an effective range of 25 meters."
       STR_BARRICADE_UFOPAEDIA: "Powerful solid steel slug for the KS-23 shotgun. Powerful enough to destroy an engine block at the range of a 100 meters."
       STR_VOLNA_R_UFOPAEDIA: "Non-Lethal rubber cartridge for the KS-23. "
-      STR_ZEVADA_UFOPAEDIA: "Flashbang round for the KS-23. It does not fire a ballistic projectile, instead creating an extremely bright muzzle flash and loud bang sound similar to a flashbang."
+      STR_ZEVADA_UFOPAEDIA:  "Flashbang round for the KS-23. It does not fire a ballistic projectile, instead creating an extremely bright muzzle flash and loud bang sound similar to a flashbang."
+      STR_ZEVADA/SHRAPNEL_25_UFOPAEDIA: "Flashbang round for the KS-23. It does not fire a ballistic projectile, instead creating an extremely bright muzzle flash and loud bang sound similar to a flashbang. (1x) \n\nBuckshot round for the KS-23. It has an effective range of 25 meters. (2x)"
       
       STR_40MM_FRAG_UFOPAEDIA: "40mm fragmentation grenade designed to be fired from a grenade launcher."
       STR_40MM_SMOKE_UFOPAEDIA: "40mm smoke grenade designed to be fired from a grenade launcher."
@@ -1993,9 +2068,10 @@ extraStrings:
       STR_HANDCUFFS_UFOPAEDIA: "Handcuffs can be used to apprehend panicking enemies. If they have low enough morale, or have dropped their weapons, using handcuffs will stun them."
       STR_FLARE_UFOPAEDIA: "A bright hand-held flare, Can be lit and tossed to illuminate dark areas."
       STR_MEDKIT_UFOPAEDIA: "Large waterproof medical kit, Contains significantly more supplies then a field dressing, however is quite heavy and takes up quite a bit of space."
-      STR_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  A Combat knife. Light and lethal, only problem is you have to get close to stab people with it, which is not great for your health."
-      STR_HAMMER_UFOPAEDIA: "Energy Cost: 20                                                                                                                                   Its a hammer, You can smash just about any obsticle in your way including wood, bricks, metal, concrete, and explosive barrels (not recommended), dosen't work for people, that usually ends up poorly."
-      STR_BALISTIC_KNIFE_UFOPAEDIA: "Energy Cost: 10%                                                                                                                                  Melee damage and accuracy are exactly the same as the knife.       A knife that can be launchd as a projectile as well as used to stab people, only problem is if you shoot the knife then you can't stab people with it."
+      STR_FIELD_DRESSING_UFOPAEDIA: "A package containing a large bandage used for gunshot wounds. Small, light weight, and effective, but single use."
+      STR_KNIFE_UFOPAEDIA: "Energy Cost: 10%\n\nA Combat knife. Light and lethal, only problem is you have to get close to stab people with it, which is not great for your health."
+      STR_HAMMER_UFOPAEDIA: "Energy Cost: 20\n\nIts a hammer, You can smash just about any obsticle in your way including wood, bricks, metal, concrete, and explosive barrels (not recommended), dosen't work for people, that usually ends up poorly."
+      STR_BALISTIC_KNIFE_UFOPAEDIA: "Energy Cost: 10%\nMelee damage and accuracy are exactly the same as the knife.\n\nA knife that can be launchd as a projectile as well as used to stab people, only problem is if you shoot the knife then you can't stab people with it."
 
       STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
       STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."

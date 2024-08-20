@@ -142,6 +142,20 @@ interfaces:
         color2: 128  # light blue orig:244
       - id: ammoColor
         color: 32    # red
+      - id: ammoColorDTSmoke
+        color: 2     # White
+      - id: ammoColorDTHE
+        color: 37    # Dark red
+      - id: ammoColorDTStun
+        color: 196   # Purple
+      - id: ammoColorDTMelee
+        color: 191   # Gray
+      - id: ammoColorDTIN
+        color: 96    # Orange
+      - id: ammoColorDT10 #Less lethal
+        color: 196   # Purple
+      - id: ammoColorDT11 #Breaching
+        color: 51   # Green
 
 customPalettes:
   - type: PAL_UFOPAEDIA_CUSTOM

@@ -563,7 +563,7 @@ items:
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
-    damageType: 1
+    damageType: 10
     powerRangeThreshold: 5
     powerRangeReduction: 1
     damageAlter:
@@ -571,6 +571,7 @@ items:
       IgnoreOverKill: true
       ToStun: 4.0
       ToWound: 0
+      ResistType: 10
 
   - &STR_12G_INCENDIARY
     type: STR_12G_INCENDIARY
@@ -582,12 +583,14 @@ items:
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
-    damageType: 1
+    damageType: 2
     damageAlter:
-      RandomType: 1
+      RandomType: 8
       FireThreshold: 0
+      FixRadius: 0
       SmokeThreshold: 1000
       FireBlastCalc: false
+      IgnoreSelfDestruct: false
       IgnoreDirection: false
       ArmorEffectiveness: 0.75
       ToArmor: 0.1
@@ -609,7 +612,7 @@ items:
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
-    damageType: 1
+    damageType: 11
     #powerRangeThreshold: 3
     #powerRangeReduction: 2
     damageAlter:
@@ -617,6 +620,8 @@ items:
       IgnoreOverKill: true
       TileDamageMethod: 1
       ToTile: 3
+      ResistType: 11
+
 
   - &STR_SHRAPNEL_25
     type: STR_SHRAPNEL_25
@@ -655,7 +660,7 @@ items:
     hitAnimation: 26
     bulletSprite: 3
     battleType: 2
-    damageType: 1
+    damageType: 10
     powerRangeThreshold: 5
     powerRangeReduction: 1
     damageAlter:
@@ -663,6 +668,7 @@ items:
       IgnoreOverKill: true
       ToStun: 4.0
       ToWound: 0
+      ResistType: 10
 
   - &STR_ZEVADA
     type: STR_ZEVADA
@@ -735,7 +741,7 @@ items:
     hitSound: 0
     hitAnimation: 26
     battleType: 2
-    damageType: 1
+    damageType: 10
     arcingShot: true
     powerRangeThreshold: 5
     powerRangeReduction: 4
@@ -744,6 +750,7 @@ items:
       IgnoreOverKill: true
       ToStun: 4.0
       ToWound: 0
+      ResistType: 10
 
   - &STR_VOG25
     type: STR_VOG25
@@ -1808,8 +1815,7 @@ items:
     listOrder: 239030
   - type: STR_ZEVADA_X1
     requiresBuy:
-     #- STR_KS_23_ACQUISITION
-     - STR_UNOBTAINABLE
+     - STR_KS_23_ACQUISITION
     categories: [STR_CLIPS]
     refNode: *STR_SHRAPNEL_25
     bigSprite: 4880
@@ -1817,11 +1823,11 @@ items:
     floorSprite: 4880
     size: 0.1
     armor: 30
-    costBuy: 700
+    costBuy: 500
     costSell: 250
     weight: 2
     clipSize: 3
-    listOrder: 2210
+    listOrder: 239031
   - type: STR_40MM_FRAG_X1
     categories: [ STR_CLIPS ]
     requiresBuy:
@@ -1975,6 +1981,7 @@ items:
     armor: 30
     costBuy: 4500
     costSell: 2250
+    invHeight: 2
     weight: 21
     clipSize: 1
     listOrder: 289000
@@ -1990,6 +1997,7 @@ items:
     armor: 30
     costBuy: 5000
     costSell: 2500
+    invHeight: 2
     weight: 21
     clipSize: 1
     listOrder: 289001
@@ -7319,6 +7327,7 @@ items:
     handSprite: 2500
     floorSprite: 2500
     flatRate: true
+    hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2
@@ -9169,3 +9178,6 @@ extraStrings:
 
       STR_SHOT_TYPE_SNAP: "Snap (x{0})"
       STR_SHOT_TYPE_AIMED: "Aimed (x{0})"
+
+      STR_DAMAGE_10: "LESS-LETHAL"
+      STR_DAMAGE_11: "BREACHING"

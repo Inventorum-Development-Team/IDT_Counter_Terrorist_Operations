@@ -17,7 +17,10 @@ Changes made:
 * Fixed ammo placement on M60 sprite
 * HK416 w/ m320 now uses correct sprite when loaded with ammo
 * Added sprite for MSG90 w/ 10rnd mags
-* Fixed minor errors in ufopaedia articles
+* Fixed errors in ufopaedia articles
+* Added Field dressing ufopaedia article
+* Added colored damge types to ufopaedia
+* 2 new damage types (no stat changes)
 > Pistols
 	- M9
         - Browning Hi-Power
