@@ -26,6 +26,8 @@ Changes made:
         - Browning Hi-Power
 > SMGs
         - M3 Grease gun
+> LMGS
+        - FN MAG
 > Rifles
 	- AKs-74u + SOPMOD
         - AK-74 w/ GP-25

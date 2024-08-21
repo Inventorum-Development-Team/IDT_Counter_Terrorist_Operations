@@ -282,6 +282,7 @@ ufopaedia:
      - STR_SKYSCRAPER_RAID
     listOrder: 28
 
+  #Pistols
   - id: STR_TASER
     type_id: 4
     text: STR_TASER_UFOPAEDIA
@@ -350,8 +351,6 @@ ufopaedia:
 
   - id: STR_STETCKIN
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_STETCKIN_UFOPAEDIA
     section: STR_PISTOLS
     listOrder: 208
@@ -495,7 +494,7 @@ ufopaedia:
       text: STR_TAVOR_UFOPAEDIA
       ammoSlot: 0
     - title: STR_TAVOR_M203
-      text: STR_TAVOR_UFOPAEDIA
+      text: STR_M203_UFOPAEDIA
       ammoSlot: 1
     listOrder: 402
 
@@ -532,7 +531,7 @@ ufopaedia:
       text: STR_M4_UFOPAEDIA
       ammoSlot: 0
     - title: STR_M4_M320
-      text: STR_M4_UFOPAEDIA
+      text: STR_M320_UFOPAEDIA
       ammoSlot: 1
     listOrder: 407
 
@@ -544,7 +543,7 @@ ufopaedia:
       text: STR_M4_UFOPAEDIA
       ammoSlot: 0
     - title: STR_M4_UBS
-      text: STR_M4_UFOPAEDIA
+      text: STR_UBS_UFOPAEDIA
       ammoSlot: 1
     listOrder: 408
 
@@ -569,7 +568,7 @@ ufopaedia:
       text: STR_M4A1_UFOPAEDIA
       ammoSlot: 0
     - title: STR_M4A1_M320
-      text: STR_M4A1_UFOPAEDIA
+      text: STR_M320_UFOPAEDIA
       ammoSlot: 1
     listOrder: 411
 
@@ -582,7 +581,7 @@ ufopaedia:
       text: STR_M4A1_UFOPAEDIA
       ammoSlot: 0
     - title: STR_M4A1_UBS
-      text: STR_M4A1_UFOPAEDIA
+      text: STR_UBS_UFOPAEDIA
       ammoSlot: 1
     listOrder: 412
 
@@ -632,6 +631,13 @@ ufopaedia:
     type_id: 4
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
+    pages:
+    - title: STR_G36_AG
+      text: STR_G36_UFOPAEDIA
+      ammoSlot: 0
+    - title: STR_G36_AG
+      text: STR_M320_UFOPAEDIA
+      ammoSlot: 1
     listOrder: 420
 
   - id: STR_G36C
@@ -661,7 +667,7 @@ ufopaedia:
       text: STR_HK416_UFOPAEDIA
       ammoSlot: 0
     - title: STR_HK416_M320
-      text: STR_HK416_UFOPAEDIA
+      text: STR_M320_UFOPAEDIA
       ammoSlot: 1
     listOrder: 423
 
@@ -674,7 +680,7 @@ ufopaedia:
       text: STR_HK416_UFOPAEDIA
       ammoSlot: 0
     - title: STR_HK416_UBS
-      text: STR_HK416_UFOPAEDIA
+      text: STR_UBS_UFOPAEDIA
       ammoSlot: 1
     listOrder: 424
 
@@ -723,7 +729,7 @@ ufopaedia:
       text: STR_SCAR_L_UFOPAEDIA
       ammoSlot: 0
     - title: STR_SCAR_L_GL
-      text: STR_SCAR_L_UFOPAEDIA
+      text: STR_FN40GL_UFOPAEDIA
       ammoSlot: 1
     listOrder: 431
 
@@ -748,7 +754,7 @@ ufopaedia:
       text: STR_SCAR_H_UFOPAEDIA
       ammoSlot: 0
     - title: STR_SCAR_H_GL
-      text: STR_SCAR_H_UFOPAEDIA
+      text: STR_FN40GL_UFOPAEDIA
       ammoSlot: 1
     listOrder: 434
 
@@ -791,7 +797,7 @@ ufopaedia:
       text: STR_M16A2_UFOPAEDIA
       ammoSlot: 0
     - title: STR_M16A2_M203
-      text: STR_M16A2_UFOPAEDIA
+      text: STR_M203_UFOPAEDIA
       ammoSlot: 1
     listOrder: 438
 
@@ -828,7 +834,7 @@ ufopaedia:
       text: STR_AK_74_UFOPAEDIA
       ammoSlot: 0
     - title: STR_AK_74_GP25
-      text: STR_AK_74_UFOPAEDIA
+      text: STR_GP25_UFOPAEDIA
       ammoSlot: 1
     listOrder: 442
 
@@ -907,16 +913,12 @@ ufopaedia:
 
   - id: STR_DRAGUNOV
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_DRAGUNOV_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 505
 
   - id: STR_OSV_96
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_OSV_96_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 506
@@ -1096,8 +1098,6 @@ ufopaedia:
 
   - id: STR_FN_MINIMI
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_FN_MINIMI_UFOPAEDIA
     section: STR_LMGS
     listOrder: 702
@@ -1122,8 +1122,6 @@ ufopaedia:
 
   - id: STR_NEGEV
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_NEGEV_UFOPAEDIA
     section: STR_LMGS
     listOrder: 706
@@ -1133,6 +1131,12 @@ ufopaedia:
     text: STR_CBJMS_UFOPAEDIA
     section: STR_LMGS
     listOrder: 707
+
+  - id: STR_FN_MAG
+    type_id: 4
+    text: STR_FN_MAG_UFOPAEDIA
+    section: STR_LMGS
+    listOrder: 708
 
   #Heavy weapons
   - id: STR_MGL
@@ -1436,8 +1440,6 @@ ufopaedia:
 
   - id: STR_127_X5
     type_id: 4
-    #requires:
-    # - STR_UNOBTAINABLE
     text: STR_127_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1038
@@ -1800,72 +1802,84 @@ ufopaedia:
     section: STR_ARMORS
     listOrder: 1201
 
+  - id: STR_DEFAULT_NV
+    type_id: 5
+    text: STR_NV_UFOPAEDIA
+    section: STR_ARMORS
+    listOrder: 1202
+  
+  - id: STR_DEFAULT_ADVNV
+    type_id: 5
+    text: STR_ADVNV_UFOPAEDIA
+    section: STR_ARMORS
+    listOrder: 1203
+
   - id: STR_DEFAULT_KEVLAR
     type_id: 5
     text: STR_KEVLAR_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1202
+    listOrder: 1204
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK
     type_id: 5
     text: STR_KEVLAR_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1203
+    listOrder: 1205
 
 
   - id: STR_DEFAULT_KEVLAR_RIOT
     type_id: 5
     text: STR_RIOT_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1204
+    listOrder: 1206
 
   - id: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
     type_id: 5
     text: STR_RIOT_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1205
+    listOrder: 1207
 
   - id: STR_DEFAULT_KEVLAR_NV
     type_id: 5
     text: STR_NV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1206
+    listOrder: 1208
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK_NV
     type_id: 5
     text: STR_NV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1207
+    listOrder: 1209
 
   - id: STR_DEFAULT_KEVLAR_ADVNV
     type_id: 5
     text: STR_ADVNV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1208
+    listOrder: 1210
 
   - id: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
     type_id: 5
     text: STR_ADVNV_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1209
+    listOrder: 1211
 
   - id: STR_HEAVY
     type_id: 5
     text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1210
+    listOrder: 1212
 
   - id: STR_HEAVY_NV
     type_id: 5
     text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1211
+    listOrder: 1213
 
   - id: STR_HEAVY_ADVNV
     type_id: 5
     text: STR_HEAVY_UFOPAEDIA
     section: STR_ARMORS
-    listOrder: 1213
+    listOrder: 1214
 
   - id: STR_SHOUTING
     type_id: 8
@@ -1884,6 +1898,12 @@ ufopaedia:
     text: STR_MELEE_ATTACKS_UFOPAEDIA
     section: STR_MANUAL
     listOrder: 1302
+
+  - id: STR_FLASHBANG_EFFECT
+    type_id: 8
+    text: STR_FLASHBANG_EFFECT_UFOPAEDIA
+    section: STR_MANUAL
+    listOrder: 1303
 
 
 extraStrings:
@@ -1974,7 +1994,7 @@ extraStrings:
       STR_AW_UFOPAEDIA: "The Accuracy International Arctic Warfare Magnum is a British bolt-action sniper rifle. It was designed to perform well even in extremely cold environments like Scandinavia, this capability is what has given the rifle its name."
       STR_M24_SWS_UFOPAEDIA: "The M24 Sniper Weapon System is a american sniper rifle based on the Remington Model 700. It was adopted as the standard sniper rifle of the US Army in 1988."
       STR_M82_UFOPAEDIA: "The Barret M82 is an anti-materiel sniper rifle used by the US army during Desert Shield and Desert Storm. The Rifle is extremely powerful, capable of penetrating the armor of some armored vehicles. During the Troubles in Ireland some M82's were smuggled in for the use of the IRA."
-      STR_M1_GARAND_UFOPAEDIA: "WIP: M1 Garand history blah blah blah, its got a sling on it that lets you move it between slots faster"
+      STR_M1_GARAND_UFOPAEDIA: "A semi-automatic rifle used by the US miltary during WW2 and the begining cold war. It's self ejecting en bloc clip lets it reload extremly quickly and makes a distict ping noise when out of ammo.\nThe attached sling provides a 50% reduced invenetory movement cost."
 
       STR_DOUBLE_BARREL_UFOPAEDIA: "Double-barreled shotguns are commonly used to hunt birds, however with the right ammunition it can become an effective weapon even against human targets. They are popular among irregular forces due to their availability and effectiveness even by inexperienced users. Their main drawback is that they only hold two cartridges."
       STR_SERBU_UFOPAEDIA: "The Serbu Super-Shorty is an extremely compact pump-action shotgun. While not as accurate as many other shotguns its small size enables its use as a sidearm."
@@ -1990,11 +2010,12 @@ extraStrings:
       STR_M60_UFOPAEDIA: "A general-purpose machine gun that served as the primary machine gun on the US military during the first half of the cold war. While it saw extensive use, early versions were plagued by reliability issues. While newer designs are available the M60 is still widely used and some have even fallen into the hands of terrorist organizations."
       STR_M249_UFOPAEDIA: "An American adaption of the Belgian FN Minimi, the M249 is a light machine gun widely used by the US armed forces. Unlike many other machine guns, the M249 can be fed both from linked ammunition and STANAG magazines, though the use of the latter is advised to only be used in emergencies due to a higher rate of malfunctions."
       STR_FN_MINIMI_UFOPAEDIA: "A Squad automatic weapon of belgian origin chambered in 5.56 NATO. It has been adopted by numerous countries and served as a base for multiple variants, such as the american M249 and MK 48."
-      STR_MK_48_UFOPAEDIA: "The Mark 48  is a variant od the M249 developed for USSOCOM to be fielded by special operations units. Unlike the M249, it fires 7.62x51mm NATO cartridges instead of the lighter 5.56 cartridge."
+      STR_MK_48_UFOPAEDIA: "The Mark 48 is a variant of the M249 developed for USSOCOM to be fielded by special operations units. Unlike the M249, it fires 7.62x51mm NATO cartridges instead of the lighter 5.56 cartridge."
       STR_RPK_74_UFOPAEDIA: "The RPK-74M is the modernized version of the RPK-74, which itself is a variant of the RPK chambered in 5.45x39mm. It is a light machine gun designed to be compatible with magazines developed for the AK-74."
       STR_PECHENEG_UFOPAEDIA: "A russian general-purpose machine gun that has a heavy non-removable barrel that is forced-air-cooled instead of relying on the barrel to be switched during heavy use. The PHP Pecheneg has seen extensive use by Spetsnaz units. Its name is derived from the pecheneg people, a tribe that lived in the steppes of Russia and Ukraine."
       STR_NEGEV_UFOPAEDIA: "The IWI Negev is an israeli light machine gun adopted by the IDF. It was designed to be reliable in adverse conditions."
-      
+      STR_FN_MAG_UFOPAEDIA: "WIP, stats are not final"
+
       STR_M320_UFOPAEDIA: "The M320 was designed as a replacement for the M203 underbarrel grenade launcher. Unlike its predecessor, the M320 can be used stand-alone weapon as well as being mounted on a rifle. It can fire a multitude of 40mm grenades, from frag grenades to non-lethal sponge grenades."
       STR_GM_94_UFOPAEDIA: "A russian pump-action grenade launcher designed for urban fighting and room-to-room combat. It has a simple design that allows it to operate in adverse environments and even after being submerged in water."
       STR_MGL_UFOPAEDIA: "The Milkor MGL is a grenade launcher with a revolving cylinder magazine that can contain 6 40mm grenades. Its design means it can quickly and accurately bring a lot of firepower to an enemy target."
@@ -2057,7 +2078,8 @@ extraStrings:
       STR_FN40GL_UFOPAEDIA: "The FN40GL is a 40mm grenade launcher that can be attached under the barrel of the FN SCAR rifle."
       STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
       STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster."
-      
+      STR_GP25_UFOPAEDIA: "A under-barrel muzzel loaded grenade launcher designed by the USSR during the cold war for AK pattern rifles. The grenades it fires are caseless, and do not need to be extracted after fireing."
+
       STR_MOLOTOV_UFOPAEDIA: "A glass bottle filled with a flammable liquid, such as gasoline. The cloth on the top of the bottle is ignited before being thrown, causing the liquid to ignite when the bottle hits its target and shatters."
       STR_HIGH_EXPLOSIVE_UFOPAEDIA: "A large explosive, capable of completely demolishing a small building."
       STR_SMOKE_GRENADE_UFOPAEDIA: "On impact expands into a ball of smoke that conceals units, however it does not provide any thermal protection so units with thermal gear can still see through."
@@ -2087,7 +2109,9 @@ extraStrings:
       STR_NON_LETHAL_UFOPAEDIA: "Non-lethal ammunition is a bit of a misnomer. While they are designed to not cause lethal injuries, a poorly placed shot or one fired at a close range can be fatal. Non-lethal ammunition generally uses blunt force from rubber or sponge bullets to incapacitate their target. It is generally used in situations where conventional weaponry is deemed as too excessive, like riot control."
       STR_MELEE_ATTACKS: "Melee Attacks"
       STR_MELEE_ATTACKS_UFOPAEDIA: "Our Troops may use their pistols or the butts of their rifles to strike a target to attempt to subdue them if other means are not suitable in the situation. Care should be used when using this tactic, as these attacks can wound or even kill the target."
-      
+      STR_FLASHBANG_EFFECT: "Flashbangs"
+      STR_FLASHBANG_EFFECT_UFOPAEDIA: "A fully flashbanged unit will flash purple, and has no accuracy or reactions, as well as very limited or no stamina.\n\nA unit that is flashing blue is partialy flashbanged and will have the same penalties as a fully flashbanged unit, except their accuracy will scale depending on how much they have been flashed instead of set to 0. Partial flash damage goes from 1 to 99, after which it becomes a full flash.\n\nAll forms of flashbang damage can stack, causing it to last longer. Every full flash lasts for 1 turn, including a turn for any remaining partial flash."
+
       STR_COALITION: "The Coalition"
       STR_TASK_FORCE: "Task Forces"
       STR_OBEJCTIVE: "The Objective"

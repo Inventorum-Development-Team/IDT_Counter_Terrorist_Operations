@@ -1407,33 +1407,33 @@ units:
              - STR_5_45_X60
              - STR_5_45_X60
            - 
-             - STR_M60
-             - STR_NATO_7_62_X50
-           - 
-             - STR_NEGEV
+             - STR_FN_MINIMI
              - STR_5_56_X100
+           - 
+             - STR_FN_MAG
+             - STR_NATO_7_62_X50
            #Uncommon
            - 
              - STR_AK_74
              - STR_5_45_X60
              - STR_5_45_X60
            - 
-             - STR_M60
-             - STR_NATO_7_62_X50
+             - STR_FN_MINIMI
+             - STR_5_56_X100
            - 
-             - STR_M60
-             - STR_NATO_7_62_X100
+             - STR_FN_MINIMI
+             - STR_5_56_X100
            #Rare
            - 
              - STR_AK_74
              - STR_5_45_X60
              - STR_5_45_X60
            - 
-             - STR_M60
+             - STR_FN_MAG
              - STR_NATO_7_62_X50
            - 
-             - STR_M60
-             - STR_NATO_7_62_X100
+             - STR_FN_MINIMI
+             - STR_5_56_X100
 
   - type: STR_TERRORIST_RIFLEMAN_WEST_EU
     race: STR_TERRORISTS_WEST_EU
@@ -1454,8 +1454,8 @@ units:
              - STR_AKM
              - STR_SOVIET_7_62_X30
            - 
-             - STR_AK_74
-             - STR_5_45_X30
+             - STR_G3
+             - STR_NATO_7_62_X20
            - 
              - STR_AR_18
              - STR_5_56_X30
@@ -1464,8 +1464,8 @@ units:
              - STR_AKM
              - STR_SOVIET_7_62_X30
            - 
-             - STR_AK_74
-             - STR_5_45_X30
+             - STR_G3
+             - STR_NATO_7_62_X20
            - 
              - STR_AR_18
              - STR_5_56_X30

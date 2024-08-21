@@ -130,6 +130,34 @@ interfaces:
         color: 133   # minty green
       - id: button2
         color: 239   # bright green
+  - type: articleText
+    elements:
+      - id: button
+        color: 80    # very light grey
+      - id: title
+        color: 244   # light blue
+      - id: text
+        color: 239   # grey
+        color2: 244  # light blue
+  - type: articleTextImage
+    elements:
+      - id: button
+        color: 83    # light grey
+      - id: title
+        color: 128   # light blue
+      - id: text
+        color: 191   # grey
+        color2: 128  # light blue
+  - type: articleArmor
+    elements:
+      - id: button
+        color: 15    # orange
+      - id: text
+        color: 191   # grey
+        color2: 128  # light blue
+      - id: list
+        color: 191   # grey
+        color2: 128  # light blue
   - type: articleItem
     elements:
       - id: button
@@ -155,7 +183,9 @@ interfaces:
       - id: ammoColorDT10 #Less lethal
         color: 196   # Purple
       - id: ammoColorDT11 #Breaching
-        color: 51   # Green
+        color: 51    # Green
+      - id: ammoColorDT12 #Flash
+        color: 143   # Yellow
 
 customPalettes:
   - type: PAL_UFOPAEDIA_CUSTOM

@@ -659,6 +659,10 @@ items:
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
+  - type: STR_FN_MAG #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   
   - type: STR_RPG #ignoreDuplicate
     tags:
