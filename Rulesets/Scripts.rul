@@ -663,6 +663,16 @@ items:
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+  - type: STR_AUG_HBAR #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
+     FoldStock: 1
+  - type: STR_MG36 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
+     FoldStock: 1
   
   - type: STR_RPG #ignoreDuplicate
     tags:

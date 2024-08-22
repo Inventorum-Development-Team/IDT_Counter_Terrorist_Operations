@@ -1138,6 +1138,18 @@ ufopaedia:
     section: STR_LMGS
     listOrder: 708
 
+  - id: STR_AUG_HBAR
+    type_id: 4
+    text: STR_AUG_HBAR_UFOPAEDIA
+    section: STR_LMGS
+    listOrder: 709
+
+  - id: STR_MG36
+    type_id: 4
+    text: STR_AUG_HBAR_UFOPAEDIA
+    section: STR_LMGS
+    listOrder: 710
+
   #Heavy weapons
   - id: STR_MGL
     type_id: 4
@@ -2015,6 +2027,8 @@ extraStrings:
       STR_PECHENEG_UFOPAEDIA: "A russian general-purpose machine gun that has a heavy non-removable barrel that is forced-air-cooled instead of relying on the barrel to be switched during heavy use. The PHP Pecheneg has seen extensive use by Spetsnaz units. Its name is derived from the pecheneg people, a tribe that lived in the steppes of Russia and Ukraine."
       STR_NEGEV_UFOPAEDIA: "The IWI Negev is an israeli light machine gun adopted by the IDF. It was designed to be reliable in adverse conditions."
       STR_FN_MAG_UFOPAEDIA: "WIP, stats are not final"
+      STR_AUG_HBAR_UFOPAEDIA: "WIP, stats are not final"
+      STR_MG36_UFOPAEDIA: "WIP, stats are not final"
 
       STR_M320_UFOPAEDIA: "The M320 was designed as a replacement for the M203 underbarrel grenade launcher. Unlike its predecessor, the M320 can be used stand-alone weapon as well as being mounted on a rifle. It can fire a multitude of 40mm grenades, from frag grenades to non-lethal sponge grenades."
       STR_GM_94_UFOPAEDIA: "A russian pump-action grenade launcher designed for urban fighting and room-to-room combat. It has a simple design that allows it to operate in adverse environments and even after being submerged in water."

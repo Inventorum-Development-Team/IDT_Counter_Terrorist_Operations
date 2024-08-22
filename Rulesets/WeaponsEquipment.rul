@@ -6614,7 +6614,8 @@ items:
 
   - type: STR_FN_MAG
     categories: [STR_FIREARMS,STR_LMGS]
-    #requiresBuy:
+    requiresBuy:
+      - STR_UNOBTAINABLE
     size: 1
     weight: 68
     battleType: 1
@@ -6684,7 +6685,6 @@ items:
     requiresBuy:
       - STR_RPK_74_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
-    #    requiresBuy:
     size: 1
     weight: 38
     # battleType: 1
@@ -6833,6 +6833,76 @@ items:
          tuLoad: 30
          tuUnload: 15
     listOrder: 95000
+  
+  - type: STR_AUG_HBAR
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    size: 1
+    weight: 39
+    # battleType: 1
+    bigSprite: 4928
+    floorSprite: 4928 
+    handSprite: 4928
+    reloadSound: 125
+    fireSound: 212
+    #costBuy: 49000
+    #costSell: 24500
+    accuracySnap: 65
+    accuracyAuto: 35
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 55
+    tuAuto: 75
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 35
+        tuUnload: 15
+    listOrder: 125030
+
+  - type: STR_MG36
+    requiresBuy:
+      - STR_UNOBTAINABLE
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    size: 1
+    weight: 39
+    # battleType: 1
+    bigSprite: 4984 
+    floorSprite: 4984 
+    handSprite: 4984 
+    reloadSound: 136
+    fireSound: 137
+    #costBuy: 49000
+    #costSell: 24500
+    accuracySnap: 65
+    accuracyAuto: 35
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 55
+    tuAuto: 75
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X100 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 125040
 
 ##### EXPLOSIVES #####
 
@@ -7939,6 +8009,19 @@ extraSprites:
       4896: Resources/BallisticWeapons/Pistols/BigBrowningHP.png
       4904: Resources/BallisticWeapons/LMGs/BigFNMAGnomag.png
       4912: Resources/BallisticWeapons/LMGs/BigFNMAG.png
+      4920: Resources/BallisticWeapons/LMGs/BigAugHBARnomag.png
+      4928: Resources/BallisticWeapons/LMGs/BigAugHBAR.png
+      #4936:
+      #4944:
+      4952: Resources/BallisticWeapons/LMGs/BigAugHBARFoldednomag.png
+      4960: Resources/BallisticWeapons/LMGs/BigAugHBARFolded.png
+      4968: Resources/BallisticWeapons/LMGs/BigMG36nomag.png
+      4976: Resources/BallisticWeapons/LMGs/BigMG3630.png
+      4984: Resources/BallisticWeapons/LMGs/BigMG36.png
+      #4992:
+      5000: Resources/BallisticWeapons/LMGs/BigMG36Foldednomag.png
+      5008: Resources/BallisticWeapons/LMGs/BigMG3630Folded.png
+      5016: Resources/BallisticWeapons/LMGs/BigMG36Folded.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8417,6 +8500,19 @@ extraSprites:
       4896: Resources/BallisticWeapons/Pistols/FloorBrowningHP.png
       4904: Resources/BallisticWeapons/LMGs/FloorFNMAG.png
       4912: Resources/BallisticWeapons/LMGs/FloorFNMAG.png
+      4920: Resources/BallisticWeapons/LMGs/FloorAugHBAR.png
+      4928: Resources/BallisticWeapons/LMGs/FloorAugHBAR.png
+      #4936:
+      #4944:
+      4952: Resources/BallisticWeapons/LMGs/FloorAugHBAR.png
+      4960: Resources/BallisticWeapons/LMGs/FloorAugHBAR.png
+      4968: Resources/BallisticWeapons/LMGs/FloorMG36.png
+      4976: Resources/BallisticWeapons/LMGs/FloorMG36.png
+      4984: Resources/BallisticWeapons/LMGs/FloorMG36.png
+      #4992:
+      5000: Resources/BallisticWeapons/LMGs/FloorMG36.png
+      5008: Resources/BallisticWeapons/LMGs/FloorMG36.png
+      5016: Resources/BallisticWeapons/LMGs/FloorMG36.png
 
 ####################HAND SPRITES##############################################################################
   - type: HANDOB.PCK
@@ -8899,6 +8995,19 @@ extraSprites:
       4896: Resources/BallisticWeapons/Pistols/HandBrowningHP.png
       4904: Resources/BallisticWeapons/LMGs/HandFNMAG.png
       4912: Resources/BallisticWeapons/LMGs/HandFNMAG.png
+      4920: Resources/BallisticWeapons/LMGs/HandAugHBAR.png
+      4928: Resources/BallisticWeapons/LMGs/HandAugHBAR.png
+      #4936:
+      #4944:
+      4952: Resources/BallisticWeapons/LMGs/HandAugHBAR.png
+      4960: Resources/BallisticWeapons/LMGs/HandAugHBAR.png
+      4968: Resources/BallisticWeapons/LMGs/HandMG36.png
+      4976: Resources/BallisticWeapons/LMGs/HandMG36.png
+      4984: Resources/BallisticWeapons/LMGs/HandMG36.png
+      #4992:
+      5000: Resources/BallisticWeapons/LMGs/HandMG36.png
+      5008: Resources/BallisticWeapons/LMGs/HandMG36.png
+      5016: Resources/BallisticWeapons/LMGs/HandMG36.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -9141,6 +9250,8 @@ extraStrings:
       STR_NEGEV: "IWI Negev"
       STR_CBJMS_SAW: "CBJ-MS (SAW)"
       STR_FN_MAG: "FN MAG"
+      STR_AUG_HBAR: "AUG HBAR"
+      STR_MG36: "MG36"
 
       STR_M320: "M320"
       STR_GM_94: "GM-94"
