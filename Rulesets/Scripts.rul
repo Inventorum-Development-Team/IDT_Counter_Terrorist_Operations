@@ -678,6 +678,11 @@ items:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
      FoldStock: 1
+  - type: STR_ULTIMAX_100 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 2
+     FoldStock: 0
   
   - type: STR_RPG #ignoreDuplicate
     tags:

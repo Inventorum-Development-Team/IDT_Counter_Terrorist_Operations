@@ -1156,6 +1156,12 @@ ufopaedia:
     section: STR_LMGS
     listOrder: 711
 
+  - id: STR_ULTIMAX_100
+    type_id: 4
+    text: STR_ULTIMAX_100_UFOPAEDIA
+    section: STR_LMGS
+    listOrder: 712
+
   #Heavy weapons
   - id: STR_MGL
     type_id: 4
@@ -1760,7 +1766,7 @@ ufopaedia:
     section: STR_EQUIPMENT
     listOrder: 1115
 
-  - type: STR_FIELD_DRESSING
+  - id: STR_FIELD_DRESSING
     type_id: 4
     text: STR_FIELD_DRESSING_UFOPAEDIA
     section: STR_EQUIPMENT
@@ -2036,6 +2042,7 @@ extraStrings:
       STR_AUG_HBAR_UFOPAEDIA: "WIP, stats are not final"
       STR_MG36_UFOPAEDIA: "WIP, stats are not final"
       STR_C7A1_LSW_UFOPAEDIA: "WIP, stats are not final"
+      STR_ULTIMAX_100_UFOPAEDIA: "WIP, stats are not final"
 
       STR_M320_UFOPAEDIA: "The M320 was designed as a replacement for the M203 underbarrel grenade launcher. Unlike its predecessor, the M320 can be used stand-alone weapon as well as being mounted on a rifle. It can fire a multitude of 40mm grenades, from frag grenades to non-lethal sponge grenades."
       STR_GM_94_UFOPAEDIA: "A russian pump-action grenade launcher designed for urban fighting and room-to-room combat. It has a simple design that allows it to operate in adverse environments and even after being submerged in water."
