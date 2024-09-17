@@ -6639,6 +6639,7 @@ items:
     tuAuto: 65
     invWidth: 2
     invHeight: 3
+    listOrder: 155030
     ammo:
       0:
         compatibleAmmo: [STR_NATO_7_62_X50,STR_NATO_7_62_X100]
@@ -6973,6 +6974,40 @@ items:
         tuLoad: 30
         tuUnload: 15
     listOrder: 125060
+
+  - type: STR_M60E6
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    #    requiresBuy:
+    size: 1
+    weight: 65
+    # battleType: 1
+    bigSprite: 5144 #2248 nomag
+    floorSprite: 5144 #2248 nomag
+    handSprite: 5144 #2248 nomag
+    reloadSound: 155
+    fireSound: 156
+    costSell: 20000
+    accuracySnap: 45
+    accuracyAuto: 20
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 28
+    autoRange: 14
+    kneelBonus: 145
+    refNode: *STR_LMG
+    tuSnap: 50
+    tuAuto: 75
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X50, STR_NATO_7_62_X100 ]
+        tuLoad: 45
+        tuUnload: 22
+    listOrder: 155020
 
 ##### EXPLOSIVES #####
 
@@ -8106,6 +8141,13 @@ extraSprites:
       #5112: Resources/BallisticWeapons/LMGs/BigUltimaxnomag.png
       #5120: Resources/BallisticWeapons/LMGs/BigUltimaxnomag.png
       #5128: Resources/BallisticWeapons/LMGs/BigUltimaxnomag.png
+      5136: Resources/BallisticWeapons/LMGs/BigM60E6nomag.png
+      5144: Resources/BallisticWeapons/LMGs/BigM60E6.png
+      #5152: Resources/BallisticWeapons/LMGs/BigM60E6.png
+      #5160:
+      #5168: Resources/BallisticWeapons/LMGs/BigM60E6.png
+      #5176: Resources/BallisticWeapons/LMGs/BigM60E6.png
+      #5184: Resources/BallisticWeapons/LMGs/BigM60E6.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8611,6 +8653,13 @@ extraSprites:
       #5112: Resources/BallisticWeapons/LMGs/FloorUltimax.png
       #5120: Resources/BallisticWeapons/LMGs/FloorUltimax.png
       #5128: Resources/BallisticWeapons/LMGs/FloorUltimax.png
+      5136: Resources/BallisticWeapons/LMGs/FloorM60E6.png
+      5144: Resources/BallisticWeapons/LMGs/FloorM60E6.png
+      #5152: Resources/BallisticWeapons/LMGs/FloorM60E6.png
+      #5160:
+      #5168: Resources/BallisticWeapons/LMGs/FloorM60E6.png
+      #5176: Resources/BallisticWeapons/LMGs/FloorM60E6.png
+      #5184: Resources/BallisticWeapons/LMGs/FloorM60E6.png
 
 ####################HAND SPRITES##############################################################################
   - type: HANDOB.PCK
@@ -9120,6 +9169,13 @@ extraSprites:
       #5112: Resources/BallisticWeapons/LMGs/HandUltimax.png
       #5120: Resources/BallisticWeapons/LMGs/HandUltimax.png
       #5128: Resources/BallisticWeapons/LMGs/HandUltimax.png
+      5136: Resources/BallisticWeapons/LMGs/HandM60E6.png
+      5144: Resources/BallisticWeapons/LMGs/HandM60E6.png
+      #5152: Resources/BallisticWeapons/LMGs/HandM60E6.png
+      #5160:
+      #5168: Resources/BallisticWeapons/LMGs/HandM60E6.png
+      #5176: Resources/BallisticWeapons/LMGs/HandM60E6.png
+      #5184: Resources/BallisticWeapons/LMGs/HandM60E6.png
 
   # - type: SMOKE.PCK
   #   height: 80
@@ -9366,6 +9422,7 @@ extraStrings:
       STR_MG36: "MG36"
       STR_C7A1_LSW: "C7A1 LSW"
       STR_ULTIMAX_100: "Ultimax 100"
+      STR_M60E6: "M60E6"
 
       STR_M320: "M320"
       STR_GM_94: "GM-94"

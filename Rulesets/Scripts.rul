@@ -683,6 +683,11 @@ items:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
      FoldStock: 0
+  - type: STR_M60E6 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
+     FoldStock: 0
   
   - type: STR_RPG #ignoreDuplicate
     tags:
@@ -1103,10 +1108,11 @@ extended:
 
           BattleItem.getTag item x Tag.AmmoReSprite; #AmmoReSprite script behavior
 
-          if eq x 1; #Default behavior, sprite ID on weapon is empty w/ no mag
+          if eq x 1; #Default behavior, sprite ID on weapon is empty w/ no mag by default.
+                     #if you want a diffrent sprite ID, change it and combine with UfopaediaAmmono
 
             item.getAmmoItem ammoptr;
-            BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+            BattleItem.getTag ammoptr ammono Tag.AmmoNo;
             BattleItem.getTag item y Tag.FoldStock;
             BattleItem.getTag item UfopaediaAmmono Tag.UfopaediaAmmoNo;
 
@@ -1201,7 +1207,7 @@ extended:
           end;
 
 
-          if eq x 3; #
+          if eq x 3; #Sprite ID on weapon is first loaded mag
 
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
