@@ -753,8 +753,24 @@ extended:
       Allies: int
       Turn: int
   scripts:
-     damageUnit: #Balistic knife cant attack with no blade, If anyone has any idea on how to make this a local script please let me know -wethan2
-        - offset: 1
+     damageUnit: 
+        - offset: 5
+          code: |
+           var int start_frame;
+           var int end_frame;
+           battle_game.getAnimFrame start_frame;
+           set end_frame start_frame;
+           add end_frame 3;
+
+           if gt to_health 0;
+             BattleUnit.setTag unit Tag.UNIT_RECOLOR_START_FRAME start_frame;
+             BattleUnit.setTag unit Tag.UNIT_RECOLOR_FRAME_LENGTH end_frame;
+             BattleUnit.setTag unit Tag.UNIT_RECOLOR_BRIGHTNESS to_health;
+           end;
+
+           return;
+
+        - offset: 10 #Balistic knife cant attack with no blade, If anyone has any idea on how to make this a local script please let me know -wethan2
           code: |
            var ptr BattleItem weapon;
            var int tagres;
@@ -1404,6 +1420,45 @@ extended:
              end;
 
            end;
+          end;
+
+          return new_pixel;
+
+       - offset: 9 #hit flash
+         code: |
+          var int temp;
+          var int frame;
+          var int frameLength;
+          var int color;
+          var int damage;
+          var int newShade;
+
+          #get/set data
+          unit.getTag frame Tag.UNIT_RECOLOR_START_FRAME;
+          unit.getTag frameLength Tag.UNIT_RECOLOR_FRAME_LENGTH;
+          unit.getTag damage Tag.UNIT_RECOLOR_BRIGHTNESS;
+          set temp anim_frame;
+
+          if lt temp frameLength; #the unit is marked to have a hitflash
+            #set the pixels color to red
+            set color COLOR_X1_RED;
+            set_color new_pixel color;
+
+            #gets the current pixels shade, makes it darker every frame
+            get_shade newShade new_pixel;
+            sub temp frame; 
+            #mul temp 10;
+            add newShade temp;
+            
+            #Brightens the pixels shade for every 5 damage over 30
+            sub damage 30;
+            div damage 5;
+            sub newShade damage;
+
+            #make sure it dosent do any weird looking wrap around
+            limit newShade 0 15;
+
+            set_shade new_pixel newShade;
           end;
 
           return new_pixel;
