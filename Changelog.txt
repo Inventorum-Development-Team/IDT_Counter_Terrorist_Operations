@@ -4,11 +4,13 @@ Changes made:
 * APAV40 research added for famas
 * Implemented more weapons into campaign: Stechkin, Uzi, Dragunov, OSV-96, M24, and Negev
 * Removed Aim to Head tracks
+* Breaching Sim battle map
 * Uniform w/ NVG & Adv. NVG
 * manufacturing option to swap from NV to Adv. NV
 * Flashbang ammo for KS-23
 * Sorted item IDs, should be much easier to find things.
 * Visual cue for flashbanged units & partially flashbanged units
+* Units now flash red when hit
 * new weapons, which are implemented in the campaign
 * Flashbangs can now stack duration
 * Guns are now loaded in ufopaedia article pictures
@@ -28,6 +30,11 @@ Changes made:
         - M3 Grease gun
 > LMGS
         - FN MAG
+        - AUG HBAR
+        - MG36
+        - C7A1 LSW
+        - Ultimax 100
+        - M60E6
 > Rifles
 	- AKs-74u + SOPMOD
         - AK-74 w/ GP-25

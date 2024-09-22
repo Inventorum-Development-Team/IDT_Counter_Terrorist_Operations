@@ -6590,9 +6590,9 @@ items:
     reloadSound: 160
     fireSound: 161
     #costBuy: 50000
-    costSell: 25000
-    accuracySnap: 50
-    accuracyAuto: 25
+    costSell: 23000
+    accuracySnap: 55
+    accuracyAuto: 32
     blockBothHands: true
     twoHanded: true
     maxRange: 200
@@ -6601,8 +6601,8 @@ items:
     autoRange: 15
     kneelBonus: 145
     refNode: *STR_LMG
-    tuSnap: 40
-    tuAuto: 65
+    tuSnap: 48
+    tuAuto: 70
     invWidth: 2
     invHeight: 3
     ammo:
@@ -6613,30 +6613,28 @@ items:
     listOrder: 125010
 
   - type: STR_FN_MAG
-    categories: [STR_FIREARMS,STR_LMGS]
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    categories: [STR_FIREARMS,STR_LMGS,STR_SEIZED]
     size: 1
-    weight: 68
+    weight: 78
     battleType: 1
     bigSprite: 4912 
     floorSprite: 4912 
     handSprite: 4912
     fireSound: 4
     #costBuy: 48000
-    costSell: 24000
-    accuracySnap: 45
-    accuracyAuto: 25
+    costSell: 27000
+    accuracySnap: 60
+    accuracyAuto: 40
     blockBothHands: true
     twoHanded: true
     maxRange: 200
     minRange: 5
     snapRange: 35
-    autoRange: 18
+    autoRange: 20
     kneelBonus: 145
     refNode: *STR_LMG
-    tuSnap: 45
-    tuAuto: 65
+    tuSnap: 70
+    tuAuto: 80
     invWidth: 2
     invHeight: 3
     listOrder: 155030
@@ -6757,27 +6755,27 @@ items:
     #requiresBuy:
     categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
     size: 1
-    weight: 48
+    weight: 49
     # battleType: 1
     bigSprite: 3864 #3848 nomag
     floorSprite: 3864 #3848 nomag
     handSprite: 3864 #3848 nomag
     reloadSound: 146
     fireSound: 192
-    #costBuy: 54000
-    costSell: 27000
-    accuracySnap: 60
-    accuracyAuto: 35
+    costBuy: 55000
+    costSell: 2700
+    accuracySnap: 65
+    accuracyAuto: 28
     blockBothHands: true
     twoHanded: true
     maxRange: 200
     minRange: 5
-    snapRange: 40
-    autoRange: 20
+    snapRange: 30
+    autoRange: 15
     kneelBonus: 145
     refNode: *STR_LMG
-    tuSnap: 45
-    tuAuto: 60
+    tuSnap: 40
+    tuAuto: 70
     invWidth: 2
     invHeight: 3
     ammo:
@@ -6836,43 +6834,39 @@ items:
     listOrder: 95000
   
   - type: STR_AUG_HBAR
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_LMGS ]
     size: 1
-    weight: 39
+    weight: 36
     # battleType: 1
     bigSprite: 4928
     floorSprite: 4928 
     handSprite: 4928
-    reloadSound: 125
-    fireSound: 212
-    #costBuy: 49000
-    #costSell: 24500
+    reloadSound: 125 #!needs new sound
+    fireSound: 212 #!Needs new sound
+    costBuy: 63000
+    costSell: 31500
     accuracySnap: 65
-    accuracyAuto: 35
+    accuracyAuto: 40
     blockBothHands: true
     twoHanded: true
     maxRange: 200
     minRange: 5
-    snapRange: 30
-    autoRange: 15
+    snapRange: 40
+    autoRange: 20
     kneelBonus: 145
     refNode: *STR_LMG
-    tuSnap: 55
-    tuAuto: 75
+    tuSnap: 60
+    tuAuto: 70
     invWidth: 1
     invHeight: 3
     ammo:
       0:
         compatibleAmmo: [ STR_5_56_X30 ]
         tuLoad: 35
-        tuUnload: 15
+        tuUnload: 17
     listOrder: 125030
 
   - type: STR_MG36
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_LMGS ]
     size: 1
     weight: 39
@@ -6882,10 +6876,10 @@ items:
     handSprite: 4984 
     reloadSound: 136
     fireSound: 137
-    #costBuy: 49000
-    #costSell: 24500
-    accuracySnap: 65
-    accuracyAuto: 35
+    costBuy: 80000
+    costSell: 40000
+    accuracySnap: 40
+    accuracyAuto: 20
     blockBothHands: true
     twoHanded: true
     maxRange: 200
@@ -6894,8 +6888,8 @@ items:
     autoRange: 15
     kneelBonus: 145
     refNode: *STR_LMG
-    tuSnap: 55
-    tuAuto: 75
+    tuSnap: 35
+    tuAuto: 60
     invWidth: 1
     invHeight: 3
     ammo:
@@ -6906,11 +6900,9 @@ items:
     listOrder: 125040
 
   - type: STR_C7A1_LSW
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [ STR_FIREARMS, STR_LMGS ]
+    categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
     size: 1
-    weight: 39
+    weight: 30
     # battleType: 1
     bigSprite: 5040
     floorSprite: 5040 
@@ -6918,19 +6910,19 @@ items:
     reloadSound: 113
     fireSound: 114
     #costBuy: 49000
-    #costSell: 24500
-    accuracySnap: 65
-    accuracyAuto: 35
+    costSell: 20000
+    accuracySnap: 45
+    accuracyAuto: 25
     blockBothHands: true
     twoHanded: true
     maxRange: 200
     minRange: 5
     snapRange: 30
-    autoRange: 15
+    autoRange: 17
     kneelBonus: 145
     refNode: *STR_LMG
-    tuSnap: 55
-    tuAuto: 75
+    tuSnap: 45
+    tuAuto: 65
     invWidth: 1
     invHeight: 3
     ammo:
@@ -6941,31 +6933,29 @@ items:
     listOrder: 125050
 
   - type: STR_ULTIMAX_100
-    requiresBuy:
-      - STR_UNOBTAINABLE
     categories: [ STR_FIREARMS, STR_LMGS ]
     size: 1
-    weight: 39
+    weight: 48
     # battleType: 1
     bigSprite: 5096
     floorSprite: 5096 
     handSprite: 5096 
     reloadSound: 113
     fireSound: 114
-    #costBuy: 49000
-    #costSell: 24500
-    accuracySnap: 65
+    costBuy: 57000
+    costSell: 28500
+    accuracySnap: 63
     accuracyAuto: 35
     blockBothHands: true
     twoHanded: true
     maxRange: 200
     minRange: 5
     snapRange: 30
-    autoRange: 15
+    autoRange: 20
     kneelBonus: 145
     refNode: *STR_LMG
     tuSnap: 55
-    tuAuto: 75
+    tuAuto: 60
     invWidth: 2
     invHeight: 3
     ammo:
@@ -6977,24 +6967,25 @@ items:
 
   - type: STR_M60E6
     categories: [ STR_FIREARMS, STR_LMGS ]
-    #    requiresBuy:
+    #requiresBuy:
     size: 1
-    weight: 65
+    weight: 47
     # battleType: 1
     bigSprite: 5144 #2248 nomag
     floorSprite: 5144 #2248 nomag
     handSprite: 5144 #2248 nomag
     reloadSound: 155
     fireSound: 156
-    costSell: 20000
-    accuracySnap: 45
-    accuracyAuto: 20
+    costBuy: 60000
+    costSell: 30000
+    accuracySnap: 50
+    accuracyAuto: 23
     blockBothHands: true
     twoHanded: true
     maxRange: 200
     minRange: 5
-    snapRange: 28
-    autoRange: 14
+    snapRange: 30
+    autoRange: 15
     kneelBonus: 145
     refNode: *STR_LMG
     tuSnap: 50

@@ -1436,7 +1436,7 @@ alienDeployments:
     width: 30
     length: 30
     height: 10
-    civilians: 3
+    civilians: 0
     terrains:
       - CTO_BREACH_TEST
     despawnPenalty: 300
@@ -1526,7 +1526,7 @@ extraStrings:
       STR_OFFICE_RAID: "Office Raid"
       STR_SKYSCRAPER_RAID: "Skyscraper Raid"
 
-      BREACH_TEST: "Breaching Test"
+      BREACH_TEST: "Breaching Sim"
 
       MAP_OFFICE: "Office"
       CTO_OFFICE: "Corporate Office"
@@ -1545,7 +1545,7 @@ extraStrings:
       STR_OFFICE_RAID_BRIEFING: "After Local police were fired upon by private security when they were trying to seize documents for evidence we've been called in to raid the premises. Be warned, the private security forces are well equipped and trained, they should not be underestimated. Excessive firepower should be avoided as there is both civilians still located in the offices and vital evidence that must not be destroyed."
       STR_SKYSCRAPER_RAID_BRIEFING: "This is it, the headquarters of the shell company behind the funding of the terrorist cells. The skyscraper is filled to the brim with security forces and taking it will be a significant effort. Failure is not an option, the evidence required to find and convict those behind the attacks is in the building and we cannot afford to let it be destroyed."
       
-      STR_BREACH_TEST_BRIEFING: "Small test map, Enemies are barricaded in a 2 story house. Breaching tools recommended."
+      STR_BREACH_TEST_BRIEFING: "A small, 2 story rural house, Enemies are mosty barricaded inside. Breaching tools recommended."
 
 
     

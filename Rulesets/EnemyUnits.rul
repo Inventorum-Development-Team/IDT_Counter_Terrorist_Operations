@@ -1421,8 +1421,8 @@ units:
              - STR_FN_MINIMI
              - STR_5_56_X100
            - 
-             - STR_FN_MINIMI
-             - STR_5_56_X100
+             - STR_FN_MAG
+             - STR_NATO_7_62_X50
            #Rare
            - 
              - STR_AK_74
@@ -1781,8 +1781,11 @@ units:
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_M60
-             - STR_NATO_7_62_X50
+             - STR_C7A1_LSW
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
            - 
              - STR_M60
              - STR_NATO_7_62_X100
@@ -2345,7 +2348,7 @@ units:
           #Common
           - 
              - STR_GLOCK_18
-             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X30
              - STR_9MM_PARABELLUM_X30
           - 
              - STR_HK417
@@ -2412,13 +2415,13 @@ units:
            - 
              - STR_GLOCK_18
              - STR_RIOT_SHIELD
-             - STR_9MM_PARABELLUM_X40
-             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
            - 
              - STR_GLOCK_18
              - STR_RIOT_SHIELD
-             - STR_9MM_PARABELLUM_X40
-             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
            #Rare
            - 
              - STR_TASER
@@ -2430,13 +2433,13 @@ units:
            - 
              - STR_GLOCK_18_STOCK
              - STR_RIOT_SHIELD
-             - STR_9MM_PARABELLUM_X40
-             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
            - 
              - STR_GLOCK_18_STOCK
              - STR_RIOT_SHIELD
-             - STR_9MM_PARABELLUM_X40
-             - STR_9MM_PARABELLUM_X40
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
 
   - type: STR_PR_RIFLEMAN_WEST_EU
     refNode: *STR_PR_RIFLEMAN
@@ -2581,7 +2584,7 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_NEGEV
+             - STR_FN_MINIMI
              - STR_5_56_X100
            - 
              - STR_MK_48
@@ -2591,11 +2594,14 @@ units:
              - STR_NATO_7_62_X100
            #Uncommon
            - 
-             - STR_M60
-             - STR_NATO_7_62_X100
+             - STR_FN_MAG
+             - STR_NATO_7_62_X50
            - 
-             - STR_NEGEV
-             - STR_5_56_X100
+             - STR_AUG_HBAR
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
            - 
              - STR_NEGEV
              - STR_5_56_X100
@@ -2605,12 +2611,17 @@ units:
              - STR_65CBJ_X100
              - STR_65CBJ_X30
            - 
-             - STR_CBJMS_SAW
-             - STR_65CBJ_X100
-             - STR_65CBJ_X30
+             - STR_MG36
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
            - 
-             - STR_MK_48
-             - STR_NATO_7_62_X100
+             - STR_MG36
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
 
   - type: STR_PR_SNIPER_WEST_EU
     refNode: *STR_PR_SNIPER
@@ -2907,25 +2918,26 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_M249
-             - STR_5_56_X100
+             - STR_C7A1_LSW
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_FN_MINIMI
-             - STR_5_56_X100
-           - 
              - STR_M249
              - STR_5_56_X100
-             - STR_5_56_X30
+           - 
+             - STR_M60E6
+             - STR_NATO_7_62_X100
            #Uncommon
            - 
              - STR_M60
              - STR_NATO_7_62_X100
            - 
-             - STR_M60
-             - STR_NATO_7_62_X100
+             - STR_M249
+             - STR_5_56_X100
            - 
-             - STR_FN_MINIMI
+             - STR_M249
              - STR_5_56_X100
            #Rare
            - 
@@ -2933,12 +2945,14 @@ units:
              - STR_5_56_X100
              - STR_5_56_X30
            - 
-             - STR_M249
-             - STR_5_56_X100
-             - STR_5_56_X30
+             - STR_M60E6
+             - STR_NATO_7_62_X100
            - 
-             - STR_FN_MINIMI
-             - STR_5_56_X100
+             - STR_ULTIMAX_100
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
+             - STR_5_56_X30
 
   - type: STR_PR_SNIPER_USA
     refNode: *STR_PR_SNIPER
