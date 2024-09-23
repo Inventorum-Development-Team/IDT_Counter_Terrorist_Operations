@@ -1,176 +1,178 @@
 ﻿extraSounds:
   - type: BATTLE.CAT
     files:
-      100: Resources/BallisticWeapons/Sounds/44magnumreload.ogg
-      101: Resources/BallisticWeapons/Sounds/44magnumshoot.ogg
-      102: Resources/BallisticWeapons/Sounds/aa12reload.ogg
-      103: Resources/BallisticWeapons/Sounds/aa12shoot.ogg
-      104: Resources/BallisticWeapons/Sounds/acrreload.ogg
-      105: Resources/BallisticWeapons/Sounds/acrshoot.ogg
-      106: Resources/BallisticWeapons/Sounds/acrshoots.ogg
-      107: Resources/BallisticWeapons/Sounds/as50reload.ogg
-      108: Resources/BallisticWeapons/Sounds/as50shoot.ogg
-      109: Resources/BallisticWeapons/Sounds/as50shoots.ogg
-      110: Resources/BallisticWeapons/Sounds/barretreload.ogg
-      111: Resources/BallisticWeapons/Sounds/barretshoot.ogg
-      112: Resources/BallisticWeapons/Sounds/barretshoots.ogg
-      113: Resources/BallisticWeapons/Sounds/cm901reload.ogg
-      114: Resources/BallisticWeapons/Sounds/cm901shoot.ogg
-      115: Resources/BallisticWeapons/Sounds/cm901shoots.ogg
-      116: Resources/BallisticWeapons/Sounds/deserteaglereload.ogg
-      117: Resources/BallisticWeapons/Sounds/deserteagleshoot.ogg
-      118: Resources/BallisticWeapons/Sounds/dragunovreload.ogg
-      119: Resources/BallisticWeapons/Sounds/dragunovshoot.ogg
-      120: Resources/BallisticWeapons/Sounds/dragunovshoots.ogg
-      121: Resources/BallisticWeapons/Sounds/fadreload.ogg
-      122: Resources/BallisticWeapons/Sounds/fadshoot.ogg
-      123: Resources/BallisticWeapons/Sounds/falreload.ogg
-      124: Resources/BallisticWeapons/Sounds/falshoot.ogg
-      125: Resources/BallisticWeapons/Sounds/famasreload.ogg
-      126: Resources/BallisticWeapons/Sounds/famasshoot.ogg
-      127: Resources/BallisticWeapons/Sounds/fivesevenreload.ogg
-      128: Resources/BallisticWeapons/Sounds/fivesevenshoot.ogg
-      129: Resources/BallisticWeapons/Sounds/fivesevenshoots.ogg
-      130: Resources/BallisticWeapons/Sounds/fmg9reload.ogg
-      131: Resources/BallisticWeapons/Sounds/fmg9shoot.ogg
-      132: Resources/BallisticWeapons/Sounds/fmg9shoots.ogg
-      133: Resources/BallisticWeapons/Sounds/g18reload.ogg
-      134: Resources/BallisticWeapons/Sounds/g18shoot.ogg
-      135: Resources/BallisticWeapons/Sounds/g18shoots.ogg
-      136: Resources/BallisticWeapons/Sounds/g36creload.ogg
-      137: Resources/BallisticWeapons/Sounds/g36cshoot.ogg
-      138: Resources/BallisticWeapons/Sounds/g36cshoots.ogg
-      139: Resources/BallisticWeapons/Sounds/hk416reload.ogg
-      140: Resources/BallisticWeapons/Sounds/hk416shoot.ogg
-      141: Resources/BallisticWeapons/Sounds/javelinreload.ogg
-      142: Resources/BallisticWeapons/Sounds/javelinshoot.ogg
-      143: Resources/BallisticWeapons/Sounds/ksg12reload.ogg
-      144: Resources/BallisticWeapons/Sounds/ksg12shoot.ogg
-      145: Resources/BallisticWeapons/Sounds/ksg12shoots.ogg
-      146: Resources/BallisticWeapons/Sounds/l86lswreload.ogg
-      147: Resources/BallisticWeapons/Sounds/l86lswshoot.ogg
-      148: Resources/BallisticWeapons/Sounds/l86lswshoots.ogg
-      149: Resources/BallisticWeapons/Sounds/l118areload.ogg
-      150: Resources/BallisticWeapons/Sounds/l118ashoot.ogg
-      151: Resources/BallisticWeapons/Sounds/l118ashoots.ogg
-      152: Resources/BallisticWeapons/Sounds/m4a1reload.ogg
-      153: Resources/BallisticWeapons/Sounds/m4a1shoot.ogg
-      154: Resources/BallisticWeapons/Sounds/m4a1shoots.ogg
-      155: Resources/BallisticWeapons/Sounds/m60e4reload.ogg
-      156: Resources/BallisticWeapons/Sounds/m60e4shoot.ogg
-      157: Resources/BallisticWeapons/Sounds/m60e4shoots.ogg
-      158: Resources/BallisticWeapons/Sounds/m320glmreload.ogg
-      159: Resources/BallisticWeapons/Sounds/m320glmshoot.ogg
-      160: Resources/BallisticWeapons/Sounds/mg36reload.ogg
-      161: Resources/BallisticWeapons/Sounds/mg36shoot.ogg
-      162: Resources/BallisticWeapons/Sounds/mg36shoots.ogg
-      163: Resources/BallisticWeapons/Sounds/mk14reload.ogg
-      164: Resources/BallisticWeapons/Sounds/mk14shoot.ogg
-      165: Resources/BallisticWeapons/Sounds/mk14shoots.ogg
-      166: Resources/BallisticWeapons/Sounds/mk46reload.ogg
-      167: Resources/BallisticWeapons/Sounds/mk46shoot.ogg
-      168: Resources/BallisticWeapons/Sounds/mk46shoots.ogg
-      169: Resources/BallisticWeapons/Sounds/model1887reload.ogg
-      170: Resources/BallisticWeapons/Sounds/model1887shoot.ogg
-      171: Resources/BallisticWeapons/Sounds/mp5reload.ogg
-      172: Resources/BallisticWeapons/Sounds/mp5shoot.ogg
-      173: Resources/BallisticWeapons/Sounds/mp5shoots.ogg
-      174: Resources/BallisticWeapons/Sounds/mp7reload.ogg
-      175: Resources/BallisticWeapons/Sounds/mp7shoot.ogg
-      176: Resources/BallisticWeapons/Sounds/mp7shoots.ogg
-      177: Resources/BallisticWeapons/Sounds/mp9reload.ogg
-      178: Resources/BallisticWeapons/Sounds/mp9shoot.ogg
-      179: Resources/BallisticWeapons/Sounds/mp9shoots.ogg
-      180: Resources/BallisticWeapons/Sounds/mp412reload.ogg
-      181: Resources/BallisticWeapons/Sounds/mp412shoot.ogg
-      182: Resources/BallisticWeapons/Sounds/msrreload.ogg
-      183: Resources/BallisticWeapons/Sounds/msrshoot.ogg
-      184: Resources/BallisticWeapons/Sounds/msrshoots.ogg
-      185: Resources/BallisticWeapons/Sounds/p90reload.ogg
-      186: Resources/BallisticWeapons/Sounds/p90shoot.ogg
-      187: Resources/BallisticWeapons/Sounds/p90shoots.ogg
-      188: Resources/BallisticWeapons/Sounds/p99reload.ogg
-      189: Resources/BallisticWeapons/Sounds/p99shoot.ogg
-      190: Resources/BallisticWeapons/Sounds/p99shoots.ogg
-      191: Resources/BallisticWeapons/Sounds/pkppechenegreload.ogg
-      192: Resources/BallisticWeapons/Sounds/pkppechenegshoot.ogg
-      193: Resources/BallisticWeapons/Sounds/pkppechenegshoots.ogg
-      194: Resources/BallisticWeapons/Sounds/pm9reload.ogg
-      195: Resources/BallisticWeapons/Sounds/pm9shoot.ogg
-      196: Resources/BallisticWeapons/Sounds/pm9shoots.ogg
-      197: Resources/BallisticWeapons/Sounds/pp90m1reload.ogg
-      198: Resources/BallisticWeapons/Sounds/pp90m1shoot.ogg
-      199: Resources/BallisticWeapons/Sounds/pp90m1shoots.ogg
-      200: Resources/BallisticWeapons/Sounds/r870reload.ogg
-      201: Resources/BallisticWeapons/Sounds/r870shoot.ogg
-      202: Resources/BallisticWeapons/Sounds/rpgreload.ogg
-      203: Resources/BallisticWeapons/Sounds/rpgshoot.ogg
-      204: Resources/BallisticWeapons/Sounds/rsassreload.ogg
-      205: Resources/BallisticWeapons/Sounds/rsassshoot.ogg
-      206: Resources/BallisticWeapons/Sounds/rsassshoots.ogg
-      207: Resources/BallisticWeapons/Sounds/saiga12reload.ogg
-      208: Resources/BallisticWeapons/Sounds/saiga12shoot.ogg
-      209: Resources/BallisticWeapons/Sounds/scarhreload.ogg
-      210: Resources/BallisticWeapons/Sounds/scarhshoot.ogg
-      211: Resources/BallisticWeapons/Sounds/scarlreload.ogg
-      212: Resources/BallisticWeapons/Sounds/scarlshoot.ogg
-      213: Resources/BallisticWeapons/Sounds/scarlshoots.ogg
-      214: Resources/BallisticWeapons/Sounds/skorpionreload.ogg
-      215: Resources/BallisticWeapons/Sounds/skorpionshoot.ogg
-      216: Resources/BallisticWeapons/Sounds/skorpionshoots.ogg
-      217: Resources/BallisticWeapons/Sounds/smawreload.ogg
-      218: Resources/BallisticWeapons/Sounds/smawshoot.ogg
-      219: Resources/BallisticWeapons/Sounds/spas12reload.ogg
-      220: Resources/BallisticWeapons/Sounds/spas12shoot.ogg
-      221: Resources/BallisticWeapons/Sounds/spas12shoots.ogg
-      222: Resources/BallisticWeapons/Sounds/stingerreload.ogg
-      223: Resources/BallisticWeapons/Sounds/stingershoot.ogg
-      224: Resources/BallisticWeapons/Sounds/strikerreload.ogg
-      225: Resources/BallisticWeapons/Sounds/strikershoot.ogg
-      226: Resources/BallisticWeapons/Sounds/strikershoots.ogg
-      227: Resources/BallisticWeapons/Sounds/tavorreload.ogg
-      228: Resources/BallisticWeapons/Sounds/tavorshoot.ogg
-      229: Resources/BallisticWeapons/Sounds/tec9reload.ogg
-      230: Resources/BallisticWeapons/Sounds/tec9shoot.ogg
-      231: Resources/BallisticWeapons/Sounds/ump45reload.ogg
-      232: Resources/BallisticWeapons/Sounds/ump45shoot.ogg
-      233: Resources/BallisticWeapons/Sounds/ump45shoots.ogg
-      234: Resources/BallisticWeapons/Sounds/usas12reload.ogg
-      235: Resources/BallisticWeapons/Sounds/usas12shoot.ogg
-      236: Resources/BallisticWeapons/Sounds/usas12shoots.ogg
-      237: Resources/BallisticWeapons/Sounds/usp45reload.ogg
-      238: Resources/BallisticWeapons/Sounds/usp45shoot.ogg
-      239: Resources/BallisticWeapons/Sounds/usp45shoots.ogg
-      240: Resources/BallisticWeapons/Sounds/xm25reload.ogg
-      241: Resources/BallisticWeapons/Sounds/xm25shoot.ogg
-      242: Resources/BallisticWeapons/Sounds/ak74reload.ogg
-      243: Resources/BallisticWeapons/Sounds/ak74shot.ogg
-      244: Resources/BallisticWeapons/Sounds/akmshoot.ogg
-      245: Resources/BallisticWeapons/Sounds/an94reload.ogg
-      246: Resources/BallisticWeapons/Sounds/an94shoot.ogg
-      247: Resources/BallisticWeapons/Sounds/DeagleShoot.ogg
+      100: Resources/BallisticWeapons/Sounds/Pistol/44magnumreload.ogg #Unused
+      101: Resources/BallisticWeapons/Sounds/Pistol/44magnumshoot.ogg #Unused
+      102: Resources/BallisticWeapons/Sounds/Shotgun/aa12reload.ogg
+      103: Resources/BallisticWeapons/Sounds/Shotgun/aa12shoot.ogg
+      104: Resources/BallisticWeapons/Sounds/LMG/Ultimaxreload.ogg 
+      105: Resources/BallisticWeapons/Sounds/LMG/Ultimaxshoot.ogg 
+      106: Resources/BallisticWeapons/Sounds/LMG/acrshoots.ogg #Unused
+      107: Resources/BallisticWeapons/Sounds/Sniper/as50reload.ogg
+      108: Resources/BallisticWeapons/Sounds/Sniper/as50shoot.ogg
+      109: Resources/BallisticWeapons/Sounds/Sniper/as50shoots.ogg #Unused
+      110: Resources/BallisticWeapons/Sounds/Sniper/barretreload.ogg
+      111: Resources/BallisticWeapons/Sounds/Sniper/barretshoot.ogg
+      112: Resources/BallisticWeapons/Sounds/Sniper/barretshoots.ogg #Unused
+      113: Resources/BallisticWeapons/Sounds/Rifle/M16reload.ogg
+      114: Resources/BallisticWeapons/Sounds/Rifle/M16shoot.ogg
+      115: Resources/BallisticWeapons/Sounds/Rifle/M16shoots.ogg #Unused
+      116: Resources/BallisticWeapons/Sounds/Pistol/MK23reload.ogg
+      117: Resources/BallisticWeapons/Sounds/Pistol/MK23shoot.ogg
+      118: Resources/BallisticWeapons/Sounds/Sniper/dragunovreload.ogg
+      119: Resources/BallisticWeapons/Sounds/Sniper/dragunovshoot.ogg
+      120: Resources/BallisticWeapons/Sounds/Sniper/dragunovshoots.ogg #Unused
+      121: Resources/BallisticWeapons/Sounds/Rifle/G11reload.ogg
+      122: Resources/BallisticWeapons/Sounds/Rifle/G11shoot.ogg
+      123: Resources/BallisticWeapons/Sounds/Rifle/falreload.ogg
+      124: Resources/BallisticWeapons/Sounds/Rifle/falshoot.ogg
+      125: Resources/BallisticWeapons/Sounds/Rifle/famasreload.ogg
+      126: Resources/BallisticWeapons/Sounds/Rifle/famasshoot.ogg
+      127: Resources/BallisticWeapons/Sounds/Pistol/fivesevenreload.ogg
+      128: Resources/BallisticWeapons/Sounds/Pistol/fivesevenshoot.ogg
+      129: Resources/BallisticWeapons/Sounds/Pistol/fivesevenshoots.ogg #Unused
+      130: Resources/BallisticWeapons/Sounds/SMG/fmg9reload.ogg
+      131: Resources/BallisticWeapons/Sounds/SMG/fmg9shoot.ogg
+      132: Resources/BallisticWeapons/Sounds/SMG/fmg9shoots.ogg #Unused
+      133: Resources/BallisticWeapons/Sounds/Pistol/g18reload.ogg
+      134: Resources/BallisticWeapons/Sounds/Pistol/g18shoot.ogg
+      135: Resources/BallisticWeapons/Sounds/Pistol/g18shoots.ogg #unused
+      136: Resources/BallisticWeapons/Sounds/Rifle/g36creload.ogg
+      137: Resources/BallisticWeapons/Sounds/Rifle/g36cshoot.ogg
+      138: Resources/BallisticWeapons/Sounds/Rifle/hk416shoots.ogg
+      139: Resources/BallisticWeapons/Sounds/Rifle/hk416reload.ogg
+      140: Resources/BallisticWeapons/Sounds/Rifle/hk416shoot.ogg
+      141: Resources/BallisticWeapons/Sounds/Launchers/RPG29reload.ogg
+      142: Resources/BallisticWeapons/Sounds/Launchers/RPG29shoot.ogg
+      143: Resources/BallisticWeapons/Sounds/Shotgun/KS23reload.ogg
+      144: Resources/BallisticWeapons/Sounds/Shotgun/KS23shoot.ogg
+      145: Resources/BallisticWeapons/Sounds/Shotgun/ksg12shoots.ogg #Unused
+      146: Resources/BallisticWeapons/Sounds/LMG/l86lswreload.ogg
+      147: Resources/BallisticWeapons/Sounds/LMG/l86lswshoot.ogg #Unused
+      148: Resources/BallisticWeapons/Sounds/LMG/l86lswshoots.ogg #unused
+      149: Resources/BallisticWeapons/Sounds/Sniper/l118areload.ogg
+      150: Resources/BallisticWeapons/Sounds/Sniper/l118ashoot.ogg
+      151: Resources/BallisticWeapons/Sounds/Sniper/l118ashoots.ogg
+      152: Resources/BallisticWeapons/Sounds/Rifle/m4a1reload.ogg
+      153: Resources/BallisticWeapons/Sounds/Rifle/m4a1shoot.ogg
+      154: Resources/BallisticWeapons/Sounds/Rifle/m4a1shoots.ogg
+      155: Resources/BallisticWeapons/Sounds/LMG/m60e4reload.ogg
+      156: Resources/BallisticWeapons/Sounds/LMG/m60e4shoot.ogg
+      157: Resources/BallisticWeapons/Sounds/LMG/m60e4shoots.ogg #Unused
+      158: Resources/BallisticWeapons/Sounds/Launchers/m320glmreload.ogg
+      159: Resources/BallisticWeapons/Sounds/Launchers/m320glmshoot.ogg
+      160: Resources/BallisticWeapons/Sounds/LMG/mg36reload.ogg
+      161: Resources/BallisticWeapons/Sounds/LMG/M249shoot.ogg
+      162: Resources/BallisticWeapons/Sounds/LMG/M249shoots.ogg #Unused
+      163: Resources/BallisticWeapons/Sounds/Sniper/mk14reload.ogg
+      164: Resources/BallisticWeapons/Sounds/Sniper/mk14shoot.ogg
+      165: Resources/BallisticWeapons/Sounds/Sniper/mk14shoots.ogg #Unused
+      166: Resources/BallisticWeapons/Sounds/LMG/mk46reload.ogg
+      167: Resources/BallisticWeapons/Sounds/LMG/mk46shoot.ogg
+      168: Resources/BallisticWeapons/Sounds/LMG/mk46shoots.ogg #Unused
+      169: Resources/BallisticWeapons/Sounds/Shotgun/model1887reload.ogg #unused
+      170: Resources/BallisticWeapons/Sounds/Shotgun/model1887shoot.ogg #unused
+      171: Resources/BallisticWeapons/Sounds/SMG/mp5reload.ogg
+      172: Resources/BallisticWeapons/Sounds/SMG/mp5shoot.ogg #unused
+      173: Resources/BallisticWeapons/Sounds/SMG/mp5shoots.ogg
+      174: Resources/BallisticWeapons/Sounds/SMG/mp7reload.ogg
+      175: Resources/BallisticWeapons/Sounds/SMG/mp7shoot.ogg
+      176: Resources/BallisticWeapons/Sounds/SMG/mp7shoots.ogg #Unused
+      177: Resources/BallisticWeapons/Sounds/SMG/Uzireload.ogg
+      178: Resources/BallisticWeapons/Sounds/SMG/Uzishoot.ogg
+      179: Resources/BallisticWeapons/Sounds/SMG/mp9shoots.ogg #unused
+      180: Resources/BallisticWeapons/Sounds/Pistol/Manhurinreload.ogg
+      181: Resources/BallisticWeapons/Sounds/Pistol/Manhurinshoot.ogg
+      182: Resources/BallisticWeapons/Sounds/Sniper/Sakoreload.ogg #unused
+      183: Resources/BallisticWeapons/Sounds/Sniper/Sakoshoot.ogg #unused
+      184: Resources/BallisticWeapons/Sounds/Sniper/msrshoots.ogg #unused
+      185: Resources/BallisticWeapons/Sounds/SMG/p90reload.ogg
+      186: Resources/BallisticWeapons/Sounds/SMG/p90shoot.ogg
+      187: Resources/BallisticWeapons/Sounds/SMG/p90shoots.ogg
+      188: Resources/BallisticWeapons/Sounds/Pistol/p226reload.ogg
+      189: Resources/BallisticWeapons/Sounds/Pistol/p226shoot.ogg
+      190: Resources/BallisticWeapons/Sounds/Pistol/p99shoots.ogg #Unused
+      191: Resources/BallisticWeapons/Sounds/LMG/pkppechenegreload.ogg
+      192: Resources/BallisticWeapons/Sounds/LMG/pkppechenegshoot.ogg
+      193: Resources/BallisticWeapons/Sounds/LMG/pkppechenegshoots.ogg #Unused
+      194: Resources/BallisticWeapons/Sounds/Pistol/Makarovreload.ogg
+      195: Resources/BallisticWeapons/Sounds/Pistol/Makarovshoot.ogg
+      196: Resources/BallisticWeapons/Sounds/Pistol/Makarovshoots.ogg #Unused
+      197: Resources/BallisticWeapons/Sounds/SMG/pp90m1reload.ogg
+      198: Resources/BallisticWeapons/Sounds/SMG/pp90m1shoot.ogg
+      199: Resources/BallisticWeapons/Sounds/SMG/pp90m1shoots.ogg
+      200: Resources/BallisticWeapons/Sounds/Shotgun/r870reload.ogg
+      201: Resources/BallisticWeapons/Sounds/Shotgun/r870shoot.ogg
+      202: Resources/BallisticWeapons/Sounds/Launchers/rpgreload.ogg
+      203: Resources/BallisticWeapons/Sounds/Launchers/rpgshoot.ogg
+      204: Resources/BallisticWeapons/Sounds/Sniper/PSG1reload.ogg
+      205: Resources/BallisticWeapons/Sounds/Sniper/PSG1shoot.ogg
+      206: Resources/BallisticWeapons/Sounds/Sniper/rsassshoots.ogg #Unused
+      207: Resources/BallisticWeapons/Sounds/Shotgun/saiga12reload.ogg
+      208: Resources/BallisticWeapons/Sounds/Shotgun/saiga12shoot.ogg
+      209: Resources/BallisticWeapons/Sounds/Rifle/scarhreload.ogg
+      210: Resources/BallisticWeapons/Sounds/Rifle/scarhshoot.ogg
+      211: Resources/BallisticWeapons/Sounds/Rifle/scarlreload.ogg
+      212: Resources/BallisticWeapons/Sounds/Rifle/scarlshoot.ogg
+      213: Resources/BallisticWeapons/Sounds/Rifle/scarlshoots.ogg
+      214: Resources/BallisticWeapons/Sounds/SMG/skorpionreload.ogg
+      215: Resources/BallisticWeapons/Sounds/SMG/skorpionshoot.ogg
+      216: Resources/BallisticWeapons/Sounds/SMG/skorpionshoots.ogg #Unused
+      217: Resources/BallisticWeapons/Sounds/Launchers/smawreload.ogg
+      218: Resources/BallisticWeapons/Sounds/Launchers/smawshoot.ogg
+      219: Resources/BallisticWeapons/Sounds/Shotgun/spas12reload.ogg
+      220: Resources/BallisticWeapons/Sounds/Shotgun/spas12shoot.ogg
+      221: Resources/BallisticWeapons/Sounds/Shotgun/spas12shoots.ogg #Unused
+      222: Resources/BallisticWeapons/Sounds/Launchers/stingerreload.ogg #unused
+      223: Resources/BallisticWeapons/Sounds/Launchers/stingershoot.ogg #unused
+      224: Resources/BallisticWeapons/Sounds/Shotgun/strikerreload.ogg
+      225: Resources/BallisticWeapons/Sounds/Shotgun/strikershoot.ogg
+      226: Resources/BallisticWeapons/Sounds/Shotgun/strikershoots.ogg #Unused
+      227: Resources/BallisticWeapons/Sounds/Rifle/tavorreload.ogg
+      228: Resources/BallisticWeapons/Sounds/Rifle/tavorshoot.ogg
+      229: Resources/BallisticWeapons/Sounds/SMG/tec9reload.ogg
+      230: Resources/BallisticWeapons/Sounds/SMG/tec9shoot.ogg
+      231: Resources/BallisticWeapons/Sounds/SMG/ump45reload.ogg
+      232: Resources/BallisticWeapons/Sounds/SMG/ump45shoot.ogg
+      233: Resources/BallisticWeapons/Sounds/SMG/ump45shoots.ogg #Unused
+      234: Resources/BallisticWeapons/Sounds/Shotgun/usas12reload.ogg
+      235: Resources/BallisticWeapons/Sounds/Shotgun/usas12shoot.ogg
+      236: Resources/BallisticWeapons/Sounds/Shotgun/usas12shoots.ogg
+      237: Resources/BallisticWeapons/Sounds/Pistol/M1911reload.ogg
+      238: Resources/BallisticWeapons/Sounds/Pistol/M1911shoot.ogg
+      239: Resources/BallisticWeapons/Sounds/Pistol/usp45shoots.ogg #Unused
+      240: Resources/BallisticWeapons/Sounds/Launchers/xm25reload.ogg
+      241: Resources/BallisticWeapons/Sounds/Launchers/xm25shoot.ogg
+      242: Resources/BallisticWeapons/Sounds/Rifle/ak74reload.ogg
+      243: Resources/BallisticWeapons/Sounds/Rifle/ak74shot.ogg
+      244: Resources/BallisticWeapons/Sounds/Rifle/akmshoot.ogg
+      245: Resources/BallisticWeapons/Sounds/Rifle/an94reload.ogg
+      246: Resources/BallisticWeapons/Sounds/Rifle/an94shoot.ogg
+      247: Resources/BallisticWeapons/Sounds/Pistol/DeagleShoot.ogg
+      248: Resources/BallisticWeapons/Sounds/Shotgun/DBshoot.ogg
+      249: Resources/BallisticWeapons/Sounds/Shotgun/DBreload.ogg
 
-      301: Resources/BallisticWeapons/Sounds/BallisticHitSound0.ogg
-      302: Resources/BallisticWeapons/Sounds/BallisticHitSound1.ogg
-      303: Resources/BallisticWeapons/Sounds/BallisticHitSound2.ogg
-      304: Resources/BallisticWeapons/Sounds/BallisticHitSound3.ogg
-      305: Resources/BallisticWeapons/Sounds/BallisticHitSound4.ogg
-      306: Resources/BallisticWeapons/Sounds/BallisticHitSound5.ogg
-      307: Resources/BallisticWeapons/Sounds/BallisticHitSound6.ogg
-      308: Resources/BallisticWeapons/Sounds/BallisticHitSound7.ogg
-      309: Resources/BallisticWeapons/Sounds/BallisticHitSound8.ogg
-      310: Resources/BallisticWeapons/Sounds/BallisticHitSound9.ogg
-      311: Resources/BallisticWeapons/Sounds/BallisticHitSound10.ogg
-      312: Resources/BallisticWeapons/Sounds/BallisticHitSound11.ogg
-      313: Resources/BallisticWeapons/Sounds/BallisticHitSound12.ogg
-      314: Resources/BallisticWeapons/Sounds/BallisticHitSound13.ogg
-      315: Resources/BallisticWeapons/Sounds/BallisticHitSound14.ogg
-      316: Resources/BallisticWeapons/Sounds/BallisticHitSound15.ogg
-      317: Resources/BallisticWeapons/Sounds/BallisticHitSound16.ogg
-      318: Resources/BallisticWeapons/Sounds/BallisticHitSound17.ogg
-      319: Resources/BallisticWeapons/Sounds/BallisticHitSound18.ogg
+      301: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound0.ogg
+      302: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound1.ogg
+      303: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound2.ogg
+      304: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound3.ogg
+      305: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound4.ogg
+      306: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound5.ogg
+      307: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound6.ogg
+      308: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound7.ogg
+      309: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound8.ogg
+      310: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound9.ogg
+      311: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound10.ogg
+      312: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound11.ogg
+      313: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound12.ogg
+      314: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound13.ogg
+      315: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound14.ogg
+      316: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound15.ogg
+      317: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound16.ogg
+      318: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound17.ogg
+      319: Resources/BallisticWeapons/Sounds/Hitsounds/BallisticHitSound18.ogg
 
-      350: Resources/BallisticWeapons/Sounds/Blunt_hit1.wav
-      351: Resources/BallisticWeapons/Sounds/Blunt_hit2.wav
-      352: Resources/BallisticWeapons/Sounds/Blunt_hit3.wav
-      353: Resources/BallisticWeapons/Sounds/Stabsound.ogg
+      350: Resources/BallisticWeapons/Sounds/Hitsounds/Blunt_hit1.wav
+      351: Resources/BallisticWeapons/Sounds/Hitsounds/Blunt_hit2.wav
+      352: Resources/BallisticWeapons/Sounds/Hitsounds/Blunt_hit3.wav
+      353: Resources/BallisticWeapons/Sounds/Hitsounds/Stabsound.ogg

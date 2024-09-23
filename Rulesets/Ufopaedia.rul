@@ -1348,11 +1348,17 @@ ufopaedia:
     section: STR_AMMO
     listOrder: 1017
 
-  - id: STR_5_56_X50
+  - id: STR_5_56_X100_DRUM
     type_id: 4
     text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
     listOrder: 1018
+
+  - id: STR_5_56_X50
+    type_id: 4
+    text: STR_5_56_UFOPAEDIA
+    section: STR_AMMO
+    listOrder: 1019
 
   - id: STR_5_56_X100
     type_id: 4

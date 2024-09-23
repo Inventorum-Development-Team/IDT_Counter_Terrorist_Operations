@@ -129,6 +129,9 @@ items:
   - type: STR_5_56_X100 #ignoreDuplicate
     tags:
      AmmoNo: 2
+  - type: STR_5_56_X100_DRUM #ignoreDuplicate
+    tags:
+     AmmoNo: 2
   - type: STR_22_LONG_RIFLE_X6 #ignoreDuplicate
     tags:
      AmmoNo: 1

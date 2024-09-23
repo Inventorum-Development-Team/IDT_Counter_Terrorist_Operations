@@ -1302,6 +1302,23 @@ items:
     weight: 14
     clipSize: 100
     listOrder: 129002
+  - type: STR_5_56_X100_DRUM
+    requiresBuy:
+      - STR_5_56_DRUM_AMMO
+    categories: [ STR_CLIPS ]
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+    bigSprite: 3456
+    handSprite: 3456
+    floorSprite: 3456
+    size: 0.1
+    armor: 30
+    costBuy: 1800
+    costSell: 900
+    invWidth: 2
+    invHeight: 2
+    weight: 16
+    clipSize: 100
+    listOrder: 129003
   - type: STR_22_LONG_RIFLE_X6
     categories: [ STR_CLIPS ]
     refNode: *STR_22_LONG_RIFLE_AMMO
@@ -2152,8 +2169,8 @@ items:
     bigSprite: 648
     floorSprite: 648
     handSprite: 648
-    reloadSound: 189
-    fireSound: 190
+    reloadSound: 188
+    fireSound: 189
     costBuy: 10000
     costSell: 5000
     accuracyAimed: 60
@@ -2740,7 +2757,7 @@ items:
     floorSprite: 4896
     handSprite: 4896 
     reloadSound: 188
-    fireSound: 190 #Change?
+    fireSound: 189 #Change?
     #costBuy: 6000
     costSell: 3000
     accuracyAimed: 60
@@ -2910,8 +2927,8 @@ items:
     bigSprite: 4472
     floorSprite: 4472
     handSprite: 4472
-    reloadSound: 185
-    fireSound: 186
+    reloadSound: 174
+    fireSound: 175
     costBuy: 17500
     costSell: 8750
     accuracyAimed: 50
@@ -2987,7 +3004,7 @@ items:
     floorSprite: 4536
     handSprite: 4536
     reloadSound: 185
-    fireSound: 173
+    fireSound: 187
     #costBuy: 18000
     #costSell: 9000
     accuracyAimed: 70 #55
@@ -3286,7 +3303,7 @@ items:
     bigSprite: 4080
     floorSprite: 4080
     handSprite: 4080
-    reloadSound: 174
+    reloadSound: 130
     fireSound: 131
     costBuy: 18000
     costSell: 9000
@@ -5857,8 +5874,8 @@ items:
     bigSprite: 2000
     floorSprite: 2000
     handSprite: 2000
-    reloadSound: 149
-    fireSound: 151
+    reloadSound: 182
+    fireSound: 183
     costBuy: 52000
     costSell: 26000
     accuracyAimed: 150
@@ -6091,7 +6108,8 @@ items:
     bigSprite: 2208
     floorSprite: 2208
     handSprite: 2208
-    fireSound: 144
+    fireSound: 248
+    reloadSound: 249
     costSell: 8000
     accuracyAimed: 80
     accuracySnap: 40
@@ -6752,8 +6770,9 @@ items:
     sprayWaypoints: 2
 
   - type: STR_NEGEV
-    #requiresBuy:
-    categories: [ STR_FIREARMS, STR_LMGS, STR_SEIZED ]
+    requiresBuy:
+      - STR_NEGEV_ACQUISITION
+    categories: [ STR_FIREARMS, STR_LMGS ]
     size: 1
     weight: 49
     # battleType: 1
@@ -6834,6 +6853,8 @@ items:
     listOrder: 95000
   
   - type: STR_AUG_HBAR
+    requiresBuy:
+      - STR_AUG_HBAR_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
     size: 1
     weight: 36
@@ -6867,6 +6888,8 @@ items:
     listOrder: 125030
 
   - type: STR_MG36
+    requiresBuy:
+      - STR_MG36_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
     size: 1
     weight: 39
@@ -6894,7 +6917,7 @@ items:
     invHeight: 3
     ammo:
       0:
-        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X100 ]
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X100_DRUM ]
         tuLoad: 30
         tuUnload: 15
     listOrder: 125040
@@ -6927,12 +6950,14 @@ items:
     invHeight: 3
     ammo:
       0:
-        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X100 ]
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X100_DRUM ]
         tuLoad: 30
         tuUnload: 15
     listOrder: 125050
 
   - type: STR_ULTIMAX_100
+    requiresBuy:
+      - STR_ULTIMAX_100_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
     size: 1
     weight: 48
@@ -6940,8 +6965,8 @@ items:
     bigSprite: 5096
     floorSprite: 5096 
     handSprite: 5096 
-    reloadSound: 113
-    fireSound: 114
+    reloadSound: 104
+    fireSound: 105
     costBuy: 57000
     costSell: 28500
     accuracySnap: 63
@@ -6960,14 +6985,15 @@ items:
     invHeight: 3
     ammo:
       0:
-        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X100 ]
+        compatibleAmmo: [ STR_5_56_X30, STR_5_56_X100_DRUM ]
         tuLoad: 30
         tuUnload: 15
     listOrder: 125060
 
   - type: STR_M60E6
+    requiresBuy:
+      - STR_M60E6_ACQUISITION
     categories: [ STR_FIREARMS, STR_LMGS ]
-    #requiresBuy:
     size: 1
     weight: 47
     # battleType: 1
@@ -7923,7 +7949,7 @@ extraSprites:
       3432: Resources/BallisticWeapons/Explosives/BigC4.png
       3440: Resources/BallisticWeapons/Equipment/BigKnife.png
       3448: Resources/BallisticWeapons/Equipment/BigHammer.png
-      # 3456: 
+      3456: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x100.png
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/BigUMP45nomag.png
       3480: Resources/BallisticWeapons/SMGs/BigUMP45.png
@@ -8442,7 +8468,7 @@ extraSprites:
       3432: Resources/BallisticWeapons/Explosives/FloorC4.png  
       3440: Resources/BallisticWeapons/Equipment/FloorKnife.png   
       3448: Resources/BallisticWeapons/Equipment/FloorHammer.png
-      # 3456: 
+      3456: Resources/BallisticWeapons/Ammo/Floor.png
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/FloorUMP45.png
       3480: Resources/BallisticWeapons/SMGs/FloorUMP45.png
@@ -8958,7 +8984,7 @@ extraSprites:
       3432: Resources/BallisticWeapons/Explosives/HandC4.png
       3440: Resources/BallisticWeapons/Equipment/HandKnife.png    
       3448: Resources/BallisticWeapons/Equipment/HandHammer.png
-      # 3456: 
+      3456: Resources/BallisticWeapons/Ammo/HandAmmo.png
       # 3464: 
       3472: Resources/BallisticWeapons/SMGs/HandUMP45.png
       3480: Resources/BallisticWeapons/SMGs/HandUMP45.png
@@ -9234,8 +9260,9 @@ extraStrings:
       STR_5_45_X45: "5.45x39mm (45x)"
       STR_5_45_X60: "5.45x39mm (60x)"
       STR_5_56_X30: "5.56 NATO (30x)"
-      STR_5_56_X50: "5.56 NATO (50x)"
-      STR_5_56_X100: "5.56 NATO (100x)"
+      STR_5_56_X100_DRUM: "5.56 NATO (100x)"
+      STR_5_56_X50: "5.56 NATO Belt (50x)"
+      STR_5_56_X100: "5.56 NATO Belt (100x)"
       STR_22_LONG_RIFLE_X6: ".22 Long Rifle (6x)"
       STR_SOVIET_7_62_X10: "7.62 Soviet (10x)"
       STR_SOVIET_7_62_X30: "7.62 Soviet (30x)"
