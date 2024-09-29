@@ -2151,7 +2151,7 @@ extraStrings:
       STR_MELEE_ATTACKS: "Melee Attacks"
       STR_MELEE_ATTACKS_UFOPAEDIA: "Our Troops may use their pistols or the butts of their rifles to strike a target to attempt to subdue them if other means are not suitable in the situation. Care should be used when using this tactic, as these attacks can wound or even kill the target."
       STR_FLASHBANG_EFFECT: "Flashbangs"
-      STR_FLASHBANG_EFFECT_UFOPAEDIA: "A fully flashbanged unit will flash purple, and has no accuracy or reactions, as well as very limited or no stamina.\n\nA unit that is flashing blue is partialy flashbanged and will have the same penalties as a fully flashbanged unit, except their accuracy will scale depending on how much they have been flashed instead of set to 0. Partial flash damage goes from 1 to 99, after which it becomes a full flash.\n\nAll forms of flashbang damage can stack, causing it to last longer. Every full flash lasts for 1 turn, including a turn for any remaining partial flash."
+      STR_FLASHBANG_EFFECT_UFOPAEDIA: "A fully flashbanged unit will flash blue, and has no accuracy or reactions, as well as very limited or no stamina.\n\nA unit that is flashing purple is partialy flashbanged and will have the same penalties as a fully flashbanged unit, except their accuracy will scale depending on how much they have been flashed instead of set to 0. Partial flash damage goes from 1 to 99, after which it becomes a full flash.\n\nAll forms of flashbang damage can stack, causing it to last longer. Every full flash lasts for 1 turn, including a turn for any remaining partial flash."
 
       STR_COALITION: "The Coalition"
       STR_TASK_FORCE: "Task Forces"

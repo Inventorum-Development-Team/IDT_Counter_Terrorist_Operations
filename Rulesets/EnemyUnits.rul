@@ -1511,8 +1511,8 @@ units:
              - STR_12G_SLUG_X8
            - 
              - STR_SPAS_12
-             - STR_12G_INCENDIARY_X8
-             - STR_12G_INCENDIARY_X8
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
 
   - type: STR_TERRORIST_GRUNT_WEST_EU
     race: STR_TERRORISTS_WEST_EU
@@ -1866,8 +1866,8 @@ units:
              - STR_12G_SLUG_X8
            - 
              - STR_M3
-             - STR_12G_INCENDIARY_X8
-             - STR_12G_INCENDIARY_X8
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
 
   - type: STR_TERRORIST_GRUNT_USA
     race: STR_TERRORISTS_USA

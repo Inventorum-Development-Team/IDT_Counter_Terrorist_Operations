@@ -1438,7 +1438,7 @@ extraSprites:
   - type: UNIFORM_NV_INVM3.SPK
     singleImage: true
     files:
-      0: Resources/SoldiersAndArmors/KevlarNV/INV/MAN_M3.png
+      0: Resources/SoldiersAndArmors/UniformNV/INV/MAN_M3.png
 
 ########################################
 ######### ADV NIGHT VISION ############

@@ -736,6 +736,7 @@ extended:
       UNIT_RECOLOR_BRIGHTNESS: int
       UNIT_RECOLOR_START_FRAME: int
       UNIT_RECOLOR_FRAME_LENGTH: int
+      RecolorCheckerboard: int
 
     RuleItem:
       Shout: int
@@ -1316,10 +1317,12 @@ extended:
           var int temp;
           var int morale;
           var int flashbanged;
+          var int checkerboard;
 
           # Check to make sure this unit isn't set to be recolored by a hit first
           unit.getTag frame Tag.UNIT_RECOLOR_START_FRAME;
           unit.getTag frameLength Tag.UNIT_RECOLOR_FRAME_LENGTH;
+          unit.getTag frame Tag.RecolorCheckerboard;
           BattleUnit.getTag unit flashbanged Tag.FlashBanged;
 
 
@@ -1384,7 +1387,7 @@ extended:
            battle_game.getTurn turn;
            if and gt flashbanged -1 neq flashbanged turn;
 
-             set color COLOR_X1_PURPLE0;
+             set color COLOR_X1_BLUE1;
 
              set temp frameLength;
              sub temp frame;
@@ -1407,7 +1410,7 @@ extended:
            var int turn;
            battle_game.getTurn turn;
            if or eq flashbanged -2 eq flashbanged turn;
-             set color COLOR_X1_BLUE1;
+             set color COLOR_X1_PURPLE1;
 
              set temp frameLength;
              sub temp frame;
@@ -1416,10 +1419,8 @@ extended:
              sub newShade temp;
 
              if and gt newShade 3 lt newShade 16;
-
                set_shade new_pixel newShade;
                set_color new_pixel color;
-
              end;
 
            end;
