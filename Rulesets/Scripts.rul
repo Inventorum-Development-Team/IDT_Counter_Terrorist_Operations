@@ -1466,14 +1466,3 @@ extended:
           end;
 
           return new_pixel;
-
-
-
-extraStrings:
-  - type: en-US
-    strings:
-      STR_ALREADY_SHOUTED: "Unit already shouted at"
-      STR_JAMMED: "Weapon Jammed"
-      STR_HANDCUFFS: "Handcuffs"
-      STR_SHOUT: "Shout"
-      STR_USE_CUFFS: "Use Handcuffs"

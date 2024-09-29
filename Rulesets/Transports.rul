@@ -153,10 +153,3 @@ extraSprites:
   - type: BASEBITS.PCK
     files:
       901: Resources/Van/GMC_Van_base.png #+33
-
-extraStrings:
-  - type: en-US
-    strings:
-      STR_GMC_VAN_SMALL: "Small Deployment"
-      STR_GMC_VAN_MEDIUM: "Medium Deployment"
-      STR_GMC_VAN_LARGE: "Large Deployment"
