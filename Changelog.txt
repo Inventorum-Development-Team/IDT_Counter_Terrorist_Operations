@@ -26,6 +26,7 @@ Changes made:
 * Swaped sounds on the fmg9, mp7, p90 (sopmod) and sako.
 * Added Field dressing ufopaedia article
 * Added colored damge types to ufopaedia
+* Language file support
 * 2 new damage types (no stat changes)
 > Pistols
 	- M9

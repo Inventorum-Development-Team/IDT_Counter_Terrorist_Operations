@@ -1608,28 +1608,3 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       3005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_FLOOROB.png
-
-extraStrings:
-  - type: en-US
-    strings:
-       STR_OPERATOR: "Operator"
-
-       STR_DEFAULT: "Uniform"
-       STR_DEFAULT_BACKPACK: "Uniform (BP)"
-       STR_DEFAULT_NV: "Uniform (NV)"
-       STR_DEFAULT_ADVNV: "Uniform (Adv. NV)"
-       STR_DEFAULT_BACKPACK_NV: "Uniform (NV, BP)"
-       STR_DEFAULT_BACKPACK_ADVNV: "Uniform (Adv. NV, BP)"
-       STR_DEFAULT_KEVLAR: "Kevlar Vest"
-       STR_DEFAULT_KEVLAR_BACKPACK: "Kevlar Vest (BP)"
-       STR_DEFAULT_KEVLAR_RIOT: "Kevlar Vest (Face Shield)"
-       STR_DEFAULT_KEVLAR_RIOT_BACKPACK: "Kevlar Vest (Face Shield, BP)"       
-       STR_DEFAULT_KEVLAR_NV: "Kevlar Vest (NV)"
-       STR_DEFAULT_KEVLAR_BACKPACK_NV: "Kevlar Vest (NV, BP)"
-       STR_DEFAULT_KEVLAR_ADVNV: "Kevlar Vest (Adv. NV)"
-       STR_DEFAULT_KEVLAR_BACKPACK_ADVNV: "Kevlar Vest (Adv. NV, BP)"
-       STR_HEAVY: "Heavy Armor"
-       STR_HEAVY_NV: "Heavy Armor (NV)"
-       STR_HEAVY_ADVNV: "Heavy Armor (Adv. NV)"
-
-       STR_CORPSE: Corpse
