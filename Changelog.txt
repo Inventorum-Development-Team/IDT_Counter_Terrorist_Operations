@@ -1,6 +1,6 @@
 X-SomeMonth-2024(hopefully) v1.1 Arsenal
 Changes made:
-* Added varried item sets to enemies, with diffrent rarieties for each weapon tier, overall balance should be the same but with more variety in enemy equipment.
+* Added varied item sets to enemies, with different rarities for each weapon tier, overall balance should be the same but with more variety in enemy equipment.
 * APAV40 research added for famas
 * Implemented more weapons into campaign: Stechkin, Uzi, Dragunov, OSV-96, M24, and Negev
 * Removed Aim to Head tracks
@@ -23,9 +23,9 @@ Changes made:
 * Fixed errors in ufopaedia articles
 * Fixed p226 sounds
 * Added new Double barrel sounds
-* Swaped sounds on the fmg9, mp7, p90 (sopmod) and sako.
+* Swapped sounds on the fmg9, mp7, p90 (sopmod) and sako.
 * Added Field dressing ufopaedia article
-* Added colored damge types to ufopaedia
+* Added colored damage types to ufopaedia
 * Language file support
 * 2 new damage types (no stat changes)
 > Pistols

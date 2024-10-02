@@ -35,7 +35,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Backgrounds/BACK08.PNG
+      0: Resources/Backgrounds/BACK08c.PNG
   - type: BACK10.SCR #research
     singleImage: true
     width: 320

@@ -106,7 +106,7 @@ en-US:
   STR_NEGEV_UFOPAEDIA: "The IWI Negev is an israeli light machine gun adopted by the IDF. It was designed to be reliable in adverse conditions."
   STR_FN_MAG_UFOPAEDIA: "The FN MAG is a GPMG chambered in 7.62 NATO that has seen extensive use since its development in 1958, and is currently in use by over 90 countries."
   STR_AUG_HBAR_UFOPAEDIA: "Based on the Styr AUG, The AUG HBAR is a heavy barreled varient allowing for more sustained fire. It also comes with an integrated bipod and fires from an open bolt to avoid cook offs."
-  STR_MG36_UFOPAEDIA: "A version of the G36 with a heavier barrel, drum mag and an integrated bipod. Only made in limited numbers due to lack of interest from potental buyers."
+  STR_MG36_UFOPAEDIA: "A version of the G36 designed to fill a light machine gun role. While it is mostly similar to a regular G36, It has a heavier barrel to allow for longer periods sustained fire as well as a drum mag and an integrated bipod."
   STR_C7A1_LSW_UFOPAEDIA: "Also known as the Colt Automatic Rifle, The C7A1 LSW is based on the M16 and was designed in 1982. To better suit sustained fire, it features an open bolt, a heavier barrel, a larger gas tube, and a uniquely square handguard."
   STR_ULTIMAX_100_UFOPAEDIA: "A light machine gun designed in Singapore. It's lightweight compared to other machine guns and has high accuracy with sustained fire due to its constant-recoil system."
   STR_M60E6_UFOPAEDIA: "A modernized version of the M60. Its weight has been significantly reduced, and improvements have been made to its accuracy and reliability. It also has rails for mounting attachments."
