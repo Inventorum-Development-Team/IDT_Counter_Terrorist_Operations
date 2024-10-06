@@ -1150,11 +1150,15 @@ research:
     cost: 50
     dependencies:
      - STR_AT_ACQUISITION
+    disables:
+     - STR_GUSTAF_ACQUISITION  
 
   - name: STR_GUSTAF_ACQUISITION 
     cost: 50
     dependencies:
      - STR_AT_ACQUISITION
+    disables:
+     - STR_M72_LAW_ACQUISITION 
      
   - name: STR_MGL_ACQUISITION 
     cost: 50

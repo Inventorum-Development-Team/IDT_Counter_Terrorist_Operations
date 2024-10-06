@@ -1394,7 +1394,7 @@ units:
              - STR_NATO_7_62_X20
            - 
              - STR_SPAS_12
-             - STR_12G_INCENDIARY
+             - STR_12G_INCENDIARY_X8
              - STR_12G_SLUG_X8
 
   - type: STR_TERRORIST_SAW_WEST_EU
@@ -2133,11 +2133,11 @@ units:
              - STR_5_45_X30
            - 
              - STR_RK_62
-             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
              - STR_SOVIET_7_62_X30
            - 
              - STR_RK_62
-             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
              - STR_SOVIET_7_62_X30
            #Rare
            - 

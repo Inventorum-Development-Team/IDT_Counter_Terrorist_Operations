@@ -1943,7 +1943,7 @@ items:
     listOrder: 259000
   - type: STR_CG_HEAT_X1
     requiresBuy:
-      - STR_AT_ACQUISITION
+      - STR_GUSTAF_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_CG_HEAT
     bigSprite: 576
@@ -1959,7 +1959,7 @@ items:
     listOrder: 269000
   - type: STR_CG_HE_X1
     requiresBuy:
-      - STR_AT_ACQUISITION
+      - STR_GUSTAF_ACQUISITION
     categories: [ STR_CLIPS ]
     refNode: *STR_CG_HE
     bigSprite: 584
