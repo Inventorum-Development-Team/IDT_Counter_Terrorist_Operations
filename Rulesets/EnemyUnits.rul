@@ -3189,8 +3189,8 @@ extraSprites:
       3051: Resources/TerroristFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
       3052: Resources/TerroristFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
       3053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
-      3054: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
-      3055: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
+      3054: Resources/TerroristFaction/TERRORIST_COMMANDER_CORPSE_FLOOROB.png
+      3055: Resources/TerroristFaction/TERRORIST_LEADER_CORPSE_FLOOROB.png
       3056: Resources/PMCFaction/BO_CORPSE_FLOOROB.png
       3057: Resources/PMCFaction/MASKA_CORPSE_FLOOROB.png
       3058: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
