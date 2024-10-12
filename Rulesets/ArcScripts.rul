@@ -5,3 +5,18 @@ arcScripts:
      STR_RANDOM_2: 33
      STR_RANDOM_3: 33
     maxArcs: 1
+
+  - type: HIGHDIF
+    firstMonth: 0
+    minDifficulty: 3
+    maxDifficulty: 4
+    sequentialArcs:
+     [STR_HIGHDIF]
+    maxArcs: 1
+  - type: LOWDIF
+    firstMonth: 0
+    minDifficulty: 0
+    maxDifficulty: 2
+    sequentialArcs:
+     [STR_LOWDIF]
+    maxArcs: 1

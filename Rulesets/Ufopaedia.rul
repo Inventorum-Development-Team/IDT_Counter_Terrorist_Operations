@@ -1940,3 +1940,9 @@ ufopaedia:
     text: STR_FLASHBANG_EFFECT_UFOPAEDIA
     section: STR_MANUAL
     listOrder: 1303
+
+  - id: STR_LMG_ACCURACY
+    type_id: 8
+    text: STR_LMG_ACCURACY_UFOPAEDIA
+    section: STR_MANUAL
+    listOrder: 1304

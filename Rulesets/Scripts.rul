@@ -633,64 +633,78 @@ items:
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+     MovementAccuracyReduction: 80
   - type: STR_M249 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
+     MovementAccuracyReduction: 80
   - type: STR_FN_MINIMI #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
+     MovementAccuracyReduction: 80
   - type: STR_MK_48 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+     MovementAccuracyReduction: 80
   - type: STR_RPK_74 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
+     MovementAccuracyReduction: 80
   - type: STR_PECHENEG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+     MovementAccuracyReduction: 80
   - type: STR_CBJMS_SAW #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      FoldStock: 1
      UfopaediaAmmoNo: 2
+     MovementAccuracyReduction: 80
   - type: STR_NEGEV #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
+     MovementAccuracyReduction: 80
   - type: STR_FN_MAG #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+     MovementAccuracyReduction: 80
   - type: STR_AUG_HBAR #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
      FoldStock: 1
+     MovementAccuracyReduction: 50
   - type: STR_MG36 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
      FoldStock: 1
+     MovementAccuracyReduction: 50
   - type: STR_C7A1_LSW #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
      FoldStock: 1
+     MovementAccuracyReduction: 50
   - type: STR_ULTIMAX_100 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 2
      FoldStock: 0
+     MovementAccuracyReduction: 80
   - type: STR_M60E6 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
      FoldStock: 0
+     MovementAccuracyReduction: 80
   
   - type: STR_RPG #ignoreDuplicate
     tags:
@@ -736,7 +750,6 @@ extended:
       UNIT_RECOLOR_BRIGHTNESS: int
       UNIT_RECOLOR_START_FRAME: int
       UNIT_RECOLOR_FRAME_LENGTH: int
-      RecolorCheckerboard: int
 
     RuleItem:
       Shout: int
@@ -752,6 +765,7 @@ extended:
       BalKnife: int #is this weapon a balistic knife
       ZevadaSwap: int #dose this weapon have flashbang rounds for the first shot
       UfopaediaAmmoNo: int #The AmmoNo thats shown for the sprite in the Ufopaedia article, make sure to set the sprite IDs to the correct sprite.
+      MovementAccuracyReduction: int #Reduce accuracy by this for every 1% missing TUs, divided by 100
     BattleGame:
       Enemies: int
       Allies: int
@@ -893,6 +907,29 @@ extended:
            return;
             
      accuracyMultiplierBonusStats:
+         - offset: 7 #LMG movement innacuracy
+           code: |
+            var int reductionRate; #Reduce accuracy by this for every 1% missing TUs, divided by 100
+            var int currentTU;
+            var int maxTU;
+            var int missingPercent;
+
+            weapon.getTag reductionRate Tag.MovementAccuracyReduction;
+            unit.getTimeUnits currentTU;
+            unit.getTimeUnitsMax maxTU;
+
+            if neq reductionRate 0;
+             set missingPercent 100;
+             mul currentTU 100;
+             div currentTU maxTU;
+             sub missingPercent currentTU;
+             
+             mul missingPercent reductionRate;
+             div missingPercent 100;
+             sub bonus missingPercent;
+            end;
+
+            return bonus;
          - offset: 10 #Flashbang accuracy reduction
            code: |
             var int flashbanged;
@@ -1322,7 +1359,6 @@ extended:
           # Check to make sure this unit isn't set to be recolored by a hit first
           unit.getTag frame Tag.UNIT_RECOLOR_START_FRAME;
           unit.getTag frameLength Tag.UNIT_RECOLOR_FRAME_LENGTH;
-          unit.getTag frame Tag.RecolorCheckerboard;
           BattleUnit.getTag unit flashbanged Tag.FlashBanged;
 
 

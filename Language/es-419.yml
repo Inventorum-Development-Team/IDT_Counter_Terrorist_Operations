@@ -678,6 +678,7 @@ es-419:
 
 #Soldiers_and_armours.rul
   STR_OPERATOR: "Operador"
+  STR_OPERATOR_HIGHDIF: "Operador"
 
   STR_DEFAULT: "Uniforme"
   STR_DEFAULT_BACKPACK: "Uniforme (BP)"

@@ -156,10 +156,7 @@ research:
      - STR_EQUIPMENT_ACQUISITION
 
   - name: STR_HAMMER_ACQUISITION 
-    cost: 10
-    disables:
-     - STR_C4_ACQUISITION
-     - STR_SERBU_ACQUISITION
+    cost: 50
     dependencies:
      - STR_BREACHING_TOOL_ACQUISITION
 
@@ -816,7 +813,6 @@ research:
     cost: 100
     dependencies:
      - STR_MILITARY_EQUIPMENT_ACQUISITION
-     - STR_AT_ACQUISITION
 
   - name: STR_UBS_ACQUISITION
     cost: 60
@@ -905,16 +901,16 @@ research:
   
   - name: STR_C4_ACQUISITION 
     cost: 50
-    disables:
-     - STR_SERBU_ACQUISITION
-     - STR_HAMMER_ACQUISITION
     dependencies:
+     - STR_HIGH_EXPLOSIVES
      - STR_BREACHING_TOOL_ACQUISITION
 
   - name: STR_BREACHING_TOOL_ACQUISITION 
-    cost: 150
+    cost: 50
     dependencies:
-     - STR_HIGH_EXPLOSIVES
+     - STR_EQUIPMENT_ACQUISITION
+    getOneFree:
+     - STR_HAMMER_ACQUISITION
 
   - name: STR_PRIVATE_CONTRACTORS
     cost: 250
@@ -952,13 +948,18 @@ research:
     dependencies:
      - STR_PRIVATE_CONTRACTORS
 
+  #Unused
   - name: STR_RANDOM_1
     needItem: true
-
   - name: STR_RANDOM_2
     needItem: true
-
   - name: STR_RANDOM_3
+    needItem: true
+
+  #Used to determine soldier price
+  - name: STR_HIGHDIF
+    needItem: true
+  - name: STR_LOWDIF
     needItem: true
      
   - name: STR_VEKTOR_ACQUISITION
@@ -1018,10 +1019,8 @@ research:
   - name: STR_SERBU_ACQUISITION
     cost: 50
     dependencies:
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_BREACHING_TOOL_ACQUISITION
-    disables:
-     - STR_C4_ACQUISITION
-     - STR_HAMMER_ACQUISITION
     getOneFree:
      - STR_12G_X5_AMMO
      

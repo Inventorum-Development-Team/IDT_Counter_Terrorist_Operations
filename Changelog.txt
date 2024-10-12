@@ -6,7 +6,7 @@ Changes made:
 * Removed Aim to Head tracks
 * Breaching Sim battle map
 * Uniform w/ NVG & Adv. NVG
-* manufacturing option to swap from NV to Adv. NV
+* Manufacturing option to swap from NV to Adv. NV
 * Flashbang ammo for KS-23
 * Added 100x 5.56 Beta C mag
 * Sorted item IDs, should be much easier to find things.
@@ -28,6 +28,13 @@ Changes made:
 * Added colored damage types to ufopaedia
 * Language file support
 * 2 new damage types (no stat changes)
+* M3 Shotgun range and accuracy increased
+* Buckshot ammo damage nerfed from 25->18
+* Operators on veterian and below now cost 100k instead of 200k
+* Breaching tools now no longer mutualy exclusive, and spread out throughout tech tree
+* GL aquisition no longer requires AT aquisition
+* Fixed office varient spawn rates
+* LMGs now have movement inaccuracy.
 > Pistols
 	- M9
         - Browning Hi-Power

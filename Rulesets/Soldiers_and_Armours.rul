@@ -1,13 +1,16 @@
 soldiers:
   - delete: STR_SOLDIER
-  - type: STR_OPERATOR
-    costBuy: 200000
-    costSalary: 100000
-    costSalarySquaddie: 10000
-    costSalarySergeant: 20000
-    costSalaryCaptain: 30000
-    costSalaryColonel: 40000
-    costSalaryCommander: 50000
+  - &STR_OPERATOR
+    type: STR_OPERATOR
+    requires:
+      - STR_LOWDIF
+    costBuy: 100000
+    costSalary: 50000
+    costSalarySquaddie: 5000
+    costSalarySergeant: 10000
+    costSalaryCaptain: 15000
+    costSalaryColonel: 20000
+    costSalaryCommander: 25000
     transferTime: 24
     minStats:
       tu: 70
@@ -60,6 +63,19 @@ soldiers:
     specialWeapon: STR_SHOUT
     soldierNames:
       - SoldierName/
+
+  - type: STR_OPERATOR_HIGHDIF
+    requires:
+      - STR_HIGHDIF
+    refNode: *STR_OPERATOR
+    costBuy: 200000
+    costSalary: 100000
+    costSalarySquaddie: 10000
+    costSalarySergeant: 20000
+    costSalaryCaptain: 30000
+    costSalaryColonel: 40000
+    costSalaryCommander: 50000
+    
 
 armors:
   - delete: STR_NONE_UC
@@ -123,6 +139,7 @@ armors:
       - STR_NO_BACKPACK
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
 
   - type: STR_DEFAULT_BACKPACK
     spriteSheet: UNIFORM_BACKPACK_SPRITESHEET.PCK
@@ -142,6 +159,7 @@ armors:
       stamina: -5
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
 
   - type: STR_DEFAULT_NV
     spriteSheet: UNIFORM_NV_SPRITESHEET.PCK
@@ -161,6 +179,7 @@ armors:
       - STR_NO_BACKPACK
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
 
   - type: STR_DEFAULT_ADVNV
     spriteSheet: UNIFORM_ADVNV_SPRITESHEET.PCK
@@ -183,6 +202,7 @@ armors:
       - STR_NO_BACKPACK
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
   
   - type: STR_DEFAULT_BACKPACK_NV
     spriteSheet: UNIFORM_NV_BACKPACK_SPRITESHEET.PCK
@@ -200,6 +220,7 @@ armors:
     visibilityAtDark: 18
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
 
   - type: STR_DEFAULT_BACKPACK_ADVNV
     spriteSheet: UNIFORM_ADVNV_BACKPACK_SPRITESHEET.PCK
@@ -220,6 +241,7 @@ armors:
     antiCamouflageAtDay: 30
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
 
  # VEST #
   - type: STR_DEFAULT_KEVLAR
@@ -244,6 +266,7 @@ armors:
       bravery: 10
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_DEFAULT_KEVLAR_BACKPACK
     spriteSheet: KEVLAR_BACKPACK_SPRITESHEET.PCK
@@ -265,6 +288,7 @@ armors:
       bravery: 10
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_DEFAULT_KEVLAR_NV
     spriteSheet: KEVLAR_NV_SPRITESHEET.PCK
@@ -289,6 +313,7 @@ armors:
       bravery: 10
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_DEFAULT_KEVLAR_BACKPACK_NV
     spriteSheet: KEVLAR_NV_BACKPACK_SPRITESHEET.PCK
@@ -311,6 +336,7 @@ armors:
       bravery: 10
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_DEFAULT_KEVLAR_ADVNV
     spriteSheet: KEVLAR_ADVNV_SPRITESHEET.PCK
@@ -338,6 +364,7 @@ armors:
       bravery: 10
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
     spriteSheet: KEVLAR_ADVNV_BACKPACK_SPRITESHEET.PCK
@@ -363,6 +390,7 @@ armors:
       bravery: 10
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
   
   # VEST + RIOT #
   - type: STR_DEFAULT_KEVLAR_RIOT
@@ -388,6 +416,7 @@ armors:
       bravery: 15
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
     spriteSheet: RIOT_KEVLAR_BACKPACK_SPRITESHEET.PCK
@@ -410,6 +439,7 @@ armors:
       bravery: 15
     units:
       - STR_OPERATOR
+      - STR_OPERATOR_HIGHDIF
 
   # - type: STR_CAMO
   #   spriteSheet: XCOM_4MERC.PCK
@@ -921,6 +951,7 @@ armors:
       - STR_NO_BACKPACK
     units:
       - STR_OPERATOR  
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_HEAVY_NV
     spriteSheet: HEAVY_ARMOR_SPRITESHEET.PCK
@@ -947,6 +978,7 @@ armors:
       - STR_NO_BACKPACK
     units:
       - STR_OPERATOR  
+      - STR_OPERATOR_HIGHDIF
       
   - type: STR_HEAVY_ADVNV
     spriteSheet: HEAVY_ARMOR_SPRITESHEET.PCK
@@ -976,6 +1008,7 @@ armors:
       - STR_NO_BACKPACK
     units:
       - STR_OPERATOR  
+      - STR_OPERATOR_HIGHDIF
 
 
   # - type: STR_EOD

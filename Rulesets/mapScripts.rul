@@ -99,7 +99,7 @@ mapScripts:
        executionChances: 33
      - type: addBlock
        size: [2,2]
-       conditionals: [-2]
+       conditionals: [-1,-2]
      - type: addCraft
        terrain: COMRCURBAN
      - type: fillArea
@@ -109,7 +109,17 @@ mapScripts:
   - type: OFFICE_EAST_EU
     commands:
      - type: addBlock
-       executionChances: 100
+       size: [1,2]
+       label: 1
+       executionChances: 33
+     - type: addBlock
+       size: [2,1]
+       conditionals: [-1]
+       label: 2
+       executionChances: 33
+     - type: addBlock
+       size: [2,2]
+       conditionals: [-1,-2]
      - type: addCraft
        terrain: DAWNCITY_URBANA
      - type: fillArea

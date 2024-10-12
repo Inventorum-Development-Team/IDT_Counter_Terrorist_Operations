@@ -528,7 +528,7 @@ items:
 
   - &STR_12G_BUCKSHOT
     type: STR_12G_BUCKSHOT
-    power: 25
+    power: 18
     shotgunPellets: 10
     shotgunSpread: 0
     shotgunBehavior: 1
@@ -575,7 +575,7 @@ items:
 
   - &STR_12G_INCENDIARY
     type: STR_12G_INCENDIARY
-    power: 25
+    power: 18
     shotgunPellets: 10
     shotgunSpread: 0
     shotgunBehavior: 1
@@ -625,7 +625,7 @@ items:
 
   - &STR_SHRAPNEL_25
     type: STR_SHRAPNEL_25
-    power: 25
+    power: 18
     shotgunPellets: 20
     shotgunSpread: 0
     shotgunBehavior: 1
@@ -6494,15 +6494,15 @@ items:
     fireSound: 201
     costBuy: 21000
     costSell: 10500
-    accuracyAimed: 110
+    accuracyAimed: 115
     accuracySnap: 80
     blockBothHands: true
     twoHanded: true
     oneHandedPenalty: 35
-    maxRange: 30
+    maxRange: 35
     minRange: 0
-    aimRange: 5
-    snapRange: 5
+    aimRange: 20
+    snapRange: 12
     kneelBonus: 115
     tuAimed: 80
     tuSnap: 45
