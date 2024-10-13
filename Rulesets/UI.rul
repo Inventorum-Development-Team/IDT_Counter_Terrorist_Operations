@@ -187,6 +187,90 @@ interfaces:
       - id: ammoColorDT12 #Flash
         color: 143   # Yellow
 
+  #Swaping battlescape pause menus to use b&w hidden movement screen
+  - type: pauseMenu
+    #backgroundImage: HIDDENMOVE1.SCR
+    altBackgroundImage: HIDDENMOVE1.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+      - id: button
+        color: 239   # bright green
+  - type: geoscape
+    #backgroundImage: BACK01.SCR
+    altBackgroundImage: HIDDENMOVE1.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+        color2: 6
+      - id: textLoad
+        color: 133   # minty green
+      - id: button
+        color: 246   # light blue
+        color2: 245  # slightly lighter blue
+      - id: text
+        color: 244   # even lighter blue
+      - id: slackingIndicator
+        color: 244   # even lighter blue
+        color2: 133  # minty green
+        custom: -12  # above Intercept button
+      - id: genericWindow
+        color: 239   # bright green
+      - id: genericText
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: genericButton1
+        color: 133   # minty green
+      - id: genericButton2
+        color: 239   # bright green
+      - id: errorPalette
+        color: 6     # brown
+      - id: errorMessage
+        color: 239   # bright green
+  - type: optionsMenu
+    #backgroundImage: HIDDENMOVE1.SCR
+    altBackgroundImage: HIDDENMOVE1.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 133   # minty green
+      - id: tooltip
+        color: 133   # minty green
+        color2: 138  # yellow
+      - id: button
+        color: 133   # minty green
+      - id: confirmDefaults
+        color: 138   # yellow
+      - id: confirmVideo
+        color: 239   # bright green
+  - type: saveMenus
+    #backgroundImage: BACK01.SCR
+    altBackgroundImage: HIDDENMOVE1.SCR
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 133   # minty green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: list
+        color: 138   # yellow
+        color2: 133  # minty green
+        border: 133  # minty green
+      - id: button
+        color: 133   # minty green
+      - id: confirmLoad
+        color: 239   # bright green
+      - id: confirmDelete
+        color: 138   # yellow
+
 customPalettes:
   - type: PAL_UFOPAEDIA_CUSTOM
     target: PAL_BATTLEPEDIA

@@ -71,21 +71,6 @@ alienItemLevels:
 # 3,4,5 = uncommon
 # 6,7,8 = rare
 
-extraSprites:
-  - type: HIDDENMOVE1.SCR
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-     0: Resources/Backgrounds/Turn/CTO_HiddenMovement_bw.png
-
-  - type: HIDDENMOVE2.SCR
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-     0: Resources/Backgrounds/Turn/CTO_HiddenMovement_color.png
-
 hiddenMovementBackgrounds:
- - HIDDENMOVE1.SCR
+ #- HIDDENMOVE1.SCR
  - HIDDENMOVE2.SCR

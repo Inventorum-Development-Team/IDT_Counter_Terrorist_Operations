@@ -78,3 +78,17 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK17.PNG
+
+  - type: HIDDENMOVE1.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+     0: Resources/Backgrounds/Turn/CTO_HiddenMovement_bw.png
+
+  - type: HIDDENMOVE2.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+     0: Resources/Backgrounds/Turn/CTO_HiddenMovement_color.png
