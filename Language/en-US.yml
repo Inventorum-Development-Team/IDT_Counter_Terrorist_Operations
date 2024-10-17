@@ -207,7 +207,7 @@ en-US:
   STR_FLASHBANG_EFFECT: "Flashbangs"
   STR_FLASHBANG_EFFECT_UFOPAEDIA: "A fully flashbanged unit will flash blue, and has no accuracy or reactions, as well as very limited or no stamina.\n\nA unit that is flashing purple is partialy flashbanged and will have the same penalties as a fully flashbanged unit, except their accuracy will scale depending on how much they have been flashed instead of set to 0. Partial flash damage goes from 1 to 99, after which it becomes a full flash.\n\nAll forms of flashbang damage can stack, causing it to last longer. Every full flash lasts for 1 turn, including a turn for any remaining partial flash."
   STR_LMG_ACCURACY: "LMG Movement Inaccuracy"
-  STR_LMG_ACCURACY_UFOPAEDIA: "Light Machine Guns have reduced accuracy depending on the percent of missing TUs the unit has.\nFor most LMGs this is a -0.80% accuracy multiplier added per percent of missing TUs, however for some this will be different and will be listed in their Ufopaedia article."
+  STR_LMG_ACCURACY_UFOPAEDIA: "Light Machine Guns have reduced accuracy depending on the percent of missing stamina the unit has.\nFor most LMGs this is a -0.80% accuracy multiplier added per percent of missing stamina, however for some this will be different and will be listed in their Ufopaedia article."
 
 
   STR_COALITION: "The Coalition"

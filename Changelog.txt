@@ -23,11 +23,10 @@ Changes made:
 * Fixed errors in ufopaedia articles
 * Fixed p226 sounds
 * Added new Double barrel sounds
-* Swapped sounds on the FMG9, MP7, P90 (SOPMOD) and sako.
+* Swapped sounds on the fmg9, mp7, p90 (sopmod) and sako.
 * Added Field dressing ufopaedia article
 * Added colored damage types to ufopaedia
 * Language file support
-* Spanish translation, by efrenespartano
 * 2 new damage types (no stat changes)
 * M3 Shotgun range and accuracy increased
 * Buckshot ammo damage nerfed from 25->18
@@ -36,8 +35,9 @@ Changes made:
 * GL aquisition no longer requires AT aquisition
 * Fixed office varient spawn rates
 * LMGs now have movement inaccuracy.
+* New hidden movement screen background and battlescape pause menu background
 > Pistols
-		- M9
+	- M9
         - Browning Hi-Power
 > SMGs
         - M3 Grease gun
@@ -49,13 +49,12 @@ Changes made:
         - Ultimax 100
         - M60E6
 > Rifles
-		- AKs-74u + SOPMOD
+	- AKs-74u + SOPMOD
         - AK-74 w/ GP-25
 > Snipers
         - M1 Garand + M1D
 > Launcher
-		- M72 LAW
-
+	- M72 LAW
 
 X-May-2024 v1.0 Arsenal
 Changes made:

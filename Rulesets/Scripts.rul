@@ -765,7 +765,7 @@ extended:
       BalKnife: int #is this weapon a balistic knife
       ZevadaSwap: int #dose this weapon have flashbang rounds for the first shot
       UfopaediaAmmoNo: int #The AmmoNo thats shown for the sprite in the Ufopaedia article, make sure to set the sprite IDs to the correct sprite.
-      MovementAccuracyReduction: int #Reduce accuracy by this for every 1% missing TUs, divided by 100
+      MovementAccuracyReduction: int #Reduce accuracy by this for every 1% missing Stamina, divided by 100
     BattleGame:
       Enemies: int
       Allies: int
@@ -907,16 +907,18 @@ extended:
            return;
             
      accuracyMultiplierBonusStats:
-         - offset: 7 #LMG movement innacuracy
+         - offset: 7 #LMG movement inaccuracy 
            code: |
-            var int reductionRate; #Reduce accuracy by this for every 1% missing TUs, divided by 100
-            var int currentTU;
+            var int reductionRate; #Reduce accuracy by this for every 1% missing Stamina, divided by 100
+            var int currentTU; #Used to be TUs, now stamina
             var int maxTU;
             var int missingPercent;
 
             weapon.getTag reductionRate Tag.MovementAccuracyReduction;
-            unit.getTimeUnits currentTU;
-            unit.getTimeUnitsMax maxTU;
+            #unit.getTimeUnits currentTU;
+            #unit.getTimeUnitsMax maxTU;
+            unit.getEnergy currentTU;
+            unit.getEnergyMax maxTU;
 
             if neq reductionRate 0;
              set missingPercent 100;

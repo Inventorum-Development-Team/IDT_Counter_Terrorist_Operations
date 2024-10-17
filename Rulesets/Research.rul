@@ -948,7 +948,6 @@ research:
     dependencies:
      - STR_PRIVATE_CONTRACTORS
 
-  #Unused
   - name: STR_RANDOM_1
     needItem: true
   - name: STR_RANDOM_2
