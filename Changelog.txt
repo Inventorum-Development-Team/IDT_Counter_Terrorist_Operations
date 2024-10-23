@@ -1,60 +1,71 @@
-X-SomeMonth-2024(hopefully) v1.1 Arsenal
-Changes made:
+23-October-2024 v1.1 Arsenal
+-Major additions/changes:
+* New weapons, which are implemented in the campaign. Full list at the bottom of the change log
 * Added varied item sets to enemies, with different rarities for each weapon tier, overall balance should be the same but with more variety in enemy equipment.
-* APAV40 research added for famas
+* Flashbang ammo for KS-23
+* Flashbangs can now stack duration
+* Visual cue for flashbanged units & partially flashbanged units
+* Units now flash red when hit
+* Guns are now loaded in ufopaedia article pictures
+* LMGs now have movement inaccuracy.
+* New hidden movement screen background and battlescape pause menu background
+* Breaching tools are now no longer mutually exclusive, and spread out throughout tech tree
+* GL acquisition no longer requires AT acquisition
+* Language file support and spanish translation, By efrenespartano
+* Raider sprite now visibly shows armor
+
+-Minor additions/changes:
+* APAV40 research added for Famas
 * Implemented more weapons into campaign: Stechkin, Uzi, Dragunov, OSV-96, M24, and Negev
 * Removed Aim to Head tracks
 * Breaching Sim battle map
 * Uniform w/ NVG & Adv. NVG
 * Manufacturing option to swap from NV to Adv. NV
-* Flashbang ammo for KS-23
 * Added 100x 5.56 Beta C mag
 * Sorted item IDs, should be much easier to find things.
-* Visual cue for flashbanged units & partially flashbanged units
-* Units now flash red when hit
-* new weapons, which are implemented in the campaign
-* Flashbangs can now stack duration
-* Guns are now loaded in ufopaedia article pictures
 * Added custom battlepedia palette, fixing incorrect colors on some weapons ufopaedia sprite
 * Added new sprite for prison facility
+* Added new Double barrel sounds
+* Swapped sounds on the FMG9, MP7, P90 (SOPMOD) and Sako.
+* Added Field dressing ufopaedia article
+* Added colored damage types to ufopaedia
+* 2 new damage types (no stat changes)
+* M3 Shotgun range and accuracy increased
+* Buckshot ammo damage nerfed from 25->18
+* Operators on veteran and below now cost 100k instead of 200k
+* New ufopaedia weapon background
+
+-Bugfixes:
 * Fixed ammo placement on M60 sprite
 * HK416 w/ m320 now uses correct sprite when loaded with ammo
 * Added sprite for MSG90 w/ 10rnd mags
 * Fixed errors in ufopaedia articles
 * Fixed p226 sounds
-* Added new Double barrel sounds
-* Swapped sounds on the fmg9, mp7, p90 (sopmod) and sako.
-* Added Field dressing ufopaedia article
-* Added colored damage types to ufopaedia
-* Language file support
-* 2 new damage types (no stat changes)
-* M3 Shotgun range and accuracy increased
-* Buckshot ammo damage nerfed from 25->18
-* Operators on veterian and below now cost 100k instead of 200k
-* Breaching tools now no longer mutualy exclusive, and spread out throughout tech tree
-* GL aquisition no longer requires AT aquisition
-* Fixed office varient spawn rates
-* LMGs now have movement inaccuracy.
-* New hidden movement screen background and battlescape pause menu background
+* Fixed office variant spawn rates
+* Fixed floor sprites for terrorist leader and commander
+* Readjusted APV40 sprite to better center in box
+
+New weapons
 > Pistols
 	- M9
-        - Browning Hi-Power
+    	- Browning Hi-Power
 > SMGs
-        - M3 Grease gun
+    	- M3 Grease gun
 > LMGS
-        - FN MAG
-        - AUG HBAR
-        - MG36
-        - C7A1 LSW
-        - Ultimax 100
-        - M60E6
+    	- FN MAG
+    	- AUG HBAR
+    	- MG36
+    	- C7A1 LSW
+    	- Ultimax 100
+    	- M60E6
 > Rifles
 	- AKs-74u + SOPMOD
-        - AK-74 w/ GP-25
+    	- AK-74 w/ GP-25
 > Snipers
-        - M1 Garand + M1D
+    	- M1 Garand + M1D
 > Launcher
 	- M72 LAW
+
 
 X-May-2024 v1.0 Arsenal
 Changes made:
