@@ -181,7 +181,7 @@ es-419:
   STR_SMOKE_GRENADE_UFOPAEDIA: "Al impactar, se expande en una bola de humo que oculta a las unidades, pero no proporciona ninguna protección térmica, por lo que las unidades con equipo térmico pueden ver a través de ella."
   STR_IMPACT_GRENADE_UFOPAEDIA: "Una granada explosiva que detona al impactar, menos potente que nuestras granadas de fragmentación normales."
   STR_GRENADE_UFOPAEDIA: "Las granadas de fragmentación causan una explosión que lanza fragmentos de metal, lo que causa daño a todo lo que está a su alrededor."
-  STR_FLASHBANG_UFOPAEDIA: "Las granadas aturdidoras emiten un fuerte estruendo y producen una luz extremadamente brillante al explotar, que ciega, ensordece y desorienta a cualquiera que esté cerca. Las granadas aturdidoras reducen significativamente la precisión del objetivo y las reacciones durante un turno."
+  STR_FLASHBANG_UFOPAEDIA: "Las granadas cegadoras emiten un fuerte estruendo y producen una luz extremadamente brillante al explotar, que ciega, ensordece y desorienta a cualquiera que esté cerca. Las granadas cegadoras reducen significativamente la precisión del objetivo y las reacciones durante un turno."
   STR_RIOT_SHIELD_UFOPAEDIA: "Los escudos balísticos son escudos diseñados para detener o desviar balas. Cuando un soldado lleva un escudo balístico, cualquier bala que impacte en su frente tendrá un 85 % de probabilidad de no causar daño, esto aumenta al 95 % cuando el soldado está arrodillado."
   STR_HANDCUFFS_UFOPAEDIA: "Las esposas se pueden usar para detener a enemigos en pánico. Si tienen la moral lo suficientemente baja o han dejado caer sus armas, el uso de esposas los aturdirá."
   STR_FLARE_UFOPAEDIA: "Una bengala portátil brillante, que se puede encender y lanzar para iluminar áreas oscuras."
@@ -206,7 +206,9 @@ es-419:
   STR_MELEE_ATTACKS: "Ataques cuerpo a cuerpo"
   STR_MELEE_ATTACKS_UFOPAEDIA: "Nuestras tropas pueden usar sus pistolas o las culatas de sus rifles para atacar a un objetivo e intentar someterlo si otros medios no son adecuados para la situación. Se debe tener cuidado al usar esta táctica, ya que estos ataques pueden herir o incluso matar al objetivo."
   STR_FLASHBANG_EFFECT: "Granadas cegadoras"
-  STR_FLASHBANG_EFFECT_UFOPAEDIA: "Una unidad con granadas cegadoras completamente encendidas emitirá destellos azules y no tendrá precisión ni reacción, además de resistencia muy limitada o nula.\n\nUna unidad que emita destellos morados recibirá un destello parcial y tendrá las mismas penalizaciones que una unidad con granadas cegadoras completamente encendidas, excepto que su precisión se ajustará en función de cuánto haya recibido destellos en lugar de establecerse en 0. El daño de destello parcial va de 1 a 99, después de lo cual se convierte en un destello completo.\n\nTodas las formas de daño de granadas cegadoras se pueden acumular, lo que hace que duren más. Cada destello completo dura 1 turno, incluido un turno para cualquier destello parcial restante."
+  STR_FLASHBANG_EFFECT_UFOPAEDIA: "Una unidad con granadas cegadoras completamente encendidas emitirá destellos azules y no tendrá precisión ni reacción, además de resistencia muy limitada o nula.\n\nUna unidad que emita destellos morados recibirá un enceguecimiento parcial y tendrá las mismas penalizaciones que una unidad completamente cegada, excepto que su precisión se ajustará en función de cuánto haya sido encegecida en lugar de establecerse en 0. El daño de ceguera parcial va de 1 a 99, después de lo cual se convierte en un enceguecimiento completo.\n\nTodas las formas de daño de granadas cegadoras se pueden acumular, lo que hace que duren más. Cada enceguecimiento completo dura 1 turno, incluido un turno para cualquier ceguera parcial restante."
+  STR_LMG_ACCURACY: "Reducción de movimiento de LMGs"
+  STR_LMG_ACCURACY_UFOPAEDIA: "Las ametralladoras ligeras tienen una precisión reducida dependiendo del porcentaje de resistencia faltante que tiene la unidad.\nPara la mayoría de las ametralladoras ligeras, este es un multiplicador de precisión de -0,80% agregado por porcentaje de resistencia faltante; sin embargo, para algunas esto será diferente y aparecerá en la lista en su artículo de la Carpeta de informes."
 
   STR_COALITION: "La Coalición"
   STR_TASK_FORCE: "Fuerzas operativas"
@@ -526,7 +528,7 @@ es-419:
   STR_RANK_1: "Cabo"
   STR_RANK_2: "Sargento"
   STR_RANK_3: "Subteniente"
-  STR_RANK_4: "Primer teniente"
+  STR_RANK_4: "Teniente primero"
   STR_RANK_5: "Capitán"
 
 #Research.rul
