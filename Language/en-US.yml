@@ -42,6 +42,7 @@ en-US:
   STR_CBJMS_UFOPAEDIA: "The CBJMS is a Swedish PDW that fires the 6.5x25mm CBJ cartridge. It was designed to be able to fill the role of a PDW, Rifle, and SAW with slight modifications."
   STR_MP7_UFOPAEDIA: "Created as an answer for a NATO request for a SMG-like weapon that could defeat body armor, the H&K MP7 became the direct rival to the FN P90. It is chambered in HK 4.6x30mm, a cartridge designed specifically for the weapon. Its small size makes it easy to conceal and makes it a viable choice for a sidearm."
   STR_M3_GREASEGUN_UFOPAEDIA: "A WW2 SMG designed by the United States, notable for it's low rate of fire of 450 RPM. It was built to be lighter and cheaper to mass produce compaired the Thompson SMG that the US military had been using at that point. Modified versions of the M3 are still used today in some militaries and special forces units."
+  STR_KRISS_VECTOR_UFOPAEDIA: "WIP."
 
   STR_TAVOR_UFOPAEDIA: "The IWI Tavor was designed for the IDF as a possible replacement to the M16. The weapons design prioritizes ease of maintenance, durability and reliability. Its bullpup design makes the rifle better suited to close quarters combat than rifles of conventional design."
   STR_TAVOR_95X_UFOPAEDIA: "The IWI Tavor 95X is a variant of the Tavor that improved on the issues of the original design. The Israeli Defence Force chose the rifle as its standard infantry weapon in 2009."
@@ -819,6 +820,7 @@ en-US:
   STR_FMG9: "FMG 9"
   STR_CBJMS: "CBJ-MS"
   STR_M3_GREASEGUN: "M3A1 Grease Gun"
+  STR_KRISS_VECTOR: "Kriss Vector"
 
   STR_TAVOR: "IWI Tavor"
   STR_TAVOR_M203: "IWI Tavor (M203)"

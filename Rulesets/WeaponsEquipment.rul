@@ -3419,8 +3419,62 @@ items:
         tuUnload: 15
     listOrder: 71010
 
-###### RIFLES ########
+  - type: STR_KRISS_VECTOR #Stats WIP!
+    #requiresBuy:
+        #- STR_SKORPIONEVO_ACQUISITION 
+    categories: [ STR_FIREARMS, STR_SMGS ]
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 5200
+    floorSprite: 5200
+    handSprite: 5200
+    reloadSound: 171 #NEEDS NEW SOUND
+    fireSound: 175 #NEEDS NEW SOUND
+    #costBuy: 25000
+    costSell: 12500
+    accuracyAimed: 30
+    accuracySnap: 50
+    accuracyAuto: 30
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 80
+    maxRange: 35
+    minRange: 0
+    aimRange: 8
+    snapRange: 10
+    autoRange: 3
+    kneelBonus: 115
+    refNode: *STR_SMG
+    tuAimed: 20
+    tuSnap: 15
+    tuAuto: 25
+    invWidth: 1
+    invHeight: 3
+    bulletSpeed: 2
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_45_ACP_X25
+          ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 71020
 
+##############################################################################################
+###### RIFLES ################################################################################
+##############################################################################################
   - type: STR_TAVOR
     categories: [ STR_FIREARMS, STR_RIFLES ]
     requiresBuy:
@@ -8165,6 +8219,13 @@ extraSprites:
       #5168: Resources/BallisticWeapons/LMGs/BigM60E6.png
       #5176: Resources/BallisticWeapons/LMGs/BigM60E6.png
       #5184: Resources/BallisticWeapons/LMGs/BigM60E6.png
+      5192: Resources/BallisticWeapons/SMGs/BigKrissVectornomag.png
+      5200: Resources/BallisticWeapons/SMGs/BigKrissVector.png
+      #5208: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      #5216:
+      #5224: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      #5232: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      #5240: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8677,6 +8738,13 @@ extraSprites:
       #5168: Resources/BallisticWeapons/LMGs/FloorM60E6.png
       #5176: Resources/BallisticWeapons/LMGs/FloorM60E6.png
       #5184: Resources/BallisticWeapons/LMGs/FloorM60E6.png
+      5192: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      5200: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      #5208: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      #5216:
+      #5224: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      #5232: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      #5240: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
 
 ####################HAND SPRITES##############################################################################
   - type: HANDOB.PCK
@@ -9193,6 +9261,13 @@ extraSprites:
       #5168: Resources/BallisticWeapons/LMGs/HandM60E6.png
       #5176: Resources/BallisticWeapons/LMGs/HandM60E6.png
       #5184: Resources/BallisticWeapons/LMGs/HandM60E6.png
+      5192: Resources/BallisticWeapons/SMGs/HandKrissVector.png
+      5200: Resources/BallisticWeapons/SMGs/HandKrissVector.png
+      #5208: Resources/BallisticWeapons/SMGs/HandKrissVector.png
+      #5216:
+      #5224: Resources/BallisticWeapons/SMGs/HandKrissVector.png
+      #5232: Resources/BallisticWeapons/SMGs/HandKrissVector.png
+      #5240: Resources/BallisticWeapons/SMGs/HandKrissVector.png
 
   # - type: SMOKE.PCK
   #   height: 80

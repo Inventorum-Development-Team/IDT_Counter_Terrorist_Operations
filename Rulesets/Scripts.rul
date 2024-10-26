@@ -352,6 +352,10 @@ items:
      FoldStock: 1
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+  - type: STR_KRISS_VECTOR #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
 
   - type: STR_TAVOR #ignoreDuplicate
     tags:

@@ -471,6 +471,13 @@ ufopaedia:
     section: STR_SMGS
     listOrder: 313
 
+  - id: STR_KRISS_VECTOR
+    type_id: 4
+    text: STR_KRISS_VECTOR_UFOPAEDIA
+    section: STR_SMGS
+    listOrder: 314
+
+
 
   #Rifles
   - id: STR_TAVOR
