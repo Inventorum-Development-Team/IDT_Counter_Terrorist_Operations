@@ -1052,38 +1052,52 @@ items:
     costBuy: 3000
     requiresBuy:
       - STR_BACKPACK_ACQUISITION
+    listOrder: 319000
   - type: STR_DEFAULT_BACKPACK_NV
     size: 1
+    listOrder: 319001
   - type: STR_DEFAULT_BACKPACK_ADVNV
     size: 1
+    listOrder: 319002
   - type: STR_DEFAULT_KEVLAR
     size: 1
     costBuy: 30000
     requiresBuy:
       - STR_ARMORED_VEST_ACQUISITION
+    listOrder: 319010
   - type: STR_DEFAULT_KEVLAR_BACKPACK
     size: 1
+    listOrder: 319011
   - type: STR_DEFAULT_KEVLAR_NV
     size: 1
+    listOrder: 319012
   - type: STR_DEFAULT_KEVLAR_RIOT
     size: 1
+    listOrder: 319014
   - type: STR_DEFAULT_KEVLAR_RIOT_BACKPACK
     size: 1
+    listOrder: 319017
   - type: STR_DEFAULT_KEVLAR_BACKPACK_NV
     size: 1
+    listOrder: 319015
   - type: STR_DEFAULT_KEVLAR_ADVNV
     size: 1
+    listOrder: 319013
   - type: STR_DEFAULT_KEVLAR_BACKPACK_ADVNV
     size: 1
+    listOrder: 319016
   - type: STR_HEAVY
     size: 1
     costBuy: 50000
     requiresBuy:
       - STR_HEAVY_VEST_ACQUISITION
+    listOrder: 319020
   - type: STR_HEAVY_NV
     size: 1
+    listOrder: 319021
   - type: STR_HEAVY_ADVNV
     size: 1
+    listOrder: 319022
 
   - type: STR_CORPSE_DEFAULT
     name: STR_CORPSE

@@ -59,6 +59,7 @@ items:
   - delete: REAPER_WEAPON
   - delete: ZOMBIE_WEAPON
   - delete: CYBERDISC_WEAPON
+  - delete: SILACOID_WEAPON
   - delete: STR_SECTOID_CORPSE
   - delete: STR_SNAKEMAN_CORPSE
   - delete: STR_ETHEREAL_CORPSE
@@ -132,6 +133,9 @@ items:
   - delete: STR_REAPER_TERRORIST
   - delete: STR_SECTOPOD_TERRORIST
   - delete: STR_CYBERDISC_TERRORIST
+  - delete: STR_ELERIUM_115
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_BEAM
 
 
 ########################################################################################################################
@@ -147,6 +151,7 @@ research:
   - delete: STR_PLASMA_RIFLE
   - delete: STR_PLASMA_RIFLE_CLIP
   - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
   - delete: STR_BLASTER_LAUNCHER
   - delete: STR_BLASTER_BOMB
   - delete: STR_SMALL_LAUNCHER
@@ -528,6 +533,7 @@ craftWeapons:
   - delete: STR_STINGRAY
   - delete: STR_AVALANCHE
   - delete: STR_CANNON_UC
+  - delete: STR_LASER_CANNON_UC
   - delete: STR_PLASMA_BEAM_UC
   - delete: STR_FUSION_BALL_UC
 

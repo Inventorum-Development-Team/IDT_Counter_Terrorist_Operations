@@ -632,6 +632,10 @@ items:
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+  - type: STR_UBS #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: -303
   
   - type: STR_M60 #ignoreDuplicate
     tags:

@@ -6,6 +6,8 @@ items:
      - STR_SCOPE_ACQUISITION
     size: 0.1
     bigSprite: 2800
+    listOrder: 318000
+
   - type: STR_SOPMOD_KIT
     costBuy: 6000
     costSell: 3000
@@ -13,6 +15,8 @@ items:
      - STR_SOPMOD_ACQUISITION
     size: 0.1
     bigSprite: 2832
+    listOrder: 318001
+
   - type: STR_CBJ_SAW_KIT 
     costBuy: 5000
     costSell: 2500
@@ -20,6 +24,8 @@ items:
      - STR_CBJ_SAWKIT_ACQUISITION
     size: 0.1
     bigSprite: 4416
+    listOrder: 318010
+
   - type: STR_M203
     costBuy: 15000
     costSell: 7500
@@ -27,6 +33,8 @@ items:
      - STR_M203_ACQUISITION
     size: 0.1
     bigSprite: 2816
+    listOrder: 318020
+
   - type: STR_FN40GL
     costBuy: 20000
     costSell: 10000
@@ -34,13 +42,8 @@ items:
      - STR_FN40GL_ACQUISITION
     size: 0.1
     bigSprite: 2808
-  - type: STR_UBS
-    costBuy: 18000
-    costSell: 9000
-    requiresBuy:
-     - STR_UBS_ACQUISITION
-    size: 0.1
-    bigSprite: 2824
+    listOrder: 318021
+
   - type: STR_STOCK
     costBuy: 5000
     costSell: 2500
@@ -49,24 +52,31 @@ items:
     size: 0.1
     invWidth: 2
     bigSprite: 2840
+    listOrder: 318030
+
   - type: STR_NV
     costBuy: 15000
     costSell: 7500
     requiresBuy:
      - STR_NIGHT_VISION
     size: 0.1
+    listOrder: 318040
+
   - type: STR_ADVNV
     costBuy: 25000
     costSell: 12500
     requiresBuy:
      - STR_ADV_NIGHTVISION
     size: 0.1
+    listOrder: 318041
+
   - type: STR_RIOT_ARMOR_PLATES
     costBuy: 15000
     costSell: 7500
     requiresBuy:
      - STR_RIOT_GEAR
     size: 0.1
+    listOrder: 318042
 
 
 manufacture:

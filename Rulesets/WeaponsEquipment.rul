@@ -3,7 +3,7 @@
 #  000000
 #  ^^ammo type
 #    ^Catagory -> |weapons 9 = ammo, 0 = pistol, 1 = smg, 2 = rifle, 3 = sniper, 4 = shotgun, 5 = LMG, 6 = explosives
-#     ^^weapon    |Items   9 = ????,  0 = Melee, 1 = Other, 3 = ?????, 3 = medical, 4 = Breaching, 5 = Tactical nades, 6 = Explosives
+#     ^^weapon    |Items   9 = Armor,  0 = Melee, 1 = Other, 3 = ?????, 3 = medical, 4 = Breaching, 5 = Tactical nades, 6 = Explosives, 7=???, 8 = Geoscape items
 #       ^ varient
 #
 # for example the M16 (Scoped) is
@@ -46,7 +46,7 @@
 # 28 RPG 29 rocket
 # 29 VOG-25/varients
 # 30 Balistic knife
-# 31 other
+# 31 Other
 
 items:
   - &STR_RIFLE_MELEE
@@ -6525,6 +6525,42 @@ items:
         tuUnload: 20
     listOrder: 224080
 
+  - type: STR_UBS #MASS shotgun
+    categories: [ STR_FIREARMS, STR_SHOTGUNS ]
+    requiresBuy:
+      - STR_UBS_ACQUISITION
+    costBuy: 18000
+    costSell: 9000
+    battleType: 1
+    size: 1
+    weight: 8
+    bigSprite: 2824
+    floorSprite: 2824
+    handSprite: 2824
+    reloadSound: 200
+    fireSound: 201
+    invWidth: 1
+    invHeight: 2
+    accuracySnap: 50
+    tuSnap: 30
+    kneelBonus: 115
+    snapRange: 7
+    maxRange: 30
+    minRange: 0
+    shotgunBehavior: 1
+    shotgunChoke: 0
+    blockBothHands: true
+    twoHanded: true
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_12G_BUCKSHOT_X5
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 224090
+
 ###### LMGS ########
 
   - type: STR_M60
@@ -7915,7 +7951,7 @@ extraSprites:
       2800: Resources/BallisticWeapons/WeaponMods/BigColtScopeAccessory.png
       2808: Resources/BallisticWeapons/WeaponMods/BigFN40GL.png
       2816: Resources/BallisticWeapons/WeaponMods/BigM203Accessory.png
-      2824: Resources/BallisticWeapons/WeaponMods/MASS.png
+      2824: Resources/BallisticWeapons/WeaponMods/BigMASSUfopaedia.png
       2832: Resources/BallisticWeapons/WeaponMods/SOPMOD.png
       2840: Resources/BallisticWeapons/WeaponMods/Stock.png 
       3200: Resources/BallisticWeapons/Ammo/BigTaserClip.png
@@ -8173,6 +8209,8 @@ extraSprites:
       #5224: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
       #5232: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
       #5240: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      5248: Resources/BallisticWeapons/Shotguns/BigMASSnomag.png
+      5256: Resources/BallisticWeapons/Shotguns/BigMASS.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8444,6 +8482,7 @@ extraSprites:
       #      2548: Resources/BallisticWeapons/Explosives/FloorMolotov.png
       2564: Resources/BallisticWeapons/Equipment/FloorFlare.png
       2572: Resources/BallisticWeapons/Equipment/FloorFlarelit.png
+      2824: Resources/BallisticWeapons/Ammo/Floor.png #m26 MASS temp so game dosent crash
       3200: Resources/BallisticWeapons/Ammo/Floor.png
       3208: Resources/BallisticWeapons/Ammo/Floor.png
       3216: Resources/BallisticWeapons/Ammo/Floor.png
@@ -8692,6 +8731,8 @@ extraSprites:
       #5224: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
       #5232: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
       #5240: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
+      5248: Resources/BallisticWeapons/Shotguns/FloorMASS.png
+      5256: Resources/BallisticWeapons/Shotguns/FloorMASS.png
 
 ####################HAND SPRITES##############################################################################
   - type: HANDOB.PCK
@@ -8967,6 +9008,7 @@ extraSprites:
       #      2548: Resources/BallisticWeapons/Explosives/HandMolotov.png
       2564: Resources/BallisticWeapons/Equipment/HandFlare.png
       2572: Resources/BallisticWeapons/Equipment/HandFlare.png
+      2824: Resources/BallisticWeapons/Ammo/HandAmmo.png #m26 MASS temp so game dosent crash
       3200: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3208: Resources/BallisticWeapons/Ammo/HandAmmo.png
       3216: Resources/BallisticWeapons/Ammo/HandAmmo.png
@@ -9215,6 +9257,8 @@ extraSprites:
       #5224: Resources/BallisticWeapons/SMGs/HandKrissVector.png
       #5232: Resources/BallisticWeapons/SMGs/HandKrissVector.png
       #5240: Resources/BallisticWeapons/SMGs/HandKrissVector.png
+      5248: Resources/BallisticWeapons/Shotguns/HandMASS.png
+      5256: Resources/BallisticWeapons/Shotguns/HandMASS.png
 
   # - type: SMOKE.PCK
   #   height: 80

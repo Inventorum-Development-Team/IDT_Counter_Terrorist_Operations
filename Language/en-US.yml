@@ -169,10 +169,10 @@ en-US:
   STR_BALISTIC_KNIFE_AMMO_UFOPAEDIA: "Blade launched as a projectile for the Ballistic Knife. You could probably still stab someone with this, although it might be a bit more cumbersome then just using it in the knife."
 
   STR_SCOPE_UFOPAEDIA: "A telescopic sight capable of being attached onto a rifle, improving long range accuracy while slightly inhibiting accuracy of automatic fire."
-  STR_SOPMOD_KIT_UFOPAEDIA: "The Special Operations Peculiar Modification kit is a collection of accessories capable to e attached to the M4, SCAR, HK416 and other weapons used by US Special Forces Command. The kit contains scopes, suppressors, and several foregrips to improve accuracy and ease handling."
+  STR_SOPMOD_KIT_UFOPAEDIA: "The Special Operations Peculiar Modification kit is a collection of accessories capable to be attached to the M4, SCAR, HK416 and other weapons used by US Special Forces Command. The kit contains scopes, suppressors, and several foregrips to improve accuracy and ease handling."
   STR_M203_UFOPAEDIA: "A single shot grenade launcher introduced into the american military during the late Vietnam war. Originally designed to attach under the barrel of the M16 rifle, it has been adapted to fit into a multitude of other rifles."
   STR_FN40GL_UFOPAEDIA: "The FN40GL is a 40mm grenade launcher that can be attached under the barrel of the FN SCAR rifle."
-  STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted  onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon."
+  STR_UBS_UFOPAEDIA: "The M26 Modular Accessory Shotgun System (MASS) is a shotgun that can be mounted onto the handguard of a rifle. Designed to improve the CQC capability of a soldier without requiring them to carry an additional weapon.\nIt can also be configured for standalone use if needed."
   STR_STOCK_UFOPAEDIA: "Stocks may be attached onto automatic pistols to increase the operators ability to control the recoil. However attaching a stock will make the firearm too large to fit into a holster."
   STR_GP25_UFOPAEDIA: "A under-barrel muzzel loaded grenade launcher designed by the USSR during the cold war for AK pattern rifles. The grenades it fires are caseless, and do not need to be extracted after fireing."
 
@@ -473,7 +473,7 @@ en-US:
   STR_SOPMOD_KIT: "SOPMOD kit"
   STR_M203: "M203"
   STR_FN40GL: "FN40GL"
-  STR_UBS: "Modular Accessory Shotgun System"
+  STR_UBS: "M26 MASS"
   STR_STOCK: "Pistol Stock"
   STR_CBJ_SAW_KIT: "CBJ-MS SAW Kit"
 
@@ -874,7 +874,7 @@ en-US:
   STR_M14_EBR: "M14 EBR"
   STR_M14_EBR_SCOPED: "M14 EBR (Scoped)"
   STR_AKS_74U: "AKs-74u"
-  STR_AKS_74U_SOPMOD: "AKs-74u (SOPMOD)"
+  STR_AKS_74U_SOPMOD: "AKs-74u (TACMOD)"
   STR_AK_74_GP25: "AK-74 (GP-25)"
 
   STR_HUNTING_RIFLE: "Hunting Rifle"
