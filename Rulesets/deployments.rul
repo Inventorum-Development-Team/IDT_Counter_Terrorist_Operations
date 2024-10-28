@@ -1,5 +1,4 @@
 items:
-
   - type: STR_HOUSE_EVIDENCE
     size: 0.1
     costSell: 30000
@@ -20,19 +19,6 @@ startingConditions:
       - STR_GMC_VAN_MEDIUM
 
 alienDeployments:
-  - delete: STR_SMALL_SCOUT
-  - delete: STR_MEDIUM_SCOUT
-  - delete: STR_LARGE_SCOUT
-  - delete: STR_HARVESTER
-  - delete: STR_ABDUCTOR
-  - delete: STR_TERROR_SHIP
-  - delete: STR_BATTLESHIP
-  - delete: STR_SUPPLY_SHIP
-  - delete: STR_TERROR_MISSION
-  - delete: STR_ALIEN_BASE_ASSAULT
-  - delete: STR_BASE_DEFENCE
-  - delete: STR_MARS_CYDONIA_LANDING
-  - delete: STR_MARS_THE_FINAL_ASSAULT
 
   - type: TERRORIST_ATTACK_EAST_EU
     width: 30

@@ -2,21 +2,8 @@
 regions:
 
 ##BEGIN DELETE
-  - delete: STR_NORTH_AMERICA
-  - delete: STR_ARCTIC
-  - delete: STR_ANTARCTICA
-  - delete: STR_SOUTH_AMERICA
-  - delete: STR_EUROPE
-  - delete: STR_NORTH_AFRICA
-  - delete: STR_SOUTHERN_AFRICA
-  - delete: STR_CENTRAL_ASIA
-  - delete: STR_SOUTH_EAST_ASIA
-  - delete: STR_SIBERIA
-  - delete: STR_AUSTRALASIA
-  - delete: STR_PACIFIC
-  - delete: STR_NORTH_ATLANTIC
-  - delete: STR_SOUTH_ATLANTIC
-  - delete: STR_INDIAN_OCEAN
+#Deletes moved to itemDelete.rul
+
 ##END DELETE
 
 ##BEGIN NORTH AMERICA

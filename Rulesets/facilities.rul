@@ -6,19 +6,6 @@ extraSprites:
       55: Resources/BaseFacilities/Prison.png
 
 facilities:
-
-  - delete: STR_SMALL_RADAR_SYSTEM
-  - delete: STR_LARGE_RADAR_SYSTEM
-  - delete: STR_MISSILE_DEFENSES
-  - delete: STR_LASER_DEFENSES
-  - delete: STR_PLASMA_DEFENSES
-  - delete: STR_FUSION_BALL_DEFENSES
-  - delete: STR_HYPER_WAVE_DECODER
-  - delete: STR_MIND_SHIELD
-  - delete: STR_GRAV_SHIELD
-  - delete: STR_PSIONIC_LABORATORY
-
-
   - type: STR_LIVING_QUARTERS
     buildCost: 400000
     buildTime: 16

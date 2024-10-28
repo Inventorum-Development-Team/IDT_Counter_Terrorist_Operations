@@ -1009,15 +1009,15 @@ units:
     builtInWeaponSets:
            #Common
            - 
-             - STR_SKORPION
-             - STR_9MM_MAKAROV_X30
-             - STR_9MM_MAKAROV_X20
-           - 
              - STR_AKS_74U
              - STR_5_45_X45
              - STR_5_45_X30
            - 
-             - STR_AKS_74U
+             - STR_AKS_74U_SOPMOD
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AKS_74U_SOPMOD
              - STR_5_45_X45
              - STR_5_45_X30
            #Uncommon
@@ -1026,26 +1026,29 @@ units:
              - STR_9MM_MAKAROV_X20
              - STR_9MM_MAKAROV_X20
            - 
-             - STR_AK_74
+             - STR_AK_74_GP25
              - STR_5_45_X45
              - STR_5_45_X30
+             - STR_GRD50 #smoke
            - 
-             - STR_AK_74
+             - STR_AK_74_GP25
              - STR_5_45_X45
              - STR_5_45_X30
+             - STR_VOG25 #frag
            #Rare
            - 
-             - STR_SKORPION
-             - STR_9MM_MAKAROV_X30
-             - STR_9MM_MAKAROV_X20
-           - 
              - STR_GLOCK_17
              - STR_9MM_PARABELLUM_X30
              - STR_9MM_PARABELLUM_X30
            - 
-             - STR_GLOCK_17
-             - STR_9MM_PARABELLUM_X30
-             - STR_9MM_PARABELLUM_X30
+             - STR_AK_74_GP25
+             - STR_5_45_X45
+             - STR_5_45_X30
+             - STR_VOG25 #frag
+           - 
+             - STR_VEKTOR
+             - STR_9MM_GYURZA_X20
+             - STR_9MM_GYURZA_X20
 
   - type: STR_TERRORIST_SAW_EAST_EU
     race: STR_TERRORISTS_EAST_EU
@@ -1666,9 +1669,9 @@ units:
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_KRISS_VECTOR
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
            #Uncommon
            - 
              - STR_SCAR_L
@@ -1679,10 +1682,9 @@ units:
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_DEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
-             - STR_50_AE_X7
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
            #Rare
            - 
              - STR_FX_05
@@ -1728,11 +1730,11 @@ units:
              - STR_40MM_SMOKE_X1
              - STR_40MM_SMOKE_X1
            - 
-             - STR_M4_M320
+             - STR_M4_UBS
              - STR_5_56_X30
              - STR_5_56_X30
-             - STR_40MM_SMOKE_X1
-             - STR_40MM_SMOKE_X1
+             - STR_12G_BUCKSHOT_X5
+             - STR_12G_BUCKSHOT_X5
            #Rare
            - 
              - STR_DEAGLE
@@ -1743,11 +1745,9 @@ units:
              - STR_50_AE_X7
              - STR_50_AE_X7
            - 
-             - STR_M4_UBS
-             - STR_5_56_X30
-             - STR_5_56_X30
-             - STR_12G_BUCKSHOT_X5
-             - STR_12G_BUCKSHOT_X5
+             - STR_DEAGLE
+             - STR_50_AE_X7
+             - STR_50_AE_X7
 
   - type: STR_TERRORIST_SAW_USA
     race: STR_TERRORISTS_USA
@@ -2690,18 +2690,18 @@ units:
              - STR_9MM_PARABELLUM_X40
              - STR_9MM_PARABELLUM_X40
           - 
-             - STR_DEAGLE
-             - STR_50_AE_X7
-             - STR_50_AE_X7
+             - STR_KRISS_VECTOR
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
           #Rare
           - 
              - STR_M4_SOPMOD
              - STR_5_56_X30
              - STR_5_56_X30
           - 
-             - STR_SKORPIONEVO
-             - STR_9MM_PARABELLUM_X40
-             - STR_9MM_PARABELLUM_X40
+             - STR_KRISS_VECTOR
+             - STR_45_ACP_X25
+             - STR_45_ACP_X25
           - 
              - STR_GOLDDEAGLE
              - STR_50_AE_X7

@@ -1,11 +1,7 @@
 invs:
-  - delete: STR_LEFT_LEG
-  - delete: STR_LEFT_SHOULDER
-  - delete: STR_RIGHT_LEG
-  - delete: STR_RIGHT_SHOULDER
   - id: STR_GROUND
     costs:
-      STR_QD_SLOT: 20
+      STR_QD_SLOT: 19
       STR_BACK_PACK: 20
       STR_BELT: 18
       STR_LEFT_HAND: 14
@@ -54,11 +50,7 @@ invs:
       STR_BELT: 8
       STR_GROUND: 5
       STR_LEFT_HAND: 3
-      STR_LEFT_LEG: 10
-      STR_LEFT_SHOULDER: 10
       STR_RIGHT_HAND: 3
-      STR_RIGHT_LEG: 10
-      STR_RIGHT_SHOULDER: 10
 
 items:
   - type: STR_NO_BACKPACK

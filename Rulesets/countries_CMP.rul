@@ -2,23 +2,7 @@
 countries:
 
 #BEGIN DELETE
-  - delete: STR_USA
-  - delete: STR_RUSSIA
-  - delete: STR_UK
-  - delete: STR_FRANCE
-  - delete: STR_GERMANY
-  - delete: STR_ITALY
-  - delete: STR_SPAIN
-  - delete: STR_CHINA
-  - delete: STR_JAPAN
-  - delete: STR_INDIA
-  - delete: STR_BRAZIL
-  - delete: STR_AUSTRALIA
-  - delete: STR_NIGERIA
-  - delete: STR_SOUTH_AFRICA
-  - delete: STR_EGYPT
-  - delete: STR_CANADA
-#BEGIN DELETE
+#Deletes moved to itemDelete.rul
 
 #BEGIN USA
   - type: STR_USA

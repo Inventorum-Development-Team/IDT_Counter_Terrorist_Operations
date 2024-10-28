@@ -49,59 +49,6 @@
 # 31 other
 
 items:
-  - delete: STR_STINGRAY_LAUNCHER
-  - delete: STR_STINGRAY_MISSILES
-  - delete: STR_AVALANCHE_LAUNCHER
-  - delete: STR_AVALANCHE_MISSILES
-  - delete: STR_CANNON
-  - delete: STR_CANNON_ROUNDS_X50
-  - delete: STR_TANK_CANNON
-  - delete: STR_TANK_ROCKET_LAUNCHER
-  - delete: STR_INTERCEPTOR
-  - delete: STR_SKYRANGER
-  - delete: STR_PISTOL
-  - delete: STR_PISTOL_CLIP
-  - delete: STR_RIFLE
-  - delete: STR_RIFLE_CLIP
-  - delete: STR_HEAVY_CANNON
-  - delete: STR_HC_AP_AMMO
-  - delete: STR_HC_I_AMMO
-  - delete: STR_HC_HE_AMMO
-  - delete: STR_AUTO_CANNON
-  - delete: STR_AC_AP_AMMO
-  - delete: STR_AC_I_AMMO
-  - delete: STR_AC_HE_AMMO
-  - delete: STR_ROCKET_LAUNCHER
-  - delete: STR_SMALL_ROCKET
-  - delete: STR_LARGE_ROCKET
-  - delete: STR_INCENDIARY_ROCKET
-  - delete: STR_HWP_CANNON_SHELLS
-  - delete: STR_HWP_ROCKETS
-  - delete: STR_MIND_PROBE
-  - delete: STR_LASER_PISTOL
-  - delete: STR_LASER_RIFLE
-  - delete: STR_HEAVY_LASER
-  - delete: STR_MOTION_SCANNER
-  - delete: STR_MEDI_KIT
-  - delete: STR_PSI_AMP
-  - delete: STR_STUN_ROD
-  - delete: STR_HEAVY_PLASMA
-  - delete: STR_HEAVY_PLASMA_CLIP
-  - delete: STR_PLASMA_RIFLE
-  - delete: STR_PLASMA_RIFLE_CLIP
-  - delete: STR_PLASMA_PISTOL
-  - delete: STR_PLASMA_PISTOL_CLIP
-  - delete: STR_BLASTER_LAUNCHER
-  - delete: STR_BLASTER_BOMB
-  - delete: STR_SMALL_LAUNCHER
-  - delete: STR_STUN_BOMB
-  - delete: STR_ALIEN_GRENADE
-  - delete: STR_MOTION_SCANNER
-  - delete: STR_PROXIMITY_GRENADE
-  - delete: STR_HOVERTANK_PLASMA
-  - delete: STR_HOVERTANK_LAUNCHER
-  - delete: STR_TANK_LASER_CANNON
-
   - &STR_RIFLE_MELEE
     type: STR_RIFLE_MELEE
     battleType: 1
@@ -3422,31 +3369,31 @@ items:
   - type: STR_KRISS_VECTOR #Stats WIP!
     #requiresBuy:
         #- STR_SKORPIONEVO_ACQUISITION 
-    categories: [ STR_FIREARMS, STR_SMGS ]
+    categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
     size: 1
-    weight: 22
+    weight: 26
     # battleType: 1
     bigSprite: 5200
     floorSprite: 5200
     handSprite: 5200
-    reloadSound: 171 #NEEDS NEW SOUND
-    fireSound: 175 #NEEDS NEW SOUND
+    reloadSound: 231
+    fireSound: 233
     #costBuy: 25000
     costSell: 12500
     accuracyAimed: 30
-    accuracySnap: 50
-    accuracyAuto: 30
+    accuracySnap: 40
+    accuracyAuto: 20
     blockBothHands: false
     twoHanded: true
     oneHandedPenalty: 80
-    maxRange: 35
+    maxRange: 20
     minRange: 0
-    aimRange: 8
-    snapRange: 10
-    autoRange: 3
+    aimRange: 6
+    snapRange: 9
+    autoRange: 4
     kneelBonus: 115
     refNode: *STR_SMG
-    tuAimed: 20
+    tuAimed: 25
     tuSnap: 15
     tuAuto: 25
     invWidth: 1
