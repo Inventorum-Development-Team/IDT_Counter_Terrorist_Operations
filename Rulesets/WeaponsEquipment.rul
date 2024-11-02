@@ -2244,6 +2244,7 @@ items:
     handSprite: 3344
     reloadSound: 133
     fireSound: 134
+    costSell: 8500
     accuracyAimed: 45
     accuracySnap: 45
     accuracyAuto: 40
@@ -2952,8 +2953,7 @@ items:
     handSprite: 4536
     reloadSound: 185
     fireSound: 187
-    #costBuy: 18000
-    #costSell: 9000
+    costSell: 12000
     accuracyAimed: 70 #55
     accuracySnap: 60  #60
     accuracyAuto: 45  #45
@@ -3367,8 +3367,6 @@ items:
     listOrder: 71010
 
   - type: STR_KRISS_VECTOR #Stats WIP!
-    #requiresBuy:
-        #- STR_SKORPIONEVO_ACQUISITION 
     categories: [ STR_FIREARMS, STR_SMGS, STR_SEIZED ]
     size: 1
     weight: 26
@@ -3472,6 +3470,7 @@ items:
     handSprite: 960
     reloadSound: 227
     fireSound: 228
+    costSell: 22500
     accuracyAimed: 50
     accuracySnap: 60
     accuracyAuto: 40
@@ -3526,6 +3525,7 @@ items:
     handSprite: 976
     reloadSound: 227
     fireSound: 228
+    costSell: 17000
     accuracyAimed: 70
     accuracySnap: 55
     accuracyAuto: 50
@@ -3601,6 +3601,7 @@ items:
     handSprite: 1008
     reloadSound: 227
     fireSound: 228
+    costSell: 22000
     accuracyAimed: 80
     accuracySnap: 60
     accuracyAuto: 50
@@ -3722,6 +3723,7 @@ items:
     handSprite: 1056
     reloadSound: 152
     fireSound: 153
+    costSell: 25750
     accuracyAimed: 70
     accuracySnap: 65
     accuracyAuto: 50
@@ -3776,6 +3778,7 @@ items:
     handSprite: 1088
     reloadSound: 152
     fireSound: 153
+    costSell: 25000
     accuracyAimed: 70
     accuracySnap: 65
     accuracyAuto: 50
@@ -3866,6 +3869,7 @@ items:
     handSprite: 1120
     reloadSound: 152
     fireSound: 154
+    costSell: 19000
     accuracyAimed: 95
     accuracySnap: 65
     accuracyAuto: 50
@@ -3902,6 +3906,7 @@ items:
     handSprite: 1136
     reloadSound: 152
     fireSound: 153
+    costSell: 25750
     accuracyAimed: 75
     accuracySnap: 65
     accuracyAuto: 50
@@ -3956,6 +3961,7 @@ items:
     handSprite: 1168
     reloadSound: 152
     fireSound: 153
+    costSell: 25000
     accuracyAimed: 75
     accuracySnap: 65
     accuracyAuto: 50
@@ -4037,6 +4043,7 @@ items:
     handSprite: 1216
     reloadSound: 245
     fireSound: 246
+    costSell: 16000
     accuracyAimed: 80
     accuracySnap: 65
     accuracyAuto: 35
@@ -4117,6 +4124,7 @@ items:
     handSprite: 1280
     reloadSound: 245
     fireSound: 246
+    costSell: 17500
     accuracyAimed: 85
     accuracySnap: 65
     accuracyAuto: 30
@@ -4199,6 +4207,7 @@ items:
     handSprite: 3560
     reloadSound: 125
     fireSound: 126
+    costSell: 16000
     accuracyAimed: 75
     accuracySnap: 40
     accuracyAuto: 35
@@ -4275,6 +4284,7 @@ items:
     handSprite: 3584
     reloadSound: 136
     fireSound: 137
+    costSell: 25250
     accuracyAimed: 80
     accuracySnap: 60
     accuracyAuto: 45
@@ -4400,6 +4410,7 @@ items:
     handSprite: 1328
     reloadSound: 139
     fireSound: 138
+    costSell: 20500
     accuracyAimed: 90
     accuracySnap: 65
     accuracyAuto: 50
@@ -4436,6 +4447,7 @@ items:
     handSprite: 1344
     reloadSound: 139
     fireSound: 140
+    costSell: 27250
     accuracyAimed: 70
     accuracySnap: 65
     accuracyAuto: 50
@@ -4481,6 +4493,7 @@ items:
     handSprite: 1376
     reloadSound: 139
     fireSound: 140
+    costSell: 26500
     accuracyAimed: 70
     accuracySnap: 65
     accuracyAuto: 50
@@ -4563,6 +4576,7 @@ items:
     handSprite: 3648
     reloadSound: 139
     fireSound: 138
+    costSell: 21500
     accuracyAimed: 100
     accuracySnap: 60
     accuracyAuto: 30
@@ -4638,6 +4652,7 @@ items:
     handSprite: 1408
     reloadSound: 136
     fireSound: 137
+    costSell: 10750
     accuracyAimed: 75
     accuracySnap: 55
     accuracyAuto: 30
@@ -4676,7 +4691,7 @@ items:
     reloadSound: 211
     fireSound: 212
     costBuy: 38000
-    costSell: 14000
+    costSell: 19000
     accuracyAimed: 80
     accuracySnap: 70
     accuracyAuto: 50
@@ -4713,6 +4728,7 @@ items:
     handSprite: 1440
     reloadSound: 211
     fireSound: 213
+    costSell: 22000
     accuracyAimed: 100
     accuracySnap: 70
     accuracyAuto: 50
@@ -4749,6 +4765,7 @@ items:
     handSprite: 1456
     reloadSound: 211
     fireSound: 212
+    costSell: 29000
     accuracyAimed: 80
     accuracySnap: 70
     accuracyAuto: 45
@@ -4833,6 +4850,7 @@ items:
     handSprite: 2064
     reloadSound: 209
     fireSound: 213
+    costSell: 23500
     accuracyAimed: 105
     accuracySnap: 75
     accuracyAuto: 45
@@ -4869,6 +4887,7 @@ items:
     handSprite: 2096
     reloadSound: 209
     fireSound: 210
+    costSell: 30500
     accuracyAimed: 85
     accuracySnap: 75
     accuracyAuto: 45
@@ -4995,6 +5014,7 @@ items:
     handSprite: 1568
     reloadSound: 130
     fireSound: 131
+    costSell: 22500
     accuracyAimed: 30
     accuracySnap: 60
     accuracyAuto: 10
@@ -5071,7 +5091,7 @@ items:
     handSprite: 4040
     reloadSound: 113
     fireSound: 114
-    # costSell: 10000
+    costSell: 8000
     accuracyAimed: 90
     accuracySnap: 50
     accuracyAuto: 60
@@ -5107,8 +5127,7 @@ items:
     handSprite: 4056
     reloadSound: 113
     fireSound: 114
-    # costSell: 13500
-    # costSell: 13000
+    costSell: 13500
     accuracyAimed: 40
     accuracySnap: 60
     accuracyAuto: 45
@@ -5435,7 +5454,7 @@ items:
     handSprite: 4672
     reloadSound: 242
     fireSound: 243 #Change!
-    costSell: 16000
+    costSell: 17000
     accuracyAimed: 68
     accuracySnap: 61
     accuracyAuto: 37
@@ -5509,7 +5528,6 @@ items:
     requiresBuy:
       - STR_G3_ACQUISITION
     categories: [ STR_FIREARMS, STR_RIFLES ]
-    #    requiresBuy:
     size: 1
     weight: 33
     # battleType: 1
@@ -5596,8 +5614,7 @@ items:
     handSprite: 4208
     reloadSound: 163
     fireSound: 164
-    #costBuy: 17500
-    #costSell: 8750
+    costSell: 10750
     accuracyAimed: 90
     accuracySnap: 65
     accuracyAuto: 15
@@ -5622,6 +5639,40 @@ items:
          tuLoad: 30
          tuUnload: 15
     listOrder: 152041
+
+  - type: STR_ACR
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    #    requiresBuy:
+    size: 1
+    weight: 24
+    # battleType: 1
+    bigSprite: 5272
+    floorSprite: 5272
+    handSprite: 5272
+    reloadSound: 104 
+    fireSound: 105
+    costSell: 12000
+    accuracyAimed: 90
+    accuracySnap: 75
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 39
+    snapRange: 33
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 45
+    tuSnap: 25
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X30 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 122090
 
 ###### SNIPERS ########
 
@@ -8211,6 +8262,8 @@ extraSprites:
       #5240: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
       5248: Resources/BallisticWeapons/Shotguns/BigMASSnomag.png
       5256: Resources/BallisticWeapons/Shotguns/BigMASS.png
+      5264: Resources/BallisticWeapons/Rifles/BigACRnomag.png
+      5272: Resources/BallisticWeapons/Rifles/BigACR.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8733,6 +8786,8 @@ extraSprites:
       #5240: Resources/BallisticWeapons/SMGs/FloorKrissVector.png
       5248: Resources/BallisticWeapons/Shotguns/FloorMASS.png
       5256: Resources/BallisticWeapons/Shotguns/FloorMASS.png
+      5264: Resources/BallisticWeapons/Rifles/FloorACR.png #acr
+      5272: Resources/BallisticWeapons/Rifles/FloorACR.png #acr
 
 ####################HAND SPRITES##############################################################################
   - type: HANDOB.PCK
@@ -9259,6 +9314,8 @@ extraSprites:
       #5240: Resources/BallisticWeapons/SMGs/HandKrissVector.png
       5248: Resources/BallisticWeapons/Shotguns/HandMASS.png
       5256: Resources/BallisticWeapons/Shotguns/HandMASS.png
+      5264: Resources/BallisticWeapons/Rifles/HandACR.png #acr
+      5272: Resources/BallisticWeapons/Rifles/HandACR.png #acr
 
   # - type: SMOKE.PCK
   #   height: 80

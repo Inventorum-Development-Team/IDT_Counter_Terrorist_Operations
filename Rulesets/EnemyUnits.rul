@@ -1674,17 +1674,17 @@ units:
              - STR_45_ACP_X25
            #Uncommon
            - 
-             - STR_SCAR_L
+             - STR_FX_05
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_SCAR_L
+             - STR_ACR
              - STR_5_56_X30
              - STR_5_56_X30
            - 
-             - STR_ORIGIN_12
-             - STR_12G_BUCKSHOT_X20
-             - STR_12G_BUCKSHOT_X8
+             - STR_ACR
+             - STR_5_56_X30
+             - STR_5_56_X30
            #Rare
            - 
              - STR_FX_05

@@ -136,6 +136,8 @@ items:
   - delete: STR_ELERIUM_115
   - delete: STR_LASER_CANNON
   - delete: STR_PLASMA_BEAM
+  - delete: STR_FUSION_BALL
+  - delete: STR_FUSION_BALL_LAUNCHER
 
 
 ########################################################################################################################

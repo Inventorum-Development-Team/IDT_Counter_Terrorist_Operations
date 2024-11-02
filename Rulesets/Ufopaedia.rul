@@ -759,6 +759,12 @@ ufopaedia:
     section: STR_RIFLES
     listOrder: 447
 
+  - id: STR_ACR
+    type_id: 4
+    text: STR_ACR_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 448
+
   #Snipers
   - id: STR_HUNTING_RIFLE
     type_id: 4
