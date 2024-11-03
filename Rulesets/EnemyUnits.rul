@@ -82,6 +82,16 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: false
+  - type: STR_GRAY_SAW_PR_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3061
+    floorSprite: 3061
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
   - type: STR_GRAY_PR_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -471,6 +481,43 @@ armors:
       stamina: -15
       tu: -5
       bravery: 10
+
+  - type: STR_ENEMY_GRAY_SAW_RIOT
+    spriteSheet: PMC_GRAY_SAW_SPRITESHEET.PCK
+    spriteInv: PMC_GRAY_SAWINV
+    loftempsSet: [ 3 ]
+    corpseBattle:
+     - STR_GRAY_SAW_PR_CORPSE
+    frontArmor: 35
+    sideArmor: 15
+    rearArmor: 30
+    underArmor: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 6 #Modified to support ammo belt
+    spriteHairColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDark: 9
+    personalLight: 0
+    allowsKneeling: true
+    allowsRunning: true
+    allowsStrafing: true
+    stats:
+      strength: -14
+      stamina: -15
+      firing: -3
+      tu: -10
+      bravery: 15
 
 
   - type: STR_ENEMY_KEVLAR_NV
@@ -915,7 +962,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 70
-    armor: STR_ENEMY_GRAY_KEVLAR
+    armor: STR_ENEMY_GRAY_SAW_RIOT
     standHeight: 21
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
@@ -3120,7 +3167,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/PMCFaction/PMC_BLUE_SPRITESHEET.png
+      0: Resources/PMCFaction/Grunt/PMC_BLUE_SPRITESHEET.png
 
   - type: PMC_GRAY_SPRITESHEET.PCK
     width: 512
@@ -3128,7 +3175,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/PMCFaction/PMC_GRAY_SPRITESHEET.png
+      0: Resources/PMCFaction/Rifleman/PMC_GRAY_SPRITESHEET.png
 
   - type: BO_SPRITESHEET.PCK
     width: 256
@@ -3136,7 +3183,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/PMCFaction/BO_SPRITESHEET.png
+      0: Resources/PMCFaction/Leader/BO_SPRITESHEET.png
 
   - type: MASKA_SPRITESHEET.PCK
     width: 512
@@ -3144,7 +3191,16 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/PMCFaction/MASKA_SPRITESHEET.png
+      0: Resources/PMCFaction/Heavy/MASKA_SPRITESHEET.png
+
+  - type: PMC_GRAY_SAW_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/PMCFaction/SAW/PMC_GRAY_SAW_SPRITESHEET.png
+
 
 ###########################
 ####### INVENTORY ########
@@ -3153,22 +3209,27 @@ extraSprites:
   - type: PMC_BLUEINV.SPK
     singleImage: true
     files:
-      0: Resources/PMCFaction/PMC_BLUEINVMO.png
+      0: Resources/PMCFaction/Grunt/PMC_BLUEINVMO.png
 
   - type: PMC_GRAYINV.SPK
     singleImage: true
     files:
-      0: Resources/PMCFaction/PMC_GRAYINVMO.png
+      0: Resources/PMCFaction/Rifleman/PMC_GRAYINVMO.png
 
   - type: BOINV.SPK
     singleImage: true
     files:
-      0: Resources/PMCFaction/BOINVM0.png
+      0: Resources/PMCFaction/Leader/BOINVM0.png
 
   - type: MASKAINV.SPK
     singleImage: true
     files:
-      0: Resources/PMCFaction/MASKAINVM0.png
+      0: Resources/PMCFaction/Heavy/MASKAINVM0.png
+
+  - type: PMC_GRAY_SAWINV.SPK
+    singleImage: true
+    files:
+      0: Resources/PMCFaction/SAW/PMC_GRAY_SAW_INVMO.png
 
   - type: BIGOBS.PCK
     files:
@@ -3178,11 +3239,12 @@ extraSprites:
       3053: Resources/TerroristFaction/INSURGENT_COROSE_BIGOB.png
       3054: Resources/TerroristFaction/TERRORIST_COMMANDER_CORPSE_BIGOB.png
       3055: Resources/TerroristFaction/TERRORIST_LEADER_CORPSE_BIGOB.png
-      3056: Resources/PMCFaction/BO_CORPSE_BIGOB.png
-      3057: Resources/PMCFaction/MASKA_CORPSE_BIGOB.png
-      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_BIGOB.png
-      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_BIGOB.png
+      3056: Resources/PMCFaction/Leader/BO_CORPSE_BIGOB.png
+      3057: Resources/PMCFaction/Heavy/MASKA_CORPSE_BIGOB.png
+      3058: Resources/PMCFaction/Grunt/PMC_BLUE_CORPSE_BIGOB.png
+      3059: Resources/PMCFaction/Rifleman/PMC_GRAY_CORPSE_BIGOB.png
       3060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_BIGOB.png
+      3061: Resources/PMCFaction/SAW/PMC_GRAY_SAW_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       3050: Resources/TerroristFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
@@ -3191,8 +3253,9 @@ extraSprites:
       3053: Resources/TerroristFaction/INSURGENT_CORPSE_FLOOROB.png
       3054: Resources/TerroristFaction/TERRORIST_COMMANDER_CORPSE_FLOOROB.png
       3055: Resources/TerroristFaction/TERRORIST_LEADER_CORPSE_FLOOROB.png
-      3056: Resources/PMCFaction/BO_CORPSE_FLOOROB.png
-      3057: Resources/PMCFaction/MASKA_CORPSE_FLOOROB.png
-      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
-      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
+      3056: Resources/PMCFaction/Leader/BO_CORPSE_FLOOROB.png
+      3057: Resources/PMCFaction/Heavy/MASKA_CORPSE_FLOOROB.png
+      3058: Resources/PMCFaction/Grunt/PMC_BLUE_CORPSE_FLOOROB.png
+      3059: Resources/PMCFaction/Rifleman/PMC_GRAY_CORPSE_FLOOROB.png
       3060: Resources/TerroristFaction/TERRORIST_GUNNER_CORPSE_FLOOROB.png
+      3061: Resources/PMCFaction/SAW/PMC_GRAY_SAW_CORPSE_FLOOROB.png

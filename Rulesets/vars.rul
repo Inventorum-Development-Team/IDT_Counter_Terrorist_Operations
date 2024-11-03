@@ -38,6 +38,7 @@ statGrowthMultipliers:
   
 ai:
    useDelayGrenade: 0
+   pickUpWeaponsMoreActively: true
 surrenderMode: 2
 bughuntMinTurn: 20
 constants:

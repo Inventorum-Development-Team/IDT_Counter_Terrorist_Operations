@@ -58,6 +58,7 @@ items:
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 15
+    attraction: 9
     damageAlter:
       ToStun: 1.0
       ArmorEffectiveness: 0.0
@@ -81,6 +82,7 @@ items:
     meleePower: 10
     meleeType: 7
     meleeHitSound: [350,351,352]
+    attraction: 13
     meleeAlter:
      ToStun: 1.0
      ArmorEffectiveness: 0.0
@@ -106,6 +108,7 @@ items:
     accuracyMelee: 100
     tuMelee: 30
     meleePower: 10
+    attraction: 13
     damageAlter:
       ToStun: 1.0
       ArmorEffectiveness: 0.0
@@ -126,6 +129,7 @@ items:
   - &STR_SMG
     type: STR_SMG
     battleType: 1
+    attraction: 13
     ammo: # required by battleType
         0:
          compatibleAmmo: [STR_TASER_X1] # ammo is defined later
@@ -142,6 +146,7 @@ items:
 
   - &STR_AR
     type: STR_AR
+    attraction: 13
     battleType: 1 #Redundent here, however needed for wiki
     confAuto:
       shots: 5
@@ -155,6 +160,7 @@ items:
 
   - &STR_AR_UBS
     type: STR_AR_UBS
+    attraction: 13
     battleType: 1 #Redundent here, however needed for wiki
     confAimed:
       shots: 3
@@ -173,6 +179,7 @@ items:
 
   - &STR_AR_GL
     type: STR_AR_GL
+    attraction: 13
     battleType: 1 #Redundent here, however needed for wiki
     confAimed:
       shots: 3
@@ -193,6 +200,7 @@ items:
 
   - &STR_LMG
     type: STR_LMG
+    attraction: 9
     battleType: 1
     ammo: # required by battleType
         0:
@@ -2647,6 +2655,7 @@ items:
     #autoRange: 0
     kneelBonus: 100
     refNode: *STR_PISTOL
+    attraction: 21
     tuAimed: 60
     tuSnap: 30
     #tuAuto: 70
@@ -5141,6 +5150,7 @@ items:
     autoRange: 26
     kneelBonus: 125
     #refNode: *STR_RIFLE_MELEE
+    attraction: 13
     confAimed:
       shots: 1
       name: STR_FIRE_GRENADE
@@ -5700,6 +5710,7 @@ items:
     tuSnap: 75
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_22_LONG_RIFLE_X6 ]
@@ -5732,6 +5743,7 @@ items:
     tuSnap: 65
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_SOVIET_7_62_X10 ]
@@ -5765,6 +5777,7 @@ items:
     tuSnap: 60
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X10, STR_NATO_7_62_X20 ]
@@ -5802,6 +5815,7 @@ items:
     tuAuto: 70
     invWidth: 2
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_NATO_7_62_X5, STR_NATO_7_62_X20 ]
@@ -5840,6 +5854,7 @@ items:
     tuAuto: 70
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_9_39_X10, STR_9_39_X20 ]
@@ -5876,6 +5891,7 @@ items:
     tuAuto: 70
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_SOVIET_7_62_MMR_X10 ]
@@ -5909,6 +5925,7 @@ items:
     tuSnap: 65
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_127_X5 ]
@@ -5943,6 +5960,7 @@ items:
     tuSnap: 65
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_338_LAPUA_X5 ]
@@ -5977,6 +5995,7 @@ items:
     tuSnap: 55
     invWidth: 2
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_NATO_7_62_X10 ]
@@ -6011,6 +6030,7 @@ items:
     tuSnap: 65
     invWidth: 2
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_338_LAPUA_X5 ]
@@ -6044,6 +6064,7 @@ items:
     tuSnap: 55
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_NATO_7_62_X5 ]
@@ -6078,6 +6099,7 @@ items:
     tuSnap: 70
     invWidth: 2
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_50_BMG_X5, STR_50_BMG_X10 ]
@@ -6109,6 +6131,7 @@ items:
     tuSnap: 45
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_30_06_X8 ]
@@ -6142,6 +6165,7 @@ items:
     tuSnap: 45
     invWidth: 1
     invHeight: 3
+    attraction: 9
     ammo:
       0:
         compatibleAmmo: [ STR_30_06_X8 ]
@@ -6179,6 +6203,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 10
+    attraction: 13
     ammo:
       0:
         compatibleAmmo: [ STR_12G_BUCKSHOT_X2 ]
@@ -6216,6 +6241,7 @@ items:
     invHeight: 2
     shotgunBehavior: 1
     shotgunChoke: 0
+    attraction: 13
     ammo:
       0:
         compatibleAmmo: [ STR_12G_BUCKSHOT_X5, STR_12G_BREACHING_X5 ]
@@ -6252,6 +6278,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 5
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6296,6 +6323,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 5
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6339,6 +6367,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 0
+    attraction: 13
     ammo:
       0:
         compatibleAmmo: [ STR_SHRAPNEL_25_X3, STR_BARRICADE_X3, STR_VOLNA_R_X3, STR_ZEVADA_X3, STR_ZEVADA_X1 ]
@@ -6376,6 +6405,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 0
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6424,6 +6454,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 0
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6472,6 +6503,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 0
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6518,6 +6550,7 @@ items:
     invHeight: 3
     shotgunBehavior: 1
     shotgunChoke: 0
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6563,6 +6596,7 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunChoke: 30
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6602,6 +6636,7 @@ items:
     shotgunChoke: 0
     blockBothHands: true
     twoHanded: true
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -6922,6 +6957,7 @@ items:
     tuAuto: 70
     invWidth: 2
     invHeight: 2
+    attraction: 9
     confAuto:
       shots: 15
       name: STR_SUPPRESSION
@@ -7145,6 +7181,7 @@ items:
     invWidth: 2
     invHeight: 2
     arcingShot: true
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -7185,6 +7222,7 @@ items:
     invWidth: 2
     invHeight: 3
     arcingShot: true
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -7229,6 +7267,7 @@ items:
     invWidth: 1
     invHeight: 2
     arcingShot: true
+    attraction: 13
     ammo:
       0:
         compatibleAmmo:
@@ -7269,6 +7308,7 @@ items:
     tuSnap: 60
     invWidth: 2
     invHeight: 3
+    attraction: 13
     ammo:
       0:
         compatibleAmmo: [ STR_CG_HEAT_X1, STR_CG_HE_X1 ]
@@ -7301,6 +7341,7 @@ items:
     tuSnap: 65
     invWidth: 2
     invHeight: 3
+    attraction: 13
     ammo:
       0:
         compatibleAmmo: [ STR_RPG_HEAT_X1 ]
@@ -7336,6 +7377,7 @@ items:
     tuSnap: 60
     invWidth: 1
     invHeight: 3
+    attraction: 13
     ammo:
       0:
         compatibleAmmo: [ STR_RPG_29_HEAT_X1, STR_RPG_29_THERMO_X1 ]
@@ -7651,6 +7693,7 @@ items:
     meleeSound: -1
     meleeMissSound: 39
     meleeHitSound: 353
+    attraction: 5
     listOrder: 310000
 
   - type: STR_HAMMER
@@ -7720,6 +7763,7 @@ items:
     aimRange: 5
     snapRange: 2
     kneelBonus: 100
+    attraction: 5
     ammo: # required by battleType
         0:
          compatibleAmmo: [ STR_BALISTIC_KNIFE_X1 ]
