@@ -632,8 +632,8 @@ items:
     shotgunSpread: 0
     shotgunBehavior: 1
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
-    hitAnimation: 59
-    bulletSprite: -1
+    hitAnimation: 26
+    bulletSprite: 3
     battleType: 2
     damageType: 12
     powerRangeThreshold: 10

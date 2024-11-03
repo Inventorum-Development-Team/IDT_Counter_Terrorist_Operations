@@ -1,3 +1,6 @@
+3-November-2024 v1.1.1 Arsenal
+*Fixed crash when starting the game with lazy loading disabled.
+
 23-October-2024 v1.1 Arsenal
 -Major additions/changes:
 * New weapons, which are implemented in the campaign. Full list at the bottom of the change log
