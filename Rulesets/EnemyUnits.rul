@@ -70,6 +70,46 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: false
+  - type: STR_TECHNICAL_CORPSE1
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3060
+    floorSprite: 3060
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
+  - type: STR_TECHNICAL_CORPSE2
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3060
+    floorSprite: 3060
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
+  - type: STR_TECHNICAL_CORPSE3
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3060
+    floorSprite: 3060
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
+  - type: STR_TECHNICAL_CORPSE4
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3060
+    floorSprite: 3060
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
 
 
   - type: STR_BLUE_PR_CORPSE
@@ -122,6 +162,84 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: false
+
+#Mounted MG Spawners
+  - type: STR_TECHNICAL_SPAWNER
+    spawnUnit: STR_TERRORIST_TECHNICAL_GLOBAL
+    spawnUnitFaction: 1
+    invWidth: 1
+    invHeight: 1
+    battleType: 4
+    #temp testing stuffv
+    categories: [ STR_EXPLOSIVES ]
+    requiresBuy:
+      - STR_GRENADES
+    size: 0.3
+    costBuy: 500
+    costSell: 250
+    weight: 3
+    bigSprite: 2556
+    floorSprite: 19
+    power: 50
+    tuPrime: 25
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+      FixRadius: 3
+    damageType: 3
+    #battleType: 4
+    blastRadius: 3
+    fuseType: -2
+    listOrder: 316010
+
+#Mounted MG Weapons
+  - type: STR_TECHNICAL_MG_GLOBAL
+    size: 1
+    weight: 47
+    battleType: 1
+    bigSprite: 5144
+    floorSprite: 5144 
+    handSprite: 5144 
+    reloadSound: 155
+    fireSound: 156
+    #costBuy: 60000
+    #costSell: 30000
+    accuracySnap: 15
+    #accuracyAuto: 10
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 10
+    #autoRange: 15
+    kneelBonus: 100
+    #refNode: *STR_LMG
+    tuSnap: 20
+    #tuAuto: 75
+    #sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    clipSize: 200
+    recover: false
+    fixedWeapon: true
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    #7.62 NATO stats
+    power: 45
+    hitAnimation: 26
+    hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
+    damageType: 1
+    bulletSprite: 15
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.6
+    #end ammo stats
+    listOrder: 155020
 
 #Live enemies
   - type: STR_TERRORIST_COMMANDER
@@ -405,6 +523,42 @@ armors:
       - 1.0
       - 1.0
     loftempsSet: [3]
+
+  - type: STR_TERRORIST_TECHNICAL_ARMOR
+    spriteSheet: X_ROB.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_TECHNICAL_CORPSE1
+      - STR_TECHNICAL_CORPSE2
+      - STR_TECHNICAL_CORPSE3
+      - STR_TECHNICAL_CORPSE4
+    spriteInv: TERRORIST_MALE_INVENTORY
+    frontArmor: 150
+    sideArmor: 75
+    rearArmor: 4
+    underArmor: 4
+    drawingRoutine: 5
+    visibilityAtDark: 9
+    heatVision: 100
+    size: 2
+    turnCost: 25
+    allowsKneeling: false
+    allowsRunning: false
+    allowsStrafing: false
+    allowsMoving: false
+    fearImmune: false
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [92,89,90,91]
 
 
 #########################################
@@ -809,6 +963,33 @@ units:
     spotter: 2
     sniper: 100
     canSurrender: true
+    liveAlien: STR_TERRORIST_SNIPER
+
+  - &STR_TERRORIST_TECHNICAL
+    type: STR_TERRORIST_TECHNICAL
+    stats:
+      tu: 100
+      stamina: 1
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 100
+      throwing: 45
+      strength: 100
+      psiStrength: 0
+      psiSkill: 0
+      melee: 55
+    armor: STR_TERRORIST_TECHNICAL_ARMOR
+    standHeight: 23
+    kneelHeight: 16
+    deathSound: [ 41, 42, 43 ]
+    value: 50
+    aggression: 0
+    intelligence: 2
+    spotter: 2
+    sniper: 100
+    canSurrender: true
+    livingWeapon: true
     liveAlien: STR_TERRORIST_SNIPER
 
 ###### PMC REF NODES ####
@@ -3034,6 +3215,14 @@ units:
              - STR_AW
              - STR_338_LAPUA_X5
              - STR_338_LAPUA_X5
+  
+  #Mounted Machinegun units
+  - type: STR_TERRORIST_TECHNICAL_GLOBAL
+    refNode: *STR_TERRORIST_TECHNICAL
+    race: STR_TERRORIST_MG
+    builtInWeaponSets:
+           - 
+             - STR_TECHNICAL_MG_GLOBAL
     
 
 extraSprites:

@@ -237,6 +237,7 @@ terrains:
       - VILBITS
       - CTO_TEST
       - APARTD
+      - CTO_TEST2
      civilianTypes:
       - MALE_CIVILIAN
       - FEMALE_CIVILIAN
@@ -257,4 +258,12 @@ terrains:
       - name: CTO_TEST_BREACH_OUTSIDE_BASIC
         width: 10
         length: 10
+      - name: CTO_TEST_BREACH_TRUCK
+        width: 10
+        length: 10
+        items: 
+          STR_TECHNICAL_SPAWNER:
+            - [3, 3, 0]
+        fuseTimers:
+          STR_TECHNICAL_SPAWNER: [0,0]
 
