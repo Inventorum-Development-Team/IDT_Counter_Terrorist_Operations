@@ -525,7 +525,7 @@ armors:
     loftempsSet: [3]
 
   - type: STR_TERRORIST_TECHNICAL_ARMOR
-    spriteSheet: X_ROB.PCK
+    spriteSheet: TECHNICAL_MG.PCK #X_ROB.PCK
     allowInv: false
     corpseBattle:
       - STR_TECHNICAL_CORPSE1
@@ -536,7 +536,7 @@ armors:
     frontArmor: 150
     sideArmor: 75
     rearArmor: 4
-    underArmor: 4
+    underArmor: 60
     drawingRoutine: 5
     visibilityAtDark: 9
     heatVision: 100
@@ -969,7 +969,7 @@ units:
     type: STR_TERRORIST_TECHNICAL
     stats:
       tu: 100
-      stamina: 1
+      stamina: 25
       health: 40
       bravery: 80
       reactions: 40
@@ -984,7 +984,7 @@ units:
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
     value: 50
-    aggression: 0
+    aggression: 2
     intelligence: 2
     spotter: 2
     sniper: 100
@@ -3288,6 +3288,15 @@ extraSprites:
     subY: 40
     files:
       0: Resources/TerroristFaction/INSURGENT_SPRITESHEET.png
+  
+  - type: TECHNICAL_MG.PCK
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/TerroristFaction/Techincal/Technical_MG.png
+
 
 ###########################
 ####### INVENTORY ########
