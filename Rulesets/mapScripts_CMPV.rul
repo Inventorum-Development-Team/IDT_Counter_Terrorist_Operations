@@ -189,6 +189,7 @@ mapScripts:
       conditionals: [-1, -2]
       direction: both
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       label: 3
       executionChances: 75

@@ -730,6 +730,188 @@ alienDeployments:
          highQty: 0
          itemSets:
            - []
+  - type: MAJOR_ATTACK_LATE_EAST_EU
+    width: 60
+    length: 60
+    height: 10
+    terrains:
+      - EXPANDED_TERROR
+      - RURAL
+      - RAILYARD
+      - DOWNTOWN
+    civilians: 20
+    despawnPenalty: 700
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    alert: STR_MAJOR_ATTACK
+    markerName: STR_MAJOR_ATTACK
+    customUfo: STR_TECHNICAL_GLOBAL_UFO_EMPTY
+    briefing:
+     desc: STR_MAJOR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - []
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - []
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - []
+       - alienRank: 4
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - []
+       - alienRank: 3
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - []
+       - alienRank: 2
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - []
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - []
+  - type: MAJOR_ATTACK_LATE_USA
+    width: 60
+    length: 60
+    height: 10
+    terrains:
+      - EXPANDED_TERROR
+      - SLUM
+      - INDUSTRIALSLUM
+      - ISLANDURBAN
+      - INDUSTRIAL
+      - AIRFIELD1
+    civilians: 20
+    despawnPenalty: 700
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    alert: STR_MAJOR_ATTACK
+    markerName: STR_MAJOR_ATTACK
+    customUfo: STR_TECHNICAL_GLOBAL_UFO_EMPTY
+    briefing:
+     desc: STR_MAJOR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - []
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - []
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - []
+       - alienRank: 4
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - []
+       - alienRank: 3
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - []
+       - alienRank: 2
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - []
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - []
+  - type: MAJOR_ATTACK_LATE_WEST_EU
+    width: 60
+    length: 60
+    height: 10
+    terrains:
+      - COMRCURBAN
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
+    civilians: 20
+    despawnPenalty: 700
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    alert: STR_MAJOR_ATTACK
+    markerName: STR_MAJOR_ATTACK
+    customUfo: STR_TECHNICAL_GLOBAL_UFO_EMPTY
+    briefing:
+     desc: STR_MAJOR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - []
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - []
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - []
+       - alienRank: 4
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - []
+       - alienRank: 3
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - []
+       - alienRank: 2
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - []
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - []
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - []
   - type: HOSTAGE_SITUATION_EAST_EU
     width: 50
     length: 30
@@ -1475,7 +1657,3 @@ alienDeployments:
          highQty: 1
          itemSets:
            - []
-
-
-
-    

@@ -232,7 +232,7 @@ terrains:
 
    - name: CTO_BREACH_TEST
      mapDataSets:
-      - blanks
+      - BLANKS
       - VILBAN
       - VILBITS
       - CTO_TEST
@@ -258,12 +258,55 @@ terrains:
       - name: CTO_TEST_BREACH_OUTSIDE_BASIC
         width: 10
         length: 10
-      - name: CTO_TEST_BREACH_TRUCK
-        width: 10
-        length: 10
-        items: 
-          STR_TECHNICAL_SPAWNER:
-            - [3, 3, 0]
-        fuseTimers:
-          STR_TECHNICAL_SPAWNER: [0,0]
 
+ufos:
+  - type: STR_TECHNICAL_GLOBAL_UFO
+    battlescapeTerrainData:
+      name: TECHNICAL_GLOBAL_TERRAIN
+      mapDataSets:
+        - blanks
+        - VILBAN
+        - VILBITS
+        - CTO_TEST
+        - APARTD
+        - CTO_TEST2
+      mapBlocks:
+        - name: CTO_TEST_BREACH_TRUCK
+          width: 10
+          length: 10
+          items: 
+            STR_TECHNICAL_SPAWNER:
+              - [3, 3, 0]
+          fuseTimers:
+            STR_TECHNICAL_SPAWNER: [0,0]
+  - type: STR_TECHNICAL_GLOBAL_UFO_PARTIAL
+    battlescapeTerrainData:
+      name: TECHNICAL_GLOBAL_TERRAIN
+      mapDataSets:
+        - blanks
+        - VILBITS
+        - CTO_TEST2
+      mapBlocks:
+        - name: CTO_TEST_BREACH_TRUCK_PARTIAL
+          width: 10
+          length: 10
+          items: 
+            STR_TECHNICAL_SPAWNER:
+              - [3, 3, 0]
+          fuseTimers:
+            STR_TECHNICAL_SPAWNER: [0,0]
+  - type: STR_TECHNICAL_GLOBAL_UFO_EMPTY
+    battlescapeTerrainData:
+      name: TECHNICAL_GLOBAL_TERRAIN
+      mapDataSets:
+        - blanks
+        - CTO_TEST2
+      mapBlocks:
+        - name: CTO_TEST_BREACH_TRUCK_EMPTY
+          width: 10
+          length: 10
+          items: 
+            STR_TECHNICAL_SPAWNER:
+              - [3, 3, 0]
+          fuseTimers:
+            STR_TECHNICAL_SPAWNER: [0,0]

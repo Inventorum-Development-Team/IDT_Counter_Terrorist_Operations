@@ -19,6 +19,7 @@ mapScripts:
         - [4, 4, 2, 2]
       blocks: [01, 02]
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 4
       blocks: [07, 10, 14, 15]
@@ -266,6 +267,7 @@ mapScripts:
   - type: APARTMENT
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       direction: vertical
@@ -399,6 +401,7 @@ mapScripts:
   - type: DAWNURBANA
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       direction: vertical
@@ -420,6 +423,7 @@ mapScripts:
   - type: DAWNURBANB
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       direction: vertical
@@ -441,6 +445,7 @@ mapScripts:
   - type: DOWNTOWNURBAN
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addBlock # Rail Station
       size: 2
       blocks: 8
@@ -1406,6 +1411,7 @@ mapScripts:
   - type: INDUSTRIALURBAN
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       size: 2
       executions: 4
@@ -1675,6 +1681,7 @@ mapScripts:
   - type: RAILYARDURBAN
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       executionChances: 50
@@ -1722,6 +1729,7 @@ mapScripts:
   - type: SLUMURBAN_SLIM
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       size: 2
       executions: 1
@@ -1745,6 +1753,7 @@ mapScripts:
     - type: addCraft
       rects:
         - [0, 0, 5, 2]
+    - type: addUFO
     - type: checkBlock
       label: 1
       size: 1
