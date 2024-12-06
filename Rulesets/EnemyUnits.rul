@@ -172,11 +172,11 @@ items:
     battleType: 4
     #temp testing stuffv
     categories: [ STR_EXPLOSIVES ]
-    requiresBuy:
-      - STR_GRENADES
+    #requiresBuy:
+    #  - STR_GRENADES
     size: 0.3
-    costBuy: 500
-    costSell: 250
+    #costBuy: 500
+    #costSell: 250
     weight: 3
     bigSprite: 2556
     floorSprite: 19
@@ -551,7 +551,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.0
+      - 0.75
       - 1.0
       - 1.0
       - 1.0
