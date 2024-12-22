@@ -75,3 +75,149 @@ armors:
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
+
+  - type: STR_BOMB_ENT_ARMOR
+    spriteInv: INV_FEMALE_CIVILIAN
+    spriteSheet: FEMALE_CIVILIAN.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 96, 96, 97, 160, 162, 163]
+    corpseBattle:
+      - STR_BOMB_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.2
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+    specab: 1
+    constantAnimation: false #Change to true when properly set up
+    fearImmune: true
+    bleedImmune: false
+    painImmune: true
+    #recovery: Dose not trigger explosion for some reason
+    #   health:
+    #     flatOne: -1 #Bomb countdown
+
+
+units:
+  - type: STR_BOMB_ENT_ACTIVE
+    race: STR_TERRORIST_MG
+    stats:
+      tu: 0
+      stamina: 0
+      health: 1 # 10 #10 turns
+      bravery: 900
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 100
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    armor: STR_BOMB_ENT_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    deathSound: [ 41, 42, 43 ]
+    value: 0
+    aggression: 0
+    intelligence: 0
+    spotter: 0
+    sniper: 0
+    canSurrender: false
+    cosmetic: true
+    spawnUnit: STR_BOMB_ENT_DEFUSED
+    builtInWeaponSets:
+           - 
+             - STR_BOMB_ITEM
+    
+  - type: STR_BOMB_ENT_DEFUSED
+    stats:
+      tu: 0
+      stamina: 0
+      health: 1 # 10 #10 turns
+      bravery: 900
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 100
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    armor: STR_BOMB_ENT_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    deathSound: [ 41, 42, 43 ]
+    value: 0
+    aggression: 0
+    intelligence: 0
+    ignoredByAI: true
+    canSurrender: false
+    cosmetic: true
+
+items:
+  - type: STR_BOMB_SPAWNER
+    spawnUnit: STR_BOMB_ENT_ACTIVE
+    spawnUnitFaction: 1
+    invWidth: 1
+    invHeight: 1
+    battleType: 4
+    #temp testing
+    categories: [ STR_EXPLOSIVES ]
+    size: 0.3
+    weight: 3
+    bigSprite: 2556
+    floorSprite: 19
+    power: 1
+    tuPrime: 25
+    damageAlter:
+      RandomType: 1
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+      FixRadius: 1
+    damageType: 3
+    #battleType: 4
+    fuseType: -2
+    listOrder: 316010
+  
+  - type: STR_BOMB_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3058
+    floorSprite: 3058
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: false
+    power: 9999
+    blastRadius: 1000
+
+  - type: STR_BOMB_ITEM
+    categories: [ STR_EXPLOSIVES ]
+    size: 0.3
+    weight: 4
+    bigSprite: 19
+    floorSprite: 19
+    fixedWeapon: true
+    power: 9999
+    blastRadius: 1000
+    isExplodingInHands: true
+    tuPrime: 25
+    damageAlter:
+      RandomType: 3
+      IgnoreSelfDestruct: true
+      ToArmorPre: 0.2
+    damageType: 3
+    battleType: 4
+    listOrder: 316020

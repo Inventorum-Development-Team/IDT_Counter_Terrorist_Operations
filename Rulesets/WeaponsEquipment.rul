@@ -3,7 +3,7 @@
 #  000000
 #  ^^ammo type
 #    ^Catagory -> |weapons 9 = ammo, 0 = pistol, 1 = smg, 2 = rifle, 3 = sniper, 4 = shotgun, 5 = LMG, 6 = explosives
-#     ^^weapon    |Items   9 = Armor,  0 = Melee, 1 = Other, 3 = ?????, 3 = medical, 4 = Breaching, 5 = Tactical nades, 6 = Explosives, 7=???, 8 = Geoscape items
+#     ^^weapon    |Items   9 = Armor,  0 = Melee, 1 = Other, 2 = ?????, 3 = medical, 4 = Breaching, 5 = Tactical nades, 6 = Explosives, 7=???, 8 = Geoscape items
 #       ^ varient
 #
 # for example the M16 (Scoped) is
@@ -7632,6 +7632,27 @@ items:
     tuUse: 60
     medikitActionName: STR_ACTIVATE_MEDIKIT
     listOrder: 313010
+
+  - type: STR_DEFUSE_KIT #wip
+    categories: [ STR_MEDICAL ]
+    #requiresBuy:
+    #  - STR_MEDKIT_ACQUISITION
+    size: 1
+    costBuy: 4000
+    costSell: 2000
+    weight: 7
+    bigSprite: 3424
+    floorSprite: 3424
+    handSprite: 3424
+    battleType: 6
+    invWidth: 2
+    invHeight: 1
+    stimulant: 99
+    isConsumable: false
+    medikitType: 2
+    tuUse: 60
+    medikitActionName: STR_ACTIVATE_MEDIKIT
+    listOrder: 311010
 
   - type: STR_RIOT_SHIELD
     requiresBuy:

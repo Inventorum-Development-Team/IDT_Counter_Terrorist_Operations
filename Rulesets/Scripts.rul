@@ -746,6 +746,14 @@ items:
       UfopaediaAmmoNo: 1
       BalKnife: 1
 
+  - type: STR_BOMB_ITEM
+    tags:
+     Bomb: 38
+  
+  - type: STR_DEFUSE_KIT
+    tags:
+     DefuseKit: 1
+
 extended:
   tags:
     BattleUnit:
@@ -778,6 +786,8 @@ extended:
       ZevadaSwap: int #dose this weapon have flashbang rounds for the first shot
       UfopaediaAmmoNo: int #The AmmoNo thats shown for the sprite in the Ufopaedia article, make sure to set the sprite IDs to the correct sprite.
       MovementAccuracyReduction: int #Reduce accuracy by this for every 1% missing Stamina, divided by 100
+      Bomb: int #Used for auto-priming defusable bombs, >0 is number of half turns to prime for +2
+      DefuseKit: int #is this weapon a defuse kit
     BattleGame:
       Enemies: int
       Allies: int
@@ -851,6 +861,19 @@ extended:
            BattleGame.setTag battle_game Tag.Turn turn;
            return;
 
+        - offset: 5 #Primes defusable bombs
+          code: |
+           if eq turn 1;
+            var int timer;
+            item.getTag timer Tag.Bomb;
+
+            if gt timer 0;
+              item.setFuseTimer timer;
+              return;
+            end;
+           end;
+           return;
+
      newTurnUnit: #Counts number of Allies And Enemies alive
         - offset: 2
           code: |
@@ -906,6 +929,7 @@ extended:
            end;
 
            return;
+
         - offset: 4
           code: | #handcuffs stay permanent
            var int cuffed;
@@ -917,7 +941,7 @@ extended:
             BattleUnit.setStun unit health;
             end;
            return;
-            
+
      accuracyMultiplierBonusStats:
          - offset: 7 #LMG movement inaccuracy 
            code: |
@@ -1137,6 +1161,28 @@ extended:
            end;
           end;
           return;
+
+       - offset: 4 #Defuse kit defusing
+         code: |
+          var int defuse;
+          var int bombTag;
+          var int IsDefuser;
+          var ptre BattleItem bombItem;
+
+          BattleItem.getTag item IsDefuser Tag.DefuseKit;
+          BattleUnit.getRightHandWeapon target bombItem;
+          BattleItem.getTag bombItem bombTag Tag.Bomb;
+          if and gt bombTag 0 eq IsDefuser 1;
+            BattleItem.setFuseEnabled bombItem 0;
+            BattleUnit.setSpawnUnitFaction target 2;
+            BattleUnit.setSpawnUnitInstantRespawn target 1;
+            BattleGame.flashMessage battle_game "STR_MSG_BOMB_DEFUSED";
+          end;
+          return;
+
+
+
+
 
     #  reactionWeaponAction: #Jamming Script (doesn't work)
     #     - offset: 1

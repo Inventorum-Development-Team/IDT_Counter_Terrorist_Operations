@@ -170,13 +170,8 @@ items:
     invWidth: 1
     invHeight: 1
     battleType: 4
-    #temp testing stuffv
     categories: [ STR_EXPLOSIVES ]
-    #requiresBuy:
-    #  - STR_GRENADES
     size: 0.3
-    #costBuy: 500
-    #costSell: 250
     weight: 3
     bigSprite: 2556
     floorSprite: 19
@@ -1257,12 +1252,12 @@ units:
              - STR_AK_74_GP25
              - STR_5_45_X45
              - STR_5_45_X30
-             - STR_GRD50 #smoke
+             - STR_GRD50_X1 #smoke
            - 
              - STR_AK_74_GP25
              - STR_5_45_X45
              - STR_5_45_X30
-             - STR_VOG25 #frag
+             - STR_VOG25_X1 #frag
            #Rare
            - 
              - STR_GLOCK_17
@@ -1272,7 +1267,7 @@ units:
              - STR_AK_74_GP25
              - STR_5_45_X45
              - STR_5_45_X30
-             - STR_VOG25 #frag
+             - STR_VOG25_X1 #frag
            - 
              - STR_VEKTOR
              - STR_9MM_GYURZA_X20

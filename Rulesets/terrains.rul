@@ -310,3 +310,18 @@ ufos:
               - [3, 3, 0]
           fuseTimers:
             STR_TECHNICAL_SPAWNER: [0,0]
+  - type: STR_BOMB_UFO
+    battlescapeTerrainData:
+      name: BOMB_SITE_1
+      mapDataSets:
+        - blanks
+        - CTO_TEST
+      mapBlocks:
+        - name: CTO_BOMBDEFUSAL_1
+          width: 10
+          length: 10
+          items: 
+            STR_BOMB_SPAWNER:
+              - [4, 4, 0]
+          fuseTimers:
+            STR_BOMB_SPAWNER: [0,0]
