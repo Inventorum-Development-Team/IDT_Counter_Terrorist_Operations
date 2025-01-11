@@ -7,7 +7,8 @@ terrains:
 ##################################################################################################################################
 
    #CMP#
-  - name: EXPANDED_TERROR #Thanks to HellRazor
+  - &EXPANDED_TERROR
+    name: EXPANDED_TERROR #Thanks to HellRazor
     mapDataSets:
       - BLANKS
       - ROADS
@@ -18,7 +19,7 @@ terrains:
     civilianTypes:
       - MALE_CIVILIAN
       - FEMALE_CIVILIAN
-    script: EXPANDED_TERROR_OBJ
+    script: EXPANDED_TERROR
     mapBlocks:
       - name: EXPANDEDTERROR00 #Landingzone Dirt 1
         width: 10
@@ -146,7 +147,8 @@ terrains:
         length: 10
 
   #CMP#
-  - name: RURAL # by Solarius Scorch & Dioxine
+  - &RURAL
+    name: RURAL # by Solarius Scorch & Dioxine
     mapDataSets:
       - BLANKS
       - VILROADS
@@ -599,6 +601,28 @@ terrains:
     refNode: *AIRFIELD1
     script: AIRFIELD2
 
+##########################
+# OBJ (East EU)
+##########################
+# Map here use mapscripts that are modified for 6x6 maps, to avoid having an objective, 
+# such as the bomb in bomb defusal, spawn next to the start location.
+
+  - name: EXPANDED_TERROR_OBJ
+    refNode: *EXPANDED_TERROR
+    script: EXPANDED_TERROR_OBJ
+  
+  - name: RURAL_OBJ
+    refNode: *RURAL
+    script: RURAL_OBJ
+  
+  - name: RAILYARD_OBJ
+    refNode: *RAILYARD
+    script: RAILYARDURBAN_OBJ
+
+  - name: DOWNTOWN_OBJ
+    refNode: *DOWNTOWN
+    script: DOWNTOWNURBAN_OBJ
+
 ##################################################################################################################################
 # USA
 ##################################################################################################################################
@@ -742,7 +766,8 @@ terrains:
     script: SLUMURBAN_SLIM
 
   #CMP#
-  - name: INDUSTRIALSLUM # by Dioxine
+  - &INDUSTRIALSLUM
+    name: INDUSTRIALSLUM # by Dioxine
     mapDataSets:
       - BLANKS
       - PORTROADS
@@ -1327,6 +1352,17 @@ terrains:
         width: 30
         length: 30
         groups: 4
+
+##########################
+# OBJ (USA)
+##########################
+# Map here use mapscripts that are modified for 6x6 maps, to avoid having an objective, 
+# such as the bomb in bomb defusal, spawn next to the start location.
+
+
+  - name: INDUSTRIALSLUM_OBJ
+    refNode: *INDUSTRIALSLUM
+    script: INDUSTRIALSLUM_OBJ
 
 
 ##################################################################################################################################
@@ -2262,9 +2298,27 @@ ufos:
       name: BOMB_SITE_1
       mapDataSets:
         - blanks
+        - ACHURCH
+        - ACHURCH2
+      mapBlocks:
+        - name: CTO_BOMBSITE_STATUE01
+          width: 10
+          length: 10
+          items: 
+            STR_BOMB_SPAWNER:
+              - [4, 4, 0]
+          fuseTimers:
+            STR_BOMB_SPAWNER: [0,0]
+  - type: STR_BOMB_UFO_WAREHOUSE
+    battlescapeTerrainData:
+      name: BOMB_SITE_2
+      mapDataSets:
+        - blanks
+        - PORTROADS
+        - INDUSLUM
         - CTO_TEST
       mapBlocks:
-        - name: CTO_BOMBDEFUSAL_1
+        - name: CTO_BOMBSITE_WAREHOUSE01
           width: 10
           length: 10
           items: 

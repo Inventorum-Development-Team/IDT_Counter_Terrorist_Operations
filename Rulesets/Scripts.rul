@@ -753,6 +753,10 @@ items:
   - type: STR_DEFUSE_KIT
     tags:
      DefuseKit: 1
+  
+  - type: STR_DEFUSE_CODE
+    tags:
+     DefuseKit: 1
 
 extended:
   tags:

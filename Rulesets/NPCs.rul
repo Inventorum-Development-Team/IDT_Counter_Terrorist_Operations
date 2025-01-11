@@ -96,18 +96,15 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-      - 1.2
+      - 0.0
       - 1.0
       - 1.0
     loftempsSet: [ 3 ]
     specab: 1
-    constantAnimation: false #Change to true when properly set up
+    constantAnimation: false #Change to true when sprite properly set up
     fearImmune: true
     bleedImmune: false
     painImmune: true
-    #recovery: Dose not trigger explosion for some reason
-    #   health:
-    #     flatOne: -1 #Bomb countdown
 
 
 units:
@@ -116,7 +113,7 @@ units:
     stats:
       tu: 0
       stamina: 0
-      health: 1 # 10 #10 turns
+      health: 1
       bravery: 900
       reactions: 0
       firing: 0
@@ -136,6 +133,8 @@ units:
     sniper: 0
     canSurrender: false
     cosmetic: true
+    capturable: false
+    liveAlien: ""
     spawnUnit: STR_BOMB_ENT_DEFUSED
     builtInWeaponSets:
            - 
@@ -145,7 +144,7 @@ units:
     stats:
       tu: 0
       stamina: 0
-      health: 1 # 10 #10 turns
+      health: 1
       bravery: 900
       reactions: 0
       firing: 0
@@ -159,11 +158,14 @@ units:
     kneelHeight: 16
     deathSound: [ 41, 42, 43 ]
     value: 0
+    vip: true
     aggression: 0
     intelligence: 0
     ignoredByAI: true
     canSurrender: false
     cosmetic: true
+    capturable: false
+    liveAlien: ""
 
 items:
   - type: STR_BOMB_SPAWNER

@@ -1990,8 +1990,8 @@ items:
     clipSize: 1
     listOrder: 299000
   - type: STR_GRD50_X1
-    requiresBuy:
-      - STR_UNOBTAINABLE
+    #requiresBuy:
+    #  - STR_UNOBTAINABLE
     categories: [ STR_CLIPS ]
     refNode: *STR_GRD50
     bigSprite: 4848
@@ -1999,7 +1999,7 @@ items:
     floorSprite: 4848
     size: 0.1
     armor: 30
-    costBuy: 250
+    #costBuy: 250
     costSell: 125
     weight: 2
     clipSize: 1
@@ -7653,6 +7653,28 @@ items:
     tuUse: 60
     medikitActionName: STR_ACTIVATE_MEDIKIT
     listOrder: 311010
+    
+  - type: STR_DEFUSE_CODE #wip
+    categories: [ STR_MEDICAL ]
+    #requiresBuy:
+    #  - STR_MEDKIT_ACQUISITION
+    size: 1
+    #costBuy: 4000
+    #costSell: 2000
+    weight: 1
+    bigSprite: 3424
+    floorSprite: 3424
+    handSprite: 3424
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    stimulant: 99
+    isConsumable: false
+    medikitType: 2
+    recover: false
+    tuUse: 20
+    medikitActionName: STR_ACTIVATE_MEDIKIT
+    listOrder: 311011
 
   - type: STR_RIOT_SHIELD
     requiresBuy:

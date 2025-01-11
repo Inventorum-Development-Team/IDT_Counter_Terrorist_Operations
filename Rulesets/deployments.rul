@@ -917,13 +917,18 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - EXPANDED_TERROR
-      - RURAL
-      - RAILYARD
-      - DOWNTOWN
+      - EXPANDED_TERROR_OBJ
+      - RURAL_OBJ
+      - RAILYARD_OBJ
+      - DOWNTOWN_OBJ
     civilians: 0
     despawnPenalty: 700
-    abortPenalty: 400
+    abortPenalty: 700
+    vipSurvivalPercentage: 100
+    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,600]
+    objectiveFailed: [STR_DEBRIF_SCORE_BOMB_DETONATED,-600]
+    missionFailedText: STR_DEBRIF_BOMB_DETONATED
+    missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
@@ -967,6 +972,8 @@ alienDeployments:
          highQty: 1
          itemSets:
            - []
+         extraRandomItems:
+           - [STR_DEFUSE_CODE]
        - alienRank: 0
          lowQty: 0
          highQty: 0
@@ -977,21 +984,25 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - EXPANDED_TERROR
       - SLUM
-      - INDUSTRIALSLUM
+      - INDUSTRIALSLUM_OBJ
       - ISLANDURBAN
       - INDUSTRIAL
       - AIRFIELD1
       - REFINERY
     civilians: 0
     despawnPenalty: 700
-    abortPenalty: 400
+    abortPenalty: 700
+    vipSurvivalPercentage: 100
+    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,600]
+    objectiveFailed: [STR_DEBRIF_SCORE_BOMB_DETONATED,-600]
+    missionFailedText: STR_DEBRIF_BOMB_DETONATED
+    missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
     markerName: STR_MAJOR_ATTACK
-    customUfo: STR_BOMB_UFO
+    customUfo: STR_BOMB_UFO_WAREHOUSE
     briefing:
      desc: STR_BOMB_DEFUSAL_BRIEFING
     data:
@@ -1030,6 +1041,8 @@ alienDeployments:
          highQty: 1
          itemSets:
            - []
+         extraRandomItems:
+           - [STR_DEFUSE_CODE]
        - alienRank: 0
          lowQty: 0
          highQty: 0
@@ -1046,7 +1059,12 @@ alienDeployments:
       - DAWNCITY_URBANB
     civilians: 0
     despawnPenalty: 700
-    abortPenalty: 400
+    abortPenalty: 700
+    vipSurvivalPercentage: 100
+    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,600]
+    objectiveFailed: [STR_DEBRIF_SCORE_BOMB_DETONATED,-600]
+    missionFailedText: STR_DEBRIF_BOMB_DETONATED
+    missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
@@ -1090,6 +1108,8 @@ alienDeployments:
          highQty: 1
          itemSets:
            - []
+         extraRandomItems:
+           - [STR_DEFUSE_CODE]
        - alienRank: 0
          lowQty: 0
          highQty: 0
