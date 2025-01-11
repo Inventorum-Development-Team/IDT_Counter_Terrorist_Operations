@@ -1,263 +1,2210 @@
 terrains:
+#merged all terrains into same file 22/12/2024
+#maps from community map pack file are taged CMP, maps from terrain pack file are taged TP
 
-   - name: SKYSCRAPER
-     script: SKYSCRAPER
-     mapDataSets:
+##################################################################################################################################
+# EAST EU
+##################################################################################################################################
+
+   #CMP#
+  - name: EXPANDED_TERROR #Thanks to HellRazor
+    mapDataSets:
       - BLANKS
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECORREDUCED
-      - ENTRY
-     mapBlocks:
-      - name: SKYSCRAPER00
-        width: 30
-        length: 30
-        height: 9
-        groups: 1
-        revealedFloors: 1
-
-##########################
-# FILIP'S OFFICE
-#########################
-
-   - name: OFFICE
-     script: OFFICE
-     mapDataSets:
-      - BLANKS
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECORREDUCED
-      - ENTRY  
-     mapBlocks:
-      - name: OFFICE00
-        width: 20
-        length: 10
-        height: 4
-      - name: OFFICE01
-        width: 20
-        length: 20
-        height: 4
-      - name: OFFICE02
-        width: 10
-        length: 20
-        height: 4
-
-   - name: OFFICE_EAST_EU
-     script: OFFICE_EAST_EU
-     mapDataSets:
-      - BLANKS
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECORREDUCED
-      - ENTRY  
-     mapBlocks:
-      - name: OFFICE00
-        width: 20
-        length: 10
-        height: 4
-      - name: OFFICE01
-        width: 20
-        length: 20
-        height: 4
-      - name: OFFICE02
-        width: 10
-        length: 20
-        height: 4
-
-   - name: OFFICE_USA
-     script: OFFICE_USA
-     mapDataSets:
-      - BLANKS
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECORREDUCED
-      - ENTRY  
-     mapBlocks:
-      - name: OFFICE00
-        width: 20
-        length: 10
-        height: 4
-      - name: OFFICE01
-        width: 20
-        length: 20
-        height: 4
-      - name: OFFICE02
-        width: 10
-        length: 20
-        height: 4
-
-##########################
-# EFREN'S OFFICE
-#########################
-
-   - name: CTO_OFFICE
-     script: CTO_OFFICE
-     mapDataSets:
-      - BLANKS
-      - IDT_OFFICE
-      - BD_CIV_CARS 
-     mapBlocks:
-      - name: CTO_OFFICE01
-        width: 20
-        length: 20
-        height: 6
-        groups: 6
-
-   - name: CTO_OFFICE_WEST_EUROPE
-     script: CTO_OFFICE_WEST_EUROPE
-     mapDataSets:
-      - BLANKS
-      - IDT_OFFICE
-      - BD_CIV_CARS 
-     mapBlocks:
-      - name: CTO_OFFICE01
-        width: 20
-        length: 20
-        height: 6
-        groups: 6
-
-   - name: CTO_OFFICE_EAST_EUROPE
-     script: CTO_OFFICE_EAST_EUROPE
-     mapDataSets:
-      - BLANKS
-      - IDT_OFFICE
-      - BD_CIV_CARS 
-     mapBlocks:
-      - name: CTO_OFFICE01
-        width: 20
-        length: 20
-        height: 6
-        groups: 6
-
-   - name: CTO_OFFICE_USA
-     script: CTO_OFFICE_USA
-     mapDataSets:
-      - BLANKS
-      - IDT_OFFICE
-      - BD_CIV_CARS 
-     mapBlocks:
-      - name: CTO_OFFICE01
-        width: 20
-        length: 20
-        height: 6
-        groups: 6
-
-##################
-
-   - name: AIRPORT
-     script: AIRPORT_HIJACKED_PLANE_SCRIPT
-     mapDataSets:
-      - BLANKS
-      - IDT_PLANE_2
-      - IDT_PLANE_3
-      - PORT01_UFO
-      - PORT02_UFO
-      - PORT05_UFO
-     mapBlocks:
-      - name: AIRBASE00
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: EXPANDED_TERROR_OBJ
+    mapBlocks:
+      - name: EXPANDEDTERROR00 #Landingzone Dirt 1
         width: 10
         length: 10
         groups: 1
-      - name: AIRBASE01
+      - name: EXPANDEDTERROR01 #Landingzone Dirt 2
         width: 10
         length: 10
         groups: 1
-      - name: AIRPORT_N
+      - name: EXPANDEDTERROR02 #Landing Zone Grass
+        width: 10
+        length: 10
+        groups: 1
+      - name: EXPANDEDTERROR03 #Road WE
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR04 #Road WE with Garbage
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR05 #Road WE with Bus Station
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR06 #Road WE with Postbox
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR07 #Road NS
         width: 10
         length: 10
         groups: 3
-      - name: AIRPORT_S
+      - name: EXPANDEDTERROR08 #Road NS 2 Sewer
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR09 #Road NS Bus Station
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR10 #Road NS Garbage
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR11 #Crossroad Garbage
         width: 10
         length: 10
         groups: 4
-
-   - name: IDT_PLANE_HIJACKED
-    # script: AIRPORT_SCRIPT
-    # enviroEffects: STR_LAND
-     mapDataSets:
-      - BLANKS
-      - IDT_PLANE
-      - PORT01_UFO
-     mapBlocks:
-      - name: HIJACKED_PLANE02
-        width: 30
-        length: 20
-
-   - name: SAFEHOUSE
-     mapDataSets:
-      - BLANKS
-      - DAWNURBAN
-      - DAWNURBITS
-      - CRIBDECOR
-      - MANSIONBITS
-      - CITYFRNITURE
-     script: SAFEHOUSESCRIPT
-     mapBlocks:
-      - name: LT_HOUSE_02G
+      - name: EXPANDEDTERROR12 #Crossroad Telephon Box
+        width: 10
+        length: 10
+        groups: 4
+      - name: EXPANDEDTERROR13 #2 Level Small Slum House
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR14 #1 Level Small Slum House
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR15 #NS Small Park
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR16 #2 Level Small Appartment
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR17 #2 Level Large Storage and Shop
         width: 20
         length: 20
-        height: 6
-        groups: 4
-      - name: LT_HOUSE_03G
+      - name: EXPANDEDTERROR18 #Parking Lot with Shop
         width: 20
         length: 20
-        height: 6
-        groups: 4
-      - name: LT_HOUSE_04G
+      - name: EXPANDEDTERROR19 #Large Park with Telephon Box
         width: 20
-        length: 30
-        height: 6
-        groups: 4
+        length: 20
+      - name: EXPANDEDTERROR20 #2 Level Slum Buildings with Telephone Box
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR21 #Restaurant
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR22 #2 Level Appartment with Parking Lot
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR23 #4 Level Appartment Building
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR24 #2 Level Family House with Garage
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR25 #2 Level Storage with Office
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR26 #2 Level Double Family House
+        width: 20
+        length: 20
+      - name: URBAN05 #27 Large Storage House
+        width: 20
+        length: 20
+      - name: URBAN06 #28 Large Shopping Mall
+        width: 20
+        length: 20
+      - name: URBAN07 #29 Large Park
+        width: 20
+        length: 20
+      - name: URBAN08 #30 3 Level Appartment
+        width: 20
+        length: 20
+      - name: URBAN09 #31 Gas Station
+        width: 20
+        length: 20
+      - name: URBAN14 #32 1 Level Small Slum House
+        width: 10
+        length: 10
+      - name: URBAN15 #33 2 Level Small Appartment House
+        width: 10
+        length: 10
+      - name: URBAN16 #34 Small Park
+        width: 10
+        length: 10
+      - name: URBAN17 #35 Small Storage House
+        width: 10
+        length: 10
+      - name: URBAN18 #36 Level Small Shop
+        width: 10
+        length: 10
 
-   - name: LITTLEBIRD
-     mapDataSets:
-       - blanks
-       - LITTLE_BIRD
-       - ROPE
-     mapBlocks:
-      - name: LITTLE_BIRD
-        width: 30
-        length: 30
-        height: 5
-        groups: 6
-        revealedFloors: [0,1,2,3,4]
-
-   - name: CTO_BREACH_TEST
-     mapDataSets:
+  #CMP#
+  - name: RURAL # by Solarius Scorch & Dioxine
+    mapDataSets:
       - BLANKS
-      - VILBAN
+      - VILROADS
       - VILBITS
-      - CTO_TEST
-      - APARTD
-      - CTO_TEST2
-     civilianTypes:
+      - VILBAN
+      - VILFRNITURE
+    civilianTypes:
       - MALE_CIVILIAN
       - FEMALE_CIVILIAN
-     script: CTO_TEST_MAP_SCRIPT
-     mapBlocks:
-      - name: CTO_TEST_BREACH_HOUSE
+    script: RURAL
+    mapBlocks:
+      - name: VILBAN00
         width: 10
         length: 10
-        groups: 0
-        height: 4
-      - name: CTO_TEST_BREACH_LANDING
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN37
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+      - name: VILBAN56
+        width: 20
+        length: 20
+      - name: VILBAN57
+        width: 10
+        length: 10
+
+    #TP#
+  - &RAILYARD #DONE
+    name: RAILYARD
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - FRNITURE
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: RAILYARDURBAN
+    mapBlocks:
+      - name: RAILYARDURBAN00
         width: 10
         length: 10
         groups: 1
-      - name: CTO_TEST_BREACH_OUTSIDE_ADV
+      - name: RAILYARDURBAN01
         width: 10
         length: 10
-      - name: CTO_TEST_BREACH_OUTSIDE_BASIC
+        groups: 2
+      - name: RAILYARDURBAN02
         width: 10
         length: 10
+        groups: 3
+      - name: RAILYARDURBAN03
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN05
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN06
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN07
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN08
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN09
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN11
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN12
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN13
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN14
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN15
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN16
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN17
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN18
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN19
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN20
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN21
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN22
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN23
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN24
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN25
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN26
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN27
+        width: 10
+        length: 10
+
+  #TP#
+  - &DOWNTOWN #DONE
+    name: DOWNTOWN
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: DOWNTOWNURBAN
+    mapBlocks:
+      - name: DOWNTOWNURBAN00
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN01
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN02
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN03
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN05
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN06
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN07
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN08
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN09
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN10
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN11
+        width: 10
+        length: 10
+        groups: 4
+      - name: DOWNTOWNURBAN12
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN14
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN15
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN16
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN17
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN19
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN20
+        width: 10
+        length: 10
+        groups: 1
+      - name: DOWNTOWNURBAN21
+        width: 10
+        length: 10
+  
+  #hideout only
+  #TP#
+  - &AIRFIELD1 #DONE
+    name: AIRFIELD1
+    mapDataSets:
+      - BLANKS
+      - AIRFIELDA
+      - AIRFIELDB
+      - AIRFIELDC
+      - AIRFIELDD
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: AIRFIELD1
+    mapBlocks:
+      - name: AIRFIELD00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD01
+        width: 20
+        length: 20
+        groups: 2
+      - name: AIRFIELD02
+        width: 20
+        length: 20
+        groups: 3
+      - name: AIRFIELD03
+        width: 10
+        length: 10
+      - name: AIRFIELD04
+        width: 10
+        length: 10
+      - name: AIRFIELD05
+        width: 20
+        length: 20
+      - name: AIRFIELD06
+        width: 10
+        length: 10
+      - name: AIRFIELD07
+        width: 20
+        length: 20
+      - name: AIRFIELD08
+        width: 10
+        length: 10
+      - name: AIRFIELD09
+        width: 10
+        length: 10
+      - name: AIRFIELD10
+        width: 20
+        length: 20
+      - name: AIRFIELD11
+        width: 20
+        length: 20
+        groups: 4
+      - name: AIRFIELD12
+        width: 20
+        length: 20
+      - name: AIRFIELD13
+        width: 10
+        length: 10
+      - name: AIRFIELD14
+        width: 20
+        length: 20
+      - name: AIRFIELD15
+        width: 20
+        length: 20
+      - name: AIRFIELD16
+        width: 20
+        length: 20
+      - name: AIRFIELD17
+        width: 20
+        length: 20
+      - name: AIRFIELD18
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD19
+        width: 10
+        length: 10
+        groups: [0, 1]
+  #hideout only
+  #TP#
+  - name: AIRFIELD2
+    refNode: *AIRFIELD1
+    script: AIRFIELD2
+
+##################################################################################################################################
+# USA
+##################################################################################################################################
+
+  # EXPANDED_TERROR is in East EU
+
+  #TP#
+  - &SLUM #DONE
+    name: SLUM
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - DECKSHIPC
+      - LINERSHIPC
+      - PORTBITS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: SLUMURBAN
+    mapBlocks:
+      - name: SLUMURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN03
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN04
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN05
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN06
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN07
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN09
+        width: 10
+        length: 10
+        groups: 4
+      - name: SLUMURBAN10
+        width: 20
+        length: 20
+      - name: SLUMURBAN11
+        width: 20
+        length: 20
+      - name: SLUMURBAN12
+        width: 10
+        length: 20
+      - name: SLUMURBAN13
+        width: 10
+        length: 20
+      - name: SLUMURBAN14
+        width: 10
+        length: 20
+      - name: SLUMURBAN15
+        width: 10
+        length: 20
+      - name: SLUMURBAN16
+        width: 10
+        length: 20
+      - name: SLUMURBAN17
+        width: 10
+        length: 30
+      - name: SLUMURBAN18
+        width: 10
+        length: 30
+      - name: SLUMURBAN19
+        width: 10
+        length: 30
+      - name: SLUMURBAN20
+        width: 10
+        length: 30
+      - name: SLUMURBAN21
+        width: 10
+        length: 30
+      - name: SLUMURBAN22
+        width: 10
+        length: 30
+      - name: SLUMURBAN23
+        width: 10
+        length: 10
+      - name: SLUMURBAN24
+        width: 10
+        length: 10
+      - name: SLUMURBAN25
+        width: 10
+        length: 10
+      - name: SLUMURBAN26
+        width: 10
+        length: 10
+      - name: SLUMURBAN27
+        width: 10
+        length: 10 
+      - name: SLUMURBAN28
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN29
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN30
+        width: 10
+        length: 10
+        groups: 1
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN31
+        width: 10
+        length: 10
+        groups: 11
+
+  #TP#
+  - name: SLUM_SLIM
+    refNode: *SLUM
+    script: SLUMURBAN_SLIM
+
+  #CMP#
+  - name: INDUSTRIALSLUM # by Dioxine
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    script: INDUSTRIALSLUM
+    mapBlocks: &SECTION_INDUSTRIALSLUM_MAPS
+      - name: INDUSTRIALSLUM00
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM01
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM02
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM03
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM04
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM05
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM06
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM07
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM08
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM09
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM10
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM11
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM12
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM13
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM14
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM15
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM16
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM17
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM19
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM30
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM31
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM32
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM33
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM34
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM35
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO14
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO15
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO16
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO17
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUMDIO18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO19
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO20
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO21
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO22
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO23
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMROADWE2
+        width: 10
+        length: 10
+        groups: 2
+      - name: INDUSTRIALSLUMROADNS2
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALSLUMROADCROSS2
+        width: 10
+        length: 10
+        groups: 4
+
+  #CMP#
+  - name: ISLANDURBAN # by Dioxine
+#    ambience: 607
+#    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - ISLANDURBAN1
+      - ISLANDURBAN2
+      - ISLANDURBAN3
+      - SEABITS
+#    civilianTypes: *CIVILIAN_TYPES_STANDARD
+    script: ISLANDURBAN
+    mapBlocks: &SECTION_ISLANDURBAN_MAPS
+      - name: ISLANDURBAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN01
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN02
+        width: 20
+        length: 20
+      - name: ISLANDURBAN03
+        width: 20
+        length: 20
+      - name: ISLANDURBAN04
+        width: 20
+        length: 20
+        groups: 2
+      - name: ISLANDURBAN05
+        width: 20
+        length: 20
+        groups: 3
+      - name: ISLANDURBAN06
+        width: 20
+        length: 20
+      - name: ISLANDURBAN07
+        width: 10
+        length: 10
+        groups: 4
+      - name: ISLANDURBAN08
+        width: 10
+        length: 10
+      - name: ISLANDURBAN09
+        width: 10
+        length: 10
+      - name: ISLANDURBAN10
+        width: 10
+        length: 10
+      - name: ISLANDURBAN11
+        width: 10
+        length: 10
+      - name: ISLANDURBAN12
+        width: 10
+        length: 10
+      - name: ISLANDURBAN13
+        width: 10
+        length: 10
+      - name: ISLANDURBAN14
+        width: 10
+        length: 10
+
+  #TP#  
+  - &INDUSTRIAL #DONE
+    name: INDUSTRIAL
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: INDUSTRIALURBAN
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+
+  #hideout only
+  #TP#
+  - name: AIRFIELD3
+    refNode: *AIRFIELD1
+    script: AIRFIELD3
+  #hideout only
+  #TP#
+  - name: AIRFIELD4
+    refNode: *AIRFIELD1
+    script: AIRFIELD4
+
+  #Hideout only
+  #CMP#
+  - name: CHEMTOWN # by Dioxine
+#    ambience: ???
+#    ambientVolume: 0.75
+    mapDataSets:
+      - BLANKS
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILINDUSTRIAL
+      - MILTECH
+#    civilianTypes:
+    script: CHEMTOWN
+    mapBlocks:
+      - name: CHEMTOWN00
+        width: 10
+        length: 10
+      - name: CHEMTOWN01
+        width: 10
+        length: 10
+      - name: CHEMTOWN02
+        width: 10
+        length: 10
+      - name: CHEMTOWN03
+        width: 10
+        length: 10
+      - name: CHEMTOWN04
+        width: 10
+        length: 10
+      - name: CHEMTOWN05
+        width: 10
+        length: 10
+      - name: CHEMTOWN06
+        width: 10
+        length: 10
+      - name: CHEMTOWN07
+        width: 10
+        length: 10
+      - name: CHEMTOWN08
+        width: 10
+        length: 10
+      - name: CHEMTOWN09
+        width: 10
+        length: 10
+      - name: CHEMTOWN11
+        width: 10
+        length: 10
+      - name: CHEMTOWN12
+        width: 10
+        length: 10
+      - name: CHEMTOWN13
+        width: 10
+        length: 10
+      - name: CHEMTOWN14
+        width: 10
+        length: 10
+      - name: CHEMTOWN11LZ
+        width: 10
+        length: 10
+        groups: 1
+      - name: CHEMTOWN12LZ
+        width: 10
+        length: 10
+        groups: 1
+      - name: CHEMTOWN13LZ
+        width: 10
+        length: 10
+        groups: 1
+      - name: CHEMTOWN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: CHEMTOWN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: CHEMTOWN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: CHEMTOWN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: CHEMTOWN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: CHEMTOWN50
+        width: 20
+        length: 20
+      - name: CHEMTOWN51
+        width: 20
+        length: 20
+      - name: CHEMTOWN52
+        width: 20
+        length: 20
+
+    #unused, needed for anchors
+    #CMP#
+  - name: PORTTFTD6 # by Dioxine
+#    ambience: 607
+#    ambientVolume: 0.25
+    mapDataSets: &SECTION_PORTTFTD_SETS
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+      - SEABITS
+#    civilianTypes: *CIVILIAN_TYPES_STANDARD
+    script: PORTTFTD6
+    mapBlocks: &SECTION_PORTTFTD_MAPS
+      - name: PORTUFO00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO02
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO03
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO04
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO05
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO06
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO07
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO08
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO09
+        width: 10
+        length: 10
+        groups: 5
+      - name: PORTUFO10
+        width: 10
+        length: 10
+      - name: PORTUFO11
+        width: 10
+        length: 10
+      - name: PORTUFO12
+        width: 10
+        length: 10
+      - name: PORTUFO13
+        width: 10
+        length: 10
+      - name: PORTUFO14
+        width: 10
+        length: 10
+      - name: PORTUFO15
+        width: 10
+        length: 10
+      - name: PORTUFO16
+        width: 10
+        length: 10
+      - name: PORTUFO17
+        width: 20
+        length: 20
+      - name: PORTUFO18
+        width: 20
+        length: 20
+      - name: PORTUFO19
+        width: 20
+        length: 20
+      - name: PORTUFO20
+        width: 20
+        length: 20
+      - name: PORTUFO22
+        width: 20
+        length: 20
+      - name: PORTUFO27
+        width: 10
+        length: 10
+        groups: [3, 4]
+      - name: PORTUFO28
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO29
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO30
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO31
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTROAD_WE
+        width: 10
+        length: 10
+        groups: 2
+
+  #Hideout only
+  #CMP#
+  - name: PORTUFO # by Dioxine
+    mapDataSets: *SECTION_PORTTFTD_SETS
+#    civilianTypes: *CIVILIAN_TYPES_STANDARD
+    script: STANDARDROADS6
+    mapBlocks: *SECTION_PORTTFTD_MAPS
+
+  #CMP#
+  - name: REFINERY # by bulletdesigner
+    mapDataSets:
+      - BLANKS
+      - HANGAR1
+      - HANGAR2
+      - FUEL
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: REFINERYS
+    mapBlocks:
+      - name: FUELD00
+        width: 20
+        length: 20
+      - name: FUELD01
+        width: 20
+        length: 20
+      - name: FUELD02
+        width: 20
+        length: 20
+      - name: FUELD03
+        width: 10
+        length: 10
+      - name: FUELD04
+        width: 10
+        length: 10
+      - name: FUELD05
+        width: 10
+        length: 10
+      - name: FUELD06
+        width: 10
+        length: 10
+      - name: FUELD07
+        width: 10
+        length: 10
+      - name: FUELD08
+        width: 10
+        length: 10
+      - name: FUELD09
+        width: 10
+        length: 10
+        groups: 3
+      - name: FUELD10
+        width: 20
+        length: 20
+      - name: FUELD11
+        width: 20
+        length: 20
+      - name: FUELD12
+        width: 20
+        length: 20
+        groups: 4
+      - name: FUELD13
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: FUELD14
+        width: 10
+        length: 10
+      - name: FUELD15
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: FUELD16
+        width: 10
+        length: 10
+      - name: FUELD17
+        width: 10
+        length: 10
+      - name: FUELD18
+        width: 10
+        length: 10
+        groups: 2
+      - name: FUELD19 # dont use 
+        width: 30
+        length: 30
+        groups: 4
+
+
+##################################################################################################################################
+# WEST EU
+##################################################################################################################################
+
+  #CMP#
+  - name: COMRCURBAN # by Dioxine
+    mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    script: COMRCURBAN
+    mapBlocks:
+      - name: COMRCURBAN00
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN01
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN02
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN03
+        width: 10
+        length: 10
+        groups: [0, 4, 5]
+      - name: COMRCURBAN04
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN05
+        width: 20
+        length: 20
+      - name: COMRCURBAN06
+        width: 20
+        length: 20
+      - name: COMRCURBAN07
+        width: 20
+        length: 20
+      - name: COMRCURBAN08
+        width: 20
+        length: 20
+      - name: COMRCURBAN09
+        width: 20
+        length: 20
+      - name: COMRCURBAN10
+        width: 20
+        length: 20
+      - name: COMRCURBAN11
+        width: 20
+        length: 20
+      - name: COMRCURBAN12
+        width: 20
+        length: 20
+      - name: COMRCURBAN13
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN14
+        width: 10
+        length: 10
+      - name: COMRCURBAN15
+        width: 10
+        length: 10
+      - name: COMRCURBAN16
+        width: 10
+        length: 10
+      - name: COMRCURBAN17
+        width: 10
+        length: 10
+      - name: COMRCURBAN18
+        width: 10
+        length: 10
+      - name: COMRCURBAN19
+        width: 10
+        length: 10
+        groups: [1, 4]
+      - name: COMRCURBAN20
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN21
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN22
+        width: 10
+        length: 10
+      - name: COMRCURBAN23
+        width: 10
+        length: 10
+      - name: COMRCURBAN24
+        width: 20
+        length: 20
+      - name: COMRCURBAN25
+        width: 10
+        length: 10
+      - name: COMRCURBAN26
+        width: 20
+        length: 20
+        groups: [0, 6]
+      - name: COMRCURBAN27
+        width: 20
+        length: 20
+        groups: [0, 7]
+      - name: COMRCURBAN28
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN29
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN30
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN31
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN32
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN33
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN34
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN35
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN36
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN37
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN38
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN39
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN40
+        width: 10
+        length: 10
+      - name: COMRCURBAN41
+        width: 10
+        length: 10
+      - name: COMRCURBAN42
+        width: 20
+        length: 20
+      - name: COMRCURBAN43
+        width: 20
+        length: 20
+      - name: COMRCURBAN44
+        width: 10
+        length: 10
+        groups: [4]
+      - name: COMRCURBAN45
+        width: 10
+        length: 10
+      - name: COMRCURBAN46
+        width: 10
+        length: 10
+      - name: COMRCURBAN47
+        width: 10
+        length: 10
+      - name: COMRCURBAN50
+        width: 10
+        length: 10
+      - name: COMRCURBAN51
+        width: 10
+        length: 10
+
+  #TP#
+  - &APARTMENT #DONE
+    name: APARTMENT
+    mapDataSets:
+      - BLANKS
+      - APARTA
+      - APARTB
+      - APARTC
+      - APARTD
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: APARTMENT
+    mapBlocks:
+      - name: CITY00
+        width: 10
+        length: 10
+        groups: 2
+      - name: CITY01
+        width: 10
+        length: 10
+        groups: 3
+      - name: CITY02
+        width: 10
+        length: 10
+        groups: 4
+      - name: CITY03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: CITY04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: CITY05
+        width: 20
+        length: 20
+      - name: CITY06
+        width: 20
+        length: 20
+      - name: CITY07
+        width: 20
+        length: 20
+      - name: CITY08
+        width: 20
+        length: 20
+      - name: CITY09
+        width: 20
+        length: 20
+      - name: CITY14
+        width: 10
+        length: 10
+      - name: CITY15
+        width: 10
+        length: 10
+      - name: CITY16
+        width: 10
+        length: 10
+      - name: CITY17
+        width: 10
+        length: 10
+      - name: CITY18
+        width: 10
+        length: 10
+
+  #TP#
+  - &DAWNCITY #DONE
+    name: DAWNCITY
+    mapDataSets:
+      - BLANKS
+      - DAWNUFO00
+      - DAWNUFO01
+      - DAWNUFO02
+      - DAWNUFO03
+    script: URBAN
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    mapBlocks:
+      - name: DAWN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DAWN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DAWN05
+        width: 20
+        length: 20
+      - name: DAWN06
+        width: 20
+        length: 20
+      - name: DAWN07
+        width: 20
+        length: 20
+      - name: DAWN08
+        width: 20
+        length: 20
+      - name: DAWN09
+        width: 20
+        length: 20
+      - name: DAWN14
+        width: 10
+        length: 10
+      - name: DAWN15
+        width: 10
+        length: 10
+      - name: DAWN16
+        width: 10
+        length: 10
+      - name: DAWN17
+        width: 10
+        length: 10
+      - name: DAWN18
+        width: 10
+        length: 10
+
+  #TP#
+  - name: DAWNCITY_URBANA #DONE
+    refNode: *DAWNCITY
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    script: DAWNURBANA
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    mapBlocks:
+      - name: DAWNURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN07
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN09
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN10
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN11
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN12
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN14
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN16
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN17
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN18
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN19
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN20
+        width: 20
+        length: 20
+      - name: DAWNURBAN21
+        width: 20
+        length: 20
+      - name: DAWNURBAN22
+        width: 20
+        length: 20
+      - name: DAWNURBAN23
+        width: 20
+        length: 20
+      - name: DAWNURBAN24
+        width: 20
+        length: 20
+      - name: DAWNURBAN25
+        width: 20
+        length: 20
+      - name: DAWNURBAN26
+        width: 20
+        length: 20
+      - name: DAWNURBAN27
+        width: 20
+        length: 20
+      - name: DAWNURBAN28
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN29
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN30
+        width: 10
+        length: 10
+      - name: DAWNURBAN31
+        width: 10
+        length: 10
+      - name: DAWNURBAN32
+        width: 10
+        length: 10
+      - name: DAWNURBAN33
+        width: 10
+        length: 10
+      - name: DAWNURBAN34
+        width: 10
+        length: 10
+      - name: DAWNURBAN35
+        width: 10
+        length: 10
+      - name: DAWNURBAN36
+        width: 10
+        length: 10
+      - name: DAWNURBAN37
+        width: 10
+        length: 10
+      - name: DAWNURBAN38
+        width: 10
+        length: 10
+      - name: DAWNURBAN39
+        width: 10
+        length: 10
+
+  #TP#
+  - name: DAWNCITY_URBANB #DONE
+    refNode: *DAWNCITY
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    script: DAWNURBANB
+    mapBlocks:
+      - name: DAWNURBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN41
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN42
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN43
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN44
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN45
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN46
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN47
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN48
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN49
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN50
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN51
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN52
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN53
+        width: 10
+        length: 10
+      - name: DAWNURBAN54
+        width: 10
+        length: 10
+      - name: DAWNURBAN55
+        width: 10
+        length: 10
+      - name: DAWNURBAN56
+        width: 10
+        length: 10
+      - name: DAWNURBAN57
+        width: 10
+        length: 10
+      - name: DAWNURBAN58
+        width: 10
+        length: 10
+      - name: DAWNURBAN59
+        width: 10
+        length: 10
+      - name: DAWNURBAN60
+        width: 20
+        length: 20
+      - name: DAWNURBAN61
+        width: 20
+        length: 20
+      - name: DAWNURBAN62
+        width: 20
+        length: 20
+      - name: DAWNURBAN63
+        width: 20
+        length: 20
+      - name: DAWNURBAN64
+        width: 20
+        length: 20
+      - name: DAWNURBAN65
+        width: 20
+        length: 20
+      - name: DAWNURBAN66
+        width: 20
+        length: 20
+      - name: DAWNURBAN67
+        width: 20
+        length: 20
+
+  #Hideout only
+  #TP#
+  - name: AIRFIELD5
+    refNode: *AIRFIELD1
+    script: AIRFIELD5
+  - name: AIRFIELD6
+    refNode: *AIRFIELD1
+    script: AIRFIELD6
+
+
+##################################################################################################################################
+# OTHER
+##################################################################################################################################
+
+##########################
+# Skyscraper
+##########################
+
+  - name: SKYSCRAPER
+    script: SKYSCRAPER
+    mapDataSets:
+     - BLANKS
+     - COMROADS
+     - COMBITS
+     - COMMERCE
+     - COMFRN2
+     - COMDECORREDUCED
+     - ENTRY
+    mapBlocks:
+     - name: SKYSCRAPER00
+       width: 30
+       length: 30
+       height: 9
+       groups: 1
+       revealedFloors: 1
+  
+  - name: LITTLEBIRD
+    mapDataSets:
+     - blanks
+       - LITTLE_BIRD
+       - ROPE
+    mapBlocks:
+     - name: LITTLE_BIRD
+       width: 30
+       length: 30
+       height: 5
+       groups: 6
+       revealedFloors: [0,1,2,3,4]
+
+##########################
+# Office
+##########################
+
+# FILIP'S OFFICE
+  - name: OFFICE
+    script: OFFICE
+    mapDataSets:
+     - BLANKS
+     - COMROADS
+     - COMBITS
+     - COMMERCE
+     - COMFRN2
+     - COMDECORREDUCED
+     - ENTRY  
+    mapBlocks:
+     - name: OFFICE00
+       width: 20
+       length: 10
+       height: 4
+     - name: OFFICE01
+       width: 20
+       length: 20
+       height: 4
+     - name: OFFICE02
+       width: 10
+       length: 20
+       height: 4
+
+  - name: OFFICE_EAST_EU
+    script: OFFICE_EAST_EU
+    mapDataSets:
+     - BLANKS
+     - COMROADS
+     - COMBITS
+     - COMMERCE
+     - COMFRN2
+     - COMDECORREDUCED
+     - ENTRY  
+    mapBlocks:
+     - name: OFFICE00
+       width: 20
+       length: 10
+       height: 4
+     - name: OFFICE01
+       width: 20
+       length: 20
+       height: 4
+     - name: OFFICE02
+       width: 10
+       length: 20
+       height: 4
+
+  - name: OFFICE_USA
+    script: OFFICE_USA
+    mapDataSets:
+     - BLANKS
+     - COMROADS
+     - COMBITS
+     - COMMERCE
+     - COMFRN2
+     - COMDECORREDUCED
+     - ENTRY  
+    mapBlocks:
+     - name: OFFICE00
+       width: 20
+       length: 10
+       height: 4
+     - name: OFFICE01
+       width: 20
+       length: 20
+       height: 4
+     - name: OFFICE02
+       width: 10
+       length: 20
+       height: 4
+
+
+# EFREN'S OFFICE
+  - name: CTO_OFFICE
+    script: CTO_OFFICE
+    mapDataSets:
+     - BLANKS
+     - IDT_OFFICE
+     - BD_CIV_CARS 
+    mapBlocks:
+     - name: CTO_OFFICE01
+       width: 20
+       length: 20
+       height: 6
+       groups: 6
+
+  - name: CTO_OFFICE_WEST_EUROPE
+    script: CTO_OFFICE_WEST_EUROPE
+    mapDataSets:
+     - BLANKS
+     - IDT_OFFICE
+     - BD_CIV_CARS 
+    mapBlocks:
+     - name: CTO_OFFICE01
+       width: 20
+       length: 20
+       height: 6
+       groups: 6
+
+  - name: CTO_OFFICE_EAST_EUROPE
+    script: CTO_OFFICE_EAST_EUROPE
+    mapDataSets:
+     - BLANKS
+     - IDT_OFFICE
+     - BD_CIV_CARS 
+    mapBlocks:
+     - name: CTO_OFFICE01
+       width: 20
+       length: 20
+       height: 6
+       groups: 6
+
+  - name: CTO_OFFICE_USA
+    script: CTO_OFFICE_USA
+    mapDataSets:
+     - BLANKS
+     - IDT_OFFICE
+     - BD_CIV_CARS 
+    mapBlocks:
+     - name: CTO_OFFICE01
+       width: 20
+       length: 20
+       height: 6
+       groups: 6
+
+##########################
+# Plane hijacking
+##########################
+  - name: AIRPORT
+    script: AIRPORT_HIJACKED_PLANE_SCRIPT
+    mapDataSets:
+     - BLANKS
+     - IDT_PLANE_2
+     - IDT_PLANE_3
+     - PORT01_UFO
+     - PORT02_UFO
+     - PORT05_UFO
+    mapBlocks:
+     - name: AIRBASE00
+       width: 10
+       length: 10
+       groups: 1
+     - name: AIRBASE01
+       width: 10
+       length: 10
+       groups: 1
+     - name: AIRPORT_N
+       width: 10
+       length: 10
+       groups: 3
+     - name: AIRPORT_S
+       width: 10
+       length: 10
+       groups: 4
+
+  - name: IDT_PLANE_HIJACKED
+   # script: AIRPORT_SCRIPT
+   # enviroEffects: STR_LAND
+    mapDataSets:
+     - BLANKS
+     - IDT_PLANE
+     - PORT01_UFO
+    mapBlocks:
+     - name: HIJACKED_PLANE02
+       width: 30
+       length: 20
+
+##########################
+# Safehouse
+##########################
+
+  - name: SAFEHOUSE
+    mapDataSets:
+     - BLANKS
+     - DAWNURBAN
+     - DAWNURBITS
+     - CRIBDECOR
+     - MANSIONBITS
+     - CITYFRNITURE
+    script: SAFEHOUSESCRIPT
+    mapBlocks:
+     - name: LT_HOUSE_02G
+       width: 20
+       length: 20
+       height: 6
+       groups: 4
+     - name: LT_HOUSE_03G
+       width: 20
+       length: 20
+       height: 6
+       groups: 4
+     - name: LT_HOUSE_04G
+       width: 20
+       length: 30
+       height: 6
+       groups: 4
+
+##########################
+# House breaching map
+##########################
+
+  - name: CTO_BREACH_TEST
+    mapDataSets:
+     - BLANKS
+     - VILBAN
+     - VILBITS
+     - CTO_TEST
+     - APARTD
+     - CTO_TEST2
+    civilianTypes:
+     - MALE_CIVILIAN
+     - FEMALE_CIVILIAN
+    script: CTO_TEST_MAP_SCRIPT
+    mapBlocks:
+     - name: CTO_TEST_BREACH_HOUSE
+       width: 10
+       length: 10
+       groups: 0
+       height: 4
+     - name: CTO_TEST_BREACH_LANDING
+       width: 10
+       length: 10
+       groups: 1
+     - name: CTO_TEST_BREACH_OUTSIDE_ADV
+       width: 10
+       length: 10
+     - name: CTO_TEST_BREACH_OUTSIDE_BASIC
+       width: 10
+       length: 10
+
+##################################################################################################################################
+# UFOS
+##################################################################################################################################
 
 ufos:
   - type: STR_TECHNICAL_GLOBAL_UFO

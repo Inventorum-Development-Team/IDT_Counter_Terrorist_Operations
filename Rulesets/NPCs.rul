@@ -201,7 +201,7 @@ items:
     armor: 30
     recoverCorpse: false
     power: 9999
-    blastRadius: 1000
+    blastRadius: 14
 
   - type: STR_BOMB_ITEM
     categories: [ STR_EXPLOSIVES ]
@@ -211,7 +211,7 @@ items:
     floorSprite: 19
     fixedWeapon: true
     power: 9999
-    blastRadius: 1000
+    blastRadius: 14
     isExplodingInHands: true
     tuPrime: 25
     damageAlter:

@@ -913,8 +913,8 @@ alienDeployments:
          itemSets:
            - []
   - type: BOMB_DEFUSAL_EAST_EU
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     height: 10
     terrains:
       - EXPANDED_TERROR
@@ -973,8 +973,8 @@ alienDeployments:
          itemSets:
            - []
   - type: BOMB_DEFUSAL_USA
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     height: 10
     terrains:
       - EXPANDED_TERROR
@@ -983,6 +983,7 @@ alienDeployments:
       - ISLANDURBAN
       - INDUSTRIAL
       - AIRFIELD1
+      - REFINERY
     civilians: 0
     despawnPenalty: 700
     abortPenalty: 400
@@ -1035,8 +1036,8 @@ alienDeployments:
          itemSets:
            - []
   - type: BOMB_DEFUSAL_WEST_EU
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     height: 10
     terrains:
       - COMRCURBAN
