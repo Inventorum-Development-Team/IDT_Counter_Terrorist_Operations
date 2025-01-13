@@ -658,6 +658,7 @@ items:
     damageAlter:
       RandomType: 1
       ToArmorPre: 0.2
+      IgnoreSelfDestruct: false
       FixRadius: 3
 
   - &STR_40MM_SMOKE
@@ -686,6 +687,7 @@ items:
     blastRadius: 3
     damageAlter:
       RandomType: 1
+      IgnoreSelfDestruct: false
       FixRadius: 3
       ToArmor: 0
 
@@ -719,6 +721,7 @@ items:
     blastRadius: 4
     damageAlter:
       RandomType: 1
+      IgnoreSelfDestruct: false
       ToArmorPre: 0.4
       FixRadius: 4
 
@@ -748,6 +751,7 @@ items:
     damageAlter:
       RandomType: 1
       ToArmorPre: 1
+      IgnoreSelfDestruct: false
       FixRadius: 3
 
   - &STR_CG_HE
@@ -762,6 +766,7 @@ items:
     damageAlter:
       RandomType: 1
       ToArmorPre: 0.4
+      IgnoreSelfDestruct: false
       FixRadius: 6
 
   - &STR_RPG_HEAT
@@ -776,6 +781,7 @@ items:
     damageAlter:
       RandomType: 1
       ToArmorPre: 1
+      IgnoreSelfDestruct: false
       FixRadius: 3
 
   - &STR_RPG_29_HEAT
@@ -790,6 +796,7 @@ items:
     damageAlter:
       RandomType: 1
       ToArmorPre: 1
+      IgnoreSelfDestruct: false
       FixRadius: 3
 
   - &STR_RPG_29_THERMO
@@ -804,6 +811,7 @@ items:
     damageAlter:
       RandomType: 1
       ToArmorPre: 0.2
+      IgnoreSelfDestruct: false
       FixRadius: 7
 
   - &STR_LAUNCHED_BLADE
@@ -7651,7 +7659,7 @@ items:
     isConsumable: false
     medikitType: 2
     tuUse: 60
-    medikitActionName: STR_ACTIVATE_MEDIKIT
+    medikitActionName: STR_ACTIVATE_DEFUSEKIT
     listOrder: 311010
     
   - type: STR_DEFUSE_CODE #wip
@@ -7673,7 +7681,7 @@ items:
     medikitType: 2
     recover: false
     tuUse: 20
-    medikitActionName: STR_ACTIVATE_MEDIKIT
+    medikitActionName: STR_ACTIVATE_DEFUSEKIT
     listOrder: 311011
 
   - type: STR_RIOT_SHIELD

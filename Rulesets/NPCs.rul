@@ -91,8 +91,8 @@ armors:
     damageModifier:
       - 1.0
       - 1.0
-      - 1.0
-      - 1.0
+      - 0.0
+      - 0.0
       - 1.0
       - 1.0
       - 0.0
@@ -109,7 +109,7 @@ armors:
 
 units:
   - type: STR_BOMB_ENT_ACTIVE
-    race: STR_TERRORIST_MG
+    race: STR_BOMB_OBJ_RACE
     stats:
       tu: 0
       stamina: 0
@@ -143,7 +143,7 @@ units:
   - type: STR_BOMB_ENT_DEFUSED
     stats:
       tu: 0
-      stamina: 0
+      stamina: 5
       health: 1
       bravery: 900
       reactions: 0

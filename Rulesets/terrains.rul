@@ -904,7 +904,8 @@ terrains:
         groups: 4
 
   #CMP#
-  - name: ISLANDURBAN # by Dioxine
+  - &ISLANDURBAN
+    name: ISLANDURBAN # by Dioxine
 #    ambience: 607
 #    ambientVolume: 0.25
     mapDataSets:
@@ -1275,7 +1276,8 @@ terrains:
     mapBlocks: *SECTION_PORTTFTD_MAPS
 
   #CMP#
-  - name: REFINERY # by bulletdesigner
+  - &REFINERY
+    name: REFINERY # by bulletdesigner
     mapDataSets:
       - BLANKS
       - HANGAR1
@@ -1364,13 +1366,34 @@ terrains:
     refNode: *INDUSTRIALSLUM
     script: INDUSTRIALSLUM_OBJ
 
+  - name: SLUM_OBJ
+    refNode: *SLUM
+    script: SLUMURBAN_OBJ
+
+  - name: ISLANDURBAN_OBJ
+    refNode: *ISLANDURBAN
+    script: ISLANDURBAN_OBJ
+
+  - name: INDUSTRIAL_OBJ
+    refNode: *INDUSTRIAL
+    script: INDUSTRIALURBAN_OBJ
+
+  - name: AIRFIELD3_OBJ
+    refNode: *AIRFIELD1
+    script: AIRFIELD3_OBJ
+
+  - name: REFINERY_OBJ
+    refNode: *REFINERY
+    script: REFINERYS_OBJ
+
 
 ##################################################################################################################################
 # WEST EU
 ##################################################################################################################################
 
   #CMP#
-  - name: COMRCURBAN # by Dioxine
+  - &COMRCURBAN
+    name: COMRCURBAN # by Dioxine
     mapDataSets:
       - BLANKS
       - COMROADS
@@ -1686,7 +1709,8 @@ terrains:
         length: 10
 
   #TP#
-  - name: DAWNCITY_URBANA #DONE
+  - &DAWNCITY_URBANA
+    name: DAWNCITY_URBANA #DONE
     refNode: *DAWNCITY
     mapDataSets:
       - BLANKS
@@ -1844,7 +1868,8 @@ terrains:
         length: 10
 
   #TP#
-  - name: DAWNCITY_URBANB #DONE
+  - &DAWNCITY_URBANB
+    name: DAWNCITY_URBANB #DONE
     refNode: *DAWNCITY
     mapDataSets:
       - BLANKS
@@ -1962,7 +1987,27 @@ terrains:
     refNode: *AIRFIELD1
     script: AIRFIELD6
 
+##########################
+# OBJ (West EU)
+##########################
+# Map here use mapscripts that are modified for 6x6 maps, to avoid having an objective, 
+# such as the bomb in bomb defusal, spawn next to the start location.
 
+  - name: COMRCURBAN_OBJ
+    refNode: *COMRCURBAN
+    script: COMRCURBAN_OBJ
+  
+  - name: APARTMENT_OBJ
+    refNode: *APARTMENT
+    script: APARTMENT_OBJ
+
+  - name: DAWNCITY_URBANA_OBJ
+    refNode: *DAWNCITY_URBANA
+    script: DAWNURBANA_OBJ
+
+  - name: DAWNCITY_URBANB_OBJ
+    refNode: *DAWNCITY_URBANB
+    script: DAWNURBANB_OBJ
 ##################################################################################################################################
 # OTHER
 ##################################################################################################################################

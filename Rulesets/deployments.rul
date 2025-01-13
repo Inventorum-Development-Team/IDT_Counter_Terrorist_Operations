@@ -735,10 +735,10 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - EXPANDED_TERROR
-      - RURAL
-      - RAILYARD
-      - DOWNTOWN
+      - EXPANDED_TERROR_OBJ
+      - RURAL_OBJ
+      - RAILYARD_OBJ
+      - DOWNTOWN_OBJ
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -795,12 +795,12 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - EXPANDED_TERROR
-      - SLUM
-      - INDUSTRIALSLUM
-      - ISLANDURBAN
-      - INDUSTRIAL
-      - AIRFIELD1
+      - EXPANDED_TERROR_OBJ
+      - SLUM_OBJ
+      - INDUSTRIALSLUM_OBJ
+      - ISLANDURBAN_OBJ
+      - INDUSTRIAL_OBJ
+      - AIRFIELD3_OBJ
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -857,10 +857,10 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - COMRCURBAN
-      - APARTMENT
-      - DAWNCITY_URBANA
-      - DAWNCITY_URBANB
+      - COMRCURBAN_OBJ
+      - APARTMENT_OBJ
+      - DAWNCITY_URBANA_OBJ
+      - DAWNCITY_URBANB_OBJ
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -931,8 +931,8 @@ alienDeployments:
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
     keepCraftAfterFailedMission: true
-    alert: STR_MAJOR_ATTACK
-    markerName: STR_MAJOR_ATTACK
+    alert: STR_MAJOR_ATTACK_BOMB
+    markerName: STR_MAJOR_ATTACK_BOMB
     customUfo: STR_BOMB_UFO
     briefing:
      desc: STR_BOMB_DEFUSAL_BRIEFING
@@ -984,12 +984,12 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - SLUM
+      - SLUM_OBJ
       - INDUSTRIALSLUM_OBJ
-      - ISLANDURBAN
-      - INDUSTRIAL
-      - AIRFIELD1
-      - REFINERY
+      - ISLANDURBAN_OBJ
+      - INDUSTRIAL_OBJ
+      - AIRFIELD3_OBJ
+      - REFINERY_OBJ
     civilians: 0
     despawnPenalty: 700
     abortPenalty: 700
@@ -1000,8 +1000,8 @@ alienDeployments:
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
     keepCraftAfterFailedMission: true
-    alert: STR_MAJOR_ATTACK
-    markerName: STR_MAJOR_ATTACK
+    alert: STR_MAJOR_ATTACK_BOMB
+    markerName: STR_MAJOR_ATTACK_BOMB
     customUfo: STR_BOMB_UFO_WAREHOUSE
     briefing:
      desc: STR_BOMB_DEFUSAL_BRIEFING
@@ -1053,10 +1053,10 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - COMRCURBAN
-      - APARTMENT
-      - DAWNCITY_URBANA
-      - DAWNCITY_URBANB
+      - COMRCURBAN_OBJ
+      - APARTMENT_OBJ
+      - DAWNCITY_URBANA_OBJ
+      - DAWNCITY_URBANB_OBJ
     civilians: 0
     despawnPenalty: 700
     abortPenalty: 700
@@ -1067,8 +1067,8 @@ alienDeployments:
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
     keepCraftAfterFailedMission: true
-    alert: STR_MAJOR_ATTACK
-    markerName: STR_MAJOR_ATTACK
+    alert: STR_MAJOR_ATTACK_BOMB
+    markerName: STR_MAJOR_ATTACK_BOMB
     customUfo: STR_BOMB_UFO
     briefing:
      desc: STR_BOMB_DEFUSAL_BRIEFING

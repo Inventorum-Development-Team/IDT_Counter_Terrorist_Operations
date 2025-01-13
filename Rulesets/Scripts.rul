@@ -946,6 +946,18 @@ extended:
             end;
            return;
 
+        #give tag to defused bomb
+        #- offset: 10
+        #  code: | #hack to stop bomb from comming back as an enemy and defused after dieng
+        #   var int faction;
+        #   var int stam;
+        #   BattleUnit.getFaction unit faction Tag.Bomb;
+        #   BattleUnit.getEnergyMax unit stam;
+        #   if and eq faction 1 eq stam 5; #Arbitrary number to determine that bomb is defused
+        #    BattleUnit.setHealth unit 0;
+        #   end;
+        #   return;
+
      accuracyMultiplierBonusStats:
          - offset: 7 #LMG movement inaccuracy 
            code: |
