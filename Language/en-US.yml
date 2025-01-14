@@ -1445,6 +1445,7 @@ en-US:
   STR_DEFUSE_KIT: "Defuse Kit"
   STR_DEFUSE_CODE: "Disarm Code"
   STR_BOMB_OBJ_RACE: "Bomb"
+  STR_BOMB_ENT_DEFUSED: "Bomb (Defused)"
   STR_MSG_BOMB_DEFUSED: "Bomb Defused!"
   BOMB_DEFUSAL_USA: "Bomb Defusal, USA"
   BOMB_DEFUSAL_WEST_EU: "Bomb Defusal, Western Europe"

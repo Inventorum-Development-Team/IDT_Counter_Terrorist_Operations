@@ -25,6 +25,19 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/NPC/INV_FEMALE_CIVILIAN.PNG
+  - type: BOMB.PCK
+    width: 288
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/NPC/BOMB_OBJ.PNG
+  - type: INV_BOMB
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/NPC/INV_BOMB_OBJ.PNG
 
 armors:
   - type: CIVM_ARMOR
@@ -77,17 +90,16 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: STR_BOMB_ENT_ARMOR
-    spriteInv: INV_FEMALE_CIVILIAN
-    spriteSheet: FEMALE_CIVILIAN.PCK
-    spriteFaceGroup: 6
-    spriteFaceColor: [94, 94, 96, 96, 97, 160, 162, 163]
+    spriteInv: INV_BOMB
+    spriteSheet: BOMB.PCK
+    #spriteFaceGroup: 6
+    #spriteFaceColor: [94, 94, 96, 96, 97, 160, 162, 163]
     corpseBattle:
       - STR_BOMB_CORPSE
     frontArmor: 0
     sideArmor: 0
     rearArmor: 0
     underArmor: 0
-    drawingRoutine: 0
     damageModifier:
       - 1.0
       - 1.0
@@ -101,7 +113,11 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
     specab: 1
-    constantAnimation: false #Change to true when sprite properly set up
+    constantAnimation: true #Change to true when sprite properly set up
+    drawingRoutine: 8
+    deathFrames: 1
+    deathMale: 223
+    deathFemale: 223
     fearImmune: true
     bleedImmune: false
     painImmune: true
@@ -123,8 +139,8 @@ units:
       psiSkill: 0
       melee: 0
     armor: STR_BOMB_ENT_ARMOR
-    standHeight: 21
-    kneelHeight: 16
+    standHeight: 8
+    kneelHeight: 8
     deathSound: [ 41, 42, 43 ]
     value: 0
     aggression: 0
@@ -154,8 +170,8 @@ units:
       psiSkill: 0
       melee: 0
     armor: STR_BOMB_ENT_ARMOR
-    standHeight: 21
-    kneelHeight: 16
+    standHeight: 8
+    kneelHeight: 8
     deathSound: [ 41, 42, 43 ]
     value: 0
     vip: true
@@ -209,8 +225,8 @@ items:
     categories: [ STR_EXPLOSIVES ]
     size: 0.3
     weight: 4
-    bigSprite: 19
-    floorSprite: 19
+    bigSprite: 3432
+    floorSprite: 3432
     fixedWeapon: true
     power: 9999
     blastRadius: 14

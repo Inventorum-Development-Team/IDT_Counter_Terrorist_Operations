@@ -746,17 +746,22 @@ items:
       UfopaediaAmmoNo: 1
       BalKnife: 1
 
-  - type: STR_BOMB_ITEM
+  - type: STR_BOMB_ITEM #ignoreDuplicate
     tags:
      Bomb: 38
   
-  - type: STR_DEFUSE_KIT
+  - type: STR_DEFUSE_KIT #ignoreDuplicate
     tags:
      DefuseKit: 1
-  
-  - type: STR_DEFUSE_CODE
+   
+  - type: STR_DEFUSE_CODE #ignoreDuplicate
     tags:
      DefuseKit: 1
+
+armors:
+  - type: STR_BOMB_ENT_ARMOR #ignoreDuplicate
+    tags:
+     BombEnt: 1
 
 extended:
   tags:
@@ -796,6 +801,8 @@ extended:
       Enemies: int
       Allies: int
       Turn: int
+    RuleArmor:
+     BombEnt: int #Flags a unit as a bomb
   scripts:
      damageUnit: 
         - offset: 5
@@ -947,16 +954,22 @@ extended:
            return;
 
         #give tag to defused bomb
-        #- offset: 10
-        #  code: | #hack to stop bomb from comming back as an enemy and defused after dieng
-        #   var int faction;
-        #   var int stam;
-        #   BattleUnit.getFaction unit faction Tag.Bomb;
-        #   BattleUnit.getEnergyMax unit stam;
-        #   if and eq faction 1 eq stam 5; #Arbitrary number to determine that bomb is defused
-        #    BattleUnit.setHealth unit 0;
-        #   end;
-        #   return;
+        - offset: 10
+          code: | #hack to stop bomb from comming back as an enemy and defused after dieng
+           var int faction;
+           var ptr RuleArmor arm;
+           var int armval;
+           var int stam;
+           BattleUnit.getFaction unit faction;
+           BattleUnit.getRuleArmor unit arm;
+           RuleArmor.getTag arm armval Tag.BombEnt;
+           BattleUnit.getEnergyMax unit stam;
+           if and eq faction 1 eq stam 5; #Arbitrary number to determine that bomb is defused
+            if eq armval 1;
+             BattleUnit.setHealth unit 0;
+            end;
+           end;
+           return;
 
      accuracyMultiplierBonusStats:
          - offset: 7 #LMG movement inaccuracy 
