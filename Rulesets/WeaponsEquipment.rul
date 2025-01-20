@@ -7649,9 +7649,9 @@ items:
     costBuy: 4000
     costSell: 2000
     weight: 7
-    bigSprite: 3424
-    floorSprite: 3424
-    handSprite: 3424
+    bigSprite: 5288
+    floorSprite: 5288
+    handSprite: 5288
     battleType: 6
     invWidth: 2
     invHeight: 1
@@ -7662,17 +7662,13 @@ items:
     medikitActionName: STR_ACTIVATE_DEFUSEKIT
     listOrder: 311010
     
-  - type: STR_DEFUSE_CODE #wip
+  - type: STR_DEFUSE_CODE
     categories: [ STR_MEDICAL ]
-    #requiresBuy:
-    #  - STR_MEDKIT_ACQUISITION
     size: 1
-    #costBuy: 4000
-    #costSell: 2000
     weight: 1
-    bigSprite: 3424
-    floorSprite: 3424
-    handSprite: 3424
+    bigSprite: 5280
+    floorSprite: 5280
+    handSprite: 5280
     battleType: 6
     invWidth: 1
     invHeight: 1
@@ -8359,6 +8355,8 @@ extraSprites:
       5256: Resources/BallisticWeapons/Shotguns/BigMASS.png
       5264: Resources/BallisticWeapons/Rifles/BigACRnomag.png
       5272: Resources/BallisticWeapons/Rifles/BigACR.png
+      5280: Resources/BallisticWeapons/Equipment/BigDefuseCode.png
+      5288: Resources/BallisticWeapons/Equipment/BigDefuseKit.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8883,6 +8881,8 @@ extraSprites:
       5256: Resources/BallisticWeapons/Shotguns/FloorMASS.png
       5264: Resources/BallisticWeapons/Rifles/FloorACR.png #acr
       5272: Resources/BallisticWeapons/Rifles/FloorACR.png #acr
+      5280: Resources/BallisticWeapons/Equipment/FloorDefuseCode.png
+      5288: Resources/BallisticWeapons/Equipment/FloorDefuseKit.png
 
 ####################HAND SPRITES##############################################################################
   - type: HANDOB.PCK
@@ -9411,6 +9411,8 @@ extraSprites:
       5256: Resources/BallisticWeapons/Shotguns/HandMASS.png
       5264: Resources/BallisticWeapons/Rifles/HandACR.png #acr
       5272: Resources/BallisticWeapons/Rifles/HandACR.png #acr
+      5280: Resources/BallisticWeapons/Equipment/HandDefuseCode.png
+      5288: Resources/BallisticWeapons/Equipment/HandDefuseKit.png
 
   # - type: SMOKE.PCK
   #   height: 80

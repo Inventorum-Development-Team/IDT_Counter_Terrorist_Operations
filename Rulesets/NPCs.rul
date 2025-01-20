@@ -103,12 +103,12 @@ armors:
     damageModifier:
       - 1.0
       - 1.0
-      - 0.0
-      - 0.0
+      - 1.0 #
+      - 1.0 #
       - 1.0
       - 1.0
-      - 0.0
-      - 0.0
+      - 1.0 #
+      - 1.0 #
       - 1.0
       - 1.0
     loftempsSet: [ 3 ]
@@ -129,7 +129,7 @@ units:
     stats:
       tu: 0
       stamina: 0
-      health: 1
+      health: 9999
       bravery: 900
       reactions: 0
       firing: 0

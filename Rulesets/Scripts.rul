@@ -1168,6 +1168,20 @@ extended:
              end;
              return power part side;
 
+         - offset: 5
+           code: |
+            var ptr RuleUnit empty;
+            var ptre BattleItem bombItem;
+            var int bombTag;
+
+            BattleUnit.getRightHandWeapon unit bombItem;
+            BattleItem.getTag bombItem bombTag Tag.Bomb;
+            if and gt bombTag 0 gt power 30;
+             BattleUnit.setSpawnUnit unit empty;
+             BattleUnit.setHealth unit 0;
+            end;
+            return power part side;
+
      healUnit: #Handcuff script
        - offset: 1
          code: |
@@ -1197,6 +1211,7 @@ extended:
           var int bombTag;
           var int IsDefuser;
           var ptre BattleItem bombItem;
+          var ptr RuleUnit output;
 
           BattleItem.getTag item IsDefuser Tag.DefuseKit;
           BattleUnit.getRightHandWeapon target bombItem;
@@ -1205,6 +1220,7 @@ extended:
             BattleItem.setFuseEnabled bombItem 0;
             BattleUnit.setSpawnUnitFaction target 2;
             BattleUnit.setSpawnUnitInstantRespawn target 1;
+            BattleUnit.getSpawnUnit target output;
             BattleGame.flashMessage battle_game "STR_MSG_BOMB_DEFUSED";
           end;
           return;

@@ -1456,5 +1456,7 @@ en-US:
   STR_DEBRIF_BOMB_DEFUSED: "Bomb defused"
   STR_BOMB_DEFUSAL_BRIEFING: "A bomb has been planted in the area and we've been called in to assist. Civilians in the area have been evacuated, however failure will lead to a large amount of damage to local infrastructure.\n\nA defuse kit is required to defuse the bomb. If one is not available, a high ranking terrorist might have a code to disarm the bomb on them."
   STR_MAJOR_ATTACK_BOMB: "Bomb Defusal"
+  STR_DEFUSE_KIT_UFOPAEDIA: "TU Cost: 60%\n\nA kit containing multiple tools used for defusing bombs. Bringing at least one for bomb defusal situations is highly recommended."
+  STR_DEFUSE_CODE_UFOPAEDIA: "TU Cost: 20%\n\nA sheet of paper with instructions for disarming a bomb. High ranking terrorists are likely to carry one on them. If you don't have a defuse kit, finding one of these is your 2nd best option."
   
      

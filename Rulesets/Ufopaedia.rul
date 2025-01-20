@@ -1668,6 +1668,18 @@ ufopaedia:
     text: STR_FIELD_DRESSING_UFOPAEDIA
     section: STR_EQUIPMENT
     listOrder: 1116
+  
+  - id: STR_DEFUSE_KIT
+    type_id: 4
+    text: STR_DEFUSE_KIT_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1117
+
+  - id: STR_DEFUSE_CODE
+    type_id: 4
+    text: STR_DEFUSE_CODE_UFOPAEDIA
+    section: STR_EQUIPMENT
+    listOrder: 1117
 
   - id: STR_SCOPE
     type_id: 4
