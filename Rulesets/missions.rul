@@ -359,3 +359,48 @@ alienMissions:
         trajectory: DIRECT
         timer: 100
         objective: true
+  
+  - type: BOMB_DEFUSAL_EAST_EU
+    objective: 3
+    despawnEvenIfTargeted: true
+    siteType: BOMB_DEFUSAL_EAST_EU
+    spawnZone: 0
+    raceWeights:
+     0:
+      STR_TERRORISTS_EAST_EU: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: DIRECT
+        timer: 100
+        objective: true
+
+  - type: BOMB_DEFUSAL_USA
+    objective: 3
+    despawnEvenIfTargeted: true
+    siteType: BOMB_DEFUSAL_USA
+    spawnZone: 0
+    raceWeights:
+     0:
+      STR_TERRORISTS_USA: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: DIRECT
+        timer: 100
+        objective: true
+
+  - type: BOMB_DEFUSAL_WEST_EU
+    objective: 3
+    despawnEvenIfTargeted: true
+    siteType: BOMB_DEFUSAL_WEST_EU
+    spawnZone: 0
+    raceWeights:
+     0:
+      STR_TERRORISTS_WEST_EU: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: DIRECT
+        timer: 100
+        objective: true

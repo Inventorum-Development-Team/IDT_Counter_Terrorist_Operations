@@ -211,8 +211,8 @@ items:
   - type: STR_BOMB_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3058
-    floorSprite: 3058
+    bigSprite: -1
+    floorSprite: -1
     invWidth: 2
     invHeight: 3
     battleType: 11

@@ -11,7 +11,7 @@ missionScripts:
   - delete: superhumanRetaliation
   - delete: recurringTerror
 
-
+  #Terror Attack variations ##################################
   - type: east_eu_terror_attack
     missionWeights:
      0:
@@ -48,10 +48,12 @@ missionScripts:
        REGION_EUROPEAN_CITIES: 100
     useTable: false
 
+  #Major Attack variations ##################################
   - type: east_eu_major_attack
     missionWeights:
       0:
-        MAJOR_ATTACK_EAST_EU: 100
+        MAJOR_ATTACK_EAST_EU: 50
+        BOMB_DEFUSAL_EAST_EU: 50
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
@@ -64,7 +66,8 @@ missionScripts:
   - type: usa_major_attack
     missionWeights:
       0:
-        MAJOR_ATTACK_USA: 100
+        MAJOR_ATTACK_USA: 50
+        BOMB_DEFUSAL_USA: 50
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
@@ -77,7 +80,8 @@ missionScripts:
   - type: west_eu_major_attack
     missionWeights:
       0:
-        MAJOR_ATTACK_WEST_EU: 100
+        MAJOR_ATTACK_WEST_EU: 50
+        BOMB_DEFUSAL_WEST_EU: 50
     executionOdds: 33
     startDelay: 100
     randomDelay: 43200
@@ -87,6 +91,7 @@ missionScripts:
        REGION_EUROPEAN_CITIES: 100
     useTable: false
 
+  #Other#################################################
   - type: east_eu_house_raids
     missionWeights:
      0:
