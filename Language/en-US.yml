@@ -1092,7 +1092,7 @@ en-US:
   MAP_RURAL: "Village"
   MAP_RURAL_OBJ: "Village"
   MAP_COMRCURBAN: "Commercial"
-  MAP_COMRCURBAN: "Commercial_OBJ"
+  MAP_COMRCURBAN_OBJ: "Commercial"
   MAP_INDUSTRIALSLUM: "Industrial Slums"
   MAP_INDUSTRIALSLUM_OBJ: "Industrial Slums"
   MAP_PORTTFTD6: "Port A"

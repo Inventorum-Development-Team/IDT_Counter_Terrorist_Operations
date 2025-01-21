@@ -923,9 +923,9 @@ alienDeployments:
       - DOWNTOWN_OBJ
     civilians: 0
     despawnPenalty: 700
-    abortPenalty: 700
+    abortPenalty: 100
     vipSurvivalPercentage: 100
-    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,600]
+    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,300]
     objectiveFailed: [STR_DEBRIF_SCORE_BOMB_DETONATED,-600]
     missionFailedText: STR_DEBRIF_BOMB_DETONATED
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
@@ -992,9 +992,9 @@ alienDeployments:
       - REFINERY_OBJ
     civilians: 0
     despawnPenalty: 700
-    abortPenalty: 700
+    abortPenalty: 100
     vipSurvivalPercentage: 100
-    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,600]
+    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,300]
     objectiveFailed: [STR_DEBRIF_SCORE_BOMB_DETONATED,-600]
     missionFailedText: STR_DEBRIF_BOMB_DETONATED
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
@@ -1059,9 +1059,9 @@ alienDeployments:
       - DAWNCITY_URBANB_OBJ
     civilians: 0
     despawnPenalty: 700
-    abortPenalty: 700
+    abortPenalty: 100
     vipSurvivalPercentage: 100
-    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,600]
+    objectiveComplete: [STR_DEBRIF_SCORE_BOMB_DEFUSED,300]
     objectiveFailed: [STR_DEBRIF_SCORE_BOMB_DETONATED,-600]
     missionFailedText: STR_DEBRIF_BOMB_DETONATED
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
@@ -1069,7 +1069,7 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK_BOMB
     markerName: STR_MAJOR_ATTACK_BOMB
-    customUfo: STR_BOMB_UFO
+    customUfo: STR_BOMB_UFO_TANK_STATUE
     briefing:
      desc: STR_BOMB_DEFUSAL_BRIEFING
     data:

@@ -2371,3 +2371,20 @@ ufos:
               - [4, 4, 0]
           fuseTimers:
             STR_BOMB_SPAWNER: [0,0]
+  - type: STR_BOMB_UFO_TANK_STATUE
+    battlescapeTerrainData:
+      name: BOMB_SITE_3
+      mapDataSets:
+        - blanks
+        - ACHURCH
+        - VILBITS
+        - CTO_TEST2
+      mapBlocks:
+        - name: CTO_BOMBSITE_STATUE02
+          width: 10
+          length: 10
+          items: 
+            STR_BOMB_SPAWNER:
+              - [6, 3, 0]
+          fuseTimers:
+            STR_BOMB_SPAWNER: [0,0]
