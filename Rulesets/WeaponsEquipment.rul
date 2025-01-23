@@ -7642,9 +7642,6 @@ items:
     listOrder: 313010
 
   - type: STR_DEFUSE_KIT #wip
-    categories: [ STR_MEDICAL ]
-    #requiresBuy:
-    #  - STR_MEDKIT_ACQUISITION
     size: 1
     costBuy: 4000
     costSell: 2000
@@ -7663,7 +7660,6 @@ items:
     listOrder: 311010
     
   - type: STR_DEFUSE_CODE
-    categories: [ STR_MEDICAL ]
     size: 1
     weight: 1
     bigSprite: 5280

@@ -1007,45 +1007,46 @@ armors:
       - STR_OPERATOR_HIGHDIF
 
 
-  # - type: STR_EOD
-  #   spriteSheet: XCOM_4MERC.PCK
-  #   spriteInv: MAN_4MERC
-  #   storeItem: STR_NONE
-  #   corpseBattle:
-  #     - STR_CORPSE_DEFAULT
-  #   loftempsSet: [ 3 ]
-  #   frontArmor: 30
-  #   sideArmor: 25
-  #   rearArmor: 30
-  #   underArmor: 20
-  #   spriteFaceGroup: 6
-  #   spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-  #   spriteHairGroup: 9
-  #   spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-  #   visibilityAtDay: 26
-  #   visibilityAtDark: 5
-  #   personalLight: 0
-  #   stats:
-  #     strength: -20
-  #     stamina: -30
-  #     firing: -40
-  #     tu: -20
-  #     bravery: 10
-  #   damageModifier:
-  #     - 1.0
-  #     - 1.0
-  #     - 1.0
-  #     - 0.3
-  #     - 1.0
-  #     - 1.0
-  #     - 0
-  #     - 1.0
-  #     - 0
-  #     - 0
-  #   builtInWeapons:
-  #     - STR_NO_BACKPACK
-  #   units:
-  #     - STR_OPERATOR
+  - type: STR_EOD
+    spriteSheet: EOD_SPRITESHEET.PCK
+    spriteInv: EOD.SPK
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_EOD
+    loftempsSet: [ 3 ]
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 30
+    underArmor: 20
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDay: 26
+    visibilityAtDark: 5
+    personalLight: 0
+    stats:
+      strength: -20
+      stamina: -30
+      firing: -40
+      tu: -20
+      bravery: 10
+    damageModifier:
+       - 1.0
+       - 1.0
+       - 1.0
+       - 0.3
+       - 1.0
+       - 1.0
+       - 0
+       - 1.0
+       - 0
+       - 0
+    builtInWeapons:
+       - STR_NO_BACKPACK
+    units:
+       - STR_OPERATOR
+       - STR_OPERATOR_HIGHDIF
 items:
   - type: STR_DEFAULT_BACKPACK
     size: 1
@@ -1182,6 +1183,17 @@ items:
     weight: 24
     bigSprite: 3005
     floorSprite: 3005
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_EOD
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 3008
+    floorSprite: 3008
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -1639,15 +1651,36 @@ extraSprites:
     files:
       0: Resources/SoldiersAndArmors/Heavy/INV/MAN_M3.png
 
-  - type: RIOT_ARMOR_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/SoldiersAndArmors/RiotArmor/RIOT_ARMOR_IMAGE.PNG
+  #- type: RIOT_ARMOR_IMAGE
+  #  singleImage: true
+  #  width: 320
+  #  height: 200
+  #  files:
+  #    0: Resources/SoldiersAndArmors/RiotArmor/RIOT_ARMOR_IMAGE.PNG
   - type: BIGOBS.PCK
     files:
       3005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_BIGOB.png
   - type: FLOOROB.PCK
     files:
       3005: Resources/SoldiersAndArmors/Heavy/CORPSE_HEAVY_FLOOROB.png
+
+########################################
+############## EOD #################
+######################################
+  - type: EOD_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/EOD/ARMOR_DELTA.png
+  - type: EOD.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/EOD/man_7m0.png
+  - type: BIGOBS.PCK
+    files:
+      3008: Resources/SoldiersAndArmors/EOD/DELTA_ARMOR_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3008: Resources/SoldiersAndArmors/EOD/DELTA_ARMOR_CORPSE_FLOOROB.png
