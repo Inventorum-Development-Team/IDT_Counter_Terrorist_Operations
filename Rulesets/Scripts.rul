@@ -1251,48 +1251,60 @@ extended:
             
            
            
-            
+     #Ammo resprite script
+     #Slightly modified from default version for CTO Arsenal, modifications will be mentioned
+     #and can be ignored if you are using this for refrence to understand the script.
      selectItemSprite: #Switches between weapon sprites depending on ammo
        - offset: 1
          code: |
-          var int x;
-          var int y;
-          var int z;
-          var int a;
-          var ptr BattleItem ammoptr;
-          var ptr BattleItem UBSammoptr;
+          var int x; #Weapon ReSprite tag
+          var int y; #Weapon folding stock tag
+          var int z; #Weapon is not in hands (used for folding stock)
+          var int a; #Weapon has Underbarrel tag
+          var ptr BattleItem ammoptr; #Loaded ammo item
+          var ptr BattleItem UBSammoptr; #Loaded underbarrel ammo item
           var ptr RuleInventory invptr;
           var int left;
           var int right;
-          var int ammono;
-          var int UfopaediaAmmono;
-          var int UBSammono;
+          var int ammono; #Ammo number tag
+          var int UfopaediaAmmono; #(custom) Used to determine what sprite to use for Ufopaedia picture
+          var int UBSammono; #Underbarrel ammo number tag
 
           BattleItem.getTag item x Tag.AmmoReSprite; #AmmoReSprite script behavior
 
+          #check which version of the script to use, with 0 being off. They are mostly pretty similar, so only diffrences will commented.
           if eq x 1; #Default behavior, sprite ID on weapon is empty w/ no mag by default.
                      #if you want a diffrent sprite ID, change it and combine with UfopaediaAmmono
 
+            #Grab most of the tags/pointers here
             item.getAmmoItem ammoptr;
             BattleItem.getTag ammoptr ammono Tag.AmmoNo;
             BattleItem.getTag item y Tag.FoldStock;
             BattleItem.getTag item UfopaediaAmmono Tag.UfopaediaAmmoNo;
 
+            #Check if the weapon has a folding stock
             if eq y 1;
               item.getSlot invptr;
               RuleInventory.isLeftHand invptr left;
               RuleInventory.isRightHand invptr right;
+              #If the weapon isn't in either of the hands, mark it to appear folded
               if and eq left 0 eq right 0;
                 set z 1;
               end;
             end;
 
+            #(Custom) UfopaediaAmmono is used as a offset to set the Ufopaedia article sprite.
+            #Sprite on the weapon is changed to the desired Ufopadiea sprite, then UfopaediaAmmono is
+            #set to the number * 8 required to reach the unloaded unfolded sprite for the weapon.
             mul UfopaediaAmmono 8;
             sub sprite_index UfopaediaAmmono;
 
+            #Sprite index is the ID assigned for the default weapon sprite, we can change the weapon sprite by changing this number.
+            #If the weapon is currently folded add 32 to the current sprite index.
             if eq z 1;
               add sprite_index 32;
 
+              #check the ammono tag for the ammo, and add ammono*8 to the sprite index.
               if eq ammono 1;
                 add sprite_index 8;
               end;
@@ -1307,7 +1319,9 @@ extended:
               end;
             end;
 
+            #if its not folded, do the same things as above, but dont add 32.
             if neq z 1;
+              #check the ammono tag for the ammo, and add ammono*8 to the sprite index.
               if eq ammono 1;
                 add sprite_index 8;
               end;
@@ -1322,8 +1336,10 @@ extended:
               end;
             end;
 
+            #Check if we have a underbarrel weapon
             BattleItem.getTag item a Tag.UBS;
 
+            #If we do, and its loaded, add 16 to the sprite index.
             if eq a 1;
               item.getAmmoForSlot UBSammoptr 1;
               BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
@@ -1333,8 +1349,9 @@ extended:
             end;
           end;
 
+          # End of the default version of the script, below this are diffrent versions, with slightly diffrent use cases.
 
-          if and eq x 2 eq blit_part blit_item_big; #Only effects BigObs, 
+          if and eq x 2 eq blit_part blit_item_big; #Same as 1, but only effects BigObs
 
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
@@ -1368,8 +1385,8 @@ extended:
             end;
           end;
 
-
-          if eq x 3; #Sprite ID on weapon is first loaded mag
+          #Sprite ID on weapon is first loaded mag instead of unloaded. Mostly similar to 1
+          if eq x 3;
 
             item.getAmmoItem ammoptr;
             BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
@@ -1386,11 +1403,13 @@ extended:
 
             if eq z 1;
               add sprite_index 32;
+              #adds (ammono-1)*8 instead of ammono*8,
+              #Making the defualt Sprite ID thats used in ufopeadia the one thats loaded
               if eq ammono 0;
                 sub sprite_index 8;
               end;
               if eq ammono 1;
-                add sprite_index 0;
+                add sprite_index 0; #do nothing as we are at the correct ID
               end;
               if eq ammono 2;
                 add sprite_index 8;
