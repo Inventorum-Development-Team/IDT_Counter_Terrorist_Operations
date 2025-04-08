@@ -842,7 +842,7 @@ items:
   - type: STR_TASER_X1
     requiresBuy:
       - STR_TASER_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_PISTOLS ]
     refNode: *STR_TASER_AMMO
     bigSprite: 3200
     handSprite: 3200
@@ -857,7 +857,7 @@ items:
   - type: STR_38_SPECIAL_X6
     requiresBuy:
       - STR_MANHURIN_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_PISTOLS ]
     refNode: *STR_38_SPECIAL_AMMO
     bigSprite: 3208
     handSprite: 3208
@@ -870,7 +870,7 @@ items:
     clipSize: 6
     listOrder: 19000
   - type: STR_9MM_MAKAROV_X10
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS, STR_PISTOLS ]
     refNode: *STR_MAKAROV_AMMO
     bigSprite: 200
     handSprite: 200
@@ -881,8 +881,9 @@ items:
     weight: 1
     clipSize: 10
     listOrder: 29000 #029000
+    loadOrder: 30
   - type: STR_9MM_MAKAROV_X20
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS, STR_PISTOLS ]
     refNode: *STR_MAKAROV_AMMO
     bigSprite: 208
     handSprite: 208
@@ -893,8 +894,9 @@ items:
     weight: 2
     clipSize: 20
     listOrder: 29001
+    loadOrder: 20
   - type: STR_9MM_MAKAROV_X30
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_MAKAROV_AMMO
     bigSprite: 216
     handSprite: 216
@@ -905,8 +907,9 @@ items:
     weight: 3
     clipSize: 30
     listOrder: 29002
+    loadOrder: 10
   - type: STR_9MM_PARABELLUM_X10
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS, STR_PISTOLS ]
     refNode: *STR_9MM_PISTOL_AMMO
     bigSprite: 224
     handSprite: 224
@@ -918,8 +921,9 @@ items:
     weight: 1
     clipSize: 10
     listOrder: 39000
+    loadOrder: 40
   - type: STR_9MM_PARABELLUM_X20
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS, STR_PISTOLS ]
     refNode: *STR_9MM_PISTOL_AMMO
     bigSprite: 232
     handSprite: 232
@@ -931,8 +935,9 @@ items:
     weight: 2
     clipSize: 20
     listOrder: 39001
+    loadOrder: 30
   - type: STR_9MM_PARABELLUM_X30
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS, STR_PISTOLS ]
     refNode: *STR_9MM_PISTOL_AMMO
     bigSprite: 240
     handSprite: 240
@@ -944,8 +949,9 @@ items:
     weight: 3
     clipSize: 30
     listOrder: 39002
+    loadOrder: 20
   - type: STR_9MM_PARABELLUM_X40
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_9MM_PISTOL_AMMO
     bigSprite: 248
     handSprite: 248
@@ -957,10 +963,11 @@ items:
     weight: 4
     clipSize: 40
     listOrder: 39003
+    loadOrder: 10
   - type: STR_9MM_GYURZA_X20
     requiresBuy:
       - STR_VEKTOR_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS, STR_PISTOLS ]
     refNode: *STR_9MM_GYURZA_AMMO
     bigSprite: 3216
     handSprite: 3216
@@ -972,10 +979,11 @@ items:
     weight: 2
     clipSize: 20
     listOrder: 49000
+    loadOrder: 20
   - type: STR_9MM_GYURZA_X30
     requiresBuy:
       - STR_VERSEK_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_9MM_GYURZA_AMMO
     bigSprite: 3224
     handSprite: 3224
@@ -987,8 +995,9 @@ items:
     weight: 3
     clipSize: 30
     listOrder: 49001
+    loadOrder: 10
   - type: STR_FN_57_X20
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_PISTOLS ]
     requiresBuy:
       - STR_FIVE_SEVEN_ACQUISITION
     refNode: *STR_FN57_AMMO
@@ -1005,7 +1014,7 @@ items:
   - type: STR_FN_57_X50
     requiresBuy:
       - STR_P90_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_FN57_AMMO
     bigSprite: 256
     handSprite: 256
@@ -1021,7 +1030,7 @@ items:
   - type: STR_HK_4_6_30mmX20
     requiresBuy:
       - STR_MP7_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_HK_4_6_30mm
     bigSprite: 4488
     handSprite: 4488
@@ -1034,10 +1043,11 @@ items:
     weight: 1
     clipSize: 20
     listOrder: 69000
+    loadOrder: 30
   - type: STR_HK_4_6_30mmX30
     requiresBuy:
       - STR_MP7_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_HK_4_6_30mm
     bigSprite: 4496
     handSprite: 4496
@@ -1050,10 +1060,11 @@ items:
     weight: 2
     clipSize: 30
     listOrder: 69001
+    loadOrder: 20
   - type: STR_HK_4_6_30mmX40
     requiresBuy:
       - STR_MP7_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_HK_4_6_30mm
     bigSprite: 4504
     handSprite: 4504
@@ -1066,10 +1077,11 @@ items:
     weight: 3
     clipSize: 40
     listOrder: 69002
+    loadOrder: 10
   - type: STR_45_ACP_X7
     requiresBuy:
       - STR_M1911_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_PISTOLS ]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 264
     handSprite: 264
@@ -1084,7 +1096,7 @@ items:
   - type: STR_45_ACP_X12
     requiresBuy:
       - STR_MK_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_PISTOLS ]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 272
     handSprite: 272
@@ -1099,7 +1111,7 @@ items:
   - type: STR_45_ACP_X25
     requiresBuy:
       - STR_UMP_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SMGS ]
     refNode: *STR_45_PISTOL_AMMO
     bigSprite: 3232
     handSprite: 3232
@@ -1114,7 +1126,7 @@ items:
   - type: STR_50_AE_X7
     requiresBuy:
       - STR_DEAGLE_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_PISTOLS ]
     refNode: *STR_50AE_PISTOL_AMMO
     bigSprite: 632
     handSprite: 3240
@@ -1129,7 +1141,7 @@ items:
   - type: STR_65CBJ_X30
     requiresBuy:
       - STR_CBJMS_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS, STR_SMGS ]
     refNode: *STR_65CBJ_AMMO
     bigSprite: 4280
     handSprite: 240
@@ -1141,10 +1153,11 @@ items:
     weight: 3
     clipSize: 30
     listOrder: 99000
+    loadOrder: 20
   - type: STR_65CBJ_X100
     requiresBuy:
       - STR_CBJ_SAWKIT_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS, STR_SMGS ]
     refNode: *STR_65CBJ_AMMO
     bigSprite: 4288
     handSprite: 240
@@ -1156,8 +1169,9 @@ items:
     weight: 6
     clipSize: 100
     listOrder: 99001
+    loadOrder: 10
   - type: STR_CASELESS_4_73_X50
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     requiresBuy:
       - STR_G11_ACQUISITION
     refNode: *STR_CASELESS_4_73_AMMO
@@ -1175,7 +1189,7 @@ items:
   - type: STR_5_45_X30
     requiresBuy:
       - STR_5_45_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES, STR_LMGS ]
     refNode: *STR_5_45_AMMO
     bigSprite: 288
     handSprite: 288
@@ -1187,10 +1201,11 @@ items:
     weight: 4
     clipSize: 30
     listOrder: 119000
+    loadOrder: 30
   - type: STR_5_45_X45
     requiresBuy:
       - STR_5_45_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES, STR_LMGS ]
     refNode: *STR_5_45_AMMO
     bigSprite: 296
     handSprite: 296
@@ -1202,10 +1217,11 @@ items:
     weight: 6
     clipSize: 45
     listOrder: 119001
+    loadOrder: 20
   - type: STR_5_45_X60
     requiresBuy:
       - STR_AK12_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_5_45_AMMO
     bigSprite: 304
     handSprite: 304
@@ -1217,10 +1233,11 @@ items:
     weight: 4
     clipSize: 60
     listOrder: 119002
+    loadOrder: 10
   - type: STR_5_56_X30
     requiresBuy:
       - STR_5_56_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES, STR_LMGS ]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 312
     handSprite: 312
@@ -1232,10 +1249,11 @@ items:
     weight: 4
     clipSize: 30
     listOrder: 129000
+    loadOrder: 20
   - type: STR_5_56_X50
     requiresBuy:
       - STR_M249_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 320
     handSprite: 320
@@ -1248,10 +1266,11 @@ items:
     weight: 7
     clipSize: 50
     listOrder: 129001
+    loadOrder: 20
   - type: STR_5_56_X100
     requiresBuy:
       - STR_M249_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 328
     handSprite: 328
@@ -1265,10 +1284,11 @@ items:
     weight: 14
     clipSize: 100
     listOrder: 129002
+    loadOrder: 10
   - type: STR_5_56_X100_DRUM
     requiresBuy:
       - STR_5_56_DRUM_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 3456
     handSprite: 3456
@@ -1282,8 +1302,9 @@ items:
     weight: 16
     clipSize: 100
     listOrder: 129003
+    loadOrder: 10
   - type: STR_22_LONG_RIFLE_X6
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     refNode: *STR_22_LONG_RIFLE_AMMO
     bigSprite: 624
     handSprite: 624
@@ -1297,7 +1318,7 @@ items:
     clipSize: 6
     listOrder: 139000
   - type: STR_SOVIET_7_62_X10
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 608
     handSprite: 608
@@ -1311,7 +1332,7 @@ items:
   - type: STR_SOVIET_7_62_X30
     requiresBuy:
       - STR_SOVIET_7_62_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 336
     handSprite: 336
@@ -1323,10 +1344,11 @@ items:
     weight: 5
     clipSize: 30
     listOrder: 149001
+    loadOrder: 30
   - type: STR_SOVIET_7_62_X40
     requiresBuy:
       - STR_SOVIET_7_62_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 344
     handSprite: 344
@@ -1338,10 +1360,11 @@ items:
     weight: 6
     clipSize: 40
     listOrder: 149002
+    loadOrder: 20
   - type: STR_SOVIET_7_62_X75
     requiresBuy:
       - STR_SOVIET_7_62_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     bigSprite: 352
     handSprite: 352
@@ -1353,8 +1376,9 @@ items:
     weight: 10
     clipSize: 75
     listOrder: 149003
+    loadOrder: 10
   - type: STR_NATO_7_62_X5
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES, STR_RIFLES ]
     requiresBuy:
       - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -1368,8 +1392,9 @@ items:
     weight: 1
     clipSize: 5
     listOrder: 159000
+    loadOrder: 30
   - type: STR_NATO_7_62_X10
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES, STR_RIFLES ]
     requiresBuy:
       - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -1383,8 +1408,9 @@ items:
     weight: 2
     clipSize: 10
     listOrder: 159001
+    loadOrder: 20
   - type: STR_NATO_7_62_X20
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES, STR_RIFLES ]
     requiresBuy:
       - STR_7_62_AMMO
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -1398,6 +1424,7 @@ items:
     weight: 4
     clipSize: 20
     listOrder: 159002
+    loadOrder: 10
   # - type: STR_NATO_7_62_X30
   #   categories: [STR_CLIPS]
   #   refNode: *STR_7_62MM_NATO_RIFLE_AMMO
@@ -1414,7 +1441,7 @@ items:
   - type: STR_NATO_7_62_X50
     requiresBuy:
       - STR_MK_48_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 392
     handSprite: 392
@@ -1427,10 +1454,11 @@ items:
     weight: 10
     clipSize: 50
     listOrder: 159003
+    loadOrder: 20
   - type: STR_NATO_7_62_X100
     requiresBuy:
       - STR_MK_48_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 400
     handSprite: 400
@@ -1444,10 +1472,9 @@ items:
     weight: 20
     clipSize: 100
     listOrder: 159004
+    loadOrder: 10
   - type: STR_SOVIET_7_62_MMR_X10
-    #requiresBuy:
-    #  - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
     bigSprite: 3888
     handSprite: 3888
@@ -1462,7 +1489,7 @@ items:
   - type: STR_SOVIET_7_62_MMR_X50
     requiresBuy:
       - STR_PECHENEG_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_SOVIET_7_62_MMR_AMMO
     bigSprite: 408
     handSprite: 408
@@ -1475,8 +1502,9 @@ items:
     weight: 11
     clipSize: 50
     listOrder: 169001
+    loadOrder: 20
   - type: STR_SOVIET_7_62_MMR_X100
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_LMGS ]
     requiresBuy:
       - STR_PECHENEG_ACQUISITION
     refNode: *STR_SOVIET_7_62_MMR_AMMO
@@ -1492,8 +1520,9 @@ items:
     weight: 22
     clipSize: 100
     listOrder: 169002
+    loadOrder: 10
   - type: STR_9_39_X10
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES, STR_SNIPER_RIFLES ]
     requiresBuy:
       - STR_9_39_AMMO
     refNode: *STR_9_39_AMMO
@@ -1507,8 +1536,9 @@ items:
     weight: 3
     clipSize: 10
     listOrder: 179000
+    loadOrder: 20
   - type: STR_9_39_X20
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES, STR_SNIPER_RIFLES]
     requiresBuy:
       - STR_9_39_AMMO
     refNode: *STR_9_39_AMMO
@@ -1522,8 +1552,9 @@ items:
     weight: 6
     clipSize: 20
     listOrder: 179001
+    loadOrder: 10
   - type: STR_338_LAPUA_X5
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     requiresBuy:
       - STR_LAPUA_AMMO
     refNode: *STR_338_LAPUA_AMMO
@@ -1540,7 +1571,7 @@ items:
   - type: STR_50_BMG_X5
     requiresBuy:
       - STR_M82_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     refNode: *STR_50_BMG_AMMO
     bigSprite: 448
     handSprite: 448
@@ -1552,10 +1583,11 @@ items:
     weight: 5
     clipSize: 5
     listOrder: 199000
+    loadOrder: 20
   - type: STR_50_BMG_X10
     requiresBuy:
       - STR_M82_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     refNode: *STR_50_BMG_AMMO
     bigSprite: 456
     handSprite: 456
@@ -1569,10 +1601,9 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 199001
+    loadOrder: 10
   - type: STR_127_X5
-    #requiresBuy:
-    #  - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     refNode: *STR_127_AMMO
     bigSprite: 3248
     handSprite: 3248
@@ -1585,7 +1616,7 @@ items:
     clipSize: 5
     listOrder: 209000
   - type: STR_30_06_X8
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
     refNode: *STR_30_06_AMMO
     bigSprite: 4856
     handSprite: 4856
@@ -1600,7 +1631,7 @@ items:
     clipSize: 8
     listOrder: 219000
   - type: STR_12G_BUCKSHOT_X2
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 616
     handSprite: 616
@@ -1614,7 +1645,7 @@ items:
   - type: STR_12G_BUCKSHOT_X5
     requiresBuy:
       - STR_12G_X5_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 464
     handSprite: 464
@@ -1626,10 +1657,11 @@ items:
     weight: 2
     clipSize: 5
     listOrder: 229001
+    loadOrder: 40
   - type: STR_12G_BUCKSHOT_X8
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 472
     handSprite: 472
@@ -1641,10 +1673,11 @@ items:
     weight: 3
     clipSize: 8
     listOrder: 229002
+    loadOrder: 30
   - type: STR_12G_BUCKSHOT_X20
     requiresBuy:
       - STR_12G_DRUM_AMMO
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_BUCKSHOT
     bigSprite: 480
     handSprite: 480
@@ -1656,8 +1689,9 @@ items:
     weight: 8
     clipSize: 20
     listOrder: 229003
+    loadOrder: 20
   - type: STR_12G_BUCKSHOT_X30
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     requiresBuy:
       - STR_12G_DRUM_AMMO
     refNode: *STR_12G_BUCKSHOT
@@ -1672,10 +1706,11 @@ items:
     clipSize: 30
     invHeight: 2
     listOrder: 229004
+    loadOrder: 10
   - type: STR_12G_SLUG_X8
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_SLUG
     bigSprite: 496
     handSprite: 496
@@ -1690,7 +1725,7 @@ items:
   - type: STR_12G_NON_LETHAL_X8
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_NON_LETHAL
     bigSprite: 504
     handSprite: 504
@@ -1706,7 +1741,7 @@ items:
     requiresBuy:
       - STR_SHOTGUN_ACQUISITION
       - STR_MILITARY_EQUIPMENT_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_INCENDIARY
     bigSprite: 4512
     handSprite: 4512
@@ -1721,7 +1756,7 @@ items:
   - type: STR_12G_BREACHING_X5
     requiresBuy:
       - STR_SERBU_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_12G_BREACHING
     bigSprite: 4520
     handSprite: 4520
@@ -1733,10 +1768,11 @@ items:
     weight: 2
     clipSize: 5
     listOrder: 229040
+    loadOrder: 35
   - type: STR_SHRAPNEL_25_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_SHRAPNEL_25
     bigSprite: 512
     handSprite: 512
@@ -1748,10 +1784,11 @@ items:
     weight: 2
     clipSize: 3
     listOrder: 239000
+    loadOrder: 10
   - type: STR_BARRICADE_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_BARRICADE
     bigSprite: 520
     handSprite: 520
@@ -1766,7 +1803,7 @@ items:
   - type: STR_VOLNA_R_X3
     requiresBuy:
       - STR_KS_23_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_SHOTGUNS ]
     refNode: *STR_VOLNA_R
     bigSprite: 528
     handSprite: 528
@@ -1781,7 +1818,7 @@ items:
   - type: STR_ZEVADA_X3
     requiresBuy:
      - STR_KS_23_ACQUISITION
-    categories: [STR_CLIPS]
+    categories: [STR_CLIPS, STR_SHOTGUNS]
     refNode: *STR_ZEVADA
     bigSprite: 536
     handSprite: 536
@@ -1796,7 +1833,7 @@ items:
   - type: STR_ZEVADA_X1
     requiresBuy:
      - STR_KS_23_ACQUISITION
-    categories: [STR_CLIPS]
+    categories: [STR_CLIPS, STR_SHOTGUNS]
     refNode: *STR_SHRAPNEL_25
     bigSprite: 4880
     handSprite: 4880
@@ -1809,7 +1846,7 @@ items:
     clipSize: 3
     listOrder: 239031
   - type: STR_40MM_FRAG_X1
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES, STR_ARTILLERY ]
     requiresBuy:
       - STR_40MM_AMMO
     refNode: *STR_40MM_FRAG
@@ -1823,11 +1860,12 @@ items:
     weight: 2
     clipSize: 1
     listOrder: 249000
+    loadOrder: 30
   - type: STR_40MM_FRAG_X3
     requiresBuy:
       - STR_40MM_AMMO
       - STR_GM_94_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
     refNode: *STR_40MM_FRAG
     bigSprite: 3240
     handSprite: 3240
@@ -1841,8 +1879,9 @@ items:
     listOrder: 249001
     invWidth: 2
     invHeight: 1
+    loadOrder: 20
   - type: STR_40MM_FRAG_X6
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
     requiresBuy:
       - STR_40MM_AMMO
       - STR_MGL_ACQUISITION
@@ -1859,8 +1898,9 @@ items:
     weight: 12
     clipSize: 6
     listOrder: 249002
+    loadOrder: 10
   - type: STR_40MM_SMOKE_X1
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY, STR_RIFLES ]
     requiresBuy:
       - STR_40MM_AMMO
     refNode: *STR_40MM_SMOKE
@@ -1875,7 +1915,7 @@ items:
     clipSize: 1
     listOrder: 249010
   - type: STR_40MM_NON_LETHAL_X1
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY, STR_RIFLES ]
     requiresBuy:
       - STR_40MM_AMMO
     refNode: *STR_40MM_NON_LETHAL
@@ -1892,7 +1932,7 @@ items:
   - type: STR_APAV40_X1
     requiresBuy:
       - STR_APAV40_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_APAV40
     bigSprite: 3256
     handSprite: 3256
@@ -1907,7 +1947,7 @@ items:
   - type: STR_CG_HEAT_X1
     requiresBuy:
       - STR_GUSTAF_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
     refNode: *STR_CG_HEAT
     bigSprite: 576
     handSprite: 576
@@ -1923,7 +1963,7 @@ items:
   - type: STR_CG_HE_X1
     requiresBuy:
       - STR_GUSTAF_ACQUISITION
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
     refNode: *STR_CG_HE
     bigSprite: 584
     handSprite: 584
@@ -1937,7 +1977,7 @@ items:
     clipSize: 1
     listOrder: 269001
   - type: STR_RPG_HEAT_X1
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
     refNode: *STR_RPG_HEAT
     bigSprite: 592
     handSprite: 592
@@ -1952,7 +1992,7 @@ items:
   - type: STR_RPG_29_HEAT_X1
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
     refNode: *STR_RPG_29_HEAT
     bigSprite: 3264
     handSprite: 3264
@@ -1968,7 +2008,7 @@ items:
   - type: STR_RPG_29_THERMO_X1
     requiresBuy:
       - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
     refNode: *STR_RPG_29_THERMO
     bigSprite: 3272
     handSprite: 3272
@@ -1983,24 +2023,20 @@ items:
     listOrder: 289001
     #fireSound: 4
   - type: STR_VOG25_X1
-    requiresBuy:
-      - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_VOG25
     bigSprite: 4840
     handSprite: 4840
     floorSprite: 4840
     size: 0.1
     armor: 30
-    costBuy: 300
+    #costBuy: 300
     costSell: 150
     weight: 2
     clipSize: 1
     listOrder: 299000
   - type: STR_GRD50_X1
-    #requiresBuy:
-    #  - STR_UNOBTAINABLE
-    categories: [ STR_CLIPS ]
+    categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_GRD50
     bigSprite: 4848
     handSprite: 4848
@@ -6291,6 +6327,7 @@ items:
         tuLoad: 40
         tuUnload: 20
     listOrder: 224010
+
   - type: STR_REMINGTON
     categories: [ STR_FIREARMS, STR_SHOTGUNS ]
     requiresBuy:
@@ -7676,7 +7713,7 @@ items:
     medikitActionName: STR_ACTIVATE_MEDIKIT
     listOrder: 313010
 
-  - type: STR_DEFUSE_KIT #wip
+  - type: STR_DEFUSE_KIT
     size: 1
     costBuy: 4000
     costSell: 2000
@@ -7692,7 +7729,7 @@ items:
     medikitType: 2
     tuUse: 60
     medikitActionName: STR_ACTIVATE_DEFUSEKIT
-    listOrder: 311010
+    listOrder: 311020
     
   - type: STR_DEFUSE_CODE
     size: 1
@@ -7709,7 +7746,7 @@ items:
     recover: false
     tuUse: 20
     medikitActionName: STR_ACTIVATE_DEFUSEKIT
-    listOrder: 311011
+    listOrder: 311021
 
   - type: STR_RIOT_SHIELD
     requiresBuy:

@@ -46,6 +46,7 @@ constants:
    extendedRunningCost: true
    extendedMeleeReactions: 1
    extendedTerrainMelee: 4
+   extendedExperienceAwardSystem: true
 fixedUserOptions:
    battleUFOExtenderAccuracy: true
    noAlienPanicMessages: true

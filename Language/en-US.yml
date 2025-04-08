@@ -191,6 +191,7 @@ en-US:
   STR_KNIFE_UFOPAEDIA: "Energy Cost: 10%\n\nA Combat knife. Light and lethal, only problem is you have to get close to stab people with it, which is not great for your health."
   STR_HAMMER_UFOPAEDIA: "Energy Cost: 20\n\nIts a hammer, You can smash just about any obsticle in your way including wood, bricks, metal, concrete, and explosive barrels (not recommended), dosen't work for people, that usually ends up poorly."
   STR_BALISTIC_KNIFE_UFOPAEDIA: "Energy Cost: 10%\nMelee damage and accuracy are exactly the same as the knife.\n\nA knife that can be launchd as a projectile as well as used to stab people, only problem is if you shoot the knife then you can't stab people with it."
+  STR_C4_UFOPAEDIA: "Small explosion with high power, perfect for breaching through walls."
 
   STR_UNIFORM_UFOPAEDIA: "This is the standard-issue uniform for our troops. While it does not restrict its wearers movement and is light and durable, it offers little protection."
   STR_BACKPACK_UFOPAEDIA: "Backpacks offer our soldiers the ability to carry more equipment, however it is cumbersome."

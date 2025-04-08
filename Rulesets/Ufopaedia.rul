@@ -1,3 +1,22 @@
+####listOrder Sorting####
+# !THIS IS DIFFRENT FROM WEAPONSEQUIPMENT.RUL! as keeping weapons of the same class together is more important than type of ammo and articles needed to be acounted for.
+# Here is how the listOrder IDs are set up
+#  0000000
+#  ^Type -> | 0 = article, 1 = Gun, 2 = Item
+#   ^Catagory   -> |weapons 9 = ammo, 0 = pistol, 1 = smg, 2 = rifle, 3 = sniper, 4 = shotgun, 5 = LMG, 6 = explosives
+#    ^^ammo type   |Items   9 = Armor,  0 = Melee, 1 = Other, 2 = ?????, 3 = medical, 4 = Breaching, 5 = Tactical nades, 6 = Explosives, 7=???, 8 = Geoscape items
+#      ^^weapon   
+#        ^ varient
+#
+# for example the M16 (Scoped) is
+# 1 2 12 07 1,
+# ^Item
+#   ^Rifle
+#     ^^5.56 ammmo
+#        ^^ m16 is the 7th 5.56 rifle in the list
+#           ^first varient of m16
+# DO NOT START WITH ANY 0s otherwise the game will give the wrong ID
+
 ufopaedia:
 
   - id: STR_COALITION
@@ -159,195 +178,195 @@ ufopaedia:
     type_id: 4
     text: STR_TASER_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 197
+    listOrder: 1000010
 
   - id: STR_P226
     type_id: 4
     text: STR_P226_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 198
+    listOrder: 1003000
 
   - id: STR_GLOCK_17
     type_id: 4
     text: STR_GLOCK_17_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 199
+    listOrder: 1003010
 
   - id: STR_GLOCK_18
     type_id: 4
     text: STR_GLOCK_18_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 200
+    listOrder: 1003020
 
   - id: STR_GLOCK_18_STOCK
     type_id: 4
     text: STR_GLOCK_18_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 201
+    listOrder: 1003011
 
   - id: STR_M1911
     type_id: 4
     text: STR_M1911_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 202
+    listOrder: 1007000
 
   - id: STR_FIVE_SEVEN
     type_id: 4
     text: STR_FIVE_SEVEN_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 203
+    listOrder: 1005000
 
   - id: STR_MK_23
     type_id: 4
     text: STR_MK_23_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 204
+    listOrder: 1007010
 
   - id: STR_MAKAROV
     type_id: 4
     text: STR_MAKAROV_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 205
+    listOrder: 1002000
 
   - id: STR_MANHURIN
     type_id: 4
     text: STR_MANHURIN_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 206
+    listOrder: 1001000
 
   - id: STR_VEKTOR
     type_id: 4
     text: STR_VEKTOR_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 207
+    listOrder: 1004000
 
   - id: STR_STETCKIN
     type_id: 4
     text: STR_STETCKIN_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 208
+    listOrder: 1002010
 
   - id: STR_DEAGLE
     type_id: 4
     text: STR_DEAGLE_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 209
+    listOrder: 1008000
 
   - id: STR_GOLDDEAGLE
     type_id: 4
     requires:
-     - STR_GOLDDEAGLE #STR_GOLDDEAGLE
+     - STR_GOLDDEAGLE 
     text: STR_GOLDDEAGLE_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 209
+    listOrder: 1008001
 
   - id: STR_M9
     type_id: 4
     text: STR_M9_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 210
+    listOrder: 1003030
 
   - id: STR_BROWNING_HP
     type_id: 4
     text: STR_BROWNING_HP_UFOPAEDIA
     section: STR_PISTOLS
-    listOrder: 211
+    listOrder: 1003040
 
   - id: STR_TEC_9
     type_id: 4
     text: STR_TEC_9_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 300
+    listOrder: 1103000
 
   - id: STR_SKORPION
     type_id: 4
     text: STR_SKORPION_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 301
+    listOrder: 1102000
 
   - id: STR_MP5
     type_id: 4
     text: STR_MP5_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 302
+    listOrder: 1103010
 
   - id: STR_MPX
     type_id: 4
     text: STR_MPX_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 303
+    listOrder: 1103020
 
   - id: STR_P90
     type_id: 4
     text: STR_P90_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 304
+    listOrder: 1105000
 
   - id: STR_P90_SOPMOD
     type_id: 4
     text: STR_P90_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 304
+    listOrder: 1105001
 
   - id: STR_UZI
     type_id: 4
     text: STR_UZI_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 305
+    listOrder: 1103030
 
   - id: STR_UMP
     type_id: 4
     text: STR_UMP_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 306
+    listOrder: 1107000
 
   - id: STR_VITYAZ
     type_id: 4
     text: STR_VITYAZ_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 307
+    listOrder: 1103040
 
   - id: STR_VERSEK
     type_id: 4
     text: STR_VERSEK_UFOPEDIA
     section: STR_SMGS
-    listOrder: 308
+    listOrder: 1104000
 
   - id: STR_SKORPIONEVO
     type_id: 4
     text: STR_SKORPIONEVO_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 309
+    listOrder: 1103040
 
   - id: STR_FMG9
     type_id: 4
     text: STR_FMG9_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 310
+    listOrder: 1103050
 
   - id: STR_CBJMS
     type_id: 4
     text: STR_CBJMS_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 311
+    listOrder: 1109000
 
   - id: STR_MP7
     type_id: 4
     text: STR_MP7_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 312
+    listOrder: 1106000
 
   - id: STR_M3_GREASEGUN
     type_id: 4
     text: STR_M3_GREASEGUN_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 313
+    listOrder: 1107010
 
   - id: STR_KRISS_VECTOR
     type_id: 4
     text: STR_KRISS_VECTOR_UFOPAEDIA
     section: STR_SMGS
-    listOrder: 314
+    listOrder: 1107020
 
 
 
@@ -356,13 +375,13 @@ ufopaedia:
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 400
+    listOrder: 1212000
 
   - id: STR_TAVOR_SCOPED
     type_id: 4
     text: STR_TAVOR_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 401
+    listOrder: 1212002
 
   - id: STR_TAVOR_M203
     type_id: 4
@@ -375,31 +394,31 @@ ufopaedia:
     - title: STR_TAVOR_M203
       text: STR_M203_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 402
+    listOrder: 1212001
 
   - id: STR_TAVOR_95X
     type_id: 4
     text: STR_TAVOR_95X_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 403
+    listOrder: 1212003
 
   - id: STR_TAVOR_95X_SCOPED
     type_id: 4
     text: STR_TAVOR_95X_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 404
+    listOrder: 1212004
 
   - id: STR_M4
     type_id: 4
     text: STR_M4_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 405
+    listOrder: 1212010
 
   - id: STR_M4_SOPMOD
     type_id: 4
     text: STR_M4_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 406
+    listOrder: 1212011
 
   - id: STR_M4_M320
     type_id: 4
@@ -412,7 +431,7 @@ ufopaedia:
     - title: STR_M4_M320
       text: STR_M320_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 407
+    listOrder: 1212012
 
   - id: STR_M4_UBS
     type_id: 4
@@ -424,19 +443,19 @@ ufopaedia:
     - title: STR_M4_UBS
       text: STR_UBS_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 408
+    listOrder: 1212013
 
   - id: STR_M4A1
     type_id: 4
     text: STR_M4A1_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 409
+    listOrder: 1212014
 
   - id: STR_M4A1_SOPMOD
     type_id: 4
     text: STR_M4A1_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 410
+    listOrder: 1212015
 
   - id: STR_M4A1_M320
     type_id: 4
@@ -449,7 +468,7 @@ ufopaedia:
     - title: STR_M4A1_M320
       text: STR_M320_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 411
+    listOrder: 1212016
 
   - id: STR_M4A1_UBS
     type_id: 4
@@ -462,49 +481,49 @@ ufopaedia:
     - title: STR_M4A1_UBS
       text: STR_UBS_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 412
+    listOrder: 1212017
 
   - id: STR_AK12
     type_id: 4
     text: STR_AK12_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 413
+    listOrder: 1211000
 
   - id: STR_AK12_SCOPED
     type_id: 4
     text: STR_AK12_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 414
+    listOrder: 1211001
 
   - id: STR_AK15
     type_id: 4
     text: STR_AK15_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 415
+    listOrder: 1214000
 
   - id: STR_AK15_SCOPED
     type_id: 4
     text: STR_AK15_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 416
+    listOrder: 1214001
 
   - id: STR_FAMAS
     type_id: 4
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 417
+    listOrder: 1212020
 
   - id: STR_FAMAS_SCOPED
     type_id: 4
     text: STR_FAMAS_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 418
+    listOrder: 1212021
 
   - id: STR_G36
     type_id: 4
     text: STR_G36_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 419
+    listOrder: 1212030
 
   - id: STR_G36_AG
     type_id: 4
@@ -517,25 +536,25 @@ ufopaedia:
     - title: STR_G36_AG
       text: STR_M320_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 420
+    listOrder: 1212031
 
   - id: STR_G36C
     type_id: 4
     text: STR_G36C_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 420
+    listOrder: 1212032
 
   - id: STR_HK416
     type_id: 4
     text: STR_HK416_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 421
+    listOrder: 1212040
 
   - id: STR_HK416_SOPMOD
     type_id: 4
     text: STR_HK416_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 422
+    listOrder: 1212041
 
   - id: STR_HK416_M320
     type_id: 4
@@ -548,7 +567,7 @@ ufopaedia:
     - title: STR_HK416_M320
       text: STR_M320_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 423
+    listOrder: 1212042
 
   - id: STR_HK416_UBS
     type_id: 4
@@ -561,43 +580,43 @@ ufopaedia:
     - title: STR_HK416_UBS
       text: STR_UBS_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 424
+    listOrder: 1212043
 
   - id: STR_HK417
     type_id: 4
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 425
+    listOrder: 1215000
 
   - id: STR_HK417_SCOPED
     type_id: 4
     text: STR_HK417_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 426
+    listOrder: 1215001
 
   - id: STR_FX_05
     type_id: 4
     text: STR_FX_05_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 427
+    listOrder: 1212050
 
   - id: STR_FX_05_SCOPED
     type_id: 4
     text: STR_FX_05_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 428
+    listOrder: 1212051
 
   - id: STR_SCAR_L
     type_id: 4
     text: STR_SCAR_L_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 429
+    listOrder: 1212060
 
   - id: STR_SCAR_L_SOPMOD
     type_id: 4
     text: STR_SCAR_L_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 430
+    listOrder: 1212061
 
   - id: STR_SCAR_L_GL
     type_id: 4
@@ -610,19 +629,19 @@ ufopaedia:
     - title: STR_SCAR_L_GL
       text: STR_FN40GL_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 431
+    listOrder: 1212062
 
   - id: STR_SCAR_H
     type_id: 4
     text: STR_SCAR_H_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 432
+    listOrder: 1215010
 
   - id: STR_SCAR_H_SOPMOD
     type_id: 4
     text: STR_SCAR_H_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 433
+    listOrder: 1215011
 
   - id: STR_SCAR_H_GL
     type_id: 4
@@ -635,37 +654,37 @@ ufopaedia:
     - title: STR_SCAR_H_GL
       text: STR_FN40GL_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 434
+    listOrder: 1215012
 
   - id: STR_G11
     type_id: 4
     text: STR_G11_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 435
+    listOrder: 1210000
 
   - id: STR_SR_3
     type_id: 4
     text: STR_SR_3_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 436
+    listOrder: 1217000
 
   - id: STR_SR_3_ONE_HANDED
     type_id: 4
     text: STR_SR_3_ONE_HANDED_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 437
+    listOrder: 1217001
 
   - id: STR_M16A2
     type_id: 4
     text: STR_M16A2_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 438
+    listOrder: 1212070
 
   - id: STR_M16A2_SCOPED
     type_id: 4
     text: STR_M16A2_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 438
+    listOrder: 1212071
 
   - id: STR_M16A2_M203
     type_id: 4
@@ -678,31 +697,31 @@ ufopaedia:
     - title: STR_M16A2_M203
       text: STR_M203_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 438
+    listOrder: 1212072
 
   - id: STR_AR_18
     type_id: 4
     text: STR_AR_18_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 439
+    listOrder: 1212080
 
   - id: STR_AR_180
     type_id: 4
     text: STR_AR_180_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 440
+    listOrder: 1212081
 
   - id: STR_AKM
     type_id: 4
     text: STR_AKM_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 441
+    listOrder: 1214010
 
   - id: STR_AK_74
     type_id: 4
     text: STR_AK_74_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 442
+    listOrder: 1211010
   
   - id: STR_AK_74_GP25
     type_id: 4
@@ -715,147 +734,147 @@ ufopaedia:
     - title: STR_AK_74_GP25
       text: STR_GP25_UFOPAEDIA
       ammoSlot: 1
-    listOrder: 442
+    listOrder: 1211011
 
   - id: STR_FN_FAL_SCOPED
     type_id: 4
     text: STR_FN_FAL_SCOPED_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 443
+    listOrder: 1215020
 
   - id: STR_G3
     type_id: 4
     text: STR_G3_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 444
+    listOrder: 1215030
 
   - id: STR_M14_EBR
     type_id: 4
     text: STR_M14_EBR_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 445
+    listOrder: 1215040
 
   - id: STR_M14_EBR_SCOPED
     type_id: 4
     text: STR_M14_EBR_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 445
+    listOrder: 1215041
 
   - id: STR_RK_62
     type_id: 4
     text: STR_RK_62_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 446
+    listOrder: 1214020
 
   - id: STR_AKS_74U
     type_id: 4
     text: STR_AKS_74U_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 447
+    listOrder: 1211012
 
   - id: STR_AKS_74U_SOPMOD
     type_id: 4
     text: STR_AKS_74U_SOPMOD_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 447
+    listOrder: 1211013
 
   - id: STR_ACR
     type_id: 4
     text: STR_ACR_UFOPAEDIA
     section: STR_RIFLES
-    listOrder: 448
+    listOrder: 1212090
 
   #Snipers
   - id: STR_HUNTING_RIFLE
     type_id: 4
     text: STR_HUNTING_RIFLE_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 500
+    listOrder: 1313000
 
   - id: STR_SKS_SCOPED
     type_id: 4
     text: STR_SKS_SCOPED_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 501
+    listOrder: 1314000
 
   - id: STR_PSG_1
     type_id: 4
     text: STR_PSG_1_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 502
+    listOrder: 1315000
 
   - id: STR_MSG_90
     type_id: 4
     text: STR_MSG_90_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 503
+    listOrder: 1315010
 
   - id: STR_VSS
     type_id: 4
     text: STR_VSS_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 504
+    listOrder: 1317000
 
   - id: STR_DRAGUNOV
     type_id: 4
     text: STR_DRAGUNOV_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 505
+    listOrder: 1316000
 
   - id: STR_OSV_96
     type_id: 4
     text: STR_OSV_96_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 506
+    listOrder: 1320000
 
   - id: STR_SAKO_TRG
     type_id: 4
     text: STR_SAKO_TRG_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 507
+    listOrder: 1318000
 
   - id: STR_AWP
     type_id: 4
     text: STR_AWP_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 508
+    listOrder: 1315020
 
   - id: STR_AW
     type_id: 4
     text: STR_AW_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 509
+    listOrder: 1318010
 
   - id: STR_M24_SWS
     type_id: 4
     text: STR_M24_SWS_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 510
+    listOrder: 1315030
 
   - id: STR_M82
     type_id: 4
     text: STR_M82_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 511
+    listOrder: 1319000
 
   - id: STR_M1_GARAND
     type_id: 4
     text: STR_M1_GARAND_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 512
+    listOrder: 1321000
 
   - id: STR_M1D_GARAND
     type_id: 4
     text: STR_M1_GARAND_UFOPAEDIA
     section: STR_SNIPERS
-    listOrder: 513
+    listOrder: 1321001
 
   #Shotguns
   - id: STR_DOUBLE_BARREL
     type_id: 4
     text: STR_DOUBLE_BARREL_UFOPAEDIA
     section: STR_SHOTGUNS
-    listOrder: 600
+    listOrder: 1422000
 
   - id: STR_REMINGTON
     type_id: 4
@@ -868,7 +887,7 @@ ufopaedia:
     - title: STR_REMINGTON
       text: STR_REMINGTON_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 601
+    listOrder: 1422020
 
   - id: STR_SPAS_12
     type_id: 4
@@ -881,7 +900,7 @@ ufopaedia:
     - title: STR_SPAS_12
       text: STR_SPAS_12_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 602
+    listOrder: 1422030
 
   - id: STR_KS_23
     type_id: 4
@@ -894,7 +913,7 @@ ufopaedia:
     - title: STR_KS_23
       text: STR_KS_23_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 603
+    listOrder: 1423000
 
   - id: STR_AA_12
     type_id: 4
@@ -907,7 +926,7 @@ ufopaedia:
     - title: STR_AA_12
       text: STR_AA_12_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 604
+    listOrder: 1422050
 
   - id: STR_USAS_12
     type_id: 4
@@ -920,7 +939,7 @@ ufopaedia:
     - title: STR_USAS_12
       text: STR_USAS_12_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 605
+    listOrder: 1422060
 
   - id: STR_ORIGIN_12
     type_id: 4
@@ -933,7 +952,7 @@ ufopaedia:
     - title: STR_ORIGIN_12
       text: STR_ORIGIN_12_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 606
+    listOrder: 1422040
 
   - id: STR_SAIGA_12
     type_id: 4
@@ -946,7 +965,7 @@ ufopaedia:
     - title: STR_SAIGA_12
       text: STR_SAIGA_12_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 607
+    listOrder: 1422070
 
   - id: STR_M3
     type_id: 4
@@ -959,13 +978,13 @@ ufopaedia:
     - title: STR_M3
       text: STR_M3_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 608
+    listOrder: 1422080
 
   - id: STR_SERBU
     type_id: 4
     text: STR_SERBU_UFOPAEDIA
     section: STR_SHOTGUNS
-    listOrder: 609
+    listOrder: 1422010
 
 
   #LMGs
@@ -973,85 +992,85 @@ ufopaedia:
     type_id: 4
     text: STR_M60_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 700
+    listOrder: 1515000
 
   - id: STR_M249
     type_id: 4
     text: STR_M249_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 701
+    listOrder: 1512000
 
   - id: STR_FN_MINIMI
     type_id: 4
     text: STR_FN_MINIMI_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 702
+    listOrder: 1512010
 
   - id: STR_MK_48
     type_id: 4
     text: STR_MK_48_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 703
+    listOrder: 1515010
 
   - id: STR_RPK_74
     type_id: 4
     text: STR_RPK_74_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 704
+    listOrder: 1511000
 
   - id: STR_PECHENEG
     type_id: 4
     text: STR_PECHENEG_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 705
+    listOrder: 1516000
 
   - id: STR_NEGEV
     type_id: 4
     text: STR_NEGEV_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 706
+    listOrder: 1512020
 
   - id: STR_CBJMS_SAW
     type_id: 4
     text: STR_CBJMS_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 707
+    listOrder: 1509000
 
   - id: STR_FN_MAG
     type_id: 4
     text: STR_FN_MAG_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 708
+    listOrder: 1515030
 
   - id: STR_AUG_HBAR
     type_id: 4
     text: STR_AUG_HBAR_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 709
+    listOrder: 1512030
 
   - id: STR_MG36
     type_id: 4
     text: STR_MG36_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 710
+    listOrder: 1512040
   
   - id: STR_C7A1_LSW
     type_id: 4
     text: STR_C7A1_LSW_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 711
+    listOrder: 1512050
 
   - id: STR_ULTIMAX_100
     type_id: 4
     text: STR_ULTIMAX_100_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 712
+    listOrder: 1512060
 
   - id: STR_M60E6
     type_id: 4
     text: STR_M60E6_UFOPAEDIA
     section: STR_LMGS
-    listOrder: 713
+    listOrder: 1515020
 
   #Heavy weapons
   - id: STR_MGL
@@ -1065,7 +1084,7 @@ ufopaedia:
     - title: STR_MGL
       text: STR_MGL_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 801
+    listOrder: 1624010
 
   - id: STR_GM_94
     type_id: 4
@@ -1078,19 +1097,19 @@ ufopaedia:
     - title: STR_GM_94
       text: STR_GM_94_UFOPAEDIA
       ammoSlot: 0
-    listOrder: 802
+    listOrder: 1624020
 
   - id: STR_GUSTAF
     type_id: 4
     text: STR_GUSTAF_UFOPAEDIA
     section: STR_ARTILLERY
-    listOrder: 803
+    listOrder: 1626000
 
   - id: STR_RPG
     type_id: 4
     text: STR_RPG_UFOPAEDIA
     section: STR_ARTILLERY
-    listOrder: 804
+    listOrder: 1627000
 
   - id: STR_RPG-29
     type_id: 4
@@ -1098,428 +1117,428 @@ ufopaedia:
      - STR_UNOBTAINABLE
     text: STR_RPG-29_UFOPAEDIA
     section: STR_ARTILLERY
-    listOrder: 805
+    listOrder: 1628000
 
   - id: STR_M72_LAW
     type_id: 4
     text: STR_M27_LAW_UFOPAEDIA
     section: STR_ARTILLERY
-    listOrder: 806
+    listOrder: 1631000
 
   #Ammo
   - id: STR_TASER_X1
     type_id: 4
     text: STR_TASER_AMMO_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 998
+    listOrder: 1900000
 
   - id: STR_38_SPECIAL_X6
     type_id: 4
     text: STR_38_SPECIAL_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 999
+    listOrder: 1901000
 
   - id: STR_9MM_MAKAROV_X10
     type_id: 4
     text: STR_9MM_MAKAROV_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1000
+    listOrder: 1902000
 
   - id: STR_9MM_MAKAROV_X20
     type_id: 4
     text: STR_9MM_MAKAROV_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1001
+    listOrder: 1902001
 
   - id: STR_9MM_MAKAROV_X30
     type_id: 4
     text: STR_9MM_MAKAROV_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1002
+    listOrder: 1902002
 
   - id: STR_9MM_PARABELLUM_X10
     type_id: 4
     text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1003
+    listOrder: 1903000
 
   - id: STR_9MM_PARABELLUM_X20
     type_id: 4
     text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1004
+    listOrder: 1903001
 
   - id: STR_9MM_PARABELLUM_X30
     type_id: 4
     text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1005
+    listOrder: 1903002
 
   - id: STR_9MM_PARABELLUM_X40
     type_id: 4
     text: STR_9MM_PARABELLUM_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1006
+    listOrder: 1903003
 
   - id: STR_9MM_GYURZA_X20
     type_id: 4
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1008
+    listOrder: 1904000
 
   - id: STR_9MM_GYURZA_X30
     type_id: 4
     text: STR_9MM_GYURZA_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1009
+    listOrder: 1904001
 
   - id: STR_FN_57_X20
     type_id: 4
     text: STR_FN_57_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1008
+    listOrder: 1905000
 
   - id: STR_FN_57_X50
     type_id: 4
     text: STR_FN_57_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1009
+    listOrder: 1905001
 
   - id: STR_45_ACP_X7
     type_id: 4
     text: STR_45_ACP_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1010
+    listOrder: 1907000
 
   - id: STR_45_ACP_X12
     type_id: 4
     text: STR_45_ACP_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1011
+    listOrder: 1907001
 
   - id: STR_45_ACP_X25
     type_id: 4
     text: STR_45_ACP_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1012
+    listOrder: 1907002
 
   - id: STR_CASELESS_4_73_X50
     type_id: 4
     text: STR_CASELESS_4_73_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1013
+    listOrder: 1910000
 
   - id: STR_5_45_X30
     type_id: 4
     text: STR_5_45_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1014
+    listOrder: 1911000
 
   - id: STR_5_45_X45
     type_id: 4
     text: STR_5_45_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1015
+    listOrder: 1911001
 
   - id: STR_5_45_X60
     type_id: 4
     text: STR_5_45_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1016
+    listOrder: 1911002
 
   - id: STR_5_56_X30
     type_id: 4
     text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1017
+    listOrder: 1912000
 
   - id: STR_5_56_X100_DRUM
     type_id: 4
     text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1018
+    listOrder: 1912001
 
   - id: STR_5_56_X50
     type_id: 4
     text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1019
+    listOrder: 1912002
 
   - id: STR_5_56_X100
     type_id: 4
     text: STR_5_56_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1019
+    listOrder: 1912003
 
   - id: STR_22_LONG_RIFLE_X6
     type_id: 4
     text: STR_22_LONG_RIFLE_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1020
+    listOrder: 1913000
 
   - id: STR_SOVIET_7_62_X10
     type_id: 4
     text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1021
+    listOrder: 1914000
 
   - id: STR_SOVIET_7_62_X30
     type_id: 4
     text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1022
+    listOrder: 1914001
 
   - id: STR_SOVIET_7_62_X40
     type_id: 4
     text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1023
+    listOrder: 1914002
 
   - id: STR_SOVIET_7_62_X75
     type_id: 4
     text: STR_SOVIET_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1024
+    listOrder: 1914003
 
   - id: STR_NATO_7_62_X5
     type_id: 4
     text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1025
+    listOrder: 1915000
 
   - id: STR_NATO_7_62_X10
     type_id: 4
     text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1026
+    listOrder: 1915001
 
   - id: STR_NATO_7_62_X20
     type_id: 4
     text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1027
+    listOrder: 1915002
 
   - id: STR_NATO_7_62_X50
     type_id: 4
     text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1028
+    listOrder: 1915003
 
   - id: STR_NATO_7_62_X100
     type_id: 4
     text: STR_NATO_7_62_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1029
+    listOrder: 1915004
 
   - id: STR_SOVIET_7_62_MMR_X10
     type_id: 4
     text: STR_SOVIET_7_62_MMR_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1030
+    listOrder: 1916000
 
   - id: STR_SOVIET_7_62_MMR_X50
     type_id: 4
     text: STR_SOVIET_7_62_MMR_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1031
+    listOrder: 1916001
 
   - id: STR_SOVIET_7_62_MMR_X100
     type_id: 4
     text: STR_SOVIET_7_62_MMR_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1032
+    listOrder: 1916002
 
   - id: STR_9_39_X10
     type_id: 4
     text: STR_9_39_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1033
+    listOrder: 1917000
 
   - id: STR_9_39_X20
     type_id: 4
     text: STR_9_39_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1034
+    listOrder: 1917001
 
   - id: STR_338_LAPUA_X5
     type_id: 4
     text: STR_338_LAPUA_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1035
+    listOrder: 1918000
 
   - id: STR_50_BMG_X5
     type_id: 4
     text: STR_50_BMG_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1036
+    listOrder: 1919000
 
   - id: STR_50_BMG_X10
     type_id: 4
     text: STR_50_BMG_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1037
+    listOrder: 1919001
 
   - id: STR_127_X5
     type_id: 4
     text: STR_127_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1038
+    listOrder: 1920000
 
   - id: STR_12G_BUCKSHOT_X2
     type_id: 4
     text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1039
+    listOrder: 1922000
 
   - id: STR_12G_BUCKSHOT_X5
     type_id: 4
     text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1040
+    listOrder: 1922001
 
   - id: STR_12G_BREACHING_X5
     type_id: 4
     text: STR_12G_BREACHING_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1040
+    listOrder: 1922040
 
   - id: STR_12G_BUCKSHOT_X8
     type_id: 4
     text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1041
+    listOrder: 1922002
 
   - id: STR_12G_BUCKSHOT_X20
     type_id: 4
     text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1042
+    listOrder: 1922003
 
   - id: STR_12G_BUCKSHOT_X30
     type_id: 4
     text: STR_12G_BUCKSHOT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1043
+    listOrder: 1922004
 
   - id: STR_12G_SLUG_X8
     type_id: 4
     text: STR_12G_SLUG_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1044
+    listOrder: 1922010
 
   - id: STR_12G_NON_LETHAL_X8
     type_id: 4
     text: STR_12G_NON_LETHAL_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1045
+    listOrder: 1922020
 
   - id: STR_12G_INCENDIARY_X8
     type_id: 4
     text: STR_12G_INCENDIARY_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1046
+    listOrder: 1922030
 
   - id: STR_SHRAPNEL_25_X3
     type_id: 4
     text: STR_SHRAPNEL_25_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1046
+    listOrder: 1923000
 
   - id: STR_BARRICADE_X3
     type_id: 4
     text: STR_BARRICADE_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1047
+    listOrder: 1923010
 
   - id: STR_VOLNA_R_X3
     type_id: 4
     text: STR_VOLNA_R_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1048
+    listOrder: 1923020
 
   - id: STR_HK_4_6_30mmX20
     type_id: 4
     text: STR_HK_4_6_30MM_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1049
+    listOrder: 1906000
 
   - id: STR_HK_4_6_30mmX30
     type_id: 4
     text: STR_HK_4_6_30MM_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1050
+    listOrder: 1906001
   
   - id: STR_HK_4_6_30mmX40
     type_id: 4
     text: STR_HK_4_6_30MM_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1050
+    listOrder: 1906002
 
   - id: STR_ZEVADA_X3
     type_id: 4
     text: STR_ZEVADA_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1045
+    listOrder: 1923030
   
   - id: STR_ZEVADA_X1
     type_id: 4
     text: STR_ZEVADA_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1045
+    listOrder: 1923031
 
   - id: STR_40MM_FRAG_X1
     type_id: 4
     text: STR_40MM_FRAG_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1049
+    listOrder: 1924000
 
   - id: STR_40MM_FRAG_X3
     type_id: 4
     text: STR_40MM_FRAG_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1050
+    listOrder: 1924001
 
   - id: STR_40MM_FRAG_X6
     type_id: 4
     text: STR_40MM_FRAG_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1051
+    listOrder: 1924002
 
   - id: STR_40MM_SMOKE_X1
     type_id: 4
     text: STR_40MM_SMOKE_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1052
+    listOrder: 1924010
 
   - id: STR_40MM_NON_LETHAL_X1
     type_id: 4
     text: STR_40MM_NON_LETHAL_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1053
+    listOrder: 1924020
 
   - id: STR_APAV40_X1
     type_id: 4
     text: STR_APAV40_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1054
+    listOrder: 1925000
 
   - id: STR_CG_HEAT_X1
     type_id: 4
     text: STR_CG_HEAT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1055
+    listOrder: 1926000
 
   - id: STR_CG_HE_X1
     type_id: 4
     text: STR_CG_HE_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1056
+    listOrder: 1926001
 
   - id: STR_RPG_HEAT_X1
     type_id: 4
     text: STR_RPG_HEAT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1057
+    listOrder: 1927000
 
   - id: STR_RPG_29_HEAT_X1
     type_id: 4
@@ -1527,7 +1546,7 @@ ufopaedia:
      - STR_UNOBTAINABLE
     text: STR_RPG_29_HEAT_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1058
+    listOrder: 1928000
 
   - id: STR_RPG_29_THERMO_X1
     type_id: 4
@@ -1535,151 +1554,151 @@ ufopaedia:
      - STR_UNOBTAINABLE
     text: STR_RPG_29_THERMO_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1059
+    listOrder: 1928001
 
   - id: STR_VOG25_X1
     type_id: 4
     text: STR_40MM_FRAG_UFOPAEDIA #Change?
     section: STR_AMMO
-    listOrder: 1060
+    listOrder: 1929000
 
   - id: STR_GRD50_X1
     type_id: 4
     text: STR_40MM_SMOKE_UFOPAEDIA #Change?
     section: STR_AMMO
-    listOrder: 1061
+    listOrder: 1929001
 
   - id: STR_BALISTIC_KNIFE_X1
     type_id: 4
     text: STR_BALISTIC_KNIFE_AMMO_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1062
+    listOrder: 1930000
 
   - id: STR_50_AE_X7 
     type_id: 4
     text: STR_50_AE_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1063
+    listOrder: 1908000
 
   - id: STR_30_06_X8 
     type_id: 4
     text: STR_30_06_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1064
+    listOrder: 1921000
 
   - id: STR_65CBJ_X30 
     type_id: 4
     text: STR_65CBJ_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1010
+    listOrder: 1909000
 
   - id: STR_65CBJ_X100 
     type_id: 4
     text: STR_65CBJ_UFOPAEDIA
     section: STR_AMMO
-    listOrder: 1010
+    listOrder: 1909001
 
   - id: STR_GRENADE
     type_id: 4
     text: STR_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1099
+    listOrder: 2631010
 
   - id: STR_IMPACT_GRENADE
     type_id: 4
     text: STR_IMPACT_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1100
+    listOrder: 2631020
 
   - id: STR_SMOKE_GRENADE
     type_id: 4
     text: STR_SMOKE_GRENADE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1101
+    listOrder: 2531000
 
   - id: STR_FLASHBANG_GRENADE
     type_id: 4
     text: STR_FLASHBANG_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1102
+    listOrder: 2531010
 
   - id: STR_HIGH_EXPLOSIVE
     type_id: 4
     text: STR_HIGH_EXPLOSIVE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1103
+    listOrder: 2631040
 
   - id: STR_C4
     type_id: 4
-    text: "Small explosion with high power, perfect for breaching through walls."
+    text: STR_C4_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1105
+    listOrder: 2431000
 
   - id: STR_MOLOTOV
     type_id: 4
     text: STR_MOLOTOV_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1104
+    listOrder: 2631030
 
   - id: STR_RIOT_SHIELD
     type_id: 4
     text: STR_RIOT_SHIELD_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1105
+    listOrder: 2131000
 
   - id: STR_KNIFE
     type_id: 4
     text: STR_KNIFE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1105
+    listOrder: 2031000
 
   - id: STR_BALISTIC_KNIFE
     type_id: 4
     text: STR_BALISTIC_KNIFE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1105
+    listOrder: 2030000
 
   - id: STR_HAMMER
     type_id: 4
     text: STR_HAMMER_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1105
+    listOrder: 2431010
 
   - id: STR_HANDCUFFS
     type_id: 4
     text: STR_HANDCUFFS_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1106
+    listOrder: 3131020
 
   - id: STR_ELECTRO_FLARE
     type_id: 4
     text: STR_FLARE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1107
+    listOrder: 2131010
 
   - id: STR_MEDKIT
     type_id: 4
     text: STR_MEDKIT_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1115
+    listOrder: 2331010
 
   - id: STR_FIELD_DRESSING
     type_id: 4
     text: STR_FIELD_DRESSING_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1116
+    listOrder: 2331000
   
   - id: STR_DEFUSE_KIT
     type_id: 4
     text: STR_DEFUSE_KIT_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1117
+    listOrder: 2131020
 
   - id: STR_DEFUSE_CODE
     type_id: 4
     text: STR_DEFUSE_CODE_UFOPAEDIA
     section: STR_EQUIPMENT
-    listOrder: 1117
+    listOrder: 2131021
 
   - id: STR_SCOPE
     type_id: 4
@@ -1818,28 +1837,28 @@ ufopaedia:
     type_id: 8
     text: STR_SHOUT_UFOPAEDIA
     section: STR_MANUAL
-    listOrder: 1300
+    listOrder: 1
   
   - id: STR_NON_LETHAL
     type_id: 8
     text: STR_NON_LETHAL_UFOPAEDIA
     section: STR_MANUAL
-    listOrder: 1301  
+    listOrder: 2  
 
   - id: STR_MELEE_ATTACKS
     type_id: 8
     text: STR_MELEE_ATTACKS_UFOPAEDIA
     section: STR_MANUAL
-    listOrder: 1302
+    listOrder: 3
 
   - id: STR_FLASHBANG_EFFECT
     type_id: 8
     text: STR_FLASHBANG_EFFECT_UFOPAEDIA
     section: STR_MANUAL
-    listOrder: 1303
+    listOrder: 4
 
   - id: STR_LMG_ACCURACY
     type_id: 8
     text: STR_LMG_ACCURACY_UFOPAEDIA
     section: STR_MANUAL
-    listOrder: 1304
+    listOrder: 5

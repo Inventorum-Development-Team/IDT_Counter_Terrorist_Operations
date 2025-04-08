@@ -1274,7 +1274,7 @@ extended:
 
           #check which version of the script to use, with 0 being off. They are mostly pretty similar, so only diffrences will commented.
           if eq x 1; #Default behavior, sprite ID on weapon is empty w/ no mag by default.
-                     #if you want a diffrent sprite ID, change it and combine with UfopaediaAmmono
+                     #(Custom): if you want a diffrent sprite ID, change it and combine with UfopaediaAmmono
 
             #Grab most of the tags/pointers here
             item.getAmmoItem ammoptr;
