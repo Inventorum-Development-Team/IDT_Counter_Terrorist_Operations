@@ -554,6 +554,8 @@ research:
      - STR_MG36_ACQUISITION 
      - STR_ULTIMAX_100_ACQUISITION 
      - STR_M60E6_ACQUISITION 
+    getOneFree:
+      - STR_7_62_BELT
 
   - name: STR_PECHENEG_ACQUISITION 
     cost: 40
@@ -601,6 +603,8 @@ research:
      - STR_MG36_ACQUISITION 
      - STR_ULTIMAX_100_ACQUISITION 
      - STR_M60E6_ACQUISITION 
+    getOneFree:
+      - STR_5_56_AMMO
 
   - name: STR_NEGEV_ACQUISITION 
     cost: 40
@@ -616,6 +620,8 @@ research:
      - STR_MG36_ACQUISITION 
      - STR_ULTIMAX_100_ACQUISITION 
      - STR_M60E6_ACQUISITION 
+    getOneFree:
+      - STR_5_56_BELT
 
   - name: STR_MG36_ACQUISITION 
     cost: 40
@@ -665,6 +671,8 @@ research:
      - STR_NEGEV_ACQUISITION 
      - STR_MG36_ACQUISITION 
      - STR_ULTIMAX_100_ACQUISITION 
+    getOneFree:
+      - STR_7_62_BELT
 
   - name: STR_AT_ACQUISITION 
     cost: 100
@@ -1040,9 +1048,15 @@ research:
 
   - name: STR_5_56_AMMO
     needItem: true
+  - name: STR_5_56_BELT
+    needItem: true
   - name: STR_5_56_DRUM_AMMO
     needItem: true
+    getOneFree:
+      - STR_5_56_AMMO
   - name: STR_7_62_AMMO
+    needItem: true
+  - name: STR_7_62_BELT
     needItem: true
   - name: STR_40MM_AMMO
     needItem: true

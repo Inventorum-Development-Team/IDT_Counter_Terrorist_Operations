@@ -2037,8 +2037,8 @@ terrains:
   - name: LITTLEBIRD
     mapDataSets:
      - blanks
-       - LITTLE_BIRD
-       - ROPE
+     - LITTLE_BIRD
+     - ROPE
     mapBlocks:
      - name: LITTLE_BIRD
        width: 30

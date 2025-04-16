@@ -746,6 +746,7 @@ units:
 ###### TERRORIST REF NODES ####
   - &STR_TERRORIST_COMMANDER
     type: STR_TERRORIST_COMMANDER
+    rank: STR_RANK_COMMANDER
     #race: STR_TERRORISTS
     stats:
       tu: 80
@@ -774,6 +775,7 @@ units:
   - &STR_TERRORIST_LEADER
     type: STR_TERRORIST_LEADER
     #race: STR_TERRORISTS
+    rank: STR_RANK_LEADER
     stats:
       tu: 70
       stamina: 100
@@ -801,6 +803,7 @@ units:
   - &STR_TERRORIST_SAW
     type: STR_TERRORIST_SAW
     #race: STR_TERRORISTS
+    rank: STR_RANK_SAW
     stats:
       tu: 60
       stamina: 100
@@ -828,6 +831,7 @@ units:
   - &STR_TERRORIST_RIFLEMAN
     type: STR_TERRORIST_RIFLEMAN
     #race: STR_TERRORISTS
+    rank: STR_RANK_RIFLEMAN
     stats:
       tu: 65
       stamina: 100
@@ -855,6 +859,7 @@ units:
   - &STR_TERRORIST_RAIDER
     type: STR_TERRORIST_RAIDER
     #race: STR_TERRORISTS
+    rank: STR_RANK_RAIDER
     stats:
       tu: 75
       stamina: 100
@@ -882,6 +887,7 @@ units:
   - &STR_TERRORIST_GRUNT
     type: STR_TERRORIST_GRUNT
     #race: STR_TERRORISTS
+    rank: STR_RANK_GRUNT
     stats:
       tu: 60
       stamina: 100
@@ -909,6 +915,7 @@ units:
   - &STR_TERRORIST_GRENADIER
     type: STR_TERRORIST_GRENADIER
     #race: STR_TERRORISTS
+    rank: STR_RANK_GRENADIER
     stats:
       tu: 60
       stamina: 100
@@ -936,6 +943,7 @@ units:
   - &STR_TERRORIST_SNIPER
     type: STR_TERRORIST_SNIPER
     #race: STR_TERRORISTS
+    rank: STR_RANK_SNIPER
     stats:
       tu: 60
       stamina: 100
@@ -962,6 +970,7 @@ units:
 
   - &STR_TERRORIST_TECHNICAL
     type: STR_TERRORIST_TECHNICAL
+    rank: STR_RANK_TECHNICAL
     stats:
       tu: 100
       stamina: 25
@@ -990,6 +999,7 @@ units:
 ###### PMC REF NODES ####
   - &STR_PR_LEADER
     type: STR_PR_LEADER
+    rank: STR_RANK_LEADER
     #race: STR_PRIVATE_SECURITY
     stats:
       tu: 90
@@ -1018,6 +1028,7 @@ units:
   - &STR_PR_SHIELD
     type: STR_PR_SHIELD
     #race: STR_PRIVATE_SECURITY
+    rank: STR_RANK_SHIELD
     stats:
       tu: 70
       stamina: 100
@@ -1044,6 +1055,7 @@ units:
 
   - &STR_PR_RIFLEMAN
     type: STR_PR_RIFLEMAN
+    rank: STR_RANK_RIFLEMAN
     #race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
@@ -1071,6 +1083,7 @@ units:
 
   - &STR_PR_HEAVY
     type: STR_PR_HEAVY
+    rank: STR_RANK_HEAVY
     #race: STR_PRIVATE_SECURITY
     stats:
       tu: 85
@@ -1098,6 +1111,7 @@ units:
 
   - &STR_PR_GRUNT
     type: STR_PR_GRUNT
+    rank: STR_RANK_GRUNT
     #race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
@@ -1125,6 +1139,7 @@ units:
 
   - &STR_PR_SAW
     type: STR_PR_SAW
+    rank: STR_RANK_SAW
     #race: STR_PRIVATE_SECURITY
     stats:
       tu: 75
@@ -1152,6 +1167,7 @@ units:
 
   - &STR_PR_SNIPER
     type: STR_PR_SNIPER
+    rank: STR_RANK_SNIPER
     #race: STR_PRIVATE_SECURITY
     stats:
       tu: 70

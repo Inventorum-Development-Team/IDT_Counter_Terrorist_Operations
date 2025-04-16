@@ -1252,7 +1252,7 @@ items:
     loadOrder: 20
   - type: STR_5_56_X50
     requiresBuy:
-      - STR_M249_ACQUISITION
+      - STR_5_56_BELT
     categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 320
@@ -1269,7 +1269,7 @@ items:
     loadOrder: 20
   - type: STR_5_56_X100
     requiresBuy:
-      - STR_M249_ACQUISITION
+      - STR_5_56_BELT
     categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     bigSprite: 328
@@ -1440,7 +1440,7 @@ items:
   #   listOrder: 2093
   - type: STR_NATO_7_62_X50
     requiresBuy:
-      - STR_MK_48_ACQUISITION
+      - STR_7_62_BELT
     categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 392
@@ -1457,7 +1457,7 @@ items:
     loadOrder: 20
   - type: STR_NATO_7_62_X100
     requiresBuy:
-      - STR_MK_48_ACQUISITION
+      - STR_7_62_BELT
     categories: [ STR_CLIPS, STR_LMGS ]
     refNode: *STR_7_62MM_NATO_RIFLE_AMMO
     bigSprite: 400
@@ -2061,7 +2061,7 @@ items:
     armor: 30
     costBuy: 1000
     costSell: 500
-    weight: 2
+    weight: 1
     clipSize: 1 
     invHeight: 2
     meleeType: 7
@@ -7785,7 +7785,7 @@ items:
   - type: STR_KNIFE
     #requiresBuy: #start the game with it
     size: 1
-    weight: 3
+    weight: 1
     costBuy: 500
     costSell: 250
     bigSprite: 3440
@@ -7848,7 +7848,7 @@ items:
     requiresBuy:
       - STR_BALISTIC_KNIFE_ACQUISITION
     size: 1
-    weight: 2
+    weight: 1
     costBuy: 10000
     costSell: 5000
     bigSprite: 4264 #4256 nomag

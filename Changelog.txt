@@ -1,3 +1,41 @@
+Put Date here-2025 V1.2 Arsenal
+-Major additions/changes:
+*New weapons (full list at the bottom)
+*Bomb defusal mission + Defuse kit/Disarm code.
+*Regions now match the area/enemy type (NA, East/west EU). Hid all cities that can't be selected for missions.
+*Technical enemy type.
+
+-Minor additions/changes:
+*Ammo is now included in weapon catagories
+*Reordered ufopaedia
+*Automaticly loaded ammo now defaults to largest mag.
+*Hawaii added to NA cities list.
+*Unlocking 5.56 drums now also unlocks 5.56 mags.
+*Knife, Balistic knife, and Balistic knife blade now only weigh 1.
+*Modified weapons sellprice now includes the attachments.
+*PMC SAW units now have their own sprites and have kevlar w/ riot plates armor.
+*Enemy Units have ranks
+
+-Bug fixes:
+*Negev & M60E6 now gives relevant ammo.
+*Fixed floors over staircase in Urban map set block.
+*Field dressing had sprite adjustment
+*Fixed incorrect underbarrel grenade items for East EU Terrorist Leader.
+*C4 ufopaedia entry added to launguage file.
+*Fixed Tavor95x floor sprite pallet.
+*Removed unused items to clean up wiki.
+*Renamed AKs-74u (SOPMOD) to AKs-74u (TACMOD) as it dosen't use SOPMOD parts.
+*Scar-L sell price matches the ratio of other weapons now.
+
+New weapons
+> Rifles
+	- ACR
+> SMGs
+	- Kriss Vector
+> Shotguns
+	- MASS Standalone
+
+
 3-November-2024 v1.1.1 Arsenal
 *Fixed crash when starting the game with lazy loading disabled.
 

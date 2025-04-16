@@ -395,6 +395,18 @@ en-US:
   STR_PR_LEADER_USA: "Guard Leader"
   STR_PR_RIFLEMAN_USA: "Guard Rifleman"
 
+  STR_RANK_COMMANDER: "Commander"
+  STR_RANK_LEADER: "Leader"
+  STR_RANK_SAW: "Gunner"
+  STR_RANK_RIFLEMAN: "Rifleman"
+  STR_RANK_RAIDER: "Raider"
+  STR_RANK_GRUNT: "Grunt"
+  STR_RANK_GRENADIER: "Grenadier"
+  STR_RANK_SNIPER: "Sniper"
+  STR_RANK_TECHNICAL: "Technical Gunner"
+  STR_RANK_SHIELD: "Shield"
+  STR_RANK_HEAVY: "Heavy"
+  
   #ExtraStrings.rul
   STR_OPENXCOM: "Counter-Terrorist Operations"
   STR_ALIENS_KILLED: "HOSTILES KILLED"
@@ -963,6 +975,11 @@ en-US:
   STR_DAMAGE_10: "LESS-LETHAL"
   STR_DAMAGE_11: "BREACHING"
   STR_DAMAGE_12: "FLASHBANG"
+
+  #Reigon/Cities
+  REGION_SOVIET_CITIES: "Eastern Europe"
+  REGION_EUROPEAN_CITIES: "Western Europe"
+  REGION_AMERICAN_CITIES: "North America"
 
 
 

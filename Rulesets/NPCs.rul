@@ -218,7 +218,7 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: false
-    power: 9999
+    power: 1100
     blastRadius: 14
 
   - type: STR_BOMB_ITEM
@@ -228,7 +228,7 @@ items:
     bigSprite: 3432
     floorSprite: 3432
     fixedWeapon: true
-    power: 9999
+    power: 1100
     blastRadius: 14
     isExplodingInHands: true
     tuPrime: 25
