@@ -821,7 +821,7 @@ weaponSets:
     weapons: [STR_AWP, STR_NATO_7_62_X10, STR_NATO_7_62_X10]
   - type: WS_PR_SNIPER_WEST_EU_0_U1
     weapons: [STR_PSG_1, STR_NATO_7_62_X10, STR_NATO_7_62_X10]
-  - type: WS_PR_SNIPER_WEST_EU_0_R1 
+  - type: WS_PR_SNIPER_WEST_EU_0_R1 #! 0u1
     weapons: [STR_PSG_1, STR_NATO_7_62_X10, STR_NATO_7_62_X10]
 
   - type: WS_PR_SNIPER_WEST_EU_1_C1 #! 0c1

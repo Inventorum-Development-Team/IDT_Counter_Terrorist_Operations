@@ -619,6 +619,10 @@ items:
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+  - type: STR_STEYR_SCOUT #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
   
   - type: STR_ORIGIN_12 #ignoreDuplicate
     tags:
@@ -1489,7 +1493,6 @@ extended:
           if neq frame 0;
 
             set temp anim_frame;
-            sub temp frame;
 
             if lt temp frameLength;
 
