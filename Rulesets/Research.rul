@@ -335,6 +335,7 @@ research:
      - STR_SNIPER_ACQUISITION
     disables:
      - STR_PSG1_ACQUISITION
+     - STR_STEYR_SCOUT_ACQUISITION
     getOneFree:
      - STR_7_62_AMMO
 
@@ -344,8 +345,17 @@ research:
      - STR_SNIPER_ACQUISITION
     disables:
      - STR_AWP_ACQUISITION
+     - STR_STEYR_SCOUT_ACQUISITION
     getOneFree:
      - STR_7_62_AMMO
+
+  - name: STR_STEYR_SCOUT_ACQUISITION
+    cost: 30
+    dependencies:
+     - STR_SNIPER_ACQUISITION
+    disables:
+     - STR_PSG1_ACQUISITION
+     - STR_AWP_ACQUISITION
   
   - name: STR_RIFLE_MODIFICATION 
     cost: 50

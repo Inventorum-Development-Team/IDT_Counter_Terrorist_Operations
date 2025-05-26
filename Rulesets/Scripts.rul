@@ -119,7 +119,10 @@ items:
      AmmoNo: 2    
   - type: STR_5_45_X60 #ignoreDuplicate
     tags:
-     AmmoNo: 3    
+     AmmoNo: 3   
+  - type: STR_5_56_X10 #ignoreDuplicate
+    tags:
+     AmmoNo: 1   
   - type: STR_5_56_X30 #ignoreDuplicate
     tags:
      AmmoNo: 1    

@@ -166,8 +166,8 @@ weaponSets:
 
   - type: WS_T_SNIPER_EAST_EU_1_C1
     weapons: [STR_SKS_SCOPED, STR_SOVIET_7_62_X10, STR_SOVIET_7_62_X10]
-  - type: WS_T_SNIPER_EAST_EU_1_U1
-    weapons: [STR_DRAGUNOV, STR_SOVIET_7_62_MMR_X10, STR_SOVIET_7_62_MMR_X10]
+  - type: WS_T_SNIPER_EAST_EU_1_U1 #! 1c1
+    weapons: [STR_SKS_SCOPED, STR_SOVIET_7_62_X10, STR_SOVIET_7_62_X10]
   - type: WS_T_SNIPER_EAST_EU_1_R1 #! 1c1
     weapons: [STR_SKS_SCOPED, STR_SOVIET_7_62_X10, STR_SOVIET_7_62_X10]
 
@@ -175,8 +175,8 @@ weaponSets:
     weapons: [STR_VSS, STR_9_39_X10, STR_9_39_X10]
   - type: WS_T_SNIPER_EAST_EU_2_U1
     weapons: [STR_OSV_96, STR_127_X5, STR_127_X5]
-  - type: WS_T_SNIPER_EAST_EU_2_R1 #! 2u1
-    weapons: [STR_OSV_96, STR_127_X5, STR_127_X5]
+  - type: WS_T_SNIPER_EAST_EU_2_R1 
+    weapons: [STR_DRAGUNOV, STR_SOVIET_7_62_MMR_X10, STR_SOVIET_7_62_MMR_X10]
 
 #Terrorist Commander West EU
   - type: WS_T_COMMANDER_WEST_EU_0_C1

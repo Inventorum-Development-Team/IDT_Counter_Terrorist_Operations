@@ -50,7 +50,7 @@
 
 items:
   - &STR_RIFLE_MELEE
-    type: STR_RIFLE_MELEE
+    ignore: STR_RIFLE_MELEE
     battleType: 1
     ammo: # required by battleType
         0:
@@ -68,7 +68,7 @@ items:
       RandomType: 6
 
   - &STR_PISTOL 
-    type: STR_PISTOL
+    ignore: STR_PISTOL
     battleType: 1
     ammo: # required by battleType
         0:
@@ -92,7 +92,7 @@ items:
      RandomType: 6
 
   - &STR_AUTO_PISTOL 
-    type: STR_AUTO_PISTOL
+    ignore: STR_AUTO_PISTOL
     battleType: 1
     ammo: # required by battleType
         0:
@@ -127,7 +127,7 @@ items:
      RandomType: 6
 
   - &STR_SMG
-    type: STR_SMG
+    ignore: STR_SMG
     battleType: 1
     attraction: 13
     ammo: # required by battleType
@@ -145,7 +145,7 @@ items:
       arcing: false
 
   - &STR_AR
-    type: STR_AR
+    ignore: STR_AR
     attraction: 13
     battleType: 1 #Redundent here, however needed for wiki
     confAuto:
@@ -159,7 +159,7 @@ items:
     refNode: *STR_RIFLE_MELEE
 
   - &STR_AR_UBS
-    type: STR_AR_UBS
+    ignore: STR_AR_UBS
     attraction: 13
     battleType: 1 #Redundent here, however needed for wiki
     confAimed:
@@ -178,7 +178,7 @@ items:
          compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
 
   - &STR_AR_GL
-    type: STR_AR_GL
+    ignore: STR_AR_GL
     attraction: 13
     battleType: 1 #Redundent here, however needed for wiki
     confAimed:
@@ -199,7 +199,7 @@ items:
          compatibleAmmo: [STR_TASER_X1] # ammo is defined later for GL/Masterkey weapons
 
   - &STR_LMG
-    type: STR_LMG
+    ignore: STR_LMG
     attraction: 9
     battleType: 1
     ammo: # required by battleType
@@ -227,7 +227,7 @@ items:
   #     IgnoreOverKill: true
   #     ToArmorPre: 
   - &STR_TASER_AMMO
-    type: STR_TASER_AMMO
+    ignore: STR_TASER_AMMO
     power: 40
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -241,7 +241,7 @@ items:
       ToArmor: 0
       FixRadius: 0
   - &STR_38_SPECIAL_AMMO
-    type: STR_38_SPECIAL
+    ignore: STR_38_SPECIAL
     power: 26
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -252,7 +252,7 @@ items:
       RandomType: 6
       IgnoreOverKill: true
   - &STR_MAKAROV_AMMO
-    type: STR_MAKAROV_AMMO
+    ignore: STR_MAKAROV_AMMO
     power: 29
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -263,7 +263,7 @@ items:
       RandomType: 6
       IgnoreOverKill: true
   - &STR_9MM_PISTOL_AMMO
-    type: STR_9MM_PISTOL_AMMO
+    ignore: STR_9MM_PISTOL_AMMO
     power: 31
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -274,7 +274,7 @@ items:
       RandomType: 6
       IgnoreOverKill: true
   - &STR_9MM_GYURZA_AMMO
-    type: STR_9MM_GYURZA_AMMO
+    ignore: STR_9MM_GYURZA_AMMO
     power: 34
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -286,7 +286,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.4
   - &STR_FN57_AMMO
-    type: STR_FN57_AMMO
+    ignore: STR_FN57_AMMO
     power: 33
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -298,7 +298,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.4
   - &STR_HK_4_6_30mm
-    type: STR_HK_4_6_30mm
+    ignore: STR_HK_4_6_30mm
     power: 32
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -310,7 +310,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.3
   - &STR_45_PISTOL_AMMO
-    type: STR_45_PISTOL_AMMO
+    ignore: STR_45_PISTOL_AMMO
     power: 35
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -322,7 +322,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.1
   - &STR_50AE_PISTOL_AMMO
-    type: STR_50AE_PISTOL_AMMO
+    ignore: STR_50AE_PISTOL_AMMO
     power: 40
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -337,7 +337,7 @@ items:
       ArmorEffectiveness: 1.5
   #RIFLE AMMO
   - &STR_CASELESS_4_73_AMMO
-    type: STR_CASELESS_4_73_AMMO
+    ignore: STR_CASELESS_4_73_AMMO
     power: 35
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -349,7 +349,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.3
   - &STR_5_45_AMMO
-    type: STR_5_45_AMMO
+    ignore: STR_5_45_AMMO
     power: 36
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -361,7 +361,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.3
   - &STR_5_56MM_NATO_RIFLE_AMMO
-    type: STR_5_56MM_NATO_RIFLE_AMMO
+    ignore: STR_5_56MM_NATO_RIFLE_AMMO
     power: 37
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -373,7 +373,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.4
   - &STR_22_LONG_RIFLE_AMMO
-    type: STR_22_LONG_RIFLE_AMMO
+    ignore: STR_22_LONG_RIFLE_AMMO
     power: 28
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -385,7 +385,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0
   - &STR_7_62MM_SOVIET_RIFLE_AMMO
-    type: STR_7_62MM_SOVIET_RIFLE_AMMO
+    ignore: STR_7_62MM_SOVIET_RIFLE_AMMO
     power: 43
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -397,7 +397,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.6
   - &STR_7_62MM_NATO_RIFLE_AMMO
-    type: STR_7_62MM_NATO_RIFLE_AMMO
+    ignore: STR_7_62MM_NATO_RIFLE_AMMO
     power: 45
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -409,7 +409,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.6
   - &STR_SOVIET_7_62_MMR_AMMO
-    type: STR_SOVIET_7_62_MMR_AMMO
+    ignore: STR_SOVIET_7_62_MMR_AMMO
     power: 49
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -421,7 +421,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.7
   - &STR_30_06_AMMO
-    type: STR_30_06_AMMO
+    ignore: STR_30_06_AMMO
     power: 40
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -433,7 +433,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.5
   - &STR_9_39_AMMO
-    type: STR_9_39_AMMO
+    ignore: STR_9_39_AMMO
     power: 51
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -445,7 +445,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.7
   - &STR_338_LAPUA_AMMO
-    type: STR_338_LAPUA_AMMO
+    ignore: STR_338_LAPUA_AMMO
     power: 61
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -457,7 +457,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.8
   - &STR_50_BMG_AMMO
-    type: STR_50_BMG_AMMO
+    ignore: STR_50_BMG_AMMO
     power: 70
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -469,7 +469,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 1
   - &STR_127_AMMO
-    type: STR_127_AMMO
+    ignore: STR_127_AMMO
     power: 75
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -482,7 +482,7 @@ items:
       ToArmorPre: 1
 
   - &STR_12G_BUCKSHOT
-    type: STR_12G_BUCKSHOT
+    ignore: STR_12G_BUCKSHOT
     power: 18
     shotgunPellets: 10
     shotgunSpread: 0
@@ -496,7 +496,7 @@ items:
       RandomType: 1
       IgnoreOverKill: true
   - &STR_12G_SLUG
-    type: STR_12G_SLUG
+    ignore: STR_12G_SLUG
     power: 45
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
@@ -509,7 +509,7 @@ items:
       ToArmorPre: 0.7
 
   - &STR_12G_NON_LETHAL
-    type: STR_12G_NON_LETHAL
+    ignore: STR_12G_NON_LETHAL
     power: 10
     shotgunPellets: 10
     shotgunSpread: 0
@@ -529,7 +529,7 @@ items:
       ResistType: 10
 
   - &STR_12G_INCENDIARY
-    type: STR_12G_INCENDIARY
+    ignore: STR_12G_INCENDIARY
     power: 18
     shotgunPellets: 10
     shotgunSpread: 0
@@ -558,7 +558,7 @@ items:
       IgnoreOverKill: true
 
   - &STR_12G_BREACHING
-    type: STR_12G_BREACHING
+    ignore: STR_12G_BREACHING
     power: 10
     shotgunPellets: 4
     shotgunSpread: 25
@@ -579,7 +579,7 @@ items:
 
 
   - &STR_SHRAPNEL_25
-    type: STR_SHRAPNEL_25
+    ignore: STR_SHRAPNEL_25
     power: 18
     shotgunPellets: 20
     shotgunSpread: 0
@@ -593,7 +593,7 @@ items:
       RandomType: 1
       IgnoreOverKill: true
   - &STR_BARRICADE
-    type: STR_BARRICADE
+    ignore: STR_BARRICADE
     power: 55
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
     hitAnimation: 26
@@ -606,7 +606,7 @@ items:
       ToArmorPre: 1
 
   - &STR_VOLNA_R
-    type: STR_VOLNA_R
+    ignore: STR_VOLNA_R
     power: 10
     shotgunPellets: 20
     shotgunSpread: 0
@@ -626,7 +626,7 @@ items:
       ResistType: 10
 
   - &STR_ZEVADA
-    type: STR_ZEVADA
+    ignore: STR_ZEVADA
     power: 4
     shotgunPellets: 50
     shotgunSpread: 0
@@ -646,7 +646,7 @@ items:
       IgnoreOverKill: true
 
   - &STR_40MM_FRAG
-    type: STR_40MM_FRAG
+    ignore: STR_40MM_FRAG
     power: 50
     bulletSprite: 19
     hitSound: 0
@@ -662,7 +662,7 @@ items:
       FixRadius: 3
 
   - &STR_40MM_SMOKE
-    type: STR_40MM_SMOKE
+    ignore: STR_40MM_SMOKE
     power: 40
     bulletSprite: 19
     hitSound: 0
@@ -676,7 +676,7 @@ items:
       FixRadius: 5
 
   - &STR_APAV40
-    type: STR_APAV40
+    ignore: STR_APAV40
     power: 60
     bulletSprite: 4
     hitSound: 0
@@ -692,7 +692,7 @@ items:
       ToArmor: 0
 
   - &STR_40MM_NON_LETHAL
-    type: STR_40MM_NON_LETHAL
+    ignore: STR_40MM_NON_LETHAL
     power: 40
     bulletSprite: 19
     hitSound: 0
@@ -710,7 +710,7 @@ items:
       ResistType: 10
 
   - &STR_VOG25
-    type: STR_VOG25
+    ignore: STR_VOG25
     power: 40
     bulletSprite: 19
     hitSound: 0
@@ -726,7 +726,7 @@ items:
       FixRadius: 4
 
   - &STR_GRD50
-    type: STR_GRD50
+    ignore: STR_GRD50
     power: 40
     bulletSprite: 19
     hitSound: 0
@@ -740,7 +740,7 @@ items:
       FixRadius: 5
 
   - &STR_CG_HEAT
-    type: STR_CG_HEAT
+    ignore: STR_CG_HEAT
     power: 200
     bulletSprite: 20
     hitSound: 0
@@ -755,7 +755,7 @@ items:
       FixRadius: 3
 
   - &STR_CG_HE
-    type: STR_CG_HE
+    ignore: STR_CG_HE
     power: 100
     bulletSprite: 20
     hitSound: 0
@@ -770,7 +770,7 @@ items:
       FixRadius: 6
 
   - &STR_RPG_HEAT
-    type: STR_RPG_HEAT
+    ignore: STR_RPG_HEAT
     power: 150
     bulletSprite: 0
     hitSound: 0
@@ -785,7 +785,7 @@ items:
       FixRadius: 3
 
   - &STR_RPG_29_HEAT
-    type: STR_RPG_29_HEAT
+    ignore: STR_RPG_29_HEAT
     power: 190
     bulletSprite: 21
     hitSound: 0
@@ -800,7 +800,7 @@ items:
       FixRadius: 3
 
   - &STR_RPG_29_THERMO
-    type: STR_RPG_29_THERMO
+    ignore: STR_RPG_29_THERMO
     power: 140
     bulletSprite: 21
     hitSound: 0
@@ -815,7 +815,7 @@ items:
       FixRadius: 7
 
   - &STR_LAUNCHED_BLADE
-    type: STR_LAUNCHED_BLADE
+    ignore: STR_LAUNCHED_BLADE
     power: 40
     bulletSprite: 22
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -827,7 +827,7 @@ items:
       IgnoreOverKill: true
 
   - &STR_65CBJ_AMMO 
-    type: STR_65CBJ_AMMO
+    ignore: STR_65CBJ_AMMO
     power: 30
     hitAnimation: 26
     hitSound: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]
@@ -1234,6 +1234,22 @@ items:
     clipSize: 60
     listOrder: 119002
     loadOrder: 10
+  - type: STR_5_56_X10
+    requiresBuy:
+      - STR_STEYR_SCOUT_ACQUISITION
+    categories: [ STR_CLIPS, STR_SNIPER_RIFLES]
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+    bigSprite: 5312
+    handSprite: 5312
+    floorSprite: 5312
+    size: 0.1
+    armor: 30
+    costBuy: 200
+    costSell: 100
+    weight: 1
+    clipSize: 10
+    listOrder: 129000
+    loadOrder: 10
   - type: STR_5_56_X30
     requiresBuy:
       - STR_5_56_AMMO
@@ -1248,7 +1264,7 @@ items:
     costSell: 200
     weight: 4
     clipSize: 30
-    listOrder: 129000
+    listOrder: 129001
     loadOrder: 20
   - type: STR_5_56_X50
     requiresBuy:
@@ -1265,7 +1281,7 @@ items:
     invWidth: 2
     weight: 7
     clipSize: 50
-    listOrder: 129001
+    listOrder: 129002
     loadOrder: 20
   - type: STR_5_56_X100
     requiresBuy:
@@ -1283,7 +1299,7 @@ items:
     invHeight: 2
     weight: 14
     clipSize: 100
-    listOrder: 129002
+    listOrder: 129003
     loadOrder: 10
   - type: STR_5_56_X100_DRUM
     requiresBuy:
@@ -1301,7 +1317,7 @@ items:
     invHeight: 2
     weight: 16
     clipSize: 100
-    listOrder: 129003
+    listOrder: 129004
     loadOrder: 10
   - type: STR_22_LONG_RIFLE_X6
     categories: [ STR_CLIPS, STR_SNIPER_RIFLES ]
@@ -6219,9 +6235,10 @@ items:
       basePercent: 50
     listOrder: 213001
 
-  - type: STR_STEYR_SCOUT #WIP
-    #requiresBuy:
-    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES, STR_SEIZED ]
+  - type: STR_STEYR_SCOUT
+    requiresBuy:
+      - STR_STEYR_SCOUT_ACQUISITION
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
     size: 1
     weight: 24
     battleType: 1
@@ -6230,8 +6247,8 @@ items:
     handSprite: 5304
     reloadSound: 149
     fireSound: 150 #Needs new sound
-    #costBuy: 44000
-    costSell: 22000
+    costBuy: 45000
+    costSell: 22500
     accuracyAimed: 115
     accuracySnap: 85
     blockBothHands: true
@@ -6248,7 +6265,7 @@ items:
     attraction: 9
     ammo:
       0:
-        compatibleAmmo: [ STR_5_56_X30 ] #Change to x10
+        compatibleAmmo: [ STR_5_56_X10 ]
         tuLoad: 35
         tuUnload: 17
     listOrder: 123000
@@ -8427,6 +8444,7 @@ extraSprites:
       5288: Resources/BallisticWeapons/Equipment/BigDefuseKit.png
       5296: Resources/BallisticWeapons/Snipers/BigScoutnomag.png
       5304: Resources/BallisticWeapons/Snipers/BigScout.png
+      5312: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x10.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8955,6 +8973,7 @@ extraSprites:
       5288: Resources/BallisticWeapons/Equipment/FloorDefuseKit.png
       5296: Resources/BallisticWeapons/Snipers/FloorScout.png
       5304: Resources/BallisticWeapons/Snipers/FloorScout.png
+      5312: Resources/BallisticWeapons/Ammo/Floor.png
 
 
 ####################HAND SPRITES##############################################################################
@@ -9488,6 +9507,7 @@ extraSprites:
       5288: Resources/BallisticWeapons/Equipment/HandDefuseKit.png
       5296: Resources/BallisticWeapons/Snipers/HandScout.png
       5304: Resources/BallisticWeapons/Snipers/HandScout.png
+      5312: Resources/BallisticWeapons/Ammo/HandAmmo.png
 
 
   # - type: SMOKE.PCK
