@@ -6270,6 +6270,41 @@ items:
         tuUnload: 17
     listOrder: 123000
 
+  - type: STR_SSG_08
+    requiresBuy:
+      - STR_SSG_08_ACQUISITION
+    categories: [ STR_FIREARMS, STR_SNIPER_RIFLES ]
+    size: 1
+    weight: 27
+    battleType: 1
+    bigSprite: 5328
+    floorSprite: 5328
+    handSprite: 5328
+    reloadSound: 149
+    fireSound: 150
+    costBuy: 49000
+    costSell: 24500
+    accuracyAimed: 125
+    accuracySnap: 90
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    aimRange: 200
+    snapRange: 35
+    kneelBonus: 145
+    tuAimed: 75
+    tuSnap: 50
+    invWidth: 1
+    invHeight: 3
+    attraction: 9
+    ammo:
+      0:
+        compatibleAmmo: [ STR_NATO_7_62_X10 ]
+        tuLoad: 35
+        tuUnload: 17
+    listOrder: 153040
+
 ###### SHOTGUNS ########
   - type: STR_DOUBLE_BARREL
     categories: [ STR_FIREARMS, STR_SHOTGUNS, STR_SEIZED ]
@@ -8445,6 +8480,8 @@ extraSprites:
       5296: Resources/BallisticWeapons/Snipers/BigScoutnomag.png
       5304: Resources/BallisticWeapons/Snipers/BigScout.png
       5312: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x10.png
+      5320: Resources/BallisticWeapons/Snipers/BigSSG08nomag.png
+      5328: Resources/BallisticWeapons/Snipers/BigSSG08.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -8973,6 +9010,8 @@ extraSprites:
       5288: Resources/BallisticWeapons/Equipment/FloorDefuseKit.png
       5296: Resources/BallisticWeapons/Snipers/FloorScout.png
       5304: Resources/BallisticWeapons/Snipers/FloorScout.png
+      5320: Resources/BallisticWeapons/Snipers/FloorSSG08.png
+      5328: Resources/BallisticWeapons/Snipers/FloorSSG08.png
       5312: Resources/BallisticWeapons/Ammo/Floor.png
 
 
@@ -9508,6 +9547,8 @@ extraSprites:
       5296: Resources/BallisticWeapons/Snipers/HandScout.png
       5304: Resources/BallisticWeapons/Snipers/HandScout.png
       5312: Resources/BallisticWeapons/Ammo/HandAmmo.png
+      5320: Resources/BallisticWeapons/Snipers/HandSSG08.png
+      5328: Resources/BallisticWeapons/Snipers/HandSSG08.png
 
 
   # - type: SMOKE.PCK

@@ -874,6 +874,12 @@ ufopaedia:
     text: STR_STEYR_SCOUT_UFOPAEDIA
     section: STR_SNIPERS
     listOrder: 1312000
+  
+  - id: STR_SSG_08
+    type_id: 4
+    text: STR_SSG_08_UFOPAEDIA
+    section: STR_SNIPERS
+    listOrder: 1315040
 
   #Shotguns
   - id: STR_DOUBLE_BARREL

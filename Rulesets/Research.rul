@@ -482,6 +482,14 @@ research:
      - STR_PSG1_ACQUISITION
     getOneFree:
      - STR_7_62_AMMO
+  
+  - name: STR_SSG_08_ACQUISITION
+    cost: 40
+    dependencies:
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_STEYR_SCOUT_ACQUISITION
+    getOneFree:
+     - STR_7_62_AMMO
 
   - name: STR_FIVE_SEVEN_ACQUISITION
     cost: 40

@@ -58,6 +58,7 @@ missionScripts:
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
+    lastMonth: 8
     regionWeights:
      0:
        REGION_SOVIET_CITIES: 100
@@ -72,6 +73,7 @@ missionScripts:
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
+    lastMonth: 8
     regionWeights:
      0:
        REGION_AMERICAN_CITIES: 100
@@ -86,6 +88,50 @@ missionScripts:
     startDelay: 100
     randomDelay: 43200
     firstMonth: 3
+    lastMonth: 8
+    regionWeights:
+     0:
+       REGION_EUROPEAN_CITIES: 100
+    useTable: false
+
+  #Late game Major Attack variations ##################################
+  - type: east_eu_late_major_attack
+    missionWeights:
+      0:
+        MAJOR_ATTACK_LATE_EAST_EU: 50
+        BOMB_DEFUSAL_EAST_EU: 50
+    executionOdds: 33
+    startDelay: 100
+    randomDelay: 43200
+    firstMonth: 9
+    regionWeights:
+     0:
+       REGION_SOVIET_CITIES: 100
+    useTable: false
+
+  - type: usa_late_major_attack
+    missionWeights:
+      0:
+        MAJOR_ATTACK_LATE_USA: 50
+        BOMB_DEFUSAL_USA: 50
+    executionOdds: 33
+    startDelay: 100
+    randomDelay: 43200
+    firstMonth: 9
+    regionWeights:
+     0:
+       REGION_AMERICAN_CITIES: 100
+    useTable: false
+
+  - type: west_eu_late_major_attack
+    missionWeights:
+      0:
+        MAJOR_ATTACK_LATE_WEST_EU: 50
+        BOMB_DEFUSAL_WEST_EU: 50
+    executionOdds: 33
+    startDelay: 100
+    randomDelay: 43200
+    firstMonth: 9
     regionWeights:
      0:
        REGION_EUROPEAN_CITIES: 100
