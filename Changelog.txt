@@ -34,6 +34,9 @@ New weapons
 	- Kriss Vector
 > Shotguns
 	- MASS Standalone
+> Snipers
+	- Steyr Scout
+	- SSG 08
 
 
 3-November-2024 v1.1.1 Arsenal
