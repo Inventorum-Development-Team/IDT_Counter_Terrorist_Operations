@@ -5319,8 +5319,8 @@ items:
     reloadSound: 242
     fireSound: 244
     costSell: 10000
-    accuracyAimed: 55
-    accuracySnap: 65
+    accuracyAimed: 50
+    accuracySnap: 60
     accuracyAuto: 25
     blockBothHands: false
     twoHanded: true
@@ -5392,6 +5392,44 @@ items:
         tuLoad: 30
         tuUnload: 35
     listOrder: 142020
+  
+  - type: STR_CZ_858
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 22
+    # battleType: 1
+    bigSprite: 5344
+    floorSprite: 5344
+    handSprite: 5344
+    reloadSound: 242
+    fireSound: 244
+    costSell: 8000
+    accuracyAimed: 65
+    accuracySnap: 50
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 27
+    snapRange: 20
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 65
+    tuSnap: 45
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_SOVIET_7_62_X30,
+            STR_SOVIET_7_62_X40,
+            STR_SOVIET_7_62_X75
+          ]
+        tuLoad: 30
+        tuUnload: 35
+    listOrder: 142030
 
   - type: STR_AK_74
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
@@ -5404,8 +5442,8 @@ items:
     reloadSound: 242
     fireSound: 243
     costSell: 12000
-    accuracyAimed: 50
-    accuracySnap: 60
+    accuracyAimed: 55
+    accuracySnap: 65
     accuracyAuto: 35
     blockBothHands: false
     twoHanded: true
@@ -5440,7 +5478,7 @@ items:
     reloadSound: 242
     fireSound: 243
     costSell: 12000
-    accuracyAimed: 50
+    accuracyAimed: 55
     accuracySnap: 35
     accuracyAuto: 35
     blockBothHands: false
@@ -5489,8 +5527,8 @@ items:
     reloadSound: 242
     fireSound: 243 #Change!
     costSell: 14000
-    accuracyAimed: 48
-    accuracySnap: 61
+    accuracyAimed: 53
+    accuracySnap: 66
     accuracyAuto: 37
     blockBothHands: false
     twoHanded: true
@@ -5525,8 +5563,8 @@ items:
     reloadSound: 242
     fireSound: 243 #Change!
     costSell: 17000
-    accuracyAimed: 68
-    accuracySnap: 61
+    accuracyAimed: 73
+    accuracySnap: 66
     accuracyAuto: 37
     blockBothHands: false
     twoHanded: true
@@ -8482,6 +8520,10 @@ extraSprites:
       5312: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x10.png
       5320: Resources/BallisticWeapons/Snipers/BigSSG08nomag.png
       5328: Resources/BallisticWeapons/Snipers/BigSSG08.png
+      5336: Resources/BallisticWeapons/Rifles/BigCZ858nomag.png
+      5344: Resources/BallisticWeapons/Rifles/BigCZ858.png
+      5352: Resources/BallisticWeapons/Rifles/BigCZ85840.png
+      5360: Resources/BallisticWeapons/Rifles/BigCZ85875.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -9010,9 +9052,13 @@ extraSprites:
       5288: Resources/BallisticWeapons/Equipment/FloorDefuseKit.png
       5296: Resources/BallisticWeapons/Snipers/FloorScout.png
       5304: Resources/BallisticWeapons/Snipers/FloorScout.png
+      5312: Resources/BallisticWeapons/Ammo/Floor.png
       5320: Resources/BallisticWeapons/Snipers/FloorSSG08.png
       5328: Resources/BallisticWeapons/Snipers/FloorSSG08.png
-      5312: Resources/BallisticWeapons/Ammo/Floor.png
+      5336: Resources/BallisticWeapons/Rifles/FloorCZ858.png
+      5344: Resources/BallisticWeapons/Rifles/FloorCZ858.png
+      5352: Resources/BallisticWeapons/Rifles/FloorCZ858.png
+      5360: Resources/BallisticWeapons/Rifles/FloorCZ858.png
 
 
 ####################HAND SPRITES##############################################################################
@@ -9549,6 +9595,10 @@ extraSprites:
       5312: Resources/BallisticWeapons/Ammo/HandAmmo.png
       5320: Resources/BallisticWeapons/Snipers/HandSSG08.png
       5328: Resources/BallisticWeapons/Snipers/HandSSG08.png
+      5336: Resources/BallisticWeapons/Rifles/HandCZ858.png
+      5344: Resources/BallisticWeapons/Rifles/HandCZ858.png
+      5352: Resources/BallisticWeapons/Rifles/HandCZ858.png
+      5360: Resources/BallisticWeapons/Rifles/HandCZ858.png
 
 
   # - type: SMOKE.PCK

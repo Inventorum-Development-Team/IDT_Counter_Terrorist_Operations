@@ -784,6 +784,12 @@ ufopaedia:
     section: STR_RIFLES
     listOrder: 1212090
 
+  - id: STR_CZ_858
+    type_id: 4
+    text: STR_CZ_858_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 1214010
+
   #Snipers
   - id: STR_HUNTING_RIFLE
     type_id: 4

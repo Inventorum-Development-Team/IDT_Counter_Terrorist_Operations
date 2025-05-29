@@ -69,10 +69,11 @@ en-US:
   STR_FN_FAL_SCOPED_UFOPAEDIA: "The FN FAL is one of the most widely used assault rifles. Used during the early cold war by many countries within NATO and other nations friendly with the alliance, due to this the rifle has gained the nickname The right arm of the free world"
   STR_G3_UFOPAEDIA: "A battle rifle designed by Heckler & Koch and CETME. The G3 was the service rifle of the Bundeswehr during the cold war and saw use in numerous militaries and in some guerilla movements."
   STR_M14_EBR_UFOPAEDIA: "A battle rifle designed in 2001 for the US Navy SEALs, The M14 EBR was made as a requrest for a more compact M14. The high recoil makes fireing the weapon full auto ill advised."
-  STR_RK_62_UFOPAEDIA: "The RK 62 is a Finnish assault rifle based on the AK-47. It was designed for cold weather, and is quite accurate, with higher quality ironsights and a low MOA compaired to a normal AK."
+  STR_RK_62_UFOPAEDIA: "The RK 62 is a Finnish assault rifle based on the AK-47. It was designed for cold weather and is quite accurate, with higher quality ironsights and a low MOA compaired to a normal AK."
   STR_AKS_74U_UFOPAEDIA: "A carbine varient of the AK-74, it has a shortened barrel and a folding stock allowing for more maneuverability in close quarters."
   STR_AKS_74U_SOPMOD_UFOPAEDIA: "A carbine varient of the AK-74, it has a shortened barrel and a folding stock allowing for more maneuverability in close quarters. \nThe attached sling provides a 50% reduced invenetory movement cost."
   STR_ACR_UFOPAEDIA: "An American rifle designed in 2006, the name is an acronym for “Adaptive Combat Rifle”. While originally designed for military use, it did not see much adoption. The semi-auto civilian version did see some success however, and remains the more well known version of the two."
+  STR_CZ_858_UFOPAEDIA: "The semi-auto civilian version of the Czech vz. 58. While on the surface it looks like an AK clone the internals are quite different, with the only thing shared between it and an AKM being the caliber and appearance."
 
   STR_HUNTING_RIFLE_UFOPAEDIA: "Different models of hunting rifles are easily available to civilians that acquire hunting licenses. While intended to hunt animals they are still lethal against human targets, though they struggle against armored targets and are usually outperformed by most, if not all military rifles."
   STR_SKS_SCOPED_UFOPAEDIA: "The SKS is a semi-automatic carbine originally meant to be used by soviet armed forces, but it was quickly overshadowed by the AK-47. The SKS nevertheless found success among irregular forces thanks to its light weight, simple design and ease of use. The SKS also found popularity in North America as a hunting and sporting weapon."
@@ -899,6 +900,7 @@ en-US:
   STR_AKS_74U_SOPMOD: "AKs-74u (TACMOD)"
   STR_AK_74_GP25: "AK-74 (GP-25)"
   STR_ACR: "ACR"
+  STR_CZ_858: "CZ 858"
 
   STR_HUNTING_RIFLE: "Hunting Rifle"
   STR_SKS_SCOPED: "SKS Carbine (Scoped)"

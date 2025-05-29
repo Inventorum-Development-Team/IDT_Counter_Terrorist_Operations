@@ -254,10 +254,10 @@ weaponSets:
 
   - type: WS_T_RIFLEMAN_WEST_EU_1_C1
     weapons: [STR_AK_74, STR_5_45_X30]
-  - type: WS_T_RIFLEMAN_WEST_EU_1_U1
-    weapons: [STR_G3, STR_NATO_7_62_X20]
-  - type: WS_T_RIFLEMAN_WEST_EU_1_R1 #! 1u1
-    weapons: [STR_G3, STR_NATO_7_62_X20]
+  - type: WS_T_RIFLEMAN_WEST_EU_1_U1 #! 1c1
+    weapons: [STR_AK_74, STR_5_45_X30]
+  - type: WS_T_RIFLEMAN_WEST_EU_1_R1 #! 1c1
+    weapons: [STR_AK_74, STR_5_45_X30]
 
   - type: WS_T_RIFLEMAN_WEST_EU_2_C1
     weapons: [STR_AR_18, STR_5_56_X30]
