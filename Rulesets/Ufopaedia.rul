@@ -790,6 +790,12 @@ ufopaedia:
     section: STR_RIFLES
     listOrder: 1214010
 
+  - id: STR_SAIGA_SPORTER
+    type_id: 4
+    text: STR_SAIGA_SPORTER_UFOPAEDIA
+    section: STR_RIFLES
+    listOrder: 1211020
+
   #Snipers
   - id: STR_HUNTING_RIFLE
     type_id: 4

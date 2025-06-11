@@ -589,6 +589,10 @@ items:
     tags:
      AmmoReSprite: 1
      UfopaediaAmmoNo: 1
+  - type: STR_SAIGA_SPORTER #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
 
   - type: STR_PSG_1 #ignoreDuplicate
     tags:

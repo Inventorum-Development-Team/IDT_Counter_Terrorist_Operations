@@ -5781,6 +5781,39 @@ items:
         tuLoad: 30
         tuUnload: 15
     listOrder: 122090
+  
+  - type: STR_SAIGA_SPORTER
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_SEIZED ]
+    size: 1
+    weight: 23
+    # battleType: 1
+    bigSprite: 5376
+    floorSprite: 5376
+    handSprite: 5376
+    reloadSound: 242
+    fireSound: 243
+    costSell: 10000
+    accuracyAimed: 75
+    accuracySnap: 55
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 200
+    minRange: 0
+    aimRange: 35
+    snapRange: 29
+    kneelBonus: 125
+    refNode: *STR_RIFLE_MELEE
+    tuAimed: 65
+    tuSnap: 35
+    invWidth: 1
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_45_X30, STR_5_45_X45, STR_5_45_X60 ]
+        tuLoad: 30
+        tuUnload: 15
+    listOrder: 112020
 
 ###### SNIPERS ########
 
@@ -8524,6 +8557,10 @@ extraSprites:
       5344: Resources/BallisticWeapons/Rifles/BigCZ858.png
       5352: Resources/BallisticWeapons/Rifles/BigCZ85840.png
       5360: Resources/BallisticWeapons/Rifles/BigCZ85875.png
+      5368: Resources/BallisticWeapons/Rifles/BigSaigaSporternomag.png
+      5376: Resources/BallisticWeapons/Rifles/BigSaigaSporter30.png
+      5384: Resources/BallisticWeapons/Rifles/BigSaigaSporter45.png
+      5392: Resources/BallisticWeapons/Rifles/BigSaigaSporter60.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -9059,6 +9096,10 @@ extraSprites:
       5344: Resources/BallisticWeapons/Rifles/FloorCZ858.png
       5352: Resources/BallisticWeapons/Rifles/FloorCZ858.png
       5360: Resources/BallisticWeapons/Rifles/FloorCZ858.png
+      5368: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
+      5376: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
+      5384: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
+      5392: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
 
 
 ####################HAND SPRITES##############################################################################
@@ -9599,6 +9640,10 @@ extraSprites:
       5344: Resources/BallisticWeapons/Rifles/HandCZ858.png
       5352: Resources/BallisticWeapons/Rifles/HandCZ858.png
       5360: Resources/BallisticWeapons/Rifles/HandCZ858.png
+      5368: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
+      5376: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
+      5384: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
+      5392: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
 
 
   # - type: SMOKE.PCK

@@ -32,6 +32,7 @@ New weapons
 > Rifles
 	- ACR
 	- CZ 858
+        - Saiga Sporter
 > SMGs
 	- Kriss Vector
 > Shotguns

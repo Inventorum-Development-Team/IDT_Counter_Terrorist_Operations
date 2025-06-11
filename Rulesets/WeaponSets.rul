@@ -48,7 +48,7 @@ weaponSets:
 
 #Terrorist SAW East EU
   - type: WS_T_SAW_EAST_EU_0_C1
-    weapons: [STR_AKM, STR_SOVIET_7_62_X75, STR_SOVIET_7_62_X75]
+    weapons: [STR_AK_74, STR_5_45_X60, STR_5_45_X60]
   - type: WS_T_SAW_EAST_EU_0_U1
     weapons: [STR_AK_74, STR_5_45_X60, STR_5_45_X60]
   - type: WS_T_SAW_EAST_EU_0_R1 #! 0u1
@@ -70,18 +70,18 @@ weaponSets:
 
 #Terrorist Rifleman East EU
   - type: WS_T_RIFLEMAN_EAST_EU_0_C1
-    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
-  - type: WS_T_RIFLEMAN_EAST_EU_0_U1
-    weapons: [STR_AKS_74U, STR_5_45_X30]
+    weapons: [STR_SAIGA_SPORTER, STR_5_45_X30]
+  - type: WS_T_RIFLEMAN_EAST_EU_0_U1 #! 0c1
+    weapons: [STR_SAIGA_SPORTER, STR_5_45_X30]
   - type: WS_T_RIFLEMAN_EAST_EU_0_R1 #! 0c1
-    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
+    weapons: [STR_SAIGA_SPORTER, STR_5_45_X30]
 
-  - type: WS_T_RIFLEMAN_EAST_EU_1_C1 #! 0c1
-    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
-  - type: WS_T_RIFLEMAN_EAST_EU_1_U1 #! 0u1
+  - type: WS_T_RIFLEMAN_EAST_EU_1_C1
+    weapons: [STR_AK_74, STR_5_45_X30]
+  - type: WS_T_RIFLEMAN_EAST_EU_1_U1 
     weapons: [STR_AKS_74U,STR_5_45_X30] 
-  - type: WS_T_RIFLEMAN_EAST_EU_1_R1 #! 0c1
-    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
+  - type: WS_T_RIFLEMAN_EAST_EU_1_R1 #! 1c1
+    weapons: [STR_AK_74, STR_5_45_X30]
 
   - type: WS_T_RIFLEMAN_EAST_EU_2_C1 
     weapons: [STR_AK_74, STR_5_45_X30, STR_GRENADE]
@@ -224,11 +224,11 @@ weaponSets:
 
 #Terrorist SAW West EU
   - type: WS_T_SAW_WEST_EU_0_C1 #! East EU
-    weapons: [STR_AK_74, STR_5_45_X60, STR_5_45_X60]
+    weapons: [STR_AR_18, STR_5_56_X30, STR_5_56_X30]
   - type: WS_T_SAW_WEST_EU_0_U1 #! 0c1
-    weapons: [STR_AK_74, STR_5_45_X60, STR_5_45_X60]
+    weapons: [STR_AR_18, STR_5_56_X30, STR_5_56_X30]
   - type: WS_T_SAW_WEST_EU_0_R1 #! 0c1
-    weapons: [STR_AK_74, STR_5_45_X60, STR_5_45_X60]
+    weapons: [STR_AR_18, STR_5_56_X30, STR_5_56_X30]
 
   - type: WS_T_SAW_WEST_EU_1_C1
     weapons: [STR_FN_MINIMI, STR_5_56_X100]
@@ -245,26 +245,26 @@ weaponSets:
     weapons: [STR_FN_MINIMI, STR_5_56_X100]
 
 #Terrorist Rifleman West EU
-  - type: WS_T_RIFLEMAN_WEST_EU_0_C1 #! East EU
-    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
+  - type: WS_T_RIFLEMAN_WEST_EU_0_C1
+    weapons: [STR_CZ_858, STR_SOVIET_7_62_X30]
   - type: WS_T_RIFLEMAN_WEST_EU_0_U1 #! 0c1
-    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
+    weapons: [STR_CZ_858, STR_SOVIET_7_62_X30]
   - type: WS_T_RIFLEMAN_WEST_EU_0_R1 #! 0c1
-    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
+    weapons: [STR_CZ_858, STR_SOVIET_7_62_X30]
 
   - type: WS_T_RIFLEMAN_WEST_EU_1_C1
-    weapons: [STR_AK_74, STR_5_45_X30]
+    weapons: [STR_AR_18, STR_5_56_X30]
   - type: WS_T_RIFLEMAN_WEST_EU_1_U1 #! 1c1
-    weapons: [STR_AK_74, STR_5_45_X30]
+    weapons: [STR_AR_18, STR_5_56_X30]
   - type: WS_T_RIFLEMAN_WEST_EU_1_R1 #! 1c1
-    weapons: [STR_AK_74, STR_5_45_X30]
+    weapons: [STR_AR_18, STR_5_56_X30]
 
   - type: WS_T_RIFLEMAN_WEST_EU_2_C1
-    weapons: [STR_AR_18, STR_5_56_X30]
+    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
   - type: WS_T_RIFLEMAN_WEST_EU_2_U1 #! 2c1
-    weapons: [STR_AR_18, STR_5_56_X30]
+    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
   - type: WS_T_RIFLEMAN_WEST_EU_2_R1 #! 2c1
-    weapons: [STR_AR_18, STR_5_56_X30]
+    weapons: [STR_AKM, STR_SOVIET_7_62_X30]
 
 #Terrorist Raider West EU
   - type: WS_T_RAIDER_WEST_EU_0_C1 #! East EU
