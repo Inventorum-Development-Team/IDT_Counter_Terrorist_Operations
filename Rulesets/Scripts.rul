@@ -339,7 +339,7 @@ items:
     tags:
      AmmoReSprite: 1
      FoldStock: 1
-     UfopaediaAmmoNo: 2
+     UfopaediaAmmoNo: 3
   - type: STR_CBJMS #ignoreDuplicate
     tags:
      AmmoReSprite: 1
@@ -637,7 +637,7 @@ items:
   - type: STR_SSG_08 #ignoreDuplicate
     tags:
      AmmoReSprite: 1
-     UfopaediaAmmoNo: 1
+     UfopaediaAmmoNo: 2
   
   - type: STR_ORIGIN_12 #ignoreDuplicate
     tags:

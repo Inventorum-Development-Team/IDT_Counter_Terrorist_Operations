@@ -1230,7 +1230,7 @@ items:
     armor: 30
     costBuy: 1100
     costSell: 550
-    weight: 4
+    weight: 8
     clipSize: 60
     listOrder: 119002
     loadOrder: 10
@@ -3314,11 +3314,11 @@ items:
     requiresBuy:
       - STR_FMG9_ACQUISITION #STR_FMG9_ACQUISITION
     size: 1
-    weight: 22
+    weight: 17
     # battleType: 1
-    bigSprite: 4080
-    floorSprite: 4080
-    handSprite: 4080
+    bigSprite: 4088
+    floorSprite: 4088
+    handSprite: 4088
     reloadSound: 130
     fireSound: 131
     costBuy: 18000
@@ -8395,14 +8395,14 @@ extraSprites:
       4040: Resources/BallisticWeapons/Rifles/BigM16A2SCOPED.png
       4048: Resources/BallisticWeapons/Rifles/BigM16A2M203nomag.png
       4056: Resources/BallisticWeapons/Rifles/BigM16A2M203.png
-      4064: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png
-      4072: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png  
-      4080: Resources/BallisticWeapons/SMGs/BigFMG9.png       
-      #4088: Resources/BallisticWeapons/SMGs/BigFMG9.png  
+      4064: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png #unloaded
+      #4072: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png 
+      4080: Resources/BallisticWeapons/SMGs/BigFMG9nomag.png      
+      4088: Resources/BallisticWeapons/SMGs/BigFMG9.png      
       4096: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png 
-      4104: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png   
+      #4104: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png 
       4112: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png          
-      #4120: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png   
+      4120: Resources/BallisticWeapons/SMGs/BigFMG9Folded.png  
       4128: Resources/BallisticWeapons/Rifles/BigM14EBRnomag.png
       #4136
       4144: Resources/BallisticWeapons/Rifles/BigM14EBR10.png
