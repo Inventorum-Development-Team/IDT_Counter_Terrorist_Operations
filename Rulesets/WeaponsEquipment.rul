@@ -7484,6 +7484,48 @@ items:
         tuUnload: 22
     listOrder: 246020
 
+  - type: STR_M79
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_SEIZED ]
+    size: 1
+    weight: 24
+    battleType: 1
+    bigSprite: 5408
+    floorSprite: 5408
+    handSprite: 5408
+    reloadSound: 158
+    fireSound: 159
+    #costBuy: 19500
+    costSell: 9750
+    accuracyAimed: 60
+    accuracySnap: 45
+    noLOSAccuracyPenalty: 80
+    blockBothHands: false
+    twoHanded: true
+    oneHandedPenalty: 50
+    maxRange: 45
+    minRange: 0
+    aimRange: 36
+    snapRange: 20
+    kneelBonus: 115
+    tuAimed: 85
+    tuSnap: 45
+    invWidth: 1
+    invHeight: 3
+    arcingShot: true
+    attraction: 13
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 246030
+
+
   - type: STR_GUSTAF
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
     requiresBuy:
@@ -7694,7 +7736,7 @@ items:
     battleType: 4
     blastRadius: 3
     fuseType: -2
-    isExplodingInHands: true
+    explodeInventory: 2
     listOrder: 316030
 
   - type: STR_SMOKE_GRENADE
@@ -8561,6 +8603,8 @@ extraSprites:
       5376: Resources/BallisticWeapons/Rifles/BigSaigaSporter30.png
       5384: Resources/BallisticWeapons/Rifles/BigSaigaSporter45.png
       5392: Resources/BallisticWeapons/Rifles/BigSaigaSporter60.png
+      5400: Resources/BallisticWeapons/Artillery/BigM79nomag.png
+      5408: Resources/BallisticWeapons/Artillery/BigM79.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -9100,6 +9144,8 @@ extraSprites:
       5376: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
       5384: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
       5392: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
+      5400: Resources/BallisticWeapons/Artillery/FloorM79.png
+      5408: Resources/BallisticWeapons/Artillery/FloorM79.png
 
 
 ####################HAND SPRITES##############################################################################
@@ -9644,6 +9690,8 @@ extraSprites:
       5376: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
       5384: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
       5392: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
+      5400: Resources/BallisticWeapons/Artillery/HandM79.png
+      5408: Resources/BallisticWeapons/Artillery/HandM79.png
 
 
   # - type: SMOKE.PCK

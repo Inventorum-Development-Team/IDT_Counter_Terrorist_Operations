@@ -124,6 +124,7 @@ en-US:
   STR_RPG_UFOPAEDIA: "Due to its simplicity, low cost and effectiveness, the RPG-7 has become the most used anti-armor weapon in the world. For this reason it has also proved commonplace among the arsenals of irregular and terrorist forces, and it is usually their only weapon capable of challenging armored vehicles."
   STR_RPG-29_UFOPAEDIA: "The RPG-29 is a reusable rocket-propelled grenade launcher that became the last adopted by the soviet union. It has seen action in several middle-eastern conflicts, where it has proved itself capable of challenging modern main battle tanks."
   STR_M27_LAW_UFOPAEDIA: "A single use anti-tank rocket launcher, the A7 variant has lower armor penetration but a larger blast. It is significantly lighter than most other AT launchers and is easier to use as a secondary weapon."
+  STR_M79_UFOPAEDIA: "A break action 40mm grenade launcher developed by the US in 1961. It has seen widespread adoption and use across the globe even to this day due to it's effectiveness and simplicity. \n\nReduced penalty for firing outside of visual range (80%)"
 
   STR_TASER_AMMO_UFOPAEDIA: "A clip containing a charge for a single shot of a Taser."
   STR_38_SPECIAL_UFOPAEDIA: "The .38 Smith & Wesson Special was developed in 1898 when previous US military cartridges where found to have inadequate stopping power. It has since then become a popular revolver cartridge due to its manageable recoil and accuracy."
@@ -954,6 +955,7 @@ en-US:
   STR_RPG: "RPG-7"
   STR_RPG-29: "RPG-29"
   STR_M72_LAW: "M72A7 LAW"
+  STR_M79: "M79"
 
   STR_BURST: "Burst"
   STR_DOUBLE_TAP: "Double Tap"

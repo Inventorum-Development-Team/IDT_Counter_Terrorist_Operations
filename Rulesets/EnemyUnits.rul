@@ -534,7 +534,7 @@ armors:
     underArmor: 60
     drawingRoutine: 5
     visibilityAtDark: 9
-    heatVision: 100
+    heatVision: 100 #"Blind" firing through smoke
     size: 2
     turnCost: 25
     allowsKneeling: false

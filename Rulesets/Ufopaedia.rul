@@ -1123,6 +1123,12 @@ ufopaedia:
       ammoSlot: 0
     listOrder: 1624020
 
+  - id: STR_M79
+    type_id: 4
+    text: STR_M79_UFOPAEDIA
+    section: STR_ARTILLERY
+    listOrder: 1624030
+
   - id: STR_GUSTAF
     type_id: 4
     text: STR_GUSTAF_UFOPAEDIA

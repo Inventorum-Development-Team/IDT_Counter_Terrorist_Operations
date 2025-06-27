@@ -4,6 +4,7 @@ Put Date here-2025 V1.2 Arsenal
 *Bomb defusal mission + Defuse kit/Disarm code.
 *Regions now match the area/enemy type (NA, East/west EU). Hid all cities that can't be selected for missions.
 *Technical enemy type.
+*Late game major attacks have harder varient.
 
 -Minor additions/changes:
 *Ammo is now included in weapon catagories
@@ -16,6 +17,8 @@ Put Date here-2025 V1.2 Arsenal
 *PMC SAW units now have their own sprites and have kevlar w/ riot plates armor.
 *Enemy Units have ranks
 *Modified enemy weapon sets again.
+*FMG9 Weight reduced to 17.
+*AK-74 & AKs-74u more accurate, AKM less accurate.
 
 -Bug fixes:
 *Negev & M60E6 now gives relevant ammo.
@@ -27,6 +30,7 @@ Put Date here-2025 V1.2 Arsenal
 *Removed unused items to clean up wiki.
 *Renamed AKs-74u (SOPMOD) to AKs-74u (TACMOD) as it dosen't use SOPMOD parts.
 *Scar-L sell price matches the ratio of other weapons now.
+*Status effect flashes now continue to play after being hit.
 
 New weapons
 > Rifles
@@ -40,6 +44,8 @@ New weapons
 > Snipers
 	- Steyr Scout
 	- SSG 08
+> Launchers
+	- M79
 
 
 3-November-2024 v1.1.1 Arsenal

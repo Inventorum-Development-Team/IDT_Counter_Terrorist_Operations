@@ -226,6 +226,9 @@ items:
   - type: STR_APAV40_X1 #ignoreDuplicate
     tags:
      AmmoNo: 2
+  - type: STR_40MM_FRAG_X1 #ignoreDuplicate
+    tags:
+     AmmoNo: 1
   - type: STR_BALISTIC_KNIFE_X1 #ignoreDuplicate
     tags:
      AmmoNo: 1
@@ -745,6 +748,10 @@ items:
     tags:
      AmmoReSprite: 1
      FoldStock: 1
+  - type: STR_M79 #ignoreDuplicate
+    tags:
+     AmmoReSprite: 1
+     UfopaediaAmmoNo: 1
 
   - type: STR_RIOT_SHIELD #ignoreDuplicate
     tags:

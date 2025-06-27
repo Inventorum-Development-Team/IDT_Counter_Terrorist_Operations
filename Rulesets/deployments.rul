@@ -751,18 +751,18 @@ alienDeployments:
      desc: STR_MAJOR_ATTACK_BRIEFING
     data:
        - alienRank: 7
-         lowQty: 1
-         highQty: 3
+         lowQty: 2
+         highQty: 4
          itemSets:
            - []
        - alienRank: 6
          lowQty: 1
-         highQty: 2
+         highQty: 3
          itemSets:
            - []
        - alienRank: 5
-         lowQty: 6
-         highQty: 12
+         lowQty: 4
+         highQty: 8
          itemSets:
            - []
        - alienRank: 4
@@ -781,13 +781,13 @@ alienDeployments:
          itemSets:
            - []
        - alienRank: 1
-         lowQty: 1
-         highQty: 1
+         lowQty: 2
+         highQty: 3
          itemSets:
            - []
        - alienRank: 0
-         lowQty: 0
-         highQty: 0
+         lowQty: 1
+         highQty: 1
          itemSets:
            - []
   - type: MAJOR_ATTACK_LATE_USA
@@ -813,18 +813,18 @@ alienDeployments:
      desc: STR_MAJOR_ATTACK_BRIEFING
     data:
        - alienRank: 7
-         lowQty: 1
-         highQty: 3
+         lowQty: 2
+         highQty: 4
          itemSets:
            - []
        - alienRank: 6
          lowQty: 1
-         highQty: 2
+         highQty: 3
          itemSets:
            - []
        - alienRank: 5
-         lowQty: 6
-         highQty: 12
+         lowQty: 4
+         highQty: 8
          itemSets:
            - []
        - alienRank: 4
@@ -843,13 +843,13 @@ alienDeployments:
          itemSets:
            - []
        - alienRank: 1
-         lowQty: 1
-         highQty: 1
+         lowQty: 2
+         highQty: 3
          itemSets:
            - []
        - alienRank: 0
-         lowQty: 0
-         highQty: 0
+         lowQty: 1
+         highQty: 1
          itemSets:
            - []
   - type: MAJOR_ATTACK_LATE_WEST_EU
@@ -873,18 +873,18 @@ alienDeployments:
      desc: STR_MAJOR_ATTACK_BRIEFING
     data:
        - alienRank: 7
-         lowQty: 1
-         highQty: 3
+         lowQty: 2
+         highQty: 4
          itemSets:
            - []
        - alienRank: 6
          lowQty: 1
-         highQty: 2
+         highQty: 3
          itemSets:
            - []
        - alienRank: 5
-         lowQty: 6
-         highQty: 12
+         lowQty: 4
+         highQty: 8
          itemSets:
            - []
        - alienRank: 4
@@ -903,13 +903,13 @@ alienDeployments:
          itemSets:
            - []
        - alienRank: 1
-         lowQty: 1
-         highQty: 1
+         lowQty: 2
+         highQty: 3
          itemSets:
            - []
        - alienRank: 0
-         lowQty: 0
-         highQty: 0
+         lowQty: 1
+         highQty: 1
          itemSets:
            - []
   - type: BOMB_DEFUSAL_EAST_EU
