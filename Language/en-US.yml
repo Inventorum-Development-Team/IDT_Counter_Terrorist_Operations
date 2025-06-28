@@ -7,7 +7,7 @@ en-US:
   STR_SNIPERS: "Sniper Rifles"
   STR_SHOTGUNS: "Shotguns"
   STR_LMGS: "Machine Guns"
-  STR_ARTILLERY: "Heavy Weapons"
+  STR_ARTILLERY: "Launchers"
   STR_AMMO: "Ammunition"
   STR_EQUIPMENT: "Equipment"
   STR_MANUAL: "Field Manual"
@@ -124,7 +124,8 @@ en-US:
   STR_RPG_UFOPAEDIA: "Due to its simplicity, low cost and effectiveness, the RPG-7 has become the most used anti-armor weapon in the world. For this reason it has also proved commonplace among the arsenals of irregular and terrorist forces, and it is usually their only weapon capable of challenging armored vehicles."
   STR_RPG-29_UFOPAEDIA: "The RPG-29 is a reusable rocket-propelled grenade launcher that became the last adopted by the soviet union. It has seen action in several middle-eastern conflicts, where it has proved itself capable of challenging modern main battle tanks."
   STR_M27_LAW_UFOPAEDIA: "A single use anti-tank rocket launcher, the A7 variant has lower armor penetration but a larger blast. It is significantly lighter than most other AT launchers and is easier to use as a secondary weapon."
-  STR_M79_UFOPAEDIA: "A break action 40mm grenade launcher developed by the US in 1961. It has seen widespread adoption and use across the globe even to this day due to it's effectiveness and simplicity. \n\nReduced penalty for firing outside of visual range (80%)"
+  STR_M79_UFOPAEDIA: "Reduced penalty for firing outside of visual range (80%)\n\nA break action 40mm grenade launcher developed by the US in 1961. It has seen widespread adoption and use across the globe even to this day due to it's effectiveness and simplicity."
+  STR_RG6_UFOPAEDIA: "The RG-6 is a 6 shot Russian revolving grenade launcher developed in 1994 for urban combat. It was heavily influenced by the M32 MGL, but uses front loading 40mm caseless ammo like the GP-25. To reload, the front part of the launcher rotates to the side allowing access to the cylinder chambers."
 
   STR_TASER_AMMO_UFOPAEDIA: "A clip containing a charge for a single shot of a Taser."
   STR_38_SPECIAL_UFOPAEDIA: "The .38 Smith & Wesson Special was developed in 1898 when previous US military cartridges where found to have inadequate stopping power. It has since then become a popular revolver cartridge due to its manageable recoil and accuracy."
@@ -810,6 +811,7 @@ en-US:
   STR_RPG_29_THERMO_X1: "RPG-29 Thermobaric (1x)"
   STR_BALISTIC_KNIFE_X1: "Ballistic Knife Blade (1x)"
   STR_VOG25_X1: "VOG-25 [Frag] (1x)"
+  STR_VOG25_X6: "VOG-25 [Frag] (6x)"
   STR_GRD50_X1: "GRD-50 [Smoke] (1x)"
   STR_30_06_X8: ".30-06 (8x)"
 
@@ -956,6 +958,7 @@ en-US:
   STR_RPG-29: "RPG-29"
   STR_M72_LAW: "M72A7 LAW"
   STR_M79: "M79"
+  STR_RG6: "RG-6"
 
   STR_BURST: "Burst"
   STR_DOUBLE_TAP: "Double Tap"

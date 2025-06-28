@@ -44,7 +44,7 @@
 # 26 CG rocket
 # 27 RPG7 rocket
 # 28 RPG 29 rocket
-# 29 VOG-25/varients
+# 29 VOG-25 (40mm Caseless)
 # 30 Balistic knife
 # 31 Other
 
@@ -2039,7 +2039,7 @@ items:
     listOrder: 289001
     #fireSound: 4
   - type: STR_VOG25_X1
-    categories: [ STR_CLIPS, STR_RIFLES ]
+    categories: [ STR_CLIPS, STR_RIFLES, STR_ARTILLERY ]
     refNode: *STR_VOG25
     bigSprite: 4840
     handSprite: 4840
@@ -2051,6 +2051,21 @@ items:
     weight: 2
     clipSize: 1
     listOrder: 299000
+  - type: STR_VOG25_X6
+    categories: [ STR_CLIPS, STR_ARTILLERY ]
+    refNode: *STR_VOG25
+    bigSprite: 5464
+    handSprite: 5464
+    floorSprite: 5464
+    size: 0.1
+    armor: 30
+    #costBuy: 300
+    costSell: 900
+    weight: 2
+    invWidth: 2
+    invHeight: 2
+    clipSize: 6
+    listOrder: 299001
   - type: STR_GRD50_X1
     categories: [ STR_CLIPS, STR_RIFLES ]
     refNode: *STR_GRD50
@@ -2063,7 +2078,7 @@ items:
     costSell: 125
     weight: 2
     clipSize: 1
-    listOrder: 299001
+    listOrder: 299002
 
   - type: STR_BALISTIC_KNIFE_X1
     requiresBuy:
@@ -7525,6 +7540,46 @@ items:
         tuUnload: 20
     listOrder: 246030
 
+  - type: STR_RG6
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_SEIZED ]
+    #requiresBuy:
+    #  - STR_MGL_ACQUISITION
+    size: 1
+    weight: 48
+    battleType: 1
+    bigSprite: 5424
+    floorSprite: 5424
+    handSprite: 5424
+    reloadSound: 224
+    fireSound: 159
+    #costBuy: 61500
+    costSell: 30250
+    accuracyAimed: 50
+    accuracySnap: 35
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 30
+    minRange: 0
+    aimRange: 27
+    snapRange: 12
+    kneelBonus: 115
+    tuAimed: 60
+    tuSnap: 30
+    invWidth: 1
+    invHeight: 3
+    arcingShot: true
+    attraction: 13
+    ammo:
+      0:
+        compatibleAmmo:
+          [
+            STR_VOG25_X1,
+            STR_VOG25_X6,
+            STR_GRD50_X1
+          ]
+        tuLoad: 40
+        tuUnload: 22
+    listOrder: 296000
 
   - type: STR_GUSTAF
     categories: [ STR_FIREARMS, STR_ARTILLERY ]
@@ -8605,6 +8660,13 @@ extraSprites:
       5392: Resources/BallisticWeapons/Rifles/BigSaigaSporter60.png
       5400: Resources/BallisticWeapons/Artillery/BigM79nomag.png
       5408: Resources/BallisticWeapons/Artillery/BigM79.png
+      5416: Resources/BallisticWeapons/Artillery/BigRG6nomag.png
+      5424: Resources/BallisticWeapons/Artillery/BigRG6.png
+      #5432: Resources/BallisticWeapons/Artillery/BigRG6.png
+      #5440: Resources/BallisticWeapons/Artillery/BigRG6.png
+      5448: Resources/BallisticWeapons/Artillery/BigRG6Foldednomag.png
+      5456: Resources/BallisticWeapons/Artillery/BigRG6Folded.png
+      5464: Resources/BallisticWeapons/Ammo/BigVOG25Ammo_x6.png
 
 #####################FLOOR SPRITES###############################################################################
   - type: FLOOROB.PCK
@@ -9146,6 +9208,13 @@ extraSprites:
       5392: Resources/BallisticWeapons/Rifles/FloorSaigaSporter.png
       5400: Resources/BallisticWeapons/Artillery/FloorM79.png
       5408: Resources/BallisticWeapons/Artillery/FloorM79.png
+      5416: Resources/BallisticWeapons/Artillery/FloorRG6.png
+      5424: Resources/BallisticWeapons/Artillery/FloorRG6.png
+      #5432: Resources/BallisticWeapons/Artillery/FloorRG6.png
+      #5440: Resources/BallisticWeapons/Artillery/FloorRG6.png
+      5448: Resources/BallisticWeapons/Artillery/FloorRG6.png
+      5456: Resources/BallisticWeapons/Artillery/FloorRG6.png
+      5464: Resources/BallisticWeapons/Ammo/Floor.png
 
 
 ####################HAND SPRITES##############################################################################
@@ -9692,6 +9761,13 @@ extraSprites:
       5392: Resources/BallisticWeapons/Rifles/HandSaigaSporter.png
       5400: Resources/BallisticWeapons/Artillery/HandM79.png
       5408: Resources/BallisticWeapons/Artillery/HandM79.png
+      5416: Resources/BallisticWeapons/Artillery/HandRG6.png
+      5424: Resources/BallisticWeapons/Artillery/HandRG6.png
+      #5432: Resources/BallisticWeapons/Artillery/HandRG6.png
+      #5440: Resources/BallisticWeapons/Artillery/HandRG6.png
+      5448: Resources/BallisticWeapons/Artillery/HandRG6.png
+      5456: Resources/BallisticWeapons/Artillery/HandRG6.png
+      5464: Resources/BallisticWeapons/Ammo/HandAmmo.png
 
 
   # - type: SMOKE.PCK

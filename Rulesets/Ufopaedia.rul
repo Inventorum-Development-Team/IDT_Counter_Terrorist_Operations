@@ -1129,6 +1129,12 @@ ufopaedia:
     section: STR_ARTILLERY
     listOrder: 1624030
 
+  - id: STR_RG6
+    type_id: 4
+    text: STR_RG6_UFOPAEDIA
+    section: STR_ARTILLERY
+    listOrder: 1629000
+
   - id: STR_GUSTAF
     type_id: 4
     text: STR_GUSTAF_UFOPAEDIA
@@ -1597,12 +1603,18 @@ ufopaedia:
     text: STR_40MM_FRAG_UFOPAEDIA #Change?
     section: STR_AMMO
     listOrder: 1929000
+  
+  - id: STR_VOG25_X6
+    type_id: 4
+    text: STR_40MM_FRAG_UFOPAEDIA #Change?
+    section: STR_AMMO
+    listOrder: 1929001
 
   - id: STR_GRD50_X1
     type_id: 4
     text: STR_40MM_SMOKE_UFOPAEDIA #Change?
     section: STR_AMMO
-    listOrder: 1929001
+    listOrder: 1929002
 
   - id: STR_BALISTIC_KNIFE_X1
     type_id: 4

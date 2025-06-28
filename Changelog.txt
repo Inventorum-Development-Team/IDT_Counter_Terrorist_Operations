@@ -31,6 +31,7 @@ Put Date here-2025 V1.2 Arsenal
 *Renamed AKs-74u (SOPMOD) to AKs-74u (TACMOD) as it dosen't use SOPMOD parts.
 *Scar-L sell price matches the ratio of other weapons now.
 *Status effect flashes now continue to play after being hit.
+*Renamed "Heavy Weapons" item catagory to "Launchers"
 
 New weapons
 > Rifles
@@ -46,6 +47,7 @@ New weapons
 	- SSG 08
 > Launchers
 	- M79
+	- RG-6
 
 
 3-November-2024 v1.1.1 Arsenal

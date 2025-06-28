@@ -230,7 +230,7 @@ items:
     fixedWeapon: true
     power: 1100
     blastRadius: 14
-    isExplodingInHands: true
+    explodeInventory: 2
     tuPrime: 25
     damageAlter:
       RandomType: 3
