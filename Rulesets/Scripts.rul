@@ -753,7 +753,7 @@ extended:
           var int right;
           var int ammono;
           var int UBSammono;
-          var int mod;
+          var int weaponmod;
           var int kneeling;
 
           BattleItem.getTag item x Tag.AmmoReSprite;
@@ -765,14 +765,14 @@ extended:
             BattleItem.getTag item y Tag.FoldStock;
             BattleItem.getTag item b Tag.Bipod;
             item.getAmmoForSlot secondaryammoptr 1;
-            BattleItem.getTag secondaryammoptr mod Tag.Mod;
+            BattleItem.getTag secondaryammoptr weaponmod Tag.Mod;
 
-            if gt mod 0;
-              mul mod 5;
+            if gt weaponmod 0;
+              mul weaponmod 5;
               if eq b 1;
-                mul mod 2;
+                mul weaponmod 2;
               end;
-              add sprite_index mod;
+              add sprite_index weaponmod;
             end;
 
             if or eq y 1 eq b 1;
@@ -900,26 +900,26 @@ extended:
      accuracyMultiplierBonusStats: #Weapon mod script
           - offset: 1
             code: |
-              var int mod;
+              var int weaponmod;
               var ptr BattleItem secondaryAmmo;
 
               weapon.getAmmoForSlot secondaryAmmo 1;
-              BattleItem.getTag secondaryAmmo mod Tag.Mod;
-              if eq mod 1; 
+              BattleItem.getTag secondaryAmmo weaponmod Tag.Mod;
+              if eq weaponmod 1; 
                   if eq battle_action BA_AIMEDSHOT;
                     add bonus 15;
                   else;
                     sub bonus 10;
                   end;
               end;
-              if eq mod 2; 
+              if eq weaponmod 2; 
                   if eq battle_action BA_SNAPSHOT;
                     add bonus 15;
                   else;
                     sub bonus 10;
                   end;
               end;
-              if eq mod 3; 
+              if eq weaponmod 3; 
                   if eq battle_action BA_AUTOSHOT;
                     add bonus 15;
                   else;
