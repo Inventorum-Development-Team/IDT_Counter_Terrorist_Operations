@@ -129,7 +129,7 @@ units:
     stats:
       tu: 0
       stamina: 0
-      health: 9999
+      health: 9999 #Script causes death+explosion if >30 damage taken
       bravery: 900
       reactions: 0
       firing: 0

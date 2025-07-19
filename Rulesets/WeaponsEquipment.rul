@@ -7907,6 +7907,7 @@ items:
     medikitType: 1
     tuUse: 40
     medikitActionName: STR_USE_FIELD_DRESSING
+    ai: { useDelay: 0}
     listOrder: 313000
 
   - type: STR_MEDKIT
