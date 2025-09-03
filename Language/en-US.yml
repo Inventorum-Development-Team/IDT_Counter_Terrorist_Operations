@@ -206,6 +206,7 @@ en-US:
   STR_NV_UFOPAEDIA: "Night vision equipment offers our troops an advantage against opponents during the night, granting them the ability to see twice the distance they would see without them in darkness."
   STR_ADVNV_UFOPAEDIA: "Advanced night vision improves the distance our troops can see during the night, while having built in thermal imaging that can help see trough smoke and spot units wearing camouflage."
   STR_HEAVY_UFOPAEDIA: "Heavy tactical armor offer even more protection than conventional vests, with a greater trade-off of mobility lost."
+  STR_EOD_UFOPAEDIA: "EOD Suits are designed to minimize damage from explosions. While not typically built to protect against firearms, we have modified ours to include ballistic plates for protection on par with our kevlar vests. While ill suited to urban warfare due to its bulk, it’s our only option for protection against explosives and is extremely effective at what it does."
 
   STR_SHOUTING: "Shouting"
   STR_SHOUT_UFOPAEDIA: "Our soldiers are capable of shouting orders at civilians or enemy units. When targeting civilians the soldier will order the civilian to get on the ground, and if successful the civilian will be stunned. If used on enemy units, their morale will be reduced. The effectiveness is determined by how outnumbered the enemy unit is. A unit cannot be successfully shouted at more than once per turn."
@@ -564,6 +565,7 @@ en-US:
   STR_RIOT_GEAR: "Riot Gear"
   STR_ADV_NIGHTVISION: "Advanced Night-Vision"
   STR_HEAVY_VEST_ACQUISITION: "Heavy Vests"
+  STR_EOD_ACQUISITION: "EOD Suit"
   STR_SHOTGUN_ACQUISITION: "Shotgun Acquisition"
   STR_SMG_ACQUISITION: "SMG Acquisition" 
   STR_BREACHING_TOOL_ACQUISITION: "Breaching Tool Acquisition" 
@@ -723,6 +725,7 @@ en-US:
   STR_HEAVY: "Heavy Armor"
   STR_HEAVY_NV: "Heavy Armor (NV)"
   STR_HEAVY_ADVNV: "Heavy Armor (Adv. NV)"
+  STR_EOD: "EOD Suit"
 
   STR_CORPSE: Corpse
 

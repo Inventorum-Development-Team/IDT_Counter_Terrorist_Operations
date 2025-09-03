@@ -754,6 +754,12 @@ research:
      - STR_MILITARY_EQUIPMENT_ACQUISITION
      - STR_ARMORED_VEST_ACQUISITION
 
+  - name: STR_EOD_ACQUISITION
+    cost: 50
+    dependencies:
+     - STR_MILITARY_EQUIPMENT_ACQUISITION
+     - STR_ARMORED_VEST_ACQUISITION
+
   - name: STR_NIGHT_VISION
     cost: 50
     dependencies:

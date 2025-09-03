@@ -117,6 +117,7 @@ armors:
     underArmor: 4
     loftempsSet: [ 3 ]
 
+
   # NO ARMOR #
   - type: STR_DEFAULT
     spriteSheet: UNIFORM_SPRITESHEET.PCK
@@ -1099,6 +1100,12 @@ items:
   - type: STR_HEAVY_ADVNV
     size: 1
     listOrder: 319022
+  - type: STR_EOD
+    size: 1
+    costBuy: 40000
+    requiresBuy:
+      - STR_EOD_ACQUISITION
+    listOrder: 319030
 
   - type: STR_CORPSE_DEFAULT
     name: STR_CORPSE

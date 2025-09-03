@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.9">
   <diagram name="Page-1" id="WVX51mQkE81sazq5Rgr0">
-    <mxGraphModel dx="2906" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,7 +125,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="PvyWZ0gywVslsQFwSAhP-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_wyRR_9sv9Ona-ReKIE4-1" source="_wyRR_9sv9Ona-ReKIE4-24" target="PvyWZ0gywVslsQFwSAhP-254">
+        <mxCell id="PvyWZ0gywVslsQFwSAhP-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_wyRR_9sv9Ona-ReKIE4-1" source="_wyRR_9sv9Ona-ReKIE4-24" target="PvyWZ0gywVslsQFwSAhP-254" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Sniper Rifle Aquisition" lucidchartObjectId="wFZdonkYxjsh" id="_wyRR_9sv9Ona-ReKIE4-24">
@@ -263,6 +263,14 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <mxCell id="QIT9bpdz99M9Jd82KJZ--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_wyRR_9sv9Ona-ReKIE4-1" source="_wyRR_9sv9Ona-ReKIE4-46" target="QIT9bpdz99M9Jd82KJZ--6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="1750" />
+              <mxPoint x="635" y="1750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <UserObject label="Armored Vest Aquisition" lucidchartObjectId="TSZdAv5Nu1_F" id="_wyRR_9sv9Ona-ReKIE4-46">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=0;arcSize=50;whiteSpace=wrap;fontSize=13;fontColor=#333333;align=center;spacing=9;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;fillColor=#ffffff;strokeWidth=0.8;" parent="_wyRR_9sv9Ona-ReKIE4-1" vertex="1">
             <mxGeometry x="367.2279260780287" y="307.5" width="129.60985626283366" height="91.11111111111111" as="geometry" />
@@ -590,8 +598,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PvyWZ0gywVslsQFwSAhP-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_wyRR_9sv9Ona-ReKIE4-1" source="_wyRR_9sv9Ona-ReKIE4-86" target="PvyWZ0gywVslsQFwSAhP-256">
+        <mxCell id="PvyWZ0gywVslsQFwSAhP-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_wyRR_9sv9Ona-ReKIE4-1" source="_wyRR_9sv9Ona-ReKIE4-86" target="PvyWZ0gywVslsQFwSAhP-256" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIT9bpdz99M9Jd82KJZ--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_wyRR_9sv9Ona-ReKIE4-1" source="_wyRR_9sv9Ona-ReKIE4-86" target="QIT9bpdz99M9Jd82KJZ--6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2247" y="1680" />
+              <mxPoint x="635" y="1680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_wyRR_9sv9Ona-ReKIE4-86" value="Military Equipment Acquisition" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;strokeWidth=0.8;fontSize=13;fontColor=#333333;" parent="_wyRR_9sv9Ona-ReKIE4-1" vertex="1">
           <mxGeometry x="2165.5646817248457" y="970.0022222222221" width="162.01232032854207" height="125.27777777777777" as="geometry" />
@@ -1266,16 +1282,19 @@
         <mxCell id="_wyRR_9sv9Ona-ReKIE4-255" value="Breaching Tool: C4" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#808080;" parent="_wyRR_9sv9Ona-ReKIE4-1" vertex="1">
           <mxGeometry x="-80.00000000000003" y="2039.9999999999998" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PvyWZ0gywVslsQFwSAhP-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_wyRR_9sv9Ona-ReKIE4-1" source="PvyWZ0gywVslsQFwSAhP-254" target="PvyWZ0gywVslsQFwSAhP-256">
+        <mxCell id="PvyWZ0gywVslsQFwSAhP-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_wyRR_9sv9Ona-ReKIE4-1" source="PvyWZ0gywVslsQFwSAhP-254" target="PvyWZ0gywVslsQFwSAhP-256" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Sniper Aquisition: Steyr Scout" lucidchartObjectId="~HZdCM5_0xa3" id="PvyWZ0gywVslsQFwSAhP-254">
-          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;;whiteSpace=wrap;fontSize=13;fontColor=#333333;align=center;spacing=9;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#ffffff;strokeWidth=0.8;" vertex="1" parent="_wyRR_9sv9Ona-ReKIE4-1">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;;whiteSpace=wrap;fontSize=13;fontColor=#333333;align=center;spacing=9;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#ffffff;strokeWidth=0.8;" parent="_wyRR_9sv9Ona-ReKIE4-1" vertex="1">
             <mxGeometry x="3229.22" y="480.04999999999995" width="129.60985626283366" height="102.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="PvyWZ0gywVslsQFwSAhP-256" value="&lt;div&gt;Military Sniper&lt;/div&gt;&lt;div&gt;Acquisition:&lt;/div&gt;&lt;div&gt;SSG 08&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="_wyRR_9sv9Ona-ReKIE4-1">
+        <mxCell id="PvyWZ0gywVslsQFwSAhP-256" value="&lt;div&gt;Military Sniper&lt;/div&gt;&lt;div&gt;Acquisition:&lt;/div&gt;&lt;div&gt;SSG 08&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="_wyRR_9sv9Ona-ReKIE4-1" vertex="1">
           <mxGeometry x="3229.22" y="1310" width="129.60985626283366" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QIT9bpdz99M9Jd82KJZ--6" value="EOD Suit" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="_wyRR_9sv9Ona-ReKIE4-1">
+          <mxGeometry x="570" y="1901.94" width="129.60985626283366" height="91.11111111111111" as="geometry" />
         </mxCell>
         <mxCell id="_wyRR_9sv9Ona-ReKIE4-239" value="&lt;div&gt;Connecting&lt;/div&gt;&lt;div&gt; Tech&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;strokeWidth=3;fontSize=13;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-1451.3963039014375" y="88.33333333333333" width="140.4106776180698" height="91.11111111111111" as="geometry" />

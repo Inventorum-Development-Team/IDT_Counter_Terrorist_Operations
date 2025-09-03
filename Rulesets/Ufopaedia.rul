@@ -1881,6 +1881,12 @@ ufopaedia:
     section: STR_ARMORS
     listOrder: 1214
 
+  - id: STR_EOD
+    type_id: 5
+    text: STR_EOD_UFOPAEDIA
+    section: STR_ARMORS
+    listOrder: 1215
+
   - id: STR_SHOUTING
     type_id: 8
     text: STR_SHOUT_UFOPAEDIA
