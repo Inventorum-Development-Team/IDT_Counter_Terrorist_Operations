@@ -11,7 +11,7 @@ crafts:
     repairRate: 4
     transferTime: 72
     score: 100
-    fuelMax: 650
+    fuelMax: 800
     damageMax: 50
     speedMax: 800
     accel: 5
@@ -49,7 +49,7 @@ crafts:
     repairRate: 4
     transferTime: 72
     score: 100
-    fuelMax: 650
+    fuelMax: 800
     damageMax: 50
     speedMax: 800
     accel: 5
@@ -92,7 +92,7 @@ crafts:
     repairRate: 4
     transferTime: 72
     score: 100
-    fuelMax: 650
+    fuelMax: 800
     damageMax: 50
     speedMax: 800
     accel: 5

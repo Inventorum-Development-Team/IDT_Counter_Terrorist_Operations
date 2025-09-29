@@ -1,0 +1,31 @@
+cutscenes:
+  - type: winGameDefault
+    winGame: true
+    slideshow:
+    #musicId:
+      slides:
+        - imagePath: Resources/Backgrounds/BACK02.png
+          caption: STR_VICTORY_DEFAULT_1
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 208
+        - imagePath: Resources/Backgrounds/BACK02.png
+          caption: STR_VICTORY_DEFAULT_2
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 208
+        - imagePath: Resources/Backgrounds/BACK02.png
+          caption: STR_VICTORY_DEFAULT_3
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 208
+        - imagePath: Resources/Backgrounds/BACK02.png
+          caption: STR_VICTORY_DEFAULT_4
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 208
+        - imagePath: Resources/Backgrounds/BACK02.png
+          caption: STR_VICTORY_DEFAULT_5
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 208

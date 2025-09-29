@@ -1655,7 +1655,7 @@ alienDeployments:
     markerName: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
-    winCutscene: winGame
+    winCutscene: winGameDefault
     loseCutscene: loseGame
     abortCutscene: loseGame
     data:
@@ -1709,7 +1709,7 @@ alienDeployments:
     markerName: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
-    winCutscene: winGame
+    winCutscene: winGameDefault
     loseCutscene: loseGame
     abortCutscene: loseGame
     data:
@@ -1763,7 +1763,7 @@ alienDeployments:
     markerName: STR_SKYSCRAPER_RAID
     briefing:
      desc: STR_SKYSCRAPER_RAID_BRIEFING
-    winCutscene: winGame
+    winCutscene: winGameDefault
     loseCutscene: loseGame
     abortCutscene: loseGame
     data:

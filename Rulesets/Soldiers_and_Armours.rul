@@ -1011,7 +1011,7 @@ armors:
   - type: STR_EOD
     spriteSheet: EOD_SPRITESHEET.PCK
     spriteInv: EOD.SPK
-    storeItem: STR_NONE
+    storeItem: STR_EOD
     corpseBattle:
       - STR_CORPSE_EOD
     loftempsSet: [ 3 ]
