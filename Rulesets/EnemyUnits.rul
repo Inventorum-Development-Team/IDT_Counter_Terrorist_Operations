@@ -170,7 +170,6 @@ items:
     invWidth: 1
     invHeight: 1
     battleType: 4
-    categories: [ STR_EXPLOSIVES ]
     size: 0.3
     weight: 3
     bigSprite: 2556
@@ -241,77 +240,92 @@ items:
     liveAlien: true
     costSell: 100000
     recoveryPoints: 60
+    listOrder: 500000
     size: 0
   - type: STR_TERRORIST_LEADER
     liveAlien: true
     costSell: 70000
     recoveryPoints: 50
+    listOrder: 500001
     size: 0
   - type: STR_TERRORIST_SAW
     liveAlien: true
     costSell: 35000
     recoveryPoints: 35
+    listOrder: 500002
     size: 0
   - type: STR_TERRORIST_RIFLEMAN
     liveAlien: true
     costSell: 25000
     recoveryPoints: 30
+    listOrder: 500003
     size: 0
   - type: STR_TERRORIST_RAIDER
     liveAlien: true
     costSell: 25000
     recoveryPoints: 30
+    listOrder: 500004
     size: 0
   - type: STR_TERRORIST_GRUNT
     liveAlien: true
     costSell: 15000
     recoveryPoints: 20
+    listOrder: 500005
     size: 0
   - type: STR_TERRORIST_GRENADIER
     liveAlien: true
     costSell: 40000
     recoveryPoints: 40
+    listOrder: 500006
     size: 0
   - type: STR_TERRORIST_SNIPER
     liveAlien: true
     costSell: 40000
     recoveryPoints: 40
+    listOrder: 500007
     size: 0
 
   - type: STR_PR_LEADER
     liveAlien: true
     costSell: 80000
     recoveryPoints: 60
+    listOrder: 500010
     size: 0
   - type: STR_PR_SHIELD
     liveAlien: true
     costSell: 30000
     recoveryPoints: 40
+    listOrder: 500011
     size: 0
   - type: STR_PR_RIFLEMAN
     liveAlien: true
     costSell: 30000
     recoveryPoints: 40
+    listOrder: 500012
     size: 0
   - type: STR_PR_HEAVY
     liveAlien: true
     costSell: 30000
     recoveryPoints: 40
+    listOrder: 500013
     size: 0
   - type: STR_PR_GRUNT
     liveAlien: true
     costSell: 25000
     recoveryPoints: 40
+    listOrder: 500014
     size: 0
   - type: STR_PR_SAW
     liveAlien: true
     costSell: 30000
     recoveryPoints: 40
+    listOrder: 500015
     size: 0
   - type: STR_PR_SNIPER
     liveAlien: true
     costSell: 30000
     recoveryPoints: 40
+    listOrder: 500016
     size: 0
 
 armors:

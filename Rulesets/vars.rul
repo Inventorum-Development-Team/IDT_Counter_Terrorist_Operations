@@ -19,6 +19,7 @@ oneHandedPenaltyGlobal: 50
 statisticalBulletConservation: true
 tuRecoveryWakeUpNewTurn: 50
 newBaseUnlockResearch: STR_UNOBTAINABLE
+extraNerdyPediaInfoType: 2
 
 difficultyDemigod: true
 difficultyCoefficient: [3,3,3,3,3]

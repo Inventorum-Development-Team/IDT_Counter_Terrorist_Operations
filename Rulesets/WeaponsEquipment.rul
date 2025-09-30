@@ -47,6 +47,8 @@
 # 29 VOG-25 (40mm Caseless)
 # 30 Balistic knife
 # 31 Other
+# ..
+# 50 Live Enemies
 
 items:
   - &STR_RIFLE_MELEE
@@ -908,7 +910,7 @@ items:
     clipSize: 30
     listOrder: 29002
     loadOrder: 10
-  - type: STR_9MM_PARABELLUM_X10
+  - type: STR_9MM_PARABELLUM_X15
     categories: [ STR_CLIPS, STR_SMGS, STR_PISTOLS ]
     refNode: *STR_9MM_PISTOL_AMMO
     bigSprite: 224
@@ -919,7 +921,7 @@ items:
     costBuy: 150
     costSell: 75
     weight: 1
-    clipSize: 10
+    clipSize: 15
     listOrder: 39000
     loadOrder: 40
   - type: STR_9MM_PARABELLUM_X20
@@ -2223,7 +2225,7 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20 ]
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X15, STR_9MM_PARABELLUM_X20 ]
         tuLoad: 20
         tuUnload: 10
     listOrder: 30000 #030000
@@ -2264,7 +2266,7 @@ items:
       0:
         compatibleAmmo:
           [
-            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X15,
             STR_9MM_PARABELLUM_X20,
             STR_9MM_PARABELLUM_X30
           ]
@@ -2307,7 +2309,7 @@ items:
       0:
         compatibleAmmo:
           [
-            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X15,
             STR_9MM_PARABELLUM_X20,
             STR_9MM_PARABELLUM_X30
           ]
@@ -2351,7 +2353,7 @@ items:
       0:
         compatibleAmmo:
           [
-            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X15,
             STR_9MM_PARABELLUM_X20,
             STR_9MM_PARABELLUM_X30
           ]
@@ -2775,7 +2777,7 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_PARABELLUM_X10, STR_9MM_PARABELLUM_X20 ]
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X15, STR_9MM_PARABELLUM_X20 ]
         tuLoad: 20
         tuUnload: 10
     listOrder: 30030
@@ -2812,7 +2814,7 @@ items:
     invHeight: 2
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_PARABELLUM_X10 ]
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X15 ]
         tuLoad: 20
         tuUnload: 10
     listOrder: 30040
@@ -2852,7 +2854,7 @@ items:
       0:
         compatibleAmmo:
           [
-            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X15,
             STR_9MM_PARABELLUM_X20,
             STR_9MM_PARABELLUM_X30,
             STR_9MM_PARABELLUM_X40
@@ -2896,7 +2898,7 @@ items:
       0:
         compatibleAmmo:
           [
-            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X15,
             STR_9MM_PARABELLUM_X20,
             STR_9MM_PARABELLUM_X30,
             STR_9MM_PARABELLUM_X40
@@ -2941,7 +2943,7 @@ items:
       0:
         compatibleAmmo:
           [
-            STR_9MM_PARABELLUM_X10,
+            STR_9MM_PARABELLUM_X15,
             STR_9MM_PARABELLUM_X20,
             STR_9MM_PARABELLUM_X30
           ]
@@ -3223,7 +3225,7 @@ items:
     invHeight: 3
     ammo:
       0:
-        compatibleAmmo: [ STR_9MM_PARABELLUM_X30 ]
+        compatibleAmmo: [ STR_9MM_PARABELLUM_X15, STR_9MM_PARABELLUM_X20, STR_9MM_PARABELLUM_X30 ]
         tuLoad: 30
         tuUnload: 15
     listOrder: 31040
@@ -3315,7 +3317,7 @@ items:
       0:
         compatibleAmmo:
           [
-            # STR_9MM_PARABELLUM_X10,
+            # STR_9MM_PARABELLUM_X15,
             # STR_9MM_PARABELLUM_X20,
             STR_9MM_PARABELLUM_X30,
             STR_9MM_PARABELLUM_X40
@@ -7639,7 +7641,7 @@ items:
     kneelBonus: 150
     tuAimed: 85
     tuSnap: 65
-    invWidth: 2
+    invWidth: 1
     invHeight: 3
     attraction: 13
     ammo:
@@ -8369,7 +8371,7 @@ extraSprites:
       2240: Resources/BallisticWeapons/Rifles/BigFNFAL.png
       2248: Resources/BallisticWeapons/LMGs/BigM60nomag.png
       2256: Resources/BallisticWeapons/LMGs/BigM60.png
-      2500: Resources/SoldiersAndArmors/RiotArmor/BigRiotShield.png
+      2500: Resources/BallisticWeapons/Equipment/BigRiotShield.png
       2508: Resources/BallisticWeapons/Equipment/BigHandcuffs.png
       2516: Resources/BallisticWeapons/Equipment/BigFieldDressing.png
       2524: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
@@ -8553,8 +8555,8 @@ extraSprites:
       4528: Resources/BallisticWeapons/SMGs/BigP90_SOPMODnomag.png
       4536: Resources/BallisticWeapons/SMGs/BigP90_SOPMOD.png
       4544: Resources/BallisticWeapons/SMGs/BigVityaznomag.png
-      #4552
-      #4560
+      4552: Resources/BallisticWeapons/SMGs/BigVityaz10.png
+      4560: Resources/BallisticWeapons/SMGs/BigVityaz20.png
       4568: Resources/BallisticWeapons/SMGs/BigVityaz.png
       4576: Resources/BallisticWeapons/Rifles/BigRK62nomag.png
       4584: Resources/BallisticWeapons/Rifles/BigRK62.png
@@ -8930,7 +8932,7 @@ extraSprites:
       2240: Resources/BallisticWeapons/Rifles/FloorFNFAL.png
       2248: Resources/BallisticWeapons/LMGs/FloorM60.png
       2256: Resources/BallisticWeapons/LMGs/FloorM60.png
-      2500: Resources/SoldiersAndArmors/RiotArmor/FloorRiotShield.png
+      2500: Resources/BallisticWeapons/Equipment/FloorRiotShield.png
       2508: Resources/BallisticWeapons/Equipment/FloorHandcuffs.png
       2516: Resources/BallisticWeapons/Equipment/FloorFieldDressing.png
       2524: Resources/BallisticWeapons/Explosives/FloorFlashbangGrenade.png
@@ -9103,6 +9105,8 @@ extraSprites:
       4528: Resources/BallisticWeapons/SMGs/FloorP90.png
       4536: Resources/BallisticWeapons/SMGs/FloorP90.png
       4544: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      4552: Resources/BallisticWeapons/SMGs/FloorVityaz.png
+      4560: Resources/BallisticWeapons/SMGs/FloorVityaz.png
       4568: Resources/BallisticWeapons/SMGs/FloorVityaz.png
       4576: Resources/BallisticWeapons/Rifles/FloorRK62.png
       4584: Resources/BallisticWeapons/Rifles/FloorRK62.png
@@ -9483,7 +9487,7 @@ extraSprites:
       2240: Resources/BallisticWeapons/Rifles/HandFNFAL.png
       2248: Resources/BallisticWeapons/LMGs/HandM60.png
       2256: Resources/BallisticWeapons/LMGs/HandM60.png
-      2500: Resources/SoldiersAndArmors/RiotArmor/HandRiotShield.png
+      2500: Resources/BallisticWeapons/Equipment/HandRiotShield.png
       2508: Resources/BallisticWeapons/Equipment/HandHandcuffs.png
       2516: Resources/BallisticWeapons/Equipment/HandFieldDressing.png
       2524: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
@@ -9656,6 +9660,8 @@ extraSprites:
       4528: Resources/BallisticWeapons/SMGs/HandP90.png
       4536: Resources/BallisticWeapons/SMGs/HandP90.png
       4544: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      4552: Resources/BallisticWeapons/SMGs/HandVityaz.png
+      4560: Resources/BallisticWeapons/SMGs/HandVityaz.png
       4568: Resources/BallisticWeapons/SMGs/HandVityaz.png
       4576: Resources/BallisticWeapons/Rifles/HandRK62.png
       4584: Resources/BallisticWeapons/Rifles/HandRK62.png

@@ -41,8 +41,10 @@ items:
     costBuy: 300
     costSell: 200
     medikitActionName: STR_USE_CUFFS
-    medikitTargetMatrix: 32
+    medikitTargetMatrix: 48
+    medikitType: 2
     stimulant: 1
+    isConsumable: true
     listOrder: 311020
     tags:
       Cuffs: 1
@@ -57,7 +59,7 @@ items:
   - type: STR_9MM_MAKAROV_X30 #ignoreDuplicate
     tags:
      AmmoNo: 3
-  - type: STR_9MM_PARABELLUM_X10 #ignoreDuplicate
+  - type: STR_9MM_PARABELLUM_X15 #ignoreDuplicate
     tags:
      AmmoNo: 1
   - type: STR_9MM_PARABELLUM_X20 #ignoreDuplicate

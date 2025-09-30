@@ -17,8 +17,17 @@ Put Date here-2025 V1.2 Arsenal
 *PMC SAW units now have their own sprites and have kevlar w/ riot plates armor.
 *Enemy Units have ranks
 *Modified enemy weapon sets again.
+*Enemy Item level starts slightly lower
 *FMG9 Weight reduced to 17.
 *AK-74 & AKs-74u more accurate, AKM less accurate.
+*9mm Parabellum (10x) is now 9mm Parabellum (15x)
+*Renamed "Heavy Weapons" item catagory to "Launchers"
+*M3 acquisition now says Benelli M3
+*Changed Remington 870 hand sprite
+*Improved Ballistic Shield hand sprite
+*Vityaz can now use 15x and 20x mags
+*Handcuffs are single use, and can be used on downed enemies
+
 
 -Bug fixes:
 *Negev & M60E6 now gives relevant ammo.
@@ -28,10 +37,13 @@ Put Date here-2025 V1.2 Arsenal
 *C4 ufopaedia entry added to launguage file.
 *Fixed Tavor95x floor sprite pallet.
 *Removed unused items to clean up wiki.
-*Renamed AKs-74u (SOPMOD) to AKs-74u (TACMOD) as it dosen't use SOPMOD parts.
+*Renamed AKs-74u (SOPMOD) to AKS-74U (TACMOD) as it dosen't use SOPMOD parts.
+*Renamed AKs-7u to AKS-74U
 *Scar-L sell price matches the ratio of other weapons now.
 *Status effect flashes now continue to play after being hit.
-*Renamed "Heavy Weapons" item catagory to "Launchers"
+*Fixed Spelling mistakes
+*Enemies now properly sorted in list
+
 
 New weapons
 > Rifles
