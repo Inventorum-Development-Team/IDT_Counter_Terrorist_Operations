@@ -116,6 +116,26 @@ armors:
     rearArmor: 40
     underArmor: 4
     loftempsSet: [ 3 ]
+  - &STR_EOD_SUIT
+    type: STR_EOD_SUIT
+    corpseBattle:
+      - STR_CORPSE_DEFAULT
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 10
+    underArmor: 20
+    damageModifier:
+       - 1.0
+       - 1.0
+       - 1.0
+       - 0.05
+       - 1.0
+       - 1.0
+       - 0
+       - 1.0
+       - 0
+       - 0
+    loftempsSet: [ 3 ]
 
 
   # NO ARMOR #
@@ -1015,10 +1035,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_EOD
     loftempsSet: [ 3 ]
-    frontArmor: 30
-    sideArmor: 25
-    rearArmor: 30
-    underArmor: 20
+    refNode: *STR_EOD_SUIT
     spriteFaceGroup: 6
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
@@ -1027,22 +1044,68 @@ armors:
     visibilityAtDark: 5
     personalLight: 0
     stats:
-      strength: -20
-      stamina: -30
-      firing: -40
-      tu: -20
-      bravery: 10
-    damageModifier:
-       - 1.0
-       - 1.0
-       - 1.0
-       - 0.05
-       - 1.0
-       - 1.0
-       - 0
-       - 1.0
-       - 0
-       - 0
+      strength: -15
+      stamina: -25
+      firing: -10
+      tu: -10
+      bravery: 20
+    builtInWeapons:
+       - STR_NO_BACKPACK
+    units:
+       - STR_OPERATOR
+       - STR_OPERATOR_HIGHDIF
+  
+  - type: STR_EOD_NV
+    spriteSheet: EOD_SPRITESHEET.PCK
+    spriteInv: EOD.SPK
+    storeItem: STR_EOD_NV
+    corpseBattle:
+      - STR_CORPSE_EOD
+    loftempsSet: [ 3 ]
+    refNode: *STR_EOD_SUIT
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDay: 26
+    visibilityAtDark: 18
+    personalLight: 0
+    stats:
+      strength: -15
+      stamina: -25
+      firing: -10
+      tu: -10
+      bravery: 20
+    builtInWeapons:
+       - STR_NO_BACKPACK
+    units:
+       - STR_OPERATOR
+       - STR_OPERATOR_HIGHDIF
+  
+  - type: STR_EOD_ADVNV
+    spriteSheet: EOD_SPRITESHEET.PCK
+    spriteInv: EOD.SPK
+    storeItem: STR_EOD_ADVNV
+    corpseBattle:
+      - STR_CORPSE_EOD
+    loftempsSet: [ 3 ]
+    refNode: *STR_EOD_SUIT
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    visibilityAtDay: 26
+    visibilityAtDark: 25
+    heatVision: 100
+    antiCamouflageAtDark: 25
+    antiCamouflageAtDay: 30
+    personalLight: 0
+    stats:
+      strength: -15
+      stamina: -25
+      firing: -10
+      tu: -10
+      bravery: 20
     builtInWeapons:
        - STR_NO_BACKPACK
     units:
@@ -1106,6 +1169,12 @@ items:
     requiresBuy:
       - STR_EOD_ACQUISITION
     listOrder: 319030
+  - type: STR_EOD_NV
+    size: 1
+    listOrder: 319031
+  - type: STR_EOD_ADVNV
+    size: 1
+    listOrder: 319032
 
   - type: STR_CORPSE_DEFAULT
     name: STR_CORPSE

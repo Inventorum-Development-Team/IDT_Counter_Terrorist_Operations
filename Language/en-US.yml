@@ -499,6 +499,23 @@ en-US:
 
   STR_CRAFT_: "DEPLOYMENT> {ALT}{0}"
 
+  STR_ALIEN_KILLS: "Enemies killed"
+  STR_ALIEN_CAPTURES: "Enemies arrested"
+  STR_ALIEN_MOST_KILLS: "Deadliest enemies"
+
+  STR_RACE_TYPE: "TYPE> {ALT}{0}"
+  STR_NEUTRALIZATIONS_BY_RACE: "NEUTRALIZATIONS BY TYPE"
+  STR_MISSIONS_BY_UFO: " "
+  STR_MINDCONTROLS: " "
+
+  STR_XCOM_PROJECT_MONTHLY_REPORT: "TASK FORCE MONTHLY REPORT"
+  STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the localised threat and has agreed to increase its funding."
+  STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local terrorist activity and have agreed to increase their funding."
+  STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} is unhappy with your ability to deal with terrorist activity in its territory and has decided to reduce its financial commitment."
+  STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} are unhappy with your ability to deal with terrorist activity in their territory and have decided to reduce their funding."
+  STR_COUNCIL_IS_DISSATISFIED: "The council of funding nations is dissatisfied with your performance. You must improve your effectiveness in dealing with the recent terrorist attacks or risk termination of the project."
+  STR_YOU_HAVE_NOT_SUCCEEDED: "You have not succeeded in dealing with the ongoing terrorist attacks and the council of funding nations has regrettably decided to terminate your task force. Each nation shall deal with the problem as they see fit."
+
   #facilities.rul
   STR_HANGAR: "Garage"
   STR_ALIEN_CONTAINMENT: "Prison Cells"
@@ -563,6 +580,8 @@ en-US:
   STR_DEFAULT_KEVLAR_BACKPACK_ADVNV_REMOVAL: "(Kevlar, ADVNV, BP): Remove Backpack"
   STR_HEAVY_NV_REMOVAL: "(Heavy Armor, NV): Remove Night Vision"
   STR_HEAVY_ADVNV_REMOVAL: "(Heavy Armor, ADVNV): Remove Adv. Night Vision"
+  STR_EOD_NV_REMOVAL: "(EOD, NV): Remove Night Vision"
+  STR_EOD_ADVNV_REMOVAL: "(EOD, ADVNV): Remove Adv. Night Vision"
 
   #rank.rul
   STR_RANK_0: "Private"
@@ -743,6 +762,8 @@ en-US:
   STR_HEAVY_NV: "Heavy Armor (NV)"
   STR_HEAVY_ADVNV: "Heavy Armor (Adv. NV)"
   STR_EOD: "EOD Suit"
+  STR_EOD_NV: "EOD Suit (NV)"
+  STR_EOD_ADVNV: "EOD Suit (Adv. NV)"
 
   STR_CORPSE: Corpse
 

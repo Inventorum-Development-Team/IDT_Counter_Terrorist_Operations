@@ -1243,7 +1243,7 @@ research:
     cost: 60
     dependencies:
      - STR_MEDIUM_TRANSPORT
-     - STR_HIDEOUT_RAIDS
+     - STR_SKYSCRAPER_RAID
 
   - name: STR_HIDEOUT_EVIDENCE
     cost: 50
