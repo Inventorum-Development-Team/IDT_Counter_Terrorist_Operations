@@ -24,6 +24,9 @@ extraNerdyPediaInfoType: 2
 difficultyDemigod: true
 difficultyCoefficient: [3,3,3,3,3]
 aimAndArmorMultipliers: [1.0,1.0,1.0,1.0,1.0]
+buyPriceCoefficient: [75, 100, 100, 150, 200]
+difficultyCoefficientOverrides:
+  monthlyRatingThresholds: [-500, -400, -300, -200, -100]
 statGrowthMultipliers:
       tu: 0
       stamina: 0

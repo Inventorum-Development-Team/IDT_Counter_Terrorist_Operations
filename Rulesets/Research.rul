@@ -520,7 +520,7 @@ research:
     getOneFree:
      - STR_12G_DRUM_AMMO
 
-  #LMG acquisitionsv
+  #LMG acquisitions
 
   - name: STR_LMG_ACQUISITION
     cost: 100

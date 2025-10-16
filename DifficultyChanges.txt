@@ -1,0 +1,25 @@
+Will be moved to ufopaedia at some point
+
+Enemy stats and AI are unchanged per difficulty
+Enemy count scales with difficulty
+
+Beginner:
+75% item buy price
+-500 minimum score before fail
+
+Experienced+:
+100% item buy price
+-400 minimum score
+
+Veteran+:
+-300 minimum score
+
+Genius+:
+Doubled operator costs & salaries
+150% item buy price
+-200 minimum score
+
+Superhuman:
+200% item buy price
+-100 minimum score
+

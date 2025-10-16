@@ -216,6 +216,7 @@ alienDeployments:
     despawnPenalty: 400
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_PLANE
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
     alert: STR_PLANE_HIJACKING
@@ -273,6 +274,7 @@ alienDeployments:
     despawnPenalty: 400
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_PLANE
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
     alert: STR_PLANE_HIJACKING
@@ -330,6 +332,7 @@ alienDeployments:
     despawnPenalty: 400
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_PLANE
     keepCraftAfterFailedMission: true
     startingCondition: STR_NO_LARGE
     alert: STR_PLANE_HIJACKING
@@ -564,6 +567,7 @@ alienDeployments:
     despawnPenalty: 700
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_NORMAL
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
     markerName: STR_MAJOR_ATTACK
@@ -625,6 +629,7 @@ alienDeployments:
     despawnPenalty: 700
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_NORMAL
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
     markerName: STR_MAJOR_ATTACK
@@ -684,6 +689,7 @@ alienDeployments:
     despawnPenalty: 700
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_NORMAL
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
     markerName: STR_MAJOR_ATTACK
@@ -743,6 +749,7 @@ alienDeployments:
     despawnPenalty: 700
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_NORMAL
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
     markerName: STR_MAJOR_ATTACK
@@ -805,6 +812,7 @@ alienDeployments:
     despawnPenalty: 700
     abortPenalty: 400
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_NORMAL
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK
     markerName: STR_MAJOR_ATTACK
@@ -866,6 +874,7 @@ alienDeployments:
     abortPenalty: 400
     duration: [24,48]
     keepCraftAfterFailedMission: true
+    counterAll: VAR_MAJOR_ATTACK_NORMAL
     alert: STR_MAJOR_ATTACK
     markerName: STR_MAJOR_ATTACK
     customUfo: STR_TECHNICAL_GLOBAL_UFO_EMPTY
@@ -930,6 +939,7 @@ alienDeployments:
     missionFailedText: STR_DEBRIF_BOMB_DETONATED
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_BOMB
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK_BOMB
     markerName: STR_MAJOR_ATTACK_BOMB
@@ -999,6 +1009,7 @@ alienDeployments:
     missionFailedText: STR_DEBRIF_BOMB_DETONATED
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_BOMB
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK_BOMB
     markerName: STR_MAJOR_ATTACK_BOMB
@@ -1066,6 +1077,7 @@ alienDeployments:
     missionFailedText: STR_DEBRIF_BOMB_DETONATED
     missionCompleteText: STR_DEBRIF_BOMB_DEFUSED
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_BOMB
     keepCraftAfterFailedMission: true
     alert: STR_MAJOR_ATTACK_BOMB
     markerName: STR_MAJOR_ATTACK_BOMB
@@ -1123,6 +1135,7 @@ alienDeployments:
     despawnPenalty: 500
     abortPenalty: 500
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_HOSTAGE
     keepCraftAfterFailedMission: true
     markCiviliansAsVIP: true
     vipSurvivalPercentage: 4
@@ -1135,38 +1148,38 @@ alienDeployments:
      desc: STR_HOSTAGE_SITUATION_BRIEFING
     data:
        - alienRank: 7
-         lowQty: 0
-         highQty: 0
+         lowQty: 2
+         highQty: 4
          itemSets:
            - []
        - alienRank: 6
-         lowQty: 0
-         highQty: 0
+         lowQty: 1
+         highQty: 2
          itemSets:
            - []
        - alienRank: 5
          lowQty: 3
-         highQty: 5
+         highQty: 6
          itemSets:
            - []
        - alienRank: 4
          lowQty: 3
-         highQty: 5
+         highQty: 6
          itemSets:
            - []
        - alienRank: 3
-         lowQty: 3
-         highQty: 5
+         lowQty: 4
+         highQty: 7
          itemSets:
            - []
        - alienRank: 2
-         lowQty: 0
-         highQty: 0
+         lowQty: 2
+         highQty: 3
          itemSets:
            - []
        - alienRank: 1
-         lowQty: 0
-         highQty: 0
+         lowQty: 1
+         highQty: 1
          itemSets:
            - []
        - alienRank: 0
@@ -1182,6 +1195,7 @@ alienDeployments:
     despawnPenalty: 500
     abortPenalty: 500
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_HOSTAGE
     keepCraftAfterFailedMission: true
     markCiviliansAsVIP: true
     vipSurvivalPercentage: 4
@@ -1241,6 +1255,7 @@ alienDeployments:
     despawnPenalty: 500
     abortPenalty: 500
     duration: [24,48]
+    counterAll: VAR_MAJOR_ATTACK_HOSTAGE
     keepCraftAfterFailedMission: true
     markCiviliansAsVIP: true
     vipSurvivalPercentage: 4

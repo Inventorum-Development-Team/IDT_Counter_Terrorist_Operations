@@ -879,6 +879,7 @@ items:
     floorSprite: 200
     size: 0.1
     armor: 30
+    #costBuy: 100
     costSell: 50
     weight: 1
     clipSize: 10
@@ -892,6 +893,7 @@ items:
     floorSprite: 208
     size: 0.1
     armor: 30
+    #costBuy: 200
     costSell: 100
     weight: 2
     clipSize: 20
@@ -905,6 +907,7 @@ items:
     floorSprite: 216
     size: 0.1
     armor: 30
+    #costBuy: 400
     costSell: 200
     weight: 3
     clipSize: 30
@@ -1329,6 +1332,7 @@ items:
     floorSprite: 624
     size: 0.1
     armor: 30
+    #costBuy: 300
     costSell: 150
     invWidth: 1
     invHeight: 1
@@ -1343,6 +1347,7 @@ items:
     floorSprite: 608
     size: 0.1
     armor: 30
+    #costBuy: 300
     costSell: 150
     weight: 5
     clipSize: 10
@@ -1641,7 +1646,7 @@ items:
     floorSprite: 4856
     size: 0.1
     armor: 30
-    #costBuy: 2000
+    #costBuy: 200
     costSell: 100
     invWidth: 1
     invHeight: 1
@@ -1656,6 +1661,7 @@ items:
     floorSprite: 616
     size: 0.1
     armor: 30
+    #costBuy: 100
     costSell: 50
     weight: 1
     clipSize: 2
@@ -2002,6 +2008,7 @@ items:
     floorSprite: 592
     size: 0.1
     armor: 30
+    #costBuy: 4000
     costSell: 2000
     invHeight: 2
     weight: 18
@@ -2061,7 +2068,7 @@ items:
     floorSprite: 5464
     size: 0.1
     armor: 30
-    #costBuy: 300
+    #costBuy: 1800
     costSell: 900
     weight: 2
     invWidth: 2
@@ -8017,8 +8024,11 @@ items:
     power: 50
     hidePower: false
     damageType: 7
+    damageAlter:
+      ArmorEffectiveness: 0.5
+
     costMelee:
-      time: 20
+      time: 10
       energy: 10
     accuracyMelee: 110
     meleeMultiplier:

@@ -27,6 +27,7 @@ Put Date here-2025 V1.2 Arsenal
 *Improved Ballistic Shield hand sprite
 *Vityaz can now use 15x and 20x mags
 *Handcuffs are single use, and can be used on downed enemies
+*RPG 7 is now 1x3 tiles large
 
 
 -Bug fixes:

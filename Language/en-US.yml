@@ -11,6 +11,7 @@ en-US:
   STR_AMMO: "Ammunition"
   STR_EQUIPMENT: "Equipment"
   STR_MANUAL: "Field Manual"
+  STR_UFOPAEDIA_ENEMIES: "Enemy Units"
 
   STR_TASER_UFOPAEDIA: "The Taser is a non-lethal electric weapon meant to incapacitate targets without causing lasting injuries. It works by firing two darts attached to wires, which deliver an electric current that causes involuntary muscle contractions in the target. Due to relying on wires, the Tasers range is limited."
   STR_P226_UFOPAEDIA: "The SIG Sauer P226 is a service pistol used by militaries and police forces around the world. An Upgrade to the P220 model, with the main improvement consisting of the allowance of higher capacity magazines. Light and reliable, it serves as an excellent sidearm."
@@ -219,7 +220,6 @@ en-US:
   STR_LMG_ACCURACY: "LMG Movement Inaccuracy"
   STR_LMG_ACCURACY_UFOPAEDIA: "Light Machine Guns have reduced accuracy depending on the percent of missing stamina the unit has.\nFor most LMGs this is a -0.80% accuracy multiplier added per percent of missing stamina, however for some this will be different and will be listed in their Reports Folder article."
 
-
   STR_COALITION: "The Coalition"
   STR_TASK_FORCE: "Task Forces"
   STR_OBEJCTIVE: "The Objective"
@@ -244,6 +244,23 @@ en-US:
   STR_SKYSCRAPER_LEAD_1_UFOPAEDIA: "The evidence we recovered isn't enough to fully shut down the company we are after, however documents found in the offices have created a paper trail towards a possible location serving as a unofficial headquarters of their illegitimate operations. Our intelligence department has started to try and confirm the veracity of this lead."
   STR_SKYSCRAPER_LEAD_2_UFOPAEDIA: "Interrogations of arrested members of the private security firm point towards a location where an unusually large amount of employees are deployed. We suspect this location must be of great importance and therefore our intelligence officers have started to try and locate it."
   STR_SKYSCRAPER_RAID_UFOPAEDIA: "We've located what is believed to be the nerve center for the shell company behind this conspiracy, a office complex at the top of a skyscraper. Seizing it would not only serve significant blow to their operations but also provide a treasure trove of evidence. The operation will be the largest one we've undertaken, and will consist of two teams. One will be deployed on the roof while the other will approach from the bottom to cut of any escape."
+
+  STR_TERRORIST_COMMANDER_UFOPAEDIA: "ARMOR: Kevlar\n\n "
+  STR_TERRORIST_LEADER_UFOPAEDIA: "ARMOR: Kevlar\n\n "
+  STR_TERRORIST_SAW_UFOPAEDIA: "ARMOR: None\n\n "
+  STR_TERRORIST_RIFLEMAN_UFOPAEDIA: "ARMOR: None\n\n "
+  STR_TERRORIST_RAIDER_UFOPAEDIA: "ARMOR: Kevlar\n\n "
+  STR_TERRORIST_GRUNT_UFOPAEDIA: "ARMOR: None\n\n "
+  STR_TERRORIST_GRENADIER_UFOPAEDIA: "ARMOR: None\n\n "
+  STR_TERRORIST_SNIPER_UFOPAEDIA: "ARMOR: None\n\n "
+
+  STR_PR_LEADER_UFOPAEDIA: "ARMOR: Kevlar + NVGs\n\n "
+  STR_PR_SAW_UFOPAEDIA: "ARMOR: Kevlar + Riot Plates\n\n "
+  STR_PR_RIFLEMAN_UFOPAEDIA: "ARMOR: Kevlar\n\n "
+  STR_PR_SHIELD_UFOPAEDIA: "ARMOR: Heavy\n\n "
+  STR_PR_GRUNT_UFOPAEDIA: "ARMOR: Kevlar\n\n "
+  STR_PR_SNIPER_UFOPAEDIA: "ARMOR: Kevlar\n\n "
+  STR_PR_HEAVY_UFOPAEDIA: "ARMOR: Heavy\n\n "
 
   #Categories.rul
   STR_FIREARMS: Firearms

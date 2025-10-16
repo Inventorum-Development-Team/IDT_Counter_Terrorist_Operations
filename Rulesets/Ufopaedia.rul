@@ -1922,138 +1922,137 @@ ufopaedia:
     section: STR_MANUAL
     listOrder: 5
 
-#  - id: STR_TERRORIST_COMMANDER_ARMOR
-#    requires: 
-#      - STR_TERRORIST_COMMANDER
-#    title: STR_TERRORIST_COMMANDER
-#    type_id: 5
-#    text: STR_TERRORIST_COMMANDER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1000
-#  
-#  - id: STR_TERRORIST_LEADER_ARMOR
-#    requires: 
-#      - STR_TERRORIST_LEADER
-#    title: STR_TERRORIST_LEADER
-#    type_id: 5
-#    text: STR_TERRORIST_LEADER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1001
-#  
-#  - id: STR_TERRORIST_SAW_ARMOR
-#    requires: 
-#      - STR_TERRORIST_SAW
-#    title: STR_TERRORIST_SAW
-#    type_id: 5
-#    text: STR_TERRORIST_SAW_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1002
-#  
-#  - id: STR_TERRORIST_RIFLEMAN_ARMOR
-#    requires: 
-#      - STR_TERRORIST_RIFLEMAN
-#    title: STR_TERRORIST_RIFLEMAN
-#    type_id: 5
-#    text: STR_TERRORIST_RIFLEMAN_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1003
-#
-#  - id: STR_TERRORIST_RAIDER_ARMOR
-#    requires: 
-#      - STR_TERRORIST_RAIDER
-#    title: STR_TERRORIST_RAIDER
-#    type_id: 5
-#    text: STR_TERRORIST_RAIDER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1004
-#  
-#  - id: STR_TERRORIST_GRUNT_ARMOR
-#    requires: 
-#      - STR_TERRORIST_GRUNT
-#    title: STR_TERRORIST_GRUNT
-#    type_id: 5
-#    text: STR_TERRORIST_GRUNT_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1005
-#  
-#  - id: STR_TERRORIST_GRENADIER_ARMOR
-#    requires: 
-#      - STR_TERRORIST_GRENADIER
-#    title: STR_TERRORIST_GRENADIER
-#    type_id: 5
-#    text: STR_TERRORIST_GRENADIER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1006
-# 
-#  - id: STR_TERRORIST_SNIPER_ARMOR
-#    requires: 
-#      - STR_TERRORIST_SNIPER
-#    title: STR_TERRORIST_SNIPER
-#    type_id: 5
-#    text: STR_TERRORIST_SNIPER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1007
-#
-#  - id: STR_PR_LEADER_ARMOR
-#    requires: 
-#      - STR_PR_LEADER
-#    title: STR_PR_LEADER
-#    type_id: 5
-#    text: STR_PR_LEADER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1001
-#  
-#  - id: STR_PR_SAW_ARMOR
-#    requires: 
-#      - STR_PR_SAW
-#    title: STR_PR_SAW
-#    type_id: 5
-#    text: STR_PR_SAW_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1002
-#  
-#  - id: STR_PR_RIFLEMAN_ARMOR
-#    requires: 
-#      - STR_PR_RIFLEMAN
-#    title: STR_PR_RIFLEMAN
-#    type_id: 5
-#    text: STR_PR_RIFLEMAN_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1003
-#
-#  - id: STR_PR_RAIDER_ARMOR
-#    requires: 
-#      - STR_PR_RAIDER
-#    title: STR_PR_RAIDER
-#    type_id: 5
-#    text: STR_PR_RAIDER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1004
-#  
-#  - id: STR_PR_GRUNT_ARMOR
-#    requires: 
-#      - STR_PR_GRUNT
-#    title: STR_PR_GRUNT
-#    type_id: 5
-#    text: STR_PR_GRUNT_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1005
-#  
-#  - id: STR_PR_GRENADIER_ARMOR
-#    requires: 
-#      - STR_PR_GRENADIER
-#    title: STR_PR_GRENADIER
-#    type_id: 5
-#    text: STR_PR_GRENADIER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1006
-# 
-#  - id: STR_PR_SNIPER_ARMOR
-#    requires: 
-#      - STR_PR_SNIPER
-#    title: STR_PR_SNIPER
-#    type_id: 5
-#    text: STR_PR_SNIPER_UFOPAEDIA
-#    section: STR_UFOPAEDIA_ENEMIES
-#    listOrder: 1007
-#
+  - id: STR_TERRORIST_COMMANDER_ARMOR
+    requires: 
+      - STR_TERRORIST_COMMANDER
+    title: STR_TERRORIST_COMMANDER
+    type_id: 5
+    text: STR_TERRORIST_COMMANDER_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1000
+  
+  - id: STR_TERRORIST_LEADER_ARMOR
+    requires: 
+      - STR_TERRORIST_LEADER
+    title: STR_TERRORIST_LEADER
+    type_id: 5
+    text: STR_TERRORIST_LEADER_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1001
+  
+  - id: STR_TERRORIST_SAW_ARMOR
+    requires: 
+      - STR_TERRORIST_SAW
+    title: STR_TERRORIST_SAW
+    type_id: 5
+    text: STR_TERRORIST_SAW_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1002
+  
+  - id: STR_TERRORIST_RIFLEMAN_ARMOR
+    requires: 
+      - STR_TERRORIST_RIFLEMAN
+    title: STR_TERRORIST_RIFLEMAN
+    type_id: 5
+    text: STR_TERRORIST_RIFLEMAN_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1005
+
+  - id: STR_TERRORIST_RAIDER_ARMOR
+    requires: 
+      - STR_TERRORIST_RAIDER
+    title: STR_TERRORIST_RAIDER
+    type_id: 5
+    text: STR_TERRORIST_RAIDER_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1006
+  
+  - id: STR_TERRORIST_GRUNT_ARMOR
+    requires: 
+      - STR_TERRORIST_GRUNT
+    title: STR_TERRORIST_GRUNT
+    type_id: 5
+    text: STR_TERRORIST_GRUNT_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1007
+  
+  - id: STR_TERRORIST_GRENADIER_ARMOR
+    requires: 
+      - STR_TERRORIST_GRENADIER
+    title: STR_TERRORIST_GRENADIER
+    type_id: 5
+    text: STR_TERRORIST_GRENADIER_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1003
+ 
+  - id: STR_TERRORIST_SNIPER_ARMOR
+    requires: 
+      - STR_TERRORIST_SNIPER
+    title: STR_TERRORIST_SNIPER
+    type_id: 5
+    text: STR_TERRORIST_SNIPER_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1004
+
+  - id: STR_PR_LEADER_ARMOR
+    requires: 
+      - STR_PR_LEADER
+    title: STR_PR_LEADER
+    type_id: 5
+    text: STR_PR_LEADER_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1008
+  
+  - id: STR_PR_SAW_ARMOR
+    requires: 
+      - STR_PR_SAW
+    title: STR_PR_SAW
+    type_id: 5
+    text: STR_PR_SAW_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1009
+  
+  - id: STR_PR_RIFLEMAN_ARMOR
+    requires: 
+      - STR_PR_RIFLEMAN
+    title: STR_PR_RIFLEMAN
+    type_id: 5
+    text: STR_PR_RIFLEMAN_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1013
+
+  - id: STR_PR_SHIELD_ARMOR
+    requires: 
+      - STR_PR_SHIELD
+    title: STR_PR_SHIELD
+    type_id: 5
+    text: STR_PR_SHIELD_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1010
+  
+  - id: STR_PR_GRUNT_ARMOR
+    requires: 
+      - STR_PR_GRUNT
+    title: STR_PR_GRUNT
+    type_id: 5
+    text: STR_PR_GRUNT_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1014
+ 
+  - id: STR_PR_SNIPER_ARMOR
+    requires: 
+      - STR_PR_SNIPER
+    title: STR_PR_SNIPER
+    type_id: 5
+    text: STR_PR_SNIPER_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1011
+  
+  - id: STR_PR_HEAVY_ARMOR
+    requires: 
+      - STR_PR_GRUNT
+    title: STR_PR_GRUNT
+    type_id: 5
+    text: STR_PR_GRUNT_UFOPAEDIA
+    section: STR_UFOPAEDIA_ENEMIES
+    listOrder: 1012
