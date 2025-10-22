@@ -741,10 +741,10 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - EXPANDED_TERROR_OBJ
-      - RURAL_OBJ
-      - RAILYARD_OBJ
-      - DOWNTOWN_OBJ
+      - EXPANDED_TERROR_TEC
+      - RURAL_TEC
+      - RAILYARD_TEC
+      - DOWNTOWN_TEC
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -802,12 +802,12 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - EXPANDED_TERROR_OBJ
-      - SLUM_OBJ
-      - INDUSTRIALSLUM_OBJ
-      - ISLANDURBAN_OBJ
-      - INDUSTRIAL_OBJ
-      - AIRFIELD3_OBJ
+      - EXPANDED_TERROR_TEC
+      - SLUM_TEC
+      - INDUSTRIALSLUM_TEC
+      - ISLANDURBAN_TEC
+      - INDUSTRIAL_TEC
+      - AIRFIELD3_TEC
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400
@@ -865,10 +865,10 @@ alienDeployments:
     length: 60
     height: 10
     terrains:
-      - COMRCURBAN_OBJ
-      - APARTMENT_OBJ
-      - DAWNCITY_URBANA_OBJ
-      - DAWNCITY_URBANB_OBJ
+      - COMRCURBAN_TEC
+      - APARTMENT_TEC
+      - DAWNCITY_URBANA_TEC
+      - DAWNCITY_URBANB_TEC
     civilians: 20
     despawnPenalty: 700
     abortPenalty: 400

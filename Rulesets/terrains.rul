@@ -623,6 +623,29 @@ terrains:
     refNode: *DOWNTOWN
     script: DOWNTOWNURBAN_OBJ
 
+##########################
+# TEC (East EU)
+##########################
+# Map here use mapscripts that are modified for 6x6 maps, to avoid having a special tile, 
+# such as the technical, spawn next to the start location or on the edge.
+
+  - name: EXPANDED_TERROR_TEC
+    refNode: *EXPANDED_TERROR
+    script: EXPANDED_TERROR_TEC
+  
+  - name: RURAL_TEC
+    refNode: *RURAL
+    script: RURAL_TEC
+  
+  - name: RAILYARD_TEC
+    refNode: *RAILYARD
+    script: RAILYARDURBAN_TEC
+
+  - name: DOWNTOWN_TEC
+    refNode: *DOWNTOWN
+    script: DOWNTOWNURBAN_TEC
+
+
 ##################################################################################################################################
 # USA
 ##################################################################################################################################
@@ -1386,6 +1409,38 @@ terrains:
     refNode: *REFINERY
     script: REFINERYS_OBJ
 
+##########################
+# TEC (USA)
+##########################
+# Map here use mapscripts that are modified for 6x6 maps, to avoid having a special tile, 
+# such as the technical, spawn next to the start location or on the edge.
+
+
+  - name: INDUSTRIALSLUM_TEC
+    refNode: *INDUSTRIALSLUM
+    script: INDUSTRIALSLUM_TEC
+
+  - name: SLUM_TEC
+    refNode: *SLUM
+    script: SLUMURBAN_TEC
+
+  - name: ISLANDURBAN_TEC
+    refNode: *ISLANDURBAN
+    script: ISLANDURBAN_TEC
+
+  - name: INDUSTRIAL_TEC
+    refNode: *INDUSTRIAL
+    script: INDUSTRIALURBAN_TEC
+
+  - name: AIRFIELD3_TEC
+    refNode: *AIRFIELD1
+    script: AIRFIELD3_TEC
+
+  - name: REFINERY_TEC
+    refNode: *REFINERY
+    script: REFINERYS_TEC
+
+
 
 ##################################################################################################################################
 # WEST EU
@@ -2008,6 +2063,28 @@ terrains:
   - name: DAWNCITY_URBANB_OBJ
     refNode: *DAWNCITY_URBANB
     script: DAWNURBANB_OBJ
+
+##########################
+# TEC (West EU)
+##########################
+# Map here use mapscripts that are modified for 6x6 maps, to avoid having a special tile, 
+# such as the technical, spawn next to the start location or on the edge.
+
+  - name: COMRCURBAN_TEC
+    refNode: *COMRCURBAN
+    script: COMRCURBAN_TEC
+  
+  - name: APARTMENT_TEC
+    refNode: *APARTMENT
+    script: APARTMENT_TEC
+
+  - name: DAWNCITY_URBANA_TEC
+    refNode: *DAWNCITY_URBANA
+    script: DAWNURBANA_TEC
+
+  - name: DAWNCITY_URBANB_TEC
+    refNode: *DAWNCITY_URBANB
+    script: DAWNURBANB_TEC
 ##################################################################################################################################
 # OTHER
 ##################################################################################################################################

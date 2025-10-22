@@ -2070,7 +2070,7 @@ items:
     armor: 30
     #costBuy: 1800
     costSell: 900
-    weight: 2
+    weight: 12
     invWidth: 2
     invHeight: 2
     clipSize: 6
@@ -8094,7 +8094,7 @@ items:
     meleeType: 7
     meleePower: 50
     costMelee:
-      time: 20
+      time: 10
       energy: 10
     accuracyMelee: 110
     meleeMultiplier:
@@ -8103,6 +8103,8 @@ items:
     meleeSound: -1
     meleeMissSound: 39
     meleeHitSound: 353
+    meleeAlter:
+      ArmorEffectiveness: 0.5
     accuracyAimed: 70
     accuracySnap: 40
     tuAimed: 50
