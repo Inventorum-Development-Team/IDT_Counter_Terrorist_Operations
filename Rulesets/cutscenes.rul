@@ -4,16 +4,16 @@ cutscenes:
     slideshow:
     #musicId:
       slides:
-        - imagePath: Resources/Backgrounds/BACK02.png
+        - imagePath: Resources/Backgrounds/Ending/endcutscene_f1.png
           caption: STR_VICTORY_DEFAULT_1
           captionSize: [195, 56]
           captionPos: [5, 0]
-          captionColor: 208
-        - imagePath: Resources/Backgrounds/BACK02.png
+          captionColor: 244
+        - imagePath: Resources/Backgrounds/Ending/endcutscene_f2.png
           caption: STR_VICTORY_DEFAULT_2
           captionSize: [195, 56]
           captionPos: [5, 0]
-          captionColor: 208
+          captionColor: 244
         - imagePath: Resources/Backgrounds/BACK02.png
           caption: STR_VICTORY_DEFAULT_3
           captionSize: [195, 56]

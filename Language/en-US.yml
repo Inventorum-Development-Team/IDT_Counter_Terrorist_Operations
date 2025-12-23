@@ -1554,10 +1554,10 @@ en-US:
   STR_DEFUSE_CODE_UFOPAEDIA: "TU Cost: 20%\n\nA sheet of paper with instructions for disarming a bomb. High ranking terrorists are likely to carry one on them. If you don't have a defuse kit, finding one of these is your 2nd best option."
 
   #End Cutscene
-  STR_VICTORY_DEFAULT_1: "Good job, you did it! cutscene isn't finished unfortunatly as I dont have access to the stuff I made for it right now"
-  STR_VICTORY_DEFAULT_2: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
-  STR_VICTORY_DEFAULT_3: "Courtroom scene"
-  STR_VICTORY_DEFAULT_4: "Something about arresting terrorists goes here I think"
-  STR_VICTORY_DEFAULT_5: "Task force training for future missions"
+  STR_VICTORY_DEFAULT_1: "With the security forces neutralised, your team was able to arrest the CEO of the company responsible for this mess"
+  STR_VICTORY_DEFAULT_2: "It took weeks to sort through, but the evidence found during the raid contained almost everything about their operation"
+  STR_VICTORY_DEFAULT_3: "The data led to the shutdown of the company and the arrest of all the employees who were involved in the plot"
+  STR_VICTORY_DEFAULT_4: "The data also allowed local police forces to track down and arrest the numerous terrorist cells who were receiving weapons from the company"
+  STR_VICTORY_DEFAULT_5: "While the main threat has been dealt with, we still need to remain prepared for the future"
   
      
